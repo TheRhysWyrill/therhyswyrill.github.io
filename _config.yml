@@ -1,49 +1,34 @@
-# SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
+baseurl: ""
+url: "https://therhyswyrill.github.io"
 
-# THEME-SPECIFIC CONFIGURATION
-title: Type on Strap                                    # site's title
-description: "A website with blog posts and pages"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+title: "The Playability Report"
+page_title: "The Playability Report | Game Reviews, Benchmarks & Longplays"
+description: "In-depth game reviews, emulation benchmarks, and Proton compatibility testing. Discover performance reports and curated gameplay longplays in one archive."
+avatar: assets/img/avatar.png
+favicon: assets/icon.ico
 
-# Header and footer text
-header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
-header_feature_image: assets/img/header/triangular.jpeg
+header_text: "Analyzing Performance, Reviewing the Experience, and Archiving the Journey"
+header_feature_image: assets/img/header/hero.webp
 header_feature_image_responsive: true
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  Powered by <a href="https://jekyllrb.com/">Jekyll</a> | The Playability Report
 
-# Blog
-excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
-post_navigation: true
-color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
+color_image: /assets/img/lineart.png
+color_theme: dark
 
-# Features
-# More in the _data folder for comments, share buttons, author and language
-# For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
-katex: true                                             # Enable if using math markup
-mermaid: default                                        # Enable mermaid-js for diagrams, use theme: base, forest, dark, default, neutral
-google_analytics:                                       # Measurement ID, e.g. "G-00000"
-cookie_consent: false                                   # To respect the usage of cookies
-color_theme: auto                                       # auto, dark or light
+katex: false
+mermaid: false
+excerpt: false
+post_navigation: false
+cookie_consent: false
 
-# PAGINATION
-paginate: 5
-paginate_path: "/blog/page:num"
-
-# PORTFOLIO
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
-
-# BUILD SETTINGS
 sass:
   style: compressed
   quiet_deps: true
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+
+plugins: 
+  - jekyll-seo-tag
+
 exclude:
   - ".idea"
   - ".jekyll-cache"
@@ -63,5 +48,4 @@ exclude:
   - ".github"
   - "test-results"
 
-# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
+remote_theme: sylhare/Type-on-Strap

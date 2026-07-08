@@ -1,0 +1,365 @@
+---
+layout: default
+title: "Reviews"
+permalink: /reviews/
+position: 2
+---
+
+<div class="archive-container">
+    
+    <div class="reviews-header-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 15px; flex-wrap: wrap; padding: 25px 0 15px 0 !important; margin: 0 !important;">
+        <h1 style="margin: 0 !important; font-weight: 700; color: #fff; line-height: 1 !important;">Reviews</h1>
+        
+        <div class="filter-controls-group" style="display: flex; gap: 10px; flex-grow: 1; justify-content: center; flex-wrap: wrap;">
+            <select id="sort-order" class="vault-filter-select" style="border-color: rgba(255, 255, 255, 0.25); color: #fff;">
+                <option value="alpha-asc">Alphabetical (A-Z)</option>
+                <option value="alpha-desc">Alphabetical (Z-A)</option>
+                <option value="date-desc">Date Written (Newest)</option>
+                <option value="date-asc">Date Written (Oldest)</option>
+                <option value="release-desc">Release Date (Newest)</option>
+                <option value="release-asc">Release Date (Oldest)</option>
+            </select>
+
+            <select id="filter-genre" class="vault-filter-select"><option value="">Genre</option></select>
+            <select id="filter-platform" class="vault-filter-select"><option value="">Platform</option></select>
+            <select id="filter-year" class="vault-filter-select"><option value="">Release Year</option></select>
+            <select id="filter-verdict" class="vault-filter-select"><option value="">Verdict</option></select>
+        </div>
+
+        <div class="search-input-wrapper" style="max-width: 320px; width: 100%;">
+            <input type="text" id="live-search" class="vault-search-input" placeholder="Filter games, platforms, genres..." style="width: 100% !important; box-sizing: border-box;">
+        </div>
+    </div>
+
+    <div class="archive-grid">
+        {% assign reviews = site.pages | where: "layout", "review" %} 
+
+        {% for review in reviews %}
+        {% assign review_date_fallback = review.date | default: "2000-01-01" %}
+
+        <a href="{{ review.url }}" class="game-archive-card" 
+           data-date="{{ review_date_fallback }}"
+           data-year="{{ review.release_year }}" 
+           data-platform="{{ review.platform }}" 
+           data-genre="{{ review.genre }}" 
+           data-verdict="{{ review.verdict | downcase | replace: ' ', '-' }}">
+            
+            <div class="archive-card-image-wrap" style="height: 155px !important;">
+                {% if review.image %}
+                <img src="{{ review.image }}" alt="{{ review.game_title }} Art" class="archive-card-img" style="height: 100%; object-fit: cover;" />
+                {% else %}
+                <div class="archive-card-placeholder">No Art Available</div>
+                {% endif %}
+
+                <span class="archive-verdict-tag archive-badge-{{ review.verdict }}">
+                    {{ review.verdict | replace: '-', ' ' }}
+                </span>
+            </div>
+
+            <div class="archive-card-details" style="display: flex; flex-direction: column; padding: 10px !important; box-sizing: border-box;">
+                <div class="archive-card-meta" style="font-size: 11px; margin-bottom: 2px;">
+                    <span>{{ review.platform }}</span>
+                    <span class="meta-divider">&bull;</span>
+                    <span>{{ review.genre }}</span>
+                    <span class="meta-divider">&bull;</span>
+                    <span>{{ review.release_year }}</span>
+                </div>
+                
+                <h3 class="archive-card-title" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font-size: 14px; line-height: 1.2em; min-height: 2.4em; margin-bottom: 2px !important;">
+                    {{ review.game_title }}
+                </h3>
+                
+                {% if review.summary %}
+                <p class="archive-card-summary" style="font-size: 12px; line-height: 1.3em; margin-bottom: 4px !important; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                    {{ review.summary }}
+                </p>
+                {% endif %}
+
+                {% if review.date %}
+                <div class="archive-card-inline-date" style="margin-top: auto !important; font-size: 10px; color: #8aa0ae; display: flex; align-items: center; gap: 4px; opacity: 0.85;">
+                    <span>✍️ Written: {{ review.date | date: "%b %d, %Y" }}</span>
+                </div>
+                {% endif %}
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+
+<div id="paginationNav" class="pagination-container" style="display: none;">
+    <nav class="archive-pagination" aria-label="Page navigation">
+        <span id="pageIndicator"></span>
+    </nav>
+</div>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById("live-search");
+    const cards = document.querySelectorAll(".game-archive-card");
+    const pageIndicator = document.getElementById("pageIndicator");
+    const paginationNav = document.getElementById("paginationNav");
+
+    const filterYear = document.getElementById("filter-year");
+    const filterPlatform = document.getElementById("filter-platform");
+    const filterGenre = document.getElementById("filter-genre");
+    const filterVerdict = document.getElementById("filter-verdict");
+
+    const itemsPerPage = 18;
+    let currentPage = 1;
+
+    function populateFilters() {
+      const years = new Set();
+      const platforms = new Set();
+      const genres = new Set();
+      const verdicts = new Set();
+
+      cards.forEach(card => {
+        if(card.dataset.year) years.add(card.dataset.year.trim());
+        if(card.dataset.platform) platforms.add(card.dataset.platform.trim());
+        
+        if(card.dataset.genre) {
+          card.dataset.genre.split(',').forEach(g => {
+            const trimmedG = g.trim();
+            if (trimmedG) genres.add(trimmedG);
+          });
+        }
+        
+        if(card.className) {
+          const tag = card.querySelector('.archive-verdict-tag');
+          if (tag) verdicts.add(tag.innerText.trim());
+        }
+      });
+
+      Array.from(years).sort((a,b)=>b-a).forEach(y => filterYear.options.add(new Option(y, y)));
+      Array.from(platforms).sort().forEach(p => filterPlatform.options.add(new Option(p, p)));
+      Array.from(genres).sort().forEach(g => filterGenre.options.add(new Option(g, g)));
+	  
+      function toTitleCase(str) {
+        return str.toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+      }
+	  
+      const verdictOrder = ["Recommended", "Not Sure", "Not Recommended"];
+      Array.from(verdicts).sort((a, b) => {
+        let indexA = verdictOrder.indexOf(toTitleCase(a.trim()));
+        let indexB = verdictOrder.indexOf(toTitleCase(b.trim()));
+        if (indexA === -1) indexA = 99;
+        if (indexB === -1) indexB = 99;
+        return indexA - indexB;
+      }).forEach(v => {
+        const valueKey = v.toLowerCase().replace(/\s+/g, '-');
+        filterVerdict.options.add(new Option(toTitleCase(v), valueKey));
+      });
+    }
+
+    function getSeriesKeyAndNumber(card) {
+      const titleEl = card.querySelector('.archive-card-title') || card;
+      let cleanTitle = titleEl.innerText.toLowerCase().trim();
+      cleanTitle = cleanTitle.replace(/\s*[:|-]?\s*(remastered|remake|edition|game of the year|goty)$/i, '').trim();
+      const match = cleanTitle.match(/(.*?)\s*(?:(?:\b\d+\b)|(?:\b[ivxlcdm]+\b))$/i);
+      if (match) {
+        const base = match[1].replace(/[:|-]\s*$/, '').trim();
+        const numPart = cleanTitle.replace(base, '').match(/\d+/);
+        const num = numPart ? parseInt(numPart[0], 10) : 2; 
+        return { base: base, num: num };
+      }
+      return { base: cleanTitle, num: 1 };
+    }
+
+    populateFilters();
+
+    function sortDOMCards() {
+      const parentContainer = document.querySelector(".archive-grid");
+      const currentCards = document.querySelectorAll(".game-archive-card");
+      if (currentCards.length === 0) return;
+
+      const sortBy = document.getElementById("sort-order").value;
+
+      const sortedCardsArray = Array.from(currentCards).sort((a, b) => {
+        if (sortBy === "date-desc" || sortBy === "date-asc") {
+          const dateA = new Date(a.dataset.date || "2000-01-01");
+          const dateB = new Date(b.dataset.date || "2000-01-01");
+          return sortBy === "date-desc" ? dateB - dateA : dateA - dateB;
+        } 
+        
+        if (sortBy === "release-desc" || sortBy === "release-asc") {
+          const yearA = parseInt(a.dataset.year, 10) || 0;
+          const yearB = parseInt(b.dataset.year, 10) || 0;
+          return sortBy === "release-desc" ? yearB - yearA : yearA - yearB;
+        }
+
+        if (sortBy === "alpha-asc" || sortBy === "alpha-desc") {
+          const itemA = getSeriesKeyAndNumber(a);
+          const itemB = getSeriesKeyAndNumber(b);
+          
+          if (itemA.base < itemB.base) return sortBy === "alpha-asc" ? -1 : 1;
+          if (itemA.base > itemB.base) return sortBy === "alpha-asc" ? 1 : -1;
+          
+          return sortBy === "alpha-asc" ? itemA.num - itemB.num : itemB.num - itemA.num;
+        }
+        return 0;
+      });
+
+      sortedCardsArray.forEach(card => parentContainer.appendChild(card));
+    }
+    
+    document.getElementById("sort-order").addEventListener("change", () => {
+      currentPage = 1;
+      sortDOMCards();
+      updatePagination();
+    });
+
+    function updatePagination() {
+      const sortedCards = document.querySelectorAll(".game-archive-card");
+      const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
+      const selYear = filterYear.value;
+      const selPlatform = filterPlatform.value;
+      const selGenre = filterGenre.value;
+      const selVerdict = filterVerdict.value;
+      
+      const filteredCards = Array.from(sortedCards).filter(card => {
+        const matchesSearch = card.innerText.toLowerCase().includes(query);
+        const matchesYear = !selYear || card.dataset.year === selYear;
+        const matchesPlatform = !selPlatform || card.dataset.platform === selPlatform;
+        
+        const cardGenre = card.dataset.genre || "";
+        const matchesGenre = !selGenre || cardGenre.includes(selGenre);
+        const matchesVerdict = !selVerdict || card.dataset.verdict === selVerdict;
+      
+        return matchesSearch && matchesYear && matchesPlatform && matchesGenre && matchesVerdict;
+      });
+      
+      const currentUrls = filteredCards.map(card => {
+        try { return new URL(card.href).pathname; } catch(e) { return card.getAttribute('href'); }
+      });
+      localStorage.setItem('custom_review_order', JSON.stringify(currentUrls));
+      
+      const totalPages = Math.ceil(filteredCards.length / itemsPerPage);
+      sortedCards.forEach(card => card.style.setProperty("display", "none", "important"));
+      
+      if (filteredCards.length === 0 || totalPages <= 1) {
+        if (paginationNav) paginationNav.style.setProperty("display", "none", "important");
+        filteredCards.forEach(card => card.style.setProperty("display", "", "important"));
+        return;
+      }
+      
+      if (paginationNav) {
+        paginationNav.style.setProperty("display", "flex", "important");
+        paginationNav.style.setProperty("justify-content", "center", "important");
+      }
+      
+      const start = (currentPage - 1) * itemsPerPage;
+      const end = start + itemsPerPage;
+      filteredCards.slice(start, end).forEach(card => {
+        card.style.setProperty("display", "", "important");
+      });
+      
+      if (pageIndicator) {
+        pageIndicator.innerHTML = ""; 
+        pageIndicator.style.display = "flex";
+        pageIndicator.style.gap = "8px"; 
+        pageIndicator.style.alignItems = "center";
+        pageIndicator.style.justifyContent = "center";
+
+        function createNavButton(text, targetPage, isDisabled = false) {
+          const btn = document.createElement("button");
+          btn.innerText = text;  
+          btn.style.background = targetPage === currentPage && !isDisabled ? "#252e36" : "transparent";
+          btn.style.color = isDisabled ? "rgba(255,255,255,0.2)" : (targetPage === currentPage ? "#ffffff" : "#ccdee9");
+          btn.style.border = targetPage === currentPage && !isDisabled ? "1px solid rgba(255,255,255,0.2)" : "1px solid rgba(255,255,255,0.05)";
+          btn.style.padding = "8px 16px"; 
+          btn.style.borderRadius = "6px";
+          btn.style.fontWeight = targetPage === currentPage ? "bold" : "normal";
+          btn.style.minWidth = "40px"; 
+          btn.style.display = "flex";
+          btn.style.justifyContent = "center";
+          btn.style.alignItems = "center";
+          btn.style.transition = "all 0.2s ease";
+          btn.style.setProperty("font-size", "18px", "important");
+          
+          if (isDisabled) {
+            btn.style.cursor = "not-allowed";
+          } else {
+            btn.style.cursor = "pointer";
+            if (targetPage !== currentPage) {
+              btn.addEventListener("mouseover", () => {
+                btn.style.background = "rgba(255,255,255,0.08)";
+                btn.style.borderColor = "rgba(255,255,255,0.15)";
+              });
+              btn.addEventListener("mouseout", () => {
+                btn.style.background = "transparent";
+                btn.style.borderColor = "rgba(255,255,255,0.05)";
+              });
+              btn.addEventListener("click", () => {
+                currentPage = targetPage;
+                localStorage.setItem('reviews_current_page', currentPage);
+                updatePagination();
+                window.scrollTo(0, 0);
+              });
+            }
+          }
+          return btn;
+        }
+
+        const prevArrow = createNavButton("«", currentPage - 1, currentPage === 1);
+        pageIndicator.appendChild(prevArrow);
+
+        const maxVisibleWindows = 1; 
+        let pages = [];
+        pages.push(1);
+        for (let i = currentPage - maxVisibleWindows; i <= currentPage + maxVisibleWindows; i++) {
+          if (i > 1 && i < totalPages) {
+            pages.push(i);
+          }
+        }
+        if (totalPages > 1) {
+          pages.push(totalPages);
+        }
+        pages = [...new Set(pages)].sort((a, b) => a - b);
+
+        let lastPageNum = 0;
+        pages.forEach(pageNum => {
+          if (lastPageNum > 0 && pageNum - lastPageNum > 1) {
+            const ellipsis = document.createElement("span");
+            ellipsis.innerText = "...";
+            ellipsis.style.color = "#ccdee9";
+            ellipsis.style.padding = "0 6px";
+            ellipsis.style.fontSize = "16px"; 
+            pageIndicator.appendChild(ellipsis);
+          }
+
+          const numBtn = createNavButton(pageNum, pageNum);
+          pageIndicator.appendChild(numBtn);
+          lastPageNum = pageNum;
+        });
+
+        const nextArrow = createNavButton("»", currentPage + 1, currentPage === totalPages);
+        pageIndicator.appendChild(nextArrow);
+      }
+    }
+
+    [filterYear, filterPlatform, filterGenre, filterVerdict].forEach(select => {
+      select.addEventListener("change", () => {
+        currentPage = 1;
+        localStorage.removeItem('reviews_current_page'); 
+        updatePagination();
+      });
+    });
+    
+    if (searchInput) {
+      searchInput.addEventListener("input", function () {
+        currentPage = 1;
+        localStorage.removeItem('reviews_current_page'); 
+        updatePagination();
+      });
+    }
+
+    const savedPage = localStorage.getItem('reviews_current_page');
+    if (savedPage) {
+      currentPage = parseInt(savedPage, 10) || 1;
+    }
+
+    sortDOMCards();
+    updatePagination();
+  });
+</script>

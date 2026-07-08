@@ -1,0 +1,247 @@
+---
+layout: default
+---
+
+<article class="review-article-box">
+  
+  <header class="review-hero-banner" {% if page.image %}style="background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35)), url('{{ page.image }}');"{% endif %}>
+    <div class="review-hero-alignment-engine">
+      <h1 class="review-article-title">{{ page.game_title }}</h1>
+      {% if page.summary %}
+      <p class="review-hero-summary">&ldquo;{{ page.summary }}&rdquo;</p>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="review-layout-grid">
+    
+    <!-- Left Main Content Column -->
+    <div class="review-main-content">
+      <section class="review-article-body">
+        {{ content }}
+      </section>
+    </div>
+
+    <!-- Right Sidebar Column -->
+    <aside class="review-sidebar-panel">
+      <div class="review-spec-card">
+        <h3>Game Info</h3>
+        
+        <div class="spec-row">
+          <span class="spec-label">Platform</span>
+          <span class="spec-value">{{ page.platform }}</span>
+        </div>
+        
+        {% if page.genre %}
+        <div class="spec-row">
+          <span class="spec-label">Genre</span>
+          <span class="spec-value">{{ page.genre }}</span>
+        </div>
+        {% endif %}
+        
+        <div class="spec-row">
+          <span class="spec-label">Released</span>
+          <span class="spec-value">{{ page.release_year }}</span>
+        </div>
+        
+        <div class="spec-row spec-verdict-container">
+          <span class="spec-label">Verdict</span>
+          <span class="verdict-pill verdict-{{ page.verdict }}">{{ page.verdict | replace: '-', ' ' }}</span>
+        </div>
+
+        {% if page.platform == "PC" and page.specs %}
+        <div class="spec-hardware-block">
+          <h4>Review System</h4>
+          <p>{{ page.specs }}</p>
+        </div>
+        {% endif %}
+      </div>
+
+      <!-- SHARING HUB: Custom Dynamic Horizontal Colored Social Bubbles -->
+      <div class="share-container" style="position: relative; display: block; margin-top: 16px; width: 100%;">
+        <button id="share-review-btn" onclick="toggleShareMenu(event)" style="display: inline-flex !important; align-items: center !important; justify-content: center !important; gap: 8px !important; background: #1e252b !important; color: #8aa0ae !important; border: 1px solid rgba(255, 255, 255, 0.08) !important; padding: 10px 16px !important; border-radius: 6px !important; font-size: 13px !important; cursor: pointer !important; transition: all 0.2s ease !important; width: 100% !important; box-sizing: border-box !important;">
+          <span id="share-btn-icon" style="transition: all 0.2s ease;">🔗</span>
+          <span id="share-btn-text">Share Review</span>
+        </button>
+    
+        <!-- Dynamic Row Panel popping out with colored custom branding circles -->
+        <div id="share-popout-menu" style="display: none; position: absolute !important; top: 50px !important; left: 50% !important; transform: translateX(-50%) !important; background: #16191f !important; border: 1px solid rgba(255, 255, 255, 0.1) !important; border-radius: 30px !important; box-shadow: 0 10px 30px rgba(0,0,0,0.6) !important; padding: 8px 14px !important; width: max-content !important; min-width: 230px !important; box-sizing: border-box !important; z-index: 1000 !important; flex-direction: row !important; gap: 12px !important; justify-content: center !important; align-items: center !important;">
+          
+          <!-- Bubble 1: Copy Link (Teal/Blue Accent) -->
+          <button class="social-share-bubble copy-link-bubble" onclick="copyToClipboard(this)" title="Copy Link" style="width: 36px !important; height: 36px !important; border-radius: 50% !important; background: #00a3cc !important; border: none !important; display: flex !important; align-items: center !important; justify-content: center !important; cursor: pointer !important; transition: all 0.2s ease !important; padding: 0 !important;">
+            <svg style="width: 16px; height: 16px; fill: #ffffff;" viewBox="0 0 24 24"><path d="M19 21H8V7h11m0-2H8a2 2 0 00-2 2v14a2 2 0 002 2h11a2 2 0 002-2V7a2 2 0 00-2-2m-3-4H4a2 2 0 00-2 2v14h2V3h12V1z"/></svg>
+          </button>
+          
+          <!-- Bubble 2: Twitter / X (Sleek Dark Theme or Classic Light Blue) -->
+          <a id="share-twitter" class="social-share-bubble twitter-bubble" href="#" target="_blank" title="Share on Twitter" style="width: 36px !important; height: 36px !important; border-radius: 50% !important; background: #1da1f2 !important; display: flex !important; align-items: center !important; justify-content: center !important; transition: all 0.2s ease !important;">
+            <svg style="width: 15px; height: 15px; fill: #ffffff;" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          
+          <!-- Bubble 3: Reddit (Orange-Red Corporate Identity) -->
+          <a id="share-reddit" class="social-share-bubble reddit-bubble" href="#" target="_blank" title="Share on Reddit" style="width: 36px !important; height: 36px !important; border-radius: 50% !important; background: #ff4500 !important; display: flex !important; align-items: center !important; justify-content: center !important; transition: all 0.2s ease !important;">
+            <svg style="width: 18px; height: 18px; fill: #ffffff;" viewBox="0 0 24 24"><path d="M24 11.5c0-1.65-1.35-3-3-3-.96 0-1.86.48-2.42 1.24-1.64-1-3.85-1.64-6.23-1.72l1.36-4.31 3.71.79c.05.88.79 1.58 1.69 1.58 1.05 0 1.5-.45 1.5-1.5s-.45-1.5-1.5-1.5c-.83 0-1.53.55-1.67 1.32l-4.14-.88c-.22-.05-.45.07-.52.29l-1.6 5.07C6.88 7.34 4.63 8 2.97 8.98a3 3 0 00-2.42-1.24c-1.65 0-3 1.35-3 3 0 1.31.84 2.41 2.01 2.83-.03.14-.04.29-.04.43 0 3.53 4.42 6.4 9.87 6.4s9.87-2.87 9.87-6.4c0-.14-.01-.29-.04-.43 1.17-.42 2.01-1.52 2.01-2.83zm-19.2 1c-.77 0-1.4-.63-1.4-1.4s.63-1.4 1.4-1.4 1.4.63 1.4 1.4-.63 1.4-1.4 1.4zm10.75 4.54c-1.42 1.42-4.13 1.42-5.56 0-.2-.2-.2-.51 0-.71.2-.2.51-.2.71 0 1.03 1.02 3.12 1.02 4.14 0 .2-.2.52-.2.71 0 .19.2.19.51.01.71zm-.05-3.14c-.77 0-1.4-.63-1.4-1.4s.63-1.4 1.4-1.4 1.4.63 1.4 1.4-.63 1.4-1.4 1.4z"/></svg>
+          </a>
+          
+          <!-- Bubble 4: Facebook (Classic Cobalt Navy Blue) -->
+          <a id="share-facebook" class="social-share-bubble facebook-bubble" href="#" target="_blank" title="Share on Facebook" style="width: 36px !important; height: 36px !important; border-radius: 50% !important; background: #3b5998 !important; display: flex !important; align-items: center !important; justify-content: center !important; transition: all 0.2s ease !important;">
+            <svg style="width: 16px; height: 16px; fill: #ffffff;" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.8z"/></svg>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+
+  <!-- Dynamic Pagination Setup Logic -->
+  {% assign review_pages = "" | split: "," %}
+  {% for doc in site.documents %}
+    {% if doc.layout == "review" %}{% assign review_pages = review_pages | push: doc %}{% endif %}
+  {% endfor %}
+  {% if review_pages.size == 0 %}
+    {% for p in site.pages %}
+      {% if p.layout == "review" or p.path contains 'reviews/' %}{% assign review_pages = review_pages | push: p %}{% endif %}
+    {% endfor %}
+  {% endif %}
+
+  {% assign review_pages = review_pages | uniq | sort: "date" %}
+  {% assign current_url = page.url | strip %}
+
+  {% for r in review_pages %}
+    {% assign check_url = r.url | strip %}
+    {% if check_url == current_url %}
+      {% unless forloop.first %}
+        {% assign prev_index = forloop.index0 | minus: 1 %}
+        {% assign prev_review = review_pages[prev_index] %}
+      {% endunless %}
+      {% unless forloop.last %}
+        {% assign next_index = forloop.index0 | plus: 1 %}
+        {% assign next_review = review_pages[next_index] %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+
+  <div id="dynamic-pagination" class="review-pagination-footer" style="display: flex !important; align-items: center !important; justify-content: space-between !important; max-width: 800px !important; margin: 60px auto 20px auto !important; padding: 0 20px !important; font-size: 18px !important; border-top: 1px solid #252932 !important; padding-top: 30px !important; box-sizing: border-box !important;">
+    <div style="flex: 1 !important; text-align: left !important;">
+      <a id="nav-prev-btn" href="#" style="color: #ccdee9 !important; text-decoration: none !important; background: #1e252b !important; border: 1px solid rgba(255,255,255,0.08) !important; padding: 8px 16px !important; border-radius: 6px !important; transition: all 0.2s !important; display: inline-flex !important; align-items: center !important; gap: 6px !important;" onmouseover="this.style.background='#252e36'; this.style.color='#ffffff';" onmouseout="this.style.background='#1e252b'; this.style.color='#ccdee9';">
+        <span>«</span> Previous
+      </a>
+      <span id="nav-prev-disabled" style="color: #38434c !important; background: transparent !important; border: 1px solid transparent !important; padding: 8px 16px !important; display: none !important; align-items: center !important; gap: 6px !important; cursor: not-allowed !important;">« First</span>
+    </div>
+
+    <div style="flex: 1 !important; text-align: center !important;">
+		<a href="/reviews/" style="color: #ccdee9 !important; text-decoration: none !important; background: #1e252b !important; border: 1px solid rgba(255,255,255,0.08) !important; padding: 8px 16px !important; border-radius: 6px !important; transition: all 0.2s !important; display: inline-block !important;" onmouseover="this.style.background='#252e36'; this.style.color='#ffffff';" onmouseout="this.style.background='#1e252b'; this.style.color='#ccdee9';">
+			All Reviews
+		</a>
+	</div>
+
+    <div style="flex: 1 !important; text-align: right !important;">
+      <a id="nav-next-btn" href="#" style="color: #ccdee9 !important; text-decoration: none !important; background: #1e252b !important; border: 1px solid rgba(255,255,255,0.08) !important; padding: 8px 16px !important; border-radius: 6px !important; transition: all 0.2s !important; display: inline-flex !important; align-items: center !important; gap: 6px !important;" onmouseover="this.style.background='#252e36'; this.style.color='#ffffff';" onmouseout="this.style.background='#1e252b'; this.style.color='#ccdee9';">
+        Next <span>»</span>
+      </a>
+      <span id="nav-next-disabled" style="color: #38434c !important; background: transparent !important; border: 1px solid transparent !important; padding: 8px 16px !important; display: none !important; align-items: center !important; gap: 6px !important; cursor: not-allowed !important;">Latest »</span>
+    </div>
+  </div>
+
+</article>
+
+<script>
+function toggleShareMenu(event) {
+    event.stopPropagation();
+    const menu = document.getElementById('share-popout-menu');
+    const isHidden = menu.style.display === 'none' || menu.style.display === '';
+    
+    if (isHidden) {
+        const pageUrl = encodeURIComponent(window.location.href);
+        const customText = "{{ page.game_title }} Review by TRW on The Playability Report";
+        const encodedText = encodeURIComponent(customText);
+        
+        document.getElementById('share-twitter').href = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${encodedText}`;
+        document.getElementById('share-reddit').href = `https://www.reddit.com/submit?url=${pageUrl}&title=${encodedText}`;
+        document.getElementById('share-facebook').href = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
+        
+        menu.style.display = 'flex';
+    } else {
+        menu.style.display = 'none';
+    }
+}
+
+function copyToClipboard(button) {
+    const origIcon = document.getElementById('share-btn-icon').innerText;
+    const origText = document.getElementById('share-btn-text').innerText;
+    
+    navigator.clipboard.writeText(window.location.href).then(() => {
+        // Provide satisfying execution micro-feedback directly on the main action button
+        document.getElementById('share-btn-icon').innerText = "✅";
+        document.getElementById('share-btn-text').innerText = "Copied link!";
+        document.getElementById('share-review-btn').style.borderColor = "#2ecc71";
+        
+        // Dynamic snap-shut close sequence
+        document.getElementById('share-popout-menu').style.display = 'none';
+        
+        setTimeout(() => {
+            document.getElementById('share-btn-icon').innerText = origIcon;
+            document.getElementById('share-btn-text').innerText = origText;
+            document.getElementById('share-review-btn').style.borderColor = "rgba(255, 255, 255, 0.08)";
+        }, 2000);
+    });
+}
+
+window.addEventListener('click', () => {
+    const menu = document.getElementById('share-popout-menu');
+    if (menu) menu.style.display = 'none';
+});
+
+(function() {
+    {% assign fallback_pages = "" | split: "," %}
+    {% for doc in site.documents %}{% if doc.layout == "review" %}{% assign fallback_pages = fallback_pages | push: doc %}{% endif %}{% endfor %}
+    {% assign fallback_pages = fallback_pages | uniq | sort: "date" %}
+    
+    const fallbackOrder = [
+      {% for r in fallback_pages %}"{{ r.url | strip }}"{% unless forloop.last %},{% endunless %}{% endfor %}
+    ];
+
+    let currentOrder = fallbackOrder;
+    try {
+      const savedOrder = localStorage.getItem('custom_review_order');
+      if (savedOrder) currentOrder = JSON.parse(savedOrder);
+    } catch (e) {
+      console.warn("Could not parse custom review order sorting, using fallback.");
+    }
+
+    const currentPath = window.location.pathname;
+    const cleanPath = currentPath.endsWith('/') ? currentPath : currentPath + '/';
+    
+    const currentIndex = currentOrder.findIndex(url => {
+      const cleanUrl = url.endsWith('/') ? url : url + '/';
+      return cleanUrl === cleanPath;
+    });
+
+    const prevBtn = document.getElementById('nav-prev-btn');
+    const prevDisabled = document.getElementById('nav-prev-disabled');
+    const nextBtn = document.getElementById('nav-next-btn');
+    const nextDisabled = document.getElementById('nav-next-disabled');
+
+    if (currentIndex !== -1) {
+      if (currentIndex > 0) {
+        prevBtn.href = currentOrder[currentIndex - 1];
+        prevBtn.style.display = 'inline-flex';
+        prevDisabled.style.display = 'none';
+      } else {
+        prevBtn.style.display = 'none';
+        prevDisabled.style.display = 'inline-flex';
+      }
+
+      if (currentIndex < currentOrder.length - 1) {
+        nextBtn.href = currentOrder[currentIndex + 1];
+        nextBtn.style.display = 'inline-flex';
+        nextDisabled.style.display = 'none';
+      } else {
+        nextBtn.style.display = 'none';
+        nextDisabled.style.display = 'inline-flex';
+      }
+    } else {
+      prevBtn.href = "/reviews";
+      nextBtn.href = "/reviews";
+    }
+  })();
+</script>
