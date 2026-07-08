@@ -1,0 +1,36 @@
+# coding: utf-8
+
+Gem::Specification.new do |spec|
+  spec.name          = "type-on-strap"
+  spec.version       = "2.5.1"
+  spec.authors       = ["Sylhare", "Rohan Chandra"]
+  spec.email         = ["sylhare@outlook.com", "hellorohan@outlook.com"]
+
+  spec.summary       = "Feature-rich Jekyll theme with portfolio, gallery, dark mode, search, KaTeX and Mermaid"
+  spec.description   = %q{A free and open-source Jekyll theme for writers, developers, and creatives. Includes portfolio and gallery pages, auto dark/light mode, full-text search, KaTeX math rendering, Mermaid diagrams, multiple comment systems, and Bootstrap support. Works as a Ruby gem or remote theme.}
+  spec.homepage      = "https://github.com/sylhare/Type-on-Strap"
+  spec.license       = "MIT"
+
+  spec.rdoc_options            = ["--charset=UTF-8"]
+  spec.extra_rdoc_files        = %w(README.md LICENSE)
+  spec.metadata["plugin_type"] = "theme"
+
+  spec.files                   = Dir["**/*"].select do |f|
+    f.match(%r!^(assets/(js|css|fonts|data)/|_(includes|layouts|sass)/|_data/(icons_builder.yml|language.yml)|(LICENSE|README.md))!i)
+  end.reject do |f|
+    f.match(%r{^assets/css/vendor/.*(?<!\.min)\.css$}i) ||
+    f.match(%r{^assets/js/.*(?<!\.min)\.js$}i)
+  end
+
+  spec.post_install_message =  <<~MSG
+                               Thanks for using Type on strap v2+!
+                               MSG
+
+  spec.required_ruby_version   = ">= 2.7.2"
+
+  spec.add_runtime_dependency "jekyll", ">= 3.8", "< 5.0"
+  spec.add_runtime_dependency "jekyll-feed", ">= 0.15.1", "<= 0.17"
+  spec.add_runtime_dependency "jekyll-paginate", "~> 1.1.0"
+  spec.add_runtime_dependency "jekyll-seo-tag", ">= 2.7.1", "<= 2.8"
+  spec.add_runtime_dependency "kramdown-parser-gfm", ">= 1.1.0"
+end

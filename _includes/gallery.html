@@ -1,0 +1,20 @@
+<style>
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+/* To overwrite page's padding, to get bigger images */
+/* article {padding:2%;} */
+</style>
+
+<div id="gallery-grid" class="grid">
+<div class="grid-col grid-col--1"></div>
+<div class="grid-col grid-col--2"></div>
+<div class="grid-col grid-col--3"></div>
+{% for image in site.static_files %}
+  {% if image.path contains include.gallery_path %}
+    {% unless image.path contains '.md' %}
+        <img src="{{ image.path | relative_url }}" alt="" class="grid-item" loading="lazy" style="padding: 0;">
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+</div>

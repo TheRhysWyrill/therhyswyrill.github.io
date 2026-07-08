@@ -1,0 +1,15 @@
+.title-padder {
+  padding: $title-padding;
+}
+
+h1.title {
+  @extend .subtle-txt-shadow;
+  padding: 0.5em 0;
+}
+
+
+.subtitle {
+  @extend .subtle-txt-shadow;
+  font-weight: normal;
+  margin-top: 5px;
+}

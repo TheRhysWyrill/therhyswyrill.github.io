@@ -1,0 +1,36 @@
+/* ---- grid ---- */
+
+.grid {
+  padding-bottom: 6%;
+  padding-top: 1%;
+
+
+  /* clear fix */
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+/* ---- .grid-col ---- */
+
+.grid-col {
+  float: left;
+  width: $gallery-item-width;
+  margin-right: $gallery-gutter;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+  border-radius: 5px;
+  display: block;
+  max-width: 100%;
+  min-height: 30%;
+  margin-bottom: $gallery-gutter;
+}
