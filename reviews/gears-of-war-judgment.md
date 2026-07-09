@@ -1,15 +1,15 @@
 ---
 layout: review
 date: 2026-09-07
-game_title: "Gears of War: Judgement"
-permalink: /reviews/gears-of-war-judgement/
+game_title: "Gears of War: Judgment"
+permalink: /reviews/gears-of-war-judgment/
 verdict: "recommended" 	# recommended | not-recommended | not-sure
 platform: "Xbox 360"
 release_year: 2013
 genre: "TPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
 summary: "Gears of War: Judgment delivers a unique declassified mission system, punchy new weapons, and a great bonus campaign, despite an arcadey structure, arbitrary control modifications, and repetitive defense objectives."
-image: "/assets/img/reviews/gears-of-war-judgement.webp"
+image: "/assets/img/reviews/gears-of-war-judgment.webp"
 ---
 
 Gears of War: Judgment delivers a spectacularly unique twist on the franchise formula, driving its campaign forward with a brilliant Declassified Mission system. These optional challenges inject fantastic variety into the levels by adding restrictive gameplay conditions that reward you with faster star progression. The overall package is beautifully supported by the included Aftermath expansion campaign, treating you to a superior narrative flow that recaptures a darker, more traditional horror movie vibe inside abandoned mansions.
