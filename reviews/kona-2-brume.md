@@ -9,7 +9,7 @@ release_year: 2023
 genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
 summary: "Atmospheric investigation and meticulous world-building transform this isolated wilderness mystery into a haunting, narrative-driven odyssey that rewards inquisitive minds."
-image: "/assets/img/reviews/kona-ii-brume.webp"
+image: "/assets/img/reviews/kona-2-brume.webp"
 ---
 
 Kona II: Brume envelops the player in a desolately beautiful, snow-drenched landscape where every abandoned room within the Hamilton mansion whispers secrets of past tragedies. Haunting silence dominates the isolated setting, creating a pervasive sense of unease that effectively grounds the supernatural mystery in a tangible, decaying reality.

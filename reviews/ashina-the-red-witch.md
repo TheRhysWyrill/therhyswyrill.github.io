@@ -9,10 +9,10 @@ release_year: 2022
 genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
 summary: "Melancholy spirits and poignant family themes anchor this evocative adventure, which excels through masterful character writing despite minor navigation hurdles and repetitive puzzle loops."
-image: "/assets/img/reviews/ashen-the-red-witch.webp"
+image: "/assets/img/reviews/ashina-the-red-witch.webp"
 ---
 
-Ashen: The Red Witch constructs a surreal, melancholy spirit world that balances eerie encounters with whimsical inhabitants, crafting a uniquely lived-in afterlife. Eschewing traditional horror tropes, this bureaucratic vision of the beyond treats the realm as a place of purpose where entities strive to fulfil their duties amidst existential dread.
+Ashina: The Red Witch constructs a surreal, melancholy spirit world that balances eerie encounters with whimsical inhabitants, crafting a uniquely lived-in afterlife. Eschewing traditional horror tropes, this bureaucratic vision of the beyond treats the realm as a place of purpose where entities strive to fulfil their duties amidst existential dread.
 
 Following a spirit thief into this haunting dimension, the protagonist unravels a deeply human narrative centring on sibling rivalry and the enduring weight of maternal legacy. Every interaction feels heavy with emotional significance, transforming the search for a missing pendant into a profound exploration of grief and eventual acceptance.
 

@@ -9,7 +9,7 @@ release_year: 2022
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
 summary: "High-octane military action shines through polished production values, though players must manually bypass unreliable auto-detect settings to appreciate the sharp, cinematic visual fidelity on offer."
-image: "/assets/img/reviews/call-of-duty-modern-warfare-2.webp"
+image: "/assets/img/reviews/call-of-duty-modern-warfare-2-2022.webp"
 ---
 
 Call of Duty: Modern Warfare II frames a tense global pursuit involving Iranian missiles smuggled through treacherous international hubs, including dangerous sectors of Mexico. This narrative succeeds by blending grounded, gritty military operations with the high-stakes political intrigue that fans have come to expect from the long-standing franchise.

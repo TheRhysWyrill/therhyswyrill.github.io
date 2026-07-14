@@ -9,7 +9,7 @@ release_year: 2021
 genre: "Horror, Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
 summary: "Polished environmental storytelling and brilliant companion mechanics elevate this dark journey, rendering occasional combat clunkiness a minor footnote in a stellar, atmospheric achievement."
-image: "/assets/img/reviews/little-nightmares-ii.webp"
+image: "/assets/img/reviews/little-nightmares-2.webp"
 ---
 
 Little Nightmares II constructs a grim, unsettling tapestry that builds upon its predecessor with immense visual refinement and polished execution. Every shadow across the abandoned hospital or the derelict school feels deliberately oppressive, ensuring the dark universe remains consistently haunting while pushing the boundaries of its surreal, twisted design.

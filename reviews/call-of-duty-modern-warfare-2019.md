@@ -9,7 +9,7 @@ release_year: 2019
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
 summary: "Gritty, tactical urban warfare defines this reboot, offering tense decision-making and polished cinematic set pieces despite some sluggish movement and occasional visual clarity hurdles."
-image: "/assets/img/reviews/call-of-duty-modern-warfare.webp"
+image: "/assets/img/reviews/call-of-duty-modern-warfare-2019.webp"
 ---
 
 Call of Duty: Modern Warfare redefines the franchise through a gritty, grounded lens that prioritises tactical deliberation over arcade-style spectacle. Players navigate a sombre world of urban terror and chemical threats where every engagement demands careful assessment rather than mindless aggression.

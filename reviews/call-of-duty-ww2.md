@@ -9,7 +9,7 @@ release_year: 2017
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
 summary: "Abandoning super-soldier tropes for grounded squad tactics, this visceral historical shooter rewards careful positioning and resource cooperation over mindless arcade-style aggression."
-image: "/assets/img/reviews/call-of-duty-wwii.webp"
+image: "/assets/img/reviews/call-of-duty-ww2.webp"
 ---
 
 Call of Duty: WWII recontextualises historical conflict by abandoning the arcade-style tropes of its predecessors in favour of a gritty, squad-centric focus. Moving away from self-regenerating health forces a deliberate, tactical awareness that grounds every firefight in a tangible sense of vulnerability, ensuring players never feel like invincible soldiers.
