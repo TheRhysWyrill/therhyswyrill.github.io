@@ -8,12 +8,20 @@ platform: "PC"
 release_year: 2022
 genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Monument Valley is a visually spectacular, imaginative puzzle masterpiece featuring clever optical illusions, though its short runtime and finicky controller input occasionally disrupt the experience."
+summary: "Inventive optical illusions and a meditative score create a polished, cerebral journey through impossible architectural landscapes that delight the eye and mind."
 image: "/assets/img/reviews/monument-valley.webp"
 ---
 
-Monument Valley stands out as a breathtaking adventure where the overall presentation and puzzles are among some of the most creative to be found in the genre. Most of the levels are built around mesmerizing optical illusions that are incredibly pleasing to the eyes, turning each environment into a living piece of art. The puzzles strike a wonderful balance in difficulty, ensuring that the gameplay remains relaxing and nothing ever feels overly challenging or frustrating to solve. The experience introduces clever mechanics to mix things up, such as the inclusion of the loyal pillar companion that completely changes how you interact with the architecture. Furthermore, the expansion content in Forgotten Shores is a fantastic addition, with each level acting as its own unique puzzle. The snake level is a particular highlight, delivering a memorable sequence where the pathways get twisted in mind bending ways.
+Monument Valley transforms the screen into a series of impossible architectural spaces where perspective serves as the primary tool for navigation. Manipulating these surreal structures relies upon shifting viewpoints to align disconnected paths, creating a consistent rhythm of discovery as each new environment unfolds with fresh mechanical nuances.
 
-On the downside, the beautiful journey is held back by a couple of minor limitations. The game features a relatively short runtime, which might leave you wanting more just as you truly get into the flow of things. Additionally, playing with a controller is not the most optimal experience. The movement system tends to snap aggressively to specific parts of the level, which can frequently lead to your character walking to the wrong place and disrupting your puzzle solving rhythm.
+Audio design proves vital to this contemplative atmosphere, with a relaxing score that synchronises perfectly with every structural shift. These soundscapes provide a sense of harmony while players interact with moving platforms or guide companions through the cryptic geometry of a silent, unfolding world built on themes of memory.
 
-Overall Monument Valley is a visually spectacular and deeply imaginative puzzle game that excels through its artistic presentation and elegant illusion based mechanics. While the short duration and finicky controller tracking can occasionally detract from the experience, the sheer creativity of the level design and the inclusion of the superb expansion stages make it a thoroughly enchanting masterpiece that is well worth playing.
+Creative puzzle sequences keep the journey engaging, frequently challenging the player to rethink how physical space operates within these constrained environments. While certain perspective shifts may lead to momentary confusion, the payoff remains highly satisfying once the mind successfully reconciles the optical illusions presented within each distinct geometric chamber.
+
+Navigating the environments requires simple cursor input, though these controls occasionally feel imprecise when snapping between different parts of the architecture. Joystick usage can highlight this finicky behaviour, yet the technical stability remains commendable throughout, allowing the focus to stay firmly on the brilliant logic behind each central brain-teaser.
+
+Progression introduces diverse gimmicks such as water-based mechanics in the expansion content, ensuring the experience evolves without becoming predictable. These additions manage to build upon the foundational concepts of the early stages, effectively balancing accessible learning curves with moments that demand genuine contemplation from even the most seasoned puzzle enthusiasts.
+
+Short playtimes characterise the campaign even when including additional content, which might leave some yearning for more extensive world-building. Nevertheless, the scope feels entirely intentional, as the brevity prevents the meditative nature of the presentation from ever feeling stretched or diluted by repetitive filler tasks during longer sessions.
+
+Overall, the perspective-shifting mechanics drive a deeply satisfying loop that prioritises clever engagement over complex narrative exposition. Every interaction reinforces the distinct identity of this artistic endeavour, proving that a focused and polished production can achieve remarkable resonance through its cohesive blend of visual ingenuity and auditory grace.

@@ -3,23 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Call of Duty: Modern Warfare"
 permalink: /reviews/call-of-duty-modern-warfare-2019/
-verdict: "recommended" 	# recommended | not-recommended | not-sure
+verdict: "recommended"
 platform: "PC"
 release_year: 2019
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Call of Duty: Modern Warfare (2019) delivers hyper-realistic sound design, tense room-clearing missions, and seamless cinematics, despite sluggish movement, hardware crashes, and bullet-sponge enemies."
-image: "/assets/img/reviews/call-of-duty-modern-warfare-2019.webp"
+summary: "Gritty, tactical urban warfare defines this reboot, offering tense decision-making and polished cinematic set pieces despite some sluggish movement and occasional visual clarity hurdles."
+image: "/assets/img/reviews/call-of-duty-modern-warfare.webp"
 ---
 
-Call of Duty: Modern Warfare (2019) delivers an exceptional level of atmospheric mission design, highlighting its campaign with unmatched tension and realism in standout levels like Clean House. This methodical pacing is supported by visceral combat and spectacular sound design, showcasing incredibly satisfying weapon impacts alongside realistic details like the ability to reload while aiming down sights. The entire narrative benefits from a top-tier cinematic presentation, treating you to seamless, smooth transitions from pre-rendered cutscenes directly into active gameplay.
+Call of Duty: Modern Warfare redefines the franchise through a gritty, grounded lens that prioritises tactical deliberation over arcade-style spectacle. Players navigate a sombre world of urban terror and chemical threats where every engagement demands careful assessment rather than mindless aggression.
 
-The core gameplay loop thrives on creative stealth and interaction mechanics, keeping the variety high through unique scenarios like using a screwdriver as an improvised shiv or guiding an analyst through security cameras. Navigating these hostile environments relies on strong voice acting and compelling character dynamics, driven by phenomenal performances for Captain Price and Farah that breathe new life into the franchise. This tactical journey is further enhanced by impressive environmental details and a diverse arsenal of clever gadgets, including night vision goggles, IR lasers, and remote-controlled explosive planes.
+Immersing oneself in the townhouse raid reveals the true potential of this methodical pace, as identifying threats amidst the gloom requires immense concentration. This specific sequence showcases the developer's commitment to high-tension drama, successfully forcing combatants to distinguish between civilians and hostiles within a terrifyingly confined environment.
 
-However, this gritty military reboot still faces a few notable hurdles stemming from inconsistent movement speed and technical stability issues on certain configurations. The single-player experience suffers from a weird and seemingly leisurely traversal pace, making your character feel sluggish compared to previous entries during intense situations. This pacing friction is compounded by intense technical instability for specific hardware setups, resulting in non-stop game crashes and failed texture loading when launching the game from an external drive.
+Weapon customisation adds a layer of depth that makes every encounter feel bespoke to the player's preferences. Choosing to craft an improvised suppressor from an oil filter provides a satisfying sense of agency, while the ability to reload whilst maintaining a sight picture ensures that momentum never feels unnecessarily broken.
 
-The user experience introduces additional friction through timeline confusion and artificial AI limitations, leaving you initially bewildered as to how this parallel universe relates to the original trilogy. You will also encounter frustratingly spongy armored enemies that break the realistic immersion alongside hand-holding companions who spoil puzzle solutions far too quickly. This structural layout is further restricted by arbitrary invisible walls that railroad your paths during non-combat safe zone segments, removing your freedom of exploration.
+Movement speed often feels surprisingly sluggish, creating a disconnect between the urgency of the narrative and the character's physical responsiveness. Such a weightier gait initially proved jarring, yet this design choice ultimately forces an adaptation that rewards positioning and foresight over the rapid, reflexive dashing found in earlier iterations.
 
-The mechanical progression can feel slightly uninspired due to finicky control nuances, making simple interaction prompts like item pick-ups or climbing maneuvers feel awkward and occasionally triggering accidental detection during stealth runs. The presentation is also marred by minor visual distortions and artifacting, introducing flickering textures and weird distortions on character shadows during high-intensity action sequences. Despite these optimization hurdles, the immediate focus remains firmly anchored to the stellar gunplay refinement and top-tier theatrical pacing.
+Environments frequently obscure hostiles through clever lighting and muted colour palettes that render silhouettes difficult to track. During chaotic shootouts, this visual blending can trigger frustration, especially when the lack of distinct crosshair feedback makes confirming hits in low-light conditions a taxing trial of patience and observation.
 
-Overall Call of Duty: Modern Warfare (2019) is a remarkably tense, visually breathtaking, and tactically grounded first-person shooter that excels through its hyper-realistic sound design, immersive room-clearing missions, and seamless cinematic transitions. While the globetrotting campaign is occasionally slowed down by sluggish movement speeds, frequent hardware crashes, bullet-sponge enemies, and restrictive invisible walls, the phenomenal voice performances and inventive stealth mechanics ensure it stands as a highly triumphant and influential revitalization of the series.
+Narrative progression blends high-production cutscenes with active combat to maintain a seamless, war-drama experience throughout the entire duration. Forceful shifts from silent infiltration to explosive violence occasionally interrupt this flow, leading to momentary confusion as the rules of engagement suddenly pivot without sufficient warning or transition.
+
+Overall, this reboot succeeds by grounding itself in a sombre, adult exploration of modern conflict. While the slower pace and visibility issues demand a period of adjustment, the campaign ultimately rewards perseverance with some of the most memorable, tense, and expertly crafted missions in the history of the series.

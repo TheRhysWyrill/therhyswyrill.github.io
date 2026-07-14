@@ -6,14 +6,22 @@ permalink: /reviews/god-of-war-2018/
 verdict: "recommended"   # recommended | not-recommended | not-sure
 platform: "PC"
 release_year: 2022
-genre: "Action, Adventure"
+genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "God of War delivers a powerful, personal narrative with exceptional character growth, though a tight combat camera and finicky lock-on system can frustrate tough boss battles."
+summary: "This emotionally resonant reimagining succeeds by grounding tactical action within a deeply human narrative, creating a mature and definitive chapter for the iconic protagonist."
 image: "/assets/img/reviews/god-of-war-2018.webp"
 ---
 
-God of War offers a fascinating fresh take on Kratos by showing him in a light we have never really seen before. Instead of the usual angry and explosive warrior from the earlier titles he is much calmer here which makes the entire narrative feel far more personal and interesting. The relationship between Kratos and his son Atreus is exceptionally well handled and grows naturally as you play to add a significant amount of heart to the journey. The voice acting is fantastic across the board as every performance brings the characters to life with great authenticity. If you have an interest in Norse mythology you will likely love spotting familiar figures like Jormungandr because it adds a wonderful layer of depth to the world. The plot is consistently engaging and unfolds at a pace that keeps you hooked from start to finish.
+God of War (2018) marks a significant shift for the franchise, successfully tempering its signature brutality with a profound and grounded examination of fatherhood. Kratos sheds the singular pursuit of vengeance, trading it for the weight of protecting his young son while grappling with a scarred and haunting past.
 
-That said the game does have a few mechanical shortcomings that can interfere with the experience. The combat camera tends to sit far too close to Kratos which is not a major issue for standard encounters but makes the high stakes Valkyrie battles much harder than they need to be. The lock on system also struggles during these specific fights because it cannot always keep up with the incredibly fast movements of the Valkyries. This often results in the target being dropped at critical moments which makes those particular challenges feel more frustrating than they should be.
+Combat sequences offer a masterclass in tactical depth, demanding that players master the satisfying interplay between the versatile Leviathan Axe and Atreus’s supportive bow skills. Every encounter feels deliberate and challenging, forcing a transition from mindless button-mashing to precise, strategy-based execution that rewards patience and careful environmental awareness during intense brawls.
 
-Overall God of War is a brilliant achievement with a powerful story and deeply developed characters that redefine a legendary protagonist. While a few tweaks to the camera and locking systems would have made the toughest boss encounters smoother the game remains a top tier experience for its emotional depth and stellar presentation.
+Exploration reveals a breathtaking world brimming with hidden lore and secrets, though the sheer volume of collectables occasionally threatens to break the narrative momentum. While discovering powerful resources feels inherently rewarding, the repetitive nature of opening countless chests can sometimes make the expansive map feel cluttered rather than wondrously dense.
+
+Relationships define the narrative trajectory, as the evolving dynamic between father and boy serves as the heart of this arduous journey. Watching their bond strengthen through quiet, introspective moments provides a necessary emotional counterweight to the grand, mythological spectacle unfolding across the beautifully realised and atmospheric North realm landscapes.
+
+Technical shortcomings occasionally fracture the immersion, manifested through minor audio desync and subtitles that drift into distracting or inconsistent positions. These small flaws are noticeable during otherwise seamless cutscenes, serving as a slight reminder of the minor polish issues that persist within this otherwise robust and visually stunning production.
+
+Movement within skirmishes requires an adjustment period, particularly when dealing with the counter-intuitive quick-turn mechanic that often causes disorientation instead of providing a tactical edge. Mastering the over-the-shoulder perspective requires persistent effort, yet overcoming these initial mechanical hurdles leads to a deeply rewarding sense of agency and combat mastery.
+
+Overall, this mature action-RPG stands as a definitive achievement by honouring the series’ legacy while daring to redefine its core identity entirely. Fans seeking a thoughtful story paired with refined, challenging gameplay will find this a worthwhile pursuit, provided they look past the occasional pacing and minor technical inconsistencies.

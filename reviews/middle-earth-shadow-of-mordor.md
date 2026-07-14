@@ -3,17 +3,25 @@ layout: review
 date: 2026-06-26
 game_title: "Middle-Earth: Shadow of Mordor"
 permalink: /reviews/middle-earth-shadow-of-mordor/
-verdict: "recommended" 	# recommended | not-recommended | not-sure
+verdict: "recommended"
 platform: "PC"
 release_year: 2014 
 genre: "Action, Adventure, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Middle-Earth: Shadow of Mordor features an innovative, endlessly replayable Nemesis system, though awkward traversal, messy group combat, and an inconsistent stealth AI can occasionally frustrate."
+summary: "Emergent rivalries and fluid swordplay transform a gritty vengeful odyssey into an essential title for those who value personal vendettas and systemic depth."
 image: "/assets/img/reviews/middle-earth-shadow-of-mordor.webp"
 ---
 
-Middle-Earth: Shadow of Mordor is an incredibly cool experience that introduces some truly standout features to the action genre. The Nemesis system is easily the highlight because it is so innovative and genuinely brings the world to life in a way few other games manage. It is honestly a shame that more titles cannot use a similar mechanic due to patents. While the cast of characters is somewhat limited every single one of them is unique and well written which kept me invested in the story from start to finish. There is a massive amount of content to work through if you are a completionist and the core gameplay loop feels endlessly replayable. One of the most entertaining parts of the game is commanding Uruks to start power struggles just to stir up absolute chaos within the ranks of Sauron’s army. The hunting and survival challenges are a nice addition that you will likely complete naturally without having to go too far out of your way. Collecting Ithildin and Artifacts is also rewarding because the Artifacts come paired with memories of their previous owners to add some extra flavor to the lore. Even the Lord of the Hunt expansion adds some fun variety with new creatures and warchief types despite being a relatively brief experience. I also enjoyed the rune system as a way to add passive buffs since hunting for rarer runes for better bonuses gives you a great reason to keep fighting.
+Middle-Earth: Shadow Of Mordor finds its identity through a brutal dance of steel, crafting an intricate web of personal rivalries that breathe life into a desolate landscape. Talion’s quest for vengeance provides a suitably dark framework for a system where every fallen Uruk captain leaves a lasting mark upon the hierarchy.
 
-On the downside the traversal can feel a bit awkward at times. Talion occasionally refuses to climb certain surfaces because of odd camera angles and that can get pretty frustrating during a heated chase. Combat also gets a bit messy when you are surrounded by ten or more enemies because the game struggles to target the specific Uruk you want for a finisher or a grab. The stealth missions feel somewhat inconsistent as well since there were times I failed when I thought I was hidden and other times where I definitely should have been spotted but the AI ignored me. While the Bright Lord campaign starts off with a lot of promise it quickly becomes a bit of a slog. Your character feels surprisingly weak despite the fact that they are supposed to be wielding the One Ring. The final boss fight in that specific campaign is fantastic at first but it definitely wears out its welcome before the battle actually ends.
+Combat flows with an exhilarating rhythm that rewards aggression, allowing one to transition seamlessly between strikes, counters, and executions against overwhelming odds. This fluid approach ensures that even when standard enemy squads become predictable, the act of dismantling Sauron’s forces remains consistently punchy and satisfying to perform in every encounter.
 
-Overall this game offers a fresh and fun experience despite those few rough spots. The innovative systems and engaging gameplay make it a must play for fans of the setting or action games in general.
+Innovation thrives within the Nemesis system, a groundbreaking mechanic that elevates routine skirmishes into stories of triumph and bitter defeat. By remembering specific confrontations, individual captains rise through the ranks based on player actions, turning nameless grunts into recurring, formidable nemeses who demand careful preparation to eventually overcome.
+
+Stealth serves as an efficient alternative to direct confrontation, with vertical strikes from above offering a brutal way to thin out dense enemy strongholds. These quiet moments of calculated violence provide a tactical contrast to the noisy melee brawls, granting the freedom to tackle objectives with deliberate precision or overwhelming force.
+
+Progression initially feels constrained by a tedious opening sequence that forces one through an exhaustive series of mandatory tutorials before the true potential unfolds. Once these early shackles are removed, the ability tree opens up essential traversal and combat manoeuvres that transform Talion from a vulnerable outcast into an unstoppable force.
+
+Side activities such as hunting for medicinal herbs or freeing slaves eventually highlight a lack of mission variety that can stall the momentum of exploration. While the world remains atmospheric, relying on repetitive tasks to gain intel occasionally makes the expansive environment feel less dynamic than its central power struggles imply.
+
+Overall, lasting appeal stems from the genius of systemic design rather than the narrative beats that drive the core campaign forward. Mastery over the battlefield makes it difficult to ignore the brilliance on display, making the package a clear success despite the minor friction found in its slower, more repetitive moments.

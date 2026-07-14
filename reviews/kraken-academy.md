@@ -1,19 +1,27 @@
 ---
 layout: review
 date: 2026-06-27
-game_title: "Kraken Academy"
+game_title: "Kraken Academy!!"
 permalink: /reviews/kraken-academy/
-verdict: "recommended" 	# recommended | not-recommended | not-sure
+verdict: "recommended"
 platform: "PC"
 release_year: 2021
-genre: "Adventure"
+genre: "Adventure, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Kraken Academy delivers a hilarious six-hour time-loop adventure with sharp writing and memorable characters, though a pointless late-game economy and easy final boss disappoint."
+summary: "This inventive time-loop adventure blends sharp character writing with rewarding social simulations, delivering a uniquely hilarious experience that successfully balances urgency and charm."
 image: "/assets/img/reviews/kraken-academy.webp"
 ---
 
-Kraken Academy is a fun time loop adventure that hits a perfect sweet spot in terms of length. It feels entirely complete without ever dragging on, and you can finish the whole experience in about six hours for a very satisfying playthrough. The three day loop mechanic is handled expertly because it maintains a steady pace that is neither too fast nor too slow, allowing you to immerse yourself in the story without feeling rushed. Much of the charm comes from the lovable and memorable characters you meet along the way. The writing is consistently sharp and funny, ensuring that the journey remains light and entertaining from start to finish. Highlights include the art club case, which showcases the creative storytelling, and the Skeleboner dance theme that acts as a total earworm similar to an epic saxophone jam.
+Kraken Academy!! explores a chaotic institution where a recurring three-day temporal cycle serves as the fundamental engine for both mystery and character growth. Mastering the intricate schedules of eccentric students and staff becomes essential, as manipulating these timelines allows one to prevent catastrophe while uncovering the academy's darkest secrets.
 
-Despite its many strengths, there are a few areas where the game loses its momentum. The in game economy becomes somewhat pointless after a while because bottles and money eventually lose their value, leaving very little reason to continue collecting items in the later stages. Additionally, the final boss fight is a bit of a letdown because it is far too easy. With only a couple of basic attacks to contend with, the encounter fails to provide a meaningful challenge to cap off the adventure.
+Vibrant aesthetics define this surreal setting, capturing a whimsical yet distinctly unsettling atmosphere within the corridors of a doomed school. Every location feels alive with absurd detail, from the peculiar cat-headed headmaster to the overly dramatic pupils who populate this fractured campus, constantly reinforcing the title's bizarre and endearing visual identity.
 
-Overall Kraken Academy is a charming and humorous time loop game that succeeds through its excellent writing, memorable cast, and well balanced pacing. While the late game economy and the final boss encounter could have used more depth, the experience remains a highly enjoyable and creative adventure that is well worth checking out for fans of quirky storytelling.
+Navigating conversations requires precision, as performing quick-time events to influence dialogue outcomes creates a dynamic social layer that governs progression. Friendships are forged through completing side quests and collecting badges, ensuring that every interaction carries weight beyond the looming threat of the apocalypse constantly threatening the world outside.
+
+Smashing bins and lockers to salvage bottles creates a strangely addictive rhythm, turning the act of environmental destruction into a core economic loop. Whilst the repetitive nature of these minor interactions provides a consistent source of currency, the satisfaction gained from securing these resources remains a reliable hook throughout play.
+
+Technical hurdles initially cast a shadow over the experience, particularly concerning controller input conflicts and sluggish movement speed on certain hardware configurations. Manually adjusting these settings proves necessary to ensure smooth navigation, though overcoming these interface glitches is a small price for the subsequent depth of the emergent system.
+
+Uncertainty plagued the early hours due to these stability concerns and the complexity of managing multiple overlapping schedules across the time loop. Once the initial frustration of configuring inputs subsided, the brilliance of the design became apparent, rewarding persistent exploration with genuinely clever puzzles and a consistently sharp, humorous script.
+
+Overall, this narrative-driven adventure succeeds by weaving high-school social dynamics into a demanding, time-sensitive puzzle box that respects the player's intelligence. Despite the requirement for minor technical troubleshooting, the core loop offers a hilarious and deeply engaging experience that proves masterfully designed for anyone who loves solving complex, character-focused mysteries.

@@ -3,21 +3,25 @@ layout: review
 date: 2026-06-27
 game_title: "Between Horizons"
 permalink: /reviews/between-horizons/
-verdict: "recommended" 	# recommended | not-recommended | not-sure
+verdict: "recommended"
 platform: "PC"
 release_year: 2024 
-genre: "Adventure"
+genre: "Adventure, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Between Horizons is a satisfying 2.5D sci-fi detective game with deep clue-gathering, though a clunky fast-travel system and an overly vague final case frustrate navigation and deduction."
+summary: "High-stakes deduction and a captivating sci-fi premise forge a memorable detective adventure, requiring patience with technical quirks for the full experience."
 image: "/assets/img/reviews/between-horizons.webp"
 ---
 
-Between Horizons delivers a striking art style and aesthetic, showcasing a beautiful pseudo-3D pixel art visual presentation that looks incredibly impressive throughout the journey. This vibrant presentation supports a rich atmosphere and soundtrack, utilizing soothing, high-quality music that shifts naturally into a tense, spooky mood during major investigative sequences. The entire experience hits all the right notes for fans of sci-fi mystery and detective storytelling, providing an engaging loop where clues are meticulously collected and analyzed to solve complex shipboard cases.
+Between Horizons establishes a claustrophobic, ring-shaped starship environment that forces an immediate, visceral connection to the protagonist’s investigative duties. This 2.5D world excels through a striking visual style that transforms the burden of a multi-generational mission into an atmospheric stage for a dense, high-stakes mystery.
 
-The core gameplay loop thrives on smart detective logic, making it highly rewarding to solve mysteries using a process of elimination, detailed logic strings like searching medical records, and environmental evidence such as network ping triangulation. Navigating the linear sectors relies on helpful scanning mechanics for finding hidden clues alongside a generous checkpoint autosave system that protects your progress. This exploration is elevated by narrative complexity, allowing you to discover deep lore through character interactions and PDA entries that reveal the personal motivations behind the ship sabotage.
+Detecting truths requires careful synthesis of gathered evidence as the title trusts the player to connect disparate clues without constant hand-holding. Every major decision feels weighty because the lack of manual saves creates genuine tension when permanent consequences follow the submission of your final investigative conclusions.
 
-However, this sci-fi detective adventure still faces a few notable hurdles stemming from technical input registration and interface navigation constraints. The gameplay suffers from frustrating technical input issues, introducing busted controller bindings and user interface menus that display unbound text instead of the correct button prompts. This structural friction is compounded by confusing inventory and map navigation, where the highly segmented nature of the ring spaceship makes tracking down specific areas like bunks a tedious chore.
+Movement through the vessel relies on a circular layout that presents a novel navigational challenge during initial exploration. Finding specific sectors initially generates confusion before the eventual unlock of fast travel routes streamlines the journey, yet the environmental design remains consistently beautiful throughout each distinct ship zone.
 
-The user experience introduces minor headaches through redundant tutorials, constantly prompting you to reread or redo basic instructions long after you have already completed them. You will also encounter a few insufferable and robotic character personalities, leading to occasional frustration with cryptic dialogue choices and opaque writing that lacks clarity regarding key plot points. Finally, the investigation mechanics can occasionally falter due to a lack of concrete evidence in certain cases, forcing you to rely on guesswork rather than definitive clues while pushing you into stressful narrative choices.
+Persistent technical friction frequently emerges when utilizing a controller on PC, often resulting in broken button prompts and unstable inputs. Switching to a keyboard and mouse configuration entirely resolves these frustrations, allowing the sophisticated logic-based loops to shine without the interference of glitched interface interactions during intense deduction segments.
 
-Overall Between Horizons is a remarkably beautiful, atmospherically tense, and narratively complex sci-fi detective adventure that excels through its gorgeous 2.5D pixel art, rewarding logic puzzles, and engaging tracking mechanics. While the stellar spaceship mystery is occasionally slowed down by busted controller prompts, confusing map layouts, repetitive tutorial prompts, and vague dialogue clarity, the brilliant world-building and satisfying deductive reasoning ensure it stands as a highly engaging and memorable investigative experience.
+Tutorials unfortunately trigger with excessive frequency, interrupting the momentum of gameplay by reiterating information long after the mechanics have been fully grasped. While these redundant prompts occasionally dampen the pacing, the inherent satisfaction of resolving complex cases through logical intuition quickly overshadows such minor, repetitive irritants during the experience.
+
+Interrogating the ship's inhabitants reveals layers of narrative depth that anchor the surreal premise within a grounded, human struggle. These exchanges provide the essential context required to unravel the larger conspiracy at play, ensuring that the focus on duty and morality remains the central anchor for every player interaction.
+
+Overall, this sci-fi mystery succeeds by placing total ownership of the truth in the player's hands despite its unfortunate technical instability. Fans of cerebral detective fiction will find the atmosphere and high-stakes deduction remarkably rewarding, provided they navigate the interface hurdles by choosing an appropriate control scheme for their setup.
