@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-10-07
+date: 2026-07-10
 game_title: "Ghostwire: Tokyo"
 permalink: /reviews/ghostwire-tokyo/
 verdict: "recommended"

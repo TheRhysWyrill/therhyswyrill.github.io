@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-08-07
+date: 2026-07-08
 game_title: "Duck Detective: The Ghost of Glamping"
 permalink: /reviews/duck-detective-the-ghost-of-glamping/
 verdict: "recommended"

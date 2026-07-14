@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-09-07
+date: 2026-07-09
 game_title: "Gears of War: Judgment"
 permalink: /reviews/gears-of-war-judgment/
 verdict: "recommended"

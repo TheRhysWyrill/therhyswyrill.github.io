@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-08-07
+date: 2026-07-08
 game_title: "Mario & Luigi: Partners in Time"
 permalink: /reviews/mario-and-luigi-partners-in-time/
 verdict: "recommended"

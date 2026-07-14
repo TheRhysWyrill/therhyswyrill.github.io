@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-08-07
+date: 2026-07-08
 game_title: "Duck Detective: The Secret Salami"
 permalink: /reviews/duck-detective-the-secret-salami/
 verdict: "recommended"

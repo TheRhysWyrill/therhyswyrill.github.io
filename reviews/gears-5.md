@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-08-07
+date: 2026-07-08
 game_title: "Gears 5"
 permalink: /reviews/gears-5/
 verdict: "recommended"
