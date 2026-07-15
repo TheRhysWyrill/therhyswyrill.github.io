@@ -8,7 +8,7 @@ platform: "PC"
 release_year: 2025
 genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Methodical investigation and atmospheric discovery transform this gothic mystery into an engaging detective thriller built upon clever environmental puzzles and surreal narrative revelations."
+summary: "Investigative tools like UV lights and spectral cameras turn a dreary mansion into a compelling, logic-based mystery that rewards keen detective work and observation."
 image: "/assets/img/reviews/thiefs-shelter.webp"
 ---
 

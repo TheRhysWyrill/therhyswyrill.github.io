@@ -8,7 +8,7 @@ platform: "PC"
 release_year: 2022
 genre: "FPS, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Methodical stealth and atmospheric exploration forge a tense survival loop, where careful planning transforms a lawless, supernatural frontier into a deeply rewarding detective hunt."
+summary: "Cursed artifacts and methodical stealth mechanics transform this supernatural Western into a tense survival loop where preparation dictates your likelihood of surviving the badlands."
 image: "/assets/img/reviews/blood-west.webp"
 ---
 

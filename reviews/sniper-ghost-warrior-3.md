@@ -8,7 +8,7 @@ platform: "PC"
 release_year: 2017 
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Methodical scouting and precise ballistics anchor this tactical shooter, where the satisfaction of long-range engagements frequently overshadows technical instability and redundant open-world chores."
+summary: "Detailed ballistics and methodical drone scouting define these tense long-range engagements, providing a satisfying tactical loop despite persistent performance inconsistencies and unpolished environmental interactions."
 image: "/assets/img/reviews/sniper-ghost-warrior-3.webp"
 ---
 
