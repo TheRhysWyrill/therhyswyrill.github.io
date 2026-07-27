@@ -323,14 +323,7 @@ position: 1
 					data = data.filter(row => {
 						const game    = (row["Game"] || row["Game Title"] || "").toLowerCase();
 						const status  = (row["Status"] || row["Emulation Status"] || "").toLowerCase();
-						const notes   = (row["Notes"] || row["Additional Notes"] || "").trim();
-						const notesHTML = notes.replace(
-							/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)|(https?:\/\/[^\s<,"')]+)/g,
-							(match, label, mdUrl, bareUrl) => {
-								if (mdUrl) return `<a href="${mdUrl}" target="_blank" rel="noopener" class="notes-link">${label}</a>`;
-								return `<a href="${bareUrl}" target="_blank" rel="noopener" class="notes-link">${bareUrl}</a>`;
-							}
-						);
+						const notes   = (row["Notes"] || row["Additional Notes"] || "").toLowerCase();
 						const version = (row["Proton Version"] || row["Build"] || "").toLowerCase();
 						return game.includes(term) || status.includes(term) ||
 						       notes.includes(term) || version.includes(term);
@@ -440,7 +433,7 @@ position: 1
 									<span class="card-game-title" title="${game}">${game}</span>
 									${notes ? `
 									<div class="card-notes">
-										<span class="card-notes-text">${notesHTML}</span>
+										<span class="card-notes-text">${linkifyNotes(notes)}</span>
 									</div>` : ''}
 								</div>
 								
