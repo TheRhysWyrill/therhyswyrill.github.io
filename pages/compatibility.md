@@ -440,7 +440,7 @@ position: 1
 									<span class="card-game-title" title="${game}">${game}</span>
 									${notes ? `
 									<div class="card-notes">
-										<span class="card-notes-text">${linkifyNotes(notes)}</span>
+										<span class="card-notes-text">${notesHTML}</span>
 									</div>` : ''}
 								</div>
 								
