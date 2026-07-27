@@ -325,11 +325,11 @@ position: 1
 						const status  = (row["Status"] || row["Emulation Status"] || "").toLowerCase();
 						const notes   = (row["Notes"] || row["Additional Notes"] || "").trim();
 						const notesHTML = notes.replace(
-							/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
-							'<a href="$2" target="_blank" rel="noopener" class="notes-link">$1</a>'
-						).replace(
-							/(https?:\/\/[^\s<,"']+)/g,
-							'<a href="$1" target="_blank" rel="noopener" class="notes-link">$1</a>'
+							/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)|(https?:\/\/[^\s<,"')]+)/g,
+							(match, label, mdUrl, bareUrl) => {
+								if (mdUrl) return `<a href="${mdUrl}" target="_blank" rel="noopener" class="notes-link">${label}</a>`;
+								return `<a href="${bareUrl}" target="_blank" rel="noopener" class="notes-link">${bareUrl}</a>`;
+							}
 						);
 						const version = (row["Proton Version"] || row["Build"] || "").toLowerCase();
 						return game.includes(term) || status.includes(term) ||
