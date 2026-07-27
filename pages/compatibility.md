@@ -433,7 +433,7 @@ position: 1
 									<span class="card-game-title" title="${game}">${game}</span>
 									${notes ? `
 									<div class="card-notes">
-										<span class="card-notes-text">${linkifyNotes(notes)}</span>
+										<span class="card-notes-text">${notes}</span>
 									</div>` : ''}
 								</div>
 								
@@ -541,6 +541,19 @@ position: 1
 					paginationEl.appendChild(nextArrow);
 				}
 
+				// Post-process notes spans to linkify any URLs
+				grid.querySelectorAll('.card-notes-text').forEach(el => {
+					const text = el.textContent;
+					if (!text.includes('http')) return;
+					el.innerHTML = text.replace(
+						/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)|(https?:\/\/[^\s<,"']+)/g,
+						(match, label, mdUrl, bareUrl) => {
+							if (mdUrl) return `<a href="${mdUrl}" target="_blank" rel="noopener" class="notes-link">${label}</a>`;
+							return `<a href="${bareUrl}" target="_blank" rel="noopener" class="notes-link">${bareUrl}</a>`;
+						}
+					);
+				});
+
 				autoLinkCardVideos(config.emulatorKeywords, config.excludeKeywords);
 			}
 
@@ -552,22 +565,6 @@ position: 1
 					$(this).toggleClass('expanded');
 				}
 			});
-
-			// ── Helper: Convert URLs and markdown links in notes to <a> tags ──
-			function linkifyNotes(text) {
-				if (!text) return '';
-				// Markdown-style [label](url) first, so bare-URL pass doesn't double-wrap them
-				text = text.replace(
-					/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
-					'<a href="$2" target="_blank" rel="noopener" class="notes-link">$1</a>'
-				);
-				// Bare URLs not already inside an href attribute
-				text = text.replace(
-					/(?<!href=")(https?:\/\/[^\s<,"']+)/g,
-					'<a href="$1" target="_blank" rel="noopener" class="notes-link">$1</a>'
-				);
-				return text;
-			}
 
 			// ── Video cross-referencing (updated with regex extractor rule) ──
 			function autoLinkCardVideos(emuKeywords, excludeKeywords) {
