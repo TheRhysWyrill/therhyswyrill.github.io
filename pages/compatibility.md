@@ -323,7 +323,14 @@ position: 1
 					data = data.filter(row => {
 						const game    = (row["Game"] || row["Game Title"] || "").toLowerCase();
 						const status  = (row["Status"] || row["Emulation Status"] || "").toLowerCase();
-						const notes   = (row["Notes"] || row["Additional Notes"] || "").toLowerCase();
+						const notes   = (row["Notes"] || row["Additional Notes"] || "").trim();
+						const notesHTML = notes.replace(
+							/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
+							'<a href="$2" target="_blank" rel="noopener" class="notes-link">$1</a>'
+						).replace(
+							/(https?:\/\/[^\s<,"']+)/g,
+							'<a href="$1" target="_blank" rel="noopener" class="notes-link">$1</a>'
+						);
 						const version = (row["Proton Version"] || row["Build"] || "").toLowerCase();
 						return game.includes(term) || status.includes(term) ||
 						       notes.includes(term) || version.includes(term);
