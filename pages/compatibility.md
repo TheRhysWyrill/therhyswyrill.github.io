@@ -547,6 +547,7 @@ position: 1
 			// ── Click to expand notes ────────────────────────────────────────
 			$(document).on('click', '.compat-card', function (e) {
 				if ($(e.target).closest('.vault-video-link').length) return;
+				if ($(e.target).closest('.notes-link').length) return;
 				if ($(this).find('.card-notes').length) {
 					$(this).toggleClass('expanded');
 				}
