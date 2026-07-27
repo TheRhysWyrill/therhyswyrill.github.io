@@ -664,6 +664,18 @@ body:has(.compat-page) {
 			0 0 10px rgba(168,85,247,.45);
 	}
 
+	.notes-link {
+		color: #5ba4cf;
+		text-decoration: underline;
+		text-decoration-color: rgba(91, 164, 207, 0.4);
+		word-break: break-all;
+
+		&:hover {
+			color: #82c4f8;
+			text-decoration-color: rgba(130, 196, 248, 0.6);
+		}
+	}
+
     /* Mapped Status Context Color Themes Rulesets */
     &.status-playable .card-accent, &.status-gameplay .card-accent { background: #2e7d32; }
     &.status-playable .status-pill, &.status-gameplay .status-pill { background-color: rgba(46, 125, 50, 0.15) !important; color: #81c784 !important; border: 1px solid rgba(46, 125, 50, 0.3); }

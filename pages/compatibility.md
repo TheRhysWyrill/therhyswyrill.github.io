@@ -38,7 +38,13 @@ position: 1
 
 			$.getJSON("{{ '/assets/data/all_videos.json' | relative_url }}")
 				.done(function (data) {
-					if (data && data.iip) externalVideoCache = data.iip;
+					if (data && data.iip) {
+						externalVideoCache = data.iip;
+						// Re-link videos if a platform tab already finished rendering before this resolved
+						if (currentConfig) {
+							autoLinkCardVideos(currentConfig.emulatorKeywords, currentConfig.excludeKeywords);
+						}
+					}
 				})
 				.fail(function () {
 					console.warn("Could not load all_videos.json. Video cross-referencing falls back to inactive.");
@@ -427,7 +433,7 @@ position: 1
 									<span class="card-game-title" title="${game}">${game}</span>
 									${notes ? `
 									<div class="card-notes">
-										<span class="card-notes-text">${notes}</span>
+										<span class="card-notes-text">${linkifyNotes(notes)}</span>
 									</div>` : ''}
 								</div>
 								
@@ -545,6 +551,22 @@ position: 1
 					$(this).toggleClass('expanded');
 				}
 			});
+
+			// ── Helper: Convert URLs and markdown links in notes to <a> tags ──
+			function linkifyNotes(text) {
+				if (!text) return '';
+				// Markdown-style [label](url) first, so bare-URL pass doesn't double-wrap them
+				text = text.replace(
+					/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
+					'<a href="$2" target="_blank" rel="noopener" class="notes-link">$1</a>'
+				);
+				// Bare URLs not already inside an href attribute
+				text = text.replace(
+					/(?<!href=")(https?:\/\/[^\s<,"']+)/g,
+					'<a href="$1" target="_blank" rel="noopener" class="notes-link">$1</a>'
+				);
+				return text;
+			}
 
 			// ── Video cross-referencing (updated with regex extractor rule) ──
 			function autoLinkCardVideos(emuKeywords, excludeKeywords) {
