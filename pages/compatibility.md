@@ -102,7 +102,7 @@ position: 1
 						"Eden": "Resolution = 2x, Anti-Aliasing Method = SMAA, Anisotropic Filtering = 16x, Enable asynchronous presentation = On, Extended Dynamic State = Disabled, Vertex Input Dynamic State = Off",
 						"Ryujinx": "2x Native Resolution, Audio Backend = OpenAL"
 					},				
-					url: "PASTE_MERGED_SWITCH_SHEET_CSV_URL_HERE"
+					url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=412405791&single=true&output=csv"
 				},
 				"ps2": {
 					name: "PS2",
@@ -144,7 +144,7 @@ position: 1
 					},
 					specs: "Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS",
 					config: "none",
-					url: "https://docs.google.com/spreadsheets/d/1ApXrhv5ZA_y4B9KphJbp7-KtHSL-uAnZdHlLkrFgTsw/edit?gid=83107815#gid=83107815"
+					url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=83107815&single=true&output=csv"
 				},
 				"psvita": {
 					name: "PS VITA",
