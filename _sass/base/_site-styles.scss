@@ -761,6 +761,21 @@ body:has(.compat-page) {
     }
 }
 
+.card-emulator-badge {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #8a909e;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
 /* --------------------------------------------------------------------------
    5. REVIEWS ARCHIVE (filters, search, grid, pagination)
    -------------------------------------------------------------------------- */

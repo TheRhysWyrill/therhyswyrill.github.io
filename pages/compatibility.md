@@ -526,6 +526,8 @@ position: 1
 									<span class="status-pill">${status}</span>
 									${((config.type === 'steamos' || config.type === 'ps4') && version) 
 										? `<span class="card-version">${version}</span>` : ''}
+									${(config.emulators && currentEmulator === 'All' && row["Emulator"])
+										? `<span class="card-emulator-badge">${row["Emulator"]}</span>` : ''}
 									<div class="video-container" data-game="${encodeURIComponent(game)}"></div>
 								</div>
 							</div>
