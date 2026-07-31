@@ -32,6 +32,7 @@ position: 1
 		let currentSearchTerm   = '';
 		let currentSort         = { col: 0, dir: 'asc' };
 		let currentPage         = 1;
+		let currentEmulator     = 'All';
 		const getPageSize       = () => window.innerWidth <= 768 ? 18 : 42;
 
 		$(document).ready(function () {
@@ -54,19 +55,24 @@ position: 1
 				"3ds": {
 					name: "NINTENDO 3DS",
 					type: "standard",
-					emulatorKeywords: ["azahar", "3ds"],
-					excludeKeywords: ["retroarch", "ra"],
+					emulators: ["All", "Azahar", "Azahar (RetroArch)"],
+					emulatorKeywordsMap: {
+						"All":               ["azahar", "3ds"],
+						"Azahar":            ["azahar", "3ds"],
+						"Azahar (RetroArch)":["azahar retroarch", "azahar ra"]
+					},
+					excludeKeywordsMap: {
+						"All":               [],
+						"Azahar":            ["retroarch", "ra"],
+						"Azahar (RetroArch)":[]
+					},
 					specs: "Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS",
-					config: "4x Native Resolution",
+					configMap: {
+						"All": "Select an emulator to view its configuration.",
+						"Azahar": "4x Native Resolution",
+						"Azahar (RetroArch)": "Hardware Shaders = Off, 4x Native Resolution"
+					},
 					url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=989513195&single=true&output=csv"
-				},
-				"3ds_retroarch": {
-					name: "NINTENDO 3DS (RETROARCH)",
-					type: "standard",
-					emulatorKeywords: ["azahar retroarch", "azahar ra"],
-					specs: "Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS",
-					config: "Hardware Shaders = Off, 4x Native Resolution",
-					url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=1690649920&single=true&output=csv"
 				},
 				"gamecube_wii": {
 					name: "GAMECUBE / WII",
@@ -77,20 +83,26 @@ position: 1
 					url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=722868656&single=true&output=csv"
 				},
 				"nintendo_switch": {
-					name: "NINTENDO SWITCH (Citron Neo/Eden)",
+					name: "NINTENDO SWITCH",
 					type: "standard",
-					emulatorKeywords: ["citron", "neo", "eden"],
+					emulators: ["All", "Eden", "Ryujinx"],
+					emulatorKeywordsMap: {
+						"All":            ["eden", "ryujinx", "switch"],
+						"Eden":			  ["eden"],
+						"Ryujinx":        ["ryujinx", "switch"]
+					},
+					excludeKeywordsMap: {
+						"All":            [],
+						"Eden":			  [],
+						"Ryujinx":        []
+					},
 					specs: "Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS",
-					config: "Resolution = 2x, Anti-Aliasing Method = SMAA, Anisotropic Filtering = 16x, Enable asynchronous presentation = On, Extended Dynamic State = Disabled, Vertex Input Dynamic State = Off",
-					url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=412405791&single=true&output=csv"
-				},
-				"nintendo_switch_ryujinx": {
-					name: "NINTENDO SWITCH (RYUJINX)",
-					type: "standard",
-					emulatorKeywords: ["ryujinx", "switch"],
-					specs: "Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS",
-					config: "2x Native Resolution, Audio Backend = OpenAL",
-					url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=1611607237&single=true&output=csv"
+					configMap: {
+						"All": "Select an emulator to view its configuration.",
+						"Eden": "Resolution = 2x, Anti-Aliasing Method = SMAA, Anisotropic Filtering = 16x, Enable asynchronous presentation = On, Extended Dynamic State = Disabled, Vertex Input Dynamic State = Off",
+						"Ryujinx": "2x Native Resolution, Audio Backend = OpenAL"
+					},				
+					url: "PASTE_MERGED_SWITCH_SHEET_CSV_URL_HERE"
 				},
 				"ps2": {
 					name: "PS2",
@@ -115,6 +127,24 @@ position: 1
 					specs: "Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS",
 					config: "none",
 					url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=1869087751&single=true&output=csv"
+				},
+				"ps5": {
+					name: "PS5",
+					type: "standard",
+					emulators: ["All", "KytyPS5", "SharpEmu"],
+					emulatorKeywordsMap: {
+						"All":            ["kytyps5", "sharpemu", "ps5"],
+						"KytyPS5":		  ["kytyps5"],
+						"SharpEmu":        ["sharpemu"]
+					},
+					excludeKeywordsMap: {
+						"All":            [],
+						"KytyPS5":		  [],
+						"SharpEmu":       []
+					},
+					specs: "Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS",
+					config: "none",
+					url: "https://docs.google.com/spreadsheets/d/1ApXrhv5ZA_y4B9KphJbp7-KtHSL-uAnZdHlLkrFgTsw/edit?gid=83107815#gid=83107815"
 				},
 				"psvita": {
 					name: "PS VITA",
@@ -188,6 +218,7 @@ position: 1
 				const config    = platformRegistry[slug];
 				const container = $('#table-workspace-wrapper');
 				container.html('<div class="table-loader">Fetching data...</div>');
+				currentEmulator = 'All';
 
 				Papa.parse(config.url, {
 					download: true,
@@ -231,12 +262,34 @@ position: 1
 							`;
 						}
 
+						// Build emulator sub-filter chips if this platform has multiple emulators
+						const emulatorFilterHTML = config.emulators ? `
+							<div class="emulator-filter-row" id="emulator-filter-row">
+								${config.emulators.map(emu => `
+									<button class="emulator-chip ${emu === 'All' ? 'active' : ''}" data-emulator="${emu}">${emu}</button>
+								`).join('')}
+							</div>
+						` : '';
+
 						const html = `
 							<div class="dt-meta-badges">
-								<div class="meta-badge"><strong>Specs:</strong> ${config.specs}</div>
-								${config.config && config.config.toLowerCase() !== 'none' ? `
-								<div class="meta-badge"><strong>Config:</strong> ${config.config}</div>` : ''}
+								<div class="meta-badge">
+									<strong>Specs:</strong> ${config.specs}
+								</div>
+							
+								${
+									(() => {
+										const cfg = config.configMap
+											? config.configMap[currentEmulator]
+											: config.config;
+							
+										return (cfg && cfg.toLowerCase() !== "none")
+											? `<div class="meta-badge" id="config-badge"><strong>Config:</strong> ${cfg}</div>`
+											: "";
+									})()
+								}
 							</div>
+							${emulatorFilterHTML}
 							<div class="data-header-row">
 								<input type="text" id="custom-table-search" placeholder="Search titles..." class="compat-search-input">
 								<select id="compat-sort-select" class="compat-mobile-sort">
@@ -249,6 +302,30 @@ position: 1
 
 						container.html(html);
 						renderFilteredCards();
+
+						// Emulator chip click handler
+						$(document).off('click', '.emulator-chip').on('click', '.emulator-chip', function () {
+							$('.emulator-chip').removeClass('active');
+							$(this).addClass('active');
+							currentEmulator = $(this).data('emulator');
+							currentPage = 1;
+							if (currentConfig.configMap) {
+								const cfg = currentConfig.configMap[currentEmulator];
+							
+								if (cfg && cfg.toLowerCase() !== "none") {
+									if ($("#config-badge").length) {
+										$("#config-badge").html(`<strong>Config:</strong> ${cfg}`);
+									} else {
+										$(".dt-meta-badges").append(
+											`<div class="meta-badge" id="config-badge"><strong>Config:</strong> ${cfg}</div>`
+										);
+									}
+								} else {
+									$("#config-badge").remove();
+								}
+							}
+							renderFilteredCards();
+						});
 
 						$('#custom-table-search').on('keyup', function () {
 							currentSearchTerm = this.value;
@@ -317,7 +394,15 @@ position: 1
 				const config = currentConfig;
 				let data     = currentData;
 
-				// Filter
+				// Filter by emulator sub-selection (only when not "All")
+				if (currentConfig.emulators && currentEmulator !== 'All') {
+					data = data.filter(row => {
+						const emu = (row["Emulator"] || "").trim();
+						return emu === currentEmulator;
+					});
+				}
+
+				// Filter by search term
 				if (currentSearchTerm) {
 					const term = currentSearchTerm.toLowerCase();
 					data = data.filter(row => {
@@ -554,7 +639,14 @@ position: 1
 					);
 				});
 
-				autoLinkCardVideos(config.emulatorKeywords, config.excludeKeywords);
+				const emuKey  = currentEmulator || 'All';
+				const emuKw   = config.emulatorKeywordsMap
+					? (config.emulatorKeywordsMap[emuKey] || config.emulatorKeywordsMap['All'])
+					: config.emulatorKeywords;
+				const exclKw  = config.excludeKeywordsMap
+					? (config.excludeKeywordsMap[emuKey] || [])
+					: config.excludeKeywords;
+				autoLinkCardVideos(emuKw, exclKw);
 			}
 
 			// ── Click to expand notes ────────────────────────────────────────
