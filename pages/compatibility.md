@@ -68,7 +68,7 @@ position: 1
 					},
 					specs: "Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS",
 					configMap: {
-						"All": "Select an emulator to view its configuration.",
+						"All": "none",
 						"Azahar": "4x Native Resolution",
 						"Azahar (RetroArch)": "Hardware Shaders = Off, 4x Native Resolution"
 					},
@@ -98,7 +98,7 @@ position: 1
 					},
 					specs: "Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS",
 					configMap: {
-						"All": "Select an emulator to view its configuration.",
+						"All": "none",
 						"Eden": "Resolution = 2x, Anti-Aliasing Method = SMAA, Anisotropic Filtering = 16x, Enable asynchronous presentation = On, Extended Dynamic State = Disabled, Vertex Input Dynamic State = Off",
 						"Ryujinx": "2x Native Resolution, Audio Backend = OpenAL"
 					},				
