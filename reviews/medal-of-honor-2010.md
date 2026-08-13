@@ -8,20 +8,20 @@ platform: "PS3"
 release_year: 2010
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "High-intensity military action defines this gritty campaign, where satisfying weapon handling consistently elevates a focused shooter experience despite some persistent tactical annoyances."
+summary: "A first-person shooter whose gritty modern setting, mission variety and compact runtime make it a serious, memorable campaign."
 image: "/assets/img/reviews/medal-of-honor-2010.webp"
 ---
 
-Medal of Honor (2010) adopts a gritty and serious tone that distinguishes its campaign from the more exuberant entries dominating the military shooter genre of its era. This sombre perspective is reinforced by a dedication to grounded scenarios, framing the entire journey around the heavy sacrifices made by soldiers deployed in high-stakes environments.
+Medal of Honor (2010) is a first-person shooter from Danger Close, rebooting the long-running series in the modern War in Afghanistan. The complete campaign runs roughly four and a half hours, from the opening mission to the closing extraction.
 
-Powerful weaponry provides the primary satisfaction for the player, as firearms possess a weight that makes every trigger pull feel impactful and intentional. Sniping rifles offer devastating precision during long-range engagements, while the effective shotgun proves remarkably reliable whenever the firefights transition into tighter quarters or more congested urban ruins.
+The tonal shift is the defining feature, with the game feeling grittier and more serious than the series' earlier entries. The mission variety pleases, with the Tier 1 squad infiltration, the Ranger firefights and the aircraft missions each changing the pace of the campaign.
 
-Pacing remains relentlessly fast, moving from one explosive set piece to the next in a series of dopamine-heavy bursts that make the four-and-a-half-hour runtime feel exceptionally tight. Teammates can be directed to supply vital ammunition, a helpful feature that keeps the momentum going, though the actual reliability of the AI squad members varies wildly.
+The Wolfpack stealth village is the standout mission, with silent weapons allowing every enemy to be taken quietly. The thermal optics prove incredibly useful, and the soundtrack holds up apart from the Apache level's one unconvincing song.
 
-Visibility often suffers during the most chaotic segments, as thick fog and lingering smoke clouds frequently obscure targets and turn simple skirmishes into confusing, messy brawls. These environmental hazards are compounded by a spawn-heavy design that occasionally forces enemies to appear in unrealistic proximity, turning progression into a tedious game of whack-a-mole.
+The fast time-to-kill suits the serious tone, with four shots enough to drop the soldier. The presentation moments land, with the night sky, the optics details and the speaker-indicating icon all impressing.
 
-Experimental loadouts are unfortunately stifled by an ammo-gating system that limits supply requests solely to your primary weapon, effectively discouraging any deviation from a standardised arsenal. This rigid approach forces players into a repetitive cycle of gunplay, preventing the full enjoyment of the diverse, satisfying ballistic variety that the individual firearms otherwise provide.
+The Apache mission is the biggest frustration, with the targets near impossible to spot from the air. The visibility struggles throughout the ground sections, with the heavy smoke, the shadowed corners and the similar colour palette obscuring the enemy.
 
-Scripted sequences and on-rails sections are occasionally prone to technical breakdown, resulting in frozen AI models or textures that refuse to load during critical moments. While the general performance maintains stability through intense gunfire, these sporadic visual glitches and broken events can necessitate frustrating checkpoint reloads to force the game back into alignment.
+The ammo economy punishes experimentation, with switched weapons leaving the soldier unable to restock from allies. The reload and ammo-request controls share a button, and the visible enemy spawning breaks the illusion in full view.
 
-Overall, the tight combat loops and commitment to a serious atmosphere ensure that the adventure remains a memorable, high-octane excursion through modern warfare. Although ammo restrictions and obscured sightlines introduce unwanted friction, players who appreciate focused action will find this gritty campaign a rewarding experience that avoids the bloat of its contemporaries.
+Overall, the gritty setting, the mission variety and the compact runtime make this a serious and memorable modern shooter. The Apache mission and the murky visibility are the caveats.

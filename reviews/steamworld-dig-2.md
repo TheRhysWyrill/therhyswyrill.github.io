@@ -8,20 +8,20 @@ platform: "Switch"
 release_year: 2017
 genre: "Metroidvania"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Unlocking the hook shot transforms subterranean traversal into a fluid, rhythmic loop that turns previously impassable rock into a playground for discovery and upgrades."
+summary: "A hand-crafted Metroidvania in which mining bot Dorothy hunts for her missing friend Rusty across a frontier town and the ruins beneath it."
 image: "/assets/img/reviews/steamworld-dig-2.webp"
 ---
 
-SteamWorld Dig 2 prioritises deep mining and intricate navigation within a visually distinct desert world. The narrative tasks players with locating a missing hero, yet the primary appeal lies in the satisfying feedback loop of gathering resources to fund equipment upgrades at the local town.
+SteamWorld Dig 2 sends mining bot Dorothy across the hand-crafted West Desert and frontier town of El Machino in search of the first game's hero, Rusty. The loop of digging ore, selling it and buying upgrades keeps the world compelling across a campaign triple the original's length.
 
-Mastering the hook shot fundamentally alters how one interacts with the subterranean environment. This pivotal tool provides precise movement options that make traversing jagged caverns feel rewarding while simultaneously opening vast, hidden sections of the map to those willing to dig deeper.
+The tool progression is the game's backbone, with sprint hydraulics, pressure bombs, the jackhammer, hook shot and jet engine opening new routes through the same spaces. The hook shot and jetpack transform traversal so thoroughly that the jetpack was the best upgrade in the game.
 
-Customisable cog mods grant significant player agency throughout the journey. By allowing these abilities to remain swappable, the system actively encourages constant experimentation with different builds without forcing the player to commit to a single permanent strategy during their descent into the increasingly complex and dangerous underground depths.
+The cog-mod system lets players swap upgrades freely, from reduced fall damage to refundable cogs, so experimentation costs nothing. The torch mod, removing the fear of running out of light, and the health recovery near water were favourites.
 
-Resource management remains a compelling motivator because inventory limitations force frequent, tactical decisions. Selling harvested materials ensures that every trip back to the surface feels productive, creating a tight progression curve where each new piece of kit provides a noticeable boost to your mining efficiency and survival capabilities.
+The story lands a solid reveal, with friendly shiner leader Rosie exposed as the villain using Rusty as a battery in her mech suit. The writing is consistently witty, and the pun-packed artifact flavour text was called very well written and a joy to produce.
 
-Navigating the environment is not without its minor hurdles, particularly when manually filling in map tiles. While this task initially feels somewhat tedious, the frustration naturally recedes as more efficient traversal tools become available, ultimately making the mapping process feel far more manageable as the adventure moves toward its conclusion.
+The final boss fight is the worst part of the run, where the inability to attack in mid-air, enemies spawning on top of the player and platforms shifting into acid conspire against fairness. The tenacious trolley puzzle with its inconsistent timing and the recurring mine-cart sections add frustration.
 
-Environmental traversal puzzles occasionally rely on precise timing that feels disproportionately difficult compared to the rest of the mining loop. These specific segments might test your patience with their taxing requirements, though they remain isolated instances that rarely interrupt the overall flow of the core subterranean exploration experience.
+The Vectron section has no map, making navigation feel aimless, and the challenge trials were skipped as more frustrating than fun. Nine deaths across the run, several in those trials, did not stop full 100% completion.
 
-Overall, traversal and exploration maintain a constant momentum that defines the entire journey. Upgrading the jackhammer and hook shot turns previous obstacles into navigable terrain, proving that the most memorable moments arise whenever movement becomes as satisfying as the initial hunt for rare minerals hidden within the dark earth.
+Overall, the satisfying tool progression, the huge hand-crafted world and the consistently funny writing carried a ten-hour run to full completion. The messy final boss and a few infuriating puzzles are the only stains on a very good Metroidvania.

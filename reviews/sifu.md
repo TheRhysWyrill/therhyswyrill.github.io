@@ -6,22 +6,22 @@ permalink: /reviews/sifu/
 verdict: "recommended"
 platform: "PC"
 release_year: 2022
-genre: "Action, Beat 'em up"
+genre: "Beat 'em up"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Mastering complex parry timings and avoidance patterns transforms this punishing revenge quest into a rhythmic, highly rewarding exhibition of martial arts expertise."
+summary: "A kung fu revenge action game whose death-ageing pendant and topnotch combat define every encounter."
 image: "/assets/img/reviews/sifu.webp"
 ---
 
-Sifu centres on a relentless quest for vengeance against five masters who decimated the protagonist's family legacy. Each arena functions as a thematic stage for punishing physical confrontations, forcing participants to internalise aggressive patterns rather than relying on brute force to overcome the various martial arts experts blocking their path.
+Sifu is a kung fu revenge tale in which a magical pendant revives the hero after death by ageing him. The premise sends the protagonist hunting the five people responsible for his father's murder after eight years of hard training.
 
-Parrying and high-low avoidance mechanics define the moment-to-moment flow of every encounter during the ascent through each level. Success relies on building structural integrity to execute brutal takedowns, which provide both a vital reprieve from the chaos and a satisfying visual payoff for performing such precise, technical defensive manoeuvres.
+The combat sits at the heart of everything, built on parries, deflections, structure meters and focus moves in the style of Sekiro. Breaking an enemy's structure opens them to a takedown, and the finishers are among the most satisfying moments in the game.
 
-Death carries a permanent weight through a central ageing system that limits how many times the character can fall before the run ends. Progress requires unlocking permanent skills across multiple attempts while discovering hidden shortcuts that allow experienced fighters to bypass redundant segments and optimise their approach to the final masters.
+The age mechanic gives every defeat lasting weight, since each death ages the protagonist and too many end the run. The possibility of a one-life playthrough stays in the back of the mind, keeping the stakes visible throughout.
 
-Visual cues occasionally obscure the distinction between high and low incoming attacks, leading to frustrating moments where the player struggles to react correctly. Confined spaces exacerbate these issues further, as the camera frequently fails to track the action clearly when the protagonist becomes cornered against environmental geometry by heavy swarms.
+The campaign's bosses are distinct in style and phase structure, each demanding different timing and tactics. Sparing them unlocks an alternate path, while the detective board and level shortcuts reward repeat runs.
 
-Technical stability remains a significant concern, particularly when attempting to run the software on Linux environments via launchers like Heroic. Without specific configuration tweaks to prevent broken cutscenes, the experience is prone to hard crashes that disrupt momentum, especially as the difficulty intensifies during the later stages of the campaign.
+The final boss and its spare ending are the low point, with regenerating structure repeatedly wiping out progress. Grapples are the most hated mechanic, since the dodge timing rarely registers, and the camera can obstruct fights in confined areas.
 
-Detective board navigation and menu interactions feel somewhat clumsy compared to the fluidity found within the main combat loops. While these interface elements offer additional context regarding the targets and history, they rarely provide enough immediate utility to justify the time spent clicking through them between intense, high-stakes combat sessions.
+Replay value is strong thanks to permanent skill unlocks, built-in modifiers, a randomizer and alternate outfits. Weapons with durability, from pipes to brooms and bottles, add variety to every encounter.
 
-Overall, the parrying and avoidance systems provide a brutal, highly polished framework that demands complete dedication to skill mastery. Navigating the unforgiving death mechanics and technical hurdles requires genuine patience, yet the reward for executing a flawless sequence remains one of the most intense and satisfying highlights in modern action.
+Overall, combat and the age mechanic carry a stylish, demanding campaign that stays memorable throughout. The punishing spare ending is the only significant sour note on an otherwise excellent action game.

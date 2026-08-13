@@ -8,20 +8,20 @@ platform: "Switch"
 release_year: 2023
 genre: "Adventure, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Subversive humour and complex puzzle loops hide beneath a deceptive aesthetic, creating an addictive, dark adventure that rewards patient experimentation and meticulous planning."
+summary: "A darkly funny puzzle adventure whose branching quests, hint system and collection hook reward full completion."
 image: "/assets/img/reviews/kindergarten.webp"
 ---
 
-Kindergarten masks its truly sinister ambitions beneath a bright, deceptively simplistic exterior that mimics early educational software. This stylistic choice acts as a brilliant foil to a narrative filled with genuinely unsettling behaviour from both students and faculty members alike, ensuring that every interaction remains unpredictable and highly memorable.
+Kindergarten is an abstract puzzle adventure game set across repeated days at a monstrously dysfunctional school, completed to one hundred per cent. The full quest roster was finished, including every monstermon card, all five nuggets of friendship and both endings.
 
-Navigating the school day requires viewing the environment as a complex puzzle box where minor dialogue choices possess immense consequences. Success involves managing inventory items, ratting out peers, and uncovering intricate branching paths that demand a thorough understanding of the logic governing this bizarre, high-stakes microcosm of childhood chaos.
+The dark comedy is the engine, with every adult in the school horrible and the violence far more brutal than the cutesy presentation suggests. The tone keeps pulling back for more, with the writing consistently funny and cynical.
 
-Experimentation feels mandatory as the high frequency of sudden character deaths often turns progression into a grim exercise of trial and error. While these recurring failures initially provoke significant irritation, they eventually teach the player how to manipulate the environment effectively, making the eventual triumph feel earned and satisfyingly calculated.
+The branching quest structure is the hook, with every character from bugs to the teacher carrying a mission and special items carrying between days. Characters respond differently depending on what items are held and what decisions were made, rewarding exploration.
 
-Humour remains remarkably sharp throughout, effectively undercutting the darker themes with a subversion that feels both nasty and consistently hilarious. Each interaction is crafted to lean into its own absurdity, turning mundane educational scenarios into surreal situations that keep the experience engaging despite the need for frequent, inevitable time resets.
+The hint system is genuinely useful, unlocking progressively and guiding the branching quest lines without giving everything away. The room-restart mechanic eases trial and error, fixing mistakes without a full day replay.
 
-Helpful hint systems ensure that even the most obscure mission sequences remain accessible without stripping away the essential thrill of personal discovery. This guidance provides necessary clarity for complicated sequences, preventing the frustration of aimless wandering while preserving the unique satisfaction that comes from orchestrating the perfect school day event.
+The collection hook is satisfying, with the monstermon cards and the friendship nuggets giving full completion a clear shape. The meta ending is a delight, with collecting all twenty-five cards unlocking the cave's true form and setting up the sequel.
 
-Inventory management occasionally feels cumbersome due to a menu interface that struggles to streamline the process of holding multiple items at once. Despite these slight navigational hiccups and the necessity for precise timing during certain pixel-hunting sequences, the underlying design remains tight and respects the player's capacity for complex problem-solving.
+The action budget is punishing, with apples limiting actions per room and a single wrong spend forcing a full Monday restart. One ending is fiddly to reach, quests fail silently when not turned in, and the main quest route takes many attempts.
 
-Overall, this subversive title succeeds by demanding patience and rewarding the player for peeling back its dark, layered narrative structure. Anyone with an appreciation for unconventional, adult-themed storytelling and intricate puzzle mechanics will find this addictive, albeit challenging, loop an incredibly compelling addition to their library of adventurous, thought-provoking digital titles.
+Overall, the branching quests, the hint system and the collection hook make this a darkly funny puzzle adventure. The punishing action budget and the silent quest failures are the caveats.

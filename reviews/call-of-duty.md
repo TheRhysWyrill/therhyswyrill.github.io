@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2003
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Deliberate movement and tactical intensity define this historical shooter, rewarding careful resource management and strategic positioning despite its challenging, old-school design philosophies."
+summary: "A 2003 triple-front shooter whose tank sections, SAS undercover thread and Reichstag finale outshine dated defending missions and stingy saves."
 image: "/assets/img/reviews/call-of-duty.webp"
 ---
 
-Call of Duty establishes a stark, high-stakes atmosphere by grounding its narrative in the gravity of historical conflict through poignant quotes and intense mission variety. Players must navigate airborne pathfinding, sabotage, and escort duties which collectively foster an authentic sense of the chaotic, varied nature of front-line warfare.
+Call of Duty is the 2003 first-person shooter that splits its campaign across American, British and Soviet fronts, revisiting the Second World War through three distinct theatres. The Soviet thread runs from the Stalingrad crossing through Berlin to the flag over the Reichstag, while the British SAS thread covers dam raids, a Tirpitz boarding and a V2 strike.
 
-Tactical movement remains paramount as the total absence of a sprint command mandates a methodical, deliberate pace during every skirmish. This design choice forces users to prioritise careful positioning over rapid movement, transforming standard navigation into a persistent test of environmental awareness and foresight throughout the entire campaign.
+The tank missions stand out, letting the driver blast holes in buildings on the push into Berlin, and the PPSh-41 earns praise for both look and sound. The K98k's bolt-action aesthetic is admired even as its slow cycling frustrates.
 
-Engaging with adversaries requires a discerning balance between speed and precision when choosing to aim down sights versus relying on hip-firing techniques. Scarcity of resources necessitates the frequent use of captured enemy hardware, particularly during challenging late-game segments where ammunition conservation becomes the difference between victory and defeat.
+The Stalingrad crossing and the order not to take a single step backwards land as grim, with the Red Square charge backed by epic music. Famous war quotes between levels frame each campaign with historical weight.
 
-Inconsistent checkpoint distribution occasionally punctuates the experience with frustration, especially when difficult encounters demand repetitive attempts without immediate salvation. Unpredictable friendly fire mechanics further complicate these scenarios, as squadmates frequently wander into the line of fire, triggering unintended failures that punish the player for the actions of others.
+The hold-the-line defending missions are the low point, with practically useless squad AI leaving the fight horribly lopsided. Checkpoint-only saves sting when progress is lost, and medkits grow scarce just when they are needed most.
 
-Visual target acquisition can become hampered by poor interface visibility when lighting conditions shift within darker environments. Crouching animations for artificial intelligence often appear jarring or unrealistic, breaking the otherwise immersive cinematic tone established by the serious, dark framing of the historical narrative and surrounding events.
+Enemies shrug off several bullets, grenades carry no indicator and sit in a separate weapon slot, and friend and foe alike wear green. Accidental friendly fire adds to the chaos when squadmates run in front of the barrel.
 
-Modern hardware compatibility serves as a significant hurdle, requiring specific launch arguments and environment adjustments just to achieve stable performance. Overcoming these technical barriers feels necessary to fully appreciate the deliberate pacing that initially seemed jarring but eventually revealed a satisfying layer of strategic depth for the dedicated enthusiast.
+Getting the game running on modern systems demands serious tinkering, with only an old Proton version working and specific launch arguments needed to fix colours and resolution. Around six hours of campaign comes wrapped in that setup hassle.
 
-Overall, this classic experience provides a rewarding, challenging journey that prioritises calculated engagement over the convenience features of modern shooters. Fans seeking a demanding, old-school title will find genuine value here, provided they possess the patience to navigate the initial setup hurdles and adapt to the punishing, squad-focused tactical gameplay.
+Overall, campaign variety, tank sections and the Reichstag finale make Call of Duty a fun piece of shooter history. The defending missions and stingy saves date it, but the core shooting holds up.

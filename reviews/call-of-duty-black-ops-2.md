@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2012
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An ambitious fusion of classic infantry action and tactical experimentation, this title stands out by empowering players with meaningful narrative agency and diverse gameplay."
+summary: "A dual-era shooter whose branching narrative and optional strike-force missions reshape the finale, held back by a recast voice and awkward horse control."
 image: "/assets/img/reviews/call-of-duty-black-ops-2.webp"
 ---
 
-Call of Duty: Black Ops II explores the tense convergence of 1980s history and a high-tech 2025 landscape, establishing a distinct future-noir atmosphere. Branching narrative paths and choice-driven outcomes elevate the campaign above typical corridor shooters, ensuring that every tactical decision ripples through the story with genuine weight and personal consequence.
+Call of Duty: Black Ops II is the 2012 entry that splits its campaign between a 1986 hunt in Afghanistan and Nicaragua and a 2025 war against a global network. The dual-era structure carries a branching narrative, with choices and optional missions reshaping how the finale plays out.
 
-RTS-inspired Strike Force missions introduce a refreshing tactical layer that disrupts the standard linear pacing, allowing players to command squads from a bird's-eye view. Although these segments occasionally falter due to erratic friendly artificial intelligence, they provide a welcome injection of mechanical variety that keeps the overarching experience feeling consistently innovative.
+The branching paths are the standout, with shoot-or-spare decisions and strike-force outcomes feeding directly into the ending. The system rewards a second playthrough, a rarity in the series.
 
-Persistent weapon customisation systems encourage players to tinker with their loadouts between missions, effectively maintaining the thrill of discovery throughout the playthrough. Cycling through environments to scavenge new equipment prevents the gunplay from stagnating, ensuring that each firefight remains dynamic even when revisiting familiar environments or tackling difficult, high-intensity combat scenarios.
+The strike-force missions mix real-time squad control with an RTS-style tactical layer, and the direct-control option is the better half. Performance in those missions changes how the final rooftop sequence unfolds.
 
-Technical stability remains largely impressive on modern systems, despite occasional screen static or minor audio drops linked to specific input configurations. Navigating these small hardware quirks proved straightforward enough, allowing for a mostly uninterrupted journey through the complex themes of corporate warfare and rare earth mineral dependency that drive the plot.
+Weapon variety is generous, with the fast-firing Vector K10 a particular favourite, and missions range from the casino-ship infiltration to horse combat and a jet-boat escape. The KGB-style escape earns an enthusiastic reaction for its pacing.
 
-Jarring voice performances for legacy figures like Hudson occasionally threaten to fracture the immersion, standing out as a noticeable blemish on an otherwise polished production. These inconsistencies in characterisation act as a minor distraction from an otherwise gripping script that explores moral ambiguity with a level of maturity rarely seen.
+The recast voice of a returning character takes away from the experience when the new voice sounds nothing like the old. The horse controls are awkward, the FAL's 20-round magazine runs dry fast, and sprinting stamina gives out after two steps.
 
-Visual clutter during massive set pieces can sometimes lead to target confusion, making it occasionally difficult to differentiate between immediate threats and environmental debris. Despite these brief moments of sensory overload, the campaign manages to keep its focus tight, rewarding tactical positioning and careful observation over simple, reckless aggression.
+A keyboard-and-mouse static bug pushes play towards a controller, which brings its own slight input delay in one escort section. The post-credits concert cameo is bizarre enough to be memorable, and the game otherwise runs stable.
 
-Overall, this entry delivers an ambitious evolution of the franchise by successfully marrying traditional set pieces with experimental, choice-based storytelling. It is an excellent choice for enthusiasts seeking a campaign that respects player agency, proving that even a decade later, these innovative ideas create a truly rewarding and memorable journey.
+Overall, branching story, strike-force variety and the dual eras make Black Ops II a standout in the series. The recast voice, awkward horse control and the static quirk are the main caveats.

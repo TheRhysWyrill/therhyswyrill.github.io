@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2023
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Masterful combat mechanics and rewarding progression define this isometric journey, overcoming minor technical frustrations to deliver a deeply satisfying experience through tactical mythological warfare."
+summary: "A Greek-myth action RPG whose godlike power fantasy and varied loot keep combat fun despite collapsing difficulty."
 image: "/assets/img/reviews/achilles-legends-untold.webp"
 ---
 
-Achilles: Legends Untold builds a grounded interpretation of the Trojan War where stamina management and precise spatial awareness dictate every encounter. Navigating the desolate ruins of this mythological landscape requires a disciplined approach, as the game rewards those who carefully master its deliberate rhythm rather than relying on frantic button presses.
+Achilles: Legends Untold is an action RPG set in ancient Greece after the Trojan War, in which Achilles hunts the commander who betrayed his men. Pulled back from the underworld by Hades, he crosses Greece on a revenge chase that broadens into a larger confrontation.
 
-Combat thrives on a combination of tactical dodge-rolling and a versatile shield-throw ability that bridges the gap between offensive and defensive play. Although initial encounters might provoke skepticism due to the demanding nature of these systems, the mechanical satisfaction of successfully parrying incoming strikes soon transforms frustration into genuine player enjoyment.
+The power fantasy is the main draw, and the hero quickly becomes so strong that combat turns into a joyful display of strength. The spear's sprinting spin attack is the standout crowd-control tool, making most fights a satisfying spin to win.
 
-Strategic growth remains a highlight through a comprehensive leveling system that allows for bespoke character specialisation across Strength, Vitality, and Luck. Investing points into these attributes provides a palpable sense of empowerment, ensuring that every venture into dangerous dungeons yields meaningful improvements to your warrior’s effectiveness against persistent mythological threats.
+The Greek-myth framing is a strength, with the Trojan War backstory and the underworld premise giving the revenge plot clear weight. The choice to spare or kill bosses runs through the campaign, with mercy an ever-present option.
 
-Exploration proves equally rewarding, as the interconnected map hides numerous optional side-quests and secrets behind treacherous corners. Diligent players who look beyond the main narrative path often discover valuable gear and experience, which serve as essential components for tackling the game’s more challenging scenarios with increased confidence and tactical flexibility.
+The loot and build loop keeps progression interesting, with spears swapped often, gear upgraded at the blacksmith and levels coming fast. Cats scattered across the world offer small, warm touches, and the health-on-kill skill keeps crowd fights flowing.
 
-Technical limitations occasionally emerge when the camera struggles with dense foliage or claustrophobic dungeon architecture. Visibility problems can complicate navigation during these moments, yet the overall performance remains steady enough that these fleeting visual obstructions never fully derail the momentum established during more open combat sequences or intense boss confrontations.
+The difficulty collapses around the halfway point, with enemies dying so fast that combat turns mindless by the end. The final boss fight also bugged out twice, with the enemy failing to spawn mid-fight, though it was never hard.
 
-Cluttered inventory screens and a sometimes ambiguous mini-map represent the primary friction points within the user interface. These minor inconveniences frequently obscure vital equipment or points of interest, though the strength of the core loop ensures that such administrative burdens are merely temporary hurdles rather than significant inhibitors to progress.
+The lock-on system is the worst of the controls, snapping to distant targets or nothing and stun-locking movement, while thrown-object aiming is poor. Money stays scarce against the cost of upgrades, and the runic chests rarely justify the work of opening them.
 
-Overall, this title delivers a highly engaging adventure that succeeds by prioritising polished combat loops and rewarding character development. While recurring enemy types and occasional camera issues provide minor blemishes, the sense of accomplishment gained from mastering the intricate systems makes this a thoroughly enjoyable journey for dedicated action-RPG enthusiasts.
+Overall, combat and the Greek-myth power fantasy make Achilles: Legends Untold a fun, godlike romp. The collapsing difficulty and buggy final fight stop it from being more, but the power fantasy keeps the whole campaign enjoyable.

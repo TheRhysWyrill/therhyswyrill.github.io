@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2016
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Seamlessly blending intense infantry firefights with fluid space traversal, this title creates a cohesive and tactically rich experience through innovative user interface design."
+summary: "A space-set campaign whose android companion, dogfights and functioning stealth make it the strongest entry yet."
 image: "/assets/img/reviews/call-of-duty-infinite-warfare.webp"
 ---
 
-Call of Duty: Infinite Warfare envisions a high-stakes future where a brutal war for essential resources expands into the cold, silent vacuum of space. Moving between terrestrial battlefields and orbital cockpits occurs without a single loading screen, creating a cinematic flow that binds the entire production into a singular, cohesive narrative.
+Call of Duty: Infinite Warfare puts a rookie captain in command of the carrier Retribution, leading a desperate war against the Settlement Defense Front after his mentor's death. The space setting, from ice moons to zero-gravity boarding, gives the campaign a distinct identity.
 
-Information is presented with remarkable clarity through an integrated head-up display that provides real-time data on weapon ranges and special capabilities. This intuitive interface reduces downtime during hectic skirmishes, allowing for fluid equipment management that prioritises immediate tactical adjustments over wading through cumbersome, obstructive menus while under heavy enemy fire.
+The android companion Ethan is the campaign's best character, with a memorable arc that lands hard in the finale. The credits, presented as farewell letters from the fallen crew, add last-minute characterisation to the whole roster.
 
-Robotic adversaries demand careful consideration as their resilience forces a constant trade-off between standard ballistic rounds and more effective energy-based munitions. Utilising futuristic gadgets like seeker bots and anti-gravity grenades offers meaningful agency, turning encounters with these durable machines into complex puzzles rather than simple tests of raw, unrefined aiming skill.
+Side missions on the map deliver Jackal space dogfights, ship assaults and stealth ops, all brief and enjoyable. A fully functioning stealth system receives real emphasis, something rarely expected from the series, and the optional content leaves the main path's difficulty untouched.
 
-Side missions feel like substantive additions to the journey rather than mere padding, with Jackal strikes and ship assaults providing vital depth. These optional engagements ensure the central military hub remains a place of genuine camaraderie and urgency, successfully framing the player's progression within a believable, high-tech maritime vessel setting.
+The Jackal dogfights evoke Battlefront's space missions, with auto-tracking making lock-ons easy to manage. Zero-G boarding, a Titan ground assault with a tank and a stealth infiltration of an enemy carrier keep the missions distinct.
 
-Stealth sequences occasionally struggle to match the relentless energy of the primary high-octane warfare, feeling somewhat disjointed from the surrounding kinetic action. Furthermore, sporadic erratic behaviour from enemy artificial intelligence can lead to moments where detection feels entirely unpredictable, creating isolated spikes of irritation that break the otherwise polished military pacing.
+Enemy health is the main complaint, with foes soaking up far more bullets than usual. A recurring micro-stutter persists regardless of sync settings, though it never amounts to a performance failure.
 
-Narrative beats regarding a peaceful celebration shattered by sudden conflict inevitably tread familiar territory for the veteran shooter audience. Even when these tropes are executed with a professional standard, they lack the creative spark required to truly distinguish the storytelling from a long history of similar, well-trodden generic wartime cliches.
+Weapon pop-ups identify each pickup at a glance, and hit feedback switches from white to red on a killing blow. The antagonist, voiced by Kit Harington, and Reyes, voiced by the Wolfenstein Blazkowicz actor, give the cast star power.
 
-Overall, this ambitious excursion succeeds by prioritising polished mechanics and tactical diversity over the rigid boundaries of historical military fiction. Anyone who appreciates cinematic pacing and intelligent user interface design will find a rewarding experience here, as the seamless transition between combat styles keeps the momentum consistently high throughout.
+Overall, mission variety, the Ethan arc and the space combat make Infinite Warfare the strongest campaign in the series so far. The bullet-sponge enemies and the micro-stutter are the only real blemishes.

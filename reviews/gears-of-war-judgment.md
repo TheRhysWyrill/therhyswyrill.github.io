@@ -8,20 +8,20 @@ platform: "Xbox 360"
 release_year: 2013
 genre: "TPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Adopting an arcade-focused structure, this entry provides intense, bite-sized tactical challenges that successfully refresh the core combat loop for veteran series enthusiasts."
+summary: "A better game than expected whose declassified missions, testimony framing and Aftermath campaign lift the arcade-style structure."
 image: "/assets/img/reviews/gears-of-war-judgment.webp"
 ---
 
-Gears of War: Judgment defines itself through a bold, episodic structure that prioritises rapid-fire combat over the sweeping, cinematic narratives typical of its predecessors. This departure shifts the focus toward dense, arena-based engagements that feel like a hybrid of traditional campaign missions and the frantic intensity of dedicated horde modes.
+Gears of War: Judgment is a third-person shooter structured as court testimony, with Baird and his squad each recounting a chapter of the prequel story. The full campaign was completed with credits, plus the Aftermath bonus campaign unlocked with forty stars.
 
-Testimony from characters during a tribunal frames the unfolding events, effectively breaking the experience into punchy, arcade-style segments. While this format creates a disjointed narrative flow, it allows for a blistering pace that keeps players constantly moving between high-stakes skirmishes rather than wandering through long, narrative-heavy stretches of travel.
+The tribunal framing is the standout idea, telling the same battle from multiple perspectives through each character's testimony. The declassified missions add optional self-imposed challenge modifiers, from vision impairments to restricted weapons and timed runs.
 
-Optional modifiers known as Declassified missions inject significant depth into the progression by allowing players to heighten the difficulty for greater rewards. These clever additions force a shift in strategy, turning ammo scarcity into a test of skill by pushing soldiers toward aggressive, precise playstyles to overcome the environmental handicaps.
+The Aftermath bonus campaign flows better than the main game, telling a Gears 3 tie-in from Cole and Baird's perspective. The Bulldog pistol and the Nasher shotgun are standouts, and ammo drops from nearly every enemy keep the action moving.
 
-Weapon balance remains a contentious point, particularly regarding the altered utility of the Hammerburst. Long-time fans may find its diminished feedback and efficacy disappointing, as the lack of a precision zoom on several armaments limits strategic options during long-range encounters where accuracy is usually paramount for survival in this series.
+The camera shake is lessened compared to Gears 2, though it remains excessive overall. The Silverback mech section and the light-mass missile storyline give Baird's testimony arc a strong backbone.
 
-Technical hurdles occasionally mar the experience, with periodic memory issues and system crashes forcing unnecessary reloads. These stability problems disrupt the flow of intense battles, serving as a frustrating reminder that the software occasionally struggles to maintain its performance during the most chaotic, wave-filled sequences on the chosen platform.
+The arcade-style structure is the big problem, with every level lasting two to five minutes and a result screen after each segment. The testimonies do not flow into each other, feeling like jump cuts rather than a connected campaign.
 
-Level layouts sometimes feel underwhelming in scale, lacking the broader, environmental storytelling scope that defined earlier entries in the franchise. Despite the shorter mission designs, the sheer velocity of the action ensures that engagement levels remain high, even when facing repetitive enemy waves that spawn in patterns designed to irritate.
+The repetitive defend missions drag, with each testimony featuring a sit-and-hold segment that goes on far too long. The hammerburst is nerfed, the squad AI runs in front of fire, and the mers enemies are a constant annoyance.
 
-Overall, this unconventional spin-off succeeds by embracing a challenge-oriented identity that rewards tactical experimentation. Those seeking a traditional, cohesive odyssey might feel alienated, yet the core mechanics remain polished enough to make the truncated campaign a worthwhile pursuit for anyone who values pure, adrenaline-fuelled combat above all else.
+Overall, the declassified missions, the testimony framing and the Aftermath campaign make Gears of War: Judgment a better game than expected. The bite-sized levels, the disjointed flow and the repetitive defends are the caveats.

@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-21
 game_title: "Riddlewood Manor"
 permalink: /reviews/riddlewood-manor/
-verdict: "recommended"   # recommended | not-recommended | not-sure
+verdict: "recommended"
 platform: "PC"
 release_year: 2025
 genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Clever logic puzzles anchor this atmospheric gothic mystery, prioritising intellectual engagement and environmental discovery over reliance on predictable jump scares."
+summary: "A haunted-manor point and click whose interlocking puzzles, toy charm and sparse scares make a neat little adventure."
 image: "/assets/img/reviews/riddlewood-manor.webp"
 ---
 
-Riddlewood Manor establishes an eerie, gothic aesthetic that avoids the common pitfalls of horror titles by prioritising intellectual satisfaction over cheap thrills. Players navigate through a haunting environment where subtle clues and character-driven vignettes piece together the narrative without resorting to heavy-handed exposition or constant, intrusive cinematic breaks.
+Riddlewood Manor is a point-and-click horror adventure in which an amnesiac protagonist wakes in darkness and is drawn room by room through a haunted estate to help the ghost of Emily Riddlewood. The manor kills anyone who comes too close, so many interactions end in instant death and a restart at the room's beginning.
 
-Interconnected environmental puzzles form the backbone of the progression, rewarding experimentation and logical deduction at nearly every turn. Successfully unlocking a new area feels genuinely earned because most mechanics are grounded in consistent, context-specific interactions rather than arbitrary, hidden object requirements that plague the wider point-and-click genre.
+The room-by-room structure layers inventory puzzles across the house, from the entrance hall and dining area through the dungeon, sewers and catacombs to a dollhouse finale. Family-portrait matching, colour-mixing locks, a music-box chord sequence and the toy-house placements all interlock with the found correspondence.
 
-Point-and-click navigation remains largely intuitive, though the interface can occasionally become unresponsive during more complex sequences. These moments of technical friction highlight an inherent rigidity in the way items are handled, which may lead to frustration when trying to execute precise movements within the manor's more claustrophobic spaces.
+The backstory, delivered through letters and a grave monologue, grounds the scares in Emily's tragedy. The toy-flavoured lore, with freed toys given their own little dwellings and parody flyers scattered about, gives the manor genuine charm.
 
-Backtracking constitutes a significant portion of the movement loop, forcing one to revisit earlier rooms after acquiring specific tools or knowledge. While this fosters a deeper familiarity with the house, it sometimes stalls momentum when the player must repeat basic actions simply to reach the next logical step.
+Jump scares are sparse despite the horror framing, with only a handful of genuine shocks spread across the whole run. The scare count stays low enough that the tone never becomes a constant assault.
 
-Jump scares appear as thematic punctuation throughout the journey, but they arrive with such predictable timing that they lose their capacity to startle. These fleeting moments of tension act more as rhythmic markers in the pacing than genuine sources of fear, leaving the focus entirely on the cerebral challenge at hand.
+The puzzle design is clever and rarely too confusing, with items and clues tying together across the rooms. The one long sliding-block puzzle is the exception, demanding repeated near-complete rework before it finally gives way.
 
-Repetitive item gathering occasionally surfaces as a hurdle, yet the sense of discovery within the mansion's dark corners keeps the experience moving forward. Every solved puzzle feels like an incremental victory against the game's mystery, transforming the initial apprehension regarding horror elements into genuine appreciation for the well-structured, logical design.
+Deaths are frequent and occasionally unearned, with some hazards impossible to foresee, and one ghost chase depends on luck. The mouse-driven camera grates early on, and the ending boots straight back to the menu, cutting off post-game achievement hunting.
 
-Overall, the puzzle design provides a consistent sense of accomplishment that defines the entire playthrough. Despite minor technical constraints and the occasional slog through familiar hallways, the reward of unravelling the estate's secrets ensures that the time spent within its walls is both memorable and intellectually stimulating for the player.
+Overall, the interlocking puzzle design and the bittersweet story make this a very neat little game. The deaths sting and the length overruns expectations, but the cleverness and charm carry it.

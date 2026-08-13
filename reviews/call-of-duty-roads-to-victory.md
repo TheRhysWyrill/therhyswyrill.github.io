@@ -8,20 +8,20 @@ platform: "PSP"
 release_year: 2007
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Innovative auto-aim mechanics make this portable military shooter surprisingly accessible, effectively overcoming the hardware's inherent control limitations through thoughtful, player-friendly design choices."
+summary: "A surprisingly substantial handheld shooter whose mission variety and forgiving systems outshine its awkward controls."
 image: "/assets/img/reviews/call-of-duty-roads-to-victory.webp"
 ---
 
-Call of Duty: Roads to Victory translates the intense, linear thrills of the franchise onto a portable device with impressive mechanical competence. Developers successfully navigated the significant hurdle of lacking a second analog stick by incorporating robust target lock and aim assist systems that make firefights feel fluid despite platform constraints.
+Call of Duty: Roads to Victory is a PSP World War II shooter that delivers far more than expected from a handheld. Three campaigns cover the US, Canada and Britain across fourteen levels, from Normandy to Arnhem and the Rhine, with the US the longest by far.
 
-Navigating the environments occasionally highlights the technical limitations of the hardware, as movement speeds feel notably sluggish compared to home console counterparts. This lack of mobility is compounded by a restrictive absence of jumping or sprinting, which forces players to rely heavily on precise positioning rather than frantic, high-speed tactical evasion.
+Mission-type variety outpaces Medal of Honor Heroes, which offered only a couple of different types. The turret-gunner bomber mission and the target-lock system, which can be disabled, add welcome depth, and the absence of tank or driving missions is a relief.
 
-Combat encounters rely on modern genre staples such as regenerating health and generous checkpointing, which transform what could be a punishing slog into an accessible handheld adventure. These design choices ensure that the brisk three-hour campaign remains focused on explosive set-pieces instead of tedious repetition following minor tactical errors during intense firefights.
+Aim assist, target lock and regenerating health combine into a forgiving combination that suits the platform. Weapon handling is a pleasure, with the MP44 and the scoped rifles standing out alongside the satchel charges.
 
-Diverse missions help sustain engagement throughout the short runtime, featuring standout highlights like a plane-based gunship segment that serves as a high-point for the production. While the narrative remains purely functional and relies on static imagery, these scenarios effectively evoke a wartime atmosphere that feels authentic despite the graphical resolution limits.
+The Canadian campaign is a welcome change of theatre, covering the Scheldt, Walcheren and Operation Veritable. Britain's Operation Market Garden and the Arnhem bridge defence close out a solid tour, with decent visuals and generous checkpoints throughout.
 
-Enemy artificial intelligence displays erratic behaviour, with combatants occasionally popping into existence abruptly or demonstrating inconsistent hit-box accuracy. Deploying grenades feels particularly cumbersome during these rapid exchanges, as the slow, awkward aiming system makes these explosives difficult to utilise effectively when the pressure is at its most relentless peak.
+The control scheme is the weak point, a first-person shooter without a right stick, though a remap makes it tolerable. The game runs about three hours, short even by handheld standards, and slow movement speed is noted repeatedly.
 
-Technical performance unfortunately falters with rare but debilitating game-locking crashes that can occur during mission transitions or campaign conclusions. Stability concerns might seem daunting initially, yet the frequent save points ensure that progress remains relatively secure, allowing the core loop to remain largely enjoyable despite these periodic and unrefined hardware hitches.
+A lockup at the end of the Canadian campaign and occasional hitbox clipping mar the stability. Friendly fire pushes the player into enemy fire, and reused character models appear everywhere, along with a grenade that never detonated.
 
-Overall, this portable title succeeds as a competent military shooter that cleverly adapts console sensibilities for a pick-up-and-play audience. Fans of historical shooters seeking a brief but polished experience should find this entry rewarding, provided they can overlook minor control awkwardness and the occasional technical instability that stems from the platform.
+Overall, mission variety and the forgiving combat systems make Roads to Victory a decent PSP shooter. The awkward controls and the short length are the main caveats.

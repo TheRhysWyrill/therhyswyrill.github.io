@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-21
 game_title: "Monument Valley 2"
 permalink: /reviews/monument-valley-2/
-verdict: "recommended"   # recommended | not-recommended | not-sure
+verdict: "recommended"
 platform: "PC"
 release_year: 2022
 genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Evocative geometry and inventive optical illusions define this brief but masterfully polished journey through surreal architectural landscapes and evolving character dynamics."
+summary: "A meditative puzzle sequel whose two-character twist, optical illusions and short, stylish chapters land the mother-daughter story in ninety minutes."
 image: "/assets/img/reviews/monument-valley-2.webp"
 ---
 
-Monument Valley 2 establishes an exquisite aesthetic identity that immediately distinguishes itself through surreal, mind-bending geometry and vibrant colour palettes. Every screen oozes style, transforming simple interaction into a meditative exploration of impossible architecture that rewards the inquisitive mind with moments of genuine visual wonder.
+Monument Valley 2 is a puzzle game from ustwo Games, sending the mother Ro and her daughter through a valley of impossible architecture. The complete run covered all twelve main chapters and the Lost Forest expansion in around ninety minutes.
 
-Creative puzzle design sits at the heart of the experience, relying heavily upon clever optical illusions to manipulate the environment. Players must navigate these complex structures by shifting perspectives, often finding that the most elegant solutions hide in plain sight despite the initial temptation to overthink each sequence.
+The two-character mechanic is the defining twist, with the child mirroring the mother's movement early before leading her own way later. The mirroring makes a lot of sense for the pair, and the independent walking gives the journey a clear arc.
 
-Mechanical variety shines during the introduction of a secondary character, where the child mirrors the mother’s movements to add layers of spatial complexity. Managing two distinct figures within the same restrictive, geometric space creates a satisfying rhythmic interaction that keeps the core logic problems feeling fresh and surprisingly inventive.
+The optical-illusion puzzles are the recurring highlight, with the perspective tricks regularly described as a brain buster. The flat, crush-style levels are the most creative of the set, though they appear less often than they deserve.
 
-Pacing remains brisk, though the entire campaign and the included Lost Forest expansion conclude in roughly ninety minutes of play. While this brevity ensures that no sequence ever overstays its welcome, the fleeting nature of the experience might leave some yearning for a more substantial mechanical exploration.
+Light-based puzzles in the orchard chapter change the child's size through shadow and sunlight. Reflective mirror-world levels fold and flatten the geometry, while the minimalist tap-and-drag interaction model keeps every move calm and deliberate.
 
-Streamlined interface navigation removes unnecessary friction, allowing total focus to remain on the architectural manipulation rather than navigating cumbersome menus. This minimalist approach serves the presentation well, although the absence of a formal chapter list makes gauging one's remaining progress through the journey feel occasionally ambiguous for the player.
+The mother-daughter story unfolds through sparse text passages, with the chapters tracking the child growing up and learning her own path. The art direction oozes style, with colour shifts marking each chapter's mood and the music intensifying through the later chapters.
 
-Animation styles inject a distinct, bouncy energy into the proceedings, yet some brief puzzle-creation flourishes feel like missed opportunities for further experimentation. These short bursts of visual flair are undeniably charming, even if they occasionally disappear before the player can fully appreciate the underlying depth of the shape manipulation.
+The short runtime of around ninety minutes is accepted as part of the format, while the solutions regularly turn out simpler than the first glance suggests. The Lost Forest expansion carries a conservation message through its single explorer level.
 
-Overall, beauty permeates every aspect of this architectural odyssey, cementing its status as an inventive showcase of perspective-based craftsmanship. Successful design choices ensure that even familiar optical concepts feel revitalised by the new dual-character interactions and heartfelt, evocative narrative framing. Those seeking a polished, artistic diversion will find the brevity of this exquisite experience well worth the short time investment.
+Overall, the puzzle design, the two-character mechanic and the presentation make this a beautiful, inventive sequel that lands its story quickly. The flat levels' underuse and the short runtime are the main caveats.

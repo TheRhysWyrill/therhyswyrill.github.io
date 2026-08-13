@@ -5,23 +5,23 @@ game_title: "Re.Surs"
 permalink: /reviews/resurs/
 verdict: "recommended"
 platform: "PC"
-release_year: 2022
+release_year: 2021
 genre: "Shooter"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Switching between paranormal investigators on the fly keeps combat fluid while a thumping soundtrack drives the relentless pace of this tactical shooter."
+summary: "Three switchable heroes, a varied weapon roster and a Doom-like enemy flow make this 2D shooter a fun dystopian romp."
 image: "/assets/img/reviews/resurs.webp"
 ---
 
-Re.Surs positions players within a gritty world of futuristic cities and paranormal mysteries, blending investigative themes with frantic, high-density enemy encounters. Combat relies heavily on the ability to swap between unique characters during active firefights to maximise tactical variety against swarms of aggressive, supernatural foes.
+Re.Surs is a futuristic 2D side-scrolling shooter from VidyGames, following a detective through the neon dystopia of Modern City. The resar substance sits at the heart of the fiction, functioning as both a drug and a technology.
 
-Managing these distinct skill sets becomes second nature once the initial adjustment to the complex control scheme concludes. Teleportation beacons and protective energy shields allow for aggressive positioning, while the frequent health drops during demanding boss encounters encourage players to maintain an offensive momentum rather than retreating.
+Three playable characters can be switched mid-battle, each with distinct stats and gadgets such as shields, beacons and grappling hooks. The switching doubles as a health strategy, letting a low fighter swap out for a fresh one.
 
-Dynamic musical compositions elevate the sense of urgency, evoking the pulsing energy famously associated with the *Hotline Miami* series. These tracks sustain the atmosphere perfectly as the scenery transitions from urban sci-fi corridors into the increasingly surreal, nightmarish landscapes found within the mysterious underworld environment.
+The twin-stick shooting centres on an overheat meter, with every weapon demanding constant juggling between types during fights. The weapon roster is pleasingly varied, with the pulse rifle, shotgun and resar beam the standouts of the bunch.
 
-Acquiring new arsenal options like the flamethrower and grenade launcher grants a tangible sense of progression across the campaign. Each weapon type serves a distinct role in overcoming the high enemy density, ensuring that the tactical depth remains central to the experience from the first mission to the finale.
+The ultimate ability rewards careful timing, with energy building faster as more enemies close in and invincibility wiping the field. Generous health pickups and a full heal on death keep the run flowing through the increasingly chaotic horde fights.
 
-Minor technical bugs occasionally cause characters to vanish from the screen during late-game segments. Navigating these visual glitches complicates combat more than the intended design warrants, yet the strong underlying rhythm of the battles frequently compensates for these brief, distracting technical lapses in performance and polish.
+The combat takes a while to settle, with the odd control scheme and symbol-based prompts causing repeated early fumbles. The pyramid section leans heavily on trial and error, which sits poorly against the rest of the design.
 
-Certain traversal sections demand blind leaps or guesswork that shift the focus toward frustrating trial-and-error sequences rather than deliberate puzzle navigation. These segments contrast poorly with the generally fluid nature of the combat loop, though they fail to diminish the satisfaction gained from mastering the core character-switching systems.
+The soundtrack is a genuine highlight, with tracks that recall the synth pulse of Hotline Miami in a small way. The story's mystery around what resar actually is, and the creepy faceless antagonist, keep the campaign engaging throughout.
 
-Overall, the character-swapping mechanics provide a refreshing tactical layer that makes the intense, fast-paced shooting feel consistently engaging. Thumping soundtracks and rewarding weapon progression help players overlook the occasional control complexity, resulting in a memorable experience that captures the thrill of navigating through waves of paranormal adversaries.
+Overall, the weapon variety and the character switching make this a satisfying run and gun with a proper sense of escalation. The awkward early combat and the constant overheat juggling are the main hurdles, but the game settles into its groove.

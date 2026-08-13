@@ -6,22 +6,22 @@ permalink: /reviews/aphelion/
 verdict: "recommended"
 platform: "PC"
 release_year: 2026
-genre: "Adventure, Puzzle"
+genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Haunting atmosphere and gripping corporate mystery overcome mechanical rigidity, rewarding patient explorers who value narrative depth over fluid, high-octane movement or flawless technical polish."
+summary: "A cinematic sci-fi adventure on a frozen planet, where strong visuals and two distinct play styles carry a rescue story of real emotional weight."
 image: "/assets/img/reviews/aphelion.webp"
 ---
 
-Aphelion establishes a bleak, frozen landscape where the desperate search for survival creates an immediately palpable sense of isolation. Unnerving environmental groans combine with ethereal musical cues to build an unsettling soundscape that mirrors the protagonist’s struggle against a dying planet and its harsh, unforgiving geological formations.
+Aphelion is a cinematic sci-fi adventure on Persephone, a frozen planet, where astronaut Ariane must rescue her wounded partner Thomas after a crash landing. Play alternates between Ariane's climbing, traversal and stealth and Thomas's world-building and oxygen management.
 
-Climbing mechanics require constant concentration, forcing players to manage their balance and momentum while scaling precarious vertical surfaces. While the winch and perfect grab inputs provide immense satisfaction during successful ascents, inconsistent prompt recognition often transforms these demanding traversal sequences into a test of sheer endurance and patience.
+The two strands feel like different planets, with an icy wasteland on one side and a desert-like region on the other. Thomas's sections carry the world-building through minor puzzles and an oxygen management gimmick, while Ariane's hold the action.
 
-Audio logs hidden across the abandoned New Horizon base piece together a tragic history of corporate greed and human sacrifice. Uncovering the hidden agenda of the New Star organisation adds layers of dread, suggesting that every explorer traversing this world is merely another expendable asset in a much larger scheme.
+The Nemesis, a sound-sensitive monster, must be sneaked past using distraction points and cover, and the stealth stays a minor part of the whole. The climbing works well, helped by an abundance of footholds that keeps traversal flowing.
 
-Magnetic field manipulation introduces a unique puzzle-solving layer, differentiating the experience from standard exploration-heavy adventures. Navigating these anomalies through the M-Scanner feels conceptually brilliant, even if the navigational interface occasionally obscures the screen or becomes unintuitive during high-pressure moments where clear vision is essential for identifying the next objective.
+The visuals are the most impressive element, and the performance capture carries genuine emotion in the key scenes between the pair. The gameplay mix between the two characters keeps the two halves distinct, and the story payoff lands through the crew's fates and the planet's mystery.
 
-Survival systems such as oxygen management sporadically interrupt the immersion, functioning more like artificial constraints than genuine strategic challenges. These pacing hurdles occasionally clash with the desire to freely investigate the environment, forcing unnecessary backtracking when the narrative momentum should be pushing the explorer forward into the unknown.
+The Nemesis detection is the main frustration, because the monster detects on the slightest touch, which is easy rather than difficult. Terrain snagging causes constant falls during stealth, and a couple of traversal moments leave the intended route unclear.
 
-Predatory encounters involving the Nemesis creature highlight the limitations of the current control scheme, particularly concerning the lack of fluid crouch inputs. High-stress scenarios frequently feel clunky or unfair, as the inability to sprint or move stealthily during pursuit sequences exposes a frustrating lack of agency within the design.
+The late-game Nemesis gauntlet grows a little annoying toward the end. The emotional peaks arrive through the pair's bond and a final audio log, closing the story on a hopeful note.
 
-Overall, this journey offers a visually stunning and intellectually stimulating experience that overcomes its mechanical flaws through sheer atmosphere. Those who prioritise a slow-burn mystery and deep environmental storytelling will find a compelling world worth exploring, provided they accept that the controls may occasionally challenge their resolve along the way.
+Overall, climbing and the two-character mix make Aphelion an enjoyable sci-fi adventure with few real issues. The Nemesis detection and terrain snagging are genuine frustrations, but they stay secondary to a strong emotional story.

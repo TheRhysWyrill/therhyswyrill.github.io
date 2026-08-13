@@ -6,22 +6,22 @@ permalink: /reviews/bulb-boy-2-jar-of-despair/
 verdict: "recommended"
 platform: "PC"
 release_year: 2025
-genre: "Adventure, Puzzle"
+genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Creative puzzle mechanics and a vibrant, surreal art style elevate this whimsical adventure, ensuring a memorable experience despite occasionally obtuse logic and minor control hiccups."
+summary: "A worthy sequel whose improved art, stretch-and-shrink sausage platforming and creative puzzle logic outweigh obtuse interaction and a slow cursor."
 image: "/assets/img/reviews/bulb-boy-2-jar-of-despair.webp"
 ---
 
-Bulb Boy 2: Jar Of Despair utilises a surreal dream logic that prioritises inventive environmental manipulation over standard point-and-click conventions. By tasking players with experimenting through unconventional item combinations, the experience rewards lateral thinking while maintaining a consistently bizarre atmosphere characterised by unsettling creature designs and remarkably odd anatomical features.
+Bulb Boy 2: Jar of Despair is the sequel to the 2015 point-and-click horror adventure, sending the bulb-headed hero to the basement for a jar of jam. The errand spirals into a fight against sticky jelly creatures, with sections controlling the dog and briefly the grandfather.
 
-Vibrant and detailed hand-drawn visuals showcase a significant improvement in presentation compared to the previous entry. Whilst the aesthetic remains distinctively eerie, the shift towards a more whimsical tone feels like a natural evolution that keeps the world feeling fresh even when it leans into the grosser side of its identity.
+The art style has clearly improved over the first game, and the sequel adds controller support and colour beyond the original's green palette. The gross-out horror is toned down, giving the adventure a lighter feel.
 
-Controller support facilitates a far more fluid navigation of the interface, effectively modernising the genre's typical reliance on mouse-only inputs. This quality-of-life adjustment makes the process of inspecting objects feel considerably more precise, although the persistent emphasis on character anatomy during movement creates a bizarre, slightly distracting visual recurring motif.
+The sausage-body transformation is the standout mechanic, letting Bulb Boy stretch and shrink to solve platforming puzzles. Absurdist logic shines through solutions such as a sock fetching water, celebrated with genuine surprise.
 
-Mini-game segments occasionally introduce artificial friction due to sluggish cursor speeds that cannot be adjusted to suit personal preference. These moments of unpolished execution create spikes in difficulty that feel disconnected from the primary puzzle loop, momentarily stalling the momentum during otherwise quick-witted sequences that demand rapid and accurate responses.
+A shooting mini-game in the mould of House of the Dead is fun once the mouse takes over, though the cursor moves slowly and cannot be adjusted. The two-character finale demands split attention, with an enemy attack lacking any cooldown between strikes.
 
-Environmental puzzles demand patience when interactivity remains ambiguous, leading to instances where solutions rely on trial-and-error rather than pure deduction. Despite these bouts of confusion, the linear progression path effectively gates off further exploration, forcing the player to engage deeply with the immediate vicinity until the intended logic eventually clicks into place.
+Obtuse point-and-click logic is the main friction, with very few interactable objects making answers harder to find. The dog-and-flea section is the big stumper, requiring a solution the game never hints at.
 
-Technical performance remains impressively stable across the board, ensuring that the dream-like journey never suffers from crashes or significant bugs. Even when the logic seems impenetrable, the constant stream of strange, creative interactions ensures that curiosity remains the primary driver throughout the entire length of the bite-sized, surrealistic adventure.
+The pronounced butt-crack gag wears thin, dominating the view whenever Bulb Boy walks upward. Moments of genuine confusion about what can be done punctuate an otherwise creative run, with inventive detours such as the voodoo-doll segment keeping the ideas flowing.
 
-Overall, those seeking a charming, offbeat excursion into puzzle-solving will find this title a delightful refinement of its predecessor. It manages to balance its unique art direction with mechanical usability, proving that even a game featuring such peculiar anatomy can offer a truly rewarding and polished experience for inquisitive puzzle enthusiasts.
+Overall, art, mechanics and puzzle creativity make the sequel a worthy return to the Bulbhouse. The short run ends with a stinger that teases a third instalment.

@@ -5,23 +5,23 @@ game_title: "Ashina: The Red Witch"
 permalink: /reviews/ashina-the-red-witch/
 verdict: "recommended"
 platform: "PC"
-release_year: 2022 
+release_year: 2022
 genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Melancholy spirits and poignant family themes anchor this evocative adventure, which excels through masterful character writing despite minor navigation hurdles and repetitive puzzle loops."
+summary: "A gentle story-adventure whose item-trading loop and shared developer universe give the short spirit-world journey real warmth."
 image: "/assets/img/reviews/ashina-the-red-witch.webp"
 ---
 
-Ashina: The Red Witch constructs a surreal, melancholy spirit world that balances eerie encounters with whimsical inhabitants, crafting a uniquely lived-in afterlife. Eschewing traditional horror tropes, this bureaucratic vision of the beyond treats the realm as a place of purpose where entities strive to fulfil their duties amidst existential dread.
+Ashina: The Red Witch is an exploration-based adventure in which a girl named Ash chases a hungry spirit boy through a door into a Japanese-flavoured spirit world to recover her late mother's pendant. The afterlife setting spans cities such as Shuta, Jakara and Chigara, where a chain of item-trading favours drives the search.
 
-Following a spirit thief into this haunting dimension, the protagonist unravels a deeply human narrative centring on sibling rivalry and the enduring weight of maternal legacy. Every interaction feels heavy with emotional significance, transforming the search for a missing pendant into a profound exploration of grief and eventual acceptance.
+The trading loop recalls classic adventure games, with tasks such as fixing a boom box, catching a bun thief and washing dishes standing between Ash and her goal. The shared Stranga Games universe links the game to Red Bow and My Big Sister, and the connections between the titles are the highlight of the experience.
 
-Dialogue remains a standout achievement, blending sharp humour with poignant themes that define the quirky, deeply sad cast of spirits. Conversations possess a distinct rhythm, masking the underlying existential sorrow of characters who are desperately attempting to reconcile their own forgotten pasts within this strange, purgatorial work environment.
+The music carries a consistent theme across the game and ranks among its best elements. The dialogue writing also stands out for many characters, particularly the sassy shopkeeper banter.
 
-Progression relies heavily on item-based exchanges, requiring players to solve the persistent problems of local residents to secure necessary tools. Curiosity serves as the primary engine for movement, as speaking with every inhabitant frequently yields backstories that make the inevitable backtracking feel like a meaningful act of discovery.
+The spirit-world cities have a striking aesthetic, and the jump-scare gags plus the creepy Witch's House segment add a touch of horror. The game is short and sweet, easily finished in a single sitting.
 
-Clunky interactions with doors and manual transitions introduce minor friction, occasionally pulling the player out of the atmospheric immersion. These technical choices feel somewhat archaic against the otherwise smooth aesthetic, though they remain a functional, albeit intrusive, requirement for advancing through the various sectors of this spirit realm.
+Gameplay is minimal by design, mostly walking and talking, which sits comfortably within the adventure genre. The item-trading quests occasionally cause friction over fetching rice, cigarettes, soap and meat.
 
-Environmental triggers sometimes lack sufficient visual feedback, leading to fleeting moments of uncertainty when attempting to initiate specific actions. Despite these mechanical irritants, the cohesive art style and evocative sound design successfully maintain the project’s identity as a thoughtful piece of character-driven, surreal storytelling throughout every single encounter.
+The dialogue-loading sound is obnoxiously loud, and the cuckoo-clock puzzle confuses because its purpose stays unclear and its stop-start ticking raises soft-lock worries. These are minor complaints against a short, warm adventure.
 
-Overall, this compact experience triumphs by prioritising an emotionally resonant journey that transcends the limitations of its point-and-click foundations. While the item-trading loop demands patience, the heart-wrenching conclusions reached by the cast provide a lasting impression, making this journey a must for those who prioritise narrative depth above mechanical complexity.
+Overall, trading and the connected Stranga universe make Ashina: The Red Witch a gentle, pleasant adventure. The minimal gameplay and the loud dialogue sound are small costs for the charm of the spirit world.

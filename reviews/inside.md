@@ -4,24 +4,24 @@ date: 2026-07-11
 game_title: "Inside"
 permalink: /reviews/inside/
 verdict: "recommended"
-platform: "Xbox Series X"
+platform: "Series X"
 release_year: 2016
-genre: "Puzzle"
+genre: "Platformer, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Cryptic world-building and increasingly surreal set pieces combine to create a haunting, wordless masterpiece of environmental storytelling and rhythmic puzzle-based exploration."
+summary: "A mysterious puzzle-platformer whose massive sense of scale, audio design and mind-control gimmick make it a cool experience."
 image: "/assets/img/reviews/inside.webp"
 ---
 
-Inside weaves a silent, oppressive tapestry of dread, pulling players into a mysterious facility where every shadow pulses with unnerving, wordless intent. Shifting seamlessly from a simple forest trek into a sprawling, industrial nightmare, the world design consistently demands that the protagonist push forward through increasingly hostile and enigmatic landscapes.
+Inside is a puzzle-platformer from Playdead, following a boy's wordless descent from a woods into an ever-deepening facility. The full game was completed through its memorable finale and zoom-out ending in a single stream.
 
-Mechanical precision often dictates success when navigating these perilous environments, particularly during high-tension chase sequences that demand split-second timing. Although movement occasionally feels slightly cumbersome when the stakes are at their highest, the satisfaction of overcoming these environmental hurdles provides a vital anchor for the unfolding journey.
+The sense of scale is the recurring wow, with everything in the world feeling enormous and the boy like an ant within it. The comparison to Little Nightmares is telling, since this world feels a whole other level larger.
 
-Creative puzzle design keeps the progression feeling invigorated, frequently introducing fresh mechanics like water-based navigation or mind-control apparatuses to challenge the player’s intuition. Solving these obstacles rarely relies on tedious logic, instead favouring a fluid integration that ensures the momentum of the adventure remains largely uninterrupted by unnecessary, complex interface management.
+The descent narrative keeps delivering, with the facility just continuing through submerged ruins, an overgrown abandoned complex and ever-deeper chambers. The atmosphere is carried by audio, with a distant heartbeat that grows bigger, higher, louder and faster with danger.
 
-Unsettling NPC behaviours and symbolic imagery define the tone, constantly raising uncomfortable questions about the nature of the facility and the protagonist's silent goals. Such cryptic narrative delivery avoids traditional exposition, allowing the grim, husk-like appearance of the denizens to communicate volumes about the decaying reality surrounding this lonely, vulnerable boy.
+The mind-control mechanic is a highlight, with a helmet that lets the boy command the husk-like workers and collect a crew that follows along. The gathered workers help in later sections, making the mechanic feel genuinely useful.
 
-Collectibles masquerading as hidden disco balls feel somewhat incongruous, failing to offer any tangible insight or satisfying reward for the effort required to locate them. These minor distractions provide little value compared to the intense, surreal shift occurring during the final segments, which remain the most horrifyingly memorable highlights.
+The blob finale is a memorable payoff, with the mass of bodies smashing through the facility and nothing able to hold it in. The ambiguity of the ending is acknowledged as a feature, with more questions at the close than at the start.
 
-Performance remains remarkably solid across the board, ensuring that no technical hiccups disrupt the focus on navigating dangerous terrain or deciphering the environment’s bizarre secrets. Checkpointing ensures that even when a failure forces a repeat of a platforming section, the loss of progress remains minimal enough to prevent lasting frustration.
+The narrative stays opaque throughout, with why the boy heads for the facility and what the workers are left unexplained. Some puzzles stump, the blob controls are clumsy, and the dog sections rely on trial and error with tight jump timing.
 
-Overall, this haunting adventure succeeds by prioritising evocative atmosphere and intellectual curiosity above conventional action-oriented spectacle. Any slight friction in controls is rapidly forgotten amidst the brilliant, wordless storytelling that leaves a lingering sense of mystery long after the final, surreal conclusion fades into the cold, silent credits.
+Overall, the sense of scale, the audio design and the mind-control gimmick make this a cool and mysterious puzzle-platformer. The opaque story and the occasional puzzle stumps are the caveats.

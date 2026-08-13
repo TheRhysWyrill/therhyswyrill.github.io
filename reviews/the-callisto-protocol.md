@@ -4,24 +4,24 @@ date: 2026-07-21
 game_title: "The Callisto Protocol"
 permalink: /reviews/the-callisto-protocol/
 verdict: "recommended"
-platform: "PC"
+platform: "Series X"
 release_year: 2022
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Deflecting industrial horrors with directional dodges transforms brutal close-quarters brawls into satisfying tests of tactical discipline beneath dim prison lights."
+summary: "A forgiving dodge-based combat system, gloriously gory dismemberment and a gorgeous sci-fi prison setting carry this melee-focused survival horror."
 image: "/assets/img/reviews/the-callisto-protocol.webp"
 ---
 
-The Callisto Protocol anchors its claustrophobic survival horror framework in a bleak, infection-ravaged prison facility where an unjustly incarcerated cargo pilot must survive a horrifying biological outbreak. Grimy industrial sectors and sub-surface ruins establish an oppressive mood, constantly reinforcing the constant friction between distrustful survivors desperate to escape.
+The Callisto Protocol pairs its melee-first combat with a forgiving dodge system, where holding left or right before an enemy strike avoids any attack. The result is a duel-like flow in which enemies queue up one at a time, and that simplicity is the combat's greatest strength.
 
-Close-quarters melee skirmishes form the primary backbone of engagements, requiring players to read enemy animations and execute rhythmic directional dodges to avoid devastating damage. Combining light and heavy baton swings creates a crunchy, deliberate rhythm that distinguishes encounters from traditional over-the-shoulder shooter conventions.
+The baton anchors the fighting, and disarming foes by breaking their arms leaves them harmless, while heads pop like watermelons under the game's gloriously over-the-top gore. The gun complements the baton rather than replacing it, and that melee focus gives the game a distinct identity.
 
-Gravity-based grip gloves allow survivors to lift mutating threats and hurl them directly into lethal environmental hazards like wall spikes or spinning fans. Utilizing these Kinesis throws proves vital for controlling aggressive groups, particularly when severe resource scarcity leaves ammunition reserves and health injectors dangerously depleted.
+The presentation is exceptional, with the game described as drop dead gorgeous and genuinely impressive on a purely visual level. The detailed character models, lighting and reflections carry the grim prison atmosphere throughout the campaign.
 
-Biological mutations force players to immediately prioritise specific enemy targets before their bodies adapt into far more dangerous forms. Upgrading firearms and baton parameters at 3D printer stations provides crucial statistical boosts, though gathering enough local currency requires thorough searching across the dark, hazard-strewn facility.
+The story opens with cargo pilot Jacob Lee crashing onto Callisto and being thrown into Black Iron Prison moments before an outbreak, with the mystery unfolding through a tight prison escape. The reveal that his cargo caused both the Europa attack and the Black Iron outbreak ties the plot together, with Warden Cole's fanatical Circle echoing Dead Space's Unitology.
 
-Restricted inventory capacity continuously disrupts the momentum of exploration, forcing frequent stops to discard valuable items or manage supplies. Scouring optional side corridors typically yields modest currency rewards rather than substantial equipment discoveries, making detours feel somewhat underwhelming during frantic escape attempts across industrial sectors.
+The game is rarely genuinely scary, with scripted scares proving predictable and only ambushes from behind catching anyone off guard. The grip ability underwhelms early, and the six-slot inventory frustrates until the spacesuit expands it.
 
-Scattered audio logs flesh out the sinister background plot involving human evolution through infection, yet contextualising these recordings across chapters often proves cumbersome. Early stuttering issues during cinematic sequences quickly give way to a stable performance that allows the detailed lighting and grimy visual design to shine.
+The two-headed brute boss is overused, appearing three or four times and demanding enormous amounts of ammo. The Final Transmission DLC's final boss fares worse, with an unavoidable ground-pound attack, a two-hit kill and an endless health bar, the worst part of the game.
 
-Overall, the directional dodge system and heavy melee encounters deliver a satisfyingly tactile rhythm that sustains the tension through every claustrophobic corridor. Navigating restrictive inventory constraints and modest exploration rewards remains a minor drawback against the impressive atmospheric presentation and brutal close-range combat.
+Overall, the fun combat, gorgeous presentation and engaging mystery outweigh the rough edges, and the result is an easy recommendation. The DLC finale is the only genuine blemish on an otherwise strong survival horror.

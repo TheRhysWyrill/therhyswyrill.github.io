@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-21
 game_title: "If On A Winter's Night, Four Travelers"
 permalink: /reviews/if-on-a-winters-night-four-travelers/
-verdict: "recommended"   # recommended | not-recommended | not-sure
+verdict: "recommended"
 platform: "PC"
 release_year: 2021
 genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This haunting anthology delivers four tragic character studies through masterful psychological storytelling, creating a deeply unsettling experience that remains a triumph of narrative-driven horror."
+summary: "A free, dark four-story anthology whose distinct tales, clever puzzles and train framing make it a neat little game."
 image: "/assets/img/reviews/if-on-a-winters-night-four-travelers.webp"
 ---
 
-If on a Winter's Night, Four Travelers unfolds as a haunting anthology where four strangers converge on a train to trade grim histories. This narrative framework allows for a sequence of distinct, unsettling character portraits that delve into the weight of regret, past trauma, and the inescapable consequences of individual actions.
+If On A Winter's Night, Four Travelers is a narrative-driven point-and-click adventure from Dead Idle Games, exploring four distinct stories that share a masked ball aboard a train. All four tales were completed through the framing reveal and the credits in under two hours.
 
-Surreal imagery permeates every scene, transforming mundane social interactions into psychological nightmares that catch the player completely off guard. By prioritising a grim, melancholic tone over startling jump scares, the game maintains a persistent sense of unease that effectively mirrors the internal fracture of its diverse, tragic protagonists.
+The price is the headline, since the game is completely free and still feels substantial enough to deserve a paid release. A couple of pounds would be entirely reasonable regardless of the length.
 
-Point-and-click mechanics facilitate this discovery, providing an intuitive interface that encourages thorough environmental examination at a deliberate, measured pace. Solving these interactions reveals subtle narrative clues, which piece together the sorrowful threads connecting each traveler to their inevitable demise within these beautifully rendered, albeit constrained, nineteen-twenties aesthetic dioramas.
+The four-story structure keeps things fresh, with each tale fairly different from the others in tone and setting. Carlo's Rome hotel confrontation, the laudanum-soaked Wiltshire manor and the occult ritual in a hospital each carry their own identity.
 
-Puzzles occasionally rely on cryptic symbolic references that disrupt the fluid progression established during the earlier, more focused segments. These opaque requirements sometimes necessitate a degree of trial-and-error, which creates a slight disconnect from the otherwise seamless experience of unraveling the deep psychological motivations behind each character’s descent into darkness.
+The puzzles land well, from the laudanum hallucinations that blur what is real to the delayed clock puzzle set to match a grandfather clock. The ritual bowls and the wound-man markings add further layers to the occult material.
 
-Forced aspect ratio limitations persist as a visual annoyance, placing distracting black bars across the screen that clash with the polished art direction. While these pillarboxing constraints are unfortunate for those using widescreen monitors, they fail to obscure the immense quality of the writing and the evocative power of the soundscapes.
+The Samuels arc is the deepest of the four, with a chapel full of abandoned soldiers and a final confrontation that ties his choices together. The audio craft is noticed, with the neighbouring flat's arguing audible as a nice touch.
 
-Momentum falters slightly during the concluding act, which feels rushed when compared to the methodical buildup of the previous stories. Despite this minor compression of the finale, the cumulative impact of the anthology remains profoundly affecting, highlighting how successfully these short segments manage to convey complex, harrowing themes of guilt.
+The length is minimal, with the four stories passing quickly, and the Winterborn tale's fades can confuse as to what is real. The Samuels ending remains ambiguous, and some interaction requires realising a click is needed first.
 
-Overall, this exceptional piece of narrative horror succeeds as a sophisticated exploration of human fragility, proving that high-calibre storytelling thrives independent of commercial pricing. Every segment of this journey feels earned, leaving a lasting impression that far exceeds the modest expectations one might hold for such a compact, free-to-play adventure.
+Overall, the four-story structure, the puzzle craft and the dark tone make this a neat little game. The free price makes the short length easy to forgive.

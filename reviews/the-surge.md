@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2017
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Targeting specific limbs during industrial skirmishes forces a surgical approach to combat, turning every lethal encounter into an opportunity for essential gear and schematics."
+summary: "A sci-fi action RPG whose limb-targeting combat turns every encounter into a decision about the equipment on offer."
 image: "/assets/img/reviews/the-surge.webp"
 ---
 
-The Surge anchors its industrial science-fiction setting in a haunting corporate facility where every skirmish serves a specific tactical purpose. Players must navigate a complex maze of interconnected shortcuts that reward careful exploration while peeling back layers of a tragedy through scattered audio logs and environmental storytelling cues.
+The Surge is a science-fiction action RPG from Deck13 set inside the factory complex of a vast mega-corporation. A wheelchair-bound protagonist gains the ability to walk through an exo-rig procedure, but a catastrophic event soon turns the workforce hostile.
 
-Dismembering robotic foes provides a surgical feedback loop that forces a constant choice between immediate damage or long-term gear acquisition. Targeting unarmoured limbs helps harvest essential crafting materials, though prioritising these strikes often requires bypassing safer combat strategies to ensure the player gathers enough schematics for necessary upgrades.
+Combat centres on targeting individual body parts, with dismembered limbs yielding weapon schematics, armour materials and crafting components. The risk-reward loop turns every fight into a small decision about which piece of gear to pursue, and executions finish the job with brutal kill cams.
 
-Managing stamina consumes considerable mental effort during early hours, as the high cost of dodging leaves the exo-rig operator vulnerable to heavy hammer strikes. Mastering this rhythmic demand for restraint eventually transforms these restrictive encounters into deliberate, rewarding displays of precision where every swing of a staff counts.
+The souls-like structure is familiar, with med bays acting as checkpoints and tech scrap lost on death, though banking currency at a med bay keeps it safe. Implants, weapon proficiency and core power levels give the build plenty of room to grow.
 
-Banking tech scrap at MedBays introduces a precarious risk-reward cycle that heightens the tension during every excursion away from safety. Players frequently wrestle with the impulse to push further into the labyrinthine facility, balancing the desperate need for more powerful equipment against the potential loss of their hard-earned currency.
+The base game is compact, with only five bosses across the campaign, and the two expansions add an amusement-park area and a western-themed arena mode. The arena expansion's nine episodes repeat just three locations and bosses, which undercuts the variety its structure promises.
 
-Navigating the pervasive gloom requires constant use of flashlight mechanics, yet even then, the dark environment occasionally obscures critical details. Obstructive interface elements further complicate visibility in these high-stakes moments, occasionally leaving agents fumbling against aggressive attackers when clear identification of specific enemy threats becomes difficult within the cramped corridors.
+The lock-on system is the main mechanical frustration, with targeting the body and legs proving finicky in the heat of combat. Two crashes interrupted the run, including one during the closing boss fight, though frequent checkpoints cushioned the losses.
 
-Gorgon sets and twin-rig weapons offer distinct playstyles that alleviate the grind inherent in mastering the opening hours of the campaign. Once the protagonist overcomes the initial fragility, the facility transforms from a punishing gauntlet into a logical playground where the player feels increasingly capable of surgical, effective combat manoeuvres.
+The western arena expansion doubles as an excellent source of upgrade materials, and both expansions hold up well on their own. The forced returns to the main campaign to unlock further DLC progress remain the expansions' most awkward design choice.
 
-Overall, the limb-targeting mechanics provide a distinct identity that separates this industrial odyssey from its fantasy-themed peers. Precision remains the primary driver of forward progress, ensuring that those who survive the aggressive enemy AI are consistently rewarded with the mechanical satisfaction of turning robotic scrap into superior protective gear.
+Overall, the dismemberment combat remains the draw, rewarding targeted play with tangible equipment rewards. The game has aged well, and the compact campaign, strong core mechanic and generous expansions make the whole package well worth playing.

@@ -8,20 +8,20 @@ platform: "PS2"
 release_year: 2006
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Aggressive shield-led room clearing transforms police procedural tropes into a tactical shooter where precision headshots and specialist NPC orders drive the weapon progression loop."
+summary: "A riot-shield first-person shooter where non-lethal arrests, medals and news broadcasts frame a citywide war."
 image: "/assets/img/reviews/urban-chaos-riot-response.webp"
 ---
 
-Urban Chaos: Riot Response adopts an aggressive stance on police-procedural combat by favouring close-quarters tactical engagement over standard run-and-gun dynamics. The riot shield functions as the primary tool for this shift, granting a near-invulnerable frontage that allows players to push through hazardous zones while maintaining steady control of every encounter.
+Urban Chaos: Riot Response is a first-person shooter in which Nick Mason of the Zero Tolerance Squad fights street gangs across a city under siege. The story is framed by Channel 7 News broadcasts between missions, a structure that suits the escalating campaign.
 
-Unlocking prototype equipment through the completion of urgent mini-challenges keeps the momentum high and directly incentivises the pursuit of tactical excellence. Every successful hostage rescue or room clear feels earned because the resulting arsenal of specialised gadgets and shotguns provides tangible benefits for subsequent runs throughout the volatile city.
+The riot shield is the defining tool, blocking damage and enabling shield-bashing at close range. A stun gun brings gang members in alive, and captured leaders open interrogations and special missions that reward non-lethal play.
 
-Precision remains paramount during these chaotic firefights, with headshots providing visceral audio and visual feedback that encourages disciplined aiming. While the heavy reliance on thick smoke and fire-ravaged environments frequently obscures the field of view, these visual hazards add to the gritty, urgent atmosphere of the escalating urban emergency.
+Medals reward skilled play, tracking headshots, incapacitations, no-checkpoint and no-death runs, and unlocking weapon upgrades as the campaign proceeds. Emergency missions are separate short levels with a five-minute timer, running to a kidnapped VIP and back.
 
-Issuing context-sensitive orders to NPC medics and firefighters proves far more engaging than simply trailing passive allies through level geometry. These team members serve as essential tactical components for clearing hazards or restoring health, provided they do not become inadvertently trapped on the environment during particularly frantic moments of the mission.
+Enemies escalate from Molotovs and cleavers to machine pistols, grenades, rocket launchers and Magnums, with shielded foes appearing late in the campaign. Gang leaders wear distinctive masks and are easy to kill by accident, breaking medal runs.
 
-Auto-centering aiming defaults often feel intrusive and counter-intuitive, necessitating manual adjustment to ensure the player retains full authority over their targeting reticule. Once players disable these restrictive assists, the deliberate pace of room clearing becomes significantly more satisfying and rewards the methodical study of enemy movement patterns across the city.
+Medics stationed at checkpoints keep the difficulty fair, a major reason the combat stays fun rather than punishing. Hostage situations use a fake-out where the gunman feigns surrender, so a moment of hesitation proves costly.
 
-Televised news broadcasts set a serious, zero-tolerance tone that keeps the narrative focused squarely on the mounting societal disorder. Although these segments repeat somewhat frequently, they successfully bridge the gaps between missions and reinforce the high-stakes nature of maintaining order in a crumbling metropolis prone to sudden, violent outbursts.
+The emergency missions are the weak point, repeating the same hostage-rescue structure with only the location changed between them. The game also crashed far into a first attempt, forcing a complete restart.
 
-Overall, the riot shield mechanics redefine how room clearing should feel in a tactical shooter by prioritising aggressive forward movement. Despite the occasional instability that can lead to frustrating crashes and the persistent path-finding issues for NPC allies, the rewarding progression and visceral combat loop create a consistently compelling experience.
+Overall, combat is a blast, with the shield, stun gun and medal system combining into a satisfying loop. It is a really cool game, and the final safe-house mission lands as a strong closer to the campaign.

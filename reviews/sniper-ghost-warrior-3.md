@@ -5,23 +5,23 @@ game_title: "Sniper: Ghost Warrior 3"
 permalink: /reviews/sniper-ghost-warrior-3/
 verdict: "recommended"
 platform: "PC"
-release_year: 2017 
+release_year: 2017
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Detailed ballistics and methodical drone scouting define these tense long-range engagements, providing a satisfying tactical loop despite persistent performance inconsistencies and unpolished environmental interactions."
+summary: "A Georgian open-world sniper game of extreme-range set-pieces and collectible rifles honouring real marksmen."
 image: "/assets/img/reviews/sniper-ghost-warrior-3.webp"
 ---
 
-Sniper: Ghost Warrior 3 succeeds when the player adopts a deliberate pace, turning every objective into an intricate puzzle defined by scouting and tactical foresight. Utilising the drone to tag hostiles provides an immense sense of preparation, allowing the specific thrill of simulated ballistics to shine through during complex, long-range sniper scenarios.
+Sniper: Ghost Warrior 3 sends marine sniper John North across three regions of the Republic of Georgia to find his kidnapped brother Robert. The kidnapped brother lies at the centre of a conflict that grows increasingly personal as the conspiracy around it expands.
 
-Precision remains paramount as players calculate bullet drop and elevation before squeezing the trigger against distant targets. Mastering these detailed mechanics transforms the experience from a standard military shooter into a patient observation of the battlefield, rewarding those who take the time to study their environment before initiating any hostile action.
+The extreme-range sniper fantasy is the core thrill, with set-pieces landing shots of 400 to 500 metres and beyond. The collectible rifles honour real legendary marksmen, whose long-distance feats give the arsenal a distinctive historical flavour throughout.
 
-Technical performance struggles to maintain stability, frequently stuttering even on hardware that should easily handle the demands of the open map. These performance dips are compounded by a cumbersome inventory system that complicates ammunition management and attachment swaps through a needlessly confusing interface that actively hinders the flow of tactical play.
+The drone handles recon, tagging, hacking and camera access, while scout mode reveals enemy positions across the map. The compound bow, the heavily stocked LMG and the collectible sniper rifles give the toolset real flexibility.
 
-Open-world exploration often feels like navigating a list of repetitive tasks rather than inhabiting a living space. While points of interest populate the landscape, they lack the mechanical variety required to sustain long-term interest, often leaving the rewards for clearing outposts feeling hollow or entirely disconnected from the core loop of play.
+The Far Cry-style open world spans three regions with 191 points of interest, though much of it feels underfilled. Clearing outposts does little because they respawn, and crafting is pointless since everything can be bought outright.
 
-Non-sniping engagements reveal significant friction, as attempting to switch styles to stealth or assault frequently exposes the lack of fluidity in movement. Awkward controls during close-quarters combat make melee takedowns feel clunky, while inconsistent interactions with ledges or ladders highlight an intuitive design that misses the mark during intense, high-pressure moments.
+The alert AI is the biggest issue, with a single missed shot or a spotted drone making every enemy know exactly where the player is. Enemy weapon variety is poor, with every foe carrying one of about three weapons.
 
-RPG-lite elements, including the skill tree, provide minor perks but rarely influence the immediate tension of the mission flow. Players may find themselves bogged down by crafting and looting systems that clutter the screen with unnecessary micro-management, effectively drawing attention away from the primary thrill of long-distance marksmanship and environmental reconnaissance.
+Performance is erratic, running poorly on very high settings before settling into something more acceptable overall. The save system relies entirely on checkpoints, and the slow climbing-down mechanic requires a button press to drop off ledges.
 
-Overall, the sniping mechanics create a focused experience that remains deeply satisfying despite the rough edges presented by inconsistent frame rates and uninspired side content. Dedicated fans of the genre will likely find the satisfaction of a perfectly executed sync-shot worth the effort of navigating the surrounding technical and design frustrations.
+Overall, the long-range set-pieces and the historical rifles make this a memorable sniper game. The reactive alert system and the repetitive open world dilute the campaign's strengths.

@@ -6,22 +6,22 @@ permalink: /reviews/momodora-3/
 verdict: "recommended"
 platform: "PC"
 release_year: 2014
-genre: "Action"
+genre: "Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Punchy action platforming and deep charm customisation create a rewarding, bite-sized arcade experience that excels through its tight pacing and high replayability."
+summary: "A brisk linear platformer whose item system, two playable priestesses and short length make it a fun little hour."
 image: "/assets/img/reviews/momodora-3.webp"
 ---
 
-Momodora III pivots sharply from previous series conventions by embracing a linear, arcade-inspired action structure rather than sprawling exploration. This shift into focused, area-based progression allows the compact adventure to deliver its entire narrative arc within a single hour of play, rewarding those who prioritise tight, repeatable gameplay loops.
+Momodora III is a platformer from Bombservice, returning the series to a linear level-based structure after the metroidvania of the predecessor. The complete run took just over an hour, covering both endings, full completion and the new game plus mode.
 
-Customising combat capabilities through various equipable charms adds considerable mechanical depth to the simple leaf-based melee strikes. Equipping specific items provides distinct tactical advantages, such as healing modifiers or summoned allies, which help mitigate the difficulty spikes presented by more aggressive, erratic enemy types encountered throughout the cursed land.
+The two playable priestesses offer distinct campaigns, a series first for the franchise. The item-and-ring equip system replaces the leaner structure of the earlier entry, with the dream ring, the speed ring and the love letter shaping the loadout.
 
-Frustration occasionally arises when facing explosive foes that deal lethal damage with little warning. These high-stakes skirmishes demand precise timing, though the short duration of each stage ensures that failure rarely feels like an insurmountable setback during a pursuit of the secret good ending found through specific character interactions.
+The summon-stone helper ghost attacks on its own, proving kind of broken but pretty cool in the fights. The extreme knockback is the main hazard, with a single hit sending the character flying across the screen.
 
-Navigating the limited map functionality proves manageable due to the linear nature of the distinct areas. While the game provides little guidance, the lack of sprawling, interconnected paths prevents any true sense of confusion, allowing the focus to remain firmly on clearing rooms and collecting essential character stat upgrades.
+The item system rewards experimentation, with the love letter healing on kills, the golden flower doubling money and the bomb spell adding range. The costume seed plants a bonus area with an optional boss, extending the short campaign.
 
-Technical setup requires a degree of manual effort, particularly regarding the lack of native controller support within the interface. Configuring button maps via Steam is a necessary initial hurdle, much like ensuring specific windowed settings are active to maintain proper visual stability for those recording their journey through the grave.
+The level design carries the campaign, with the six main stages plus the time-distortion and final areas keeping the pace brisk. The two-ending structure echoes the series, with credits only on the kinder path.
 
-Minimalist storytelling functions primarily as a framing device for the mission to save the protagonist's siblings from invading spirits. Players looking for expansive world-building may find the sparse dialogue insufficient, but for those driven by the thrill of optimising an equipment build, the plot serves its purpose without imposing itself.
+The contact damage is a recurring annoyance, with the touch of an enemy costing health and the knockback compounding it. The bomb-carrying enemies are the main caveat, with the inconsistent instant-kill explosions cheapening the fights.
 
-Overall, the leaf weapon combat and charm-based loadouts define a punchy, repeatable action journey that rewards efficient play. Mastering these systems while bypassing the initial controller configuration friction provides a genuine sense of accomplishment, especially when the final credits roll after a successful, high-intensity run through the underworld.
+Overall, the level design, the item system and the brisk pacing make this a fun little platformer worth an hour of anyone's time. The knockback and the instant-kill bombs are the caveats.

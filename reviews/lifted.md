@@ -6,22 +6,22 @@ permalink: /reviews/lifted/
 verdict: "recommended"
 platform: "PC"
 release_year: 2026
-genre: "Adventure, Platformer"
+genre: "Platformer, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Fluid momentum-based grappling mechanics and energetic slide sequences drive a comedic time-travelling adventure supported by exceptionally forgiving checkpoint placement."
+summary: "A time-travelling puzzle-platformer whose writing, painterly visuals and forgiving checkpoints make it a cool adventure."
 image: "/assets/img/reviews/lifted.webp"
 ---
 
-Lifted marries limbless character aesthetics reminiscent of Rayman with a fast-paced, time-travelling narrative that unfolds like a playable animated film. Accidental trips across centuries alongside Professor Lionel establish a wonderfully vibrant global trek, spanning dusty Egyptian tombs, pirate-infested Caribbean hideouts, and snowy mountain peaks.
+Lifted is a puzzle-platformer from Adventure Works, following a schoolgirl and her absent-minded professor on a time-travelling treasure hunt through history. The complete first playthrough finished in a single session, from the Anytime Elevator's malfunction to the present-day resolution.
 
-Exceptionally sharp comedic writing fuels the dynamic between young Ari and his eccentric academic companion, driving the adventure forward through constant witty banter. These engaging verbal exchanges maintain a charmingly lighthearted tone that seamlessly connects every historical era without ever losing narrative momentum or charm.
+The writing and characters are the standout, with the comedic banter between the schoolgirl and her professor landing throughout and the running gags paying off. The roller-coaster structure pleases, alternating adventuring puzzle sections with escape sequences in a way that feels like a movie.
 
-Core traversal relies on precise side-scrolling movement, dynamic wall-bouncing, and a momentum-driven grappling hook that swings smoothly across wide gaps. Thrilling downhill slides and frantic escape chases regularly disrupt standard platforming, injecting exhilarating bursts of speed into the expansive globe-trotting journey.
+The visual presentation is gorgeous, with painterly scenes that never betray the Unreal engine underneath. The Rayman-inspired design is the hook, with the tic-tac bodies and limbless characters drawing the eye from the first moment.
 
-Interactive light-reflection puzzles and environmental block-pushing challenges offer thoughtful intellectual breaks between high-speed movement segments. Fluid rendering in Unreal Engine brings these scenic locations to life through vivid environmental lighting, lush foliage, and immaculate visual performance across every detailed historical backdrop.
+The checkpoints are forgiving, with a two-hit buffer before perishing and respawns close at hand after every fall. The grappling hook traversal delights, swinging the pair through time and space between the varied historical chapters.
 
-Generous checkpoint placement minimises frustration during demanding platforming sections, allowing players to recover instantly from miscalculated jumps. This remarkably forgiving progression framework encourages confident environmental experimentation without heavily punishing minor mistakes during complex aerial manoeuvres, tricky ledge jumps, or rapid chase escapes.
+The time-travel premise keeps each chapter fresh, stitching together Egypt, Tortuga, the Yucatan, the Dolomites and Abu Simbel. The camera constantly shifts, however, making it easy to miss hooks and hard to read where the game wants the player to go.
 
-Abrupt camera shifts during tight cornering can occasionally disorient spatial awareness or temporarily obscure narrow landing ledges. Optional hidden collectibles feel somewhat underwhelming because they only grant cosmetic character skins rather than expanding core movement mechanics or unlocking additional abilities for subsequent playthroughs.
+Jump distances are frequently misjudged, with platforms seeming closer than they are and spikes catching the careless. The game is heavily cutscene-driven, and the collectibles only unlock skins rather than meaningful rewards.
 
-Overall, the grappling hook traversal and high-momentum chase sequences create an endlessly entertaining platforming loop that thrives on comedic energy. Outstanding character dynamics, beautiful environmental design, and forgiving checkpoints ensure that this time-travelling escape remains a thoroughly joyful ride from start to finish.
+Overall, the writing, the gorgeous presentation and the forgiving checkpoints make this a very cool adventure indeed. The shifting camera and the misjudged jumps are the only caveats.

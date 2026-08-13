@@ -8,20 +8,20 @@ platform: "PS2"
 release_year: 2003
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Evocative set pieces and historical intensity create a nostalgic, linear action experience that successfully captures the spirit of early-2000s wartime shooters."
+summary: "A Pacific first-person shooter whose Pearl Harbor opening, letters from home and period detail make it a memorable campaign."
 image: "/assets/img/reviews/medal-of-honor-rising-sun.webp"
 ---
 
-Medal of Honor: Rising Sun grounds its historical intensity in the visceral opening of Pearl Harbor, successfully capturing the chaos of early conflict through a cinematic lens. This linear campaign maintains a focused momentum across nine distinct missions, effectively balancing high-octane set pieces with a grounded, intimate sense of personal urgency.
+Medal of Honor: Rising Sun is a first-person shooter from EA, shifting the long-running World War II series to the Pacific theatre. The complete nine-mission campaign runs roughly four hours, from the Pearl Harbor attack to the closing confrontation.
 
-Narrative weight is channelled through letters sent from home, offering a quiet emotional contrast to the explosive combat encountered across various theatres. While modern shooters often lean into impersonal bombast, these character-focused interludes provide a unique perspective that distinguishes the journey from more sterile contemporaries within the military genre.
+The Pearl Harbor opening is unforgettable, with the destruction and devastation making a lasting impression from the very first moments. The tutorial pacing is praised, with the new systems introduced clearly and gradually through the opening.
 
-Combat mechanics demand significant patience, particularly as the absence of a traditional crosshair complicates precision during frantic, high-stakes skirmishes. Input latency and the inherent clunkiness of bayonet encounters occasionally exacerbate this frustration, yet mastering the effective use of grenades becomes a satisfying tactical necessity for clearing out entrenched positions.
+The letters from home anchor the emotional stakes, with the sister's correspondence tracking the home-front war effort through the campaign. The period detail impresses, with the era's authenticity carried through the visuals, the setting and the framing.
 
-Companion soldiers frequently offer little practical aid, often reduced to passive observers who inadvertently clutter the battlefield rather than providing meaningful tactical support. Such ineffective AI creates an isolating experience where the burden of progression relies entirely on the player to navigate sudden enemy spawns and aggressive counter-attacks.
+The M1 Garand is the preferred rifle, with the one-shot handling proving handy in the close-range firefights. The crate-breaking supply system is a nice discovery, with ammo and supplies hidden inside the crates.
 
-Environmental design excels at building an eerie atmosphere, especially during missions set within dense, claustrophobic jungle foliage or the infiltration of a Singapore hotel. These scripted sequences highlight the developer’s commitment to atmospheric variety, proving that even a rigid, linear path can foster a distinct sense of place.
+The enemies sneaking up is the most persistent annoyance, with foes appearing right next to the soldier even alongside the AI companions that are supposed to be watching. The friendly AI is useless, with the squad standing around getting in the way and running at the enemy.
 
-Sparse checkpoint distribution and sudden ambushes can feel unnecessarily punitive, occasionally forcing the repetition of demanding sections after unexpected failure. Despite these hurdles, the consistent pacing and historical spectacle ensure that the journey remains engaging throughout, rewarding those who persevere through its dated, unforgiving design choices with a rewarding sense of completion.
+The final stage is brutal, with the enemy guns able to destroy the soldier in almost no time at all. The no-crosshair design throws off the aiming, and the slow grenades cannot be cooked before throwing.
 
-Overall, satisfaction emerges from successfully mastering the period-accurate weaponry to overcome the technical limitations and flawed AI. By leaning into its identity as a quintessential relic of a bygone era, the campaign provides an enjoyable, nostalgic romp that manages to transcend its mechanical baggage through sheer atmospheric conviction.
+Overall, the Pearl Harbor opening, the letters from home and the period detail make this a memorable Pacific campaign for the series' fans. The sneaking enemies and the useless companions are the caveats.

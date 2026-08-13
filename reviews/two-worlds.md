@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2007
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Deep progression systems and rewarding item merging provide a compelling loop that helps mitigate the frustration of inconsistent combat and cumbersome inventory management."
+summary: "A janky open-world RPG with a number-go-up obsession, redeemed by a huge world, deep alchemy and a thoroughly enjoyable disregard for its own reputation."
 image: "/assets/img/reviews/two-worlds.webp"
 ---
 
-Two Worlds establishes a vast, reactive environment where dynamic weather and shifting lighting systems breathe life into a traditional hero’s journey. Finding duplicate equipment acts as a surprising boon rather than a burden, allowing for a satisfying gear-merging system that defines the steady sense of character growth throughout the campaign.
+Two Worlds is a 2007 open-world action RPG from Reality Pump that follows a bounty hunter assembling a legendary relic to free his twin sister. Often written off as the budget Oblivion, the game instead reads as Oblivion and Gothic with a generous helping of isometric ARPG.
 
-Alchemy serves as a foundational pillar, enabling the creation of permanent stat-boosting potions that make long-term planning feel genuinely worthwhile. Navigating this progression remains the core draw, especially when players lean into the deeper systems to overcome the stiff narrative delivery and the strangely formal dialogue that occasionally undercuts the atmosphere.
+The core fantasy is one of number-go-up progression, with damage climbing from tens into thousands and every level unlocking something new. Alchemy sits at the heart of it, letting stacks of ingredients brew into permanent stat boosts that eventually make the hero untouchable.
 
-Combat frequently oscillates between tactical satisfaction and genuine frustration, often relying on specific damage types to bypass enemy resistances. Relying on slashing versus bludgeoning weapons feels essential for survival, yet facing large groups of high-level archers can make these encounters feel punishingly unfair rather than a fair test of player skill.
+Lockpicking and pickpocketing are the standout skills, generous enough to lift permanent upgrade stones straight from a merchant's pocket. The crime system is gloriously lenient, with fines payable at a fraction of their value and no lasting grudge held against the player character.
 
-Inventory management remains a persistent hurdle, as the lack of efficient sorting tools slows the looting process to a sluggish pace. Deciphering item stats is further complicated by small, difficult fonts in the menu, forcing players to wrestle with a finicky interface that rarely prioritises comfort or clarity during long sessions.
+Combat favours spears for their wide sweeps, while skeletons demand bludgeoning or elemental weapons because slashing passes straight through them. Archers are the most-hated foe, always fleeing and disarming the hero, and magic falls away late as enemies become spongy.
 
-Technical performance on modern hardware maintains a consistent frame rate, providing a notable improvement over previous console releases. Occasional visual glitches still plague the horizon during intense weather events, acting as a constant reminder of the underlying technical instability that persists despite the smooth movement of the player character.
+The world of Antaloor is huge, packed with over three hundred quests and a full civil war between the Cara clan and House Skeleton. Seven factions offer competing loyalties, with several quests forcing a genuine either-or choice between guilds.
 
-Exploration gains character from the immersive world design, even if the convoluted plot revolving around ancient relics and warring houses feels somewhat detached from the action. Developing a personal rhythm through these systems transforms early-game struggles into a rewarding loop that keeps the player engaged with the constant search for loot.
+The archaic dialogue is the biggest flaw, with voice actors stumbling over 'naves' and 'great import', and the horses control like they have minds of their own. Most dungeons boil down to rooms of skeletons, and an empty-chest bug occasionally blunts the reward of exploration.
 
-Overall, the progression systems create an addictive cycle that successfully keeps the experience engaging despite the noticeable lack of mechanical polish. Prioritising character growth and alchemical crafting transforms the journey into a deeply personal quest, even when the combat balancing or clunky inventory UI threatens to dampen the persistent momentum.
+Overall, the sheer joy of watching numbers climb and a world this lively make Two Worlds well worth playing. The writing and janky edges are easy to forgive when the game is this much fun.

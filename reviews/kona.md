@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2017
 genre: "Adventure, Survival"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Poetic narration and environmental depth transform a routine investigative trip into an evocative, chillingly isolated supernatural thriller set within the freezing Canadian wilderness."
+summary: "A mystery survival adventure whose narration, Wendigo legend and house-by-house investigation make it very good."
 image: "/assets/img/reviews/kona.webp"
 ---
 
-Kona anchors its investigative heart within the desolate Manastan region, where biting winds of 1970s Northern Quebec mirror the protagonist’s growing isolation. This atmospheric trek balances grounded industrial greed against folkloric dread, forging a narrative tapestry that feels both deeply melancholy and chillingly urgent as the central mystery unfurls slowly.
+Kona is a mystery survival adventure from Parabole, following a detective investigating strange events in a frozen 1970s Quebec village. The complete campaign was finished in a single session, with all notes and diaries read and the boat ending reached.
 
-Poetic narration establishes a literary quality rarely found in such interactive thrillers, guiding the player through a world defined by its biting, relentless cold. Every creaking floorboard and frozen interior tells a tragic story of abandonment, forcing you to piece together history through scattered letters, cryptic documents, and grim evidence.
+The narration is a standout, with the storybook French-Canadian voice carrying the mystery from the opening. The language authenticity pleases, with the characters speaking French and Cree rather than English for no reason.
 
-Survival demands constant vigilance as you manage body heat, physical health, and mental stability against the harsh winter elements. Scavenging for wood to feed a fire or finding a cigarette to soothe frayed nerves creates a persistent, low-level tension that makes every supply run feel vital for continued progression.
+The mystery structure is the hook, with the investigation unfolding house by house from who murdered Hamilton to why people are randomly frozen. The environmental storytelling is dense, with diaries and letters hidden throughout the villagers' homes.
 
-Backtracking becomes an essential component of the journey as you secure new keys and tools to breach previously locked locations. These environmental puzzles require thorough observation of the landscape, though occasional opacity in certain riddles can lead to confusion when visual cues fail to guide your progress through the manor.
+The atmosphere delivers, with the wolf encounters draining mental health and making the character shake in a thriller-like sequence. The Cree legend of the Wendigo is a highlight, with the hunting log and visionary flashes giving the beast mythic weight.
 
-Navigating snow-covered roads by truck or snowmobile often tests your patience due to stiff, imprecise handling mechanics. Frame rates suffer dramatically when riding the snowmobile, causing the scenery to stutter in a way that frequently threatens to derail your immersion during long stretches of lonely, white wilderness at high speeds.
+The climax lands, resolving the hunting accident, the cover-up and the beast's origin in a story of justice and vengeance. The survival loop is manageable, with fireplaces saving and warming and painkillers restoring both health and sanity.
 
-Loading screens fracture the experience further by interrupting travel between smaller zones, revealing the age of the architecture beneath this otherwise engrossing mystery. Despite these technical stumbles and the occasional frustrations of travel, the satisfaction of uncovering hidden industrial secrets keeps the momentum moving forward through the biting winter air.
+The performance is the main gripe, with the game lagging at points when it should not. The frequent area-loading freezes feel old, the snowmobile reduces the frame rate to a slideshow, and the game is much shorter than remembered.
 
-Overall, inquisitive minds will find themselves captivated by the sheer density of detail packed into every derelict house. By prioritising evocative world-building over modern technical perfection, this supernatural epic succeeds as a haunting detective tale that rewards those willing to tolerate minor mechanical friction for a truly immersive, frozen mystery.
+Overall, the narration, the Wendigo legend and the house-by-house mystery make this a very good adventure. The performance and the loading freezes are the caveats.

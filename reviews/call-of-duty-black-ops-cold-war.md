@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2020
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "High-octane espionage meets methodical investigation in this cinematic campaign, which excels through its unique detective mechanics despite an intrusive and cluttered interface."
+summary: "A Cold War hunt for a rogue Soviet operative whose deduction-style side missions and flexible infiltration outshine its ad-heavy menus."
 image: "/assets/img/reviews/call-of-duty-black-ops-cold-war.webp"
 ---
 
-Call of Duty: Black Ops Cold War channels a distinct 1980s aesthetic to frame its high-stakes pursuit of a shadow conspiracy. Players assume the role of a silent CIA asset, moving through global hotspots while piecing together clues to dismantle the elusive Perseus network before the geopolitical landscape fractures entirely.
+Call of Duty: Black Ops Cold War sends a customisable silent protagonist across 1981 West Berlin, 1968 Vietnam, Moscow and the Solovetsky Islands in pursuit of the Soviet operative Perseus. The campaign's memory-focused twist reframes everything that came before it, and the five-hour runtime keeps the pace tight.
 
-Explosive set pieces maintain a relentless blockbuster rhythm that keeps the momentum surging from the opening mission to the final confrontation. These high-energy sequences feel genuinely fresh, providing the quintessential adrenaline rush expected of the series while elevating the stakes through personal, character-driven narratives that anchor the chaos.
+The optional evidence-board side missions are the highlight, pairing floppy-disc decryption with deducing three sleeper-agent suspects from travel records, payments and activity reports. They are brief, but the active deduction is far more engaging than the shooting galleries of the main path.
 
-Integrating a tactile evidence board transforms the experience from a standard corridor shooter into a surprisingly rewarding investigative simulation. Decrypting captured floppy discs and cross-referencing field reports creates a sense of agency, as solving these puzzles directly influences the progression and scope of the mission roster ahead.
+The KGB infiltration mission stands out for offering multiple routes to a single objective, from framing a target to persuading a prisoner or poisoning him. Sneaking through the Berlin tunnels with so many options available makes it the campaign's most memorable stretch.
 
-Optional side missions further flesh out the world, allowing for a degree of non-linear customisation that feels notably absent in more rigid entries. Investigating these leads provides deeper context, though occasionally shifting the pacing towards slower exposition logs which contrast sharply against the otherwise frantic, gun-heavy primary objectives.
+Gunplay feels satisfying thanks to hit markers, white-to-colour kill confirmation and reloading while aiming down sight. The damage model is more forgiving than Modern Warfare 2019's, allowing more punishment before falling.
 
-Stealth segments unfortunately introduce a measure of trial-and-error frustration, where inconsistent detection logic can abruptly shatter the tension. While some missions offer non-lethal avenues for resolving targets, the mechanics behind these specific approaches sometimes lack the polish found in the fluid, run-and-gun combat that defines the core loop.
+The main menu is the campaign's weakest element, an advertisement wall pushing Warzone, Vanguard and Modern Warfare that is worse than anything Battlefield attempted. Side missions end before they build momentum, and early main missions feel very short.
 
-Interface presentation remains the most glaring shortcoming, as the menus function more like a persistent billboard for external titles rather than a helpful navigational tool. This cluttered design creates unnecessary visual friction, frequently distracting from the atmospheric period detail and high-budget production quality present throughout the rest of the game.
+The narrative jumps across the Black Ops timeline in ways that make the wider series context easy to lose, and the post-credits recap does little to settle which entry is which. Occasional cutscene stutter and a couple of lock-ups interrupt the flow without derailing it.
 
-Overall, the campaign provides a highly polished and engaging espionage thriller that successfully experiments with rewarding meta-game structures. Fans seeking a cinematic, action-heavy experience will find plenty to enjoy, provided they can ignore the intrusive advertisements buried within the menus and focus on the thrill of the hunt.
+Overall, side-mission deduction, the multi-option infiltration and the satisfying gunplay make Black Ops Cold War a strong campaign. The ad-riddled UI and brief optional content are the main knocks on an otherwise tight five-hour run.

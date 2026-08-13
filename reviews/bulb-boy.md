@@ -6,23 +6,22 @@ permalink: /reviews/bulb-boy/
 verdict: "recommended"
 platform: "PC"
 release_year: 2015
-genre: "Horror, Point & Click"
-genre: "Adventure, Puzzle"
+genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Surreal imagery and unconventional puzzle-solving anchor this delightfully weird, hand-drawn adventure that prioritises imaginative, eerie discovery over traditional logic and polished movement mechanics."
+summary: "A bizarre 2D point-and-click horror in which a bulb-headed boy lights up hidden objects, backed by strong music and gleeful absurdist humour."
 image: "/assets/img/reviews/bulb-boy.webp"
 ---
 
-Bulb Boy manifests as a profoundly peculiar point-and-click adventure, defined by an unsettling, hand-drawn visual identity that lingers in the memory. Every corner of the decaying household drips with a surreal, grotesque charm, establishing an eerie aesthetic that successfully differentiates this title from more conventional or polished entries in the genre.
+Bulb Boy is a 2D point-and-click horror adventure set in the Bulbhouse, where a boy with a glass head must save his family from monsters. The head lights up, survives electrical shocks and unscrews for use in odd places, driving the puzzle logic.
 
-Interacting with the environment demands a departure from standard logic, as the bizarre solutions often necessitate utilizing household objects in highly unconventional ways. Lateral thinking becomes the player's primary tool, rewarding curiosity with startling discoveries that reinforce the game's commitment to maintaining a consistent, dream-like state throughout the entire journey.
+The tone is gloriously bizarre, mixing nightmare imagery with gleeful absurdity and an awful lot of poo, and the strange dreamlike house and its odd inhabitants give the setting a personality of its own. The humour lands well, with the whole experience described as hilarious even as the horror trappings stay present.
 
-Navigation through the rooms occasionally proves problematic, as the imprecise movement system introduces friction during time-sensitive segments requiring fine motor control. Navigating around hazardous obstacles feels unnecessarily cumbersome when the cursor-based interface lacks the required sensitivity, occasionally shifting the challenge away from clever deduction towards tiresome, repetitive attempts at basic movement.
+The illumination mechanic is the standout, with the bulb head highlighting hidden objects and interactables when lit. It resolves most of the occasional confusion about what to interact with next, turning cautious searching into a steady reward.
 
-Gating progression behind distinct item-based solutions creates a linear but engaging path, effectively pacing the bizarre narrative. Frequent mechanical shifts—including controlling different characters or alternating states of existence—ensure the experience stays dynamic, preventing the puzzle-solving loop from stagnating while keeping the player guessing about what nightmare might appear next.
+The music is a clear highlight, particularly in the final boss section, and bubble speech carries the story without any dialogue. Playable flashbacks as family characters add variety to the compact runtime.
 
-Atmospheric storytelling eschews traditional dialogue entirely, preferring to rely on expressive animations and visual cues to convey its dark, whimsical plot. This approach permits the surreal imagery to speak for itself, grounding the player within a bizarre reality where ordinary household items are transformed into essential tools for survival.
+The final boss's teeth-brushing sequence relies on movement that is approximate rather than precise, forcing retries. That imprecision is the game's only real friction, and it concentrates in the closing stretch.
 
-Technical stability remains largely consistent, though the minimalist interface occasionally hides potential pitfalls, such as the ability to accidentally skip the credits by misinterpreting on-screen elements. Such minor interface grievances are rarely enough to derail the momentum, but they serve as reminders that the polish does not always match the imagination.
+The giant moth boss near the end is fondly remembered, and the credits roll after a short run. The compact length suits the joke-a-minute pacing, with the closing boss sequence ranking among the most memorable moments of the run.
 
-Overall, this bite-sized odyssey offers a uniquely memorable experience for those who appreciate a blend of dark humour and strange, unsettling creativity. Whilst the controls can occasionally falter under pressure, the sheer cohesive weirdness of the world ensures that this eerie expedition remains a worthwhile and genuinely captivating piece of adventuring.
+Overall, absurdist humour, clever illumination puzzles and a strong soundtrack make Bulb Boy an easy recommendation. The imprecise final-boss movement is a small price for a genuinely funny horror adventure.

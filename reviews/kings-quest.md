@@ -1,27 +1,27 @@
 ---
 layout: review
 date: 2026-06-26
-game_title: "King's Quest"
+game_title: "King's Quest (2015)"
 permalink: /reviews/kings-quest/
 verdict: "recommended"
 platform: "PC"
 release_year: 2015
-genre: "Action, Adventure"
+genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Heart-warming storytelling and creative puzzle-solving revive this classic franchise through a whimsical, vibrant narrative framed by an imaginative grandfather's recollection of legendary feats."
+summary: "A modern point-and-click adventure whose beautiful art, superb cast and love for the classics make every chapter fun."
 image: "/assets/img/reviews/kings-quest.webp"
 ---
 
-King's Quest serves as a masterfully constructed fable that rejuvenates the spirit of traditional adventure gaming through a heartfelt, grandfatherly retelling. Hand-painted, cel-shaded visuals evoke the wonder of an ancient storybook, effectively grounding the player in a vibrant fantasy realm where intellect routinely triumphs over sheer physical prowess.
+King's Quest (2015) is a modern point-and-click adventure from The Odd Gentlemen, retelling Graham's youth as five episodic chapters of one saga. The complete five-chapter run was finished through the letter ending and the emotional conclusion.
 
-Conversations with the diverse cast showcase a blend of witty, clever dialogue and exaggerated personalities that make every encounter a delight. Such comedic timing maintains a whimsical tone throughout the chapters, successfully balancing Looney Tunes style humour with a genuine emotional depth that keeps the player invested in the outcome.
+The art style is a constant delight, with the cell-shaded look praised from the opening and the world kept colourful throughout. The cast is the beating heart, with characters like Whisper the egomaniac knight, the bridge troll guild and Amaya the blacksmith all landing.
 
-Wandering through the expansive environments occasionally exposes the narrative to pacing hurdles, particularly during protracted walking sequences. Navigating between previously solved areas can feel unnecessarily tedious when simple traversal mechanics would have sufficed to keep the momentum steady and prevent the player from feeling weighed down by excessive, repetitive travel.
+The Whisper race is a standout set piece, with the rivalry bringing some of the biggest smiles of the run. The love for the classic series is woven everywhere, from the tapestry box arts to the returning Ant song and a classic-style mini game in the final chapter.
 
-Inventory management requires creative, lateral thinking to resolve complex obstacles, turning standard point-and-click loops into a rewarding test of mental agility. Although some challenges demand a degree of persistence due to their intricate design, these moments of reflection provide a sense of accomplishment that feels uniquely earned without ever resorting to combat.
+The story framing is clever, with an aging King Graham telling his granddaughter stories and the reliability of his narration called into question. The comedy lands throughout, with gags like the inverted controls and the bluff that turns the story right around.
 
-Collision detection issues occasionally mar the exploration, most notably near bridge structures where the character model can become inexplicably lodged. These minor technical hiccups are fortunately mitigated by frequent auto-saves, ensuring that any accidental progress loss remains minimal and does not detract from the overall charm of the whimsical setting.
+The voice cast is a treat, with Tom Kenny, Wallace Shawn, Christopher Lloyd and Zelda Williams among the performers. The villain arc is well built, with the antagonist's reveal paying off across the chapters.
 
-Movement sometimes feels deliberately clunky to mirror the exaggerated comedic actions of the protagonist, which proves entertaining despite the occasional lack of precise control. Such stylistic choices reinforce the idea that the grandfather is an unreliable narrator, playfully embellishing his past exploits to the rapt attention of his listening granddaughter.
+Chapter 2's item-ordering trap can soft-lock the escape and force a restart, harking back to one-time-use items of the old games. The final chapter's memory-puzzle conceit is disorienting, with the scenery cycling between past and present and the controls inverted.
 
-Overall, this heart-warming adventure succeeds as an intellectually engaging experience that rewards curiosity and rewards wit far more than traditional action games. While slightly hindered by sluggish navigation and rare technical quirks, the strength of the character interactions and cohesive atmosphere establishes it as a vital triumph of modern design.
+Overall, the beautiful art, the superb cast and the love for the classics make this a very fun modern adventure. Chapter 2's item trap and the scattered final framing are the caveats.

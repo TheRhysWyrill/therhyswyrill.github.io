@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-20
 game_title: "Enigma of Fear"
 permalink: /reviews/enigma-of-fear/
-verdict: "recommended"   # recommended | not-recommended | not-sure
+verdict: "recommended"
 platform: "PC"
 release_year: 2024
-genre: "Adventure, Horror"
+genre: "Adventure, Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Haunting pixel art and layered investigative puzzles define this paranormal mystery, where the chilling atmosphere successfully overcomes inconsistent controls and technical fragility."
+summary: "An inventive puzzle-horror adventure whose out-of-the-box puzzles, presentation and character switching make it a positive experience."
 image: "/assets/img/reviews/enigma-of-fear.webp"
 ---
 
-Enigma of Fear merges three-dimensional environments with meticulous pixel art to cultivate a uniquely unsettling paranormal investigation. This visual synthesis fosters an evocative dread, which is further amplified by a haunting soundtrack that grounds every discovery in a palpable sense of anxiety while searching for the elusive, titular secret.
+Enigma Of Fear is a puzzle-horror adventure in which Mia, an agent of the Order of Paranormal Investigators, enters the Perimeter to find her vanished father. The campaign spans four open areas plus the underground base, completable in any order across two sessions.
 
-Exploration demands constant scrutiny of the surroundings as players decipher complex riddles requiring ultraviolet light or temporal awareness. Every successfully solved environmental challenge feels rewarding, as these intricate mechanisms invite deeper immersion into the overarching narrative, even when the sheer volume of scattered notes threatens to disrupt the active pace.
+The out-of-the-box puzzles hide answers inside the settings menu, with dimming the brightness revealing a keypad clue and muting all but the sound effects exposing a hidden message. The playthrough calls the trick very, very clever and is reminded of Tunic.
 
-Sustaining this momentum often proves difficult due to clunky interactions and erratic optimisation across varying hardware configurations. Navigating these performance stutters requires patience, particularly during moments when the flashlight mechanics or inventory navigation feel unnecessarily finicky, transforming simple traversal into a tedious task that occasionally strains one's commitment to the mystery.
+Playable roles beyond Mia, including the prologue's Varity and Samuel's side content, mean different characters are needed for different puzzles. The presentation is a strong point, mixing pixel art with decent 3D in a style like Octopath but with less blue.
 
-Confrontations against blood-infused monstrosities introduce significant mechanical friction that initially lacks the polish found in the investigative loops. Boss encounters can feel deceptively awkward, forcing a reliance on trial-and-error tactics rather than fluid skill, which forces the player to wrestle with unresponsive targeting until the nuances of combat finally begin to click.
+The ghost-tuning radio captures spectral echoes of past conversations, and the voice acting is called pretty solid throughout. The layered lore arrives through radio calls, documents, tape recordings and cursed items that piece together the Order's failed investigation.
 
-Dialogue sequences suffer from inconsistent user interface cues, such as ambiguous arrow markers that complicate standard interactions. These small navigational hurdles exacerbate the early-game disorientation, yet once the intricacies of the control scheme are eventually internalised, the experience shifts from one of initial confusion to a genuine appreciation for the design.
+The atmosphere leans on the UV-light investigation mode, the sanity system restored by hugging the dog Loopy, and tense stealth against blind blood zombies. The puzzle variety spans a music-following maze, clock-tower synchronisation, ooze manipulation and clever keypad codes.
 
-Mastering the balance between stealth and direct engagement is essential for surviving the deeper, more dangerous sections of the order's hunt. Transitioning through these perilous zones requires a sharp understanding of the specific tools at your disposal, which ultimately transforms those frustrating early skirmishes into a manageable component of the campaign.
+The final boss force-quits the game on death, forcing a full boot sequence, and the Leticia fight makes no sense with a lack of tells. The bright white visuals obscure navigation in places, and psychological attacks in boss fights cannot be healed.
 
-Overall, this investigative journey provides a deeply compelling mystery that manages to triumph despite its stubborn technical flaws. Fans of paranormal lore will find the complex narrative payoff worth the climb, provided they possess the persistence to navigate its occasionally jagged edges and embrace the eerie beauty of the hidden world.
+Overall, this inventive puzzle-horror adventure earns a recommendation, with its out-of-the-box puzzles, presentation and character-switching structure as the highlights. The final boss's force-quit and the Leticia fight are the main caveats.

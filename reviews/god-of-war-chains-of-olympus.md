@@ -8,20 +8,20 @@ platform: "PSP"
 release_year: 2008
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This portable adventure condenses the series' visceral combat and high-intensity pacing into a polished, concentrated experience that respects the player's time."
+summary: "A very competent PSP entry whose story, parry-and-gauntlet combat and presentation make it a good handheld God of War."
 image: "/assets/img/reviews/god-of-war-chains-of-olympus.webp"
 ---
 
-God of War: Chains of Olympus manages to distill the grand, brutal essence of the franchise into a surprisingly compact and handheld-friendly package. By eschewing the bloated narrative sprawl common to the genre, the experience instead presents a focused, swift descent into the depths of Greek mythology for its iconic protagonist.
+God of War: Chains of Olympus is an action-adventure game on PSP in which Kratos, five years into his service to the gods, confronts the Persian army besieging Attica and the aftermath of the sun god Helios being torn from the sky. The campaign was completed through its credits and post-credits scene in about four and a half hours.
 
-Combat maintains the high bar set by its console predecessors, providing a satisfyingly tactile feedback loop that feels just as impactful on a smaller screen. Wielding the Gauntlet of Zeus adds a delightful layer of destructive weight, encouraging aggressive playstyles that reward players who master the precise parry mechanics available.
+The story is the strongest asset, with the dilemma between serving the gods and a personal loss proving compelling. The post-credits scene explains the transition into the original God of War.
 
-Visual fidelity remains surprisingly high for a title originating on mobile hardware, especially when modern emulation efforts introduce high-resolution texture packs. Such enhancements bring a newfound crispness to the environments, though the pre-rendered cutscenes suffer from a harsh resolution drop that creates a jarring visual disparity from the real-time action.
+The sun shield adds a parry that reflects projectiles, and the Helios flash and light-of-dawn attacks make it genuinely useful. The gauntlet of Zeus breaks enemy armour with charge attacks, though it arrives late.
 
-Navigation tasks serve as minor connective tissue between the intense skirmishes, though they rarely rise above the level of functional, straightforward diversions. While these puzzles effectively pace the journey, they unfortunately lack the ingenuity required to pose a genuine threat, acting more as simple breathing room for the player.
+The elemental variety on the Blades of Chaos spans fire, ice, lightning and souls of Hades, with the Wrath of the Furies a standout move. The set pieces include the sun chariot's fire steeds, underwater diving with Triton's lens and the long spiral staircase.
 
-Boss encounters occasionally fall into predictable rhythms, relying on limited mechanical variety that fails to match the cinematic heights of mainline entries. Relying on recycled patterns or repetitive quick-time prompts, these confrontations lack the necessary mechanical depth to sustain excitement throughout the shorter duration of the campaign's final acts.
+The texture pack looks great with no issues, and the cutscenes no longer look bit-crushed. The catch-up chests guarantee full health and magic upgrades, and the game checkpoints nicely.
 
-Shallow enemy variety leads to a noticeable plateau in encounter design, making the latter stages feel slightly less dynamic than the opening hours. Despite this, the game’s brevity ensures that the core loop never truly overstays its welcome, keeping the momentum sharp enough to carry the protagonist toward his inevitable, tragic conclusion.
+The enemy variety is sparse and the bosses are few and forgettable, with only the Basilisk standing out. The red chests are worthless, and the medusa room's petrification-plus-hit combo punishes harshly.
 
-Overall, this refined prequel provides a punchy and coherent odyssey that proves the visceral thrill of god-slaying translates perfectly to any platform. Fans seeking a condensed yet polished burst of high-intensity action will appreciate this brief excursion, provided they understand that this intimate story prioritises tight execution over epic scale.```
+Overall, the story, the parry-and-gauntlet combat and the presentation make God of War: Chains of Olympus a very competent PSP game. The sparse enemy variety, the forgettable bosses and the worthless red chests are the caveats.

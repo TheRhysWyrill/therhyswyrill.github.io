@@ -8,20 +8,20 @@ platform: "PS2"
 release_year: 2005
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This brutal mythological adventure offers exceptionally satisfying combat and rewarding exploration, proving that classic design remains incredibly engaging when experienced on modern hardware systems."
+summary: "A very fun action-adventure whose texture-pack visuals, Blades progression and epic fights make the original worth revisiting."
 image: "/assets/img/reviews/god-of-war.webp"
 ---
 
-God of War establishes a visceral tone for Kratos's quest against Ares, blending intense mythology with a remarkably robust combat framework. Navigating this dark odyssey feels surprisingly fresh even two decades later, largely thanks to the deliberate pacing and the sheer impact of the brutal, cinematic execution finishers employed during brawls.
+God of War is the action-adventure game that started it all, with Kratos battling his way through Greece toward the god of war himself. The campaign was completed through its credits and post-credits scene, with the texture pack transforming the experience.
 
-Modern texture packs elevate the visual fidelity, breathing vivid life into the sprawling Temple of Pandora while keeping the classic aesthetic intact. These enhancements provide a striking clarity that makes the environments feel rejuvenated, though the original pre-rendered cutscenes remain locked at their native resolution throughout the entirety of the playthrough.
+The texture pack really breathes new life into the game, looking better than any of the HD collections and making the visuals a highlight. The backstory flashbacks land well, with the grave-digger foreshadowing a genuine surprise.
 
-Aggressive encounters against diverse foes rely on the highly versatile Blades of Chaos, which offer deep upgradeable combos that reward creative playstyles. Unleashing Poseidon’s Rage provides a particularly spectacular area-of-effect display, ensuring that the act of managing crowds feels both strategically sound and visually impressive during the most chaotic moments.
+The Blades of Chaos progression is satisfying, with maxed upgrades changing the blades' appearance as they level. The Hydra opening and the Poseidon's Rage spell make the first hours memorable, and the checkpoints are a welcome surprise.
 
-Traversing treacherous environments necessitates a careful eye, especially when the fixed camera angles occasionally obscure crucial platforms or incoming threats. While these static perspectives can create unnecessary friction during precision jumping segments, the exclusion of modern instant-death mechanics ensures the experience maintains a sense of fairness that avoids undue frustration.
+The Ares fight's giant form is awesome, a highlight that echoes modern spectacles. The captain's persistence gag provides dark comedy throughout, and the game clearly has checkpoints the original run did not expect.
 
-Cleverly integrating orbs as a unified currency for both weapon improvements and character progression keeps the growth loop feeling consistently meaningful. Secrets tucked away in hidden corners of the massive temple encourage thorough investigation, ultimately proving that this vintage approach to rewarding the curious player remains a deeply satisfying endeavour.
+The final family-defense clone fight is the hardest part, with overwhelming numbers, easy stuns and heavy damage. The path of Hades is the worst area, with balance-beam blade columns that punish a single hit.
 
-Input sequences for quick-time events can occasionally feel unresponsive, clashing with the fluidity of the standard swordplay during high-stakes boss confrontations. Minotaur grab interactions similarly exhibit a finicky nature that complicates otherwise manageable skirmishes, yet these isolated mechanical hiccups fail to diminish the overwhelming sense of raw, unbridled power.
+The orb levelling system is odd, using level bars of three hundred orbs, and the rotate quick-time events are easy to mess up. The minotaur grab is inconsistent, and the snap camera changes make some jumps easy to misjudge.
 
-Overall, this legendary title remains a quintessential action experience that succeeds through its polished mechanical execution and grand mythological scope. Provided players are willing to adapt to the constraints of the classic camera system, the journey through the ancient world provides an exceptionally high standard of visceral, rewarding entertainment.
+Overall, the texture-pack visuals, the Blades progression and the epic fights make God of War very fun. The clone fight, the Hades area and the awkward quick-time events are the caveats.

@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-14
 game_title: "Sniper: Ghost Warrior"
 permalink: /reviews/sniper-ghost-warrior/
-verdict: "not-recommended"
+verdict: "not-sure"
 platform: "PC"
 release_year: 2010
-genre: "Shooter"
+genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Punishing checkpoints, erratic enemy detection, and forced close-quarters combat undermine the titular sniper fantasy, resulting in an inconsistent and deeply tedious military shooter."
+summary: "A mixed tactical shooter whose satisfying long-range missions and bullet cam are let down by punishing enemy accuracy."
 image: "/assets/img/reviews/sniper-ghost-warrior.webp"
 ---
 
-Sniper: Ghost Warrior occupies an awkward middle ground between methodical stealth and frantic corridor shooting, never quite committing to either style. While the long-range bullet cam provides moments of fleeting satisfaction, these sequences are frequently interrupted by forced engagements that highlight the clunky nature of the core handling.
+Sniper: Ghost Warrior is a tactical shooter that pairs stationary long-range set-pieces with close-quarters assault sections. The campaign follows sniper Tyler Wells, callsign Razer 64, and his spotter O'Neal as they hunt enemy targets across the territory.
 
-Linear level structures often funnel players into direct confrontations that reveal the limitations of the navigation system. High fences act as impenetrable barriers, preventing any meaningful environmental traversal and forcing soldiers to navigate through overly restricted paths that offer little room for tactical creativity or repositioning during firefights.
+The stationary sniping missions are the game's strongest material, built on long-range shots, breath control and the spotter calling targets. The bullet cam slows down before the round makes contact, and clean shots send helmets flying in satisfying fashion.
 
-Assault rifles prove almost impossible to manage due to excessive recoil that makes every shot feel inaccurate and unpredictable. These weapons are frequently forced upon the player when the game strips away their preferred sniper rifle, turning otherwise standard action sequences into frustrating exercises in fighting against the controls themselves.
+The stealth visibility meter at the bottom of the screen keeps sneaking workable, letting the player judge when to hold still. Enemy icons on the map and a silenced pistol with unlimited ammunition support a careful approach.
 
-Enemy combatants exhibit wildly inconsistent behaviour that often feels unfair rather than challenging. Guards will remain completely oblivious to a player in one instance, only to transition into omniscient threats that pinpoint locations instantly the moment a single shot rings out across the map, regardless of the distance.
+The enemy accuracy is the defining frustration, with soldiers landing pinpoint shots with assault rifles at sniper distances. Missing a single shot makes every enemy instantly know the player's exact position, punishing the core fantasy at every turn.
 
-Punishing checkpoint placement turns every minor misstep into a significant setback that requires the repetition of long, tedious segments. Dying due to the sudden, telepathic accuracy of the hostile forces is a common occurrence that drains enthusiasm, making the process of finishing missions feel like a test of endurance.
+Assault rifle recoil is excessive, with the starting M4 sending the view skyward after a couple of shots. The assault-soldier sections feel out of place in a sniper game, and the perspective switches arrive with no explanation.
 
-Persistent visual glitches, including a weapon that recoils incessantly within the interface, constantly draw attention to the lack of overall polish. These technical issues, alongside bizarre pathfinding and the constant presence of invisible walls, create a sense of mechanical instability that permeates the entire military-themed narrative journey throughout.
+The main campaign ends abruptly, cutting straight to the end card the moment the final shot lands. Levels are short, the rope and climbing mechanics feel underdeveloped, and enemy AI is inconsistent, with soldiers sometimes ignoring hits entirely.
 
-Overall, the disjointed mission structure ensures that the intended tactical tension is replaced by consistent irritation. Forcing players into unsuitable encounters while restricting their ability to navigate basic obstacles ultimately transforms what could have been a deliberate sniper simulation into a repetitive and dated chore that struggles to function.
+Overall, the sniping missions and the bullet cam give the game its best moments. The punishing detection, the enemy accuracy and the disjointed structure leave it feeling average.

@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-24
 game_title: "God of War (2018)"
 permalink: /reviews/god-of-war-2018/
-verdict: "recommended"   # recommended | not-recommended | not-sure
+verdict: "recommended"
 platform: "PC"
 release_year: 2022
-genre: "Action, RPG"
+genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This emotionally resonant reimagining succeeds by grounding tactical action within a deeply human narrative, creating a mature and definitive chapter for the iconic protagonist."
+summary: "A phenomenal action-adventure whose father-son story, visceral combat and huge Norse realms make it an all-time great."
 image: "/assets/img/reviews/god-of-war-2018.webp"
 ---
 
-God of War (2018) marks a significant shift for the franchise, successfully tempering its signature brutality with a profound and grounded examination of fatherhood. Kratos sheds the singular pursuit of vengeance, trading it for the weight of protecting his young son while grappling with a scarred and haunting past.
+God of War (2018) is an action-adventure game in which Kratos and his young son Atreus journey across the Norse realms to scatter the ashes of Atreus's mother from the highest peak. The game was 100% completed to the credits and the bonus scene across six sessions.
 
-Combat sequences offer a masterclass in tactical depth, demanding that players master the satisfying interplay between the versatile Leviathan Axe and Atreus’s supportive bow skills. Every encounter feels deliberate and challenging, forcing a transition from mindless button-mashing to precise, strategy-based execution that rewards patience and careful environmental awareness during intense brawls.
+The father-son relationship is the spine, with Atreus deliberately made unlikable during his god-reveal phase before the arc pays off in his humbling. The Leviathan axe with its recall, the freeze mechanics and the wind-trap puzzles give combat real depth.
 
-Exploration reveals a breathtaking world brimming with hidden lore and secrets, though the sheer volume of collectables occasionally threatens to break the narrative momentum. While discovering powerful resources feels inherently rewarding, the repetitive nature of opening countless chests can sometimes make the expansive map feel cluttered rather than wondrously dense.
+The Blades of Chaos handle crowd control far better than the axe, and the visceral executions are a highlight. The scale of the realms is huge, from Alfheim's light-elves to Helheim, with Mimir's tales enriching every boat journey.
 
-Relationships define the narrative trajectory, as the evolving dynamic between father and boy serves as the heart of this arduous journey. Watching their bond strengthen through quiet, introspective moments provides a necessary emotional counterweight to the grand, mythological spectacle unfolding across the beautifully realised and atmospheric North realm landscapes.
+The set pieces deliver, from the dragon fights to the first Stranger fight and the upside-down temple. The side content is strong, with the favor quests, treasure maps, realm tears and Odin's ravens filling out the world.
 
-Technical shortcomings occasionally fracture the immersion, manifested through minor audio desync and subtitles that drift into distracting or inconsistent positions. These small flaws are noticeable during otherwise seamless cutscenes, serving as a slight reminder of the minor polish issues that persist within this otherwise robust and visually stunning production.
+Brock and Sindri's bickering and eventual reconciliation give the dwarves real arcs, and Freya's tragedy lands hard. The cinematography, the music and the credits sequence close the journey beautifully.
 
-Movement within skirmishes requires an adjustment period, particularly when dealing with the counter-intuitive quick-turn mechanic that often causes disorientation instead of providing a tactical edge. Mastering the over-the-shoulder perspective requires persistent effort, yet overcoming these initial mechanical hurdles leads to a deeply rewarding sense of agency and combat mastery.
+The camera and lock-on during Valkyrie fights are the biggest criticism, since the lock-on cannot keep up with fast enemies. Most bosses are reskins of the troll, and Niflheim's timed mist grind forces an equipment treadmill.
 
-Overall, this mature action-RPG stands as a definitive achievement by honouring the series’ legacy while daring to redefine its core identity entirely. Fans seeking a thoughtful story paired with refined, challenging gameplay will find this a worthwhile pursuit, provided they look past the occasional pacing and minor technical inconsistencies.
+Overall, the father-son story, the combat and the scope of the realms make God of War (2018) a phenomenal game. The Valkyrie-fight camera, the troll-reskin bosses and the Niflheim grind are the caveats.

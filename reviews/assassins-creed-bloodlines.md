@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-22
 game_title: "Assassin's Creed: Bloodlines"
 permalink: /reviews/assassins-creed-bloodlines/
-verdict: "recommended"   # recommended | not-recommended | not-sure
+verdict: "not-sure"
 platform: "PSP"
 release_year: 2009
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This focused handheld entry successfully distils franchise pillars into a lean, four-hour journey, providing a faithful companion to the main console entries."
+summary: "A brisk PSP sequel whose easy assassination loop and decent presentation are undermined by fiddly traversal and a story that barely expands the series."
 image: "/assets/img/reviews/assassins-creed-bloodlines.webp"
 ---
 
-Assassin's Creed: Bloodlines adapts the franchise’s intricate puppeteering system for handheld hardware with surprising competence. Shifting the action to Cyprus provides a compact, focused stage where the core pillars of navigation and combat feel remarkably faithful to their console origins despite the obvious constraints of the portable device.
+Assassin's Creed: Bloodlines continues Altaïr's pursuit of the Templars on Cyprus, following the trail of the Apple of Eden as a direct sequel to the first game. The PSP entry completes quickly, with every memory finished in just under four hours and side missions adding an hour or more on top.
 
-Exploration benefits from a segmented mission structure that prioritises direct objectives over the open-world bloat common to its successors. Rather than wandering endlessly, the player moves through a series of purposeful chapters that keep the four-hour runtime feeling taut and consistently engaging for a shorter handheld play session.
+The game was expected to bridge the gap between the first two console instalments, but it expands the series rather than connecting it. The story adds little beyond the continuing relationship between Altaïr and Maria.
 
-Combat encounters mirror the counter-heavy rhythm established in the original release, tasking the user with timing parries while managing multiple encroaching adversaries. Although these skirmishes occasionally reveal erratic enemy behaviour, the thrill of landing a well-timed strike ensures that each battle remains satisfyingly aligned with established series expectations for tactical aggression.
+Assassination is the standout activity, allowing targets to be thrown before being finished with the hidden blade. Enemies are notably weak, which suits the loop because encounters stay quick, forgiving and satisfying to dispatch.
 
-Upgrading Altaïr’s abilities provides a tangible sense of progression that makes each minor improvement to health or weapon damage feel meaningful. Deciding which facets of his gear to prioritise creates a rewarding loop that keeps the protagonist lethal enough to overcome the escalating challenges presented throughout the relatively brief campaign.
+Combat counters are never lethal, simply knocking opponents down, so there is little reason to engage with them. Traversal is the main frustration because the character falls from ledges far more easily than in the original game.
 
-Technically, the title sits awkwardly between historical visual standards, displaying textures that clearly show their age on the small screen. Performance hitches manifest primarily when a high density of characters fills the environment, though these minor instances of slowdown rarely disrupt the overall flow of movement or essential traversal sequences.
+The presentation cleans up well for a PSP title, with textures that do not look great but open areas that are surprising for the hardware. Objective icons are not entirely accurate, and the running animation looks goofy.
 
-Navigation often necessitates clever compromises to account for the lack of a second analogue stick on the original hardware platform. Jumping between rooftops feels slightly less precise than the console experience, occasionally forcing a more deliberate approach to platforming to avoid the clunky outcomes that can stem from imprecise physical movement.
+Side activities such as assassinations, deliveries and interrogations do not count toward completion, so the main missions alone reach a full hundred percent. Guards draw their weapons whenever anyone sprints, making running itself suspicious, and the controls feel a little odd throughout.
 
-Overall, this leaner companion piece succeeds by respecting the core identity of its predecessor while carving out a niche as a no-nonsense, portable adventure. Fans craving a refined look at Altaïr’s philosophical development will find the dialogue between characters adds a welcome layer of narrative depth to the Templar-Assassin conflict.
+Overall, assassination and the short length make Assassin's Creed: Bloodlines a mild entry rather than an essential one. The easy kill loop and the passable presentation keep it a watchable distraction for series fans.

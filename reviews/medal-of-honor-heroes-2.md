@@ -8,20 +8,20 @@ platform: "PSP"
 release_year: 2007
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Intense arcade action thrives on high-stakes adrenaline rushes, successfully overcoming punishing health systems and questionable squad intelligence through sheer satisfying kinetic combat."
+summary: "A first-person shooter whose visual leap, compact campaign and strong weapons make it a good little PSP shooter."
 image: "/assets/img/reviews/medal-of-honor-heroes-2.webp"
 ---
 
-Medal of Honor: Heroes 2 pivots towards frantic, overwhelming firefights that demand constant movement across its European battlefields. This sequel prioritises explosive action over the tactical pacing of its predecessor, delivering a high-stakes military operation that keeps momentum high even when the surrounding design threatens to collapse under its own weight.
+Medal of Honor: Heroes 2 is a first-person shooter from EA Los Angeles, running a compact campaign on the PlayStation Portable. The complete run takes just over three hours on the PSP version, from the Normandy beachhead through the full seven-mission campaign.
 
-Strategic dominance hinges on the deliberate application of the adrenaline mechanic during those desperate, crowded engagements. Invincibility combined with doubled damage output provides a necessary reprieve from the punishing difficulty, acting as the primary instrument for survival when the screen fills with an unreasonable number of spawning German infantry soldiers.
+The visual step up from the first game is the headline, with the PSP release looking quite a bit better throughout. The MP40 is a favourite weapon, with the gun making the soldier practically unstoppable in firefights.
 
-Ballistic feedback elevates the core combat loop significantly, particularly when wielding the BAR or MP40 against aggressive foes. These specific weapons offer a tangible sense of power that feels essential for clearing bullet-sponge enemies, especially as the mission requirements force a solitary, high-risk playstyle that leaves little room for hesitation.
+The premise lands, with the reprisal-weapon framing giving the campaign a clear spine throughout. The compact length and brisk pacing suit the format, with the seven missions split and the times varying nicely.
 
-Squad companions consistently fail to offer meaningful support, rendering their AI presence largely ineffective throughout the sabotage missions. Acting as a one-man army becomes the only viable strategy for progression, which ultimately forces a reliance on aggressive resource management to compensate for the lack of reliable cover or tactical relief.
+The medal and promotion loop rewards completion, with the walkthrough-assisted secondary objectives adding depth. Hip fire works better than aiming down the sights, and the run-while-reloading flow keeps the action moving at a good clip throughout.
 
-Health management introduces an unforgiving dynamic that feels noticeably more restrictive than the fixed bar featured in the previous title. Players often find themselves in a near-death state with startling speed, making the regenerating health system feel far too squishy to sustain the chaotic pace of the game's later stages.
+The enemy overload is the dominant complaint, with waves of soldiers spawning at will and the firefights dragging on far too long. The regenerating health is far too weak, with the soldier dying very fast even on the normal difficulty.
 
-Secondary objective navigation presents a recurring nuisance due to the complete lack of clear in-game signage or waypoint indicators. Relying on external guides to locate hidden sabotage points disrupts the immersion, highlighting an unpolished user interface that feels disconnected from the urgency of the mission parameters and the overall combat flow.
+The teammate AI is useless, with the squad standing around looking good instead of fighting. The controls are a persistent frustration, with the unresponsive aiming making precision shots a real chore.
 
-Overall, mastering this demanding experience requires patience with its erratic AI and unfair enemy spawns during the final missions. The core satisfaction of successfully navigating high-intensity segments through adrenaline-fuelled combat outweighs these mechanical frustrations, solidifying its place as a robust, albeit occasionally unrefined, addition to the portable shooter catalogue.
+Overall, the visual leap, the compact campaign and the strong weapon selection make this a good, compact little shooter. The enemy spam and the weak health regen are the main caveats.

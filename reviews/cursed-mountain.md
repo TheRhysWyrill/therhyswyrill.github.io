@@ -5,23 +5,23 @@ game_title: "Cursed Mountain"
 permalink: /reviews/cursed-mountain/
 verdict: "recommended"
 platform: "PC"
-release_year: 2009
-genre: "Adventure, Survival Horror"
+release_year: 2010
+genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Ritual-based combat and haunting lore elevate this unique horror expedition, successfully compensating for its dated technical foundations through deep, atmospheric engagement."
+summary: "A Himalayan survival horror whose third-eye combat, Buddhist lore and atmosphere make it a welcome surprise."
 image: "/assets/img/reviews/cursed-mountain.webp"
 ---
 
-Cursed Mountain fosters a suffocating sense of isolation by situating its haunting mystery atop a treacherous, fog-drenched Himalayan peak. Discovering the dark history of this ill-fated expedition requires painstaking scrutiny of scattered journals and environmental clues that gradually peel back the layers of a deeply unsettling, mystical narrative.
+Cursed Mountain is a survival horror set on a haunted Himalayan peak, following mountaineer Eric Simmons as he searches for his brother. The third-eye combat reveals and shoots ghosts, weakening them for the symbol-tracing banishment that follows.
 
-Spirits appearing within the frigid landscape demand a departure from conventional weaponry, forcing a reliance on intricate, ritualistic cleansing rites. Executing these precision-based banishments creates a distinct rhythmic tension, as tracing the necessary symbols under extreme duress proves far more demanding than standard ghost-hunting fare found in typical genre entries.
+The combat is the standout, with the tracing mechanic far easier with a mouse than the original Wii remote. The ritual weapons progress well, from the cartica ice axe to the one-shot lagpa, with the kila dagger the standout of the set.
 
-Navigating the steep, unforgiving terrain frequently exposes the limitations of the title's original architecture, particularly regarding the fixed camera perspectives. Whilst these cinematic angles occasionally induce disorientation during critical moments of traversal, they simultaneously amplify the vulnerability felt by the protagonist amidst the swirling, claustrophobic banks of mountain mist.
+The Tibetan Buddhist lore is the heart of the setting, with the Lando Chronicles and the diary entries slowly painting the protagonist as the arrogant architect of the curse. The atmosphere delivers on the title, with demonic whispers, jump scares and deserted mountain villages.
 
-Utilising the Third Eye becomes an essential survival strategy, allowing the player to discern hidden paths and spectral entities that remain invisible to the naked eye. Mastering this supernatural vision transforms basic exploration into a deliberate, investigative process that highlights the developer’s commitment to weaving mechanics into the fabric of the story.
+The climbing and traversal set-pieces carry the ascent, from sheer wall climbs and wind-blasted ridge crossings to the finicky balance-beam QTEs. The story builds on the brotherly dynamic, with a late-game reveal about a supporting character and a summit confrontation that closes the climb.
 
-Spirit-banishing sequences oscillate wildly in difficulty, occasionally resulting in abrupt surges of tension that contrast with the more measured pace of discovery. These spikes in challenge test one's patience during the purification of recurring apparitions, yet successfully executing the final motions to release a trapped soul provides a profound sense of relief.
+Melee is nearly useless, its whole function mostly breaking open pots, and the swaying ghosts make clean shots a recurring frustration. The fixed camera angles and tank-like movement are awkward, especially when the angle shifts mid-fight.
 
-Primitive graphical assets and repetitive environmental structures serve as persistent reminders of the product's Nintendo Wii ancestry on modern hardware. Despite these visual shortcomings, the pervasive dread successfully anchors the experience, ensuring that the atmosphere remains gripping enough to draw players toward the mountain's summit despite the unpolished technical reality.
+The PC port is a rare find, significantly easier with mouse and keyboard, though it is effectively abandonware with bare-bones options and no controller support. The oxygen gauge barely functions on PC, the closing boss is baffling and disjointed, and the vulture-demon rematch drags.
 
-Overall, this compelling horror journey succeeds by prioritising unique mechanical systems and atmospheric depth over high-fidelity visuals or fluid action. Fans of the medium who appreciate uncovering mysteries through patient investigation will find the ritualistic combat loop immensely rewarding, provided they can overlook a few dated design choices during their ascent.
+Overall, combat, lore and atmosphere make Cursed Mountain a welcome surprise. The finicky controls and the awkward boss fights are the main caveats.

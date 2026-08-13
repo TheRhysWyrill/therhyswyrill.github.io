@@ -6,22 +6,22 @@ permalink: /reviews/the-council/
 verdict: "recommended"
 platform: "PC"
 release_year: 2018
-genre: "Adventure"
+genre: "Adventure, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Social battles replace traditional violence, forcing players to exploit character vulnerabilities through rigorous observation and class-based knowledge gathering in this dark historical fantasy."
+summary: "A tactical conversation-driven mystery where skill-based dialogue duelling and a demonic conspiracy twist elevate an episodic whodunit."
 image: "/assets/img/reviews/the-council.webp"
 ---
 
-The Council initiates an immersive mystery where the protagonist searches for a missing mother amidst a claustrophobic, high-stakes atmosphere on a secluded island. Historical figures mingle with occult elements to construct a uniquely dark fantasy setting that consistently rewards the player's curiosity through dense, layered world-building.
+The Council turns its conversations into tactical duels, with every guest carrying vulnerabilities that refund effort points and immunities that punish careless questions. The skill-based dialogue system is the game's defining strength, making each interrogation a risk-reward gamble.
 
-Dialogue encounters function as high-stakes confrontations, necessitating preparation and precise skill usage rather than relying on standard combat systems. Personality analysis acts as the primary weapon, forcing participants to actively scrutinise their opponents for specific vulnerabilities to gain a decisive advantage during these demanding and tense social battles.
+The story opens with French diplomat Louis de Richet arriving on Lord Mortimer's island in 1793 to find his missing mother. What seems like a standard whodunit around the murder of Elizabeth Adams slowly becomes a far stranger conspiracy.
 
-Choosing between the Diplomat, Occultist, or Detective classes dictates the acquisition of knowledge via discovered manuscripts and investigative efforts. This class-based progression system ensures that gathering clues translates into tangible skill boosts, making the search for information feel intrinsically linked to the character's capability to succeed in future arguments.
+Demons and possession reshape the mystery, with the game revealing that Mortimer and his ally are ancient parasitic spirits and that Louie himself is a demon. The reveal that Sarah is his sister rather than his mother lands as the emotional core of the campaign.
 
-Navigating the manor often proves tedious due to its complex, maze-like layout and the absence of clear icons for essential interactable objects. Players must frequently scour environments for subtle prompts, leading to moments of unnecessary frustration that briefly derail the momentum of the otherwise absorbing investigative narrative.
+The historical cast is a delight, with George Washington, Napoleon Bonaparte and Cardinal Pia scheming around the conference table. Each guest carries their nation's interests and their own secrets, and the epilogue narrating their eventual fates is a satisfying payoff.
 
-Unpolished character animations and jarring visual elements occasionally emerge during the early stages, creating a slight disconnect that disrupts the overall immersion. These technical hiccups do not persist throughout the journey, though they remain a noticeable imperfection when set against the otherwise striking and detailed occult themes found here.
+Progression carries real weight, with diplomat, occultist and detective classes, chapter-end skill points and manuscripts that grant bonus skills. The vulnerabilities and immunities system rewards careful reading of each personality, though failed checks can exhaust the effort pool.
 
-Historical intrigue and occult conspiracies drive the episodic experience forward, allowing for a deep and satisfying evolution of the central narrative threads. While the abundance of collectible coins and the odd architectural choice of overly high ceilings feel somewhat misplaced, these minor design quirks fail to diminish the core investigative loop.
+The pacing is heavily conversational, with long stretches that play like watching a movie. A couple of sequences drag, including the memory-reconstruction puzzle and the hunt for the holy lance, and one major choice barely registers in later scenes.
 
-Overall, the conversation mechanics provide a cerebral challenge that rewards those who favour rigorous analysis over reflex-heavy gameplay. Managing social vulnerabilities transforms every interaction into a tactical puzzle, ultimately proving that this social-focused system offers a compelling and sophisticated alternative to conventional action within the modern narrative-adventure genre.
+Overall, the tactical dialogue, surprising story and memorable cast outweigh the passive pacing, and the result is an easy recommendation. It is a fresh, genuinely twisty take on the episodic adventure.

@@ -5,23 +5,23 @@ game_title: "Blood West"
 permalink: /reviews/blood-west/
 verdict: "recommended"
 platform: "PC"
-release_year: 2022
-genre: "FPS, RPG"
+release_year: 2023
+genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Cursed artifacts and methodical stealth mechanics transform this supernatural Western into a tense survival loop where preparation dictates your likelihood of surviving the badlands."
+summary: "A meaty weird-west horror FPS whose stealth-first gunplay, interconnected maps and dark atmosphere are marred only by one brutal early boss."
 image: "/assets/img/reviews/blood-west.webp"
 ---
 
-Blood West constructs a grim, supernatural frontier where the pervasive silence of a corrupted landscape forces an immediate, visceral commitment to deliberate action. Every shadow cast across these barren lands feels laden with unspoken history, transforming the act of traversal into a calculated exercise in survival within a lawless, cursed realm.
+Blood West is a weird-west horror FPS in which a cursed land keeps the dead from leaving, and an Undead Gunslinger is resurrected by totems of souls to purge the corruption. Three open-ended acts, from the Canyons to the Swamp and the Mountains, each offer artefacts, bosses and sprawling interconnected areas.
 
-Stealth serves as the primary pillar of success, rewarding players who prioritise patient observation and silent positioning over chaotic, headlong rushes into danger. Mastering this rhythm requires genuine focus, as an ill-timed shot often spells doom when enemies possess the capacity to dismantle an unprepared stranger with brutal, efficient lethality.
+The open-ended level design evokes Metro Exodus, with large intertwined maps whose routes loop back on themselves. The interconnected layout makes exploration impressive, and the scale of some areas is considerable.
 
-Cleverly interconnected cave systems expand the map into a labyrinthine puzzle of shortcuts, turning exploration into a strategic advantage during intense, high-stakes infiltrations. Uncovering these hidden conduits provides a welcome reprieve from the oppressive atmosphere, though looting remains a challenging endeavour when high-value items hide within the pervasive, gloom-drenched aesthetic of the terrain.
+Stealth is the primary approach, with backstab one-shots and rock and distraction tools enabling quiet takedowns. The gunplay is punchy and satisfying, and encounters encourage a slow, planned approach rather than constant action.
 
-Progression choices emerge through a rigid, meaningful system involving cursed artefacts and inventory capacity, which forces players to weigh every potential gain against limited space. Specialising in stealth efficiency or combat survivability requires thoughtful consideration of current resource scarcity, ensuring that every piece of gear serves a vital purpose in your survival.
+The perk tree and artefact system provide extensive choice, with so many worthwhile options that progression stays engaging across the whole run. In-game lore notes deliver storytelling at its best, with a farm diary that descends from chicken-feeding entries into horror.
 
-Controller-based interface management often introduces unnecessary friction, creating a cumbersome experience when sorting through bulky backpacks during the heat of an urgent skirmish. Relying on stashes becomes an essential practice for those wishing to avoid the clutter, even if the persistent UI hurdles continue to demand patience throughout the lengthy campaign.
+The atmosphere is dark and oppressive, with danger lurking around every corner, and the cursed land itself feels alive with threat. The closing act reworks the established tools, ending in a confrontation that reshapes the journey's purpose.
 
-Erratic enemy behaviour occasionally complicates a perfect execution, particularly when detection meters fill with alarming speed across confined, cramped environments. Such unpredictable detection sequences represent a significant hurdle to overcome, yet the inherent satisfaction gained from navigating these zones successfully consistently mitigates the frustration of these tighter, more claustrophobic combat encounters.
+The chapter one boss stands out as a massive difficulty spike, summoning additional enemies mid-fight. The game also lacks a proper credit sequence, and minor frictions such as inconsistent gunshot detection linger.
 
-Overall, this methodical adventure thrives by prioritising disciplined preparation and tactical intelligence over frantic mechanical skill. Those seeking an evocative, slow-paced struggle through a magically blighted landscape will find a deeply immersive journey, provided they are willing to engage with the demanding resource management that defines this unique, stalker-inspired take on Western folklore.
+Overall, stealth, gunplay and atmosphere make Blood West an emphatic recommendation. Around twenty-five hours of content for a modest price is exceptional value, with only the early boss spike marking a real stumble.

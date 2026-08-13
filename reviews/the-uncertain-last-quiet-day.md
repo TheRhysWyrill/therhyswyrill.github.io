@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2016
 genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Exploring a post-human world through the eyes of a logical machine reveals a chilling conspiracy hiding behind the facade of an emotionless robotic society."
+summary: "A robot-society adventure whose official history unravels, told with deadpan humour and strong visuals."
 image: "/assets/img/reviews/the-uncertain-last-quiet-day.webp"
 ---
 
-The Uncertain: Last Quiet Day constructs a chilling narrative framework where an artificial intelligence discovers the grim reality of human extinction while navigating a society built upon systematic falsehoods. Operating from the perspective of an emotionless machine provides a unique sense of otherness as the protagonist misinterprets various human artefacts.
+The Uncertain: Last Quiet Day is a third-person adventure set in a 22nd-century Earth where humanity is extinct and the robots it created have built a new civilisation. The protagonist, RT-217NP, repairs electronics and records deadpan observations about the human world he studies.
 
-Steel-clad ruins and reclaimed landscapes foster a gritty atmosphere that effectively frames the investigative role undertaken by the player. Uncovering environmental clues and audio logs reveals a world that, despite lacking biological inhabitants, still struggles with the complex flaws inherited from its long-departed creators during their final days.
+The robot-society premise is the hook, with the official history claiming humans destroyed themselves while the more progress the robots make, the more they resemble humans. The reveal that this history is false drives the whole narrative.
 
-Point-and-click investigation loops focus on the efficient use of hacking tools and a plasma cutter to bypass security barriers or restore essential power. These systems aim to simulate the cold precision of a robot, though this feeling of mechanical competence is occasionally hindered by frustratingly unclear interaction methods during sequences.
+The deadpan robot-logic humour is a constant delight, from guitars being catalogued as plucked string instruments to trash being prized as building material. Object examination produces a running commentary that gives the world a consistent voice.
 
-Minigame interfaces for various logic puzzles often rely on vague visual cues that impede the flow of an otherwise compelling mystery. Players might find themselves battling the interface itself rather than the intended challenge, as these segments lack the necessary polish to remain consistently satisfying throughout the investigative journey.
+Exploration and light puzzle work carry the play, with radio tuning, a plasma-cutter calibration, a switchboard and a safe-cracking sequence among the challenges. The final act's lab restoration adds power routing and a turret-avoidance corridor.
 
-Driving sections introduce a further layer of mechanical friction with clunky vehicle handling that feels detached from the core adventure. These mandatory segments function less as an integrated element of the world and more as a tedious diversion that pulls the focus away from the compelling narrative hooks found elsewhere.
+The visuals make the strongest first impression, with the game's look praised from the opening moments. The repeated drone-avoidance driving sections are the oddest element, with the car's constant drift making them feel loose.
 
-Stiff character animations during dialogue sequences further highlight the unpolished nature of the robot interactions throughout the story. Small font sizes and the absence of zoom features for in-game documents create additional hurdles, making the process of reading essential information a tiresome task for those invested in the deeper lore.
+The story ends abruptly on a cliffhanger, leaving the resistance's fate and the larger mystery unresolved in a way that clearly points to the sequel. The brief runtime and the unanswered questions are the main reservations.
 
-Overall, the central mystery concerning the USS Corporation remains gripping enough to sustain interest despite the technical shortcomings and awkward driving sequences. Those who prioritise a thought-provoking premise and atmospheric world-building will likely find the narrative payoff provides sufficient motivation to persevere through the various clunky control interface issues.
+Overall, world-building is the reason to play, and the premise stays compelling even when the plot ends mid-stride. The interest in continuing the story is the strongest sign of what this entry achieves.

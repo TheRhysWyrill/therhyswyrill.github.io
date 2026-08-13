@@ -8,20 +8,20 @@ platform: "PS3"
 release_year: 2010
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This unrelenting epic achieves unparalleled scale through brutal, high-fidelity combat and a relentless focus on delivering a truly apocalyptic mythological climax."
+summary: "A very good finale whose visuals, weapon-swap combat and epic set pieces cap the original trilogy impressively."
 image: "/assets/img/reviews/god-of-war-3.webp"
 ---
 
-God of War III captures the zenith of a vengeful journey, manifesting as an unrelenting display of mythological slaughter that elevates the franchise to unforeseen heights. Every environment pulses with the scale of a collapsing pantheon, ensuring the protagonist’s singular, destructive mission feels monumental and genuinely world-shattering throughout.
+God of War III is an action-adventure finale that picks up exactly where God of War II ends, with Kratos riding a Titan up the slopes of Olympus. The campaign was completed through its credits and post-credits scene on original PS3 hardware.
 
-Visceral combat remains the undeniable heartbeat, demanding a rhythmic mastery of varied tools like the Nemian Cestus to dismantle Olympian foes with savage efficiency. Responsive controls make chaining these elaborate combos an absolute pleasure, as each strike lands with a tactile, bone-crushing weight that feels significantly more refined than before.
+The visuals are insane for the hardware, with the glowing blades and the scale of Olympus making the jump from God of War II huge. The intro's direct continuation of the previous ending looks dramatically better.
 
-Technical proficiency on the hardware provides a remarkably consistent performance, allowing chaotic sequences filled with torrential gore and lightning to remain fluid. Such stability ensures that even when the screen is absolutely teeming with aggressive mythological creatures, the experience never falters in its delivery of high-octane, cinematic violence.
+The weapon-swap system lets combat switch weapons mid-combo, and the spells tied to each weapon are all pretty good. The Claws of Hades are the favourite, versatile thanks to the many souls that can be summoned.
 
-Camera positioning occasionally creates unnecessary friction, as the sweeping, dynamic angles sometimes struggle to track the action within more constrained or labyrinthine architectural spaces. Navigating these complex environments occasionally feels secondary to the primary joy of battle, particularly when repetitive environmental puzzles force a sluggish halt to the momentum.
+Combat quality-of-life improvements land, with movement while attacking, faster object pushing and a visible max-upgrade indicator. The Hermes fight is a fun highlight, and the Zeus finale's dynamic fighting stage is a cool touch.
 
-Quick-time events suffer from an awkward placement of on-screen prompts, which often appear distractingly near the screen edges during moments of intense, high-stakes confrontation. Whilst this interface quirk momentarily breaks the immersion, it represents a minor annoyance when contrasted against the sheer satisfaction of the game’s core loop.
+The new quick-time events are the biggest issue, since the small buttons at the screen edges are far harder to read than the centred prompts of earlier games. The close over-the-shoulder camera feels wrong, and enemy-heavy stretches drag.
 
-Progression rewards thoughtful weapon management, as every upgrade offers both visible improvements and deeper tactical utility for the various magical abilities available to the player. Integrating these tools into the heat of a struggle adds necessary complexity, transforming simple encounters into displays of calculated, god-slaying artistry that never ceases to impress.
+The scorpion queen fight and the cerberus are worse than ever, and the shield enemies block constantly. The Pandora escort mission is a chore, and the Hermes boots barely last longer than two seconds.
 
-Overall, this relentless title solidifies a triumphant reputation by pushing its mechanical and visual boundaries far beyond the standards established by its storied predecessors. Despite minor grievances regarding camera behaviour and interface layout, the sheer intensity and technical polish ensure that this apocalyptic crusade remains a quintessential action-adventure masterpiece.
+Overall, the visuals, the weapon-swap combat and the epic set pieces make God of War III a very good game. The edge-of-screen quick-time events and the close camera are the caveats.

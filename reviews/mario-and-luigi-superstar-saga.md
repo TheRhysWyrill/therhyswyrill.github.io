@@ -6,22 +6,22 @@ permalink: /reviews/mario-and-luigi-superstar-saga/
 verdict: "recommended"
 platform: "GBA"
 release_year: 2003
-genre: "Adventure, RPG"
+genre: "RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Precision timing and irreverent humour transform this handheld classic into a rewarding, mechanically deep RPG experience that successfully defies series conventions."
+summary: "A role-playing game whose writing, enemy telegraphing and bros attacks make it a fantastic little adventure."
 image: "/assets/img/reviews/mario-and-luigi-superstar-saga.webp"
 ---
 
-Mario & Luigi: Superstar Saga constructs an intricate world where rhythmic precision and coordinated button inputs dictate the outcome of every skirmish. Battles abandon traditional grind-heavy encounters, opting instead for a demanding action-command system that turns every defensive manoeuvre and offensive strike into a test of keen observation and timing.
+Mario & Luigi: Superstar Saga is a role-playing game from AlphaDream, following the brothers on a journey to recover a stolen voice. The complete campaign was finished across three sessions, from the voice theft to the ten-boss gauntlet of the closing castle.
 
-Bros Actions serve as the backbone for navigating the vibrant Beanbean Kingdom, unlocking creative traversal abilities that make every region feel rewarding to investigate. Solving environmental puzzles requires constant synergy between the two protagonists, successfully transforming the act of exploration into a persistent demonstration of their unique, interconnected physical capabilities.
+The writing and characters are the standout, with the snarky dialogue, the Fawful food metaphors and the running gag that nobody remembers Luigi's name. The music stands out too, with the cheery tunes and the awesome boss music carrying the mood.
 
-Irreverent humour permeates the narrative throughout, with the snarky dialogue and memorable character dynamics providing constant entertainment during the quest to recover Princess Peach's stolen voice. Luigi remains a particular standout in these exchanges, as his expressive reactions to the mounting absurdity add a personal touch to the brothers' journey.
+The enemy telegraphing is a standout, with subtle tells revealing which of two attacks is coming and making each fight fun to figure out. The bros attacks reward mastery, with advanced commands unlocking through repeated use and hammer techniques chainable for absurd damage.
 
-Technical limitations unfortunately hinder the experience, as the sluggish save times and lethargic menu navigation feel noticeably outdated compared to modern standards. Managing inventory quickly becomes a tedious chore during longer sessions, occasionally detracting from the otherwise fast-paced flow of the adventure and the charm of its distinct visual presentation.
+The elemental hand powers double as field and battle abilities, while the ami hammer techniques open up secret routes. The set-piece variety impresses, from the Star Beans Cafe side-quest with its seven drink brews to the Winkle Colosseum.
 
-Tutorial sequences represent a significant nuisance, frequently interrupting the action to re-explain mechanics that players will have already mastered intuitively. These forced interruptions are particularly jarring due to the default "Yes" prompts, which stubbornly refuse to acknowledge the competence of returning players or those who simply wish to proceed.
+The closing castle is the coolest dungeon, packed with ten bosses including the Koopa Kids and their individual gimmicks. The skill ceiling is high, with the game beatable without taking damage for those who master the timing.
 
-Surprising difficulty spikes await within certain boss encounters, presenting challenges that require rigorous pattern recognition to avoid being overwhelmed by unexpected mechanical shifts. Optimising character stats during level-ups feels like guesswork because the interface lacks clear visual feedback, placing the burden of strategic planning entirely on the player's own accumulated experience.
+The final boss's second phase is the biggest gripe, with an enormous health pool and a fight that drags on far too long. The save times are slow, the tutorials repeat for each brother and the hidden blocks demand pixel-perfect positioning.
 
-Overall, the tight combat loops and genuine wit ensure that the journey remains a highly engaging highlight of the genre. Despite the intrusive pacing of early tutorials and minor technical friction, the satisfaction derived from mastering such deep, skill-based mechanics makes this classic adventure an essential investment for any dedicated player.
+Overall, the writing, the enemy telegraphing and the bros attacks make this a fantastic little RPG. The bloated final phase and the slow save times are the caveats.

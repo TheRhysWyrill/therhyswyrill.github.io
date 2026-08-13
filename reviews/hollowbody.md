@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2024
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This evocative survival horror tribute captures the oppressive isolation of classic genre hallmarks while carving out its own distinctively grim, futuristic urban identity."
+summary: "A tech-noir survival horror whose Silent Hill homage, authentic British world-building and generous ammo make it a strong return."
 image: "/assets/img/reviews/hollowbody.webp"
 ---
 
-Hollowbody channels the claustrophobic dread of early two-thousands genre classics, tasking players with navigating the decaying ruins of a quarantined British city. Aonis feels remarkably oppressive, using distant mechanical clanking and unsettling creature noises to cultivate an unrelenting sense of vulnerability that persists long after the initial discovery phase concludes.
+Hollowbody is a tech-noir survival horror from solo developer Headware Games, sending the player through a quarantined city in search of a missing companion. The full campaign was completed to the credits, with the post-credits extras including Dungeon Crawl, First Person and Big Head modes.
 
-Navigating the gloomy, rain-slicked streets requires a measured approach, as the game rewards those who carefully weigh the cost of every engagement. Resource management stays crucial, with limited health sprays forcing frequent, tactical decisions regarding whether to risk confrontation or flee into the shadows to preserve precious, dwindling ammunition supplies.
+The Silent Hill homage is the whole point and lands well, with fixed camera angles, the red save flash and a pick-up noise that mirrors Silent Hill 2. The radio static that signals a nearby enemy is a welcome survival tool.
 
-Combat scenarios often fluctuate between exhilarating tension and mechanical friction, depending largely upon the weapon currently held by the protagonist. Whilst the bow proves surprisingly efficient for quiet strikes, attempting to wield a cumbersome makeshift axe within the tight, confining corridors often leads to unnecessary damage during particularly frantic, twitchy encounters.
+The connection to the developer's previous game pays off, with the Last Stop Cafe serving as a subtle callback to where Chasing Static began. The authentic British touches impress, with train tickets that look exactly like real ones.
 
-Fixed camera angles serve to amplify the pervasive feeling of helplessness, though they sometimes introduce genuine navigation hurdles when enemies linger just out of frame. Tracking these bizarre, twitchy threats becomes significantly more difficult within cramped environments, turning simple skirmishes into surprisingly high-stakes tests of positioning and sharp, rapid spatial awareness.
+The resource balance is generous in one direction, since the game gives plenty of ammo, and the bow and arrow is a highlight that outperforms the shotgun. The healing economy is stingy in contrast, with first aid sprays in short supply throughout.
 
-Backtracking through the sprawling city occasionally grows tedious, especially when respawning foes complicate the return journey across already explored, desolate districts. Progress usually relies on locating specific keys, such as battery-powered tools or card readers, which keep the focus firmly upon methodical exploration rather than pure, unadulterated action-oriented progression.
+The unlockables give a genuine incentive to replay, since beating the game unlocks new modes rather than simply ending. The multiple-ending structure is noticed approvingly, with different outcomes implied by different choices.
 
-Unlockables provide a delightful, nostalgic touch, with additions like Big Head Mode offering a welcome injection of personality that encourages multiple playthroughs. Seeing these playful, classic-style secrets included alongside a robust, grim narrative demonstrates a commitment to the spirit of the era that feels entirely absent in most modern titles.
+The fixed camera angles bite in combat, with awkward angles repeatedly causing trouble, and the darkness is oppressive without a toggleable flashlight. Combat is largely skippable with little incentive to fight, and the dogs are the most annoying enemy encountered.
 
-Overall, this meticulous homage succeeds by blending mid-twenty-first-century futurism with the methodical, slow-burn pace that defines the finest survival horror legends. Its ability to cultivate authentic tension whilst offering a genuinely rewarding sense of discovery ensures that any minor frustrations regarding camera control fade against its beautifully oppressive, cohesive design.
+Overall, the Silent Hill-inspired craft, the British world-building and the fair ammo supply make this a very good survival horror. The camera angles and healing scarcity are the caveats.

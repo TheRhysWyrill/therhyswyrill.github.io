@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2020
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Fluid combat and flexible destiny systems anchor this expansive fantasy epic, which shines through its deep mechanical customisation despite minor inventory friction."
+summary: "A colossal action RPG whose combat variety, Reckoning mode and three expansions make it fantastic fun."
 image: "/assets/img/reviews/kingdoms-of-amalur-re-reckoning.webp"
 ---
 
-Kingdoms of Amalur: Re-Reckoning channels high-fantasy spectacle into a vibrant, sprawling landscape where being reborn as a fateless individual grants unparalleled agency over your destiny. This re-released journey effectively balances the grim reality of a war-torn realm with the whimsical, often colourful elements inherent to the mysterious Fae world.
+Kingdoms of Amalur: Re-Reckoning is the 2020 remaster of the action RPG, revisiting the land of Amalur in a fully completed run. The eighty-eight hour campaign covered all main quests, all side quests, all law stones and all three expansions.
 
-Weapon variety remains a highlight, permitting a seamless blend of melee, ranged, and magical strikes that ensure skirmishes never stagnate. Whether wielding dual shaks for rapid bursts or commanding staves for crowd control, the sheer fluidity of every engagement rewards players for experimenting with different tactical playstyles during tense battles.
+The combat is the star, with a boatload of weapon variety and the faeblades and chakrams singled out as favourites. Reckoning mode is one of the coolest things, with the fate metre filling with kills and paying out in slow-motion carnage and execution finishers.
 
-Fate-based progression elevates character development, letting users specialise in Might, Finesse, or Sorcery to forge a unique identity. Picking an archetype like the Universalist destiny offers a satisfying hybrid approach, ensuring that your skills feel genuinely impactful as you traverse perilous dungeons and uncover the ancient secrets of the land.
+The world's scale is a running theme, with the hours floating away whenever the campaign is underway. The length is reframed as value, with the remastered run of eighty-eight hours still done in much less time than the original.
 
-Exploring this vast world feels purposeful thanks to specialised tools, such as using a dowsing rod to find rare reagents. Investing points into the Detect Hidden skill proves vital for managing resources effectively, as this discovery-led approach brings tangible rewards when exploring dense caves or hidden pockets of this massive map.
+The expansions all land, with Legend of Dead Kel cleared start to finish and Fate Sworn judged pretty damn good. The remaster earns its keep, looking significantly better than the original and boasting instant load times.
 
-Inventory management frequently creates unnecessary friction, as even with capacity upgrades, looting special reward chests remains a chore. While the dedicated junk feature is a commendable quality-of-life inclusion for quickly selling surplus items, the constant need to prune your gear limits often interrupts the flow of your dungeon crawls.
+The story's destiny theme threads through, with the fateless one who chose their own path against the war of the Tuatha. The faction content charms, from the House of Ballads to the spider-queen Widow and the special-delivery armour chest.
 
-Scripted sequences during the opening hours impose a restrictive barrier before the experience truly begins to open its doors. Surviving this lengthy tutorial is essential, but the repetition can feel taxing for those revisiting this adventure, as the early pacing lacks the freedom found in the later, more open-ended exploration.
+The Fate Sworn expansion's second-to-last quest is the low point, with its layered dungeons crammed with enemies. The sheer length is a double-edged sword, the inventory handling is a pain, and the enemy-scaling quirk can lock content for the unwary.
 
-Overall, this action-packed odyssey succeeds through its robust combat loops and deeply rewarding customisation paths that invite repeated experimentation. Despite the occasional inventory clunkiness and a slow introduction, the sheer mechanical depth provides an immensely satisfying experience for anyone seeking a rich, lore-filled world to master on modern hardware.
+Overall, the combat variety, the colossal world and the three expansions make this a fantastic action RPG. The Fate Sworn quest and the length are the caveats.

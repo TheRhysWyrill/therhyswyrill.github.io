@@ -8,22 +8,20 @@ platform: "PC"
 release_year: 2019
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-genre: "Adventure, Puzzle"
-specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This evocative lunar mystery excels at world-building and atmospheric tension, successfully grounding its science-fiction narrative within a tangible, haunting reality of space exploration."
+summary: "A lunar adventure whose quiet atmosphere and story reveals make it a good, compact experience."
 image: "/assets/img/reviews/deliver-us-the-moon.webp"
 ---
 
-Deliver Us The Moon establishes a haunting vision of lunar isolation where the cold silence of the vacuum mirrors the collapse of human ambition. Piecing together the fragmented history of the 2054 blackout requires a keen eye for detail, as every discarded log and hollow facility serves to deepen the lingering narrative mystery.
+Deliver Us The Moon sends a lone astronaut to the moon on mission Fortuna, to bring the microwave power transmission network back online after a blackout plunged Earth into an energy crisis. The abandoned WSA facilities and the silent lunar base carry the atmosphere, with an eeriness that lingers.
 
-Navigating the desolate surface necessitates a deliberate approach to environmental problem-solving that frequently demands careful systemic alignment. Rebooting power grids or repairing complex equipment highlights a satisfying focus on technical agency, ensuring that every small victory feels like a meaningful contribution toward uncovering the truth of the Luna Council.
+The ASC drone companion is sent through vents and pipes to restore power, activate terminals and unlock doors, opening routes the astronaut cannot reach. The traversal varies between third-person exploration, first-person EVA sections with oxygen management, the rover and the monorail.
 
-Slippery movement mechanics occasionally disrupt this sense of grounded realism, leaving the protagonist feeling detached from the lunar soil beneath their boots. These imprecise inputs become particularly apparent during high-stakes sequences, where the inability to adjust sensitive dials or navigate rapidly through space stations tests the limits of one's patience.
+The story reconstructs the colony's collapse through audio logs, holograms and scannable entries, from the Luna Council to a conspiracy to abandon Earth on the Arks. The identity of the protagonist is withheld until the finale, a reveal that recontextualises the whole journey.
 
-Shadowy corridors filled with environmental debris hide essential clues, though the lack of clear indicators for interactable objects creates unnecessary friction. Searching for a tiny switch amidst the overwhelming gloom often turns investigative progress into an exercise in guesswork, momentarily breaking the immersion provided by the otherwise stark, convincing aesthetic.
+The puzzle loop stays consistent, realigning MPT dishes, rebooting life support, cutting debris and powering the station's rotation engine. The battery and canister weight puzzles give the mechanics a physical, satisfying logic that fits the sci-fi setting.
 
-Flashbacks and holograms provide a poignant emotional backbone to the journey, transforming what could have been a sterile expedition into a personal story about the Johansson family. Witnessing these historical vignettes offers crucial context for the mission, ultimately providing the motivation required to push through the more cumbersome traversal sections.
+The movement is the biggest issue, floaty and on-ice, with an input-delay feel that makes no sense indoors. The rover's range is cut short by invisible walls, blocking exploration of the golden domes.
 
-Technical inconsistencies frequently manifest as oddly polished, laminated textures that stand out against the grittier surroundings, reminding the player of the artificial nature of their environment. UI elements occasionally intrude upon the screen, yet the overall stability ensures that these minor visual grievances never truly derail the broader, compelling journey.
+The monorail QTEs leave too little time to switch the track, and the free-floating zero-gravity sections are awkward. The roughly three-hour campaign is compact but well-paced.
 
-Overall, this atmospheric adventure thrives by successfully turning a barren lunar landscape into a vessel for profound discovery and technological intrigue. Players who value a narrative-driven experience will find the emotional weight of the mystery worth enduring, despite the persistent mechanical hurdles regarding character control and interface clarity.
+Overall, atmosphere and story reveals make Deliver Us The Moon a good, quiet adventure. The floaty movement and the restricted rover range are the main caveats.

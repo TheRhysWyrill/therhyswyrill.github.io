@@ -5,23 +5,23 @@ game_title: "Dead Island"
 permalink: /reviews/dead-island/
 verdict: "recommended"
 platform: "PC"
-release_year: 2016
+release_year: 2011
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Brutal melee combat and rewarding scavenging loops transform this tropical survival tale into a cathartic exercise in creative, improvised zombie destruction."
+summary: "A first-person zombie RPG whose melee physics, weapon modding and goofy tone make it enjoyable fun."
 image: "/assets/img/reviews/dead-island.webp"
 ---
 
-Dead Island anchors its survival loop in the visceral impact of blunt-force trauma, prioritising tactile feedback during every desperate encounter with the infected. Watching limbs fly amidst realistic ragdoll physics provides a gruesomely satisfying rhythm that persists long after the initial luxury resort setting gives way to wider, blood-soaked horizons.
+Dead Island is a first-person action RPG set on the resort island of Banoi, where a zombie outbreak strands the playable survivors. The melee physics are the draw, with critical hits sending zombies flying across the sand in a way that never gets old.
 
-Scavenging for makeshift pipes, paddles, and sharpened blades necessitates constant adaptation, as every scavenged tool inevitably succumbs to relentless degradation. Balancing this precarious arsenal against increasingly aggressive hordes turns basic looting into a tactical necessity, ensuring that players maintain an intimate familiarity with the decaying junk scattered across the island.
+The weapon economy gives the combat real shape, with workbenches, repairs, durability and modding that turns a machete into a shocking, bleeding, tiring monster. Fury mode, drop kicks and blunt-weapon crit builds add layers on top of the swinging.
 
-Sam B’s devastating Fury ability serves as a crucial mechanical shift, allowing for a brief transition into a flurry of first-person brawling that effortlessly clears crowded corridors. Mastering this transformation alongside the ever-reliable drop kick grants a profound sense of agency, transforming the protagonist from a vulnerable survivor into a formidable threat.
+The zombie roster keeps encounters varied, from Walkers and infected to charging Rams, armoured Thugs, exploding Suiciders and toxic Floaters. The island itself offers a lot to do, from the Royal Palms resort and the slums of Moresby to the jungle and the prison.
 
-Environmental navigation occasionally suffers under the weight of an unrefined map system, leading to frequent backtracking for mundane fetch quests. Erratic behaviour from escort mission survivors further complicates these moments, as slow movement speeds and questionable pathfinding frequently disrupt the established tension during critical evacuations across the tropical resort.
+The story is thin, with a mute protagonist and odd voice inconsistencies, but the tone leans goofy rather than serious. The campaign stays entertaining for around 22 hours of main-plot completion, and the Ryder White campaign reframes the earlier story from the antagonist's perspective.
 
-Stamina management remains a constant hurdle throughout exploration, as sprinting and heavy strikes consume energy far faster than one might anticipate. Forced pauses during intense travel can prove jarring, though the underlying satisfaction of pinning foes against hazards or drowning them in shallow water consistently mitigates these restrictive pacing choices.
+The quarantine zone is the weakest stretch, swarmed with four or five infected that respawn every couple of seconds. Using a health item always unequips the current weapon, a persistent irritation throughout the whole game.
 
-Clunky inventory interactions hinder the ability to swap weapons during the heat of battle, creating occasional moments of unnecessary administrative frustration. While flickering lighting in early hotel corridors helps build a genuine sense of unease, visual inconsistencies like model clipping or strangely contorted neck animations periodically break the immersive horror aesthetic.
+Weapon durability and expensive repairs punish destroyed gear, and melee swings sometimes fail to connect. The escort sections put accompanied survivors in the lead, which makes protecting them awkward.
 
-Overall, this cathartic survival adventure succeeds by placing brutal, improvised combat at the heart of an expansive, loot-driven framework. Anyone who values impact-heavy action over narrative polish will find immense pleasure in the creative destruction on offer, provided they can overlook the occasional AI quirk or minor navigational inconvenience throughout.
+Overall, melee physics and the weapon economy make Dead Island goofy, enjoyable fun. The quarantine zone and the health-item quirk are the main caveats.

@@ -6,22 +6,22 @@ permalink: /reviews/strangeland/
 verdict: "recommended"
 platform: "PC"
 release_year: 2021
-genre: "Adventure, Point & Click"
+genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Surrealist metaphors and a transformative approach to character mortality turn this point-and-click journey into a dense, psychologically rewarding exploration of guilt and forgotten memories."
+summary: "A surreal point-and-click adventure in which a nameless stranger searches a nightmarish carnival for a woman who threw herself down a well."
 image: "/assets/img/reviews/strangeland.webp"
 ---
 
-Strangeland serves as a surrealist tapestry where the Quarent navigates a dreamlike domain defined by existential dread and fleshy, unsettling architecture. This bizarre environment functions as a canvas for a reflective narrative that leans heavily into abstract symbolism rather than relying on straightforward, linear modes of storytelling.
+Strangeland sends the nameless stranger Quarant through a nightmarish carnival in search of the golden-haired woman who threw herself down a well. Every resident he meets, from the blind scribe to the furnace numbered 83, turns out to be a fragment of his own mind.
 
-Inventory management and dialogue-based problem solving anchor the core progression, forcing a slow, methodical deciphering of the world’s internal logic. Players must manipulate NPCs and environmental hazards to piece together fragments of the past, often interacting with cryptic entities like the blind scribe to uncover hidden truths.
+The carnival is a mental landscape of guilt, with the dark thing above killing everything it touches and deactivating the rides. The reveal lands late and hard, as the mirror tells the stranger that the woman is dead and the whole park is an evasion of his own self-loathing.
 
-Dying within this oppressive landscape avoids the typical frustration of a reset, functioning instead as a narrative tool that allows for continuous exploration. Such a design choice shifts the focus away from avoiding failure, encouraging a deeper investment in uncovering the consequences of these recurring, inevitable moments of demise.
+The gameplay is classic point-and-click, with dialogue trees, a nine-slot inventory, item combining and connected areas to explore. Puzzle chains include forging a beak to open a rat stuffed with coins and decoding the pay phone number 4311013 from a tarot reading.
 
-Difficulty spikes emerge during specific moments, most notably within a shooting gallery minigame that proves particularly cumbersome to navigate. Persistent issues with mouse sensitivity settings make the required precision feel unnecessarily taxing, occasionally clashing with the slower, more deliberate pace of the standard exploration and traditional puzzle-solving segments found elsewhere.
+Death carries no penalty, with the stranger simply respawning at the nearest safe point, a design choice the run found refreshing. Three endings reward the completionist, with the orb ending dissolving the shadow as the good one.
 
-Tarot cards and recurring motifs weave a dense web of meaning throughout the journey, successfully exploring complex themes like memory and self-confrontation. These metaphorical threads maintain a consistent tone that deftly balances the tension of a psychological thriller with sudden bursts of ironic, dark humour that punctuate the surreal experience.
+The surreal aesthetic, the joke-telling humour and the recognisable voice cast keep the carnival memorable throughout. The tarot reading that hides the phone number is a standout puzzle, and the mirror's final monologue is the game's best writing.
 
-Interface navigation feels slightly unrefined at times, though these minor inconveniences rarely detract from the overarching sense of immersion. The mouse-only control scheme remains functional, allowing for a focused interaction with the environment that keeps the player tethered to the protagonist's desperate, fragmented search for his own identity.
+The shooting gallery is nearly impossible until the player finds the control box that slows the targets, and the mouse sensitivity option does nothing. The mirror-shard puzzle barely rotates its pieces, and feeding the teratoma is a tedious repetition.
 
-Overall, the puzzle configurations and atmospheric world-building transform an initially confusing premise into a compelling journey of deep, personal discovery. Each solved riddle reveals more about the characters trapped within this strange domain, ensuring that the emotional payoff remains potent even when the technical mechanics falter under pressure.
+Overall, the carnival of the mind, the literary writing and the consequence-free deaths made the playthrough fun from the first joke to the final mirror. The frustrating puzzles and the deliberately opaque symbolism are the price of entry, but the journey is worth it.

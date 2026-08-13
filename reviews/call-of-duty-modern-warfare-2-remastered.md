@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2020
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This intense remaster revitalises a classic blockbuster campaign, pairing bold, controversial storytelling with significantly polished visuals and consistently rapid, high-stakes military action sequences."
+summary: "A major visual uplift and twist-heavy story justify revisiting a tight four-hour campaign with a controversial airport set-piece."
 image: "/assets/img/reviews/call-of-duty-modern-warfare-2-remastered.webp"
 ---
 
-Call of Duty: Modern Warfare 2 Remastered redefines the high-octane shooter through an expertly polished lens that remains as punchy today as the original release. This explosive military journey maintains an urgent, grim atmosphere whilst delivering the signature blockbuster spectacle that fans of the franchise have come to expect.
+Call of Duty: Modern Warfare 2 Campaign Remastered rebuilds the 2009 campaign with a major visual uplift, and the difference is immediately obvious. The tight four-hour runtime covers an undercover CIA operation, a frozen Task Force 141 infiltration and the Washington invasion.
 
-Visual improvements breathe fresh life into every environment, ensuring that the heavy urban settings and diverse locales look suitably modern. These enhancements significantly bolster player immersion, allowing the grittiness of the global conflict to shine through with startling clarity during the most chaotic, fast-paced firefights across the entire globe.
+The airport mission is the campaign's most brutal stretch, forcing passive witness to an atrocity with the option not to fire. Its horror explains the controversy that surrounded the original release, and the player character's undercover status makes it a distinctly uncomfortable opening.
 
-Momentum remains the beating heart of the action as players cycle between various assault rifles, submachine guns, and secondary sidearms. Such variety keeps the core engagement loop feeling perpetually refreshed, even when the campaign pushes towards the most difficult, high-density scenarios that demand precise movement and rapid, tactical target prioritisation.
+Mission variety is strong, from a snowmobile escape and a Rio favela chase to an oil-rig hostage rescue with suppressed weapons. The loose stealth of the wilderness mission allows failure without restarting, and the gulag prison break lands as a highlight.
 
-Complex narrative beats define this entry, most notably the No Russian mission which presents a challenging, morally ambiguous sequence that lingers long after completion. While the script embraces such controversial turns with remarkable confidence, the constant threat of betrayal keeps the geopolitical tension at an absolute boiling point throughout.
+The story's betrayal lands hard, with an ally turning on the team mid-campaign and a captured character's return tying the second half together. The undercover agent's fate is handled with a quiet red-status touch that rewards attention.
 
-Frustration occasionally creeps in during dense urban levels, particularly within the favelas where foes occupy multiple high-ground angles simultaneously. Navigating these claustrophobic streets requires patience, as the aggressive enemy placement occasionally feels unfair compared to the smoother, more balanced arenas encountered during the earlier stages of the campaign.
+Hit markers make confirming shots satisfying, and constant weapon swapping keeps the combat fresh. The training-course opener and the lenient friendly-fire rules keep the tone lighter between the heavier set-pieces.
 
-Scripted events provide plenty of cinematic thrills, yet they frequently rely on trial-and-error mechanics that punish exploration during heated exchanges. Although the Pit training course offers a brief, engaging diversion for honing skills, repeating the objective to improve performance starts to feel tedious rather than rewarding after several attempts.
+The favela market streets are the weak point, with too many routes and too many directions for enemies to appear. Grenade pressure and dog patrols add frustration, and friendly and enemy identification blurs until it is too late.
 
-Overall, this remastered experience is an essential journey for enthusiasts who prioritise cinematic storytelling and high production values within the military shooter genre. It successfully balances bold, hard-hitting narrative choices with consistently sharp gameplay, ensuring that the intensity of this explosive, linear adventure remains memorable for any prospective player.
+Overall, mission variety, the visual uplift and the story's twists make the remaster a very good campaign. The favela layout and grenade pressure are minor caveats on a tight, memorable run.

@@ -6,22 +6,22 @@ permalink: /reviews/7th-sector/
 verdict: "recommended"
 platform: "PC"
 release_year: 2019
-genre: "Adventure, Puzzle"
+genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A cryptically atmospheric odyssey featuring inventive terminal-based logic that rewards patient players, despite technical fragility and occasionally burdensome control schemes."
+summary: "A cyberpunk puzzle adventure whose creative puzzles and escalating scope survive uncooperative controls and obscure solutions."
 image: "/assets/img/reviews/7th-sector.webp"
 ---
 
-7th Sector casts players into a desolate, industrial landscape where meaning is derived from cryptic environmental signals rather than direct exposition. This minimalist approach fosters a profound sense of isolation, effectively positioning the protagonist as an inconsequential spark navigating a world defined by its mysterious, hostile, and monolithic signal tower.
+7th Sector is a puzzle-platformer set in a mysterious cyberpunk world, with control passing between a robot, a drone, a gun-toting robot and a human. The protagonist begins as a spark of a robot that gains sentience, the story told through scattered terminals and posters.
 
-Ingenious brainteasers serve as the backbone of the journey, tasking participants with mastering complex terminal commands and intricate pattern recognition to influence the surroundings. Whilst these challenges frequently prove obtuse, successfully deciphering their internal logic produces a singular sense of intellectual triumph that remains unmatched by more conventional genre offerings.
+The sense of escalation is the story's strength, as a small spark grows into something far larger over the course of the world. The narrative offers little explanation, leaving the world open to interpretation in the same spirit as Inside.
 
-Navigating the environments requires mastering various forms, ranging from humble electrical pulses to more robust robotic shells. Every transformation introduces distinct movement properties that keep the progression feeling fresh, even if the actual handling of these avatars occasionally feels cumbersome or unresponsive during the game's more frantic, high-stakes action sequences.
+The puzzles are the core of the experience, creative in design with randomised elements that keep replays fresh. Many are extremely obtuse, however, and a solution can work without being understood, which dulls the sense of achievement.
 
-Technical hurdles represent a significant barrier to entry, particularly for those operating on Linux environments where missing font files render the experience entirely unplayable. Persistent troubleshooting is often necessary before one can even reach the initial menu, creating a frustrating gate that threatens to overshadow the creativity found within.
+The control scheme is the game's weakest area, with controller aiming mapped to the d-pad and no right-stick support, making the gun sections awkward. The car and crane-driving sections are the low point, repeatedly singled out as the worst parts of the experience.
 
-Ghostly visual storytelling mirrors the unsettling clarity of titles like Inside, ensuring the silent world feels consistently evocative and deeply immersive. Such deliberate ambiguity invites constant interpretation, allowing the player to project their own understanding onto the dark, industrial vistas that stretch out beyond the reach of the signal tower.
+Turrets are a recurring annoyance because they cannot be seen until they open fire, and one late puzzle's layout does not line up. A late-game bug can also leave the scene stuck in an empty void, requiring a reload.
 
-Randomised elements occasionally inject much-needed variety into secondary riddle structures, though this unpredictability can sometimes trigger unwanted waves of irritation. Precise interaction is paramount, yet vehicle sequences suffer from erratic physics that turn simple traversal into a test of patience rather than a highlight of the overall mechanical suite.
+The presentation holds up well for a game of its era, with the humanoid robot designs leaving a lasting impression. Despite the frustrations, the game remains enjoyable throughout, with the puzzles staying engaging even at their most obscure.
 
-Overall, this enigmatic production delivers a hauntingly rewarding journey for enthusiasts who value environmental ambiguity and complex, logic-heavy brainteasers over traditional narrative hand-holding. Despite the clunky control schemes and required technical adjustments, the persistent mystery and inventive core interactions ensure that this unique title leaves a powerful, lasting impression.
+Overall, puzzle design and the escalating cyberpunk journey make 7th Sector a satisfying, atmospheric experience. The controller scheme and car sections are the main obstacles, but the creative puzzles carry it through.

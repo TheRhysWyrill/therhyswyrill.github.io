@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2024
 genre: "Metroidvania"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Refined combat and fluid traversal mechanics anchor this visually breathtaking conclusion, providing a polished world that rewards curiosity with meaningful character customisation."
+summary: "A polished metroidvania whose gorgeous pixel art, traversal abilities and quality-of-life touches make it a fitting series capstone."
 image: "/assets/img/reviews/momodora-moonlit-farewell.webp"
 ---
 
-Momodora: Moonlit Farewell manifests as a series culmination where gorgeous pixel art elevates every screen into a meticulously crafted environment. Gorgeous lighting effects cast a melancholy glow over the journey, ensuring the visual presentation remains a constant source of wonder while players navigate the history of the Lun tree.
+Momodora: Moonlit Farewell is a metroidvania from Bombservice, closing out the beloved series as its largest and most polished entry yet. The complete run took around six hours, reaching near-total completion across the whole map and beyond.
 
-Fluid combat loops emerge from the pairing of the sacred leaf and bow, which gain significant tactical depth through the strategic application of customisable sigils. Mastering these encounters feels exceptionally rewarding, as the interplay between ranged precision and melee aggression allows for a fast-paced rhythm during difficult boss phases.
+The pixel art is the headline, with the bigger sprites and extra animation frames earning consistent glow-up praise. The full metroidvania structure returns, with the map completion percentage and the treasure markers guiding the exploration forward.
 
-Traversal abilities such as the sprint, double jump, and wall jump fundamentally alter the geography of the interconnected world as they are unlocked. Previously restrictive paths transform into accessible playgrounds, turning the map into a playground that encourages constant discovery once these essential movement upgrades become available to the protagonist.
+The traversal set delights, with the double jump, the wall jump and the stamina-based sprint opening the world wide. The lunar attunement gates the moon-mist areas and powers up the combat with the awakening attack.
 
-Fast-travel systems and map markers for hidden treasures serve as thoughtful quality-of-life inclusions that effectively minimise the potential for tedious backtracking across the world. Such additions streamline the path toward total completion, ensuring that the momentum gained from finding new movement options remains uninterrupted by excessive, repetitive travel between points.
+The sigil and companion systems add real build variety, with the equippable perks expanded through the grimoires. The quality-of-life touches shine throughout, with the treasure markers and the cat-retainer fast travel smoothing the long run.
 
-Contact damage from hostile entities occasionally introduces punitive status effects that can disrupt the internal pacing of a skirmish quite abruptly. These moments of irritation highlight sharp spikes in difficulty, particularly within optional challenge rooms where complex patterns demand a level of precision that feels significantly tougher than the standard encounters.
+The difficulty bites hard, with the bleeding status draining health and the severe spike damage punishing mistakes. The Moonlight Repose challenge rooms are the toughest optional content, with one hard gauntlet drawing direct comparison to Hollow Knight's White Palace.
 
-Meaningful growth manifests through the gathering of berries to bolster statistics and the acquisition of sigils to augment individual playstyles. Whether leaning into increased healing throughput or specialised damage bonuses, these systems provide a flexible framework that empowers players to overcome the most taxing threats found within the lunar conflict.
+The story weaves the series' lore into a moon-god confrontation, with the stolen black bell setting the quest in motion. The final boss is messy but ultimately satisfying, with so very much going on that visibility suffers at times.
 
-Overall, the character connections established through ritualistic actions like petting cats or sharing meals add a layer of warmth to an otherwise lonely atmosphere. This interplay between mechanical customisation and calm moments at shrines balances the inherent danger of the underworld, creating a refined journey through a beautiful, decaying landscape.
+Overall, the exploration, the gorgeous presentation and the quality-of-life touches make this a fitting capstone for the series. The challenge rooms and the bleeding status are the main caveats.

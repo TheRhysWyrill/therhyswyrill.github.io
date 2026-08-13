@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2022
 genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This ambitious cyber-noir mystery demands genuine investigative prowess, cleverly blurring the lines between player and protagonist through essential, real-world internet research."
+summary: "A 2032-set point-and-click whose real-world research puzzles and distinct cases make it a genuinely unique detective game."
 image: "/assets/img/reviews/chinatown-detective-agency.webp"
 ---
 
-Chinatown Detective Agency tasks players with unravelling cryptic mysteries within a gritty, near-future Singapore where physical media has faded under corporate digital dominance. This compelling noir aesthetic builds a believable technological evolution that grounds every investigation in an atmosphere of palpable, rain-slicked nostalgia and high-stakes corporate tension.
+Chinatown Detective Agency is a point-and-click adventure set in a flooded, failing Singapore in 2032, following private investigator Amira Darma. The noir-cyberpunk atmosphere, with the old web dying and AI assistants everywhere, frames the whole investigation.
 
-Investigative logic drives the experience, necessitating rigorous research that extends far beyond the confines of the software itself. Solving cases requires deciphering codes from obscure literary texts and meticulously cross-referencing global flight schedules to secure crucial leads before your target disappears into the neon-drenched urban sprawl.
+The real-world research puzzles are the hook, from decoding a cipher with an Enigma machine emulator to Googling coordinates and recognising paintings. The library book-switch heist, the Egyptian-god relief blocks and the Fibonacci decode all land as cool, distinct brain-teasers.
 
-External web searching serves as the primary tool for truth, creating a brilliant, immersive feedback loop that transforms the player into an active cyber-sleuth. Whilst the requirement to manage browser windows or separate devices might initially seem intrusive, it ultimately bridges the gap between reality and the simulated mystery.
+Every client's case line is distinct, from the triad chase to the museum artifact returns and the art-thief infiltration. The world map and flight-waiting system tie travel into the time-of-day mechanics, sending the player across Singapore, Boston, Cairo and Hong Kong.
 
-Navigation remains an unforgiving trial, particularly during time-sensitive missions that demand precise appointment management across distant city districts. Missing a single lead can spiral into failure, forcing investigators to remain constantly vigilant as they juggle strict deadlines against the limited resources provided by their cash-strapped agency.
+The Prospero storyline is the narrative anchor, an AI that murders its own creators with a tragic daily memory wipe. The supporting cast, from the retired SPF contact to the temple keeper who joins the agency, fills out the found-family theme.
 
-Precision input is hampered by a frustratingly small mouse cursor that occasionally vanishes into the dense, detailed backgrounds during critical interface interactions. Such minor UI oversights feel particularly noticeable when you are racing against a ticking clock to hack into secure databases or decipher complex, multi-layered passwords.
+The audio constantly cuts out, an irritation that persisted across the playthrough even on different hardware. The tiny cursor never resizes, and the subtitles sometimes fail to match the spoken dialogue.
 
-Atmospheric depth is sustained by the game’s unwavering commitment to its diegetic research requirements, which force a deeper level of engagement with the plot. Rather than simply clicking through dialogue, you must earn your progression through persistent curiosity, effectively rewarding those who thrive on old-school investigative challenges and deductive reasoning.
+The first case's safe-code puzzle is a difficulty spike, a leap beyond everything else in the game. Replaying with different companions barely changes the cases, leaving little reason to revisit beyond achievement hunting.
 
-Overall, this refreshing adventure succeeds by treating the player as a capable detective rather than a passive observer of a pre-written story. Anyone seeking a genuinely cerebral mystery will appreciate the satisfaction found in these demanding puzzles, provided they are prepared for the logistical hurdles of balancing reality and fiction.
+Overall, the research puzzles, the case variety and the Prospero storyline make Chinatown Detective Agency a unique recommendation. The audio cut-outs and the small cursor are the main caveats.

@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2014
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Surviving shifting nightmares requires mastering scarce ammunition and strategic stealth while navigating grotesque, surreal environments that amplify a persistent sense of vulnerability."
+summary: "A very solid survival horror whose strong opening and stealthy first half give way to tedious combat and frustrating instant kills."
 image: "/assets/img/reviews/the-evil-within.webp"
 ---
 
-The Evil Within crafts a disorienting journey through a nightmarish reality where psychological dread meets visceral, physical threats. Moving between the decaying village and the haunting hospital hub creates a cohesive, oppressive world that consistently keeps the player feeling small and uncertain within its gruesome, shifting architecture.
+The Evil Within is the 2014 survival horror from Tango Gameworks that follows detective Sebastian Castellanos into Beacon Mental Hospital and the nightmare built around the STEM machine. The opening chapters lean heavily on stealth, giving hiding, sneaking and distraction as much weight as the guns.
 
-Resource scarcity dictates every tactical decision, as counting individual bullets and syringes remains essential for survival against grotesque adversaries. Scavenging for supplies drives the exploration loop forward, forcing a cautious playstyle that prioritises avoiding conflict whenever the constant threat of instant-death encounters becomes too dangerous to face directly.
+The stealth identity fades as the campaign progresses, with the middle chapters giving way to sprawling shooting-gallery sequences. The shift leaves the game feeling torn between two identities, as early encounters reward patience and later ones demand constant ammo expenditure.
 
-Stealth serves as a necessary refuge, yet inconsistent detection rules occasionally make finding effective cover a frustrating endeavour during high-stakes moments. Basic shrubs offer no protection from patrolling enemies, which forces players to rely heavily on the crossbow to manipulate surroundings and maintain distance from the lethal, mutated threats.
+Combat centres on the headshot, yet enemies barely react to damage and almost never stagger, making every encounter more tedious than tense. The lack of a follow-up stun-and-finisher option, a staple of the fourth Resident Evil, leaves gunfights as drawn-out exchanges.
 
-Burning corpses to prevent reanimation captures the grim tone, though executing this specific task often feels clunky amidst frantic enemy groups. Such mechanical friction interrupts the rhythm of combat encounters, highlighting a reliance on deliberate, slow-paced actions that contrast sharply with the erratic speed of the faster, more aggressive foes.
+Instant-death attacks dominate the boss fights, with every major encounter carrying a one-hit grab that is easy to trigger and hard to avoid. Instant kills do not add difficulty, only repetition, since a single mistake sends the fight back to its checkpoint.
 
-Upgrading character statistics through the brain juice system offers a satisfying sense of progression despite requiring significant farming throughout the campaign. Developing these meaningful boosts slowly transforms the protagonist from a helpless victim into a calculated survivor who can effectively leverage traps and tactical positioning against overwhelming, surreal monsters.
+The weakest stretch is a mansion stealth chapter where a wandering stalker appears at random and kills in a single touch. Because the danger cannot be planned around, the chapter discourages exploration and turns an open space into a rushed corridor.
 
-Restrictive camera proximity frequently hinders situational awareness, especially during claustrophobic skirmishes inside tight, industrial corridors. This lack of peripheral vision makes navigating intense sequences difficult, requiring constant adjustments to avoid unfair damage from off-screen attackers while desperately attempting to manage the game's various instant-death triggers and boss mechanics.
+The story, built around a machine that links the minds of everyone drawn into the hospital, never fully explains what is real. The visuals still impress for a 2014 release, and the launch-era letterbox bars were later removable via an update.
 
-Overall, the tension-filled encounter loop succeeds by forcing a balance between risky stealth and precise, high-pressure gunfights. Mastering these complex survival systems turns early feelings of restriction into a calculated, atmospheric horror experience that rewards those patient enough to navigate its brutal, unforgiving approach to player vulnerability and resource management.
+Overall, combat and the instant kills that punctuate it are the main drags on an otherwise very solid experience. The strong first half and the two Kidman DLC packs make it a worthwhile survival horror despite its rough edges.

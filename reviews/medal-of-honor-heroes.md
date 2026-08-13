@@ -8,20 +8,20 @@ platform: "PSP"
 release_year: 2006
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Concentrated bursts of action and rewarding secondary objectives define this handheld veteran, offering a compelling loop that survives despite awkward controls and a silent soundscape."
+summary: "A handheld first-person shooter whose weapon handling, three-hero structure and believable story make it a warm, compact campaign."
 image: "/assets/img/reviews/medal-of-honor-heroes.webp"
 ---
 
-Medal of Honor: Heroes distills the frantic intensity of classic military shooters into bite-sized missions perfectly suited for portable hardware. Such structural brevity ensures the pacing remains tight, allowing for quick sessions that respect the constraints of the platform whilst maintaining a consistently high level of tactical, action-heavy engagement.
+Medal of Honor: Heroes is a first-person shooter from EA, bringing the long-running World War II series to the PlayStation Portable. The complete campaign spans fifteen missions across three operations, each starring a different named OSS operative.
 
-Secondary objectives breathe significant life into each theatre of war, encouraging players to look beyond the primary mission markers. Pursuing these hidden goals offers a surprising amount of depth, effectively extending the experience far beyond what a standard, linear shooter might provide during such a condensed, fast-paced handheld campaign.
+The three-character structure lands, with the Italian, Dutch and Bulge operations each following a distinct hero. The story reads as more believable than the later reboots, with the period framing kept front and centre throughout.
 
-Aiming down sights feels genuinely satisfying, particularly when deploying shotguns to clear tight corners during aggressive pushes. Though the weapon variety is solid, the inherent stiffness of the movement can make navigating these environments a chore, often forcing an over-reliance on aim assist to maintain accuracy during intense encounters.
+The weapon handling is a highlight, with the MP40 the favourite for its speed and ammo capacity. The BAR packs a punch with a quick reload, and the carabiner's satisfying pull-back adds to the feel of every shot.
 
-Sluggish turning speeds and the awkward double-tap sprint mechanic constantly remind the player of the technical limitations under which the title operates. Adapting to this floaty control scheme requires considerable patience, yet the loop of completing objectives for silver or gold medals remains surprisingly difficult to put down.
+Hip fire works best, with most of the shooting done from the hip rather than down the sights during the firefights. The close-range visuals hold up for the platform, and the difficulty stays approachable with enemies missing often.
 
-Environmental design remains impressive for the period, despite the aliasing and draw distance issues common to the hardware. Visually, the close-range character models hold up well, though these polished aesthetics stand in stark contrast to the bizarre decision to exclude a musical score, leaving only gunfire to fill the silence.
+The absent in-game music is the main gripe, with the missions running silent while the menus carry the tunes. The control scheme is eccentric, with the jump on select and the aiming sluggish even with a second stick attached.
 
-Opponent intelligence frequently fails to impress, as foes often sprint directly into the line of fire without attempting to utilise cover. Such predictable behaviour can undermine the atmospheric tension, yet the sheer volume of combat keeps the experience feeling vibrant enough to warrant persistent play through every single operation.
+The campaign is very short, with fifteen brief levels done in no time without the secondary objectives. The gold medals demand a seventy-percent accuracy that proves out of reach, and the friendly AI is unreliable at best.
 
-Overall, mastering this condensed shooter provides a satisfying, loop-based thrill that belies its platform’s age and input constraints. By focusing on focused, mission-driven objectives rather than sprawling narrative bloat, the title achieves a rare balance of accessibility and depth that makes it a worthwhile pursuit for any dedicated portable shooter enthusiast.
+Overall, the weapon handling, the three-hero structure and the believable story make this a warm and satisfying handheld shooter. The silent missions and the eccentric controls are the caveats.

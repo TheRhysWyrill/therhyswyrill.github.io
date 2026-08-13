@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2019
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Gritty, tactical urban warfare defines this reboot, offering tense decision-making and polished cinematic set pieces despite some sluggish movement and occasional visual clarity hurdles."
+summary: "Night-vision raids and a civilian-heavy opening give the reboot real weight, slowed by sluggish movement and Warzone ties."
 image: "/assets/img/reviews/call-of-duty-modern-warfare-2019.webp"
 ---
 
-Call of Duty: Modern Warfare redefines the franchise through a gritty, grounded lens that prioritises tactical deliberation over arcade-style spectacle. Players navigate a sombre world of urban terror and chemical threats where every engagement demands careful assessment rather than mindless aggression.
+Call of Duty: Modern Warfare reboots the series with a campaign that deliberately diverges from the original's plot, anchored throughout by Price. The Piccadilly Circus attack opens the game within thirty minutes, a civilian-heavy terror strike that explains the content warning immediately.
 
-Immersing oneself in the townhouse raid reveals the true potential of this methodical pace, as identifying threats amidst the gloom requires immense concentration. This specific sequence showcases the developer's commitment to high-tension drama, successfully forcing combatants to distinguish between civilians and hostiles within a terrifyingly confined environment.
+Clean House is the standout raid, a night-vision CQB assault on a London townhouse with the tension of non-combatants on target. The embassy siege and the RC-plane strike add variety, while the child flashback to Farah's village is the most affecting stretch of the campaign.
 
-Weapon customisation adds a layer of depth that makes every encounter feel bespoke to the player's preferences. Choosing to craft an improvised suppressor from an oil filter provides a satisfying sense of agency, while the ability to reload whilst maintaining a sight picture ensures that momentum never feels unnecessarily broken.
+Night-vision stealth drives several missions, with shooting out lights to use the dark as cover a recurring device. The sniper mission with the custom Lapua rifle and the highway ambush is another high point.
 
-Movement speed often feels surprisingly sluggish, creating a disconnect between the urgency of the narrative and the character's physical responsiveness. Such a weightier gait initially proved jarring, yet this design choice ultimately forces an adaptation that rewards positioning and foresight over the rapid, reflexive dashing found in earlier iterations.
+Movement speed is the biggest complaint, with sprinting barely faster than walking compared to every other entry. Deaths come fast too, enemies dropping as quickly as the player falls, and the stealth sections remain punishing throughout.
 
-Environments frequently obscure hostiles through clever lighting and muted colour palettes that render silhouettes difficult to track. During chaotic shootouts, this visual blending can trigger frustration, especially when the lack of distinct crosshair feedback makes confirming hits in low-light conditions a taxing trial of patience and observation.
+Warzone integration blights the presentation, with no traditional title screen and tie-ins the campaign would be better without. Enemies blend into the environment far more than usual, making engagements harder to read.
 
-Narrative progression blends high-production cutscenes with active combat to maintain a seamless, war-drama experience throughout the entire duration. Forceful shifts from silent infiltration to explosive violence occasionally interrupt this flow, leading to momentary confusion as the rules of engagement suddenly pivot without sufficient warning or transition.
+The interrogation sequence is brutally memorable, and the voice cast, including Troy Baker, is strong throughout. Some choice structures are muddled, particularly the waterboarding section's unclear answer expectations, and the mid-credits task-force tease points firmly at the sequel.
 
-Overall, this reboot succeeds by grounding itself in a sombre, adult exploration of modern conflict. While the slower pace and visibility issues demand a period of adjustment, the campaign ultimately rewards perseverance with some of the most memorable, tense, and expertly crafted missions in the history of the series.
+Overall, mission variety and the night-vision stealth give Modern Warfare a strong reboot campaign. The slow movement speed and the Warzone baggage are the main drawbacks on an otherwise solid return.

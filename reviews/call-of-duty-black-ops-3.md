@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2015
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Cybernetic powers and fluid traversal elevate this futuristic shooter, creating a tactically rich campaign that thrives despite its occasionally self-indulgent narrative and restrictive loadouts."
+summary: "A 2065 shooter whose cyber abilities, tactical vision and ambiguous story outweigh locked loadouts and a worn-out running gag."
 image: "/assets/img/reviews/call-of-duty-black-ops-3.webp"
 ---
 
-Call of Duty: Black Ops III explores a bleak 2065 future where climate catastrophe and cybernetic augmentation redefine the theatre of war. This entry distinguishes itself by fully embracing a super-soldier archetype that fundamentally transforms how players engage with both human adversaries and hostile robotics across the crumbling urban landscapes.
+Call of Duty: Black Ops III is the 2015 entry set in 2065, forty years after Black Ops II, where a direct neural interface grants cyber abilities. The near-seven-hour campaign leans into that gadgetry, and the story's final twist reframes the player character's identity.
 
-Cybernetic abilities such as Emulation and Fireflies grant a sophisticated level of tactical freedom that evolves from basic hacking into offensive crowd control. Mastering these diverse powers allows for a puzzle-like depth during firefights, as manipulating the environment becomes just as vital as lining up shots with traditional ballistic weaponry.
+The cyber abilities are the highlight, with the fireflies opening enemies up, remote turret hijacking and an electric palm strike that is too good. Tactical vision highlights enemies and even shows grenade blast zones, functioning like a cheat code.
 
-Fluid movement mechanics including tactical sliding and wall-running ensure that the pace of engagement remains relentless throughout the campaign. Such mobility feels modern and responsive, successfully bridging the gap between frantic high-octane skirmishes and the more methodical, ability-heavy sections that define the overarching structure of this futuristic military thriller.
+The plot favours ambiguity over tidy resolution, and the ending reveal is enjoyed for how it recontextualises the journey. Mission variety spans a storm-torn quarantine zone, a Cairo uprising, a WWII simulation and mindscape boss fights.
 
-Bleak atmospheres pervade every mission, effectively capturing a gritty, high-tech reality that feels visually distinct from the grounded entries elsewhere in the franchise. Despite some textures appearing surprisingly low-resolution when inspected closely, the overall presentation remains atmospheric and cohesive enough to sustain immersion throughout the simulation-heavy narrative journey.
+The game looks great for its age, and the animated weapon skins, from a vibrant pink to a deep fried finish, add personality to the arsenal. The Black Ops series music continues to land.
 
-Rigid loadout limitations unfortunately restrict the player to specific weapon archetypes, which can feel surprisingly constrictive when compared to the freedom afforded by earlier series instalments. These arbitrary boundaries sometimes clash with the otherwise expansive, inventive nature of the Cyber Core system, forcing combatants into predefined roles that might not suit every style.
+The biggest gameplay gripe is the loadout lock, with enemy weapons unavailable to pick up and the secondary forced to a pistol. Wall running is finicky despite working in the tutorial, though every section offers a fallback path.
 
-Chaotic scenarios often lead to accidental mission failures due to unforgiving friendly fire mechanics that feel like a frustrating relic of older design philosophies. Squabbles between reality and simulated memories occasionally result in dialogue that veers into obtuse territory, creating a narrative that manages to be both humorously memorable and occasionally quite grating.
+The train-go-boom gag is run into the ground within a single mission, and one parking-garage approach spawns enemies endlessly. The AI companions are useless in a pinch, and a couple of long levels outstay their welcome.
 
-Overall, this ambitious experience delivers a surprisingly deep and tactically rewarding journey that prioritises arcade-like ability usage over traditional infantry combat. Fans who value experimenting with unique character builds will likely find plenty to appreciate here, provided they are prepared to navigate the more absurd plot turns and restrictive weapon constraints.
+Overall, cyber abilities, tactical vision and mission variety make Black Ops III a fun, intriguing campaign. The loadout restrictions and repeated gags hold it back from the series' very best.

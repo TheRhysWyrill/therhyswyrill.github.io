@@ -1,27 +1,27 @@
 ---
 layout: review
 date: 2026-07-15
-game_title: "Still Wakes The Deep"
+game_title: "Still Wakes the Deep"
 permalink: /reviews/still-wakes-the-deep/
 verdict: "recommended"
 platform: "PC"
 release_year: 2024
-genre: "Survival Horror"
+genre: "Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Claustrophobic dread permeates a 1975 Scottish oil rig, where realistic traversal controls and authentic performances ground this unsettling foray into Lovecraftian biological horror."
+summary: "A first-person narrative horror in which electrician Cameron McLeary survives the collapse of a North Sea oil rig after the drilling awakens something below."
 image: "/assets/img/reviews/still-wakes-the-deep.webp"
 ---
 
-Still Wakes The Deep grounds its Lovecraftian horror within the rusted, industrial confines of a 1975 Scottish oil rig to foster a uniquely suffocating atmosphere. Every corridor pulses with an authentic, isolated dread that transforms the creaking metal structure into a claustrophobic cage for the protagonist and his struggling crew.
+Still Wakes the Deep casts the player as electrician Cameron "Caz" McLeary, fleeing an assault charge on the Beira D oil rig in December 1975. The opening hours build a convincing Scottish work family, with the diabetic chef Roy and the hated site manager Renick trading banter before the drill strikes something below.
 
-Realistic movement systems dictate how players navigate the environment, requiring a manual grip button to safely traverse ladders, pipes, and precarious balance beams. These deliberate physical interactions successfully replace standard, weightless animations with a grounded tension that reinforces the fragility of surviving amidst such an inhospitable and collapsing workplace.
+The drilling awakens an organic substance that mutates and kills the crew, turning many into blind but lethal stalkers. The horror escalates as the rig collapses, with the helicopter exploding and the crew dying one by one.
 
-Authentic Scottish vocal performances elevate the narrative, lending a palpable sense of human desperation to the protagonist's interactions with his doomed colleagues. Themes of personal failure and haunting guilt anchor the unfolding madness, ensuring that the unfolding tragedy feels rooted in specific character motivations rather than simple, abstract scares.
+The core verbs are sprinting, clinging to ledges, shimmying, hiding in lockers and throwing objects to distract the patrolling mutants. The final stretch adds flooded compartments and open-sea swimming, while the Sirens Rest DLC is underwater exploration with a cutting tool for rust-covered obstacles.
 
-Stealth serves as the primary mechanism for evading mutated former crew members, forcing players to retreat into lockers or ventilation shafts when pursued. While the majority of these encounters effectively heighten the surrounding tension, some segments drift into repetitive trial-and-error patterns that slightly disrupt the overall sense of forward momentum.
+The Scottish cast and dialect are the high point, with plain-English subtitles that summarise each line rather than transcribing it. The humour lands consistently, and the writing sustains the banter even as the situation spirals.
 
-Visual screen effects depicting injury or mental instability occasionally obscure the player’s vision to the point of rendering navigation difficult during hectic escapes. These fleeting moments of visual overload can prove more frustrating than terrifying, though they do little to undermine the otherwise masterful use of lighting and grime.
+The visuals are striking, particularly the organic growth spreading across the rig, and the balance-beam traversal is unusually realistic with the character crouching low. The central mystery is never explained, which keeps the Lovecraftian threat eerie but leaves many questions open.
 
-Technical performance displays occasional frame rate instability during the most intense environmental transformations and set pieces. Despite these dips, the flashlight mechanics operate reliably without the burden of constant battery management, allowing focus to remain entirely on the haunting mutations and the surrounding environmental storytelling of the rig.
+The camera is a recurring frustration, especially during the flooded chase sequences, and the underwater controls in the DLC are floaty. Technical glitches, from pink squares in menus to a chase that ended with the view pinned into a wall, punctuated the otherwise smooth run.
 
-Overall, the atmospheric environmental design creates a consistent sense of place that remains compelling from the opening arrival to the final, tragic revelation. Balancing tense stealth segments with methodical exploration proves effective, particularly when paired with such a distinct historical setting and a deeply personal story of regret.
+Overall, the convincing cast, the witty writing and the unexplained mystery made the playthrough a success from the opening banter to the final dive. The refusal to explain the central threat will frustrate players wanting answers, but the journey is well worth taking.

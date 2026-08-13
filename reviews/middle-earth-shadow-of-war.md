@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-25
 game_title: "Middle-Earth: Shadow of War"
 permalink: /reviews/middle-earth-shadow-of-war/
-verdict: "recommended"   # recommended | not-recommended | not-sure
+verdict: "recommended"
 platform: "PC"
 release_year: 2017
-genre: "Action, Adventure, RPG"
+genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Dynamic enemy hierarchies and refined combat systems create an addictive experience, proving that systemic depth can comfortably overshadow persistent UI clutter and minor narrative inconsistencies."
+summary: "An action-adventure whose fortress sieges, Nemesis system and army-building make it a hell of a game in Mordor."
 image: "/assets/img/reviews/middle-earth-shadow-of-war.webp"
 ---
 
-Middle-Earth: Shadow of War iterates upon its predecessor by refining the brutal choreography of its swordplay while expanding the systemic complexity of its world. Mastering the art of large-scale melee encounters feels immensely rewarding, as the added environmental interactions allow for more creative and tactical engagement against swarms of foes.
+Middle-earth: Shadow of War is an action-adventure from Monolith Productions, continuing the struggle against Sauron with a new ring of power and a growing army. The complete run spanned the four regions, the fortress sieges and the lengthy post-game epilogue.
 
-Emergent narratives continue to flourish through the Nemesis system, an unparalleled mechanic that transforms routine skirmishes into deeply personal, grudge-fuelled vendettas. Every orc captain encountered throughout Mordor possesses the potential to rise through the ranks, ensuring that individual rivalries remain the primary driver of excitement across the entire campaign.
+The fortress sieges are the highlight of the whole experience, with the assault and defence of the strongholds delivering the siege spectacle. The Nemesis system and army-building stay central, with the named orcs and their ranks driving the whole campaign.
 
-Character progression introduces a layered gear system that adds substantial depth, providing a constant drip of equipment upgrades that make every victory feel meaningful. Whilst the sheer volume of loot can occasionally overwhelm the inventory, the ability to fine-tune one's playstyle through a complex skill tree offers significant customisation.
+The combat carries the third-person action, with the sword, bow, stealth and executions forming the core toolkit. The mounted combat, the drakes and the wraith abilities expand the options across the four regions.
 
-Intrusive design choices frequently disrupt the flow, as an aggressive tutorial system persists in bombarding the screen with redundant information long after it becomes necessary. Navigating the dense map layout often proves equally distracting, with cluttered objectives making it difficult to maintain focus on the primary path during prolonged sessions.
+The four regions each have a distinct character, with Mordor's dark fantasy tone staying consistent with the source material. The skill tree and the gear sets offer meaningful progression, though the most useful skills are gated early.
 
-Visual inconsistencies regarding the protagonist’s appearance create a jarring disconnect from the established timeline, further exacerbated by questionable aesthetic filters in memory-based sequences. These artistic missteps, combined with somewhat awkward detection during stealth operations, highlight a lack of polish that occasionally detracts from the otherwise bleak and immersive atmosphere.
+The enemy adaptation is a recurring caveat, with the orcs developing immunities and counters to the tactics used against them. The early gating of the useful skills is the other persistent frustration throughout.
 
-Obscure door puzzles and minor mechanical oddities occasionally introduce tedious friction, but these issues remain peripheral when compared to the strength of the core loop. Engaging with the siege mechanics and orchestrating the downfall of Sauron’s forces proves to be a consistently addictive process that justifies overcoming the various interface annoyances.
+The story stays engaging enough to push through the lengthy post-game, with the ring and the army framing the entire campaign. The two expansions add distinct playstyles, each reshaping how the combat works in distinct ways.
 
-Overall, combat hierarchies elevate this massive production far above the standards of typical action-adventure titles. Persistent UI clutter and narrative blemishes fail to dampen the satisfaction of dismantling an army from within, making it a highly compelling journey for those seeking systemic depth in their digital battlefields.
+Overall, the fortress sieges, the Nemesis system and the army-building make this a hell of a game through and through. The enemy adaptation and the early skill gating are the caveats.

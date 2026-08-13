@@ -8,20 +8,20 @@ platform: "PS1"
 release_year: 1999
 genre: "Racing"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An expansive adventure mode and exceptionally tight drift-boosting mechanics elevate this classic kart racer into a masterclass of skill-based arcade competition."
+summary: "A kart racer whose adventure mode, varied tracks and power-slide feel have aged remarkably well."
 image: "/assets/img/reviews/crash-team-racing.webp"
 ---
 
-Crash Team Racing establishes itself as a definitive kart racer through the inclusion of a comprehensive single-player journey. This ambitious overworld structure provides a tangible sense of purpose, ensuring that every victory feels like a meaningful step forward rather than just another repetitive loop around a static circuit.
+Crash Team Racing is a kart racer whose adventure mode gives the single-player campaign a shape few rivals matched. The hub world, warp pads and boss garages turn racing into a structured quest rather than a series of standalone cups.
 
-Tight power-sliding and boost mechanics reward precision, functioning with a responsiveness that feels like muscle memory even decades later. Mastering these technical skills provides an immense satisfaction that encourages players to push harder, turning every corner into a high-stakes opportunity to maintain momentum and outpace the opposition.
+Power sliding and boost chaining feel smooth, and the pack stays bunched enough that races remain contested to the final corner. The Wumpa fruit works like a coin pickup, supercharging power-ups when ten are held.
 
-Progression remains consistently rewarding as you unlock warp pads, collect relics, and conquer various trophies scattered throughout the arena. These diverse challenge types add significant depth, preventing the gameplay from ever feeling monotonous whilst simultaneously ensuring that the core thrill of high-speed competition is bolstered by genuine tactical variety.
+The track list varies widely, from the low-gravity delight of Hot Air Skyway to the constant boost tunnel of Engine Labs. The boss races each use different item attacks, from potions and nitro to rolling bombs.
 
-Certain tracks lack the imaginative flair of the standout levels, appearing somewhat uninspired when compared to the vibrant highlights of the circuit. A handful of these courses struggle to maintain the same level of visual engagement, resulting in brief lulls that contrast sharply with the exhilarating pace found elsewhere.
+The music holds up well, with the Oxide Station theme drawing comparisons to Sonic, and the victory poses in the credits are a delight. The closing epilogue hands each character a joke future, a charming cap on a campaign that was ahead of its time.
 
-Artificial intelligence occasionally displays rubber-banding tendencies, persistently staying bunched together to artificially inflate the challenge of a comfortable lead. Whilst this behaviour keeps the races feeling competitive, it can occasionally manifest as a punishing design hurdle that demands perfection, especially when boss encounters employ particularly mean-spirited or aggressive combat patterns.
+The campaign is short, with only sixteen tracks in total and a full run of around five hours from start to finish. Coco Park stands out as an uneventful track, mostly straight aways and a couple of corners, that drags down its world.
 
-Memorable audio compositions underpin the entire experience, successfully enhancing the frantic nature of the races without ever becoming intrusive. Each high-quality musical track complements the distinct branding of the series, reinforcing the jaunty atmosphere whilst keeping the heart rate elevated during the most demanding, high-speed time trial challenges.
+The closing showdown is the campaign's sharpest difficulty spike, and Pinstripe constantly fires rolling bombs behind him in his own race. The Skull Rock crystal challenge has punishingly thin hitboxes, and the AI rubber-bands hard throughout.
 
-Overall, this title remains an essential recommendation for those who favour skill-based racing over the chaos of pure luck. Whilst the interface navigation can feel slightly tedious and some courses fall short of greatness, the exceptionally polished mechanics ensure the adventure holds its place as a genre-defining competitive triumph.
+Overall, adventure structure and power sliding make Crash Team Racing an enduring classic. The short runtime and the rubber-banding are the main caveats.

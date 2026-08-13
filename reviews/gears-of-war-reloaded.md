@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-09
 game_title: "Gears of War: Reloaded"
 permalink: /reviews/gears-of-war-reloaded/
-verdict: "recommended"
+verdict: "not-sure"
 platform: "PC"
 release_year: 2025
 genre: "TPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This visceral cover-shooter delivers intense tactical action and satisfying mechanics, despite requiring some technical patience to overcome legacy stability hurdles and dated squad intelligence."
+summary: "The classic campaign still holds up, but this remaster-of-a-remaster adds nothing new and could have been a simple update."
 image: "/assets/img/reviews/gears-of-war-reloaded.webp"
 ---
 
-Gears of War: Reloaded grounds its intense conflict in a bleak, war-torn atmosphere that effectively captures the desperation of humanity fighting against extinction. Massive, over-the-top character designs provide a distinct aesthetic that perfectly complements the brutal nature of the skirmishes occurring throughout the decaying, ruined environments of the world.
+Gears of War: Reloaded is the 2025 Steam re-release of the original Gears of War campaign, remastered from the Ultimate Edition. The classic five-act journey was completed with credits, including the five added chapters of Act 5.
 
-Tactical movement remains the heart of the experience, as utilizing cover effectively is essential for survival during every frantic firefight. Players find a deeply satisfying rhythm through the Active Reload mechanic, which rewards intense focus and precision with enhanced efficiency that keeps the momentum of every engagement feeling punchy.
+The active reload remains one of the series' best ideas, since paying attention to the reload timing grants a real combat advantage. The chainsaw Lancer still delivers the signature close-range brutality, and the comic-book guitar riff after clearing enemies is a delight.
 
-Melee encounters offer a brutal, visceral payoff when closing the distance to unleash the chainsaw bayonet against oncoming Locust forces. Charging into the fray to secure these high-impact executions creates a powerful sense of dominance that contrasts sharply with the cautious, defensive positioning required during traditional long-range ballistic exchanges.
+The ammo crates are everywhere, making it genuinely hard to run out of ammunition. The burst-fire hammerburst is preferred over full automatic, and the full-rotation turret is a rare treat.
 
-Technical stability proves to be the most significant hurdle, as persistent crashing issues necessitate hardware-level troubleshooting to achieve a reliably smooth performance. Managing these instability problems requires a dedicated approach, particularly when legacy bugs cause physical objects to react with strange, rubber-like physics that momentarily shatter the grounded immersion.
+Cole steals the show, with his exclamations and over-the-top personality making him the standout of the cast. The improved visuals add screen-space reflections and fully rendered cutscenes, and the five new Act 5 chapters add about an hour of content including a new Brumak encounter.
 
-Squadmate intelligence unfortunately acts as a frequent liability, with allies often struggling to navigate simple geometry or choosing catastrophic positions during heated battles. Relying on these unreliable companions for support often becomes a secondary challenge, especially when their inability to remain conscious necessitates constant, dangerous revivals in the midst of fire.
+The edition itself is the problem, since it adds nothing new over the Ultimate Edition and could have been a simple update. Known crashing issues plague the Gears of War services, though the run itself was mostly smooth with one stuck screen.
 
-Checkpoint placement feels occasionally arbitrary, forcing the repetition of arduous combat sequences after minor slip-ups or unexpected system failures. Navigating these tedious stretches demands a high degree of patience, yet the fundamental strength of the core loop ensures that the eventual triumph over these design friction points remains genuinely rewarding.
+The AI was never reworked and remains the good old 2006 dumb, with Dom constantly getting stuck and failing to help. The new Brumak fight kills too fast, there is no shoulder-switching toggle, and the sprint camera shake is rough.
 
-Overall, this remastered journey provides a quintessential cover-based shooter experience that succeeds through its refined tactical mechanics and enduring sense of brutal, high-stakes action. Dedicated fans willing to navigate the occasional performance quirk will find a compelling reason to revisit this classic, as the fundamental design stands as a testament to the genre.
+Overall, the classic campaign remains an enjoyable third-person shooter, and the active reload and chainsaw combat still hold up. The unnecessary edition, the unchanged AI and the instability make this a conditional recommendation.

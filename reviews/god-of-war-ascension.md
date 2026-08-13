@@ -8,20 +8,20 @@ platform: "PS3"
 release_year: 2013
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Delivering cinematic intensity and a refined elemental combat system, this prequel manages to push hardware limits while maintaining the aggressive spirit of the franchise."
+summary: "A very good prequel whose PS3 visuals, elemental combat and origin-story framing outweigh the thin weapon variety."
 image: "/assets/img/reviews/god-of-war-ascension.webp"
 ---
 
-God of War: Ascension prioritises a seamless cinematic flow that binds narrative beats directly into frantic, high-octane skirmishes. Such technical ambition ensures that every transition remains invisible, allowing the player to maintain their momentum without the jarring interruptions typically found in older, more fragmented action titles on this specific console generation.
+God of War: Ascension is an action-adventure prequel in which Kratos, imprisoned and tortured by the Furies for breaking his blood oath to Ares, must escape the prison of the Hecatonchires. The campaign was completed through its credits, closing out the original six games.
 
-Sweeping vistas within the prison and temple interiors showcase an incredible level of artistic detail that pushes the ageing hardware to its absolute limit. These grim, atmospheric locations successfully ground the protagonist’s desperate plight, providing a hauntingly beautiful backdrop for the relentless violence that defines this particular chapter of his journey.
+The PS3 presentation is stunning for the hardware, with cloth simulation, seamless cutscene-to-gameplay transitions and visuals significantly better than God of War II. The auto-climb traversal removes the need to mash the jump button.
 
-Combat feels noticeably more aggressive than in previous entries, demanding that the player constantly switch between fire, ice, electricity, and soul-based elemental powers to succeed. This tactical focus on varied attacks keeps every encounter feeling fresh, rewarding those who can master the fluid switching of these diverse, destructive magical abilities.
+The elemental weapon system binds fire, ice, lightning and the souls of Hades to the Blades of Chaos, with the lightning's crack sound design praised. The rage meter fills faster with fire, rewarding element-switching.
 
-Camera behaviour occasionally proves problematic, however, as the perspective shifts and zooms out during dense battles, making it difficult to maintain spatial awareness. Such moments of disorientation contrast sharply with the otherwise tight precision of the swordplay, forcing the player to adapt their strategy when the view becomes too abstract.
+The story sheds light on Kratos's origin and his oath to Ares, and the boss fights are pretty cool. The amulet of Orkos lets Kratos decay and heal objects to control time for puzzles, and the ranged grab is a nice addition.
 
-Intrusive user interface elements often clutter the screen, particularly the poorly positioned saving icon which frequently obscures the vital rage meter during heated moments. Despite these minor design oversights, the generous checkpoint system ensures that dying never feels like an undue punishment, maintaining a steady, enjoyable pace throughout the entire campaign.
+The weapon variety is the weakest in the series, since the only dedicated weapon is the Blades with different elements, and the disposable pick-ups have a single attack pattern. The Hades-element de-aggro bug in the furnace forces rooms to be redone.
 
-Platforming sequences and environmental navigation occasionally suffer from a lack of visual clarity, making it hard to distinguish climbable surfaces from the static background art. These navigational hurdles can momentarily stall the exploration, yet the inclusion of time-manipulation puzzles involving the amulet provides a clever, much-needed change of mechanical tempo.
+The camera pans out at the worst moments, making it hard to know where the character is among multiple enemies. Frame-rate drops on fire effects and PS3 load times are the hardware's biggest compromises.
 
-Overall, this grand prequel succeeds as an exhilarating display of technical spectacle and refined, punchy combat for dedicated fans. Whilst occasional frame rate stutters and camera frustrations persist, the relentless pace and high production values make it a highly worthwhile experience for anyone craving an aggressive, cinematic action spectacle today.```
+Overall, the PS3 visuals, the elemental combat and the origin-story framing make God of War: Ascension very good. The camera, the thin weapon variety and the hardware compromises are the caveats.

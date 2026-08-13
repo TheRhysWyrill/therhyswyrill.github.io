@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 1998
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Ambitious world design and rewarding metroidvania-style progression define this misunderstood epic, which triumphs through exploration despite suffering from janky combat and demanding technical hurdles."
+summary: "A hugely ambitious 3D adventure whose music, voice acting and varied regions make it thoroughly impressive."
 image: "/assets/img/reviews/kings-quest-8-mask-of-eternity.webp"
 ---
 
-King's Quest VIII: Mask Of Eternity presents a sprawling, ambitious departure from the series' roots, embracing a vast three-dimensional landscape that feels remarkably ahead of its time. Exploring such a massive realm offers a sense of discovery that constantly pays off as players uncover hidden pathways and previously inaccessible interior locations.
+King's Quest VIII: Mask of Eternity is a 3D action-adventure from Sierra, sending a new hero across the realm to recover the shattered pieces of the Mask of Eternity. The complete game was finished across two sessions, from Daventry through the realm of the sun to the final duel.
 
-Spreading out across diverse regions, the metroidvania-inspired progression loop keeps every venture feeling fresh and purposeful. Obtaining essential equipment like the sharp axe or sturdy hook unlocks gated environmental secrets, granting a profound satisfaction as your capabilities grow and the world begins to open up in meaningful, well-integrated ways.
+The 3D presentation impresses for its era, with lip-syncing that lines up with the dialogue and early-3D rendering free of the usual wobble. The music is singled out as the best part of the game, and the voice acting is consistently good.
 
-Technical barriers initially present an agonising chore, forcing players to manually intervene with frame rate configurations just to ensure the software functions correctly. Persistent loading screens triggered by a unique disk-unloading system frequently interrupt the flow, testing your patience even when utilising the powerful hardware found in today's modern computing setups.
+The progression structure charms, with the axe unlocking boarded doors and felled trees in a Metroidvania-like flow. The rope-and-hook climbing, the magical map with teleporters and the spell-crafting that echoes the series' third entry all add variety.
 
-Combat often devolves into an unreliable dice roll, where perfectly timed strikes somehow miss their mark despite visually connecting with the intended target. Engaging with these awkward systems requires resilience, though thankfully, the difficulty settings on the easier tier serve to dampen the irritation caused by such fundamentally unpolished mechanical encounters.
+The setting variety impresses, with the expansive regions of Daventry, the huge realm of death, the swamp, the gnomes' tunnels, the volcano and the ice realm. The level design rewards exploration, with pressure-plate rocks, hidden passages and reveal potions showing invisible chests.
 
-Platforming challenges introduce further friction, as precision jumping over lethal gaps occasionally transforms a pleasant journey into a repetitive, frustrating ordeal. While the protagonist’s olympic leaping ability provides moments of genuine glee, those specific instances requiring absolute accuracy frequently disrupt the narrative momentum and drag the pacing down into laborious cycles.
+The boss fights land well, from the bronco-like basilisk to the two-headed dragon needing the fire sword. The permanent spell of might is a satisfying payoff, with its damage buff arriving as a welcome surprise.
 
-Listening to the soundtrack proves a consistent delight, as the high-quality compositions elevate the atmosphere within gloomy dungeons and vibrant outdoor ruins alike. Strong vocal performances further enrich the experience, with the lead actor providing unique, characterful lines for every statue found, adding layers of personality to the quiet surroundings.
+The combat is the weakest element, with janky swings and no indication of whether a hit will land. The jumping is binary and unforgiving, the load times are punishing even on an SSD, and stability issues include crashes when the ice trolls attack.
 
-Overall, this unfairly maligned title succeeds as a daring action-adventure experiment that prioritises immersive world-building above the traditional constraints of its heritage. Anyone prepared to overlook its mechanical clunkiness and rigorous setup requirements will find an impressive, sprawling quest that proves much more rewarding than its reputation might suggest.
+Overall, the 3D ambition, the music and the varied regions make this a really quite good action-adventure. The janky combat and the binary jumping are the caveats.

@@ -5,23 +5,23 @@ game_title: "Cuphead"
 permalink: /reviews/cuphead/
 verdict: "recommended"
 platform: "Switch"
-release_year: 2017
-genre: "Platformer"
+release_year: 2019
+genre: "Shooter"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Exquisite 1930s animation masks a punishing, brilliant boss-rush gauntlet that prioritises tight pattern recognition over mindless progression."
+summary: "A run-and-gun boss rush whose 1930s art style, music and boss design outweigh its punishing difficulty."
 image: "/assets/img/reviews/cuphead.webp"
 ---
 
-Cuphead captures the manic energy of 1930s cartoons through a meticulously crafted aesthetic that makes every frame feel like a hand-drawn marvel. This boss-rush gauntlet strips away traditional platforming fluff to focus entirely on intense combat encounters, placing players directly into high-pressure duels against imaginative, multi-phase adversaries.
+Cuphead is a run-and-gun boss rush drawn in the style of 1930s cartoons, where a deal with the Devil sends the heroes collecting soul contracts. The art style is the first love, with hand-drawn animation that makes even the simplest scene a delight.
 
-Vibrant character animations and fluid movement sequences inject incredible personality into every confrontation, frequently eliciting a smile even amidst repeated failures. These visual flourishes are perfectly paired with a swing-era soundtrack that elevates the tension, particularly during catchy moments like the Die House, where the audio production hits an exceptionally high standard.
+The music matches the aesthetic, with the barbershop-trio Die House and King Dice's casino theme among the standouts. The boss variety is constant, from transformed debtors and mausoleum ghosts to plane levels and shifting stage backdrops.
 
-Studying complex attack patterns becomes the primary method of overcoming the steep difficulty curve that defines this brutal experience. Boss design cleverly circumvents the tedious travel times found in other challenging titles, allowing for instant restarts that encourage rapid trial and error rather than punishing players with long, repetitive walks.
+The weapon and charm system gives the loadout real shape, with the converge, crack shot and chaser changing how each fight is approached. The super-meter arts, from the energy beam to the giant ghost, reward aggressive play.
 
-Obsessively chasing perfect parries often leads to unnecessary errors, as the creator discovered that prioritising survival provides a more consistent path to victory. Navigating these skirmishes requires balancing weapon loadouts like the Spread or Chaser shots, as choosing the right tool for a specific enemy phase is vital for successful progression.
+The run-and-gun levels are actually harder than the bosses, with the gravity-flip Funhouse Frazzle and the pickaxe-troll level the worst. The coin economy gives them replay value, since every level hides coins worth hunting, from the archway coin to the sneaky placements.
 
-Platforming challenges disguised as run-and-gun stages occasionally break the rhythm of the boss-focused loop, providing a much higher degree of frustration than the duels themselves. Attempting to remap the controller layout caused initial technical friction, though persistence eventually smoothed out these rough patches as the gameplay rhythm became second nature.
+The difficulty is the defining feature, with roughly 250 deaths across the run and the Devil the toughest single fight. The parry obsession backfires, since chasing every pink object costs more health than it saves.
 
-Shrinking to avoid dense projectile clouds remains an essential skill that occasionally slips the mind during the most chaotic segments of a fight. Mastering this evasion technique, alongside managing one's limited health pool, eventually transforms the seemingly impossible gauntlet into a rewarding dance of precision and quick, reflexive decision-making.
+The King of Games DLC gauntlet is the standout content, with chess-piece champions fought entirely through parries instead of guns. The Cursed Relic quest is miserable with its single health point, redeemed only by the eventual Divine Relic upgrade.
 
-Overall, this visually stunning journey provides an intensely satisfying test of skill for those prepared to embrace the relentless challenge. While the high skill floor demands significant patience and repeated attempts, the tight, focused nature of the combat loop ensures that victory always feels earned rather than granted by luck.
+Overall, art style, music and boss design make Cuphead a very good game. The punishing difficulty and the harder run-and-gun levels are the main caveats.

@@ -6,22 +6,22 @@ permalink: /reviews/a-void-hope/
 verdict: "recommended"
 platform: "PC"
 release_year: 2024
-genre: "Adventure, Platformer"
+genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Beautiful pixel art and evocative sound design create an immersive, tightly paced experience that turns city exploration into a rewarding, puzzle-rich journey of discovery."
+summary: "An atmospheric narrative adventure whose synthwave score and interlocking levels carry a brief but memorable story."
 image: "/assets/img/reviews/a-void-hope.webp"
 ---
 
-A Void Hope presents a melancholic urban decay, where the evocative pixel art aesthetic is bolstered by an eerie and awesome soundtrack. This sonic layering ensures each area feels distinct, drawing the player deeper into a world where memories serve as the primary catalyst for unravelling a poignant, character-driven mystery.
+A Void Hope is an atmospheric narrative adventure set in a collapsed city where a virus hollows people out into shadowy figures called empties. The story follows the tormented couple Keegan and Gilda, their past told through memory sequences of a first date and a wedding.
 
-Exploration relies upon an intricate, metro-style network that rewards those who diligently uncover shortcuts between disparate city districts. Whilst the absence of a traditional map initially invites confusion when recalling the precise locations of locked doors, this design choice compels a more meaningful engagement with the haunting, interconnected environment.
+The synthwave soundtrack is the strongest element, carrying the atmosphere through every level and defining the game's mood. The research facility feels especially eerie, and the music for that level is among the game's best.
 
-Combat provides a functional complement to the primary puzzle-platforming loops, utilising a simple yet punchy firearm alongside a versatile stunning mechanic. One cannot walk whilst aiming, which necessitates careful movement during skirmishes, particularly when dealing with the aerial bird adversaries that prove remarkably tiresome to track compared to ground-based foes.
+Which NPC turns hostile is randomised, so encounters change between sessions and never feel predictable. The shadowy figures' dark appearance has an in-world reason tied to the infection, which gives the world a satisfying consistency.
 
-Progression feels consistently satisfying as the acquisition of vital equipment like crowbars and fuel allows one to bypass previous obstacles. Vault computer puzzles occasionally demand frantic precision due to punishingly tight time limits, yet overcoming these sequences ultimately provides a profound sense of accomplishment once the correct symbol patterns are finally mastered.
+The level design is tightly interlocked, with shortcuts, metro fast travel, key cards and backtracking all feeding into each other. The no-jump constraint keeps traversal simple, and fall damage alongside fair checkpoints keeps the challenge measured.
 
-Visual continuity shines through the small details, such as the haunting animation sequences that frame the creature’s presence at the start and conclusion of the journey. Unfortunately, identical shadowy character models are frequently recycled for both allies and enemies, frequently making it difficult to distinguish a genuine threat from a benign NPC.
+Combat is minimal, boiling down to a gun fired at enemies every now and again, and aiming locks movement in place. The bird enemies are the worst of it, being the hardest to track and shoot.
 
-Technical friction occasionally manifests via dropped D-pad inputs or erratic keyboard prompts when using a controller, which can disrupt the flow of high-intensity platforming. Furthermore, the presence of restrictive fall damage often feels overly punitive, turning what should be a seamless traversal between buildings into a hazardous ordeal prone to unexpected, sudden deaths.
+The lack of a map makes navigation feel odd, and many doors stay locked until the key card arrives. Keyboard prompts also appear even when a controller is in use, and the campaign is very brief, considerably shorter than the developer's other games.
 
-Overall, this brief but affecting adventure avoids the tedious bloat that often plagues modern titles by focusing on a polished, cohesive experience. The generous checkpoint system provided by illuminated lamps ensures that progress remains persistent even after failure, cementing this as a highly enjoyable journey for any enthusiast of atmospheric puzzles.
+Overall, soundtrack and interlocking level design make A Void Hope a brief but memorable narrative adventure. The short runtime and minimal combat are the main limits, yet the atmosphere carries it throughout.

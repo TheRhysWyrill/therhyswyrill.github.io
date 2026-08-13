@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2022
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "High-octane military action shines through polished production values, though players must manually bypass unreliable auto-detect settings to appreciate the sharp, cinematic visual fidelity on offer."
+summary: "A spectacular globe-trotting shooter campaign whose mission variety and squad banter outweigh a confusing story continuity and awkward crafting sections."
 image: "/assets/img/reviews/call-of-duty-modern-warfare-2-2022.webp"
 ---
 
-Call of Duty: Modern Warfare II frames a tense global pursuit involving Iranian missiles smuggled through treacherous international hubs, including dangerous sectors of Mexico. This narrative succeeds by blending grounded, gritty military operations with the high-stakes political intrigue that fans have come to expect from the long-standing franchise.
+Call of Duty: Modern Warfare II is a first-person shooter campaign in which Task Force 141 hunts a Quds Force officer smuggling American missiles across the globe. The mission design moves from the Al Mazrah recon opening through Amsterdam undercover work, a ghillie-suit coastal recon, a highway chase and a Chicago skyscraper assault.
 
-Punchy gunplay defines every engagement, supported by satisfying weapon feedback and impactful audio design that enhances the raw intensity of active combat. Navigating through linear, set-piece-heavy encounters requires shifting between aggressive run-and-gun tactics and the more methodical, tense reconnaissance segments that occasionally punctuate the campaign's relentless, cinematic forward momentum.
+The long-range scout sniper sections are the campaign's standout, built on bullet-drop notches, repositioning and the satisfaction of taking out two targets with one shot. The ghillie-suit recon mission stands out for its slow, tense approach with patrol crawling, the heartbeat sensor and thermal spotting.
 
-Visual fidelity initially suffered due to an unreliable auto-detect feature that frequently defaulted to suboptimal render resolutions, resulting in a frustratingly blurry output. Manually adjusting these graphics settings is an essential prerequisite, as it allows the high-fidelity character models and detailed environments to finally emerge with the clarity they deserve.
+The visuals are striking once the default render resolution is corrected, and the squad banter between Ghost, Soap and Price lands well throughout. The shotgun proves excellent in the close-quarters church fight, and the set-pieces deliver the expected spectacle.
 
-Interiors and various mission environments occasionally repeat themselves, creating a sense of visual monotony that can obscure objectives or vital points of interest. Managing this repetition becomes a secondary challenge during complex operations, especially when specific lighting effects or mounting crosshairs obstruct the view during the most frantic moments.
+Combat is classic Call of Duty gunplay built on checkpoints, hitscan shooting and heavily scripted sequences, with deaths frequent on the pressure fights. Enemies are relentlessly grenade-heavy, and shield-carrying foes are a persistent annoyance in the later acts.
 
-Enemy artificial intelligence displays a frustratingly inconsistent performance, swinging wildly between being a legitimate, dangerous threat and acting in a predictable, robotic manner. Such erratic behaviour can disrupt the immersion, particularly during high-intensity firefights where one expects a more consistent level of opposition from the opposing military forces.
+The improvised-weapon sections require scavenging glass, tape, chemicals and wax to craft shivs, smoke bombs and gas traps, and these sequences are the campaign's weakest stretch. The highway chase piles on mines and missiles, while the story's continuity with the earlier Modern Warfare games is never clear.
 
-Impressive production values carry the experience through its weaker patches, with convincing voice acting providing necessary weight to the central task force's journey. Every tactical breach and sniping operation benefits from this dedication to a polished presentation, ensuring that the spectacle remains the primary focus throughout the duration of hostilities.
+The narrative's relationship to the original trilogy confuses rather than deepens the experience, with reused characters feeling messy. Textures also fall apart during a late tank fight, and the game forced a restart after a crash at the Shadow Company base.
 
-Overall, the campaign delivers a thoroughly enjoyable and high-energy ride that capitalises on the series' most successful mechanical foundations. Despite the initial hurdles caused by internal settings, the variety of mission structures ensures that the experience remains engaging for those who appreciate a well-crafted, blockbuster-style military shooter journey.
+Overall, mission variety, the sniper sequences and the squad banter carry this fun campaign with some pretty cool moments. Call of Duty fans after a bombastic, globe-trotting shooter will find plenty to enjoy here.

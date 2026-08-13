@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2025
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Blending melancholic psychological storytelling with a tight, minimalist boss-rush structure, this polished adventure rewards those who master its dual-stance combat and spirit power mechanics."
+summary: "An action-adventure whose pixel art, parry-and-dash combat and generous healing economy make it a fun compact quest."
 image: "/assets/img/reviews/luctus.webp"
 ---
 
-Luctus anchors its sombre psychological narrative within a tightly focused boss-rush structure that keeps the momentum driving forward without unnecessary bloat. Every encounter serves to highlight the weight of ancestral sins whilst demanding precise pattern recognition from the player to navigate the corrupting influence of lost magic effectively.
+Luctus is an action-adventure following the fire mage Nora on a revenge quest through a world of seals and lost magic. The complete first playthrough finished in a single session, from the village tragedy to the final confrontation and its closing revelation.
 
-Atmospheric pixel art brings the mournful world of the Ula to life, using a cohesive visual palette that reinforces the feeling of traversing a realm slowly succumbing to decay. Cryptic journals scattered throughout the environment offer fragments of lore that successfully ground the supernatural mystery in genuine, human desperation.
+The pixel art stands out, with the visuals remaining strong throughout the journey. The combat core delivers, with melee and ranged stance switching, a parry that blocks incoming damage and an invulnerable dash.
 
-Two distinct combat styles provide the mechanical foundation for this journey, allowing for seamless switching between melee and ranged strategies during intense skirmishes. Expending spirit power to trigger a powerful ultimate state or to recover health creates a layer of tactical depth that turns every victory into a earned milestone.
+The healing economy is generous, with meditation restoring health until the spirit power runs dry and potions dropping from defeated monsters. The phoenix revive adds safety, summoning a colossal spirit to bring Nora back with a quarter of her health.
 
-Frustration occasionally mounts during specific platforming escape segments that lack adequate checkpoints, forcing arduous retries upon a single mistake. These demanding sequences clash with the otherwise polished flow of the gauntlet, creating a temporary disconnect between the character's fluid combat abilities and the somewhat rigid demands of environmental traversal.
+The boss fights stay readable and fair, with Calderan the demon of hatred testing the dodge timing through a three-strike mechanic. The named guardians compare favourably to the ordinary wolves, which remain the weakest encounters.
 
-Struggling with character movement during high-stakes moments occasionally feels like a battle against the controls rather than the enemies themselves. Some inputs appear to vanish during frantic dashes or parry attempts, resulting in an unwelcome sense of inconsistency that threatens to overshadow the otherwise tight mechanical feel of the encounters.
+The story of Nora's revenge unfolds against the Ula and Tremis lore, with the journal and creature compendium deepening the world. The skill tree and the moon-fleck economy offer meaningful upgrades, though the tree is nearly maxed by the midpoint.
 
-Reading the narrative text proves surprisingly taxing because of poor colour contrast that often obscures vital information against the background. Such minor interface oversights are particularly noticeable when compared to the high level of polish present in the sound design, which minimalistily yet effectively sustains the eerie, supernatural mood throughout.
+The falling-ceiling escape is the low point, with precarious platforms forcing the whole section to be redone on a single miss. The heavy ranged attack is impractical with its slow wind-up, the blue text is hard to read and the sliding-block puzzles are finicky.
 
-Overall, this concentrated experience succeeds by delivering exactly what it promises through a well-contained and impactful design. Although the platforming sections lack sufficient leeway for errors, the strength of the combat mechanics and the melancholic story ensure that it remains a memorable highlight for those who value refined action.
+Overall, the pixel art, the parry-and-dash combat and the heal economy make this a fun, compact adventure. The falling-ceiling escape and the impractical ranged attack are the caveats.

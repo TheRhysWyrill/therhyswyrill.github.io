@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2004
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Diverse objectives and the inclusion of quick-saving elevate this expansion into a more ambitious and rewarding military shooter than its predecessor."
+summary: "A five-hour expansion whose tank and bomber set-pieces and new sprinting outshine its medkit-based health system."
 image: "/assets/img/reviews/call-of-duty-united-offensive.webp"
 ---
 
-Call of Duty: United Offensive demonstrates a clear evolution in design philosophy, refining the franchise's foundations through significantly more ambitious mission parameters. Players engage in a heightened variety of tactical scenarios that consistently subvert expectations during the arduous campaigns across the British and Soviet fronts.
+Call of Duty: United Offensive is the expansion to the original Call of Duty, adding sprinting and quick-saving to the base formula. Three campaigns across American, British and Soviet forces span roughly five hours of varied missions.
 
-Tank warfare segments and intense aerial bombing runs stand out as particularly innovative departures from the standard infantry corridors. Every objective feels intentionally crafted to maintain a relentless rhythm, successfully ensuring that the momentum never plateaus during the most hectic portions of the campaign.
+The Soviet tank mission is the standout, an armour push through the Kursk salient with the ability to knock down every tree. The B-17 bomber mission over Rotterdam moves between the dorsal, tail and ball turrets, fighting off the fighters, extinguishing an engine fire and cranking the jammed bomb doors open.
 
-Navigating the environments frequently reveals the persistent frustrations of an ageing artificial intelligence system that values volume over precision. Friendly soldiers often obstruct critical movement paths during heavy fire, inadvertently trapping the player in hazardous positions while opposing forces display a tendency to absorb unreasonable amounts of damage.
+Mission variety carries the expansion, mixing air combat with boots-on-the-ground pushes and chase sequences. The jeep escape from Bastogne, the motorbike-and-sidecar exfil and the train ambush keep each campaign distinct, while the flak gun adds a satisfying plane-shooting interlude.
 
-Relying heavily on fixed health kits rather than modern regeneration creates an uneven difficulty curve that dictates the pace of progress. Survival becomes less a test of reflex and more an exercise in scavenging, as constant focus fire from aggressive enemies necessitates an almost obsessive search for medical supplies.
+The health-bar and medkit system is the biggest recurring frustration, leaving low-health stretches at the mercy of enemy drops. Enemies also seem to target the player character exclusively, ignoring the surrounding allies entirely.
 
-Quick-saving functionality arrives as a vital mechanical necessity, effectively mitigating the irritation caused by sporadic stability issues and sharp difficulty spikes. This simple addition transforms potentially ruinous crashes into minor inconveniences, granting players the freedom to experiment with risky tactical approaches without fearing significant loss of progression.
+Vehicle and mounted-gun crosshairs are meaningless, making the PT boat section a slow and awkward fight. Instant-fail friendly fire punishes a single accidental bullet, which feels harsh during the bomber mission.
 
-Historical context provides necessary gravity to the action through informative cinematic synopses that frame each new theatre of operations. These brief interludes successfully ground the spectacle in reality, granting a sense of purpose that makes every successful sabotage or defensive hold feel like a genuine accomplishment for the squad.
+The game ran with only one crash, though teammates blocking movement and an odd stuttery mouse feel persist. The Noville hold-the-line is tolerable because it auto-saves constantly, unlike the base game's version, and quick-saving restores full health and ammo.
 
-Overall, this expansion succeeds by prioritising creative diversity and user-friendly features over the rigid, repetitive structures that hindered the original release. While the reliance on dated health systems remains a noticeable friction point, the improved technical flexibility makes this a highly rewarding journey for those appreciating classic military shooters.
+Overall, mission variety and the tank and bomber set-pieces make United Offensive a worthy companion to the original. The health-bar system is the main caveat on an otherwise strong expansion.

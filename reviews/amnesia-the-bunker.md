@@ -8,20 +8,20 @@ platform: "Xbox Series X"
 release_year: 2023
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This intense, systems-driven experience masterfully replaces scripted scares with a persistent, randomized threat that demands constant resource management and strategic adaptation."
+summary: "A World War I bunker where light and sound dictate survival, with randomised layouts and a crafting loop that keep the brief campaign replayable."
 image: "/assets/img/reviews/amnesia-the-bunker.webp"
 ---
 
-Amnesia: The Bunker strips away the familiar safety nets of the genre to craft a suffocatingly claustrophobic descent into madness. Every decision matters within the crumbling Roman tunnels, where ancient pagan rituals and the relentless pursuit of a monstrous entity ensure that dread remains a constant, chilling companion throughout the journey.
+Amnesia: The Bunker is a first-person survival horror set in a World War I bunker, where French soldier Henri Clément is left alone after the exit is sealed. The Beast, a light- and noise-sensitive stalker that prowls through the vent holes in the walls, cannot be killed with ordinary weapons.
 
-Dynamic randomization dictates the location of essential items and lethal traps, preventing any sense of comfort from settling in during repeated expeditions. Players must actively learn to navigate these shifting corridors, transforming the act of exploration into a calculated risk rather than a simple exercise in memorising predictable scripted sequences.
+Light and sound form the survival economy, because with the generator running the Beast rarely emerges while darkness lets it prowl and the loud dynamo flashlight itself draws attention. A subtle heartbeat announces when the creature has left its hole, and dust falling from the ceiling marks the vent it approaches.
 
-Emergent horror mechanics force a tactical mindset, as the persistent predator reacts audibly to every stumble or ill-timed noise. Efficiently managing fuel reserves for the generator becomes critical, since total darkness fundamentally alters the environment and makes navigating the labyrinthine sectors significantly more dangerous for those who lack proper illumination.
+The crafting loop ties survival to exploration, with petrol bombs for burning rat-infested corpses, bandages made from cloth, and the wrench and bolt cutters that open up the bunker. Securing the fuel storage takes the edge off the generator anxiety, and the quick-turn button gives corridors a reliable escape option.
 
-Tactile door interactions require a physical commitment that intentionally heightens panic when speed is essential for survival. Such deliberate design choices occasionally invite frustration, yet they effectively amplify the visceral sensation of being trapped while simultaneously encouraging players to think carefully before they initiate a hasty or loud retreat.
+Randomisation underpins the replay value, because codes, item placements and even trap placements all change between runs. The game is short, but the shifting layouts make it one that can be played a great deal.
 
-Journal entries and scattered notes slowly piece together the tragic narrative of a soldier whose humanity eroded amidst the shadows. Although the story remains largely peripheral to the immediate mechanical demands, these fragments provide an essential layer of historical depth that anchors the terrifying, supernatural mystery within a grounded perspective.
+Encounters stay tense rather than deadly, since being caught by the Beast is survivable instead of an instant end. Randomised codes also stop progress from being carried over from memory, which keeps the hunt for a way out fresh.
 
-Mastering the complex rules of this bunker rewards players with an increasingly efficient and satisfying progression loop. Initial hurdles often give way to newfound confidence once the fundamental systems click, turning what began as an overwhelming struggle against an unpredictable, intelligent beast into a series of rewarding, high-stakes decision-making moments.
+The practical irritations are few, with doors using a hold-and-stick control scheme that feels awkward and gas grenades that never show a clear purpose. The torch winding animation makes the hand vanish while the screen flashes, and torches themselves burn out quickly.
 
-Overall, this title provides a masterful blueprint for emergent, systems-led terror that thrives when players embrace the necessity of constant adaptation. By prioritising meaningful experimentation over passive observation, the experience becomes a highly engaging test of nerves and intellect that stands as a definitive highlight within modern survival horror gaming.
+Overall, monster design makes Amnesia: The Bunker a tightly crafted survival horror with very few genuine complaints. The short campaign and randomised layout give the stalker formula a clear shape worth revisiting.

@@ -8,20 +8,20 @@ platform: "Switch"
 release_year: 2024
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Oppressive shadows and clever light-based stealth create a deeply resonant psychological journey that effectively captures the vulnerability of childhood trauma."
+summary: "A collectible-rich survival horror whose flashlight combat and bullying-centred story make it a good, enjoyable outing."
 image: "/assets/img/reviews/gylt.webp"
 ---
 
-GYLT constructs an oppressive, lonely landscape that forces players to confront the distorted manifestations of childhood trauma and intense personal guilt. Every shadow within this nightmarish school setting acts as a silent witness to the protagonist’s internal turmoil, successfully creating a cohesive world that feels both haunting and fragile.
+GYLT is a survival horror set in the foggy town of Bethelwood, where a girl searches for her vanished cousin Emily. The full campaign was completed with credits in a single session, with all six canaries freed and all ten blood quartz found.
 
-Navigating these interconnected zones requires a disciplined approach to stealth, as the monsters roaming the halls are genuinely menacing. Using light to distract or temporarily disable these spectral adversaries provides a rhythmic tension that rewards careful observation and deliberate movement, making every successful escape feel earned and deeply satisfying.
+The flashlight is the core tool, burning away eyeball barriers, blinding nearby monsters with a recharging flash and serving as bait. The upgraded torch from Emily runs on a real battery meter, and the fire extinguisher freezes monsters, puts out fires and neutralises steam jets and electrified puddles.
 
-Environments reveal fragments of a tragic history through haunting diary entries that ground the supernatural occurrences in a relatable, sorrowful reality. These collectibles provide essential context for the town’s decline, ensuring that the player remains invested in uncovering the truth behind the oppressive forces stalking the lonely school grounds.
+The stealth carries real tension, with a detection meter, hiding spots, a heartbeat audio cue near monsters and sprinting that alerts everything nearby. The enemy types are distinct, from the fish-headed monsters with upside-down heads to the crows, the invisible gigglers and the talking mannequins.
 
-Puzzles periodically interrupt this flow, though their reliance on subtle visual cues can occasionally lead to moments of unnecessary confusion. Finding the correct path forward demands patience, especially when the game expects players to identify specific environmental interactions that are not always immediately apparent against the backdrop of extreme darkness.
+The story centres on bullying through Emily's diary entries, with the search cutting between the old and new halves of the town. The boss encounters are framed as inner demons, and the mountain that feeds on fear gives the world its dark logic.
 
-Limited movement options, such as the protagonist’s inability to jump, introduce an artificial clunkiness when crossing basic architectural barriers. Such restrictions highlight a disconnect between the player's desire for fluid motion and the character's physical constraints, frequently resulting in a rigid experience that contradicts the otherwise agile, stealth-focused gameplay.
+The collectible structure is generous, with the canary inhabitants, the blood quartz, the diary pages and the ticket fragments, plus a counter for each. The world rewards backtracking, with previous areas re-explorable and a surprisingly detailed map.
 
-Predictable enemy behaviours eventually diminish the fear factor as the same encounter types repeat throughout the duration of the campaign. Once the initial horror fades, the game’s reliance on these established patterns causes the challenge to plateau, shifting the focus from genuine terror to a standard, predictable loop of avoidance.
+The talking mannequins are the standout dislike, with their rotating heads and constant chatter. The crow distraction never holds, with the birds losing interest after a step or two, and the stamina bar is so short that sprinting barely lasts.
 
-Overall, this tense adventure thrives by translating psychological vulnerability into a tangible, light-based struggle for survival. Anyone who values atmosphere and narrative depth will appreciate how these mechanics mirror the protagonist's emotional state, turning a familiar school environment into an evocative arena of shadows, fear, and ultimate, hard-fought redemption.
+Overall, the flashlight combat, the collectible-rich world and the bullying-centred story make GYLT a good and enjoyable horror. The mannequins, the unreliable crow distraction and the sprint-heavy stealth are the caveats.

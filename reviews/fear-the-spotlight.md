@@ -6,22 +6,22 @@ permalink: /reviews/fear-the-spotlight/
 verdict: "recommended"
 platform: "PC"
 release_year: 2024
-genre: "Adventure, Survival Horror"
+genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Nostalgic low-poly visuals anchor this haunting tale, where character-driven trauma and eerie environmental puzzles eclipse the occasional mechanical friction of its stealth-heavy encounters."
+summary: "A two-chapter survival horror whose PS1-era look, readable enemy telegraphing and quiet tension make it a very good game."
 image: "/assets/img/reviews/fear-the-spotlight.webp"
 ---
 
-Fear The Spotlight functions as a masterclass in tension, utilising a distinct low-poly aesthetic to transform a mundane high school into a site of profound psychological unrest. This visual restraint effectively allows the imagination to fill the gaps, heightening the pervasive sense of dread lingering within every shadowed corridor.
+Fear the Spotlight is a two-chapter survival horror in which two teenage girls break into their school after hours for a seance, and each chapter plays as a different protagonist. Vivian's school chapter runs about two and a half hours while Amy's childhood-home chapter is roughly ninety minutes, with the mechanics reworked between them.
 
-Shifting between disparate timelines, the narrative carefully reconstructs the tragic events of a 1991 fire through scattered notes and evocative physical remnants. These fractured glimpses into the past successfully ground the supernatural mystery in a deeply personal story about long-held obsession, ensuring each discovery feels heavy with emotional significance.
+The deliberate PS1-era look intensifies the dread, with wobbly geometry, low polygons and distant objects that read as figures before vanishing when noticed. The spotlight-man enemy telegraphs clearly, since his light shows exactly where he is and which way he faces, and the music softens the further away he gets.
 
-Puzzles reward methodical observation, tasking players with scrutinising the environment to solve logical hurdles that feel intrinsically tied to the school's unsettling history. While some sequences necessitate backtracking, the steady pace of these discoveries ensures that the investigative loop remains consistently engaging rather than feeling like a chore.
+The scare design leans on startles rather than sustained dread, from the ringing phone to the burnt victims' beady eyes that vanish once noticed. The silence does the scaring, and the sparse ambience makes the quiet stretches more unsettling than any monster.
 
-Tension during stealth segments remains high, although the predictability of enemy behaviour sometimes diminishes the stakes during subsequent playthroughs. Managing light sources alongside inventory items often complicates these intense chase sequences, creating a clunky layer of frustration when fluid movement is most required to bypass an immediate threat.
+The layered mystery of the 1991 school fire, the secret-admirer letters, the burnt rose and the bullying subplot gives the world real depth. The in-game documents are called juicy stuff, and the superintendent cover-up threads through every room.
 
-Shadowy enemies provide initial spikes of adrenaline, yet the frequent reliance on these specific jump scares eventually loses its potency by the final act. Formulaic repetition occasionally dulls the sharp impact of these apparitions, reminding players that the true strength of the experience lies in its heavy, suffocating atmosphere.
+Healing uses a jumbo inhaler for Vivian and incense sticks for Amy, since being caught damages the lungs rather than health. The checkpoints are exceptionally generous, which keeps tension from turning into frustration.
 
-Technical performance on the console remains admirably consistent, providing a smooth experience that avoids the instabilities noted on other platforms. This stability ensures that the haunting visual distortions and silence-heavy sound design remain undisturbed, allowing the player to fully immerse themselves in the unfolding tragedy without any distracting technical interruptions.
+The PC version crashes every five to ten minutes with no explanation and carries a permanent bottom-left watermark, which pushes play onto Switch. The Switch build runs stable with fewer graphics options, though the control mapping causes friction with crouch and menu buttons.
 
-Overall, this standout indie horror production succeeds by prioritising atmosphere and storytelling over cheap thrills. Readers who appreciate slow-burn supernatural mysteries will likely find the journey through these hallowed, broken halls deeply rewarding, ultimately providing a poignant and chilling exploration of trauma that persists long after the final credits roll.
+Overall, the chapter structure, the PS1-era look and the readable enemy design make this a genuinely unsettling horror. The quiet tension and generous checkpoints carry it, while the PC stability problems remain the caveat.

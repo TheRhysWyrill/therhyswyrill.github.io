@@ -6,22 +6,22 @@ permalink: /reviews/vlad-circus-descend-into-madness/
 verdict: "recommended"
 platform: "Switch"
 release_year: 2023
-genre: "Adventure, Survival Horror"
+genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Managing stress levels through rosary prayers anchors a haunting investigation into historical trauma and psychological decay within a ruined mansion."
+summary: "A storm-bound circus reunion becomes a descent into hallucination in this atmospheric horror from Indiesruption."
 image: "/assets/img/reviews/vlad-circus-descend-into-madness.webp"
 ---
 
-Vlad Circus: Descend Into Madness anchors its psychological horror framework in the lingering aftermath of a catastrophic 1921 troupe fire. Exploring an abandoned estate through the eyes of a tormented survivor organically intertwines personal guilt with distressing encounters among former circus colleagues across dark grounds.
+Vlad Circus: Descend Into Madness is a first-person horror adventure from Indiesruption in which a former clown returns to his old circus troop after eight years. Oliver Mills, freshly released from Pennhurst Asylum, travels to the Petrescu house through a storm for a reunion that quickly curdles into madness.
 
-Managing mental stress introduces a vital layer of survival tension whenever hallucinatory distortions begin obscuring the immediate estate surroundings. Chanting rosary prayers or administering prescribed tonics quickly clears intrusive sensory illusions, preserving emotional stability during crucial exploratory trips into danger.
+The reunion brings together a familiar cast, from a wheelchair-bound strongman and a self-mutilating fakir to Siamese twins and a ventriloquist's puppet. The circus owner wanders the woods searching for a dead brother executed for burning the circus, the first sign that something is very wrong.
 
-Intricate environmental puzzles demand methodical item collection alongside crafting specific recipes to bypass locked estate doors and hidden pathways. Reconstructing key memories provides necessary context for multi-step emblems, forcing deliberate inventory organisation to manage strict carrying limits across various rooms.
+Gameplay is Amnesia-like, with a kerosene lamp, dark corridors and a stress bar that stands in for health. Praying with a rosary lowers the stress, while hallucinations must be dispelled with a suspect tonic from the asylum doctor.
 
-Traversal across distant mansion wings occasionally feels tedious because restricted stamina parameters limit rapid sprinting through unlit corridors and dense forests. Opening newly discovered shortcuts mitigates repetitive backtracking, yet navigating shadowy sectors requires constant vigilance to avoid severe panic build-ups while exploring.
+Puzzles lean on inventory work, from fixing the fuse box and sharpening a knife to repairing a clock and bartering with the thieving monkey. Combat against rats and headless horrors is simple, though the four-directional shooting and limited stamina make it fiddly.
 
-Violent rodent swarms inflict swift stress damage upon direct contact, forcing immediate physical reactions to prevent severe perceptual disorientation. Aiming revolvers, shotguns, and blunt tools requires precise directional orientation when defending against hostile threats lurking inside gloomy estate chambers during combat encounters.
+The slow-burn dread is the game's strength, carried by quiet ambience, whispers and a small sound indicator for audio. The fire that destroyed the circus hangs over everything, and Oliver's memories of the blaze, including the orphan he could not save, are the most affecting moments.
 
-Haunting ambient soundscapes work in tandem with clear directional indicators, heightening dread without ever resorting to cheap jump scares. Steady frame rates maintain graphic clarity across dim lighting shifts, ensuring that integrated accessibility options properly support every atmospheric transition throughout the campaign.
+The story lands on a genuinely surprising twist, with the reunion's reality called into question in ways that reframe the whole night. The final nightmare section, with a monstrous baby and a ticket booth demanding an absurd fee, proved more frustrating than frightening.
 
-Overall, stress management mechanics and thoughtful inventory puzzles elevate the eerie investigation into a deeply memorable narrative ordeal. Cryptic late-game mazes and movement limitations introduce brief mechanical friction, yet the powerful story resolution confirms a thoroughly engrossing journey for adventure enthusiasts.
+Overall, the atmospheric horror, the memorable cast and the strong twist make this a worthwhile trip back to the circus. It is easy to recommend, despite the annoying rats and the underwhelming finale.

@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2022
 genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Delivering exceptionally satisfying, bite-sized mechanical challenges, this tactile puzzle adventure encourages experimentation while providing helpful tools to bypass moments of obtuse or frustrating logic."
+summary: "A relaxing puzzle escape game whose bite-sized levels, variety and gem-collection structure are a creative treat."
 image: "/assets/img/reviews/doors-paradox.webp"
 ---
 
-Doors: Paradox presents a series of contained, highly tactile environments that challenge players to manipulate intricate mechanisms to progress. Each individual stage offers a refreshing sense of accomplishment, rewarding lateral thinking through clever, bite-sized tasks that respect one's schedule whilst providing a consistent stream of manageable intellectual stimulation.
+Doors: Paradox is a relaxing puzzle escape game built from bite-sized 3D dioramas, each hiding a door that opens once its puzzle is solved. The levels are short, with none taking more than ten minutes and many finishing in two.
 
-Visual variety defines the experience, as every portal introduces a distinct theme that keeps the aesthetic exploration feeling vibrant and novel. These creative dioramas serve as the perfect backdrop for investigative gameplay, ensuring that moving between levels feels like uncovering a new, meticulously polished secret within a larger, magical machine.
+The puzzle variety is the draw, with every level recombining sliding tiles, dials, colour-matching, mirrors, weights, wind-up keys, valves, cannons and projection puzzles into a fresh room. The short length of each puzzle makes solving them feel satisfying.
 
-Tactile interaction forms the core of the loop, requiring careful observation of small, contained spaces to uncover hidden solutions. Players will often find themselves clicking and rotating various components, a design choice that successfully emulates the grounded, investigative pleasure found in established genre titans like the Room series.
+The set-pieces stand out, from the Murder Motel and the camera obscura to the slot-machine casino and the music-rhythm level. The roughly sixty levels across three chapters keep the ideas coming without repetition, each door designed with a distinct visual theme.
 
-Progressing through the campaign relies on collecting scattered gems to unlock optional content, providing a clear structure for those desiring completion. Although keeping track of these requirements can occasionally become slightly muddled, the straightforward nature of the progression ensures that momentum remains high throughout the entire multi-level journey.
+Every level holds two gems and a story note, with gems unlocking optional light-and-dark path levels and finally a pair of concluding paths. The collection payoff is real, since the bright path terraforms a planet while the dark path destroys one.
 
-Sliding-block sequences unfortunately disrupt this flow, acting as a recurring source of mechanical friction that stands apart from the otherwise intuitive logic. Fortunately, the inclusion of a skip-puzzle button allows participants to bypass these specific hurdles, preventing the occasional obtuse design choice from stagnating an otherwise consistently enjoyable experience.
+The story notes trace the protagonist's life across the levels, with a cat guide leading the way in a structure that recalls Alice in Wonderland. A hint button and a skip-puzzle button keep frustration in check.
 
-Narrative depth surfaces through brief notes hidden amongst the cogs, touching upon introspective themes concerning lost childhood and the duality of chaos versus order. These small fragments of text provide a pleasant, understated context for one's actions, adding a layer of contemplative weight to the act of simple mechanical manipulation.
+The sliding-block puzzles are the low point, easy to screw up and quick to skip. Unmarked interactables hide in plain sight, and some clues are unhelpful enough to stall progress.
 
-Overall, this polished title succeeds by prioritising accessible, self-contained puzzles that invite experimentation without demanding an excessive commitment of time. Whilst certain mechanics may occasionally necessitate a hint or a skip, the prevailing sense of discovery ensures that the adventure remains a delightful, clever, and rewarding challenge to undertake.
+Overall, puzzle variety and the gem-collection structure make Doors: Paradox a creative, satisfying game. The sliding blocks and the finicky mouse elements are the main caveats.

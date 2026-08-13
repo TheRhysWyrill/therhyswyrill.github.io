@@ -8,20 +8,20 @@ platform: "PS3"
 release_year: 2006
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "High-octane infantry combat shines through emulation, offering a unique historical shooter experience despite dated movement mechanics and a drab, desaturated visual colour palette."
+summary: "The only mainline entry without a PC release, whose upscaled visuals, nation-spanning missions and joyful melee outshine twitchy Panzerschreck aiming."
 image: "/assets/img/reviews/call-of-duty-3.webp"
 ---
 
-Call of Duty 3 captures the relentless intensity of the Normandy breakout by trapping soldiers within a claustrophobic, high-stakes theatre of war. Its narrative relies on standard historical tropes that reflect the gritty, muddy aesthetic preferences prevalent during the mid-two-thousands.
+Call of Duty 3 is the 2006 Treyarch shooter that stands as the only mainline entry never released on PC, following American, British, French Resistance, Canadian and Polish troops through the liberation of France. The upscaled presentation, delivered through emulation, makes everything look clean and clear for its age.
 
-Shifting objectives frequently force players to transition between intense infantry skirmishes and varied vehicle-based sequences. These distinct gameplay segments successfully maintain a breathless pace that mitigates any boredom resulting from the absence of a modern sprint command.
+The melee is a favourite, with hits sending enemies flying and the occasional front-flip knockback adding physical comedy, and it stays viable across the campaign. The MP44 proves endlessly useful with its effectively unlimited ammunition.
 
-Aggressive melee strikes provide an unexpectedly satisfying tactical alternative when ammunition runs low during chaotic urban defence missions. Launching adversaries backwards with exaggerated physics highlights the developer's focus on kinetic, arcade-style feedback over grounded realism.
+Nation and mission variety is a strength, with tank driving, vehicle sections, sniper segments and a night drop breaking up the infantry shooting. The driving sections, even when confined to the wheel, are enjoyed.
 
-Emulation serves as a crucial bridge for this title, allowing previously hidden texture details to emerge through higher internal rendering resolutions. Performance stability improves drastically compared to original console hardware, although users might notice brief processing pauses between specific campaign levels.
+The Panzerschreck aiming is the biggest complaint, with the left stick spinning the view rather than steadying the reticle. The rowing mini-game is gimmicky and the least welcome of the set pieces.
 
-Friendly soldiers often demonstrate poor spatial awareness, frequently wandering directly into the line of fire during heated skirmishes. Reloading sequences for heavier weapons like the BAR feel clunky, occasionally hindering the fluidity of an otherwise rapid-fire encounter.
+Squadmates run in front of the barrel, risking failure through accidental friendly fire, and melee attempts are blocked too often to rely on. There is no sprint, the BAR's reload animation looks fumbled, and the audio quality is poor.
 
-Muddy, brown environments dominate the visual identity, ensuring the surroundings rarely feel visually distinct or particularly vibrant to the modern eye. Players must accept these dated stylistic choices as a fundamental characteristic of the era rather than a failure of technical execution.
+Emulation brings its own quirks, with modules recompiling after every level and the real console hardware crashing near the end of a stage. The run survives both, and the campaign is the shortest of the series so far.
 
-Overall, this entry offers an engaging and surprisingly diverse experience for those interested in revisiting a forgotten historical shooter through modern emulation tools. Mastering the aggressive combat loops rewards patience, transforming initial frustrations with ageing design philosophies into a thoroughly entertaining and robust high-octane journey.
+Overall, nation-spanning variety, upscaled visuals and the joyful melee make Call of Duty 3 a fun entry. The twitchy Panzerschreck aiming and the rowing section are the main caveats.

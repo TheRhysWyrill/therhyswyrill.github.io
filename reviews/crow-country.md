@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2024
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This hauntingly polished homage to nineties horror expertly blends classic atmospheric tension with accessible, modern quality-of-life refinements for a truly cohesive investigation."
+summary: "A PS1-era survival horror homage whose consistently clever puzzles and haunting atmosphere carry a four-hour campaign."
 image: "/assets/img/reviews/crow-country.webp"
 ---
 
-Crow Country serves as an affectionate, meticulously built homage to the golden era of nineties survival horror games. Mara Forest finds herself navigating the eerie, derelict remains of a theme park while searching for a missing individual amidst a pervasive sense of mounting dread and psychological isolation.
+Crow Country is a survival horror homage to the PS1 era, set in an abandoned theme park with fireplace save points, a crank handle and key-based progression. The fixed camera angles, item-stash convenience and tank-controls option recreate the conventions of the old Resident Evil games.
 
-Environmental storytelling provides the foundation for this investigative journey, tasking players with scouring memo-filled rooms to piece together a larger mystery. Solving intricate mechanical puzzles necessitates careful backtracking and a methodical approach, as key items remain locked behind logical hurdles that demand sharp observation and persistent curiosity.
+The puzzles are the strongest element, with the music-box puzzle built from newsreel footage of the Hindenburg, Titanic, plague and Hiroshima spelling out a word. The crypt tombstone arrangement, the prisoner-statue riddle and the gift-shop till total all land as clever, coherent brain-teasers.
 
-Movement options allow for a seamless transition between classic tank-style manoeuvres and a more modern, intuitive control scheme. Whilst initial adjustments to the restrictive camera angles feel slightly jarring, the design ensures that prioritising agility and spatial awareness eventually turns these initial mechanical challenges into second nature.
+Fifteen hidden secrets reward thorough exploration, with an optional map revealing their locations and secret rooms offering pay-offs like the magnum. The rank system rewards efficiency, since healing less earns a better grade at the results screen.
 
-Limited resources force constant tactical decisions, as every shell and health pack must be rationed with extreme caution. Combat encounters test your composure rather than your raw reflexes, encouraging players to utilise environmental hazards like electrical generators or explosive barrels to dispatch threats efficiently without wasting limited supplies.
+The story builds to a late-game reveal that reframes the entire investigation, with a confession that recontextualises the park's strange events. The character work, from the constant bickering between Tolman and Trumble to the taped-up photo wall, keeps the cast lively throughout.
 
-Saving progress requires locating specific fire sources scattered throughout the park, which adds a layer of vulnerability to your exploration. This deliberate pacing choice heightens the stakes during tense treks between safe points, effectively transforming the derelict attraction into a claustrophobic cage where danger always lurks nearby.
+The haunting music and the park's fairy-tale town, haunted hilltop and ocean kingdom build the atmosphere, alongside the underground root excavation. Enemy variety spans small spike blobs, larger brutes and poison-gas spitters, with bear traps and rigged explosives that can be disarmed from range.
 
-User interface interactions occasionally feel slightly cumbersome, yet these minor friction points barely dampen the satisfaction of uncovering hidden secrets. Polished systems provide modern convenience without sacrificing the authentic, nineties-inspired tone that defines every visual beat and soundscape found within the abandoned, decaying gates of the park.
+The main frustration is the combination of aiming and the camera, since a slightly tilted angle makes it hard to tell where shots are going. The game is light on scares, with one real jump scare from spike blobs bursting out of a vent, and the poison traps proved the most effective hazards.
 
-Overall, this experience succeeds by balancing nostalgic reverence with accessible, user-friendly design. Fans of the genre who prize atmospheric exploration and cerebral puzzle-solving over mindless action will find this journey deeply rewarding, as it captures the quintessential essence of survival horror while gracefully avoiding its most dated, frustrating pitfalls.
+Overall, puzzle design, atmosphere and the story reveal make Crow Country a very good game. The four-hour length feels right for the scope, with the aiming and camera combination the main caveat.

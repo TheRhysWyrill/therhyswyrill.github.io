@@ -8,20 +8,20 @@ platform: "Switch"
 release_year: 2017
 genre: "Racing"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Boasting massive content volume and a masterful soundtrack, this definitive arcade racer turns chaotic item-based competition into an addictive, high-stakes test of driving skill."
+summary: "A kart racer whose track variety, soundtrack and arcade fun shine despite relentless item cruelty and first-place sabotage."
 image: "/assets/img/reviews/mario-kart-8-deluxe.webp"
 ---
 
-Mario Kart 8 Deluxe defines the pinnacle of arcade racing by offering an industry-leading volume of tracks and competitive depth. Navigating these vibrant courses requires mastering precise drifting and boost-timing, though the constant threat of unpredictable interference ensures that every grand prix feels like a breathless, high-adrenaline struggle for survival.
+Mario Kart 8 Deluxe is a kart racing game from Nintendo EPD, taking the Switch rerelease through a full 150cc Grand Prix tour. The complete run covered the base and DLC cups, racing as Shy Guy and aiming for first place.
 
-Jazzed-up arrangements comprise an exceptional soundtrack that perfectly complements the frantic pace of the tournament circuit. Every melodic shift elevates the intensity of the competition, creating a sophisticated auditory landscape that maintains momentum during even the most repetitive stretches of the campaign whilst keeping the player energised throughout long sessions.
+The music is persistently praised, with the courses' songs a highlight and most of the run spent humming along. The track design lands well, with the N64 Rainbow Road's barriers and the DLC cups' courses standing out.
 
-Items dominate approximately seventy per cent of the experience, fostering high-stakes scenarios that frequently fluctuate between exhilarating triumphs and crushing defeats. These chaotic elements provide necessary unpredictability, although the relentless frequency of blue shells often punishes the frontrunner so severely that it risks undermining the hard-earned lead of a skilled driver.
+The roster offers plenty of choice, with the kart selection cycled and Shy Guy settling in as the character of choice. The blue-shell dodge tech is a highlight, with a well-timed mushroom whooshing the racer out of the way.
 
-Kart customisation allows for granular adjustments to acceleration and traction, providing a welcome layer of depth that rewards tactical experimentation. Forcing the player into new, automatically unlocked vehicle parts remains an irritating design choice, as it disrupts preferred setups and occasionally mandates re-adjusting one's entire driving style to accommodate the latest engine components.
+The item cruelty is the dominant complaint, with at least one blue shell and one lightning bolt hitting every race. Being knocked out of first is a recurring frustration, with the blue shell arriving right at the finish.
 
-Computer-controlled opponents rarely exhibit genuine mechanical superiority at higher speeds, relying instead on fortunate item drops to keep the race tight. Such artificial balancing can feel inherently unfair, yet learning the intricate track layouts eventually provides enough agency to overcome these lopsided encounters and secure victory amidst the constant, screen-filling confusion.
+The rubber-band economy bites when trailing, with the trailing racer stuck on triple bananas while the top items never appear. The one mechanical wish is holding two items at once, with the switch between them absent.
 
-Visual scale shifts between standard racing and miniature perspectives occasionally obscure vital cues, making precise obstacle avoidance difficult during high-speed segments. Despite these rare instances of navigational friction, the overall presentation remains remarkably stable, maintaining fluid performance even when the screen overflows with explosive power-ups and intense, multi-character particle effects.
+The handling holds up on 150cc, with the racer keeping pace through the full Grand Prix. The DLC cups' trophy is a minor presentational letdown, and one race shows a bugged sky.
 
-Overall, mastering the chaotic balance of skill and fortune transforms this expansive racer into a perpetually rewarding test of nerves. Whilst the absence of a narrative campaign represents a missed opportunity, the combination of intricate kart customisation and a peerless musical score ensures this title remains the definitive series entry.
+Overall, the track variety, the soundtrack and the arcade fun make this a very fun racer even solo. The relentless blue shells and the first-place sabotage are the caveats.

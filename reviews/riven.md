@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2024
 genre: "Adventure, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Interlocking mechanical systems demand rigorous observation and manual note-taking, transforming the act of discovery into an intensely satisfying, self-directed intellectual odyssey."
+summary: "Five distinct island worlds and a memorable number system anchor this remake, held back only by its handwriting and pacing."
 image: "/assets/img/reviews/riven.webp"
 ---
 
-Riven confronts players with an enigmatic, decaying world where every gear and lever serves as a vital component of a sprawling, cohesive landscape. Mastery relies on an unwavering commitment to cataloguing symbols and numeric sequences, as the experience pointedly refuses to provide traditional guidance or explicit objective markers.
+Riven is the 2024 remake of Cyan's puzzle adventure, sending the Stranger across five islands of the age of the same name to free Catherine and capture her captor. The islands are linked by mag lifts, a submarine, minecarts and the star-filled Fissure network, each route a journey in itself.
 
-Complex environmental riddles form the primary interaction, rewarding those who successfully connect signals between disparate structures. Solving a solitary mechanism often triggers pathways across the islands, providing a sense of intellectual triumph whenever the underlying logic of the world clicks into place during a moment of sudden, profound clarity.
+The D'ni number system, read from rotational notches, stands out as the game's best puzzle, easier to remember than anything else and satisfying to decode. The totem-beast cipher, the calibration board and the imager codes round out a fair challenge that never demands a guide.
 
-Immersive visual details bolster the atmosphere, making the simple act of exploration feel rewarding despite the deliberately slow traversal speed. Navigating these vast, open spaces occasionally grows tedious, particularly when backtracking becomes necessary to verify a forgotten symbol or to re-examine a previously dismissed machine tucked away in a corner.
+Each island looks very distinct, from the Tetris-grid lookout tower to the jungle village and the submerged prison areas. The mag-lift rides and the underwater submarine passages make the traversal itself a visual highlight, though movement speed is slow across the large spaces.
 
-Illegible handwritten journals create unnecessary barriers to progress, forcing players to decipher cryptic notes that often obscure essential clues. These documents provide a rich layer of world-building, yet the difficulty in reading them creates a persistent friction that detracts from the otherwise seamless integration of narrative and puzzle-solving tasks.
+The handwriting in the journals is the biggest complaint, beautiful to look at but genuinely hard to read, with no legibility option anywhere. Controller sensitivity on fine-adjustment puzzles is another friction point, spiking whenever only a slight turn is needed.
 
-Submarine navigation and the cyclical need to reset environmental states introduce mechanical ordeals that can dampen the momentum of discovery. Such sequences demand patience, yet they reinforce the sense of being an intruder within a lived-in, ancient reality where survival depends upon internalising the rigid, physical laws of this trapped world.
+Backtracking is heavy and punishing when something important is missed, with long return journeys and a submarine that can trap itself out of reach. The UE5 water ghosting and one nearly invisible white button add to the friction, but the well-hidden secrets reward thorough exploration.
 
-Visually stunning environments ensure that even the most arduous treks remain visually arresting, occasionally marred only by subtle screen-space artefacts within water-based settings. The narrative stakes regarding Catherine and the antagonist remain compelling, driven entirely by environmental storytelling that demands an inquisitive mind to fully comprehend the overarching mystery at hand.
+The story presence is strong, with the captor's morally shaded appeals and the poignant details in the environment giving the world real weight. The changed linking sound and the PS1 box-art recreation are small touches that land well.
 
-Overall, the puzzle design provides a masterfully dense framework that encourages complete reliance on personal memory and meticulously kept notes. Unlocking the secrets of this broken realm represents a significant investment of time, yet the depth of its mechanical architecture ensures every solved riddle feels like a hard-won victory.
+Overall, the number-system discovery and the distinct island worlds make this a very good game. The illegible handwriting and the traversal-heavy pacing keep it below the heights of Myst.

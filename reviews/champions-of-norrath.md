@@ -8,20 +8,20 @@ platform: "PS2"
 release_year: 2004
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An addictive loot drop loop and flexible skill trees anchor a classic isometric hack-and-slash campaign supported by generous checkpointing."
+summary: "A favourite PS2 action RPG whose class variety, sassy shadow knight and varied biomes hold up against the loot grind."
 image: "/assets/img/reviews/champions-of-norrath.webp"
 ---
 
-Champions of Norrath anchors its dark high-fantasy identity in a classic isometric hack-and-slash structure set within the established lore of the EverQuest universe. An unusual alliance between aggressive orcs and goblins threatens the forest kingdom of Faydark, driving an adventurous trek through murky caves, canopy posts, and hidden underground tunnels.
+Champions of Norrath is a PS2 action RPG from the Baldur's Gate: Dark Alliance engine, and it remains a personal favourite on revisit. Five classes, from warrior to wizard, offer distinct builds, with the shadow knight a strong melee and magic hybrid.
 
-Character class progression provides distinct active and passive skill trees alongside core attribute allocations into strength, dexterity, intelligence, and stamina upon levelling up. Investing heavily into expanding total mana capacity transforms initial combat struggles, allowing potent offensive spells like Disease Bolt to decimate dense enemy groups efficiently.
+The idle dialogue is a lost art, with the character directly calling out the player for standing around doing nothing. The shadow knight's dark humour, from killing gnomes to redecorating, keeps the downtime entertaining.
 
-Surviving early combat encounters demands active shield blocking and measured stamina management rather than reckless button-mashing against aggressive opponents. High-damage enemy firing squads and elusive spellcasters who fully revive defeated allies create punishing early scenarios that severely test strategic positioning during claustrophobic skirmishes.
+Act one is the biggest and most open stretch, full of optional dungeons like the goblin caves and the giant spider boss. Act three covers every biome, from beach and underwater to desert, swamp and a tower of clouds connected by ancient portals.
 
-Loot drops constantly reward thorough dungeon exploration with valuable equipment stat upgrades and slotable elemental gemstones for customised weapons. Managing heavy inventory weight forces frequent visits to base shops, where selling junk armour and excess weapons rapidly generates immense wealth for necessary character enhancements.
+The boss fights vary widely, from the poison-heavy giant spider to the Lord of Vampires and the cloud giant king. The final boss Inarok offers a unique bad ending, adding a replay hook beyond the three-difficulty ladder.
 
-Explosive environmental barrels introduce an unpredictable hazard during chaotic indoor battles, occasionally dealing massive unexpected damage to surrounding combatants. Slight projectile targeting imprecisions can make manual spell aiming slightly finicky, though generous checkpoint placements ensure that sudden deaths never penalise overall forward momentum.
+Carrying capacity is the recurring gripe, forcing constant trips back to the shop and turning progress into a shopping loop. The grid inventory has no compare button and no storage, making every trip a slow process.
 
-Authentic visual design and fully voiced character introductions evoke early two-thousands action-RPG aesthetics alongside sweeping orchestral musical scores. Emulating the original hardware requires adequate processing performance to prevent severe mid-screen graphical glitches and maintain smooth rendering across expansive fantasy environments.
+The wizard enemies are the worst threat, reviving their allies with full health and no limit on how often. Bosses can stun-lock the character, and the glass-cannon balance keeps the hero always on the edge of death.
 
-Overall, the hack-and-slash looting loop and rewarding skill tree customisation create an extraordinarily addictive dungeon-crawling experience across classic fantasy settings. Overcoming early difficulty spikes and frequent inventory management reveals a deeply satisfying action-RPG that continues to impress through its forgiving progression dynamics and high-stakes combat.
+Overall, the class variety, the sassy shadow knight and the varied biomes make Champions of Norrath a fantastic PS2 game. The carrying-capacity grind and the reviving wizards are the main caveats.

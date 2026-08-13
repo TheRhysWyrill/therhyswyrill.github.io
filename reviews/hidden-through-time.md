@@ -6,22 +6,22 @@ permalink: /reviews/hidden-through-time/
 verdict: "recommended"
 platform: "PC"
 release_year: 2020
-genre: "Puzzle"
+genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Vibrant palettes and intelligent design transform classic object hunting into a relaxing, accessible journey through diverse historical eras for any casual puzzle enthusiast."
+summary: "A colourful hidden-object search whose hints, era framing and gentle difficulty make it an easy return visit."
 image: "/assets/img/reviews/hidden-through-time.webp"
 ---
 
-Hidden Through Time adopts a refreshing chromatic approach to the hidden object genre, favouring vivid palettes over the usual monochromatic austerity. These colourful environments ensure that identifying various assets remains an intuitive pursuit rather than a straining exercise in squinting at subtle shades of grey against busy backgrounds.
+Hidden Through Time is a hidden-object search game from Rogueside, sending the player through hand-drawn historical scenes in the hunt for listed objects. The full package was completed, with the main story mode and all five DLC packs cleared to one hundred per cent.
 
-Scanning these interactive maps reveals a wealth of historical detail across multiple eras, each packed with enough content to satisfy any inquisitive mind. Every time period feels distinct, providing a substantial amount of variety that keeps the simple act of locating specific items feeling consistently fresh and visually appealing.
+The hint writing earns its keep by cutting down the search space, with statements about trees or settings narrowing what needs to be examined. Some hints make object locations fairly obvious, which is exactly the point of a genre built on restraint.
 
-Navigating through these sprawling dioramas using a controller occasionally feels imprecise, lacking the snappy responsiveness necessary for efficient searching. Keyboard and mouse inputs provide a far superior level of accuracy, turning the sometimes tedious task of pixel hunting into a fluid motion that respects the player’s time and patience.
+The historical-era framing keeps every level distinct, with four eras in the main game and five themed DLC packs covering Norse mythology, Japan, Rome, pirates and the Aztecs. Each setting brings its own set dressing, characters and object roster.
 
-Written clues guide your investigation with helpful direction, managing to offer enough clarity without stripping away the core challenge of the hunt. This balanced approach to puzzle design ensures that momentum rarely stalls, allowing for a steady, rhythmic progression through the different maps and their unique, charmingly animated inhabitants.
+The colour palette is a genuine design benefit, since the coloured scenes make objects far easier to spot than the monochrome art of Hidden Folks. The game is significantly easier than Hidden Folks as a result, which is not a bad thing.
 
-Searching for particularly tiny targets like insects or small rocks can occasionally push the boundaries of fairness, occasionally leading to moments of repetitive screen scanning. Thankfully, such minor frustrations are quickly mitigated by the sheer joy of uncovering the remaining list items hidden within these dense, beautifully rendered historical scenes.
+The jokes in the level descriptions are a recurring delight, from the bloody yellow scorpion to the creature that is not a troll but a Kappa. The pleasant music, particularly during the pirate DLC, adds a light touch throughout.
 
-Ambient audio feels surprisingly sparse during the sessions, leaving the soundscape feeling somewhat empty despite the otherwise lively visual presentation. A more robust layer of environmental noise would have likely enhanced the immersion, yet the gentle, soothing musical loop remains a pleasant companion throughout this otherwise very relaxing adventure.
+The main campaign is short at around ninety minutes, and each DLC pack lasts about twenty minutes, with the whole package finishing in under four hours. Objects repeatedly blend into the scenery, with camouflage forming the core difficulty, and the container-search habit causes misses when hidden objects sit inside opened items.
 
-Overall, this polished title provides an essential recommendation for those seeking a stress-free experience that rewards careful observation and a curious spirit. Its generous abundance of content and visual clarity establish a new standard for accessibility, ensuring a delightful pastime for anyone who values charm over aggressive mechanical complexity.
+Overall, the hint writing, the era framing and the gentle difficulty make this a fun hidden-object game. The brevity is the only real caveat, and returning to it remains an easy decision.

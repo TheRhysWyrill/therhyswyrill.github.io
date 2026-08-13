@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2014
 genre: "RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Refined combat mechanics and a quirky time-travelling premise make this sequel a delightful, high-stakes improvement over its predecessor."
+summary: "A Halloween time-travel RPG whose costume gimmicks and comedy outweigh its simplified combat."
 image: "/assets/img/reviews/costume-quest-2.webp"
 ---
 
-Costume Quest 2 evolves its predecessor’s foundation by introducing a time-travelling narrative that pits children against a sinister dentist intent on outlawing Halloween. This ambitious premise transforms a simple trick-or-treating outing into a dystopian struggle, infusing the lighthearted aesthetic with a surprising degree of urgency and genuine narrative humour.
+Costume Quest 2 sends its trick-or-treating heroes through a time hole into a dystopian future where Halloween is banned. A grown-up villain has outlawed candy and costumes and brainwashed the repugians into running a dental utopia.
 
-Timed counters and double-attack combos revitalise the turn-based skirmishes by demanding active engagement and precise player input during every encounter. Resource management now carries actual weight, as health no longer resets automatically after each confrontation, forcing a much more thoughtful approach to the items found within your inventory.
+The time-travel structure sends the kids back to stop the villain's younger self, through the Tooth Academy, the sewers and the dental compound. The classroom scene, with brainwashed kids giving absurd answers, is a highlight of the writing.
 
-Casting aside the simple tropes of the first title, the variety of unique attires allows for diverse tactical experimentation throughout the different time periods. While some choices like the Candy Corn unfortunately lack functional utility during battle, discovering the specific advantages of the Wizard or Pterodactyl provides rewarding strategic depth.
+Costumes remain the heart of the game, each with a traversal gimmick and an upgrade path that visibly recolours the suit. The combo follow-up attack and the charged counter are welcome additions to the combat.
 
-Navigating the environments occasionally becomes tedious due to imprecise hints regarding hidden objectives and a reliance on backtracking. Secret areas remain obscured by vague design cues, causing unnecessary friction that disrupts the otherwise rapid momentum maintained by the improved sprint speed and the updated, non-scrolling text boxes during conversations.
+The new techniques come from a returning mentor, and the familiar cast, from the gator and the candy dealer to a repugian, keeps the sequel connected to the original. The block-party epilogue reunites every resolved character after the story closes.
 
-Tactical depth is further enhanced by Creepy Treat cards that offer potent abilities at the cost of sacrificing a turn in battle. Deciding when to deploy these cards creates a satisfying risk-reward loop that keeps the gameplay feeling fresh, provided the player has correctly optimised their display to run at sixty hertz.
+Combat is noticeably dumbed down compared with the first game, with every attack reduced to the same timing-ring press. The battle stamps become cards that waste a turn to use, and there is no full heal between fights.
 
-Visual consistency and improved interface elements demonstrate clear iterative progress over the original adventure, showcasing a team that understands how to polish a successful formula. Stiff cutscenes or performance hitches rarely break the illusion, ensuring the charming depiction of a world devoid of spooky celebrations remains captivating until the final act.
+The candy corn costume is useless in battle, one character takes disproportionate damage, and the health pools are smaller than the original. The XP curve climbs steeply and the game demands a 60Hz setting, while the finale closes as a free-roam epilogue rather than a set-piece.
 
-Overall, this engaging sequel successfully builds upon the foundations of the original whilst introducing meaningful improvements to its strategic depth and pacing. Despite occasional balance issues with specific outfits or navigation hurdles, the combination of satisfying combat and infectious humour creates a memorable experience that remains well worth your time.
+Overall, costumes and humour carry Costume Quest 2 past its simplified combat. The time-travel story and the returning cast round out a warm, funny RPG.

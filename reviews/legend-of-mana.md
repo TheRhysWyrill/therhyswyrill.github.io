@@ -6,22 +6,22 @@ permalink: /reviews/legend-of-mana/
 verdict: "recommended"
 platform: "Switch"
 release_year: 2021
-genre: "RPG"
+genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An imaginative world-building system and stunning aesthetic define this non-linear adventure, where player agency consistently triumphs over its occasional mechanical and narrative opaqueness."
+summary: "An action RPG whose music, charm and pop-up-book world-building make it special despite awkward combat."
 image: "/assets/img/reviews/legend-of-mana.webp"
 ---
 
-Legend of Mana allows players to reconstruct the geography of Fa'Diel through the ingenious Land Make system, a mechanic that ensures every journey feels profoundly personal. By placing mystical artefacts onto an empty map, one effectively writes the history and cultural fabric of the land during a singular, unrepeatable playthrough.
+Legend of Mana is an action role-playing game from Square Enix, played here as the 2021 HD remaster on PC. The complete run across five streams took just over twenty hours, finishing all sixty-seven events and reaching the credits.
 
-Ornate pixel art and vibrant, painterly backgrounds create a cohesive visual feast that retains its captivating charm decades after the original launch. These detailed environments pair perfectly with a magnificent soundtrack, which remains a consistent highlight that provides an evocative, sweeping auditory backdrop to every strange and eccentric encounter.
+The music is a standout throughout, with the Swedish-sung intro and the boss themes among the best in the series. The Land Make premise is the hook, with artefacts placed on a blank map causing the world to rise up like a pop-up book.
 
-Combat scenarios frequently introduce friction due to imprecise hit detection that makes gauging the efficacy of strikes a persistent challenge. Relying on specific ability loadouts and mastering the rhythm of distinct move sets eventually mitigates these skirmishes, transforming initial frustration into a measured, albeit slightly clunky, demonstration of tactical skill.
+The layout system makes the world replayable, with many ways to build the land and still experience every event. The anthology structure refreshes, offering a collection of stories rather than a single main plot.
 
-Navigating the fragmented narrative structure requires considerable patience, as the game prioritises character-driven vignettes over a singular, linear path. This non-traditional approach rewards those who enjoy discovering hidden layers of lore, though it occasionally leaves one feeling adrift without a clear sense of how specific quest threads intersect.
+The presentation charms, with pixel art among the prettiest on the PS1 and a diary-keeping cactus who grows sassier with each entry. The cast delights, from the emote-heavy dud bears to the swindling but charming merchant Nicolo.
 
-Strategic decisions regarding where to position artefacts carry significant weight, as placing these items incorrectly can inadvertently prevent access to vital events or regions. Consequently, players may find themselves consulting external resources to untangle the game's more obtuse requirements, ensuring that no meaningful character developments are missed by mistake.
+The remaster quality helps, with saves possible anywhere and widescreen, redone cutscenes and a rearranged soundtrack. The combat is the biggest gripe, with attacks only able to land left or right and hits frequently missing entirely.
 
-Crafting systems for blacksmithing and raising pets in the Monster Corral add substantial depth, rewarding those who are willing to experiment with complex, opaque growth mechanics. Whilst these auxiliary features demand a steep investment of time to fully comprehend, they provide an immensely rewarding sense of customisation for dedicated adventurers.
+The events are exceptionally vague, with a guide needed to find most of them and missable content all too easy to overlook. Some events can be failed outright, and the monster-catching minigame is finicky enough to frustrate.
 
-Overall, this experimental role-playing excursion excels by placing total creative freedom directly into the hands of the audience. Its beauty and ambition far outweigh the minor obstacles posed by occasionally confusing navigation or unpredictable encounters, making it an essential experience for anyone who appreciates non-linear, deeply atmospheric storytelling.
+Overall, the music, the charm and the world-building structure make this a very special game. The awkward combat and the guide-dependent quests are the caveats.

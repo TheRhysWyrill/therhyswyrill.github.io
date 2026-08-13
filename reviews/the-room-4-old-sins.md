@@ -5,23 +5,23 @@ game_title: "The Room 4: Old Sins"
 permalink: /reviews/the-room-4-old-sins/
 verdict: "recommended"
 platform: "PC"
-release_year: 2018
+release_year: 2021
 genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An intricate dollhouse serves as an interconnected hub, housing complex mechanical riddles that reward tactile investigation and reveal a dark, supernatural mystery."
+summary: "A dollhouse of collapsing puzzle rooms whose clear feedback and note-driven tragedy close the series with satisfaction."
 image: "/assets/img/reviews/the-room-4-old-sins.webp"
 ---
 
-The Room 4: Old Sins transforms a singular, meticulously crafted dollhouse into an expansive hub for logical discovery and supernatural intrigue. Navigating this dense miniature world requires players to shift perspectives and manipulate hidden mechanisms that physically alter the structure of each room during the search for Edward Lockwood.
+The Room 4: Old Sins is the final entry in Fireproof Games' puzzle series, unfolding entirely inside a Victorian dollhouse of Walderrave Manor in 1899. The case notes tell of Edward Lockwood, an engineer dismissed from the Royal Institute, his wife Abigail, and an investigation into the strange null element.
 
-Complex machinery dictates the flow of every investigation, providing a deeply satisfying physical sensation whenever a component slides perfectly into place. Using the specialised eyepiece to peer through layers of reality reveals essential clues, ensuring that even the most obscure compartments eventually yield their secrets to persistent scrutiny.
+The eyepiece lens reveals hidden things, exposing the null's signature across the house. Each room of the dollhouse is a puzzle box, and completing its central puzzle yields a strange artifact and collapses that room, weakening the seal around the null.
 
-Atmospheric journals and ominous notes found scattered throughout Waldderrave Manor frame the entire ordeal as a sinister, psychological trial. These narrative breadcrumbs ground the mechanical riddles in a sense of urgent history, turning the void world into a tangible environment that warps the reality of those trapped inside.
+The puzzle variety is broad, from circuit completion and dial matching to steam-valve routing, a submarine with coordinates, laser reflections and an octopus's two eyes. Solved puzzles announce themselves clearly, with the satisfying click-and-unlock feedback the series is known for.
 
-Clever transitions between distinct areas maintain momentum, allowing for a seamless exploration of the property as a whole. Correctly solving a sequence often results in clear visual feedback, confirming that the current logic is sound while simultaneously opening pathways to deeper, more challenging sectors of the manor.
+The story arrives through books and notes left in the house, charting Edward's descent as the null consumes him and Abigail's quiet resistance. Legible handwriting is a genuine relief after Riven, and the couple's tragedy carries the atmosphere.
 
-Interaction remains largely intuitive, though the camera can occasionally struggle when framing sensitive objects or tight, claustrophobic spaces. Precision movements sometimes become cumbersome during these segments, forcing a slower approach to ensure that the delicate rotation of a handle or key aligns correctly with the game's internal sensors.
+The null remains deliberately mysterious, known only to drive people mad and usually to kill them. The final note reframes the protagonist's own role in the affair, leaving more questions than before.
 
-Spotting tiny interactive points occasionally tests one's patience when environmental cues become overly subtle or hidden in shadows. Reliance on such specific requirements sometimes forces players to hunt for visual triggers rather than relying on pure deduction, creating brief pockets of frustration that interrupt the otherwise polished logical progression.
+The rooms' destruction keeps the progression legible, as each closing room weakens the seal and draws the game one step closer to the end. The back-and-forth between rooms threatens convolution but never quite tips over, and the whole game is short.
 
-Overall, the puzzle design turns the manor into a sprawling, interconnected jigsaw that continuously evolves as each layer is stripped away. Mastering the internal logic of the dollhouse provides a persistent sense of accomplishment, ultimately making the final revelation feel like the natural conclusion to a beautifully crafted, tactile journey.
+Overall, the puzzle feedback and the dollhouse structure make this a very satisfying finale to the series. The brevity and the lingering mystery are the only complaints.

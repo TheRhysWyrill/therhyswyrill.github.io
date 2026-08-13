@@ -8,20 +8,20 @@ platform: "Xbox 360"
 release_year: 2008
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Earning persistent experience points through specific kill styles drives a tactical squad-based campaign focused on precise room clearing and cover firefights."
+summary: "A rank-driven progression system and generous checkpoints make this tactical shooter a satisfying upgrade on its predecessor."
 image: "/assets/img/reviews/rainbow-six-vegas-2.webp"
 ---
 
-Rainbow Six: Vegas 2 expands its tactical firefights through a persistent progression framework that directly rewards specific combat styles across intense room-clearing operations. Persistent A.C.E.S. ranks grant specialised weaponry and protective body armour, ensuring that every precise headshot or well-executed flank provides immediate, satisfying feedback.
+Rainbow Six: Vegas 2 is a first-person tactical shooter from Ubisoft Montreal, with the campaign running in parallel to the first Vegas game. The seven-hour run moves from the Mexican border to the Las Vegas rooftops.
 
-Extensive loadout customisation offers meaningful control over operational performance, allowing players to select body armour, camouflage patterns, and primary firearms suited for each venue. Equipping thermal vision goggles becomes vital in poorly lit convention halls, offsetting heavily obscured combat zones by highlighting enemy targets in dark environments.
+The XP and rank system is the standout feature, with Marksman, Assault and CQB ranks earned through specific kill types. Progression unlocks new weapons and gear and carries across playthroughs, fuelling constant replays of the early missions.
 
-Directing AI teammates through an intuitive command interface forms the core of every assault, enabling precise orders to stack along doors, throw flashbangs, or disarm hazards. High-stakes firefights heavily punish reckless positioning, forcing operatives to maintain strict cover and carefully survey lines of sight to survive lethal close-quarters encounters.
+The equipment system is extensive, with full protection and mobility trade-offs across the armour options and a vast customisation suite. Weapons, camo, outfits, attachments and burst-fire modes offer a huge amount of loadout variety, while the unlimited-ammo pistol is a welcome throwback.
 
-A dual-perspective narrative cleverly weaves alongside the events of the previous game, sending counter-terrorist teams from Mexican border warehouses to sprawling Las Vegas casinos. Although late-game plot developments rely on melodramatic turns involving rogue agents and personal revenge, visiting varied architectural locations maintains strong atmospheric tension throughout.
+The squad toolset gives real tactical flexibility, with the team splittable and orders to flank, breach-and-clear and rappel. Thermal and night vision expand the approach options inside the darker interiors, where the choice of tool changes the whole plan of entry.
 
-Friendly squad AI pathfinding routinely degrades during critical manoeuvres, causing squadmates to become wedged on level geometry or block narrow corridors during intense firefights. Unforgiving enemy sniper placements and relentless grenade spam frequently cause abrupt, trial-and-error deaths that temporarily disrupt the satisfying flow of tactical planning.
+Enemy grenade spam is the most frustrating element, with frags existing mainly to drive the squad out of cover. Squadmates frequently get stuck on each other, and quick deaths mean turning a corner can end a run.
 
-Isolated solo missions strip away squad commands entirely, sharply raising the difficulty and demanding patient, stealth-oriented movement to survive overwhelming hostile forces. Plentiful checkpoint distribution significantly reduces overall frustration, while stable frame rates ensure smooth performance during heavy firefights and dense smoke deployments.
+Checkpoint placement is far kinder than the first game, reducing the sting of repeated deaths throughout. The solo oil-refinery infiltration is the hardest stretch, and the closing rooftop encounter demands seven attempts before the campaign resolves.
 
-Overall, the A.C.E.S. progression system establishes an addictive leveling loop that consistently rewards tactical proficiency across every high-tension engagement. Overcoming occasional pathfinding glitches and sudden difficulty spikes reveals a deeply satisfying cover shooter that elevates deliberate squad coordination into a memorable experience.
+Overall, the sense of progression elevates this sequel above its predecessor, with the rank system and generous checkpoints leading the way. It is a very good game and a welcome reminder of the squad tactical shooter.

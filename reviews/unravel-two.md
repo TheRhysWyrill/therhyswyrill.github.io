@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2018
 genre: "Platformer, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Dual-character tethering mechanics define this cosy, momentum-heavy platformer, providing a polished experience that overcomes fragmented storytelling and persistent launcher issues."
+summary: "A co-op yarn platformer with two conjoined creatures, offering more traversal than puzzle depth."
 image: "/assets/img/reviews/unravel-two.webp"
 ---
 
-Unravel Two introduces a dual-character tethering system that fundamentally shifts the focus towards momentum-based movement and collaborative physics puzzles. Switching between these two beings feels fluid for solo players, as the ability to carry and combine them allows for clever traversal options throughout the varied environments.
+Unravel Two is a co-op puzzle-platformer in which two Yarnys are controlled together, with one carrying the other in solo play. Switching between the pair opens up new possibilities for puzzles and traversal alike, and the character-swap is the heart of the design.
 
-Visuals maintain a high level of charm and polish, creating a cosy aesthetic that remains visually impressive across every stage. Whilst the soundtrack stays notably quiet and understated, the overall presentation succeeds in building a relaxed atmosphere that encourages players to focus intently on the platforming challenges ahead.
+Solo play is workable but awkward, and the game is clearly built for two people. Yarn is no longer a scarce resource, as the conjoined pair removes the first game's thread limits and lets the platforming flow freely.
 
-Navigating the initial experience requires enduring technical hurdles tied to the EA App launcher, which caused persistent audio bugs and installation issues under Linux. Outdated menu structures further restrict accessibility, as the inability to alter basic resolution settings before entering the game feels unnecessarily clunky for modern software.
+Water is now swimmable and fall damage is removed, two deliberate changes that ease the earlier game's pressures. Levels are entered through a hub portal rather than a continuous journey, which weakens the sense of travel.
 
-Traditional brain-teasers become increasingly infrequent as the campaign shifts its weight toward demanding platforming sequences. This transition creates a distinct change in pacing, though a built-in multi-tiered hint system remains available to assist anyone struggling to clear these more athletic obstacles during their journey through the world.
+Hazards run from shadowy smoke creatures that chase to electricity, fire, birds and a fish, an odd assortment beside the first game's nature-based threats. The later levels lean heavily into platforming over puzzles, and the chase sections against shadow creatures supply the real difficulty.
 
-Storytelling takes a more abstract direction compared to the first title, resulting in a narrative that feels somewhat fragmented and less cohesive. The portal-based transition between levels fails to replicate the sense of a continuous, unified expedition, leaving the emotional weight of the journey feeling less impactful by the finish.
+Collectibles are paintings hung in the hub, mostly straightforward but with a final few that are unreasonably demanding and two left behind. A built-in hint system offers three escalating hints per section.
 
-Optional collectibles occasionally present a steep, unintuitive difficulty spike that clashes sharply with the game’s otherwise tranquil mood. Finding specific lasso points proves difficult when visual clarity is lacking, turning the hunt for these rewards into a source of unexpected irritation rather than an extension of the primary gameplay loop.
+The story makes little sense, with no clear throughline connecting the lighthouse opening to the later chapters. The closing message about love and light is appreciated, though lighter than the first game's.
 
-Overall, the tethering mechanics offer a satisfying depth that keeps the movement feeling responsive and physically engaging. Navigating the external software frustrations and the occasional spikes in challenge remains a worthwhile pursuit for those prioritising fluid platforming and a uniquely cooperative design that adapts seamlessly to a solo-play perspective.
+Overall, platforming dominates this sequel, and the two-Yarny traversal stays enjoyable throughout. It is a fun game, but clearly the weaker of the pair, with the first game's puzzles and story the stronger package.

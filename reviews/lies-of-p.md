@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2023
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Mastering the precise perfect guard system rewards players with a deeply satisfying combat loop, despite initial friction with movement mechanics."
+summary: "An action RPG whose weapon crafting, music and story make it phenomenal despite punishing multi-phase bosses."
 image: "/assets/img/reviews/lies-of-p.webp"
 ---
 
-Lies of P juxtaposes the haunting decay of a puppet-infested metropolis with a rigorous combat framework that rewards mechanical discipline. Navigating the treacherous streets of Krat requires a shift from frantic evasion towards a calculated, rhythmic focus on precision timing and strategic anticipation of aggressive enemy patterns.
+Lies of P is an action role-playing game from Neowiz and Round8 Studio, reimagining Pinocchio in a dark Belle Époque city. The complete run took roughly thirty-four hours, covering every chapter, all fifteen main bosses, the credits and the Overture DLC in full.
 
-Perfecting the timing for guards becomes the essential skill to overcome formidable adversaries throughout this oppressive landscape. Success hinges upon internalising the distinct visual cues of incoming strikes, creating an exhilarating dance where every successful deflection feels earned against the relentless mechanical onslaught of the city's corrupted puppets.
+The weapon assembly system is the standout idea, with most blades combining with most handles and the stat scaling living entirely on the handle. The combat loop clicks once learned, with perfect guards nullifying damage and enough perfect guards breaking an enemy weapon outright.
 
-Weapon assembly offers a fascinating layer of customisation by allowing blades and handles to be combined for tailored damage scaling. Experimenting with different configurations encourages players to adapt their combat approach, though managing equipment weight can occasionally feel restrictive when trying to balance mobility against more robust defensive loadouts.
+The quality-of-life choices help, with lost erggo drops placed outside boss fog walls and the P-organ upgrade tree adding depth. The music is praised throughout, with the collectable records tying directly into the humanity mechanic and Feel standing out as a favourite.
 
-Environmental storytelling permeates every corner, as fragmented notes and letters divulge the dark history of the Alchemists and the restrictive Grand Covenant. These written remnants anchor the bizarre puppet uprising within a sombre narrative, compelling explorers to search for hidden secrets whilst managing the ever-present threat of discovery.
+The allied-NPC boss fights are highlights, from the Two-faced Overseer to the DLC duel with Leia Florence. The Anguished Guardian of the Ruins is the favourite boss, a giant fight that never battles the camera.
 
-Dodging occasionally lacks the expected responsiveness, especially when an enemy remains locked in the centre of the screen. Adjusting to these idiosyncratic movement behaviours proved difficult initially, yet the eventual transition toward the more reliable blocking system completely revitalised the experience during the most punishing boss encounters of the campaign.
+The multi-phase boss design is the recurring complaint, with long combo strings and a full health-bar reset at each phase. Lumachio is the worst of it, healing twice over the course of the fight.
 
-Persistent on-screen tutorials often linger far longer than necessary, acting as a minor visual distraction throughout the early hours. Whilst these prompts eventually fade into the background, the clean interface occasionally suffers from poor text readability where subtle drop-shadows fail to contrast sufficiently against the backdrop of the environment.
+The camera struggles on big enemies, at times making the foe completely invisible. Weapon collisions with walls are a constant irritant, and the vanishing text boxes are too quick to read.
 
-Overall, this high-stakes adventure successfully carves out a distinct identity through its rewarding rhythm and clever integration of quality-of-life additions. Players who value skill-based progression will find immense satisfaction here, provided they possess the patience to overcome the steep learning curve required to truly master these punishing mechanical systems.
+Overall, the weapon crafting, the music and the story make this a phenomenal game. The multi-phase bosses and the camera are the caveats.

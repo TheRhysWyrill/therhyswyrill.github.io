@@ -6,22 +6,22 @@ permalink: /reviews/duck-detective-the-secret-salami/
 verdict: "recommended"
 platform: "PC"
 release_year: 2024
-genre: "Adventure, Puzzle"
+genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Hilarious writing and an innovative deduction system make this brief, avian-led investigation an absolute delight for fans of character-driven, narrative mysteries."
+summary: "A delightful deduction adventure whose clever clue-word loop, layered conspiracy and voice acting make it a very good game."
 image: "/assets/img/reviews/duck-detective-the-secret-salami.webp"
 ---
 
-Duck Detective: The Secret Salami establishes a brilliant parody of noir tropes by placing a down-on-his-luck investigator into the mundane, messy reality of a failing bus company office. Every interaction highlights the absurd contrast between gritty detective cliches and the low-stakes, feather-filled reality of the protagonist's bizarre professional life.
+Duck Detective: The Secret Salami is a cozy mystery adventure in which Eugene McQuacklin solves the theft of a high-grade salami at the BearBus branch office. The case runs a couple of hours and was played on Detective mode, the harder setting that withholds information on wrong answers.
 
-Quirky animal characters occupy this environment, with each individual boasting a highly memorable design that feels visually distinct. These personalities are elevated by the unexpected inclusion of professional voice acting, which adds substantial charm and humour to the mundane office drama unfolding throughout the short but tightly paced investigative mystery.
+The deducktion mechanic gathers clue words from suspects and surroundings and slots them into phrasal deductions in the notebook. The magnifying-glass inspection highlights hidden traits on characters and objects, letting everything be examined.
 
-Connecting clues within the journal functions as the core loop, demanding genuine observation rather than simple button pressing. Players must identify names, professions, and situational links to fill in the blanks, creating a process that feels rewarding because it trusts the player to piece together the overarching narrative threads.
+The opening puzzle is working out each employee's full name and job, from the giraffe receptionist to the penguin janitor, before the case opens up. A stolen lunch becomes a smuggling conspiracy, with the culprit revealed as the branch manager running a salami ring on the company's own buses.
 
-Navigating the office on foot reveals a waddling movement cycle that can occasionally feel sluggish during extended periods of exploration. Whilst this pace might test the patience of those accustomed to rapid movement, the goofy animation successfully reinforces the endearing personality of the protagonist as he uncovers various corporate secrets.
+A mid-case twist sees the client's target abducted and hidden away when she wants to confess, with an in-progress phone dial pointing the way. Secondary scandals pile up, from the janitor embezzling vouchers to the password puzzle taken from a romance novel and the safe hidden behind a family portrait.
 
-Innovative UI design allows for seamless investigation, particularly when the magnifying glass reveals hidden details about the suspects. While minor moments of confusion regarding inventory status arise occasionally, these technical hurdles remain infrequent enough that they never hinder the overall momentum or the pleasure found in the deductive logic.
+The voice acting comes as a pleasant surprise and is really well done, and the deadpan humour lands throughout, from the waddle walk cycles to the bread-addiction framing. The playthrough compares the game favourably to Ace Attorney, Chicken Police and Frog Detective.
 
-Knocking over bins serves no mechanical purpose yet reinforces the chaotic, charming nature of the duck detective. This humorous layer of interactivity proves that the developer prioritised characterisation alongside the mystery elements, ensuring that every small detail contributes to an experience that feels fresh, self-aware, and consistently entertaining to play.
+The runtime is short, which is called a shame for such a good game, and evidence cannot be re-examined once inspected. The tiny credits and a small game-logic nit about a forgotten payment are the only other niggles.
 
-Overall, this highly recommended adventure succeeds by leaning fully into its absurd premise and delivering a polished, character-focused mystery. Anyone seeking a concise narrative experience that rewards critical thinking will find immense satisfaction here, provided they appreciate a title that balances genuine detective work with an incredibly funny, avian-themed tone.
+Overall, this delightful deduction adventure earns a strong recommendation, with its clever clue-word loop, layered conspiracy and voice acting as the highlights. The short runtime and the non-reexaminable evidence are the caveats.

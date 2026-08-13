@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2023
 genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Retro-futuristic gadgets and hard science-fiction roots ground a slow-burn investigation that prioritises psychological mystery over traditional combat encounters on a desolate alien planet."
+summary: "A first-person sci-fi mystery where a scientist's search for a missing crew unfolds through radio conversations and slow-burn discovery."
 image: "/assets/img/reviews/the-invincible.webp"
 ---
 
-The Invincible constructs an oppressive sense of isolation upon the desolate surface of Regis 3, where the crew of the Dragonfly awakens to a fractured reality. This hard science-fiction landscape avoids familiar tropes, opting instead to focus on the unsettling implications of alien evolution and human interaction with the unknown.
+The Invincible is a first-person science-fiction adventure adapted from Stanisław Lem's novel, set on the desert planet Regis 3. Its protagonist wakes alone, disorientated and amnesiac, reassembling events through radio contact with her astrogator and the crew she must find.
 
-Environmental art creates a staggering sense of scale that renders the alien world consistently hostile and genuinely foreign to the player. Every sprawling vista and jagged rock formation reinforces the feeling that this planet remains fundamentally indifferent to the scientific mission attempting to uncover its long-buried secrets.
+Flashbacks establish a Commonwealth rivalry with the Alliance, placing the planet at the centre of a race against time. A metal detector tracks the vast deposits beneath the dunes, and a probe renamed early in the campaign follows the protagonist on the trail.
 
-Narrative progression unfolds through meticulous investigation, tasking the player with tracking missing personnel using utilitarian devices like metal detectors and trackers. Dialogue choices and unearthed physical evidence such as journals or comic strips provide the primary momentum, effectively piecing together the grim fate of those who arrived before.
+Crew members are found alive yet unresponsive, their minds seemingly wiped by an unseen force. The oceans teem with life while the surface stays barren, and metal bushes rooted in the metal soil point to an older story.
 
-Methodical pacing defines the experience, though the deliberate walking speed can occasionally test the patience of those accustomed to swifter traversal. Such slow movement ensures the player remains tethered to the unfolding tragedy, though the inability to jump or climb freely outside of scripted interaction points restricts exploration.
+Timed dialogue choices force quick decisions without room for deliberation, while the comic-book backstory unlocks in fragments through a dedicated button. Radio conversations with the astrogator anchor most of the narrative, with records gathered on the trail filling in the gaps.
 
-Retro-futuristic aesthetics blend high-tech concepts with clunky, old-school interfaces to maintain a cohesive visual identity throughout the entire investigation. Atmospheric hazards such as encroaching sandstorms demonstrate well-executed visual effects, even if the recurring microphone icon during certain cinematics remains an odd and slightly distracting stylistic quirk.
+Movement is the weakest element, with slow walk and turn speeds and a sprint barely distinguishable from walking across the long desert stretches. Two game lock-ups interrupted the run, though frequent autosaves kept both from costing meaningful progress.
 
-Emotional weight accumulates as flashbacks and memory fragments slowly resolve the protagonist’s initial confusion regarding the mission's true purpose. This transition from casual curiosity to an urgent sense of personal responsibility ensures the player stays committed to searching for the remainder of the lost crew members.
+The presentation impresses on high settings, with storm sequences that stand out for their streaming-water effects and scenery that still looks great throughout. The default audio is unusually quiet, and the closing credits are over almost before they begin.
 
-Overall, the investigation rewards those who prioritise psychological depth and narrative discovery over frantic action or high-octane combat. Focusing on the implications of a truly alien environment turns this slow-burn mystery into a memorable journey that leaves a lasting impact long after the final mission beat concludes.
+Overall, the investigation rewards patience with a payoff that reframes the entire premise. The slow movement and minor quirks are a fair price for a mystery this intriguing, and one that lingers well after the journey ends.

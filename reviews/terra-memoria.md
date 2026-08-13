@@ -6,22 +6,22 @@ permalink: /reviews/terra-memoria/
 verdict: "recommended"
 platform: "Switch"
 release_year: 2024
-genre: "RPG"
+genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Turn manipulation mechanics turn every battle into a tactical puzzle, while automatic post-combat healing keeps momentum high throughout this charming, resource-conscious adventure."
+summary: "A tactical turn-based RPG whose timeline combat, camp levelling and cooking systems carry an inventive story about crystals, memory and change."
 image: "/assets/img/reviews/terra-memoria.webp"
 ---
 
-Terra Memoria leverages a visible timeline to turn every encounter into a complex exercise in tactical manipulation. Players actively influence the turn order by delaying enemies or pushing them back with specific skills, creating a rewarding loop that prioritises foresight and careful party management over simple damage output.
+Terra Memoria builds its combat around a visible turn timeline in which elemental hits knock enemies back in the order, and only foes carry shields that can be broken. That one-way crowd-control layer defines the appeal, keeping the fights genuinely fun.
 
-Duo formations further refine the strategic options available by allowing supporting characters to modify the active member’s abilities in meaningful ways. Transforming an attack into a healing burst or adding multi-target capabilities through these paired skill combinations ensures that combat feels dynamic and consistently fresh throughout the entire campaign.
+Levelling happens at camps in the style of Final Fantasy XV, with experience accruing through battles and tallying up when the party rests. Cooking drives the health economy, with meals prepared from gathered ingredients providing the main route to a substantial health pool.
 
-Resting at camps serves as the central progression pillar where characters level up and refine their stats. This quiet moment provides an opportunity to engage in a cooking mini-game, which uses gathered ingredients to provide permanent health bonuses that strengthen the entire party for the challenges lying ahead.
+The story opens with Constant under attack and crystals vanishing across Terra, and the investigation carries the party through Oxalis, Facto City and Opo City. The reveal that Meta belongs to an ancient hibernating civilisation lands as the emotional core, and the villain's scheme to force a new magic age ties the mystery together.
 
-Automatic health restoration after each skirmish removes the tedious need to play cautiously or farm for restorative supplies. By eliminating the typical grind for consumables, the journey encourages constant experimentation with party skills while maintaining a brisk, steady pace that respects the time invested in every single battle.
+Crystals are magic made matter in this world, and the hyena researchers act as keepers of Terra's memory, giving the lore a gentle ecological message. The music-and-magic theme charms, with a fawn's song pacifying the rampaging carcasses and a musician's album meant to reach them everywhere.
 
-Searching for specific items or NPCs across expansive maps occasionally suffers from objectives that lack the necessary precision to guide exploration effectively. Navigating these environments without a dedicated mini-map can sometimes make finding locations in bustling cities a frustrating endeavour, especially when side quests rely on cryptic information.
+Boss encounters impress, with the invincible mecha-fist fight against Nobert a highlight once his arms are disabled and the final confrontation with JD a fitting climax. Side-quests from the hyenas frustrate in contrast, often completing at random and making little sense to the party.
 
-Backtracking through these wide areas to resolve vague requirements slows the narrative flow and disrupts the otherwise tight focus on tactical growth. Despite these navigation hurdles, the inclusion of a built-in fast-forward mechanic helps maintain the tempo, allowing players to skip ahead during exploration and repetitive combat sequences.
+Technical stability proves shaky, with endless loading screens in one house, a battle crash and a final crash on the credits, though frequent autosaves soften the damage. The difficulty curve also swings, starting under-levelled and ending over-levelled.
 
-Overall, the timeline mechanics and clever cooking system turn the experience into a polished adventure that avoids traditional genre fatigue. Focusing on strategic synergy rather than restrictive survival resource management creates an inviting atmosphere that makes this journey an easy recommendation for anyone who values rewarding, turn-based combat depth.
+Overall, the combat, progression and heartfelt story outweigh the vague quests and stability issues, and the result is an easy recommendation. It is a distinctive, cozy RPG with a lot of heart.

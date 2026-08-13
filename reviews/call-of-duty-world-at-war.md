@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2008
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Visceral combat and an uncompromising atmosphere define this gritty shooter, which effectively balances brutal Pacific and Eastern Front theatres despite persistent AI grenade issues."
+summary: "A grim, graphic Pacific and Eastern Front campaign whose dismemberment and soundtrack stand out against heavy grenade spam."
 image: "/assets/img/reviews/call-of-duty-world-at-war.webp"
 ---
 
-Call of Duty: World at War plunges participants into an unflinchingly dark portrayal of conflict that eschews heroism for a raw, uncompromising exploration of the Pacific and Eastern Front theatres. This prequel provides a genuinely grim experience, where explicit depictions of dismemberment and gore serve to heighten the surrounding tension.
+Call of Duty: World at War is the darkest and most graphic Call of Duty of its era, with dismemberment and a brutal opening that moves from torture to execution within a minute. Two campaigns run in parallel, the American Pacific war and the Soviet Eastern Front, giving the game a dual structure.
 
-Dense foliage and shifting clouds of smoke frequently obscure targets, transforming simple skirmishes into testing trials of visual acuity. These environmental hazards often hide hostiles until the very last second, forcing players to rely on muzzle flashes or audio cues rather than clear lines of sight to survive encounters.
+The M1 Garand partial reload is the most impressive detail, letting the player reload mid-magazine in a way most shooters never allow. The soundtrack also stands out, with heavy tracks that hint at Doom 2016 and far better music than expected.
 
-Constant grenade spam from enemy infantry demands that one maintains perpetual motion to avoid being overwhelmed by an endless barrage of explosives. Such relentless pressure creates a demanding pace that feels punishing, yet the heavy, satisfying report of the arsenal ensures each hard-won victory feels earned and appropriately impactful.
+The Vendetta sniper mission in Stalingrad is the tense highlight, a one-armed crawl through a ruined fountain square and a duel with a better shot. The Black Cats flight mission shifts to a PBY Catalina night patrol, strafing the Japanese fleet and rescuing survivors from the water.
 
-Tank manoeuvres and a unique vehicle-based flying mission provide welcome deviations from the standard infantry cycle, keeping the progression feeling fresh. Cleansing bunkers with the devastating flamethrower remains a highlight of the campaign, offering a brutal, tactile method for flushing out entrenched positions that standard rifles simply cannot reach as effectively.
+Grenade spam is the recurring complaint, with the warning indicator appearing only at the last second. Movement is sluggish throughout, and the injured-hand section makes sprinting impossible entirely.
 
-Commanding the battlefield using a controller on this version requires cumbersome console command workarounds, as the developers failed to include native support. These technical hurdles feel particularly pronounced given the precision required during high-intensity firefights, necessitating a reliance on keyboard inputs that may prove jarring for those accustomed to modern console configurations.
+Native controller support is absent, requiring a console command, and the menus stay keyboard-only with no aim assist or sensitivity adjustment. The soldiers look far too alike, leading to constant friendly-fire accidents.
 
-Historical grit permeates the sound design, with weapon audio possessing a substantial weight that reinforces the power of every discharged round. M1 Garand clips pinging with finality upon ejection showcase a meticulous attention to detail, grounding the frantic action in a tangible, believable representation of mid-century hardware and infantry warfare.
+The sniper duel's enemies can simply not exist when expected, making the marksman fight frustrating. The credits run for twelve minutes with no skip option, and getting stuck on allies or geometry happens often.
 
-Overall, this shooter succeeds by leaning into its grim, uncompromising identity to deliver a memorable and intense military journey. While the AI relies on frustrating tactical crutches, the campaign's visceral intensity and dual-theatre variety offer a substantial experience that remains a standout within the broader history of the famous franchise.
+Overall, the graphic realism, the soundtrack and the two-campaign structure make World at War a memorable entry. The grenade spam and the sluggish movement are the main caveats.

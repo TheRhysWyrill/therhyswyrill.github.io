@@ -6,22 +6,22 @@ permalink: /reviews/stasis/
 verdict: "recommended"
 platform: "PC"
 release_year: 2015
-genre: "Adventure"
+genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Environmental storytelling turns a derelict starship into a suffocating character, forcing methodical investigation through grim, bio-horror-filled corridors to uncover a missing family."
+summary: "An atmospheric isometric point-and-click sci-fi adventure whose log-driven story and item-combination puzzles carry a bleak corporate-horror tale."
 image: "/assets/img/reviews/stasis.webp"
 ---
 
-Stasis drops the player into the rotting belly of the Groom Lake, a deep-space vessel where industrial decay and biological horror create an instantly oppressive atmosphere. This setting serves as the primary canvas for a personal narrative, grounded firmly in a father’s desperate search for his vanished wife and daughter.
+Stasis is an isometric point-and-click adventure in which John Marrec wakes from a stasis pod aboard the Groom Lake, a Kane Corporation vessel whose crew has been reduced to bone. He is dying from muscle atrophy and heart failure, and his search for his family drives the journey.
 
-Deciphering fragmented PDA entries scattered across the ship provides a chilling look at Kane Corporation’s past failures without ever resorting to heavy-handed exposition. Observant explorers find these narrative breadcrumbs essential, as they often contain the vital security codes or environmental data required to bypass locked bulkheads and toxic leaks.
+The hover-description system makes exploration pleasant, since every object reveals flavour text without forcing the character to walk over and inspect it. The adventure is built around examining, combining and using items across the ship, in the spirit of I Have No Mouth and I Must Scream.
 
-Puzzle solutions feel deeply integrated into the decaying surroundings, rewarding players who carefully experiment with collected items and machinery. Overriding security protocols or venting lethal gases through tactile interaction keeps the experience focused on the ship's internal logic, rather than relying on arbitrary obstacles to delay your progress.
+The puzzles include a breaker box, a medical scanner, a methane-and-lighter explosion, a hologram emitter and a defibrillator takedown of a patrolling robot. Some chains demand many steps for a single door, and the stasis-pod dosage puzzle stands out as genuinely cryptic.
 
-Movement speed remains a notable hurdle throughout the journey, often making the repeated traversal of corridors feel like a test of endurance. Navigating these long stretches can occasionally fracture the tension, as the slow pace makes back-and-forth backtracking feel far more cumbersome than the narrative urgency might imply.
+Nearly all of the story arrives through terminal entries, PDAs and audiologs from crew and scientists, covering the quasi-intelligent fungus, the experiments in Hydroponics and project Seed. The atmosphere stays persistently unsettling, built from distorted screens, whispers and blood-soaked corridors.
 
-Interaction with the point-and-click interface presents another layer of friction, particularly when combining items or attempting to manipulate small environmental objects. Players must also contend with an external executable for basic setting adjustments, a legacy design choice that feels strangely detached from the modern, polished visuals displayed during gameplay.
+The ending reveal reframes the journey, with Dr Milan exposed as Ellen and John's wife's bone revealed as the storage device for Kane's research. The closing stretch is bleak, sending off only Ellen's body while the daughter dies and the wife is long gone.
 
-Inconsistent volume levels intermittently drown out dialogue or overwhelm the senses with jarring, harsh noise during atmospheric transitions. Such technical lapses rarely threaten the player's overall immersion, yet they occasionally disrupt the carefully constructed dread that defines the haunting, claustrophobic experience of life aboard the Groom Lake.
+The horror billing never quite lands, since the game is not much of a horror game despite its marketing. A crash ten minutes from the finish cost progress, because the game does not autosave at all.
 
-Overall, the logical progression of environmental riddles maintains a strong pull, ensuring that curiosity consistently outweighs the minor inconveniences of the interface. Methodical pacing and a suffocating sense of isolation successfully transform this investigation into a cohesive, memorable nightmare that remains gripping until the final, brutal discovery is made.
+Overall, the engrossing story, dense world-building and satisfying puzzles made this a longer and more enjoyable run than expected. Fans of isometric adventures and slow-burn sci-fi will find plenty here, provided they can tolerate cryptic puzzles and manual saves.

@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2020
 genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Scanning data logs and shifting between virtual enclaves and subconscious trances anchor this cyberpunk investigation into deep cosmic conspiracies."
+summary: "A first-person cyberpunk investigation of a friend's death, wrapped in hacking rituals and alien dream worlds."
 image: "/assets/img/reviews/transient.webp"
 ---
 
-Transient welds neon-lit cyberpunk aesthetics and ancient cosmic horrors into a post-apocalyptic domed city named Providence where cybernetic implants dictate daily survival. Players investigate environments by scanning data and deceased bodies while navigating a society steeped in meta-shamanic hacking and deep-seated conspiracies. 
+Transient is a first-person cyberpunk adventure in which the meta-shaman hacker Carter investigates a friend's death across the domed city of Providence. The loop of scanning bodies, reading documents and hacking terminals grounds the supernatural premise in practical detective work.
 
-Traversing these gritty urban slums and sleek digital terminals requires alternating between waking reality, virtual meeting spaces, and deep subconscious trances triggered by specialized concoctions. Moving across these disparate domains feels slightly sluggish due to restricted sprinting speeds during specific exploratory segments. 
+Hacking sessions take the form of grid navigation across security nodes under a countdown, with password clues issued when the system activates. The lock-picking puzzle cycles three icons and rewards brute force when the intended path stays opaque.
 
-Embedded mini-games break up the investigation with memorable homages, featuring a retro survival-horror sequence alongside a hacking minigame inspired by System Shock. Solving these interactive challenges drives the narrative forward, though certain interactive triggers blend too easily into the background and cause unnecessary trial and error. 
+Dream excursions carry the adventure to alien worlds, including a hall of records on a planet in Cygnus where a jellyfish-like priest explains a semiphysical plane of existence. These otherworldly sections supply the strangest sights, from tentacled statuary to Carter's blue-skinned dream form.
 
-Memory modules must be managed carefully alongside environmental notes to piece together the protagonist's forgotten identity and uncover the true reach of the cosmic entities. Discovering narrative logs deepens the engagement considerably, turning early uncertainties about the pacing into a compelling search for answers. 
+Before revisiting memories, Carter must prepare perception-heightening mixtures by combining leaves, cinnamon, saffron, water and renoil in precise order. The ritualistic preparation grounds the hacking in occult detail and gives each replay a sense of ceremony.
 
-Subtitle sync points occasionally fail to match spoken audio precisely, creating fleeting moments of friction during crucial dialogue exchanges throughout the cybernetic enclaves. These minor technical quirks remain isolated, allowing the stable performance of the native hardware to maintain a smooth flow between the various surreal, dreamlike landscapes. 
+Two embedded minigames stand out as the highlights: a System Shock-style shooting section and a Resident Evil-style mansion segment with tank controls and a safe combination. The System Shock homage was the stronger of the pair, offering a stylish change of pace.
 
-Tension builds steadily through atmosphere and environmental dread rather than traditional jump scares, leaning closer to a cerebral sci-fi thriller than conventional horror. Anyone expecting relentless terror might find the execution understated, yet the rich world-building more than compensates for the lack of explicit frights. 
+The story is dense, with long document dumps that make the layered reality easy to lose track of. Interaction prompts blend into the environment, sprint is locked early, and one lever puzzle was easy to miss entirely.
 
-Overall, data scanning and meta-shamanic hacking transform the investigation into a thoughtful puzzle of identity and cosmic manipulation. Exploring the blurred boundaries between virtual realities and physical decay provides a rewarding journey that leaves a lasting impression long after the final terminal shuts down.
+Overall, atmosphere is the calling card, with vibrant neon enclaves and Observer-like presentation carrying the investigation. The homage sections, strange dream worlds and ceremonial hacking make the adventure memorable.

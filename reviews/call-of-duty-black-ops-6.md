@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2024
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Ambitious mission structures and rewarding environmental puzzles elevate this campaign, balancing cinematic intensity with methodical investigation despite minor, intrusive interface clutter."
+summary: "A 1991-set shooter whose open missions, safe-house puzzles and boss-fight music outweigh armour plates and unpatched visual glitches."
 image: "/assets/img/reviews/call-of-duty-black-ops-6.webp"
 ---
 
-Call of Duty: Black Ops 6 crafts an intricate narrative surrounding a clandestine struggle against the shadowy Pantheon paramilitary group. High-budget production values ensure every cinematic sequence leaves a striking impression, successfully grounding the player within a darker, morally ambiguous reality where potential betrayal lurks behind every official agency directive.
+Call of Duty: Black Ops 6 is the 2024 entry set in 1991, following a framed team that operates from a Bulgarian safe house between missions. The campaign runs about eight hours and spans Kuwait, a crime-riddled city, Washington, an Iraqi desert and a research facility.
 
-Interactive elements within the expansive safe house hub reward curious players, transforming downtime into an immersive meta-game of investigation. Solving the well-designed puzzles tucked away in these private quarters provides a refreshing, atmospheric detour from the relentless pace of the primary, action-oriented missions scattered throughout the globe.
+The Rook safe house is a treasure hunt in itself, with a black-light room, piano code, keypad and radio puzzles and a hidden safe rewarding money for base upgrades. It is the best iteration of the hub idea the series has tried.
 
-Stealth approaches and explosive firefights blend seamlessly, granting soldiers the freedom to determine their own tactical path through dangerous territory. This variety maintains strong momentum, allowing the gameplay to oscillate between quiet infiltration and grand, cinematic set pieces that highlight the series’ trademark flair for high-stakes military drama.
+Level variety is the standout, from an unexpected open-world desert mission to a Doom-like level with boss fights and a casino heist. The facility missions add a grappling hook, and the music shifts to a different track for each major fight.
 
-Armor plating serves as a jarring inclusion, feeling distinctly incongruous within the traditional campaign flow and often undermining the inherent tension of combat. Unfortunately, the user interface remains similarly cumbersome, as cluttered displays frequently obscure vital equipment information and weapon statistics during the most frantic, time-sensitive moments of the operation.
+The armour-plate system is the most persistent gripe, carrying bad memories from the previous entry. The Kuwait airport mission stacks super-armoured, grenade-heavy enemies with no good cover and useless AI companions.
 
-Frequent cutscenes occasionally interrupt the rhythm of the experience, leaving a lingering sense that the balance between active gameplay and passive observation needs finer refinement. Inconsistent quick-time events further disrupt the flow during intense sequences, requiring precise inputs that sometimes feel difficult to track amidst the visual spectacle.
+Graphical glitches mar the presentation, with black smoke puffs, black glass and enemies bursting into squares, an unpatched variable-rate-shading bug on AMD cards. The white quick-time prompts are hard to read, and the balance leans heavily on cutscenes over gameplay.
 
-Technical performance remains generally robust, though specific graphical anomalies can emerge when rendering dense smoke effects across vast, distant terrain. Adjusting settings to mitigate artifacts caused by variable rate shading ensures that the impressive visual fidelity of the campaign stays consistent, provided users take the time to troubleshoot their hardware.
+The closing gauntlet throws overwhelming damage and crowds, and it is the campaign's weakest stretch. The weapon-card pickup display reads like an action RPG and makes hovering over gear harder to parse.
 
-Overall, this ambitious title provides a polished journey that successfully experiments with open-ended structure and meaningful environmental exploration. Fans who value a mix of high-octane excitement and methodical puzzle-solving will find the experience rewarding, even if certain modern mechanics and interface choices occasionally threaten to break the immersion.
+Overall, mission variety, the safe-house puzzles and the boss-fight music make Black Ops 6 a high point of the series. The armour plates and unpatched visual bugs are the main knocks on an otherwise stable campaign.

@@ -6,22 +6,22 @@ permalink: /reviews/doom-3/
 verdict: "recommended"
 platform: "Switch"
 release_year: 2019
-genre: "Survival Horror"
+genre: "FPS, Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Claustrophobic shadows and visceral weapon feedback define this harrowing, horror-focused departure from the franchise's traditional high-speed kinetic roots."
+summary: "A horror-leaning first-person shooter whose atmosphere and weapon roster make it a strong, scary revival."
 image: "/assets/img/reviews/doom-3.webp"
 ---
 
-Doom 3 constructs a suffocating sense of dread by plunging the player into an abyss of absolute darkness where the beam of a lonely flashlight serves as the primary defence against encroaching terrors. Mutilated remains and whispered warnings littering the corridors create a deeply unsettled mood that successfully sustains high-tension horror.
+Doom 3 reframes the series as horror, with the Mars City facility torn open by teleportation experiments that breach Hell. The darkness drives the dread, with the flashlight and the flickering corridors doing more work than any monster.
 
-Weaponry remains exceptionally satisfying, particularly the punchy shotgun and heavy chain gun, which deliver a brutal sense of impact during close-quarters encounters with demonic threats. These tools provide a vital feeling of power when confronting enemies, even if the consistency of damage thresholds occasionally complicates one's survival against certain persistent foes.
+The weapon roster builds from the pistol to the BFG, with the punchy shotgun and the monstrous BFG charge shot standing out. The expansions add the super shotgun, which is a joy in close quarters, and the BFG Edition's toggleable flashlight spares the original's weapon-or-light choice.
 
-Spawning adversaries frequently ambush the player from walls or previously cleared zones, ensuring that vulnerability remains a constant companion throughout the decaying Martian research station. These sudden jump scares force a reactive state, compelling you to maintain constant vigilance while navigating the industrial maze for elusive security codes and essential resources.
+The enemy roster is deep, from possessed marines and zombies to imps, pinkies, cacodemons, revenants, mancubi and hell knights, each with distinct behaviours. The ambush-heavy set-pieces, with collapse-able walls, summoning circles and the trip to Hell itself, keep the facility unpredictable.
 
-Interacting with the environment often proves clumsy, as operating waste disposal units or rotating lifts feels less like a smooth mechanical function and more like manipulating a difficult crane game. This friction frequently distracts from the pulse-pounding intensity of combat, making simple navigational tasks feel unnecessarily obstructive or overly laborious.
+The audio logs and video discs reconstruct the colony's collapse, with the forbidden teleporter experiments at the centre of the story. The Soul Cube provides the goal, an ancient weapon that once banished the demons and now offers the only way to close the portal.
 
-Managing PDAs provides an intriguing layer of context for the unfolding catastrophe, though the lack of clear prompts to access these devices often results in missed upgrades or inaccessible loot. Such oversights highlight a design choice that requires diligent curiosity, rewarding attentive explorers while potentially alienating those who prefer streamlined progression.
+The latter half of the base campaign throws too much at once, with enemy placement that becomes a slog. The flashlight barely illuminates, and its recharge mechanic stops play while waiting.
 
-Screen-jittering effects during incoming damage frequently impede precise aiming, turning moments of vulnerability into a battle against the interface rather than the opposition. When combined with the deliberate restriction of forcing players to choose between illumination and combat readiness, these elements cement a slow, thoughtful pace that prioritises survival over speed.
+The expansion content holds up better, with Resurrection of Evil's pacing and the time-slowing Artifact, plus Lost Mission's classic eight-level structure. The bruiser enemies hit brutally hard, and the Guardian boss fight is a recurring frustration.
 
-Overall, this chilling experience succeeds by trading the franchise’s signature high-velocity action for a methodical, claustrophobic journey through a hellish landscape. Readers should embrace the deliberate horror-centric design and challenging navigation as essential components of the journey, acknowledging that the atmospheric triumphs ultimately outweigh the occasional mechanical frustrations or navigational headaches.
+Overall, atmosphere and the weapon roster make Doom 3 a strong, scary shooter. The late-game enemy spam and the weak flashlight are the main caveats.

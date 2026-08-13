@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2002
 genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This imaginative fan remake transforms a classic fairy tale into a modern adventure, rewarding patient exploration with inventive puzzles and a charming, surreal atmosphere."
+summary: "A fan-made VGA remake whose length, voice cast and wedding finale make it a worthy tribute to the classic."
 image: "/assets/img/reviews/kings-quest-2-romancing-the-stones.webp"
 ---
 
-King's Quest II: Romancing The Stones thrives as a revitalised fairy-tale homage that replaces clunky legacy inputs with smooth, intuitive navigation. By stripping away the archaic text parser of the original eighties release, this production allows the whimsical narrative to flourish without constant interference from restrictive and outdated interface demands.
+King's Quest II: Romancing the Stones is a fan-made VGA remake of Sierra's classic adventure, retelling the quest for the three gems of birth, growth and death. The complete campaign was finished in a single stream, from the swamp and the church to the wedding and the traitor's curse.
 
-Movement across the land feels remarkably fluid, particularly when employing diverse methods such as flying carpets or soaring upon the backs of winged creatures. These varied traversal mechanics inject a persistent sense of discovery into the journey, ensuring the act of wandering through this strange kingdom remains perpetually engaging throughout.
+The length is the headline, coming in at roughly five times the size of the first game. The campaign also avoids the first game's worst puzzle, with no condor-grabbing section to dread.
 
-Puzzle designs within this iteration demonstrate significant density, frequently challenging players to combine disparate inventory objects in surprisingly creative ways. One must constantly observe the environment with a keen eye, as the solutions often reward lateral thinking and thorough attention to the small details hidden within each colourful screen.
+The fan voice cast earns a credit-screen reaction, with a huge roster of characters voiced by dedicated fans. The tower-realm set piece impresses, with the escape portal established earlier visible from afar.
 
-Atmospheric success relies heavily upon the calming musical arrangements, which provide a soothing backdrop to the unfolding saga of a lonely king. While the visual style occasionally reflects its fan-made roots, the aesthetic remains undeniably endearing, successfully inviting curiosity through its vibrant depictions of talking pumpkins and sentient, drifting clouds.
+The puzzle design is enjoyed, with the truth-and-lie statue riddle and the weather, fire, water and earth wordplay worked out on screen. The lion-guard reveal lands a sympathetic beat for the transformed former suitor.
 
-Navigation issues do occasionally manifest during busier scenes, where reaching the very edge of a map requires highly precise and sometimes unintuitive character positioning. Such minor mechanical friction can disrupt one's momentum, yet these small hurdles seldom overshadow the genuine satisfaction gained from finally unravelling the world's most elusive, magical secrets.
+The Hagatha finale is a delight, with the youth potion backfiring and turning the witch into a cat. The wedding is the climax, with the count's magic ceremony, the crowd's cheer and the return to Daventry.
 
-Obstructive elements like the intrusive patrol encounters feel somewhat misplaced, as they occasionally force repetitive reloads that add little value to the core experience. Despite these brief moments of annoyance, the game manages to maintain a cohesive structure that expertly balances narrative progression with its light-hearted, tongue-in-cheek approach to classical tropes.
+The traitor reveal pays off the whole run, with the Father of the church of Kolyma unmasked as the man behind the brotherhood. The humour lands throughout, from the graveyard epitaphs to the book of general knowledge and the Wookie end-credit joke.
 
-Overall, this impressive fan endeavour captures the spirit of traditional adventure gaming by prioritising clever logic and heartfelt storytelling over the frustrations of yesteryear. Fans seeking a whimsical, puzzle-heavy escapade will find a polished experience here, proving that a dedicated reimagining can honour the source material whilst vastly improving its playability.
+Overall, the length, the fan voice cast and the puzzle craft make this a worthy tribute to the classic. The finicky magic carpet prompts, the pixel-perfect bridge moment and the swamp maze are the caveats.

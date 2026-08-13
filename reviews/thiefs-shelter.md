@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2025
 genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Investigative tools like UV lights and spectral cameras turn a dreary mansion into a compelling, logic-based mystery that rewards keen detective work and observation."
+summary: "A psychological detective mystery where hallucination blurs reality across a locked Victorian mansion."
 image: "/assets/img/reviews/thiefs-shelter.webp"
 ---
 
-Thief's Shelter relies upon a methodical approach to environmental storytelling, placing the player in the role of a detective uncovering buried family secrets. Utilising specialised tools such as a UV light and a camera, one must meticulously scan abandoned rooms to reveal hidden ghosts or cryptic clues long left behind.
+Thief's Shelter is a 3D point-and-click psychological adventure in which Detective James investigates the murder of Thomas Malcolm on Highburn Street. The Victorian-era setting hides the Red Order, an anti-crime organisation secretly running genetic experiments behind its public front.
 
-Navigating the mansion through rigid point-and-click traversal spots feels initially restrictive, demanding an adjustment to the developer's specific movement logic. Finding the correct hotspots to transition between areas often creates unnecessary friction, yet the satisfaction of solving intricate gear rotation puzzles eventually justifies the need for such precise spatial orientation.
+James suffers hallucinations tied to dementia, with prescribed medication only partly keeping the recurring visions of his mother at bay. Reality and dream blur throughout the investigation, giving every locked corridor an unreliable edge.
 
-Hallucinations and sanity mechanics inject a surreal, trippy filter into the dreary halls, successfully heightening the lingering sense of unease. These shifting visual layers complement the eerie soundscape, allowing the narrative to build suspense through subtle environmental cues rather than relying on the predictable tension of frequent jump scares.
+Point-and-click movement between marked spots is the core structure, with a journal tracking objectives and blue highlighting marking every interactable object. The UV flashlight and a camera-obscura-style digital camera reveal hidden markings and alternate perspectives on the world.
 
-Reading dense in-game documentation becomes remarkably accessible thanks to a dedicated text toggle that prevents eye strain. This small feature significantly improves the flow when unravelling the complex ASE project, although thick accents in the voice acting occasionally make following the finer details of the dialogue a slight chore.
+The Resident Evil 2-style map colours fully explored areas turquoise and open ones red, though only the mansion's interior is covered. The reading-view toggle makes otherwise illegible text readable, a feature sorely missed elsewhere.
 
-Progression depends heavily upon locating keys and deciphering logic-based trials to unlock restricted sections of the estate. While the map helps one navigate the mansion interior, it unfortunately lacks detail for exterior locations and portrait rooms, making the pursuit of elusive collectible masks and VHS tapes a challenging, often circular endeavour.
+Most puzzles are simple and satisfying, with the bedroom's gear-rotation puzzle the one genuine stumper, whose solution lies in treating the gears as rotations. The voicemail riddle and the hearts puzzle follow a poem's capitalised colours through the mansion.
 
-Backtracking through locked areas becomes unavoidable in the late stages, forcing players to take long, roundabout paths to reach their destination. Although these structural barriers sometimes stall the pacing, the underlying mystery surrounding the dark family history remains sufficiently compelling to drive the investigation toward its unsettling final conclusion.
+Hidden face masks and VHS tapes reward thorough searching, though completion cannot be fully verified in the unmapped rooms. The dining room's lock-in forces a long way around the mansion, and the movement spots occasionally behave oddly.
 
-Overall, the camera mechanics and detective tools provide a consistent sense of accomplishment that defines the entire playthrough. Despite minor technical stiffness and navigation limitations, the reward of piecing together the narrative mystery ensures that time spent unearthing these chilling truths feels entirely purposeful for fans of methodical investigative thrillers.
+Overall, atmosphere is the standout, and the hallucination-blurred detective story sustains tension from the first room to the finale. Minor map gaps and movement quirks never outweigh an otherwise enjoyable mystery.

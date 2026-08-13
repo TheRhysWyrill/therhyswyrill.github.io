@@ -4,24 +4,24 @@ date: 2026-06-27
 game_title: "Little Nightmares II"
 permalink: /reviews/little-nightmares-2/
 verdict: "recommended"
-platform: "Xbox Series X"
+platform: "Series X"
 release_year: 2021
-genre: "Horror, Platformer"
+genre: "Platformer, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Polished environmental storytelling and brilliant companion mechanics elevate this dark journey, rendering occasional combat clunkiness a minor footnote in a stellar, atmospheric achievement."
+summary: "A puzzle-platformer whose presentation, companion AI and horror designs make it a worthy sequel despite clunky combat."
 image: "/assets/img/reviews/little-nightmares-2.webp"
 ---
 
-Little Nightmares II constructs a grim, unsettling tapestry that builds upon its predecessor with immense visual refinement and polished execution. Every shadow across the abandoned hospital or the derelict school feels deliberately oppressive, ensuring the dark universe remains consistently haunting while pushing the boundaries of its surreal, twisted design.
+Little Nightmares II is a puzzle-platformer from Tarsier Studios, following Mono and Six through the Pale City's rain-soaked outskirts. The complete campaign finished in a single session, running through all five chapters from the hunter's domain to the Signal Tower finale.
 
-Companion AI performs with remarkable competence throughout, as the helper character intelligently mimics player movements to assist with complex traversal. This collaborative dynamic alleviates the crushing isolation of the hostile world, providing a much-needed sense of solidarity during the most nerve-wracking environmental puzzles and intense, high-stakes cinematic escape sequences.
+The presentation is a step up, with the visuals looking sharp even in performance mode. The companion AI is the standout mechanic, with Six navigating the world competently, reacting to the environment and feeling like a genuine ally.
 
-Platforming challenges benefit from improved character locking on thin surfaces, which effectively addresses the spatial difficulties that hampered earlier navigation. Creative logic tasks provide rewarding interludes, while the removal of manual key-carrying through a pocket system constitutes a significant quality-of-life advancement that keeps the progression flowing without unnecessary mechanical interruptions.
+The quality-of-life fixes please, with keys auto-stashing instead of slowing the character and narrow walkways no longer causing falls. The horror designs impress, with each threat built around a single grotesque feature and the grim tone maintained throughout.
 
-Combat encounters unfortunately introduce noticeable friction, as the sluggish inputs often feel at odds with the frantic nature of the skirmishes. Facing bullies in the school level becomes a test of patience due to imprecise execution, though these infrequent, trial-and-error moments remain secondary to the high-tier world-building that defines the majority.
+The boss encounters are strong, from the shotgun-wielding hunter in the opening woods to the later confrontations. The TV portal puzzles are creative, warping the player between screens in some of the cleverest puzzle designs in the series.
 
-Intense boss segments like the terrifying shotgun-wielding spectacle provide visceral, horrifying thrills that showcase the scale of this expanded universe. Dynamic television-based traversal mechanics introduce fresh, creative ways to navigate the landscape, demonstrating how the series has evolved its scope far beyond the confines of a single vessel.
+The combat is the one serious complaint, with weapon swings missing against the school bullies and colliding with invisible foreground walls. The heavy weapon is slow and demands precision, and the grab control sits oddly on the right trigger.
 
-Performance modes ensure the journey maintains stability across the cohesive chapters, allowing for seamless exploration without the frequent loading pauses that disrupted the original voyage. Foreground obstacles occasionally obscure the camera in ways that complicate distance estimation, yet these depth perception issues occur rarely enough to avoid derailment of the tension.
+Depth perception still bites occasionally, and foreground clutter can obscure the character entirely at the worst moments of a chase. The checkpoints are gracious, and there are fewer loading screens than in the first game.
 
-Overall, despite the clunky nature of combat, the exquisite environmental craft establishes this as a significant step forward for the franchise. Anyone seeking a tense, impeccably realised puzzle-platformer will find the trade-off for occasional mechanical frustration entirely justified by the sheer quality of the atmospheric horror on display here.
+Overall, the presentation, the companion AI and the horror designs make this a worthy sequel to a modern classic. The clunky combat is the only real weakness.

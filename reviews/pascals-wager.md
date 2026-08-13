@@ -8,20 +8,20 @@ platform: "Switch"
 release_year: 2022
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Team-switching mechanics inject strategic versatility into challenging encounters, demanding precise resource management and pattern recognition whilst navigating a grim, plague-ridden world."
+summary: "A Soulslike action RPG whose five-character roster, sanity mechanic and deep combat outweigh its presentation faults."
 image: "/assets/img/reviews/pascals-wager.webp"
 ---
 
-Pascal's Wager establishes a bleak, collapsing landscape where a courier navigates decaying territories whilst searching for his missing wife. Players encounter a world shrouded in an oppressive atmosphere, effectively conveying the toll of a mysterious plague that has infected every corner of this dying and sorrowful environment.
+Pascal's Wager is an action RPG from TipsWorks, following Terrence's search for Teresa across the plague-dark land of Solace. The complete campaign runs from the city's founding mystery to the Colossal Grave, with the Tides of Oblivion DLC folded into the journey.
 
-Switching between two unique characters mid-battle provides a tactical layer that keeps combat encounters feeling fresh and highly adaptable. This team-switching mechanic allows for a diverse range of approaches during intense skirmishes, rewarding those who can identify the specific strengths each hero brings to a given fight.
+The five-character roster is one of the game's best ideas, with each fighter playing genuinely differently and the fast movers standing out. Gerald's four-dodge chain is the pick of the bunch, and the variety keeps every chapter feeling distinct.
 
-Managing the sanity meter adds constant pressure to boss confrontations, as the threat level increases significantly when a player’s composure fails. Scarce potions make these high-stakes scenarios particularly gruelling, forcing a cautious reliance on resource stockpiles to avoid granting additional health and power to the most formidable adversaries.
+The sanity system takes time to click, with the lunatic trigger's early healing of enemies causing real frustration. The same system earns genuine appreciation later, with its sun mechanic making the boss fights more challenging in a unique way.
 
-Character movement often feels sluggish, especially when playing as heavier fighters like Norwood, which creates a sharp contrast to the rapid pace of hostile assaults. Navigating complex environments becomes a repetitive chore without a sprint function, making the process of returning to previous zones feel notably slow and cumbersome.
+The combat is solid and fairly deep once the full move sets unlock, with the basic strikes carrying a lean build comfortably. The parry is the weak spot, with its timing awkward and unreliable in the heat of a fight.
 
-Talent trees and alchemy systems offer a deep level of customisation that encourages tailoring specific stats to suit an individual playstyle. Levelling an altar serves as a central hub for these improvements, ensuring that progress remains persistent even when facing the crushing difficulty found throughout the sprawling world.
+The voice acting is the chief disappointment, with the performances landing as genuinely bad rather than endearingly so. The subtitles routinely mismatch the spoken lines, and the environmental readability suffers with ladder-like decoration and candle-like notes.
 
-Voice acting and subtitle delivery occasionally suffer from inconsistent performances that break the immersion during narrative moments. Despite these minor audio issues, the core progression remains anchored by a functional menu system that allows for dense crafting and stat refinement, provided the player is willing to engage with its structure.
+The conspiracy-and-sacrifice structure keeps the story serviceable, with the journey's effect on Terrence threaded throughout. The sound design earns praise on its own, with the audio side carrying more than its share of the atmosphere.
 
-Overall, the action-oriented combat rewards those who prioritise pattern recognition and careful strategic planning during each dark encounter. Masterful use of the diverse character roster helps overcome the weight of slow traversal, resulting in a demanding journey for anyone seeking to uncover the secrets of a collapsing realm.
+Overall, the character roster, the sanity system and the combat depth outweigh the presentation flaws. The voice acting and the finicky parry are the main caveats.

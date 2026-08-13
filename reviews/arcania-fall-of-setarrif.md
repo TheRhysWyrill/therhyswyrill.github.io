@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2011
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This brief, hollow expansion suffers from lazy boss design, persistent technical glitches, and a narrative so thin it fails to justify its standalone price tag."
+summary: "A short expansion whose generous loot and imported-save continuity cannot offset a recycled final boss and a steep asking price."
 image: "/assets/img/reviews/arcania-fall-of-setarrif.webp"
 ---
 
-ArcaniA: Fall of Setarrif demonstrates how a brief narrative addition can struggle to justify its existence as a standalone purchase. Players entering the city find a desolate urban sprawl filled with possessed citizens, yet the title fails to provide any substantive reasoning behind these strange events or the escalating supernatural chaos.
+ArcaniA: Fall of Setarrif is an expansion set after the base game, in which the hero travels to Setarrif after a volcanic eruption and finds the city overrun by possessed citizens and demons. The plot gathers four keystones to open a burial temple and confronts the arch demon behind the eruption.
 
-Importing high-level characters provides an immediate sense of power that turns most encounters into trivial affairs. While this massive head start allows for mindless action-oriented brawls, the lack of genuine challenge often makes the proceedings feel rather empty when paired with such an abrupt, repetitive structure of gathering essential keystones.
+Imported saves carry continuity forward, keeping mana values and access to all of the endgame gear, and the early loot is generous with very high-tier equipment. Experience gain is generous as well, letting the imported build max out its melee power.
 
-Combat loops remain the primary reason to continue, offering a simple, action-heavy rhythm that stays passably engaging despite the shallow depth. Unfortunately, persistent audio mixing issues frequently muffle strikes during these frantic skirmishes, stripping away the necessary feedback that would otherwise make weapon impacts feel impactful and rewarding for the player.
+The expansion is remarkably short, finishing in under three hours against the four to eight advertised. At fifteen dollars the price is hard to justify, and the content feels as though it should have been included with the base game.
 
-Persistent technical glitches plague the interface throughout the short journey, particularly concerning enemy health bars. These essential indicators often vanish or bug out entirely unless one manually locks onto a target, creating an unnecessary layer of frustration that highlights a lack of polish during the final stages of the development cycle.
+The final boss is a near-identical reskin of the base game's closing fight, with nothing meaningfully different about it. The encounter is tedious, because the demon repeatedly retreats to cover and summons waves instead of engaging.
 
-Boss encounters represent the most disappointing aspect of this adventure, especially during the concluding confrontation. Developers opted for an incredibly lazy reskin of a previous adversary, reusing both the character model and the same attack patterns, which serves as a blatant indicator of the cut-corner design philosophy present here.
+The story is thin even by the base game's standards, and the ending cutscene attempts to tie off a larger peace between factions. Small bugs surface throughout, from health bars that fail to render unless locked on.
 
-Short duration is another major hurdle, as the entire experience concludes in approximately three hours. Paying a full standalone price for such a limited amount of content feels like poor value for any consumer, especially when the resulting narrative lacks meaningful context or a compelling reason for the hero to participate.
+Combat audio and footsteps go oddly quiet partway through with no explanation, and the early-game camera misbehaves. The small touches, such as enemy factions fighting one another and the red save-orb replacing the base game's blue, offer modest compensation.
 
-Overall, this expansion functions as an hollow appendage that would have been far better suited as a free update to the main campaign. Given the lazy design choices and recurring technical flaws, it is difficult to endorse this as a purchase for anyone except the most dedicated fans searching for heavy discounts.
+Overall, pacing and the recycled final boss make ArcaniA: Fall of Setarrif an expansion that fails to justify its asking price. The generous loot and imported continuity keep it playable, but only a bargain-bundle purchase makes it worthwhile.

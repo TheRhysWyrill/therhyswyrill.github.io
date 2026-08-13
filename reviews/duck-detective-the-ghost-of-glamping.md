@@ -6,22 +6,22 @@ permalink: /reviews/duck-detective-the-ghost-of-glamping/
 verdict: "recommended"
 platform: "PC"
 release_year: 2025
-genre: "Adventure, Puzzle"
+genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Witty avian noir writing and satisfying deduction mechanics create a polished mystery that delights, even if it concludes far too quickly for its own good."
+summary: "A clever cozy mystery whose deduction loop, improved evidence system and voice acting make it a very fun game."
 image: "/assets/img/reviews/duck-detective-the-ghost-of-glamping.webp"
 ---
 
-Duck Detective: The Ghost of Glamping establishes a peculiar intersection between gritty noir tropes and a whimsical, feather-filled world. This absurd premise provides a surprisingly grounded stage for exploring weary themes of divorce and financial instability through the eyes of a cynical, avian protagonist navigating an unexpected mystery.
+Duck Detective: The Ghost Of Glamping is a cozy mystery adventure in which Eugene McQuacklin investigates a chair theft at Sunny Lake campsite that spirals into a spy plot. The standalone sequel runs about an hour and a half and was played on Sleuth mode, the harder deduction setting.
 
-Professional voice performances anchor the experience, successfully elevating the dynamic between the jaded investigator and his relentlessly optimistic roommate. Every line of dialogue reinforces the charming atmosphere, ensuring that the sharp humour lands with precision while maintaining the character-driven weight required to sustain interest in the primary case.
+The deducktion mechanic has the detective question suspects, inspect surroundings and slot clue words into blank spaces in phrasal deductions. The evidence system is improved over the first game, with clues re-inspectable multiple times, a change called out as awesome.
 
-Searching static backgrounds for minute clues like stray strands of hair encourages genuine observation rather than mindless clicking. Players must then synthesise these findings by filling in specific narrative blanks, a satisfying deduction loop that makes one feel like a competent investigator despite the ridiculous nature of the culprit.
+The voice acting makes the game, with the cast landing their roles so well that the characters would be merely decent without it. The case is praised as genuinely clever because the culprit's disguise and the planted camera all make sense in hindsight.
 
-Occasional logic puzzles feel somewhat arbitrary, particularly when compared to the tighter deduction segments found earlier in the investigation. The infamous Live Laugh Love sequence serves as a notable example of this erratic design, momentarily stalling the narrative momentum with requirements that lack the clarity of preceding tasks.
+The returning cast and new characters keep the tone warm, from Eugene's roommate Freddy and his girlfriend to the campsite manager who also voices the first game's Laura. A long-absent father turns out to be right under the detective's nose.
 
-Menu navigation introduces persistent friction, as toggling between the suspect list and various deduction screens feels needlessly cumbersome. These clunky interface hurdles interrupt the otherwise smooth flow of the mystery, forcing unnecessary clicks that detract from the urgency of the investigation during its most compelling, high-stakes moments of discovery.
+The deadpan humour carries the tone, from the bread-addiction running gag to Eugene's commentary and the chess streamer's vanity. The campfire ghost story about the sanatorium's Patient 12 sets an atmospheric spooky mood, and Freddy's model is notably more detailed than the others.
 
-The narrative resolution regarding the supposed supernatural ghost element arrives with surprisingly little fanfare or substance. While the final plot twist skilfully recontextualises the identity of the culprit, the abrupt conclusion leaves the mystery feeling slightly hollow, ending the journey just as the intrigue reaches a truly satisfying level of complexity.
+The title's ghost never materialises, a playful jab acknowledged in the game itself by noting the first game at least had its secret salami. The runtime is brief, and the ending's arrest choices put Freddy through the ringer, with the playthrough left feeling sorry for him.
 
-Overall, this concise investigation succeeds as a polished diversion that prioritises sharp, character-focused storytelling over extensive playtime. Its brisk pace ensures that the humour remains consistent and the puzzle loops stay fresh, making it a highly rewarding recommendation for anyone who values a well-written mystery over lengthy gameplay sessions.
+Overall, this clever, fun mystery adventure earns a strong recommendation, with its deduction loop, improved evidence system and voice acting as the highlights. The short runtime and the absent ghost are the only caveats.

@@ -6,22 +6,22 @@ permalink: /reviews/anomaly-agent/
 verdict: "recommended"
 platform: "PC"
 release_year: 2024
-genre: "Action, Platformer"
+genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "High-energy combat and an exceptional soundtrack propel this stylish, time-bending adventure to greatness, ensuring that even complex narrative loops remain consistently rewarding and engaging."
+summary: "A cyberpunk action-adventure whose fluid combo combat, synthwave soundtrack and wildly distinct chapters come together into one cohesive whole."
 image: "/assets/img/reviews/anomaly-agent.webp"
 ---
 
-Anomaly Agent delivers a high-octane spectacle where temporal instability meets refined, combo-driven pugilism in a strikingly bizarre world. Its identity rests upon the fluid synthesis of melee strikes, precise parries, and varied ranged armaments, creating a kinetic feedback loop that remains exhilarating from the very first encounter until the final credits.
+Anomaly Agent is a cyberpunk action game set in a surreal future city, where Agent 70 of the TDAA agency hunts anomalies whose powers bend reality. The mission-by-mission hunt moves from a subway and a dance bar to a zeppelin chase and a clone prison, then shifts into a time loop after the time stone shatters.
 
-Rhythmic pulses define the experience, with an extraordinary soundtrack elevating every boss confrontation and quiet navigation segment into a memorable auditory event. Each track feels perfectly synchronised with the onscreen chaos, effectively grounding the player within the absurdity of the time-loop mystery while maintaining a constant sense of forward momentum.
+The loop forces the protagonist and his partner Eva to reunite the time stone's pieces, and the finale offers a choice about its fate. The shapeshifting artist's disguises become a recurring thread that pieces the later missions together.
 
-Experimentation thrives as the protagonist masters the anomaly bat and boomerang, turning even standard brawls into creative displays of tactical aggression. Such depth in the move-set encourages players to constantly refine their approach, ensuring that earning coins for crucial upgrades feels earned rather than merely a standard progression requirement of the genre.
+Combat flows around dodging, which keeps combos alive, and a range-combo finisher that executes with real style. The anomaly bat's parry pays off consistently, and every boss fight runs three phases with distinct attacks.
 
-Beneath the flashy exterior, the world occasionally suffers from narrative disorientation as the recurring time-loop sequences struggle to balance complexity with clarity. Objectives sometimes lose their focus amidst the repetition, leaving one to navigate the surreal environment more by intuition than through the guidance provided by the game’s somewhat obscured quest log.
+The soundtrack is a highlight, with boss-fight music at its best and guitar riffs that accompany each character's introduction. Every chapter carries a distinct theme, so no two areas play the same way.
 
-Friction frequently arises during boss encounters when the design shifts from individual skill tests to waves of additional spawned adversaries. Defeating shielded foes requires slowing the pace significantly to implement specific tactics, which contrasts sharply against the otherwise blistering speed and high-octane energy that define the core appeal of the journey.
+The structure is accessible, because each room is a self-contained survival test that ends in a full heal, and checkpoints appear in every room. The humour and character writing, from the wrestler's pompadour to the clone-prison disguise with its broken English, keep the tone playful.
 
-Navigation and visual comprehension are occasionally hampered by UI elements that prove difficult to decipher during the heat of an intense engagement. While minor technical hurdles like input registration issues on specific hardware might require a quick adjustment to settings, the general stability ensures that these moments rarely derail the overall flow.
+The shotgun enemies' attacks cannot be parried, which repeatedly forces dodging at the wrong moments, and fights pile up enough information to overload. The elevator puzzle is a chore, and health upgrades barely matter because deaths still come quickly.
 
-Overall, this exhilarating title provides a polished, satisfying romp that rewards those who invest time in mastering its intricate combat depth. The generous checkpoint system expertly mitigates potential frustrations, ensuring that even with the occasional narrative confusion, the primary experience remains a consistently fun and highly addictive slice of action gaming.
+Overall, combat flow and the synthwave soundtrack make Anomaly Agent an enjoyable action-adventure that comes together nicely. The unparryable shotgun attacks and information-heavy fights are genuine complaints, but the distinct chapters and steady upgrades carry it through.

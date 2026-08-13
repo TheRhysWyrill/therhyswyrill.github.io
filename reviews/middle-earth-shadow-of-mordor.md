@@ -5,23 +5,23 @@ game_title: "Middle-Earth: Shadow of Mordor"
 permalink: /reviews/middle-earth-shadow-of-mordor/
 verdict: "recommended"
 platform: "PC"
-release_year: 2014 
-genre: "Action, Adventure, RPG"
+release_year: 2014
+genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Emergent rivalries and fluid swordplay transform a gritty vengeful odyssey into an essential title for those who value personal vendettas and systemic depth."
+summary: "An open-world action-adventure whose combat, Nemesis system and branding fantasy make it a fantastic slice of Middle-earth."
 image: "/assets/img/reviews/middle-earth-shadow-of-mordor.webp"
 ---
 
-Middle-Earth: Shadow Of Mordor finds its identity through a brutal dance of steel, crafting an intricate web of personal rivalries that breathe life into a desolate landscape. Talion’s quest for vengeance provides a suitably dark framework for a system where every fallen Uruk captain leaves a lasting mark upon the hierarchy.
+Middle-earth: Shadow of Mordor is an action-adventure from Monolith Productions, following the ranger Talion's vengeance quest across the lands of Mordor. The complete run covered the main campaign and both story DLCs, from the war chief hunts to the final confrontations of the DLCs.
 
-Combat flows with an exhilarating rhythm that rewards aggression, allowing one to transition seamlessly between strikes, counters, and executions against overwhelming odds. This fluid approach ensures that even when standard enemy squads become predictable, the act of dismantling Sauron’s forces remains consistently punchy and satisfying to perform in every encounter.
+The combat is the core thrill, with the flow from enemy to enemy proving endlessly satisfying throughout the campaign. The executions and the double counters anchor the fighting, making each encounter a genuine pleasure to play.
 
-Innovation thrives within the Nemesis system, a groundbreaking mechanic that elevates routine skirmishes into stories of triumph and bitter defeat. By remembering specific confrontations, individual captains rise through the ranks based on player actions, turning nameless grunts into recurring, formidable nemeses who demand careful preparation to eventually overcome.
+The Nemesis system earns the highest praise, with the named enemy orcs building personalities, rivalries and memories across the playthrough. The branding fantasy is the campaign's high point, with the whole army falling under control by the campaign's close.
 
-Stealth serves as an efficient alternative to direct confrontation, with vertical strikes from above offering a brutal way to thin out dense enemy strongholds. These quiet moments of calculated violence provide a tactical contrast to the noisy melee brawls, granting the freedom to tackle objectives with deliberate precision or overwhelming force.
+The stealth toolkit delights, with the tight-knit groups taken down without discovery and the poisoned grog rewarding creative approaches. Ratbag is the comic heart, with the war chief promotion arc landing the laughs time and again.
 
-Progression initially feels constrained by a tedious opening sequence that forces one through an exhaustive series of mandatory tutorials before the true potential unfolds. Once these early shackles are removed, the ability tree opens up essential traversal and combat manoeuvres that transform Talion from a vulnerable outcast into an unstoppable force.
+The traversal is the most persistent complaint, with the finicky climbing and the runs up edges that do not exist. The detection-based dagger missions are the worst content, with the bugged torchbearer mission standing as the clear low point.
 
-Side activities such as hunting for medicinal herbs or freeing slaves eventually highlight a lack of mission variety that can stall the momentum of exploration. While the world remains atmospheric, relying on repetitive tasks to gain intel occasionally makes the expansive environment feel less dynamic than its central power struggles imply.
+The hunters are the most hated enemy, with their distance attacks breaking the rhythm of the fights. The crowd targeting is unreliable in the big fights, and the ranged combat remains the weakest option throughout.
 
-Overall, lasting appeal stems from the genius of systemic design rather than the narrative beats that drive the core campaign forward. Mastery over the battlefield makes it difficult to ignore the brilliance on display, making the package a clear success despite the minor friction found in its slower, more repetitive moments.
+Overall, the combat, the Nemesis system and the branding fantasy make this a fantastic open-world action-adventure. The finicky traversal and the detection missions are the main caveats.

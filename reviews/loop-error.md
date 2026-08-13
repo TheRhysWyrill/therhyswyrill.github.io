@@ -6,22 +6,22 @@ permalink: /reviews/loop-error/
 verdict: "recommended"
 platform: "PC"
 release_year: 2025
-genre: "Adventure, Horror"
+genre: "Visual Novel"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Evocative lo-fi aesthetics and a poignant temporal structure transform this brief psychological investigation into a haunting meditation on grief and trauma."
+summary: "A psychological horror visual novel whose found-footage aesthetic and four short endings make it a creative, memorable loop."
 image: "/assets/img/reviews/loop-error.webp"
 ---
 
-Loop//Error manifests a deeply claustrophobic dread by adopting a deliberate low-bit visual identity reminiscent of archaic handheld photography hardware. This grainy aesthetic ensures the environment constantly feels unsettled, effectively grounding the psychological mystery in a starkly monochromatic reality that feels fundamentally wrong before a single horror element actually appears.
+Loop//Error is a visual novel from a solo developer, casting a gas-station worker into a Groundhog Day loop of night shifts and dead-of-night drives. The complete run took just over an hour, reaching all four endings and every achievement.
 
-Whispers frequently drift through the sparse soundscape, generating significantly more tension than the visuals themselves ever manage to achieve alone. The recurring sound of a bicycle bell punctuates the oppressive silence, acting as a recurring auditory motif that heralds the arrival of inexplicable events within the fractured narrative space.
+The found-footage aesthetic is the hook, with the Game Boy camera style making the lo-fi presentation read as spookier. The brain starts seeing things that probably do not exist in the image, with the layout messing with perception.
 
-Traversing this cyclical progression requires players to uncover layers of guilt and trauma hidden within the protagonist’s deteriorating memory. Divergent paths branch into four distinct conclusions, providing meaningful variety that rewards curiosity without ever forcing the experience to overstay its welcome during the hour of total completion time required.
+The loop premise drives the narrative, with the monotony of wake, work, sleep and repeat shaping the story. The dead-of-night drive stands out, with the world stopping existing outside the reach of the headlights.
 
-Navigating the various segments occasionally reveals minor friction as character movement feels slightly rigid during high-stakes interactions. While these minor physical limitations can induce frustration during precise sequences, they ultimately represent a small price to pay for the singular focus on such a cohesive and highly stylised artistic vision.
+The writing unfolds like a collection of short stories, with a letter found in the protagonist's own handwriting deepening the mystery. The guilt that drives the loop is framed as a prison built by the brain out of guilt and habit.
 
-Fragmented documentation scattered throughout the corridors encourages players to piece together the tragic subtext of the narrative through active investigation. Each discovery deepens the somber psychological focus, distancing the project from reliance on predictable jump scares and instead fostering a slow-burn sense of unease that lingers long after playing.
+The four endings make separate playthroughs worthwhile, with each run lasting only fifteen minutes. The solo craftsmanship impresses, with every word, frame and line of code credited to one pair of hands.
 
-Replaying specific loops to obtain every possible ending can lead to repetitive pacing issues that might deter those seeking traditional, dynamic action. The ability to skip dialogue assists in mitigating this potential monotony, allowing dedicated explorers to maintain momentum while successfully reaching the final revelations regarding the character's internal struggle.
+The opening chapter must be replayed for each ending with no way to skip ahead, which is the worst part of the experience. The branching is limited and some choices are flavour only, though the short length suits the format.
 
-Overall, the effective marriage of thematic resonance and surreal atmosphere results in a polished, memorable experience that prioritises emotional impact. Anyone who values dense psychological storytelling should investigate this bite-sized journey, as it expertly leverages the time loop trope to construct a powerful and haunting metaphor for inability to move on.
+Overall, the found-footage aesthetic, the looping narrative and the four endings make this a very creative game. The replayed opening and the limited branching are the caveats.

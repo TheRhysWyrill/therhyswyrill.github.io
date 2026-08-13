@@ -6,22 +6,22 @@ permalink: /reviews/hidden-folks/
 verdict: "recommended"
 platform: "PC"
 release_year: 2017
-genre: "Puzzle"
+genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This inventive hand-drawn puzzle title captivates through its entirely vocalised soundscape and meticulous, interactive diorama discovery loops."
+summary: "Man-made sound effects, interactive scenes and witty writing make this monochrome hidden-object search a charming challenge."
 image: "/assets/img/reviews/hidden-folks.webp"
 ---
 
-Hidden Folks distinguishes itself through an entirely vocalised soundscape where every rustle, chirp, and mechanical hum originates from human mimicry. Such a charming, creative approach to audio immediately establishes a whimsical personality that keeps the auditory experience engaging even as the search for tiny targets becomes increasingly arduous over long sessions.
+Hidden Folks is a hidden-object search game of hand-drawn, interactive landscapes from Adriaan de Jongh and Sylvain Tegroeg. Every area was completed across the full playthrough, from jungle and campground to laboratory and factory, with the closing credits confirming all finds.
 
-Manually manipulated dioramas house a wealth of busy, looping animations that breathe life into these static, monochrome scenes. Interacting with the environment by clicking or dragging reveals hidden layers, ensuring that the act of discovery feels like a rewarding dialogue between the player and these dense, meticulously hand-crafted urban puzzles.
+The man-made sound effects are a signature touch, with every noise performed by a person and lending the scenes a creative, lively feel. The flavour-text hints attached to every object are a charm, and the game is full of witty reference jokes from Mad Max to Titanic.
 
-Monochromatic visuals intentionally ramp up the difficulty by removing colour-based signposts, forcing players to rely purely on spatial awareness and pattern recognition. Finding obscure items within the sprawling desert level feels like a genuine test of perception, though this lack of chromatic variety frequently pushes the challenge into territory that demands patience.
+The interactive levels are a highlight, with watering crops to grow wheat, moving cars and boxes, and a factory riddle that spells out the game's name. The hint system is a lifesaver, since hunting without it would be near impossible across the monochrome art.
 
-Navigating such vast, object-dense scenes can occasionally feel overwhelming despite the inclusion of essential zoom tools. The map scale sometimes eclipses the field of view, making it difficult to track smaller targets without constant adjustment, yet the sheer density of detail ensures that every corner rewards the observant and curious eye.
+The variety is excellent, with small levels giving way to enormous ones and keeping the search from settling into routine. The colour modes, from black-and-white to sepia, and the noisy but charming cacophony add to the personality.
 
-Technical performance creates sporadic friction, manifesting as unfortunate freezing or complete application crashes during rapid navigation across the more complex levels. Restarts become a necessary evil when these stability hurdles occur, momentarily shattering the cosy atmosphere and forcing an unwelcome break in an otherwise smooth and relaxing search process.
+The monochrome presentation makes this the hardest hidden-object game played, since black-and-white art blends together and tiny objects like the golf ball, spider, truffle and banana are brutal to spot. The desert is the toughest area, so massive that even zoomed out it cannot be covered.
 
-Integrated hint systems provide a vital safety net, preventing momentum from stalling when specific items remain elusive due to their clever, camouflage-based placements. Relying on these guides might feel like a concession, but their presence is essential for maintaining a sense of progress without succumbing to the frustration of aimless, repetitive clicking.
+The big-city and festival maps are overwhelming, with huge crowds and endless sprawl. Two technical hiccups, a freeze at the pirate battle and lag when zooming out on the factory, are minor and not the game's fault.
 
-Overall, this highly interactive delight elevates a traditional formula through its ingenious auditory presentation and a distinct, hand-drawn aesthetic that demands sharp attention. Those who enjoy methodical discovery will find a deeply satisfying journey here, provided they possess the resilience to handle occasional performance stutters and the deliberately steep difficulty curve.
+Overall, the man-made sound effects, the interactive scenes and the witty writing make this a very neat game. It is the hardest of the hidden-object genre thanks to the monochrome art, but still an easy recommendation.

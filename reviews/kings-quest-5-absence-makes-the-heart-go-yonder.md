@@ -6,22 +6,22 @@ permalink: /reviews/kings-quest-5-absence-makes-the-heart-go-yonder/
 verdict: "recommended"
 platform: "PC"
 release_year: 1990
-genre: "Adventure, Point & Click"
+genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Whimsical storytelling and ambitious voice acting elevate this classic quest, which overcomes technical instability through genuine charm and inventive, challenging puzzle loops."
+summary: "A voice-acted Sierra adventure whose musical number, barter economy and charming animals make it very fun."
 image: "/assets/img/reviews/kings-quest-5-absence-makes-the-heart-go-yonder.webp"
 ---
 
-King's Quest V: Absence Makes The Heart Go Yonder establishes a high-water mark for period production values, utilising early voice acting and animated sequences to differentiate itself from text-heavy precursors. A sharp, sarcastic narrator guides the player through a vibrant fairy-tale realm, imbuing the journey with a distinct, lighthearted personality.
+King's Quest V: Absence Makes the Heart Go Yonder is a voice-acted point-and-click adventure from Sierra, sending Graham across the kingdom after his family is carried off into the sky. The complete campaign was finished in a single stream, with all two hundred and sixty points earned.
 
-Environmental variety drives the sense of exploration as the protagonist traverses diverse landscapes in a race to recover his displaced family. Collecting disparate items becomes a central obsession, necessitating obsessive scavenging because missing a single, seemingly minor object can unfortunately lead to total progression failure later in the campaign.
+The voice acting is the marvel, an unexpected production for 1990 with a cast that includes the designer herself as a rat and a harpy. The talking-animal charm runs throughout, with the white-snake spell letting Graham chat with a bee queen, ant royalty and the eagle.
 
-Navigating the vast desert regions proves remarkably tedious due to the lack of clear direction and the looming threat of sudden death. These expansive, empty stretches lack necessary navigational cues, often leaving travellers wandering aimlessly until a fatal oversight or an unintended misstep abruptly terminates the entire rescue mission.
+The ant musical number is the standout, coming out of nowhere and earning a smile from ear to ear. The set pieces land, from the brass bottle's genie to the yeti slain with a custard pie in a cartoon moment.
 
-Technical fragility remains a constant companion throughout the playthrough, manifesting in frequent audio stutters and a jittery, inconsistent frame rate. Missing modern features like intuitive save menus creates additional friction, forcing players to wrestle with a clunky interface that often feels dangerously inadequate for such a precise, unforgiving adventure.
+The barter economy is elegant, trading a spinning wheel for a marionette, a golden needle for a cloak and elf's shoes for a cobbler's hammer. The finale is a delight, with the shapeshifter duel and the restoration spell closing the adventure warmly.
 
-Puzzles balance logical inventory combinations against occasional trial-and-error traps, testing both the player’s deductive reasoning and their capacity for repeated experimentation. Charming vignettes frequently break the tension, such as a standout musical performance by a colony of ants, proving that surreal humour remains this title’s most effective weapon against frustration.
+The storytelling closes well, with the family reunited and the castle home once more. The narrator's sass is enjoyed, adding a sarcastic edge to the fairy-tale tone.
 
-Dialogues occasionally lose their emotional impact because pitch-shifted vocal performances struggle to convey genuine gravity during pivotal, dramatic scenes. Furthermore, the persistent requirement to click through mandatory warning notifications before every cutscene disrupts the narrative flow, acting as a minor but irritating hurdle that refuses to disappear regardless of player input.
+The soft-lock design is harsh, with nearly every item in the game mandatory to finish. The desert thirst is opaque with no feedback, the skip-warning popups break the cut-scene flow, and the falls persist with a single misclick sending Graham off an edge.
 
-Overall, this whimsical trek offers a rewarding journey that transcends its aged technical foundations through sheer imaginative flair and clever riddle design. Fans of classic point-and-click outings will appreciate the ambition found here, provided they can stomach the archaic save systems and the occasional, harsh reality of being permanently soft-locked.
+Overall, the voice acting, the musical number and the barter economy make this a very fun Sierra adventure. The soft-lock item demands and the desert thirst are the caveats.

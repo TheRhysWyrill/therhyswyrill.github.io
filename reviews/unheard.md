@@ -6,22 +6,22 @@ permalink: /reviews/unheard/
 verdict: "recommended"
 platform: "PC"
 release_year: 2019
-genre: "Puzzle, Strategy"
+genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Auditory investigation transforms detective work into a purely sonic puzzle, rewarding patient listeners with complex, multi-layered narratives that defy traditional visual genre conventions."
+summary: "An acoustic detective game that solves crimes purely by listening, with an audition that mirrors a real heist."
 image: "/assets/img/reviews/unheard.webp"
 ---
 
-Unheard constructs a detective mystery where the screen remains devoid of visual evidence, forcing reliance entirely upon spatial awareness and dialogue to uncover hidden truths. Players navigate past events through an acoustic detective system, meticulously scrubbing through audio timelines to distinguish voices and interpret the ambient noise defining each crime scene.
+Unheard is an acoustic detective game in which crimes are solved purely by listening to past conversations on a rewindable top-down map. Moving between rooms and replaying scenes lets every voice be matched to a named suspect.
 
-Listening to overlapping conversations requires genuine concentration as the audio-processing system allows seamless movement between rooms without interrupting the narrative flow. Tracking individual characters across these busy sonic landscapes often feels cumbersome, particularly when multiple agendas converge simultaneously within a single room, creating a complex web of overlapping clues.
+Voice matching is the core mechanic, with sixteen sound sources that must each receive the correct name before a case closes. Multiple-choice questions then interrogate the sequence of events, such as who held stolen chips and in what order.
 
-Core progression revolves around identifying specific voices and connecting them to key actions or locations, which effectively gates advancement behind the player's deductive capabilities. These sessions reward curiosity and thoroughness, as one must piece together disparate fragments of dialogue to verify the identity of culprits and reconstruct the chaotic sequence of events.
+The Lethal Script DLC is considerably larger than expected, running well past twenty minutes. Its premise, in which actors auditioning at a hotel rehearse a script that mirrors a real drug deal gone wrong, creates a genuine puzzle of duplicate people and voices.
 
-Atmospheric tension permeates the investigation, with the slightly unsettling tone of the acoustic system providing a perfect backdrop for the high-stakes crime-solving gameplay. The narrative weaves intricate plots where character motives remain obscured until the listener manages to isolate critical testimony, ensuring the mystery evolves naturally at a self-determined pace.
+The overlap between actors and criminals is the central confusion, with the same voices appearing in both the rehearsal and the real events. Mapping actors to their roles while the game tracks progress through its question system keeps the mind fully occupied.
 
-Managing the vast influx of names, voices, and evidence periodically becomes overwhelming due to the lack of robust internal note-taking tools. Navigating these data-heavy sequences demands significant mental effort, leaving those who struggle to organise the auditory information feeling occasionally lost amidst the sheer density of the collected evidence.
+The game allows brute force on the final answer, which becomes useful when the intended deduction path stays obscure. The closing reveal lands as a highlight once the final answers fall into place.
 
-Final sequences provide an abrupt resolution that leans into abstract territory, which may leave some players questioning the specific identity of their silent protagonist. This departure from the established investigative rigour fits the mysterious tone of the proceedings, even if the sudden shift in focus diverges from the grounded logic of previous cases.
+Voice acting carries the entire experience, with the game demanding close listening throughout. One DLC in the bundle was not available in English, though the version played had full English support.
 
-Overall, the audio investigation mechanics provide a distinctive loop that constantly challenges the player to rethink traditional detective tropes. Mastering the intricacies of the timeline rewards patience with a uniquely satisfying sense of clarity, confirming that sound serves as a potent tool for unravelling even the most tangled of criminal puzzles.
+Overall, puzzle design is the defining strength, turning pure audio into a deductive challenge unlike anything else. The unique acoustic-detective premise makes this a very cool game.

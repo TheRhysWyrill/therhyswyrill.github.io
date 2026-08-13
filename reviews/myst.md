@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2021
 genre: "Adventure, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Intricate environmental riddles demand manual note-taking and careful observation, resulting in a uniquely intellectual journey where discovery remains the primary engine for progress."
+summary: "A cryptic island of linked worlds whose age variety, sound design and 2021 remake polish keep the classic fresh."
 image: "/assets/img/reviews/myst.webp"
 ---
 
-Myst anchors itself in a profound sense of isolation, tasking participants with deciphering a deserted island's history through silent, atmospheric environmental cues. Every decaying structure and strange mechanism serves as a vessel for narrative information, compelling one to map out the connections between disparate locations without any explicit guidance.
+Myst is an adventure puzzle game from Cyan, stranding the Stranger on a deserted island of linking books and four writable Ages. The complete run solved every age, including the bonus Riven age added to the 2021 remake by a later update.
 
-Manual note-taking and the diligent capture of screenshots become essential habits for anyone attempting to unravel the layers of this island mystery. Treating the experience as a collaborative puzzle between the developer and the participant removes the reliance on hand-holding, fostering a deep sense of ownership over every hard-won discovery.
+The four Ages each build a distinct world, from Mechanical's clockwork and tower keys to Stoneship's flooded tunnels and generator. Channelwood routes water through its tree-dwelling pipes, while Selenitic leans on sound cues and a compass maze.
 
-Pacing remains deliberate and slow, allowing the distinct characteristics of each age to seep into the consciousness as one investigates every corner. Cryptic messages from the imprisoned brothers add a layer of distrust to the exploration, effectively driving the curiosity required to persist through the game's more inscrutable logical challenges.
+The brothers' conflicting accounts are the story's engine, with each trapped son pleading for pages and accusing the other. The distrust built into their testimony is the design working as intended, and the choice structure branches into three endings.
 
-Integrating brilliant mechanical patterns into the world makes the act of solving riddles feel like an extension of the exploration rather than a separate chore. Audio cues and subtle environmental details often hold the keys to progression, rewarding those who slow their pace to listen and look beyond the immediate surface.
+The 2021 remake smooths the old friction with free 3D movement, a sprint toggle and an in-game photo mode. Both pages can now be collected in a single run, a genuine fix over the original's forced replays.
 
-Navigation and interaction occasionally struggle against older design philosophies that make simple tasks feel needlessly arduous or unintuitive. Artificial friction manifests in moments where doors must be shut to access specific switches or levers operate on tight timers, creating minor irritations that briefly distract from the overarching sense of immersion.
+The game stays deeply cryptic, with interactive-but-flavourful objects making it easy to feel overwhelmed. The Selenitic tone keypad's controls are the low point, and the Riven-age lens puzzle proves the least-liked of the set.
 
-Tedious mazes and trial-and-error switch flipping occasionally interrupt the flow, prioritising repetitive busywork over the logical deduction found elsewhere. These specific segments can feel excessively vague, yet the frustration surrounding these hurdles is consistently tempered by the profound satisfaction of finally cracking the sequence and pushing forward once again.
+The sound design is a quiet strength, with directional pings and running-water cues carrying much of the navigation. The writing load is heavy throughout, with the journals reading more like a novel than a game log.
 
-Overall, the puzzle design provides a landmark experience that asks the player to treat their own brain as the primary inventory system. Navigating the clunky interface becomes a secondary concern when contrasted against the reward of piecing together the narrative, ensuring that those who embrace the non-linear structure find a uniquely immersive journey.
+Overall, the age variety, the sound design and the remake's quality-of-life work make this a very good game. The cryptic density and the Riven-age lens puzzle are the main caveats.

@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2026
 genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "This mature investigative mystery excels by transforming the player into a genuine detective through tactile clue reconstruction and an engrossing, interconnected web of betrayal."
+summary: "A 1979-set deduction game where clue collection and notebook reconstruction reveal an interlocking showbiz conspiracy."
 image: "/assets/img/reviews/confidential-killings.webp"
 ---
 
-Confidential Killings anchors its grim narrative within the backstabbing circles of theatre and media during the winter of 1978. Every case demands sharp observation as players sift through deceptive texts to uncover the web of illicit drug trade and betrayal defining these interconnected, adult mysteries.
+Confidential Killings is a noir investigative adventure set in 1979, where a string of murders across showbiz circles keeps linking together. The deduction loop of clicking underlined clue words and reconstructing each crime in a notebook drives the whole game.
 
-Clicking on underlined keywords provides a tactile investigative loop that rewards mental acuity and careful deduction. Reconstructing chaotic events within the notebook interface feels profoundly gratifying, especially when the disparate pieces of evidence finally align to reveal the sinister truth hiding behind the glamour of the late seventies.
+The structure owes a clear debt to The Case of the Golden Idol, with a more serious tone than the Duck Detective comparisons suggest. Each case links to the next, from a sabotaged car crash and a poisoned drink to an electrocuted DJ and a mass poisoning.
 
-Drenched in a cohesive, melancholic aesthetic, the visual presentation perfectly matches the sombre tone of your enquiries. Sparse, moody musical accompaniment further elevates the cool atmosphere, ensuring the player feels fully immersed in the high-stakes work of a gritty investigator operating in a world of constant moral compromise.
+The cases span the theater, the radio station, the Disco Venus and the Ad Astra centres, each with its own cast of suspects. A distinctive drug and the stamped CK letters tie the disparate crimes into one conspiracy.
 
-Navigating the various menus occasionally creates minor friction, particularly when one needs to retreat from dense files or complex logs. These unintuitive interface interactions briefly stall the momentum, yet they pale in comparison to the intellectual stimulation found when successfully deciphering the motivations of the numerous, recurring characters.
+The cases feed one overarching conspiracy, with the final dossier documents assigning every figure a role in the scheme. The pyramid-of-power dossier gives the closing stretch a satisfying sense of convergence.
 
-Recurring individuals across disparate files can complicate your mental record-keeping, occasionally forcing a tedious review of established evidence. While such hurdles transform the investigative process into a taxing mental workout, the narrative complexity ensures that every resolved case feels like a significant triumph over the obfuscating lies of suspects.
+The aesthetic and the sparse music both land well, and the modest presentation should run on almost any hardware. The closing epilogues narrate the fate of every surviving character, rounding the story out neatly.
 
-Meta-textual humour occasionally emerges when characters remark upon the mediocre quality of dialogue written by their peers within the story. Such clever flourishes add an amusing layer of depth to the investigation, reminding us that even the most serious inquiry into murder can benefit from a sharp, self-aware wit.
+The translation has rough edges, with misspellings and odd sentence structures, and the length falls far short of the advertised six to eight hours. Solving cases sometimes devolves into brute force, and character names do not carry over between cases.
 
-Overall, this mature mystery provides an exceptionally satisfying experience for anyone who values the meticulous process of piecing together complex, grounded stories. Its brilliant puzzle structure successfully honours the intellect of the player, resulting in a journey that is both challenging and deeply rewarding for those seeking a professional detective adventure.
+Overall, the deduction loop and the layered conspiracy carry the game past its rough edges. The strong case construction and the neat character epilogues make it an easy recommendation.

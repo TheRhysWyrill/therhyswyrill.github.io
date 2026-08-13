@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Call of Duty: Vanguard"
 permalink: /reviews/call-of-duty-vanguard/
-verdict: "not-sure"
+verdict: "recommended"
 platform: "PC"
 release_year: 2021
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Satisfying weapon audio and engaging character-focused flashbacks provide brief moments of brilliance, yet technical instability and unreliable artificial intelligence make this a difficult campaign to recommend."
+summary: "A WWII campaign built around five characters with unique abilities, undone by a slow pace and an ad-heavy menu."
 image: "/assets/img/reviews/call-of-duty-vanguard.webp"
 ---
 
-Call of Duty: Vanguard experiments with a fragmented narrative structure by utilising flashback sequences to explore the origins of its ensemble cast. These disparate accounts shift between theatres of war like Stalingrad and the Pacific, offering varied environments that attempt to inject historical weight into an otherwise standard military production.
+Call of Duty: Vanguard frames its WWII campaign as a captured team being interrogated in Berlin, with each flashback revealing a character's origin. Only two missions take place in the present day, the opening train hijack and the finale, so the campaign runs almost entirely on recollection.
 
-Gunplay feels exceptionally punchy, bolstered by satisfying weapon audio that maintains immersion even when the surrounding design falters. Modern quality-of-life additions, such as the ability to reload whilst aiming down sights, streamline the frantic exchanges and represent a clear, welcome refinement to the core loop of this long-running action series.
+Playing each of the five characters with a unique ability is the campaign's best idea, and the final mission rotates through all of them. Wade's focus ability effectively aims at enemies, while Lucas's grenade-aiming preview makes throws easy to plan.
 
-Inconsistent artificial intelligence companions frequently undermine these high-octane moments by ignoring immediate threats or failing to execute essential tactical manoeuvres. Watching squad members behave erratically makes the limited command system feel undercooked, transforming what should be cooperative military synergy into a solo endeavour against a backdrop of unhelpful, bumbling allies.
+The Midway flight mission stands out, a Dauntless dive-bomber sortie against the carriers with a big red marker for each target. The flamethrower and the STG44 are the weapons that impress most, with the assault rifle earning praise for its look and sound.
 
-Movement feels clunky whenever players attempt to utilise peeking or mounting mechanics, largely due to unclear user interface cues. Trial-and-error frustration often dominates these segments, especially during forced stealth encounters or unfair instant-death spikes involving enemy dogs, which disrupt the flow and sour the momentum of the otherwise linear progression.
+Movement speed is a constant complaint, with the campaign forcing a slow pace throughout. The double-press sprint is a particular irritation, when a single press would do the same job, and the stealth missions compound it by making sprinting alert nearby enemies.
 
-Technical stability remains a significant cause for concern, as a catastrophic blue screen crash resulting in lost progress highlights underlying reliability flaws. Minor visual bugs and unnatural animations frequently break the illusion, with characters occasionally getting stuck on environmental geometry or appearing stiff during the transition between gameplay and cutscenes.
+The menu UI is the other sore spot, an advertisement wall for the publisher's other titles. Sledgehammer's recurring dog kills return, including an instant-kill dog that feels wildly unfair.
 
-Promotional clutter within the user interface constantly reminds the player of other titles, creating an intrusive barrier that detracts from the intended wartime atmosphere. Navigating these menus is an exercise in annoyance, proving that the presentation requires a more focused, respectful approach to maintain the integrity of the solitary player experience.
+Paulina's sniper ability is situational, mostly drawing enemy fire, while Arthur's is cool but limited. Friendlies lack a green outline, which caused repeated friendly-fire accidents during the chaos, and the focus ability's long recharge limits its usefulness.
 
-Overall, this entry offers an enjoyable diversion for enthusiasts who prioritise presentation and weapon feedback over technical polish or depth. Whether it proves worth playing largely depends on your tolerance for bugs and unreliable systems, making this a release best approached as a spectacle that occasionally misfires during its most critical moments.
+Overall, the character abilities and the final mission make Vanguard's campaign better than its reputation. The slow movement, the UI and the flashback-heavy structure are the main caveats.

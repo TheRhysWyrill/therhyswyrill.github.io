@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Broken Pieces"
 permalink: /reviews/broken-pieces/
-verdict: "recommended"
+verdict: "not-sure"
 platform: "PC"
 release_year: 2022
-genre: "Adventure, Puzzle"
+genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Haunting atmosphere and inventive seasonal manipulation turn this mystery into a memorable investigation, despite significant technical instability and unpolished combat mechanics that demand patience."
+summary: "A time-frozen French coastal village frames a strong mystery and atmosphere, undermined by janky combat, crashes and indoor pacing friction."
 image: "/assets/img/reviews/broken-pieces.webp"
 ---
 
-Broken Pieces establishes a haunting presence within the decaying coastal village of St. Exel, where every shadow tells a story of sudden abandonment. This isolated setting provides a consistently immersive backdrop that draws players into a slow-burn mystery involving a vanished population and a fanatical, sinister religious cult.
+Broken Pieces is a psychological thriller set in a French coastal village frozen outside the flow of time, where Elise searches for answers after everyone vanishes. The loop mixes exploration, power restoration, journal and tape collection, puzzle tables and fights against phantom enemies that hunt at night.
 
-Manipulating weather patterns between seasons serves as the primary engine for solving intricate environmental puzzles throughout the village. These clever interactions require careful observation of the surroundings, rewarding inquisitive explorers who take the time to piece together the town's fragmented history through scattered cassette tapes and forgotten documentation.
+The story mystery is the highlight, with a cult, a lighthouse and an undersea presence woven through journals and tapes. The time-freeze premise keeps the investigation engaging, and the story of Elise and her partner Pierre anchors the search in the emptied village.
 
-Combat encounters unfortunately introduce significant friction, as the janky mechanics and imprecise hitboxes frequently result in undeserved deaths. Relying on a mix of firearm usage and energy-based repulsion, the skirmishes feel unpolished and struggle to match the high quality of the architectural exploration found in quieter, more contemplative moments.
+The village staging carries real atmosphere, with sea columns described as gentle giants and a sea organ turning waves into music. Memory sequences tied to the couple's story offer some of the most affecting moments.
 
-Frequent technical instability plagues the experience, with the game engine showing a frustrating tendency to crash without warning during intense battles. Such inconsistency makes navigating the village feel like a gamble, especially when the lack of optimization forces players to endure sudden, jarring interruptions that break the carefully cultivated tension.
+Combat is the main problem, janky in execution with dodging that fails against certain attacks and leaves lingering hitboxes. The gun only comes out in specific situations, making the whole system feel bolted on and barely used.
 
-Movement feels surprisingly restricted due to the developer's choice to omit a permanent sprint button outside of scripted sequences. This deliberate pacing decision forces a slow, methodical approach to traversing the map, which enhances the feeling of dread but also exacerbates the annoyance of backtracking when restoring power to different sectors.
+Two crashes struck during the run, both after dodging, and the inability to sprint indoors makes buildings tedious to cross. Crafting is under-explained, with high-quality ammo limited to one batch a day and inventory space constantly tight.
 
-Disconnected mini-games appear throughout the adventure to break up the rhythm, yet these diversions often lack the depth of the central logic challenges. Although they provide a momentary shift in focus, their occasional difficulty spikes can feel disconnected from the primary goal of unraveling the secrets of this frozen-in-time community.
+Some puzzle tables overwhelm through sheer volume, with one demanding an absurd number of marbles, and a winter-area block puzzle seems genuinely unsolvable. The pressure to be home before nightfall adds stress, and the finale's tape-decryption sequence is convoluted.
 
-Overall, St. Exel provides a fascinating stage for an atmospheric thriller that succeeds despite its rough edges. Players who value intricate environmental design and clever puzzle-solving will find the mystery compelling enough to tolerate the mechanical awkwardness, provided they remain prepared for the occasional technical catastrophe lurking beneath the surface.
+Overall, mystery and atmosphere make Broken Pieces a story worth digging into despite the rough edges. Janky combat, crashes and pacing friction keep the overall verdict uncertain.

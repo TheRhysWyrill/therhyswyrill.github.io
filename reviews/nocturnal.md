@@ -6,22 +6,22 @@ permalink: /reviews/nocturnal/
 verdict: "recommended"
 platform: "PC"
 release_year: 2023
-genre: "Action, Platformer"
+genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Burning resources to stave off a life-draining fog defines this intense adventure, where fire acts as both a protective shield and an offensive necessity."
+summary: "A tight action platformer whose fire-as-heal-and-weapon identity and empowered mid-game state carry the run."
 image: "/assets/img/reviews/nocturnal.webp"
 ---
 
-Nocturnal centres upon a soldier returning to a home island choked by a mysterious, life-draining mist that forces players to treat fire as their primary survival tool. Balancing this singular, precious resource between healing, defensive protection, and aggressive combat creates a perpetual state of urgency throughout the entire high-intensity journey.
+Nocturnal is a platformer from Sunnyside Games, sending the soldier Ardashir to the Mist-shrouded island of Nahran in search of his missing sister. The complete run finishes in about two hours and fifteen minutes, with level selection opening the island afterwards.
 
-Combat engagements remain tight and focused, though the limited three-hit strike combo lacks deeper move sets for those seeking complex offensive variety. Occasional frustration stems from the interaction between jumping and attacking, which can sometimes result in unintended movement during the more demanding precision platforming sequences found across the island.
+Fire is the heart of the design, with the sword igniting to burn away the Mist, light braziers and destroy otherwise-invincible enemies. The same flame heals when held, making the destructive force double as the healing resource.
 
-Lighting altars throughout the island provides the necessary currency to acquire tangible upgrades, rewarding players with significant boosts to health and utility. These upgrades feel meaningful, directly improving combat effectiveness and traversal speed without ever cluttering the streamlined progression path that keeps the momentum moving forward at a consistent pace.
+The flame economy shapes every room, with the fire draining over time and water dousing it completely. One-time torches re-light the sword, and inside the Mist the choice between healing and keeping the flame for combat is constant.
 
-Scattered scrolls and letters provide sufficient narrative context, though the story often feels secondary to the constant pressure of managing a flickering flame. Exploring these grim environments reveals the tragic state of the island, yet the bleak atmosphere ultimately serves as a vehicle to propel the protagonist through diverse hazards.
+The throwable dagger is a joy, with its slow-motion aiming, return-on-impact and ability to break mist bridges and shoot orb-switches. The upgrade shrines stretch the build across fire duration, fire speed, healing and health.
 
-Trial-and-error design choices frequently cause unavoidable deaths in specific rooms where environmental dangers are not clearly signalled before a fatal impact. Such moments feel punitive, forcing repetitive attempts until the path forward is memorised, although the generous checkpointing system ensures these setbacks never transform into a laborious chore.
+The empowered flame state is the highlight, with the infinite flame, air dash and screen-clearing burn turning the mid-game into a power fantasy. The prayer altars and lore pages build the island's mythology through eleven scattered writings.
 
-Unleashing the destructive power of the avatar state provides a fleeting, highly satisfying shift in mobility and damage that highlights the protagonist's hidden potential. While the temporary nature of this power-up feels slightly restrictive, it offers a dramatic change in pacing that complements the otherwise persistent struggle against the oppressive fog.
+The trial-and-error rooms are the main frustration, with falling platforms and hidden traps readable only after a death. The combat stays basic, with the same three strikes carrying most fights and only the fire wave adding options.
 
-Overall, the fire management mechanic sustains a polished, contained loop that respects the player's time while delivering a challenging and atmospheric action-adventure. Mastering the balance between protection and offense provides genuine satisfaction, cementing the journey as an ideal choice for those who value tight, skill-based gameplay within a brief experience.
+Overall, the fire identity, the empowered state and the dagger make this a tight, enjoyable action platformer. The trial-and-error rooms and the basic combat are the main caveats.

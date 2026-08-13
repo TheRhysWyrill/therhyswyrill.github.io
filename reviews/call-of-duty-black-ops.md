@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2010
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Ambiguous Cold War intrigue and relentless mission variety create a definitive, high-stakes military shooter that embraces its narrative instability with remarkable confidence."
+summary: "A Cold War thriller whose interrogation framing, brainwashing broadcasts and mission variety carry a campaign let down only by a busted final QTE."
 image: "/assets/img/reviews/call-of-duty-black-ops.webp"
 ---
 
-Call of Duty: Black Ops plunges players into a surreal interrogation room where the fragmented memories of Alex Mason dictate the progression of a paranoid, biochemical thriller. This mind-bending narrative structure elevates the campaign beyond standard military tropes, utilising auditory hallucinations of numbers to constantly challenge the protagonist’s sanity.
+Call of Duty: Black Ops is the 2010 Cold War thriller that runs interrogation framing, brainwashing broadcasts and a Kennedy-era plot through its campaign. The story's central trick pays off handsomely, with a reveal that recontextualises everything before it.
 
-Shifting locales from the humid jungles of Vietnam to the snow-covered facilities of the Soviet Union ensures the pacing never stagnates throughout the journey. Designers packed the experience with diverse mission types, allowing for fluid transitions between traditional infantry firefights, clandestine stealth operations, high-speed vehicle sequences, and tense aerial reconnaissance.
+Mission variety is a highlight, with the SR-71 command segment switching between the spy plane and the ground squad below. A Hind helicopter run, an underwater escape, rat tunnels and the Vorkuta uprising keep the structure unpredictable.
 
-Tactical superiority feels rewarding when deploying specific weaponised implements such as the dragon’s breath shotgun shells or requesting precise air support during desperate set-piece battles. These tools grant a sense of overwhelming power that complements the grittier, darker tone established by the franchise at this particular historical juncture.
+For a 2010 release the game looks strong, with upscaled textures and music that lands in the big moments. The final firefight and the drowning escape close the campaign with genuine tension, and the grim sequences carry real weight.
 
-Occasional technical anomalies unfortunately arise, reminding observers that the architecture powering this operation is showing its age. Players might encounter persistent frustrations such as the main menu failing to display the resume option, or scripted events like ziplines inexplicably vanishing, which necessitate minor workarounds to maintain the flow.
+Sympathy for the Devil over the credits is so odd it earns affection, and the post-credits zombies sting is a smart hand-off. The ending structure keeps momentum after the main story closes.
 
-Hostile combatants display erratic tendencies, alternating between providing a competent challenge and exhibiting baffling, abrasive behaviour on the field. Instances where allies or foes physically shove the protagonist away from mounted weaponry highlight an inconsistency in the intelligence of these digital participants, often dampening the intensity of otherwise exhilarating shootouts.
+The final confrontation is badly broken, with the controller refusing to work for the finishing move and forcing a switch to keyboard and mouse mid-fight. Grenade spam and occasional jank, from floating around to getting stuck on geometry, mark the rougher edges.
 
-Subtitles suffer from an intrusive censorship filter that restricts both graphic descriptions and profanity, which can prove distracting during the most visceral narrative revelations. Furthermore, the lack of native controller support within the interface makes navigating menus clunky, forcing a reliance on keyboard inputs despite a functional, if imprecise, aiming scheme during gameplay.
+A stray grenade can kill a squadmate with surprising damage, and bugged tools and shovelling NPCs add to the jank throughout. None of it derails a campaign that stays strong, with the brainwashing plot and the frame narrative holding the thread together.
 
-Overall, those seeking an ambitious military shooter that successfully balances relentless action with bizarre storytelling will find themselves thoroughly engaged. By prioritising thematic variety and a haunting atmosphere over absolute mechanical polish, the campaign secures its status as a memorable, high-octane excursion through the shadows of the Cold War.
+Overall, story, mission variety and presentation make Black Ops a high point of the series. The busted final QTE and grenade-heavy encounters are the only real blemishes.

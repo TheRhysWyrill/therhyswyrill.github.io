@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2019
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Delightful combat and a constant loop of rewarding gear acquisition make this charming action RPG an essential experience for those seeking polished, accessible dungeon crawling."
+summary: "A ten-hour action RPG whose dual-character combat and endless cat-and-dog puns make it more of the same in the best way."
 image: "/assets/img/reviews/cat-quest-2.webp"
 ---
 
-Cat Quest II presents a delightful, feline-centric odyssey that masterfully balances breezy action with a rewarding loop of constant character refinement. Propelled by a prophecy involving two kings and a great evil, the adventure unfolds within a lighthearted world where cats and dogs represent distinct, culturally rich empires.
+Cat Quest II gives the player two playable characters, a cat and a dog, each with separate armour sets and spells, and swapping between them mid-fight is a constant pleasure. The two-kingdom world, with the feline kingdom and the Lupus Empire separated by a wall, doubles the pun potential of the first game.
 
-Navigating this charming landscape feels effortless as the vibrant visual design and persistent humour consistently enhance the cohesive atmosphere. Players manage a dynamic duo, alternating between feline and canine heroes to experiment with various loadouts that define the combat rhythm through distinct melee or magical ability sets.
+The cat-and-dog puns are the best part, from the hot dog quests to Caesar Salad as a villain and the Doge Knight parody. The gentle bros developer cameo returns with fourth-wall quests that spawn NPCs and take over the music.
 
-Real-time battles demand sharp reflexes, requiring participants to master dodges while strategically deploying elemental magic to dismantle enemy defences. This core gameplay loop remains exceptionally satisfying throughout the journey, successfully encouraging aggressive playstyles that ensure encounters rarely lose their momentum, despite occasional friction caused by specific elemental immunities or resistances.
+Combat is fast and satisfying, with dodge-rolling and red telegraphs, and it plays well even on a keyboard. Water walking opens up the entire world, and the regenerating heal spell proves more potent than the first game's version.
 
-Exploration frequently takes precedence over the primary narrative, as the non-linear structure invites players to stray from the path to uncover hidden treasures. Side quests and optional dungeons serve as a primary engine for advancement, allowing one to accumulate loot and experience far beyond what the central plot demands.
+The cactus enemies are the biggest frustration, endlessly sending off fireballs. The optional Cthulhu fight crashed once, and the cactus mother boss heals herself constantly and can one-shot the player.
 
-Input precision remains a critical consideration, as the keyboard-based control scheme lacks the fluidity required for the most intense magical exchanges. While perfectly functional for casual play, switching to a dedicated controller noticeably minimises avoidable errors and allows for a more intuitive mastery over the dodge and attack mechanics.
+Slow early travel is the other wish, with a huge map and no run button beyond the natural pace. The map cannot zoom out, new quests are not flagged, and there is no quick exit from dungeons.
 
-Repetitive structures occasionally surface during lengthy quest chains, particularly when backtracking to familiar locations becomes a mandatory requirement for progress. Furthermore, the absence of direct, early-warning labels for opponent levels creates sudden difficulty spikes in uncharted regions, occasionally turning an adventurous stroll into a desperate test of one's current combat preparation.
+The game levels the player at a rapid pace, reaching over twenty levels in the first two hours, and ten hours of content feels complete. The ending teases a third game in the series, a surprise for a story that seemed finished.
 
-Overall, this action-packed title succeeds as a remarkably polished experience that values fun above all other design considerations. Anyone who enjoys hunting for legendary armour sets or clearing optional dungeons will find themselves quickly hooked by its simple yet addictive progression systems and the undeniably charming world design.
+Overall, the dual-character combat and the expanded pun world make Cat Quest II a fantastic follow-up. The projectile-spam enemies and the slow early travel are the main caveats.

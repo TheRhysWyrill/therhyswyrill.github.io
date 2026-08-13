@@ -42,3 +42,4 @@ jekyll-theme-type-on-strap.gemspec
 test/*
 /type-on-strap*/*
 Reviews Drafts.txt
+/review-pipeline

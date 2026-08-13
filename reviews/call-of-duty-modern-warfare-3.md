@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2011
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Relentless global conflict drives this cinematic shooter, delivering high-stakes spectacles and varied tactical support despite punishing grenade-heavy encounters and occasional visual clutter."
+summary: "A trilogy closer whose committed character deaths and varied missions outweigh unskippable credits and muffled audio."
 image: "/assets/img/reviews/call-of-duty-modern-warfare-3.webp"
 ---
 
-Call Of Duty: Modern Warfare 3 propels players into a desperate global conflagration where the world burns like a giant tinder box. International borders blur as missions rapidly shift across continents to maintain a harrowing sense of scale and urgency throughout the entirety of this high-octane military adventure.
+Call of Duty: Modern Warfare 3 closes the original Modern Warfare trilogy, resolving the long-running antagonist arc that earlier entries established. The campaign spans a Prague stronghold, a Siberian diamond mine and a closing rooftop confrontation, with each stretch offering a distinct flavour.
 
-Commanding remote assets such as Predator drones and unmanned ground vehicles introduces a satisfying layer of destructive authority during large-scale exterior skirmishes. These moments of technical superiority effectively complement the tight interior firefights that require precision shooting and constant awareness of one's surroundings in cramped, hostile environments.
+The campaign commits to its character deaths, giving the losses real weight instead of walking them back. The London attack scene is the early shock, a civilian family caught in a sudden truck blast that lands with unexpected force.
 
-Visual density occasionally complicates target acquisition, causing enemies to disappear into background clutter during the most chaotic, explosive confrontations. Such moments of confusion are further exacerbated by an aggressive enemy artificial intelligence that relies heavily on a constant deluge of grenades to overwhelm any defensive positioning one establishes.
+The Prague stronghold infiltration is the standout, its stealth approach aided by night vision that highlights enemies for easy tracking. The predator-drone sections are a welcome freedom, their cooldown short enough to use at will.
 
-Friendly combatants unfortunately display inconsistent behaviour, frequently failing to engage targets or provide necessary cover when the pressure mounts. Scarcity of ammunition creates additional hurdles, necessitating frequent scavenging that disrupts the otherwise seamless flow of combat and forces players to abandon favoured weapon loadouts for whatever remains discarded nearby.
+The campaign revisits the airport massacre from the previous game from a new angle, with the sniper unable to take the shot. The relived scene gains weight from that earlier context without reusing it wholesale.
 
-Keyboard and mouse inputs are functional despite a somewhat awkward initial adjustment period regarding specific key placement. While the absence of native controller support on this version remains a strange omission, the controls prove sufficiently intuitive to master as the campaign progresses towards its explosive, cinematic final set-pieces.
+The credits run for thirty minutes with no skip option, an unwelcome end to the campaign. A recurring muffled-audio bug dulls the gunfire, and some Berlin street fights leave the source of incoming fire unclear.
 
-Narrative threads weave complex connections through unexpected character crossovers and echoes from previous entries that reward long-time followers of the franchise. Even when the plot relies on convenient developments to justify moving the action to the next international locale, the stakes remain convincingly high for the duration of hostilities.
+The story's conclusion is the strongest part, finally following through on the consequences the series built across multiple games. The finale's confrontation carries genuine weight, the writing willing to commit to its ending.
 
-Overall, this relentless blockbuster campaign succeeds by capitalising on its sheer momentum and variety of combat scenarios. Fans of linear, fast-paced shooters will find plenty of enjoyment in the spectacular scope of this global crisis, provided they are prepared to endure the occasionally punishing nature of its design.
+Overall, mission variety and the story's willingness to commit make Modern Warfare 3 a strong end to the trilogy. The unskippable credits and muffled audio are minor blemishes on a satisfying conclusion.

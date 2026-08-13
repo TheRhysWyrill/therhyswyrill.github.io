@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2023
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "High-speed vertical parkour merges with aggressive gunplay, turning every firefight into a fluid ballet of movement and resource-heavy executions within a bleak industrial setting."
+summary: "A first-person movement shooter whose wall-running, bullet time and satisfying guns carry a stylish five-hour campaign."
 image: "/assets/img/reviews/sprawl.webp"
 ---
 
-SPRAWL establishes a kinetically charged atmosphere where fluid wall-running and parkour mechanics define the rhythm of every encounter. This movement-focused approach mirrors the verticality of modern action titles whilst retaining the aggressive, gun-heavy sensibilities of classic boomer shooters within a cold, oppressive walled city that remains visually striking throughout the campaign.
+SPRAWL is a first-person movement shooter in which a cyborg soldier escapes a walled megacity through wall-runs, slides and chained jumps. The campaign casts SEVEN, an exiled former soldier and former crown jewel of the corporate government, under the guidance of the disembodied AI FATHER.
 
-Players initiate a visceral stun-and-execute loop that necessitates constant aggression to maintain essential resource levels during combat. Utilising adrenaline triggers a bullet-time effect that simplifies targeting headshots, a crucial strategy when engaging elusive ghost enemies who would otherwise prove insurmountable amidst the relentless chaos of these dense, high-stakes industrial arenas.
+The movement is the core draw, with wall-running and bullet time making every firefight flow like a parkour run. The shotgun's jump-boost trick adds a layer of technique on top of an already smooth, satisfying system.
 
-Impactful ballistics ensure that utilising the shotgun or rail gun provides a palpable sense of destruction against swarming adversaries. Intense, thumping tracks amplify this aggression as they escalate in tandem with the action, driving the player forward through tight corridors while reinforcing the weight behind each successful trigger pull.
+The guns feel great, with headshots and overkill executions delivering consistent satisfaction. The weapon variety spans pistols, SMGs, a chain gun, grenade launcher, rail gun and the standout shotgun, with the pistols also earning praise.
 
-Visual presentation remains consistently impressive through the clever fusion of retro pixelated assets with advanced lighting and modern reflection techniques. Such an aesthetic choice grounds the bleak, industrial environment, creating a distinct look that elevates the bleak architecture without sacrificing the high frame rates essential for such frantic, fast-paced sequences.
+The retro pixel aesthetic is elevated by its lighting, with reflections making the world look far better than the low textures suggest. The soundtrack intensifies with the action and is one of the game's strongest assets.
 
-Environmental hazards and excessive enemy counts occasionally transform final boss encounters into sources of acute frustration rather than testbeds for skill. These late-game spikes disrupt the established flow, as precision often yields to the necessity of jump-spamming through tight platforming constraints that feel slightly at odds with the earlier, more refined challenges.
+The final boss is the biggest complaint, turning the game into a bullet hell with excessive health on every element of the fight. The chapter-two water boss is similarly undermined by toxic water that drains health constantly.
 
-Dialogue and narrative threads remain minimal, functioning purely as a backdrop for the central loop rather than demanding deep intellectual engagement. Prioritising action over complex plotting allows the kinetic flow to take centre stage, ensuring that the primary focus stays locked onto the mechanics rather than any secondary expositional elements.
+Sentry bots hit far too hard for no real reason, and the invisible ghost troops demand constant attention or they are missed entirely. The Spire's platforming is finicky, and the chain gun slows movement so much it is rarely worth carrying.
 
-Overall, the movement mechanics and combat loop provide a consistently satisfying foundation that thrives on sheer adrenaline and style. Mastering the aggressive execution system turns every dense combat arena into a playground for high-speed manoeuvre, successfully delivering an intense experience that highlights the potential of its kinetic and fluid foundation.
+Overall, the movement, the guns and the style form an incredible-value shooter that plays beautifully. The five-hour length and the boss design are the only genuine missteps in an otherwise awesome package.

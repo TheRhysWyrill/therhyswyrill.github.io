@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2023
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Weaving domestic tragedy with the visceral horrors of trench warfare, this psychological experience utilises oppressive soundscapes to ground its harrowing investigation of generational trauma."
+summary: "A World War I psychological horror whose epistolary family drama and authentic atmosphere carry it through a dark, personal story."
 image: "/assets/img/reviews/ad-infinitum.webp"
 ---
 
-Ad Infinitum creates an oppressive atmosphere where the visceral horrors of World War I trenches collide with the metaphorical rot of a fractured family estate. Distorted audio from wax cylinders and the heavy, rhythmic thud of boots anchor the psychological tension throughout this haunting exploration of a soldier's internalised warfare.
+Ad Infinitum is a first-person psychological horror set in World War I, moving between the Western Front's trenches and a decaying family manor in Berlin. Paul von Schmidt, a German soldier haunted by war and family collapse, faces a horror that is more psychological than monster-driven.
 
-Oscillating between these two distinct locations fosters a layered mystery that reveals the tragic history of the von Schmidt lineage through fragmented documents. Instead of relying on heavy exposition, the narrative relies on environmental clues that encourage players to piece together the truth behind persistent generational trauma.
+The story is the game's strongest feature, told through letters, diaries, medical files and newspaper clippings that piece together a family tragedy. The chapter structure maps each section to a different family member, giving the horror a clear emotional shape.
 
-Stealth sequences demand careful sound management while avoiding threats rather than engaging in direct combat or frequent monster encounters. Navigating these claustrophobic environments requires balancing inventory items like acids or keys, though specific sequences occasionally suffer from unpolished flashlight mechanics that impede progress during intense, high-pressure moments.
+The atmosphere is authentic, from wax-cylinder audio that cuts out during a spiritualist séance to visuals that look strong throughout. The music adds an aura of mystery, and the volume of written lore rewards close reading.
 
-Forced pacing sequences occasionally disrupt the flow, while the camera system can feel strangely disconnected from the protagonist's physical presence during complex traversal. Early hours often feel needlessly frustrating due to obscured gamma settings and unclear interaction requirements, which frequently hide vital gameplay elements within the encroaching, heavy darkness.
+Chapters close on confrontations that offer a binary moral choice, with consequences flagged before they are made. The light-fearing creatures behave in learnable ways, from blind patrols to noise distractions, and being caught is not instantly fatal.
 
-Small collectibles like dog tags become needlessly difficult to manage when lighting conditions obscure essential objects within the gloom of the decaying manor. These minor interface hurdles can detract from the immersion, particularly when interacting with essential items that remain hidden from view despite their proximity to the character.
+The default brightness is the game's main irritation, so dark that gamma must be raised to spot collectibles, and no calibration screen exists at launch. The wind-up torch's battery barely lasts seconds, offering little help against the darkness.
 
-Adapting to the game's deliberate design intent eventually shifts early irritation into a genuine appreciation for the psychological depth on display. Mastery of the controls allows the oppressive tone to resonate fully, successfully moving beyond the standard tropes of hallway-based frights to deliver a more significant, lasting impact.
+The mannequin stealth section is a pain point, with two patrol paths running too close together. Grabs by the prosthetic-limb creatures grow annoying, and chase sequences always sound as though they are right behind.
 
-Overall, the atmospheric soundscapes and environmental storytelling establish a powerful, immersive experience that outweighs the finicky interactions or occasionally uneven lighting issues. Navigating this juxtaposition of domestic and battlefield suffering provides a deeply rewarding narrative journey, making it a compelling choice for those prioritising world-building and psychological mystery.
+Overall, storytelling and atmosphere make Ad Infinitum a memorable psychological horror set in the First World War. The brightness problem and the torch's short life are practical frustrations, but the family drama remains the draw throughout.

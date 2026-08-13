@@ -6,22 +6,22 @@ permalink: /reviews/you-will-die-here-tonight/
 verdict: "recommended"
 platform: "PC"
 release_year: 2023
-genre: "FPS, Survival Horror"
+genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A dual-perspective survival horror framework blends top-down mansion exploration with arcade-style first-person combat and meta-narrative squad permadeath loops."
+summary: "A squad's raid on a haunted mansion becomes a fight for survival with a twist that rewrites the story."
 image: "/assets/img/reviews/you-will-die-here-tonight.webp"
 ---
 
-You Will Die Here Tonight seamlessly fuses top-down exploration with visceral, arcade-style first-person shooting to revitalise classic survival horror tropes. Navigating through the haunting corridors of Breckenridge Estate forces players to manage scarce ammunition and first-aid supplies while uncovering a dark biological weapons plot involving corporate simulation protocols.
+You Will Die Here Tonight is a top-down survival horror from Spiral Bound Interactive that wears its Resident Evil influences proudly. An elite police division deploys to Breen Ridge Hall, an abandoned estate, to capture a fugitive who murdered his own family.
 
-Shifting perspective dynamically into first-person combat when encountering infected monsters creates an engaging contrast with isometric environmental navigation. Blasting through threats with shotguns, magnums, submachine guns, and grenade launchers delivers weighty audio and visual feedback that rewards precise marksmanship during tense encounters.
+The combat is the twist, snapping from a top-down view into first-person aiming in the manner of a lightgun shooter. Weapons must be aimed and reloaded, grabs broken, and the camera swings back out the moment the fighting stops.
 
-Permadeath mechanics organically shift control to surviving squad members whenever an officer perishes, carrying over key inventory items and narrative progress. Discovering that these character deaths and meta-textual loops actively recontextualise the overarching mystery transforms early survival panic into a structured, highly engaging investigation.
+The mansion's staff has been turned into shambling horrors, and the keys, codes and puzzles all recall the classic survival horror formula. Permanent death is central: when an operative falls, the run continues as a different squad member, each with their own strengths.
 
-Nostalgic puzzle design emulates classic nineties conventions by requiring players to collect specific keys and solve intricate environmental emblem puzzles. While mathematical clues occasionally feel overly explicit, searching interconnected mansion corridors for hidden pathways keeps the momentum steady despite occasional navigational backtracking.
+One medic brews extra healing kits while an armourer upgrades the squad's weapons, and items and upgrades carry over between runs. Curiosity is punished ruthlessly, with traps, poison gas and bosses able to end a run in seconds.
 
-Fixed movement speeds across different squad members introduce noticeable pacing variations when transitioning between faster and slower officers. Unforgiving boss encounters rely on trial-and-error damage patterns that can cause sudden fatalities, though mastering workbench shortcuts and permanent weapon upgrades drastically improves survival odds.
+The abandoned mansion gradually reveals itself as an elaborate test facility run by a shadowy director. A rogue artificial intelligence guides the escape, and the player's own history is called into question as the truth of the operation emerges.
 
-Clean pixel-art environments merge effortlessly with detailed three-dimensional transitions to maintain visual clarity throughout intense multi-enemy battles. Ambient horror soundscapes and evolving character commentary reinforce a creepy atmosphere, ensuring frame rates remain rock solid even during dramatic environmental lighting changes.
+The final act builds to a confrontation with a monstrous clone of the player character, a direct homage to the Nemesis of Resident Evil 3. At around three hours the game is short, but the seamless blend of two camera styles makes it feel far richer than its size.
 
-Overall, workbench tuning and permanent weapon enhancements transform early survival tension into a fast-paced, deeply satisfying campaign conclusion. Navigating squad permadeath loops alongside arcade shooting mechanics delivers a refreshing hybrid design that constantly rewards clever spatial management and methodical resource conservation.
+Overall, the ingenious blend of top-down and first-person play, the permanent-death structure and the surprising twist make this an easy recommendation. It is a neat, compact horror that lives up to its threatening name.

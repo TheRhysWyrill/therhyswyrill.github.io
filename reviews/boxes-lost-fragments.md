@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2024
 genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Ingenious mechanical dioramas and tactile interactions create a polished, satisfying deduction journey that rewards patience despite occasional frustrations with specific sliding block puzzle resets."
+summary: "An escape-room puzzle-box adventure whose themed chapters stay short, simple and creative, with only sliding blocks and one unresetable puzzle causing real friction."
 image: "/assets/img/reviews/boxes-lost-fragments.webp"
 ---
 
-Boxes: Lost Fragments functions as a masterclass in tactile deduction, drawing heavy inspiration from atmospheric genre staples while carving out its own identity through creative diorama manipulation. Each intricate container serves as a gorgeous playground where mechanical layers unfold, rewarding the observant player with satisfying clicks and reveals upon discovery.
+Boxes: Lost Fragments is an escape-room-style puzzle game in which a legendary thief breaks into a mansion to solve ornate puzzle boxes for an unseen client. Five themed chapters, from Initium to Aurora, hide tokens that piece together a story told through in-game letters.
 
-Manipulation of these shifting modular parts feels remarkably responsive, capturing a sense of physical weight that makes every rotation feel purposeful. Shifting between industrial environments and serene desert temples helps keep the visual journey fresh, ensuring that the act of unlocking hidden compartments remains an enticing, consistent delight throughout play.
+The correspondence traces a scientist building an artificial being, and the closing reveal recontextualises the entire job in a way that lands well. That framing gives the puzzle-solving a narrative payoff beyond the boxes themselves.
 
-Sliding block challenges frequently interrupt this flow, often forcing a desperate restart after one unfortunate move leaves the board in an impossible state. These specific moments of friction highlight a notable lack of intuitive reset options, occasionally turning a thoughtful sequence into a tedious game of accidental trial and error.
+The puzzle-box themes vary from Victorian and mechanical to architectural and ancient, with the industrial, safe-like and temple chapters each feeling distinct. Most puzzles are simple and short, and that simplicity reads as a virtue across the whole run.
 
-Progression remains tightly bound to finding essential keys and tools, which are then expertly repurposed to breach subsequent layers of each complex device. Controlling a small ladybug or interacting with miniature architecture adds refreshing variety to the established loop, providing clever deviations that feel reminiscent of classic isometric perspective games.
+Creative set pieces stand out, from a crane-game sequence to a Monument Valley-style segment and an inverted-mole gem puzzle. The connected-fragments design, where several objects in an area feed one solution, keeps each room cohesive.
 
-Technical demands proved unexpectedly steep, as the high VRAM usage occasionally strained performance despite the seemingly simple art style. While these hardware requirements may surprise some, the overall stability ensures that the core quest to secure the infinite energy source for Aurora continues without any truly catastrophic software failures.
+Sliding-block puzzles are the main friction, easy to back into a corner with and hard to untangle once scrambled. A final-chapter puzzle offers no reset at all, and one number puzzle frustrates through constant misalignment.
 
-Narrative elements remain largely peripheral to the primary focus, offering just enough background flavour to maintain momentum without cluttering the pristine mechanical beauty. Investigating the motivations of the protagonist provides a decent incentive to push forward, yet the joy of twisting brass gears remains the true heartbeat of this adventure.
+The only puzzles likely to stall progress are the random-feeling ones and those that punish mistakes, which fits a generally gentle curve. Comparisons to The Room are apt but flattering, with most of the experience a fair bit simpler.
 
-Overall, this polished experience succeeds by prioritising clever engineering and tangible feedback over complex, unnecessary exposition. Anyone seeking a bitesized, tactile mystery will find plenty to admire here, provided they can stomach the occasional frustration of a poorly designed sliding puzzle when the logic becomes just a little too obtuse.
+Overall, variety, creativity and approachable difficulty make Boxes: Lost Fragments a satisfying puzzle-box adventure. The brief run ends without a credits sequence, yet the short chapters keep the momentum fresh throughout.

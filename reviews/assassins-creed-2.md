@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-22
 game_title: "Assassin's Creed 2"
 permalink: /reviews/assassins-creed-2/
-verdict: "recommended"   # recommended | not-recommended | not-sure
+verdict: "recommended"
 platform: "PC"
-release_year: 2009
+release_year: 2010
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Refined parkour and visceral combat define this Renaissance epic, which excels by grounding historical conspiracy within a vibrant, highly immersive playground."
+summary: "A meaty Renaissance sequel whose fluid climbing, villa economy and iconic set pieces mark a clear step forward for the series."
 image: "/assets/img/reviews/assassins-creed-2.webp"
 ---
 
-Assassin's Creed 2 introduces a monumental leap in traversal fluidity, transforming the often stiff navigation of its predecessor into a seamless dance across Renaissance rooftops. Every leap feels deliberate and precise, grounding the protagonist’s journey within a vibrant, historically evocative landscape that breathes life into every corner of the map.
+Assassin's Creed 2 follows Ezio Auditore across three decades of Renaissance Italy, from the execution of his father and brothers in Florence to his rise within the Assassin order. The campaign moves through Tuscany, Venice and Forlì, framed by the modern-day story of Desmond Miles reliving the memories through the Animus.
 
-Visceral counter-attacks make every engagement feel like a choreographed duel, ensuring that combat provides a satisfying rhythm despite the AI’s occasional propensity to swarm. Whilst the mechanics reward patient timing, the sheer joy of executing a perfectly timed parry consistently balances the challenge with a potent sense of empowerment.
+The climbing is a major improvement over the first game, with far less stiffness in the free running. Renovating Monteriggioni fills the town with people and generates steady income, making the villa economy a genius reward system.
 
-Renaissance architecture serves as more than mere backdrop, offering a densely layered environment that invites constant exploration through its clever glyph puzzles and environmental secrets. These intricate designs weave historical conspiracies directly into the Animus framework, distinguishing the experience from more superficial open-world titles by rewarding genuine curiosity and keen observation.
+The iconic set pieces are among the game's best moments, from the flying machine mission to the carnival assassination and the carriage ride to Venice. Ezio's character growth across the whole game explains why he is regarded as the best character in the series.
 
-Shadow flickering and lighting instability occasionally interrupt the visual splendour, particularly when employing community-made patches to modernise controller support and resolution. Such technical concessions remain an unfortunate reality of revisiting this classic on contemporary hardware, yet they rarely diminish the overall sense of wonder during long sessions of city exploration.
+The assassin tombs act as traversal puzzles, with birds guiding the route, and the glyph puzzles reveal hidden truths about history. The double hidden blades, the blade used as a weapon and Altair's armour add depth to the arsenal.
 
-Notoriety acts as an unpredictable variable during travel, injecting necessary tension that forces players to navigate urban spaces with cautious deliberation. Although being aggressively pursued by guards for minor transgressions can feel punishingly brisk, the system effectively maintains a persistent state of alertness that enhances the stakes of every mission.
+Enemy variety improves on the first game's single guard type, with heavies, brutes and agile dagger fighters changing how encounters play. The music, essentially the series theme in its best form, is a highlight, and the interactive credits are a welcome touch.
 
-Meaningful upgrades provide a tangible sense of growth, though the early financial requirements for equipment repairs can feel prohibitively expensive for an aspiring assassin. Compounding this friction is the excessive volume of collectibles like feathers, which ultimately function as repetitive busywork rather than adding substantive value to the character's storied legacy.
+Free-running jank persists, with the character occasionally doing what it wants and tomb challenges making the controls feel worse. Don't-get-detected missions are a recurring annoyance, races are time trials rather than real races, and treasure chests offer little worth finding.
 
-Overall, this historical epic remains a quintessential masterpiece of the genre, successfully balancing high-concept narrative hooks with consistently satisfying action loops. Those willing to manage minor technical quirks will discover a profound, highly polished adventure that captures the essence of its period whilst delivering a truly timeless sense of progression.
+Overall, climbing fluidity and the villa economy make Assassin's Creed 2 a meaty, memorable sequel. The free-running jank and detection missions are familiar series flaws that do not diminish a campaign packed with iconic moments.
