@@ -12,7 +12,7 @@ summary: "A World War I bunker where light and sound dictate survival, with rand
 image: "/assets/img/reviews/amnesia-the-bunker.webp"
 ---
 
-Amnesia: The Bunker is a first-person survival horror set in a World War I bunker, where French soldier Henri Clément is left alone after the exit is sealed. The Beast, a light- and noise-sensitive stalker that prowls through the vent holes in the walls, cannot be killed with ordinary weapons.
+Amnesia: The Bunker is a first-person survival horror set in a World War I bunker, where French soldier Henri Clément is left alone after the exit is sealed. The Beast, a light and noise-sensitive stalker that prowls through the vent holes in the walls, cannot be killed with ordinary weapons.
 
 Light and sound form the survival economy, because with the generator running the Beast rarely emerges while darkness lets it prowl and the loud dynamo flashlight itself draws attention. A subtle heartbeat announces when the creature has left its hole, and dust falling from the ceiling marks the vent it approaches.
 
