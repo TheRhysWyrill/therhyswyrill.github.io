@@ -1,27 +1,27 @@
 ---
 layout: review
 date: 2026-07-13
-game_title: "1000xRESIST"
+gametitle: "1000xResist"
 permalink: /reviews/1000xresist/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
-release_year: 2024
-genre: "Adventure"
+releaseyear: 2024
+genre: "Narrative Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A fully voiced sci-fi mystery whose memory-driven structure and twisting narrative keep the emotional stakes rising throughout."
+summary: "A deeply original narrative experience with extraordinarily dense world-building and masterful story structure, though its visual novel-style presentation limits mechanical engagement."
 image: "/assets/img/reviews/1000xresist.webp"
 ---
 
-1000xRESIST is a sci-fi adventure told through communions, interactive memory sequences through which the clone-sister Watcher relives the ALLMOTHER's past. Humanity lives underground after an alien-spread disease, and the fully voiced dialogue gives the narrative a predetermined length closer to a visual novel.
+An underground society of cloned sisters serves an immortal All Mother named Iris, governed by strict hierarchies and ritual communions. The atmosphere is oppressive yet beautiful, with each sister's domain reflecting her personality and function. A pervasive sense of dread permeates every corridor, reinforced by the ever-present threat of incineration.
 
-The plot unfolds across time periods and perspectives, opening on a pivotal moment that later scenes explain and echo back. Shifting viewpoints repeatedly recontextualise the story, keeping the mystery compelling enough to justify a steady stream of twists.
+The core gameplay involves exploring a hub world, speaking with sisters and NPCs, and making dialogue choices. Communing with the All Mother's memories drives progression, switching between time periods to uncover connecting threads. A light collectable system provides additional dialogue through the remains of fallen sisters.
 
-The narrative carries real emotional weight, with stretches far heavier than expected and sister personalities that stay recognisable as future sections transform them. These heavy beats sit alongside tense stretches of suspense about where the plot leads.
+Traversal between time periods creates satisfying exploration within the narrative framework. Environmental interaction is limited to walking, sprinting, and engaging with NPCs. The interconnected map design rewards attention to detail when backtracking to locate sisters.
 
-The ending system rewards a thorough run, with the final communion deciding which sisters are carried into the future across several distinct endings. Collecting all thirty-two achievements and uncovering every outcome turns the closing stretch into a highlight.
+The communion sequences stand as the game's most compelling mechanic, unfolding the narrative backwards from its opening climax. Each communion recontextualises earlier interactions, gradually revealing the truth behind the All Mother's murder. The faction poetry, with its layered meanings, becomes a meaningful system of belief rather than mere window dressing.
 
-The latter half drags, with roughly five hours given over to dialogue-heavy stretches and an interrogation chapter that drops exploration entirely. Frequent jump scares grate as well, their erratic animations among the weakest presentation choices.
+The latter half can feel slow compared to the tighter opening, with the final hours stretching the pacing. Faction terminology may confuse initially, requiring repeated exposure before the meaning clicks. Map navigation becomes cumbersome during backtracking between time periods.
 
-The fully voiced cast is the game's central asset, with strong voice work across many characters carrying the heavy emotional scenes. The dialogue-bound runtime leaves pacing at the mercy of the writing, and one late stretch briefly becomes a walking sim.
+Controls are simple and functional: walking, sprinting, and interacting with NPCs. The game runs smoothly with no performance issues, and loading between time periods is handled seamlessly. The save system works reliably, though the Steam version lacks an easy way to delete save files.
 
-Overall, communion mechanics and the fully voiced, twist-heavy narrative make 1000xRESIST a one-of-a-kind sci-fi adventure. A slow, talk-heavy second half and frequent jump scares stop it from being flawless, but the mystery holds together throughout.
+Overall, an emotionally powerful and genuinely original narrative experience that rewards close attention to its layered mythology. The masterful story structure and exceptional voice acting elevate what could otherwise be a straightforward visual novel.
