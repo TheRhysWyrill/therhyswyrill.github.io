@@ -3,25 +3,21 @@ layout: review
 date: 2026-08-13
 game_title: "Army of Two: The Devil's Cartel"
 permalink: /reviews/army-of-two-the-devils-cartel/
-verdict: "recommended"
+verdict: not-sure
 platform: "PS3"
 release_year: 2013
-genre: "TPS"
+genre: "Action, Shooter"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A cover shooter whose improved snapping system and lively partner banter carry a cartel campaign, despite a broken final boss."
+summary: "Improved cover mechanics and satisfying weapon customisation deliver responsive co-op shooting, though shorter level segments and a bugged final boss create friction that undermines the otherwise polished action."
 image: "/assets/img/reviews/army-of-two-the-devils-cartel.webp"
 ---
 
-Army of Two: The Devil's Cartel is a third-person cover shooter that hands the series to new operatives Alpha and Bravo in Mexico. The campaign pits the pair against the La Guadaña cartel while the veteran duo of Rios and Salem loom over the mission support.
+A Mexican drug cartel conflict draws new operatives Alpha and Bravo into escalating violence, where loyalty and betrayal create moral tension beneath the explosive action. The premise establishes immediate stakes through cartel warfare, though the shift from Rios and Salem to new protagonists loses some of the original dynamic. From the opening sequence, the improved cover system communicates a commitment to responsive mechanics over awkward sticky cover. Frostbite 2 visuals render the destruction with polished environmental detail.
 
-The cover system is the clearest step forward, with a dedicated button for snapping into and out of cover. The sticky cover of the earlier games is gone, and the improved handling makes firefights flow noticeably better during solo play with the AI partner.
+Core gameplay features a dedicated snap-to-cover button that finally addresses the franchise's historical control issues, making defensive positioning feel intentional rather than accidental. The overkill mechanic returns, granting temporary invincibility and explosive rounds that transform combat into temporary power fantasies. Weapon customisation remains extensive, though upgrades are now limited to checkpoints rather than being available mid-mission. Shorter, segmented levels create a more arcade-like pacing compared to the 40th Day's expansive corridors.
 
-Overkill mode remains a reliable highlight, granting brief invincibility and unlimited ammunition. The power fantasy lands hard, with entire rooms cleared in seconds and the mode serving as a genuine safety valve in the busiest encounters.
+The improved cover system stands as the most meaningful mechanical advancement, replacing the sticky cover frustration with responsive snap-to-cover functionality. This single change elevates combat encounters by removing the accidental vaulting and awkward positioning that plagued previous entries. The weapon customisation continues to provide genuine variety in tactical approaches, sustaining engagement across the campaign.
 
-The mask and weapon customisation is deep, with masks, tattoos, outfits and interchangeable gun parts available between missions. The armory gate keeps most of it at checkpoints, and its slow loads are a recurring irritation.
+The final boss encounter contains a critical bug where Bravo dies during the C4 sequence even when appearing unharmed, breaking the game's conclusion. Shorter level segments create disjointed pacing, with some missions feeling incomplete rather than deliberately concise. The character transition from the original duo removes established chemistry without providing equivalent replacement dynamics.
 
-The partner banter is the campaign's best asset, giving Alpha and Bravo a lived-in rapport that makes the pair feel human. The Mexico setting and the church, catacombs and highway-chase set-pieces keep the pace busy throughout.
-
-The final boss fight against the armoured truck fails to end properly on PS3 with an AI partner, twice forcing a restart before the game refuses to conclude. Ammo pickups only feed the equipped weapon, and the relentless grenade spam wears thin by the closing levels.
-
-Overall, cover handling and the partner dynamic carry the experience, and the campaign remains very fun despite its rough edges. The broken finale is a genuine stain, but the improved shooting and the characterful writing make this a satisfying close to the series.
+Overall, Army of Two: The Devil's Cartel delivers improved mechanical foundations through responsive cover and satisfying customisation, though shorter levels and a broken finale create uncertainty about whether the improvements justify the structural compromises.

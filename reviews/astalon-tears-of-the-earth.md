@@ -3,25 +3,21 @@ layout: review
 date: 2026-08-13
 game_title: "Astalon: Tears of the Earth"
 permalink: /reviews/astalon-tears-of-the-earth/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2021
-genre: "Metroidvania"
+genre: "Action, Metroidvania"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A Castlevania-flavoured metroidvania whose party system and death-loop upgrades give a familiar genre a strange, satisfying twist."
+summary: "A death-to-upgrade mechanic and three-character party system reinvent the Metroidvania formula, creating an exceptional experience where progression flows through exploration and character switching rather than traditional ability unlocks."
 image: "/assets/img/reviews/astalon-tears-of-the-earth.webp"
 ---
 
-Astalon: Tears of the Earth is a Castlevania-flavoured metroidvania about three heroes climbing a poisoned tower to save their village. The wizard, warrior and archer each carry distinct abilities, so progress across the interconnected map is built around switching between them.
+Three heroes descend into a tower of serpents to save their village from poisoned water, where death itself becomes the mechanism for progression through a pact with Prometheus. The premise establishes immediate urgency through the village's dying condition, with the tower's interconnected zones providing exploration depth. From the opening descent, the retro pixel art aesthetic channels classic Castlevania while introducing mechanical innovation. The atmosphere balances Gothic horror with adventurous determination across distinct tower regions.
 
-Death is the game's upgrade system, with every death restarting the party at the tower entrance to spend soul orbs. A pact with Epimetheus, the Titan of Death, turns failure into the only route to greater strength, making each reset a genuine choice.
+Core gameplay combines Metroidvania platforming with RPG party mechanics, featuring three switchable characters: Arius the warrior, Keely the wall-jumper, and Algus the ranged attacker. Each death sends the party to Prometheus, where collected orbs purchase stat upgrades and ability unlocks that persist across attempts. The tower features distinct zones including Gorgon Tomb, Mechanism, Cathedral, and Catacombs, with coloured keys gating progression. A Beast Diary tracks enemy kills and lore entries, rewarding completionist exploration.
 
-The three play styles stay meaningfully different, from the wizard's wall-piercing magic to the archer's heavy damage and wall jumps. The shared health bar keeps the party feeling like one unit, while later additions such as Athena's bell let the whole group switch anywhere without backtracking.
+The death-to-upgrade mechanic stands as the most distinctive element, transforming failure from punishment into progression. Instead of losing progress, each death provides resources that strengthen the party, creating a satisfying loop where exploration and risk-taking are rewarded. The three-character system adds puzzle-platforming variety, with each hero offering unique traversal and combat options.
 
-The tower itself sprawls across a dozen named areas, from the hall of phantoms to the serpent path, and the game rewards thoroughness with a bestiary that fills in as enemy types are hunted down. Hidden walls are marked distinctly, which keeps the exploration demanding without ever feeling arbitrary.
+Navigation without the map reveal ability creates early-game frustration, with the segmented map layout making backtracking tedious. The shared health system across all characters initially confuses, creating tension during encounters where switching characters does not restore vitality. Some enemy types, particularly flying enemies, require specific characters to defeat, creating artificial barriers.
 
-The boss roster is the strongest part, running from the two-headed gorgon Gemini to the tragic Dead Maiden and the final fusion of the Black Knight with Medusa. A chain-wielding gorgon hunter and a treasure-collecting child join the party as the roster grows to five distinct fighters.
-
-The ladders glitch on occasion and spikes claim most deaths, while a few vital items sit behind unusually well-hidden walls. The constant character switching can tire across a thirteen-hour run, and the fully powered party makes the finale anticlimactic.
-
-Overall, party switching and the death-loop upgrades carry a strange, memorable twist on the genre. The result is a long, dense metroidvania that keeps impressing right up to its unusual, satisfying conclusion.
+Overall, Astalon: Tears of the Earth delivers an exceptional Metroidvania experience where the death-to-upgrade mechanic and three-character party system create progression through exploration rather than traditional ability unlocks.

@@ -3,25 +3,23 @@ layout: review
 date: 2026-07-14
 game_title: "Achilles: Legends Untold"
 permalink: /reviews/achilles-legends-untold/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2023
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A Greek-myth action RPG whose godlike power fantasy and varied loot keep combat fun despite collapsing difficulty."
+summary: "Satisfying souls-like combat with a distinctive shield throw mechanic and Greek mythology setting, though a collapsing difficulty curve removes challenge well before the journey concludes."
 image: "/assets/img/reviews/achilles-legends-untold.webp"
 ---
 
-Achilles: Legends Untold is an action RPG set in ancient Greece after the Trojan War, in which Achilles hunts the commander who betrayed his men. Pulled back from the underworld by Hades, he crosses Greece on a revenge chase that broadens into a larger confrontation.
+Ancient Greece unfolds as a vast interconnected world, where stamina-gated combat and Dark Souls-style controls establish the mechanical stakes. Dark Point Games anchors the experience in Greek mythology, sending Achilles through war-torn regions to confront mythological figures. The opening hours demand careful stamina management and deliberate positioning, with early encounters punishing reckless aggression.
 
-The power fantasy is the main draw, and the hero quickly becomes so strong that combat turns into a joyful display of strength. The spear's sprinting spin attack is the standout crowd-control tool, making most fights a satisfying spin to win.
+Combat centres on light and heavy attacks, dodge rolling, and shield-based defence, with stamina serving as the primary resource gate. Progression flows through a skill tree unlocking new abilities and weapon proficiencies, while crafting systems using collected bones and essence gate access to higher-tier upgrades. Weapon variety spans swords, spears, axes, and great swords, each with distinct movesets.
 
-The Greek-myth framing is a strength, with the Trojan War backstory and the underworld premise giving the revenge plot clear weight. The choice to spare or kill bosses runs through the campaign, with mercy an ever-present option.
+The spear becomes the weapon of choice mid-campaign, with its running attack delivering crowd control that transforms group encounters. A skill tree branching across physical, dark, magic, and divine paths allows meaningful build differentiation, though terminology inconsistency between stamina and energy within the skill tree creates minor confusion.
 
-The loot and build loop keeps progression interesting, with spears swapped often, gear upgraded at the blacksmith and levels coming fast. Cats scattered across the world offer small, warm touches, and the health-on-kill skill keeps crowd fights flowing.
+The shield throw mechanic stands as the most distinctive combat addition, granting a reusable ranged option that maintains melee momentum. Thrown shields return automatically, eliminating ammunition concerns while opening tactical possibilities during multi-enemy encounters. The mechanic rewards positioning, as ricochet angles can strike multiple targets.
 
-The difficulty collapses around the halfway point, with enemies dying so fast that combat turns mindless by the end. The final boss fight also bugged out twice, with the enemy failing to spawn mid-fight, though it was never hard.
+Difficulty peaks around the midpoint of Greece before declining sharply, with enemies dying rapidly enough to remove tactical pressure. Navigation suffers from the absence of enemy indicators on the mini-map, forcing visual scanning of environments where hostile units blend into the scenery.
 
-The lock-on system is the worst of the controls, snapping to distant targets or nothing and stun-locking movement, while thrown-object aiming is poor. Money stays scarce against the cost of upgrades, and the runic chests rarely justify the work of opening them.
-
-Overall, combat and the Greek-myth power fantasy make Achilles: Legends Untold a fun, godlike romp. The collapsing difficulty and buggy final fight stop it from being more, but the power fantasy keeps the whole campaign enjoyable.
+Overall, Achilles: Legends Untold delivers a satisfying power fantasy grounded in Greek mythology, with the shield throw and spear mechanics providing genuine combat substance. The collapsing difficulty curve undermines the tension that defines the genre, yet progression systems and world design maintain engagement across the full campaign.

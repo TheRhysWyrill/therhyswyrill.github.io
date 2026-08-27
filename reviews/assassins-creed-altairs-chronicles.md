@@ -3,25 +3,21 @@ layout: review
 date: 2026-06-24
 game_title: "Assassin's Creed: Altaïr's Chronicles"
 permalink: /reviews/assassins-creed-altairs-chronicles/
-verdict: "not-sure"
+verdict: not-sure
 platform: "NDS"
 release_year: 2008
-genre: "Action, Adventure"
+genre: "Action, Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A DS prequel that opens well before declining, with creative touch-screen elements undone by basic combat, awkward traversal and sparse storytelling."
+summary: "Promising early variety with touchscreen minigames and combat moves deteriorates into frustrating traversal due to imprecise jump controls, creating an average experience undermined by increasingly aggravated design issues."
 image: "/assets/img/reviews/assassins-creed-altairs-chronicles.webp"
 ---
 
-Assassin's Creed: Altaïr's Chronicles is a Nintendo DS prequel set in the Middle East before the events of the first game, centred on a quest for the Chalice. The game opens well before veering into a decline, and the overall impression is average rather than bad.
+Altaïr searches for the Chalice across Damascus, Tyre, Jerusalem, and Acre in 1190 AD, where Templar interference and internal Assassin betrayal create narrative stakes beneath the 2D side-scrolling action. The premise establishes franchise context through a prequel structure, though the story remains thin throughout. From the opening sequence, the touchscreen minigames for pickpocketing and interrogation communicate creative ambition for the platform. The early gameplay variety suggests a promising handheld interpretation of the Assassin's Creed formula.
 
-Combat is exceptionally basic, with weak enemies that barely attack and high-health Templars and elites providing the only real resistance. The combat would have been better if it mattered less, since it is serviceable but shallow.
+Core gameplay combines 2D platforming with combat, stealth sections, and touchscreen minigames that translate franchise mechanics into handheld format. Combat features light and heavy attacks, counters, and special moves including a back flip kick and battery combo that prove effective against most enemies. The upgrade system uses collected blue orbs to improve health or damage, providing minimal but tangible progression. Checkpoints are generous, preventing the worst frustrations from becoming permanent setbacks.
 
-Traversal is the biggest frustration, awkward enough that jumps commit the character to a landing whether or not it is safe. The control scheme struggles at points, and checkpoints make little sense, often sitting before a cut scene and forcing it to be rewatched.
+The touchscreen integration stands as the most creative element, with pickpocketing and interrogation mechanics adding interactive variety beyond standard platforming. The early combat moves, particularly the battery combo and back flip kick, provide satisfying enemy engagement during the opening hours. These elements suggest a thoughtful adaptation of Assassin's Creed's 3D mechanics into a 2D format.
 
-The story is practically non-existent, revealing little about Altaïr and introducing a character with almost no depth, and it ends abruptly. The touch-screen elements, including pickpocketing, interrogation and throwing daggers, are creative, though the mandatory touch prompts are a nuisance.
+Traversal controls deteriorate the experience significantly, with imprecise jump mechanics making angled jumps nearly impossible and inconsistent distance calculation creating repeated failures. The story fails to develop Altaïr meaningfully, offering minimal narrative context beyond a thin Chalice quest. The abrupt ending arrives without resolution or satisfaction, cutting to black after the final boss without closure.
 
-The presentation is not the prettiest, though the game looks surprisingly good for the hardware, and rooftop hazards such as random snakes feel out of place. The game plays like a lighter Prince of Persia, with traps and wall-running.
-
-The touch prompts become easier to manage with a mouse than on the DS itself. The game is not a recommendation on its own merits nor a condemnation, holding to an average standard with real flaws.
-
-Overall, traversal and the basic combat make Assassin's Creed: Altaïr's Chronicles an average game with a lot wrong with it. The creative touch elements and the prequel setting keep it from being a total loss.
+Overall, Assassin's Creed: Altaïr's Chronicles begins with creative promise through touchscreen mechanics and varied combat but ultimately delivers an average experience undermined by frustrating traversal and minimal narrative development.

@@ -3,25 +3,21 @@ layout: review
 date: 2026-07-21
 game_title: "Astral Chain"
 permalink: /reviews/astral-chain/
-verdict: "recommended"
+verdict: recommended
 platform: "Switch"
 release_year: 2019
-genre: "Action, Adventure"
+genre: "Action"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A stylish cyberpunk action game whose satisfying combat, spectacular fusion moments and lengthy campaign are let down only by weak platforming and repetitive post-game cases."
+summary: "Exceptional cel-shaded visuals, deep Legion combat, and relentless cool factor deliver a Platinum Games masterpiece, though repetitive post-game cases and frustrating platforming prevent the experience from reaching perfection."
 image: "/assets/img/reviews/astral-chain.webp"
 ---
 
-Astral Chain is a cyberpunk action game from PlatinumGames set on the artificial island of the Ark, where a police task force battles Chimera using Legions tethered by an astral chain. The story spans twelve files that mix action combat with crime investigations, side cases and hub-world police work.
+The Ark houses humanity's last survivors on an artificial island, where police officer recruits into Neuron special forces and fights invisible chimeras using captured Legion companions. The premise establishes immediate sci-fi stakes through the city's precarious survival, with the dual-character control system creating unique combat possibilities. From the opening highway sequence, the cel-shaded graphics demonstrate Switch hardware pushed beyond expected limits. The atmosphere builds through investigations and combat encounters that balance detective work with explosive action.
 
-The combat is deeply satisfying, with finishers that sling enemies around and a resonance mechanic that fuses an officer with a Legion. Systems arrive gradually, so new mechanics keep appearing throughout the campaign without overwhelming the moment-to-moment flow.
+Core gameplay combines action combat with five Legion types (Sword, Arrow, Arm, Axe, Beast), each offering distinct traversal and combat abilities. The player controls both officer and Legion simultaneously, using sync attacks for high damage and a fusion mechanic that temporarily merges them. Three Exaton weapon modes provide additional combat variety, while IRIS scanning blends investigation with environmental exploration. The progression loop connects story files with post-game cases that extend engagement beyond the campaign.
 
-Five Legion types, including sword, arrow, arm, beast and axe, each bring distinct strengths to encounters, and switching between them keeps fights varied. The deliberate Legion fusion stands out as the most spectacular sequence, with its accompanying music lingering.
+The Legion combat system stands as the most distinctive mechanical element, with dual-character control creating tactical depth that rewards coordination over button-mashing. Each Legion type offers unique abilities that shift combat dynamics, from the Arrow's ranged precision to the Beast's traversal options. The fusion mechanic delivers a climactic power fantasy that elevates boss encounters into memorable spectacles.
 
-Platforming is the game's weakest element, with movement that consistently overshoots ledges. The post-game ranked cases are repetitive too, reduced to simple go-here-and-kill routines that recall generic side quests.
+The post-game content suffers from extreme repetition, with seventy-one cases following identical "go here, kill this" structures that lack mission variety. Loading screens between cases break flow through excessive helicopter cutscenes that disrupt the combat rhythm. Platforming sections prove frustrating, with imprecise movement and camera struggles during aerial encounters.
 
-The story escalates from a rogue scientist to a conspiracy within the Ark's leadership, with the main villain telegraphed well in advance. The predictable reveal still arrives through spectacular set pieces, and the writing sustains interest across the lengthy campaign.
-
-The presentation is consistently stylish, with a bike section that looks particularly impressive, and the controls work well once the shoulder-mounted attack button settles in. A story mode around twenty hours long is exceptional for an action title, with the full save stretching past twenty-seven hours.
-
-Overall, combat and style make Astral Chain an emphatic recommendation. The platforming and the repetitive post-game hold it back, but the length and spectacle make it easily worth the time.
+Overall, Astral Chain delivers a Platinum Games masterwork where cel-shaded visuals, exceptional music, and deep Legion combat create a consistently exhilarating experience, despite post-game repetition that prevents the overall package from reaching perfection.

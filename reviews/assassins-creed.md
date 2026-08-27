@@ -3,25 +3,21 @@ layout: review
 date: 2026-06-25
 game_title: "Assassin's Creed"
 permalink: /reviews/assassins-creed/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
-release_year: 2008
+release_year: 2007
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A 2008 action-adventure that has aged gracefully, where ordered assassinations carry moral weight despite finicky climbing and basic city activities."
+summary: "The franchise's foundational atmosphere and counter-based combat hold up remarkably well for a 2007 title, though finicky climbing, inconsistent AI detection, and repetitive mission structure create friction that modern entries resolved."
 image: "/assets/img/reviews/assassins-creed.webp"
 ---
 
-Assassin's Creed is an action-adventure in which the assassin Altaïr carries out ordered killings across the cities of the Holy Land. The PC Director's Cut is the definitive version, with exclusive challenges such as archer stealth assassination, merchant stand destruction and rooftop races.
+The Holy Land during the Crusades opens beneath the Animus framing device, where modern-day bartender Desmond Miles relives ancestor Altaïr's memories across Damascus, Acre, and Jerusalem. The premise establishes the philosophical conflict between Assassins and Templars through Altaïr's redemption mission after failing to retrieve a Piece of Eden. From the opening Abstergo sequences, the atmosphere communicates a franchise-defining identity through Crusades architecture and environmental storytelling. The world design rewards exploration across distinct cities with varying cultural detail.
 
-The game holds up remarkably well for its age, and the death monologues of each target frame the mission in moral uncertainty rather than clean justice. The modern-day framing, in which the events are relived through a machine, adds an interesting layer to the investigation.
+Core gameplay centres on investigation missions that unlock assassination targets, with eavesdropping, pickpocketing, interrogation, and informants providing mission variety across each district. Counter-based combat rewards timing through violent kill animations that maintain satisfaction across encounters. The hidden blade enables stealth assassinations, with throw-then-assassinate combos creating tactical opportunities during pursuit sequences. Eagle Vision reveals hidden details and environmental clues that deepen investigation.
 
-Combat is mindless in a pleasant way, since countering an attacker can end a fight almost immediately. Counter kills are rarely lethal and follow-up timing is inconsistent, which keeps early encounters more deliberate.
+The assassination gameplay stands as the most satisfying element, with counter-based combat delivering accessible engagement that rewards observation over complexity. The hidden blade mechanics create satisfying kill sequences that capture the franchise's core fantasy effectively. The Crusades setting provides atmospheric foundation that elevates the repetitive mission structure through environmental immersion.
 
-Climbing is the weakest element, with finicky movement and ladder traversal that the game handles poorly. Air assassinations are extremely height-limited compared with later entries, and the tutorial runs excessively long.
+The climbing system proves finicky, with imprecise movement and inconsistent foothold detection creating frustrating traversal. AI detection operates inconsistently, with bodies remaining visible after mission resets and NPCs reacting strangely to basic actions like jumping or sprinting. Collectible flags offer minimal reward for extensive effort, creating a poor time-to-reward ratio across the game's regions.
 
-City activities are basic, mostly saving a citizen or two, and the collectibles offer only bragging rights rather than rewards. The 420 flags and 60 Templars give completionists a clear goal, and splitting the Acre flags per district works better than the alternative.
-
-The audio is uneven, with muffled compressed chatter for ordinary NPCs while important characters sound clean, and church chanting produces an unnatural reverb. The game has no subtitles on any platform and no UI scaling, though it runs well and still looks good.
-
-Overall, assassination structure and the story's moral weight make Assassin's Creed a game that has aged gracefully. The finicky climbing and basic activities are flaws, but they are understandable for the first entry in the series.
+Overall, Assassin's Creed delivers a landmark experience where atmospheric world-building and satisfying assassination mechanics create a franchise foundation that holds up remarkably well, despite climbing frustrations and AI inconsistencies that modern entries resolved.

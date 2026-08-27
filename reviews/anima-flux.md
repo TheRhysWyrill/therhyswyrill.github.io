@@ -3,25 +3,21 @@ layout: review
 date: 2026-08-13
 game_title: "Anima Flux"
 permalink: /reviews/anima-flux/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2024
-genre: "Metroidvania"
+genre: "Action, Metroidvania"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A co-op metroidvania whose combat only settles in after a late dash unlock, set in a dystopian space city under a theocratic regime."
+summary: "Dual-character switching and meaningful upgrade systems deliver tactical Metroidvania depth, though the absence of a dodge mechanic in early combat and a punishing first boss nearly derail the experience before the dash transforms combat."
 image: "/assets/img/reviews/anima-flux.webp"
 ---
 
-Anima Flux is a co-op metroidvania set on a crumbling space ark, where two genetically enhanced soldiers alternate between ranged and melee combat. A mutant outbreak in a dystopian city sets the pair hunting an escaped specimen.
+A dystopian sci-fi city built on an artificial exoplanet houses the last remnants of humanity, where Nox Commander Eileen and gladiator Roy hunt a rogue mutant called Alpha 75. The premise establishes immediate urgency through government corruption and death camps disguised as evacuation centres, creating narrative tension beneath the Metroidvania exploration. First-person perspective frames 2D side-scrolling combat across interconnected environments. The dual-character system introduces tactical variety from the opening sequence.
 
-Movement abilities determine the game's quality, since combat only becomes comfortable once a dash unlocks partway through the adventure. Before that point encounters rely on jumping and positioning, and enemy body-blocking leaves little room to escape damage.
+Core gameplay revolves around switching between Eileen's ranged archery and Roy's melee swordsmanship to exploit enemy weaknesses and navigate environmental obstacles. The resuscitation mechanic allows reviving a downed companion, creating risk-reward dynamics during combat encounters. Upgrade systems include rage regeneration, damage boosts, armour improvements, and weapon mods ranging from poison to stun grenades. Exploration rewards backtracking with seals that unlock previously inaccessible areas.
 
-The first boss fight is the campaign's biggest stumble, arriving before the dash and demanding the evasion the game has not yet provided. Roughly ten deaths at that encounter mark the run's lowest stretch, and the encounter poses a genuine early-exit risk.
+The dual-character switching stands as the most distinctive mechanical element, demanding tactical awareness of enemy vulnerabilities and environmental requirements. Switching between ranged and melee combat mid-encounter adds depth beyond standard Metroidvania formulas. The resuscitation system ensures neither character becomes permanently sidelined, maintaining strategic flexibility throughout.
 
-Data logs reward exploration with the ark's hidden history and the darker truths behind the regime's resurrection technology. These discoveries give the dystopian premise real weight as the two soldiers question their orders.
+The first boss fight creates a significant friction point, with the absence of a dodge mechanic forcing players to absorb damage without evasion options. The dash ability, unlocked after the second boss, fundamentally transforms combat by providing the missing mobility tool. Maze-like map layouts compound navigation confusion, with frequent dead-ends and unclear pathing between areas.
 
-Instant character switching lets the archer and swordsman cover each other, while the cutscenes give the grim setting a strong visual style. Later bosses play far better once the dash exists, and traversal improves as double jumps and dashes open up the map.
-
-A late gauntlet fight is the weakest stretch, since the melee companion takes damage from endless spawns despite his usual immunity during boss battles. The most serious technical fault is a controller-disconnect bug that can leave the game entirely unresponsive.
-
-Overall, combat improves steadily once the dash arrives, and the enjoyable closing hours outweigh the rough opening. The lore, the cutscene style and the best of the later boss fights make this a metroidvania worth persevering with.
+Overall, Anima Flux delivers a mechanically distinctive Metroidvania where dual-character switching creates genuine tactical depth, though the delayed dash unlock and punishing opening boss demand persistence before the experience finds its rhythm.

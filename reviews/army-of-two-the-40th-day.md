@@ -3,25 +3,21 @@ layout: review
 date: 2026-08-13
 game_title: "Army of Two: The 40th Day"
 permalink: /reviews/army-of-two-the-40th-day/
-verdict: "recommended"
+verdict: recommended
 platform: "PS3"
 release_year: 2010
-genre: "TPS"
+genre: "Action, Shooter"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A bombastic cover shooter whose aggro system and deep weapon customisation carry a campaign full of escalating set-pieces."
+summary: "Bombastic co-op shooting and surprisingly deep weapon customisation deliver satisfying tactical action, though a clunky cover system and inconsistent AI partner undermine the otherwise engaging set pieces."
 image: "/assets/img/reviews/army-of-two-the-40th-day.webp"
 ---
 
-Army of Two: The 40th Day is a cover-based third-person shooter that strands Rios and Salem in Shanghai as the city collapses around them. The campaign pushes the pair through rooftops, a zoo and a final temple, with a morality-laced plot about an invading force holding the city hostage.
+Shanghai erupts under a massive terrorist attack, where private military contractors Rios and Salem fight through collapsing buildings and escalating chaos. The premise establishes immediate urgency through environmental destruction and escalating threat density, with over-the-top spectacle driving the action forward. From the opening sequence, the bombastic scale communicates a commitment to cooperative destruction rather than tactical subtlety. Constant explosions and crumbling infrastructure create visual momentum across each encounter.
 
-The aggro system gives the co-op combat genuine tactical depth. Firing draws enemy attention onto one partner, opening a clear window for the other to flank or snipe, and the field aggro meter keeps the trade-offs readable at all times.
+Core gameplay centres on cooperative third-person shooting with an aggro system that rewards tactical coordination, where drawing enemy attention allows partners to flank or snipe effectively. Weapon customisation proves unexpectedly deep, allowing parts from different guns to be mixed and matched into unique configurations. Moral choices affect civilian rescue and equipment acquisition but ultimately lead to similar story outcomes, adding replay value without narrative consequence. Cover-based combat demands partner commands for tactical positioning across each encounter.
 
-Weapon customisation is strikingly deep, letting parts from different rifles be mixed onto one gun. Barrels, magazines, grips and scopes all change handling and damage, and the AK quickly becomes the tool of choice for its sheer stopping power.
+The aggro system stands as the most distinctive mechanical element, creating genuine cooperative dependency by rewarding attention management over solo aggression. Drawing fire while a partner flanks creates tactical moments that feel earned through coordination rather than automated assistance. The weapon customisation system adds depth beyond standard shooter loadouts, allowing genuine variety in tactical approaches across missions.
 
-The co-op actions keep encounters varied, from synchronized sniper shots to mock-surrenders that set up quick-draw kills. Using grabbed enemies as shields and mobile cover adds a physical layer to firefights that most shooters of the era lacked.
+The cover system feels clunky compared to contemporaries, with frequent accidental vaulting disrupting defensive positioning during firefights. AI partner behaviour occasionally creates frustration, with the companion running into enemies and getting downed unnecessarily. Moral choices lack meaningful consequence, with similar story outcomes regardless of decisions made during critical moments.
 
-The set-pieces are relentlessly bombastic, from a collapsing skyscraper descent to a back-to-back defence with unlimited ammunition. The zoo chapter stands out for its sombre monologues, though the tone sits uneasily against the constant gunfire.
-
-The ending lands as a dud, with the final confrontation resolving the morality threads without much payoff. Lengthy load times, a frustrating cover-vaulting system and an absent subtitle option for radio logs further dull the polish.
-
-Overall, aggro control and weapon customisation give the campaign a distinctive tactical identity. The bombastic action and memorable set-pieces carry the experience despite the weak finale and rough edges.
+Overall, Army of Two: The 40th Day delivers bombastic cooperative shooting where the aggro system and weapon customisation create genuine tactical depth, despite cover mechanics and AI issues that disrupt the otherwise satisfying action.

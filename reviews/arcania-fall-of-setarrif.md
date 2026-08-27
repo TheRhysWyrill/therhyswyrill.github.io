@@ -3,25 +3,21 @@ layout: review
 date: 2026-06-25
 game_title: "ArcaniA: Fall of Setarrif"
 permalink: /reviews/arcania-fall-of-setarrif/
-verdict: "not-recommended"
+verdict: not-recommended
 platform: "PC"
 release_year: 2011
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A short expansion whose generous loot and imported-save continuity cannot offset a recycled final boss and a steep asking price."
+summary: "Importing an end-game character delivers a brief power fantasy through mindless combat, but a reskinned final boss, 3-hour runtime, and minimal narrative depth make this expansion poor value at full price."
 image: "/assets/img/reviews/arcania-fall-of-setarrif.webp"
 ---
 
-ArcaniA: Fall of Setarrif is an expansion set after the base game, in which the hero travels to Setarrif after a volcanic eruption and finds the city overrun by possessed citizens and demons. The plot gathers four keystones to open a burial temple and confronts the arch demon behind the eruption.
+Setarrif burns under demonic assault, where the imported protagonist arrives with end-game gear and immediately dominates every encounter. The premise carries forward the base game's divine artifact mythology but does little to develop it, instead relying on generic demon invasion stakes. From the opening battle, the imported character's overpowered stats trivialise combat, creating a power fantasy that sustains initial engagement. Lava fields and volcanic ruins provide visual variety but lack meaningful exploration incentives.
 
-Imported saves carry continuity forward, keeping mana values and access to all of the endgame gear, and the early loot is generous with very high-tier equipment. Experience gain is generous as well, letting the imported build max out its melee power.
+Core gameplay mirrors the base game's hack-and-slash formula, with melee, ranged, and magic options available from the start. The imported character's end-game gear and level advantages make every encounter trivial, reducing combat to button-mashing without tactical consideration. Generous loot drops flood inventory with powerful weapons and armour, reinforcing the power fantasy but removing any sense of progression challenge. The expansion features minimal side quests across its approximately three-hour duration.
 
-The expansion is remarkably short, finishing in under three hours against the four to eight advertised. At fifteen dollars the price is hard to justify, and the content feels as though it should have been included with the base game.
+The power fantasy of importing an overpowered character stands as the expansion's primary appeal, delivering satisfying dominance through life-steal mechanics and massive damage output. Mindless combat provides casual entertainment, with the reviewer acknowledging the shallow approach was enjoyable despite lacking strategic depth. The progression system continues from the base game, with XP rewards allowing several level-ups across the brief campaign.
 
-The final boss is a near-identical reskin of the base game's closing fight, with nothing meaningfully different about it. The encounter is tedious, because the demon repeatedly retreats to cover and summons waves instead of engaging.
+The final boss reuses the base game's Zha model with identical attacks and music, creating a reskinned encounter that feels lazy and uninspired. The expansion's three-hour runtime falls significantly short of the advertised four-to-eight-hour claim, making the $15 asking price feel exploitative. Audio issues surface intermittently, with combat audio dropping to near-silence during certain encounters.
 
-The story is thin even by the base game's standards, and the ending cutscene attempts to tie off a larger peace between factions. Small bugs surface throughout, from health bars that fail to render unless locked on.
-
-Combat audio and footsteps go oddly quiet partway through with no explanation, and the early-game camera misbehaves. The small touches, such as enemy factions fighting one another and the red save-orb replacing the base game's blue, offer modest compensation.
-
-Overall, pacing and the recycled final boss make ArcaniA: Fall of Setarrif an expansion that fails to justify its asking price. The generous loot and imported continuity keep it playable, but only a bargain-bundle purchase makes it worthwhile.
+Overall, ArcaniA: Fall of Setarrif delivers a brief power fantasy through overpowered combat, but a reskinned final boss and minimal content make this expansion difficult to justify at full price.

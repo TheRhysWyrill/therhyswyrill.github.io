@@ -3,25 +3,21 @@ layout: review
 date: 2026-06-25
 game_title: "Aphelion"
 permalink: /reviews/aphelion/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2026
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A cinematic sci-fi adventure on a frozen planet, where strong visuals and two distinct play styles carry a rescue story of real emotional weight."
+summary: "Stunning facial animations and ice-world visuals anchor a dual-character adventure where climbing, stealth, and magnetic field puzzles create varied gameplay, though frustrating Nemesis encounters and sluggish sprint speed undermine the otherwise polished experience."
 image: "/assets/img/reviews/aphelion.webp"
 ---
 
-Aphelion is a cinematic sci-fi adventure on Persephone, a frozen planet, where astronaut Ariane must rescue her wounded partner Thomas after a crash landing. Play alternates between Ariane's climbing, traversal and stealth and Thomas's world-building and oxygen management.
+A frozen planet called Pesphanany traps astronauts Arian and Thomas after a crash-landing, where ice formations and abandoned facilities frame a desperate rescue mission. The premise establishes immediate stakes through environmental danger and the relationship between two characters with distinct survival needs. From the opening climb, the facial animations render emotional nuance with impressive fidelity, particularly during intimate character moments. Dual perspectives alternate between icy ascent and desert exploration, creating visual contrast across the journey.
 
-The two strands feel like different planets, with an icy wasteland on one side and a desert-like region on the other. Thomas's sections carry the world-building through minor puzzles and an oxygen management gimmick, while Ariane's hold the action.
+Core gameplay alternates between Arian's climbing-focused traversal and Thomas's puzzle-solving exploration, each demanding different mechanical approaches. The Nemesis, a blind creature that hunts by sound, creates tension during stealth sequences where careful movement determines survival. Magnetic field mechanics use an EM scanner to manipulate invisible lines, reshaping environments through frequency adjustment. Distraction points and environmental hazards add tactical layers to both traversal and stealth encounters.
 
-The Nemesis, a sound-sensitive monster, must be sneaked past using distraction points and cover, and the stealth stays a minor part of the whole. The climbing works well, helped by an abundance of footholds that keeps traversal flowing.
+The dual-character structure stands as the most distinctive mechanical element, with Arian's climbing and stealth contrasting against Thomas's oxygen management and magnetic puzzles. Switching between gameplay styles maintains variety across the campaign, preventing any single mechanic from overstaying its welcome. The magnetic field puzzles provide satisfying environmental manipulation that rewards observation and experimentation.
 
-The visuals are the most impressive element, and the performance capture carries genuine emotion in the key scenes between the pair. The gameplay mix between the two characters keeps the two halves distinct, and the story payoff lands through the crew's fates and the planet's mystery.
+The Nemesis encounters grow frustrating in later sections, where detection sensitivity and terrain issues create unintended deaths that feel unearned. Sprint speed barely exceeds walking pace, making traversal feel sluggish across larger environments. Some puzzle solutions lack clear visual cues, requiring trial-and-error experimentation rather than deductive reasoning.
 
-The Nemesis detection is the main frustration, because the monster detects on the slightest touch, which is easy rather than difficult. Terrain snagging causes constant falls during stealth, and a couple of traversal moments leave the intended route unclear.
-
-The late-game Nemesis gauntlet grows a little annoying toward the end. The emotional peaks arrive through the pair's bond and a final audio log, closing the story on a hopeful note.
-
-Overall, climbing and the two-character mix make Aphelion an enjoyable sci-fi adventure with few real issues. The Nemesis detection and terrain snagging are genuine frustrations, but they stay secondary to a strong emotional story.
+Overall, Aphelion delivers a visually stunning dual-character adventure where climbing, stealth, and magnetic field mechanics create varied gameplay, anchored by impressive facial animations and atmospheric world design.

@@ -3,25 +3,21 @@ layout: review
 date: 2026-08-13
 game_title: "Anuchard"
 permalink: /reviews/anuchard/
-verdict: "recommended"
+verdict: recommended
 platform: "Switch"
 release_year: 2022
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A dungeon-crawling action RPG about reviving petrified villagers, whose basic combat, cooking system and calm soundtrack carry a darkening restoration story."
+summary: "A charming action-RPG where accessible combat and a meaningful cooking system create satisfying progression, though the two-button combat simplicity and dungeon revisiting requirements may limit depth for some players."
 image: "/assets/img/reviews/anuchard.webp"
 ---
 
-Anuchard places its Bellwielder at the centre of a fallen island, descending into dungeons to retrieve trapped souls and revive petrified villagers. The civilisation-restoration premise carries the campaign from the first revival to the awakening of the five Guardians.
+A floating island called Anuchard hangs suspended in the sky, where the Bell Wielder rescues trapped souls from ancient dungeons to restore dormant Guardians. The premise establishes immediate purpose through community restoration, with village characters providing personality and side quests that deepen investment. The caveman-like dialogue adds humour throughout, with characters delivering memorable lines during interactions. From the opening dungeon, the pixel-art aesthetic creates a distinctive visual identity.
 
-Combat stays basic but entertaining, with a light attack, a heavy attack that doubles as the dodge, and enemies knocked into walls to break armour. The two-ingredient cooking system adds welcome variety, letting each meal grant a combat boost from its pairing.
+Core gameplay combines action-RPG combat with dungeon crawling and village management, using a two-button system: light attack and a combined dodge/heavy attack. The cooking system allows ingredient combinations that grant combat bonuses including health, attack power, and combo enhancements. Dungeon exploration rewards backtracking with mementos and materials that fuel village upgrades. The progression loop connects combat performance to village development, creating investment beyond individual encounters.
 
-The shared heavy-attack and dodge button is the campaign's oddest control choice, and the slow movement speed makes the lack of a sprint noticeable. Enemies with large health pools and heavy hits make some rooms punishing.
+The dual-purpose dodge/heavy attack stands as the most distinctive mechanical element, where dodging into enemies triggers powerful heavy strikes. Initially confusing, the system rewards experimentation and becomes satisfying once mastered. The cooking system adds strategic depth, with grenade recipes emerging as particularly effective combat tools that transform encounters through preparation.
 
-Music is a consistent highlight, with calm dungeon themes at odds with the setting and combat tracks that grow far more energetic. Changing dungeon gimmicks across areas, from bubble puzzles to numbered screens to springs and portals, keep exploration from feeling samey.
+Combat simplicity limits tactical variety, with the two-button system offering accessible but shallow engagement for players seeking complex mechanical depth. Dungeon revisiting becomes necessary to collect all materials, creating repetition that extends beyond the core experience. The philosophical narrative about freedom versus eternal guidance provides thought-provoking context but remains underexplored during gameplay.
 
-The compact village keeps side quests brisk, with mementos from completed tasks accumulating in the Bellwielder's room like a personal museum. The story's darker second half, with its revelations about the city's treatment of its citizens, gives the cheerful restoration premise real weight.
-
-Hunting hidden materials can be a slog, with some resources behind paths that show no visible route and dungeons needing full re-runs to recover what was missed. The gold Guardian's dungeon is the worst backtracking stretch of the run.
-
-Overall, combat delivers a simple but satisfying loop, and the cooking system and varied dungeons keep the ten-hour campaign from outstaying its welcome. Strong music and a story that grows darker than its cheerful premise make this a memorable adventure.
+Overall, Anuchard delivers a charming action-RPG where accessible combat and meaningful cooking mechanics create satisfying progression, anchored by village characters that investment beyond dungeon crawling.

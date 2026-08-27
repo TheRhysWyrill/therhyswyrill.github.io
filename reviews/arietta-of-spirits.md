@@ -3,25 +3,21 @@ layout: review
 date: 2026-08-13
 game_title: "Arietta of Spirits"
 permalink: /reviews/arietta-of-spirits/
-verdict: "recommended"
+verdict: recommended
 platform: "Series X"
 release_year: 2021
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A compact Zelda-like island adventure whose spirit mechanics and heartfelt family story make for a rewarding few hours."
+summary: "Tight Zelda-like combat and a dual-realm spirit mechanic create a charming, self-contained adventure, though small attack hitboxes and an abrupt narrative conclusion limit the otherwise polished experience."
 image: "/assets/img/reviews/arietta-of-spirits.webp"
 ---
 
-Arietta of Spirits is a compact action-adventure that wraps a family grief story around a Zelda-like island exploration game. The first summer without her grandmother draws Arietta into a parallel spirit realm, where the spirit guide Arko binds her to his world as a bound.
+A remote island vacation becomes supernatural when young Arietta gains the ability to perceive the spirit realm after being struck by lightning, establishing immediate narrative stakes through grief and family bonds. The premise unfolds through exploration of the island and its abandoned silver mine, where miners died under mysterious circumstances. From the opening moments, the pixel-art aesthetic creates a cheerful visual identity that balances emotional weight with adventurous spirit. The intimate island setting rewards thorough exploration within a contained geography.
 
-The spirit-blade upgrade transforms the starting wooden sword into a glowing weapon with a wider arc and stronger strikes. Enemy health bars make every hit legible, and the shield mechanic manifested through the family ring blocks incoming attacks and shatters the red shields of tougher roamers.
+Core gameplay follows classic Zelda structures: exploring areas, defeating enemies, collecting upgrades, and solving environmental puzzles with a spirit blade and barrier ability. The dual-realm system allows seamless shifting between the human world and the spirit realm, revealing hidden paths and secrets that exist in only one version of the environment. Boss encounters demand pattern recognition and precise timing, with the sunken realm section introducing more complex challenges. The progression loop connects exploration to combat effectiveness through health upgrades and ability unlocks.
 
-The ring itself anchors the story as a conduit that roaming enemies covet for its deep connection to both realms. Its power lets Arko physically manifest, deepening the combat options and the bond at the centre of the narrative.
+The spirit realm mechanic stands as the most distinctive element, creating puzzle and navigation opportunities by layering two parallel versions of the same world. Shifting between realms mid-exploration adds depth to environmental investigation, with secrets hidden behind realm-specific barriers. The mechanic sustains engagement across the campaign, transforming simple area traversal into layered discovery.
 
-The island is a small but generous sandbox, with twenty hidden spirit cubs to return and the merchant Midri's four lost items to find. Roamer energy fills cars that raise maximum health, while frequent checkpoints and shortcuts keep the compact map flowing without friction.
+Small attack hitboxes create frustrating contact damage encounters, where enemies collide with Arietta despite apparent visual clearance. The sunken realm section introduces difficulty spikes that clash with the otherwise accessible pacing. The narrative resolves abruptly, leaving emotional threads underdeveloped and the conclusion feeling rushed.
 
-The mine's journal pages carry the best storytelling, revealing that the sickness blamed on the alchemist Minerva was mercury poisoning from untested machinery. The revelation reframes her wrongful death and gives the closing stretch genuine weight.
-
-Contact damage is the main frustration, since the sword's small attack area forces close range against enemies. Stinger wasps with ranged shots and shade roamers that home in add further pressure, and the single attack move leaves combat feeling limited.
-
-Overall, exploration and the spirit mechanics carry the experience, with a heartfelt story that earns its emotional payoff. The combat frustrations are real but secondary against the charm, the compact scope and the rewarding completionist loop.
+Overall, Arietta of Spirits delivers a charming, compact action-adventure where the dual-realm mechanic and tight combat create a satisfying Zelda-like experience, despite hitbox frustrations and an abrupt ending.

@@ -3,26 +3,21 @@ layout: review
 date: 2026-08-13
 game_title: "Alien: Isolation"
 permalink: /reviews/alien-isolation/
-verdict: "recommended"
+verdict: recommended
 platform: "Series X"
 release_year: 2014
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A stealth-driven survival horror where a persistent alien hunts through Sevastopol, sustained by tense atmosphere and superb presentation."
+summary: "Faithful recreation of the original Alien film's atmosphere through adaptive alien AI and deliberate pacing delivers sustained survival horror tension, though some late-game patrol patterns and overpriced DLC undermine the otherwise meticulous design."
 image: "/assets/img/reviews/alien-isolation.webp"
 ---
 
-Alien: Isolation follows Amanda Ripley to the derelict Sevastopol station, where her mother's flight recorder leads into a hunt with a relentless alien. The creature cannot be beaten, so the campaign leans on stealth, distraction and flight across mission-based objectives.
+Sevastapole station looms as a decommissioned relic, where Amanda Ripley searches for her mother's flight recorder amid flickering corridors and abandoned workstations. The premise establishes immediate atmospheric stakes, with environmental storytelling through audio logs, notes, and graffiti reconstructing the station's final hours. From the opening walk through dimly lit maintenance tunnels, the visual fidelity captures the 1979 film's aesthetic with surprising precision for a 2014 release. Stealth mechanics demand crouching navigation and careful movement through hostile territory.
 
-The alien's adaptive behaviour forms the core of the tension, with the motion tracker and the flamethrower serving as the key counterplay. The result is tense rather than terrifying, with the pressure building through long, careful stretches.
+Core gameplay combines stealth, exploration, and limited combat, where weapons function as last resorts rather than primary tools. The alien's adaptive AI learns from player behaviour, becoming increasingly aggressive and remaining outside vents longer as the journey progresses. Exploration rewards backtracking, with new tools like the ion torch and maintenance jack opening previously locked areas. The save system emits audible beeps at each terminal, creating tension during the vulnerable saving animation.
 
-Save stations require a slow key-card insertion, making every save a calculated risk, though their beeping conveniently marks their locations. Presentation carries the horror, with detail in the cutscenes and a look that holds up strongly for its era.
+The alien's AI stands as the most distinctive mechanical element, adapting to player patterns and creating genuinely dynamic encounters. Its patrol behaviour shifts throughout the campaign, learning from hiding spots and becoming more persistent in pursuit. The adaptive system sustains tension across the full duration, ensuring no encounter follows the same pattern twice.
 
-The medical wing stalls the pacing, since the creature's scripted patrol bouncing between two rooms makes progress awkward. A later unexplained death, with the alien appearing without warning, undermines the game's otherwise fair behaviour.
+Facehuggers emerge as unexpectedly lethal threats, their speed and small size making them harder to detect than the alien despite lacking its imposing presence. Late-game patrol patterns occasionally create frustrating bottlenecks, particularly in the medical bay where the alien bounces between adjacent rooms. Some deaths feel unexplained, with the alien appearing without audio cues or environmental warning.
 
-The final stretch removes save points entirely, and fire damage can end a run before a checkpoint. Replaying that section after a death proves punishing, with the long no-save gauntlet testing patience.
-
-The story DLC relives scenes from the original film but runs only about twenty-five minutes, leaving its price hard to justify. The main campaign's roughly thirteen hours of survival horror form the real draw.
-
-Overall, alien design makes Alien: Isolation a superb survival horror that justifies its reputation as a love letter to the films. The pacing snags and short DLC sit clearly beneath a strong, atmospheric whole.
-
+Overall, Alien: Isolation delivers atmospheric survival horror anchored by adaptive alien AI and faithful visual design, creating sustained dread that rewards patience over action.

@@ -3,25 +3,21 @@ layout: review
 date: 2026-08-13
 game_title: "Afterdream"
 permalink: /reviews/afterdream/
-verdict: "recommended"
-platform: "PC"
+verdict: recommended
+platform: "Switch"
 release_year: 2023
 genre: "Adventure, Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A gentle psychological horror in which a ghostly venue between life and the afterlife is explored through a camera that reveals hidden things."
+summary: "An innovative camera mechanic that reveals hidden objects and manipulates dream environments anchors a side-scrolling horror adventure, though some puzzles obscure their logic and the horror remains mild throughout."
 image: "/assets/img/reviews/afterdream.webp"
 ---
 
-Afterdream is a psychological horror adventure told as a therapy session about a lucid dream. The dream moves from a filthy apartment to a venue between the world of the living and the afterlife, where ghosts who cannot feel as the living do gather.
+Lucid dreaming frames a melancholic journey through a ghostly residence, where Jennifer uses a strange camera to navigate both dark corridors and the boundary between dream and reality. The premise unfolds through therapy sessions that contextualise each dream exploration, establishing the narrative's emotional core from the opening moments. A distinctive pixel-art aesthetic renders the dream world with atmospheric detail, while the title screen sets an immediately unsettling tone. First-person exploration moves through side-scrolling environments populated by spectral inhabitants.
 
-The camera obscura sits at the centre of the design, with photographs making hidden objects appear or vanish. The same camera doubles as a light source in darkened rooms, a neat doubling that recalls the Fatal Frame series and gives each puzzle a distinct texture.
+Core gameplay revolves around the camera's dual function: illuminating dark rooms and revealing objects that shift between visible and invisible states. Environmental puzzles range from lock-picking mechanisms to combination locks and light-based challenges, each requiring careful observation of the dream environment. Collectible items gate progression through the dream layers, with the therapy session framing device providing context between excursions. The dream-within-a-dream structure adds spatial complexity as environments shift between layers of reality.
 
-Puzzles build steadily around the camera, from unsticking a fridge door by photographing it to banishing a spirit at a memorial gate. The bobby-pin lockpicking, the gemstone door and the cassette button sequence give the venue a consistent logic.
+The camera mechanic stands as the game's defining innovation, functioning as both a light source and a reality-bending tool that makes objects appear or disappear. Solving puzzles demands switching between camera modes to reveal hidden pathways and interactive elements. The mechanic sustains engagement across the journey, transforming simple room navigation into layered environmental investigation.
 
-The ghostly residents each carry a small quest, from the old Fox's dinner food to the ice sculptor's coffee and rose. The search for a portal object of personal value ties every task to the dream's emotional purpose.
+Some puzzles obscure their solution behind unintuitive logic, requiring trial-and-error experimentation rather than deductive reasoning. The absence of sprinting slows traversal through larger environments, though level scale keeps this from becoming problematic. Horror elements remain subdued compared to the developer's previous work, favouring melancholic atmosphere over sustained tension.
 
-The therapy-session frame shapes the narrative, with agree-and-disagree questions that tailor the experience as it unfolds. The reunion with the father who died alone provides the emotional payoff in the closing moments.
-
-The mailman's lost hat drags into a long search that tests patience. The wardrobe combination puzzle invites overthinking, and the absence of sprinting keeps movement slow despite the compact level design.
-
-Overall, camera design and the compact structure carry the experience across two hours and sixteen minutes. The gentle horror and the bittersweet last goodbye make Afterdream a warm, memorable journey that lingers.
+Overall, Afterdream delivers a mechanically distinctive horror adventure where the camera system creates genuine puzzle novelty, anchored by an emotional narrative that prioritises atmosphere over fright.

@@ -3,25 +3,21 @@ layout: review
 date: 2026-06-22
 game_title: "Assassin's Creed: Bloodlines"
 permalink: /reviews/assassins-creed-bloodlines/
-verdict: "not-sure"
+verdict: not-sure
 platform: "PSP"
 release_year: 2009
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A brisk PSP sequel whose easy assassination loop and decent presentation are undermined by fiddly traversal and a story that barely expands the series."
+summary: "Competent PSP translation of AC1's assassination formula with satisfying kill combos, though repetitive side missions, frustrating traversal, and minimal narrative expansion create a brief, serviceable experience that adds little to the franchise."
 image: "/assets/img/reviews/assassins-creed-bloodlines.webp"
 ---
 
-Assassin's Creed: Bloodlines continues Altaïr's pursuit of the Templars on Cyprus, following the trail of the Apple of Eden as a direct sequel to the first game. The PSP entry completes quickly, with every memory finished in just under four hours and side missions adding an hour or more on top.
+Altaïr travels to Cyprus after the events of the first game, pursuing the Apple of Eden across Limassol and Kyrenia while encountering Maria, a former Templar who becomes an uneasy ally. The premise attempts to bridge the gap between the first and second games but ultimately adds minimal lore to the franchise. From the opening assassination, the PSP controls communicate a functional but imprecise adaptation of the console experience. The Cyprus setting introduces pirate-infested ports and Templar-controlled castles that differentiate the environment from the Holy Land.
 
-The game was expected to bridge the gap between the first two console instalments, but it expands the series rather than connecting it. The story adds little beyond the continuing relationship between Altaïr and Maria.
+Core gameplay mirrors AC1's formula with assassination, combat, platforming, and stealth adapted for PSP controls. Side missions span assassinations, combat encounters, deliveries, intercepts, thefts, and interrogations across the island's districts. The scholar disguise mechanic and throw-then-assassinate combo create satisfying kill sequences that reward timing and positioning. The upgrade system uses collected currency for health, damage, and utility improvements, though choices remain limited.
 
-Assassination is the standout activity, allowing targets to be thrown before being finished with the hidden blade. Enemies are notably weak, which suits the loop because encounters stay quick, forgiving and satisfying to dispatch.
+The assassination gameplay translates surprisingly well to handheld, with the throw-and-assassinate combo creating satisfying tactical moments. The side mission variety provides engagement across Cyprus's districts, even when individual tasks feel formulaic. The scholar disguise mechanic adds stealth depth that mirrors the console experience effectively.
 
-Combat counters are never lethal, simply knocking opponents down, so there is little reason to engage with them. Traversal is the main frustration because the character falls from ledges far more easily than in the original game.
+Traversal remains frustrating throughout, with the PSP's D-pad making precise movement difficult during platforming sequences. The story fails to meaningfully bridge AC1 and AC2, offering only minor insight into Altaïr's journey without significant character development. The extremely short runtime, under four hours with all side content, limits the experience's staying power.
 
-The presentation cleans up well for a PSP title, with textures that do not look great but open areas that are surprising for the hardware. Objective icons are not entirely accurate, and the running animation looks goofy.
-
-Side activities such as assassinations, deliveries and interrogations do not count toward completion, so the main missions alone reach a full hundred percent. Guards draw their weapons whenever anyone sprints, making running itself suspicious, and the controls feel a little odd throughout.
-
-Overall, assassination and the short length make Assassin's Creed: Bloodlines a mild entry rather than an essential one. The easy kill loop and the passable presentation keep it a watchable distraction for series fans.
+Overall, Assassin's Creed: Bloodlines delivers a competent handheld adaptation through satisfying assassination mechanics, though repetitive missions, imprecise controls, and minimal narrative expansion create uncertainty about whether the brief experience justifies the investment.
