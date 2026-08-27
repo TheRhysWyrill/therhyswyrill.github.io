@@ -3,25 +3,23 @@ layout: review
 date: 2026-07-04
 game_title: "Boxes: Lost Fragments"
 permalink: /reviews/boxes-lost-fragments/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2024
-genre: "Puzzle"
+genre: "Adventure, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An escape-room puzzle-box adventure whose themed chapters stay short, simple and creative, with only sliding blocks and one unresetable puzzle causing real friction."
+summary: "Beautiful diorama presentation and varied puzzle types create a satisfying The Room-inspired experience, though sliding block puzzles and finicky mouse controls disrupt the otherwise methodical flow."
 image: "/assets/img/reviews/boxes-lost-fragments.webp"
 ---
 
-Boxes: Lost Fragments is an escape-room-style puzzle game in which a legendary thief breaks into a mansion to solve ornate puzzle boxes for an unseen client. Five themed chapters, from Initium to Aurora, hide tokens that piece together a story told through in-game letters.
+Mechanical puzzle boxes demand attention and dexterity across five chapters, each containing multiple intricate mechanisms that reward careful observation. The diorama-style presentation invites leaning in to examine every surface, with rotations and zooms revealing hidden compartments and moving parts. Notes scattered throughout unfold Aurora's story, adding narrative weight to each solved box.
 
-The correspondence traces a scientist building an artificial being, and the closing reveal recontextualises the entire job in a way that lands well. That framing gives the puzzle-solving a narrative payoff beyond the boxes themselves.
+Puzzle variety sustains engagement, with mechanical locks, symbol matching, and rotating gears providing distinct challenges across each chapter. Monument Valley-inspired mini-games break up the box-solving rhythm, introducing spatial puzzles that play with perspective and geometry. These diversions complement the core mechanics rather than disrupting them.
 
-The puzzle-box themes vary from Victorian and mechanical to architectural and ancient, with the industrial, safe-like and temple chapters each feeling distinct. Most puzzles are simple and short, and that simplicity reads as a virtue across the whole run.
+Diorama presentation renders each box as a tactile object, with lighting and material textures creating an atmosphere of intimate discovery. The ability to rotate and examine every angle rewards curiosity, as solutions often hide in unexpected positions. This attention to visual detail extends to the ambient sound design, where mechanical clicks and gears provide satisfying feedback.
 
-Creative set pieces stand out, from a crane-game sequence to a Monument Valley-style segment and an inverted-mole gem puzzle. The connected-fragments design, where several objects in an area feed one solution, keeps each room cohesive.
+Sliding block puzzles, however, prove consistently frustrating, with one wrong move potentially locking progress and forcing a reset. These sections contrast sharply with the otherwise generous puzzle design, creating friction that interrupts momentum. Mouse controls compound this issue, as precise movements become difficult when navigating tight grid spaces.
 
-Sliding-block puzzles are the main friction, easy to back into a corner with and hard to untangle once scrambled. A final-chapter puzzle offers no reset at all, and one number puzzle frustrates through constant misalignment.
+The Aurora narrative unfolds through scattered notes that gradually explain her creation and the moral questions surrounding her power. These fragments add emotional context without overwhelming the puzzle-focused gameplay. Voice lines lack subtitles, creating accessibility concerns for those who prefer reading.
 
-The only puzzles likely to stall progress are the random-feeling ones and those that punish mistakes, which fits a generally gentle curve. Comparisons to The Room are apt but flattering, with most of the experience a fair bit simpler.
-
-Overall, variety, creativity and approachable difficulty make Boxes: Lost Fragments a satisfying puzzle-box adventure. The brief run ends without a credits sequence, yet the short chapters keep the momentum fresh throughout.
+Overall, the diorama presentation and puzzle variety deliver a satisfying box-solving experience that honours The Room's legacy, though sliding block puzzles and mouse precision issues create friction that tempers the otherwise contemplative atmosphere.

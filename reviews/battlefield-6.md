@@ -3,25 +3,23 @@ layout: review
 date: 2026-07-04
 game_title: "Battlefield 6"
 permalink: /reviews/battlefield-6/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2025
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A short but explosive campaign in which levelling buildings, a stealthy Cairo raid and a Michael Bay finale outweigh a disjointed flashback structure."
+summary: "An unlimited drone bomber and best-in-class environmental destruction deliver military set-pieces with real impact, though confusing narrative jumps and lens flares undermine the otherwise high-octane campaign."
 image: "/assets/img/reviews/battlefield-6.webp"
 ---
 
-Battlefield 6 delivers a near-future military thriller in which the private military company PAX Armada attacks a NATO base and fractures the Western alliance. The campaign follows US Marine squad Dagger 13 through an interrogation framing device that unfolds entirely as flashbacks.
+Battlefield 6 drops a squad into a near-future conflict spanning Georgia, New York, Gibraltar, and Egypt, where NATO forces race to protect critical servers from a private military corporation. The unlimited drone bomber mechanic announces itself immediately, granting persistent air support across multiple missions that shifts the tactical calculus. Environmental destruction remains the franchise's signature: buildings collapse, walls shatter, and the landscape transforms under sustained fire.
 
-The flashback structure jumps between squad members and locations, with one mission in Egypt beginning with no explanation. The disjointed arrangement is the campaign's main weakness, and the framing device is not announced until the story is well underway.
+Combat anchors the campaign through standard military FPS mechanics: squad commands, gadget loadouts, and class-based weapon selection. The sniper rifle delivers particular impact, each long-range shot rewarding patience with audible crack and visual confirmation. Vehicle sections, including tanks and helicopters, punctuate the infantry combat with varied perspectives.
 
-Environmental destruction is the campaign's greatest asset, with buildings that collapse entirely under a single RPG strike. Watching a structure collapse is consistently satisfying, and the destruction gives every firefight a real sense of scale.
+The Egypt tank mission offers open-ended vehicular combat unusual for the series, where a guided mortar provides a fresh approach to the formula. Destruction physics shine here, with structures crumbling under sustained fire and creating new sightlines mid-engagement. Between these set-pieces, the drone bomber sustains momentum by offering air support that rewards positioning and timing.
 
-The final mission plays like a Michael Bay film, with constant explosions, while the Cairo stealth mission and the tank section add welcome variety to the pacing. The drone-bombing sequence is enjoyable, though unlimited drone strikes make parts of it trivial.
+Narrative pacing proves the campaign's weakest element: the story jumps between locations and characters without clear connective tissue, leaving the squad's motivations unclear across missions. The NXC silo mission drags with repetitive combat encounters that test patience rather than skill. AI companions fail to capitalise on tagged targets, throwing away weapons and vanishing from the battlefield.
 
-Nine missions take around five and a half hours, which is short but never feels rushed. The weapons feel good across the board, with rifles and the guided mortar standing out as particular highlights.
+Lens flares return as a persistent visual annoyance, obscuring gameplay with bright flashes that cannot be toggled off. The menu system compounds this with cluttered interfaces and unnecessary pop-ups that obscure basic navigation.
 
-The campaign ends on a cliffhanger, and minor AI quirks, such as thrown-away RPGs that vanish rather than landing, detract slightly. Death comes quickly across the board, with the soldier remaining noticeably fragile throughout the campaign.
-
-Overall, destruction and spectacle make Battlefield 6 a campaign worth playing. The short length and the disjointed structure hold it back, but the final impression stays positive.
+Overall, the drone bomber and environmental destruction create a military shooter with mechanical substance that persists beyond its narrative shortcomings, even if lens flares and confusing pacing interrupt the otherwise high-octane momentum.

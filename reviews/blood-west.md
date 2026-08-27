@@ -3,25 +3,23 @@ layout: review
 date: 2026-06-26
 game_title: "Blood West"
 permalink: /reviews/blood-west/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2023
-genre: "FPS"
+genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A meaty weird-west horror FPS whose stealth-first gunplay, interconnected maps and dark atmosphere are marred only by one brutal early boss."
+summary: "Satisfying stealth kills and interconnected map design drive an immersive Wild West horror, though a global detection meter and clunky controller inventory management create friction."
 image: "/assets/img/reviews/blood-west.webp"
 ---
 
-Blood West is a weird-west horror FPS in which a cursed land keeps the dead from leaving, and an Undead Gunslinger is resurrected by totems of souls to purge the corruption. Three open-ended acts, from the Canyons to the Swamp and the Mountains, each offer artefacts, bosses and sprawling interconnected areas.
+A Tainted One rises from a burial site in a cursed Wild West where supernatural forces have twisted the frontier into something far darker than historical legend suggests. The atmosphere emerges from environmental storytelling and exploration rather than cutscenes, with ancient evil permeating every canyon, swamp, and mountain pass. Stealth and gunplay blend with supernatural horror across interconnected zones demanding observation and firepower.
 
-The open-ended level design evokes Metro Exodus, with large intertwined maps whose routes loop back on themselves. The interconnected layout makes exploration impressive, and the scale of some areas is considerable.
+Stealth mechanics form the backbone of combat, rewarding patience and observation with satisfying silent takedowns that preserve resources and avoid attracting nearby enemies. Multiple weapons including revolvers, shotguns, lever-action rifles, bone knife, and tomahawk provide distinct approaches to each encounter. The perk system allows customising playstyle through upgrades unlocked by collecting gold.
 
-Stealth is the primary approach, with backstab one-shots and rock and distraction tools enabling quiet takedowns. The gunplay is punchy and satisfying, and encounters encourage a slow, planned approach rather than constant action.
+Enemy variety keeps encounters fresh, with birdmen, spirits, wendigos, and coffin zombies demanding different tactical approaches. Detection operates through a global meter that tracks awareness across the entire map, creating frustration when a single alert propagates to all nearby threats. This system punishes aggressive play and demands careful route planning through each area.
 
-The perk tree and artefact system provide extensive choice, with so many worthwhile options that progression stays engaging across the whole run. In-game lore notes deliver storytelling at its best, with a farm diary that descends from chicken-feeding entries into horror.
+The interconnected map design rewards thorough exploration, with hidden paths and secret areas tucked behind environmental puzzles. Wendigo hearts provide health regeneration when consumed, adding a risk-reward dynamic to aggressive combat. Navigation benefits from a Silent Hill-style map system that tracks explored areas and marks points of interest.
 
-The atmosphere is dark and oppressive, with danger lurking around every corner, and the cursed land itself feels alive with threat. The closing act reworks the established tools, ending in a confrontation that reshapes the journey's purpose.
+Controller inventory management proves clunky, with menus designed primarily for keyboard and mouse input creating friction during combat transitions. Sprint toggle rather than hold adds another layer of mechanical awkwardness, particularly during stealth sequences requiring rapid repositioning. These control issues remain manageable with practice but interrupt the otherwise smooth flow.
 
-The chapter one boss stands out as a massive difficulty spike, summoning additional enemies mid-fight. The game also lacks a proper credit sequence, and minor frictions such as inconsistent gunshot detection linger.
-
-Overall, stealth, gunplay and atmosphere make Blood West an emphatic recommendation. Around twenty-five hours of content for a modest price is exceptional value, with only the early boss spike marking a real stumble.
+Overall, the stealth mechanics and interconnected Wild West setting deliver a horror FPS with satisfying combat variety, though the global detection meter and controller interface create friction that tempers the otherwise immersive atmosphere.
