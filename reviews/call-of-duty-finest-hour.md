@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Call of Duty: Finest Hour"
 permalink: /reviews/call-of-duty-finest-hour/
-verdict: "recommended"
+verdict: recommended
 platform: "PS2"
 release_year: 2004
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Five soldiers across three fronts, anchored by the 761st Tank Battalion's story and undone only by an unfair final campaign."
+summary: "Three distinct WWII campaigns spanning Soviet, British, and American perspectives deliver varied combat scenarios and historical authenticity, though a punishing difficulty spike and oppressive sewer level undermine the final act's momentum."
 image: "/assets/img/reviews/call-of-duty-finest-hour.webp"
 ---
 
-Call of Duty: Finest Hour follows five soldiers across three fronts, from a Stalingrad sniper to a British SAS commando and a tank crewman of the 761st Tank Battalion. Two missions per character keep each campaign fresh, and the rotating perspectives give the whole war a sense of scale.
+Soviet, British, and American campaigns weave through pivotal WWII battles from Stalingrad to the Rhine crossing, each introducing distinct characters and combat styles. The Soviet opening charge across Stalingrad without a weapon establishes a tone of desperate heroism that sets the campaign apart from typical shooter introductions.
 
-The 761st's story is the emotional anchor, following a Black tank battalion that built an unstoppable team against prejudice and closing with real veterans' testimony. The Stalingrad tractor-factory defence, a ten-minute hold-the-line shooting gallery, is the other standout.
+Health is managed through medkits rather than regeneration, creating tension in firefights that demands careful positioning and resource management. The system rewards aggressive play in early missions where health drops appear frequently, but the balance shifts dramatically as the campaign progresses.
 
-The sniper segment rewards patience, with officers prioritised and a sapper planting a landmine under covering fire. Tank sections offer a welcome change of pace, even if their controls are awkward to handle.
+The British sniper missions with Tanya Pavlovna provide the campaign's most atmospheric sequences, blending stealth mechanics with character-driven narrative. Tank missions with Rivers offer a change of pace, with vehicle-based combat that breaks the infantry-focused rhythm despite slow cannon aiming, demonstrating the multi-perspective design's strength.
 
-The final campaign is where the game loses its footing, with unfair enemy counts, sparse healing and enemies that stop dropping health entirely. A sliver of health with no medkits turns every firefight into a slog, where the later Call of Duty games' regenerating health is sorely missed.
+The American campaign starts promisingly but declines sharply with escort objectives and a sewer level that borders on unplayable due to oppressive darkness. These sequences test patience rather than skill, undermining the momentum built by the preceding Soviet and British chapters.
 
-The Aachen sewer is the low point, an almost pitch-black level with no brightness setting, no flashlight and a broken objective marker. Grenade spam without any indicator and escort missions compound the frustration.
+A brutal difficulty spike in the final third compounds these issues, as enemies stop dropping health while grenade spam increases. The balance that maintained engagement early on collapses, transforming tense firefights into frustrating attrition battles.
 
-Friend and foe are easy to confuse without the usual red crosshair, and shooting is impossible while climbing ladders. Dated low-resolution textures show their age, though the presentation does not undermine the core strengths.
+The historical veteran testimonials at the end add documentary-style weight that few games attempt, grounding the fictionalised combat in genuine personal history. This closing touch provides emotional resonance that elevates the experience beyond its mechanical limitations.
 
-Overall, structure, variety and the 761st's story make two-thirds of Finest Hour enjoyable. The unfair final campaign and the sewer level are what stop it from being a stronger recommendation.
+Overall, the multi-perspective structure and historical authenticity establish a WWII shooter with genuine atmospheric ambition, though the punishing difficulty spike and oppressive level design in the final act prevent the campaign from maintaining its strong opening momentum.

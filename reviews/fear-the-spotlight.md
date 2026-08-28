@@ -1,27 +1,25 @@
 ---
 layout: review
 date: 2026-07-08
-game_title: "Fear The Spotlight"
+game_title: "Fear the Spotlight"
 permalink: /reviews/fear-the-spotlight/
-verdict: "recommended"
-platform: "PC"
+verdict: recommended
+platform: "Switch"
 release_year: 2024
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A two-chapter survival horror whose PS1-era look, readable enemy telegraphing and quiet tension make it a very good game."
+summary: "Low-poly PS1-style visuals and a distinctive spotlight-headed enemy deliver genuine scares and atmospheric tension, though PC instability and the brief Chapter 1 limit the experience on certain platforms."
 image: "/assets/img/reviews/fear-the-spotlight.webp"
 ---
 
-Fear the Spotlight is a two-chapter survival horror in which two teenage girls break into their school after hours for a seance, and each chapter plays as a different protagonist. Vivian's school chapter runs about two and a half hours while Amy's childhood-home chapter is roughly ninety minutes, with the mechanics reworked between them.
+Viv and Amy break into their school library to perform a séance, and when the ritual goes wrong, Viv is transported to a nightmarish version of the building during a catastrophic fire. The PS1-style visuals create immediate unease through wobbly, pixelated graphics that enhance rather than hinder the horror atmosphere. From the opening exploration, the low-poly aesthetic communicates a world where every shadow could conceal danger.
 
-The deliberate PS1-era look intensifies the dread, with wobbly geometry, low polygons and distant objects that read as figures before vanishing when noticed. The spotlight-man enemy telegraphs clearly, since his light shows exactly where he is and which way he faces, and the music softens the further away he gets.
+Jump scares land with surprising effectiveness, catching even seasoned horror veterans off guard through precise timing and environmental design. The minimal audio amplifies tension, with quiet corridors building anticipation before sudden reveals deliver genuine chills. Atmosphere derives from the interplay between the retro visual style and restrained sound design rather than excessive gore or spectacle.
 
-The scare design leans on startles rather than sustained dread, from the ringing phone to the burnt victims' beady eyes that vanish once noticed. The silence does the scaring, and the sparse ambience makes the quiet stretches more unsettling than any monster.
+Spotlight-headed enemies patrol corridors with visible light cones that telegraph their detection range, creating a stealth dynamic where visibility becomes both threat and tool. Tracking their movements through the wobbly corridors demands careful observation, and the inhaler health system adds resource management tension during evasion sequences. This enemy design transforms standard stealth-horror into something mechanically distinctive.
 
-The layered mystery of the 1991 school fire, the secret-admirer letters, the burnt rose and the bullying subplot gives the world real depth. The in-game documents are called juicy stuff, and the superintendent cover-up threads through every room.
+Puzzles range from fuse box management to pipe routing and projector alignment, each requiring environmental observation and item combination. The tactile puzzle design rewards thorough exploration, with solutions that feel earned rather than arbitrary. Task lists guide progression without removing the satisfaction of discovery.
 
-Healing uses a jumbo inhaler for Vivian and incense sticks for Amy, since being caught damages the lungs rather than health. The checkpoints are exceptionally generous, which keeps tension from turning into frustration.
+Relationship warmth between Viv and Amy provides unexpected emotional depth, grounding the horror in character motivation that sustains engagement beyond scares. The story unfolds through environmental storytelling and notes that reveal disturbing subplots without excessive exposition.
 
-The PC version crashes every five to ten minutes with no explanation and carries a permanent bottom-left watermark, which pushes play onto Switch. The Switch build runs stable with fewer graphics options, though the control mapping causes friction with crouch and menu buttons.
-
-Overall, the chapter structure, the PS1-era look and the readable enemy design make this a genuinely unsettling horror. The quiet tension and generous checkpoints carry it, while the PC stability problems remain the caveat.
+Overall, the PS1-style visuals and spotlight-headed enemy create atmospheric horror that delivers genuine scares through environmental design and restraint, though PC crashes and the brief Chapter 1 limit accessibility across platforms.

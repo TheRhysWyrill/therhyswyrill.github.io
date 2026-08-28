@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-29
 game_title: "God of War III"
 permalink: /reviews/god-of-war-3/
-verdict: "recommended"
+verdict: recommended
 platform: "PS3"
 release_year: 2010
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A very good finale whose visuals, weapon-swap combat and epic set pieces cap the original trilogy impressively."
+summary: "Seamless weapon switching and stunning PS3 visuals deliver exceptional combat, though the edge-of-screen QTE system undermines the experience."
 image: "/assets/img/reviews/god-of-war-3.webp"
 ---
 
-God of War III is an action-adventure finale that picks up exactly where God of War II ends, with Kratos riding a Titan up the slopes of Olympus. The campaign was completed through its credits and post-credits scene on original PS3 hardware.
+Kratos leads the Titans in an assault on Mount Olympus, systematically killing gods whilst seeking the Flame of Olympus to exact revenge on Zeus. Each god encounter creates environmental consequences that reshape the world, maintaining relentless momentum from start to finish.
 
-The visuals are insane for the hardware, with the glowing blades and the scale of Olympus making the jump from God of War II huge. The intro's direct continuation of the previous ending looks dramatically better.
+Combat revolves around four weapons switchable mid-combo: the Blades of Exile for primary strikes, the Claws of Hades for soul summoning, the Nemesis Whip for chain building, and the Nemean Cestus for shield breaking. Each weapon upgrades independently with associated spells, and the ability to move whilst attacking transforms combat flow.
 
-The weapon-swap system lets combat switch weapons mid-combo, and the spells tied to each weapon are all pretty good. The Claws of Hades are the favourite, versatile thanks to the many souls that can be summoned.
+The Poseidon opening boss fight establishes the visual standard with a multi-stage encounter that shifts perspective to first-person during finishing moves. PS3 hardware pushes detailed character models, environmental destruction, and particle effects that create cinematic spectacle.
 
-Combat quality-of-life improvements land, with movement while attacking, faster object pushing and a visible max-upgrade indicator. The Hermes fight is a fun highlight, and the Zeus finale's dynamic fighting stage is a cool touch.
+The Claws of Hades emerge as the most versatile weapon, with soul-summoning abilities and ground-pull mechanics that add crowd-control depth. This weapon's move set sustains engagement across the campaign, proving indispensable during extended combat sequences.
 
-The new quick-time events are the biggest issue, since the small buttons at the screen edges are far harder to read than the centred prompts of earlier games. The close over-the-shoulder camera feels wrong, and enemy-heavy stretches drag.
+The edge-of-screen QTE system proves divisive, relocating button prompts to screen periphery where they become harder to read during frantic moments. Camera tracking struggles during busy fights, with flashing effects and close angles obscuring enemy actions.
 
-The scorpion queen fight and the cerberus are worse than ever, and the shield enemies block constantly. The Pandora escort mission is a chore, and the Hermes boots barely last longer than two seconds.
+The Gaia boss fight delivers an anticlimactic resolution, and the Pandora escort segment tests patience. Hermes's chase sequence compensates with entertaining dismemberment, though his boots grant only brief sprinting duration.
 
-Overall, the visuals, the weapon-swap combat and the epic set pieces make God of War III a very good game. The edge-of-screen quick-time events and the close camera are the caveats.
+Overall, the weapon-switching combat system and stunning PS3 presentation deliver a Greek saga conclusion that excels in mechanical variety. Edge-of-screen QTEs and close camera angles prevent the experience from reaching its full potential, yet the core hack-and-slash satisfaction remains formidable.

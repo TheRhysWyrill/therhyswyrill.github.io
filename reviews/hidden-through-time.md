@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-14
 game_title: "Hidden Through Time"
 permalink: /reviews/hidden-through-time/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2020
-genre: "Point & Click"
+genre: "Adventure, Casual"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A colourful hidden-object search whose hints, era framing and gentle difficulty make it an easy return visit."
+summary: "Colour-assisted object finding makes scanning significantly more accessible than monochrome alternatives, though the short music loop becomes noticeable during extended play."
 image: "/assets/img/reviews/hidden-through-time.webp"
 ---
 
-Hidden Through Time is a hidden-object search game from Rogueside, sending the player through hand-drawn historical scenes in the hunt for listed objects. The full package was completed, with the main story mode and all five DLC packs cleared to one hundred per cent.
+Hand-drawn scenes across historical eras form the backbone of this hidden-object experience. A colour palette makes objects significantly easier to spot compared to monochrome alternatives. Creative contextual hints provide poetic clues that occasionally give away locations through clever wordplay. The accessible approach distinguishes this from more demanding titles in the genre.
 
-The hint writing earns its keep by cutting down the search space, with statements about trees or settings narrowing what needs to be examined. Some hints make object locations fairly obvious, which is exactly the point of a genre built on restraint.
+Multiple historical eras span the base game and five DLCs, from Stone Age to Western settings. Viking, Japanese, Roman, Pirate, and Aztec themes expand the content across diverse environments. Peaceful ambient music and sound design create a meditative atmosphere suitable for casual play. Controller support exists, though mouse remains preferred for precision scanning.
 
-The historical-era framing keeps every level distinct, with four eras in the main game and five themed DLC packs covering Norse mythology, Japan, Rome, pirates and the Aztecs. Each setting brings its own set dressing, characters and object roster.
+Peaceful atmosphere emerges from the ambient soundtrack and hand-drawn visual style. Each era maintains distinct visual identity despite the shared aesthetic approach. The base game plus substantial DLC catalogue provides considerable content across nine different historical periods. Stone Age, Ancient Egypt, Medieval, and Western settings anchor the core experience.
 
-The colour palette is a genuine design benefit, since the coloured scenes make objects far easier to spot than the monochrome art of Hidden Folks. The game is significantly easier than Hidden Folks as a result, which is not a bad thing.
+Colour palette helps objects stand out from backgrounds, reducing the searching frustration common in monochrome titles. Small items like snails and chameleons still blend with surroundings, creating occasional difficulty spikes. Canyon-level skull placement exemplifies the extreme end of this challenge. Despite these moments, the colour advantage sustains accessibility throughout.
 
-The jokes in the level descriptions are a recurring delight, from the bloody yellow scorpion to the creature that is not a troll but a Kappa. The pleasant music, particularly during the pirate DLC, adds a light touch throughout.
+Creative hint system provides contextual clues that sometimes reveal locations through wordplay. Short music loop becomes repetitive during extended sessions, though the peaceful tone prevents the repetition from becoming grating. Secret levels remain absent, unlike the sequel's bonus content.
 
-The main campaign is short at around ninety minutes, and each DLC pack lasts about twenty minutes, with the whole package finishing in under four hours. Objects repeatedly blend into the scenery, with camouflage forming the core difficulty, and the container-search habit causes misses when hidden objects sit inside opened items.
+Text alignment on objective displays not being centred creates minor visual friction. Despite this, the overall presentation maintains charm throughout.
 
-Overall, the hint writing, the era framing and the gentle difficulty make this a fun hidden-object game. The brevity is the only real caveat, and returning to it remains an easy decision.
+Overall, colour-assisted object finding and substantial DLC catalogue deliver a hidden-object experience with satisfying accessibility. The short music loop and occasional blending of small objects prevent the peaceful atmosphere from fully establishing itself.

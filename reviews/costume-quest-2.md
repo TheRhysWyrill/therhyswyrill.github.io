@@ -3,25 +3,23 @@ layout: review
 date: 2026-06-26
 game_title: "Costume Quest 2"
 permalink: /reviews/costume-quest-2/
-verdict: "recommended"
+verdict: not-sure
 platform: "PC"
 release_year: 2014
 genre: "RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A Halloween time-travel RPG whose costume gimmicks and comedy outweigh its simplified combat."
+summary: "Charming time travel narrative and varied costumes elevate this turn-based RPG, though simplified combat and useless party members undermine mechanical depth."
 image: "/assets/img/reviews/costume-quest-2.webp"
 ---
 
-Costume Quest 2 sends its trick-or-treating heroes through a time hole into a dystopian future where Halloween is banned. A grown-up villain has outlawed candy and costumes and brainwashed the repugians into running a dental utopia.
+Costume Quest 2 sends protagonists from the original through time to stop a dentist from eliminating Halloween, delivering an amusing premise that sustains exploration across multiple eras. The turn-based combat system returns with timed attacks, though every attack now uses the same timing mechanic regardless of costume. This simplification removes the button-mashing and stick-moving variety that distinguished the first game's combat encounters.
 
-The time-travel structure sends the kids back to stop the villain's younger self, through the Tooth Academy, the sewers and the dental compound. The classroom scene, with brainwashed kids giving absurd answers, is a highlight of the writing.
+Costume variety provides tactical differentiation, with each outfit offering unique abilities and strengths against specific enemy types. From clown to pterodactyl to wizard, these costumes reward experimentation across different encounter compositions. The time travel structure introduces distinct environments that shift the visual palette while maintaining the trick-or-treating core loop.
 
-Costumes remain the heart of the game, each with a traversal gimmick and an upgrade path that visibly recolours the suit. The combo follow-up attack and the charged counter are welcome additions to the combat.
+Fetch quests gate progression through delivery missions that feel repetitive across the game's multiple areas. The candy corn party member contributes nothing in combat, creating unbalanced battles that drag longer than necessary. Counter-attacks prove rarely worth the risk due to unpredictable enemy targeting patterns.
 
-The new techniques come from a returning mentor, and the familiar cast, from the gator and the candy dealer to a repugian, keeps the sequel connected to the original. The block-party epilogue reunites every resolved character after the story closes.
+Health regeneration between battles was removed compared to the original, creating resource management pressure that extends combat tension. This design choice compounds with the simplified attack system, making encounters feel both monotonous and punishing simultaneously. The absence of healing transforms optional fights into calculated risks rather than opportunities for experimentation.
 
-Combat is noticeably dumbed down compared with the first game, with every attack reduced to the same timing-ring press. The battle stamps become cards that waste a turn to use, and there is no full heal between fights.
+The story concludes with Halloween restored and Dr. White redeemed, delivering satisfying narrative resolution across the time travel arc. World-building across multiple time periods provides visual variety, though the mechanical depth diminishes as the game progresses. The delivery quest structure repeats without meaningful escalation.
 
-The candy corn costume is useless in battle, one character takes disproportionate damage, and the health pools are smaller than the original. The XP curve climbs steeply and the game demands a 60Hz setting, while the finale closes as a free-roam epilogue rather than a set-piece.
-
-Overall, costumes and humour carry Costume Quest 2 past its simplified combat. The time-travel story and the returning cast round out a warm, funny RPG.
+Overall, the charming narrative and costume system deliver a pleasant RPG experience, though the combat simplification and party imbalance prevent mechanical engagement from matching the original's appeal. The time travel premise sustains interest, but the loss of attack variety creates a persistent sense of missed potential throughout.

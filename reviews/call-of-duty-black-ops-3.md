@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-07-04
+date: 2026-08-26
 game_title: "Call of Duty: Black Ops III"
 permalink: /reviews/call-of-duty-black-ops-3/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2015
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A 2065 shooter whose cyber abilities, tactical vision and ambiguous story outweigh locked loadouts and a worn-out running gag."
+summary: "DNI abilities including incendiary drones and enemy hacking create a tactical layer that complements satisfying gunplay, though inconsistent wall running and locked weapon loadouts reduce mechanical variety across the campaign."
 image: "/assets/img/reviews/call-of-duty-black-ops-3.webp"
 ---
 
-Call of Duty: Black Ops III is the 2015 entry set in 2065, forty years after Black Ops II, where a direct neural interface grants cyber abilities. The near-seven-hour campaign leans into that gadgetry, and the story's final twist reframes the player character's identity.
+Set 40 years after Black Ops II in 2065, the campaign follows an operative who gains a Direct Neural Interface after sustaining life-threatening injuries. The atmosphere shifts from military thriller to psychological horror as the DNI infection spreads.
 
-The cyber abilities are the highlight, with the fireflies opening enemies up, remote turret hijacking and an electric palm strike that is too good. Tactical vision highlights enemies and even shows grenade blast zones, functioning like a cheat code.
+DNI abilities expand the tactical options beyond standard firearms. Fireflies deploy incendiary drones that expose enemies, emulation hacks hostile systems, and tactical view highlights positions through walls. These tools layer strategic depth onto the shooting mechanics, rewarding creative deployment. The fireflies ability becomes the most consistently useful tool, opening enemy positions for follow-up damage.
 
-The plot favours ambiguity over tidy resolution, and the ending reveal is enjoyed for how it recontextualises the journey. Mission variety spans a storm-torn quarantine zone, a Cairo uprising, a WWII simulation and mindscape boss fights.
+Wall running and boost jumps add verticality to the traversal, though the mechanics prove inconsistent after the tutorial sequences. Early sections demonstrate fluid movement, but subsequent encounters reveal finicky input that undermines the polished combat flow.
 
-The game looks great for its age, and the animated weapon skins, from a vibrant pink to a deep fried finish, add personality to the arsenal. The Black Ops series music continues to land.
+The LMG weapon class delivers sustained firepower with high ammo capacity, making it the campaign's most satisfying weapon category. Fabrication kits earned through levelling unlock cosmetic customisation with vibrant skins. The inability to pick up enemy weapons forces reliance on a single loadout per mission, reducing variety and limiting tactical adaptation.
 
-The biggest gameplay gripe is the loadout lock, with enemy weapons unavailable to pick up and the secondary forced to a pistol. Wall running is finicky despite working in the tutorial, though every section offers a fallback path.
+The final level's infinite enemy spawning creates an anticlimactic conclusion that contrasts sharply with the campaign's otherwise structured encounter design. This mechanical breakdown interrupts the narrative momentum at the moment it demands the most engagement.
 
-The train-go-boom gag is run into the ground within a single mission, and one parking-garage approach spawns enemies endlessly. The AI companions are useless in a pinch, and a couple of long levels outstay their welcome.
+The visual quality holds up impressively despite the game's age, with detailed environments and smooth performance maintaining immersion across varied mission settings. Character customisation provides cosmetic identity through unlockable options. The default protagonist name being simply 'player' creates an odd disconnect during narrative moments.
 
-Overall, cyber abilities, tactical vision and mission variety make Black Ops III a fun, intriguing campaign. The loadout restrictions and repeated gags hold it back from the series' very best.
+Overall, the DNI abilities and satisfying gunplay establish a sci-fi shooter with genuine tactical depth, though inconsistent wall running and locked weapon loadouts prevent the mechanical variety from reaching its full potential.

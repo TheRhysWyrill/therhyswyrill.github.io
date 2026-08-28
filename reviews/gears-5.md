@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-08
 game_title: "Gears 5"
 permalink: /reviews/gears-5/
-verdict: "recommended"
-platform: "PC"
+verdict: recommended
+platform: "Series X"
 release_year: 2019
 genre: "TPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A really enjoyable entry whose open areas, skiff traversal and Jack ability system expand the cover-shooter template."
+summary: "Open-world skiff exploration and Jack's upgrade system expand the Gears formula, though altered control schemes and inconsistent stealth mechanics create friction throughout."
 image: "/assets/img/reviews/gears-5.webp"
 ---
 
-Gears 5 is a third-person cover shooter that puts Kait in the lead, with her strange connection to the Locust driving the story forward. The campaign runs about thirteen hours including the Hivebusters DLC, with two large open regions fully explorable by skiff.
+Kate's journey into the Locust legacy unfolds across snowy mountains, desert expanses, and ruined settlements. Cover-based shooting remains the foundation, with the chainsaw lancer and new weapons like the claw and detonator providing variety. From the opening siege, the scale of the conflict establishes momentum.
 
-The two open areas, a frozen northern expanse and the Vasgar desert, break up the corridor shooting with genuine exploration. The wind-powered skiff makes traversal a pleasure, driving like the swift sail from Wind Waker across dense maps.
+Jack's upgrade tree adds tactical depth through four distinct abilities. Hijack converts enemy units against their allies, creating chaotic advantages in firefights. Cloak enables stealth approaches for squad positioning, shield protects teammates during pushes, and flash disrupts groups. Upgrade components scattered across exploration areas reward thoroughness.
 
-Jack the robot companion and his ability system add real tactical options, with flash, stim, pulse, shock trap, cloak and barrier alongside the standout hijack. Hijacking turns enemies against themselves, and even a Scion can be taken over.
+Open-world sections on the skiff break from the series' linear tradition, with discount signs, side missions, and component caches feeding traversal into combat readiness. These segments provide breathing room between encounters without losing narrative momentum.
 
-The colour palette finally escapes the series' brown reputation, with greenery and variety making the world easier to read. The set pieces deliver the expected scale, from the rocket-launch escape to the bridge-lowering train chase and the final hammer strike.
+The hijack ability drives tactical creativity in ways previous entries never explored. Turning a heavy unit against its own squad reshapes firefights from desperate survival into calculated aggression. Converted enemies carving through former allies redefine what cover-based combat can accomplish.
 
-The Hivebusters DLC is short and sweet, with the Scorpio squad's distinct abilities and the jungle islands giving it its own identity. The voice cast, including Dave Fennoy as Keegan, and the banter keep the tone lively throughout.
+Action set pieces deliver spectacle through rocket launches, carrier battles, and boss encounters like the Matriarch. The visual palette breaks free from the series' brown aesthetic, with snow-covered peaks and sun-scorched desert providing environmental contrast.
 
-The control-scheme reshuffle is a genuine annoyance, with the chainsaw moved to the right bumper for no clear reason. The warden segments control awkwardly, the final boss drags on too long, and the late-game snipers are far more deadly than before.
+Control scheme alterations and missing button remapping frustrate across the campaign, breaking the familiarity of previous entries. Stealth mechanics feel bolted on rather than integrated, with slow walking replacing meaningful stealth options.
 
-Overall, the two open areas, the skiff and Jack's ability system make Gears 5 a really enjoyable entry. The DLC, set pieces and colour palette carry it, while the control changes and the over-long final fight are the caveats.
+Overall, the open-world exploration, Jack's upgrade system, and hijack ability create a Gears campaign with mechanical variety and visual freshness. The control changes and inconsistent stealth prevent the experience from reaching its ceiling, yet the foundation delivers a satisfying evolution of the cover-shooter formula.

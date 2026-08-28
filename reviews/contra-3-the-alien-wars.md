@@ -3,25 +3,25 @@ layout: review
 date: 2026-08-16
 game_title: "Contra III: The Alien Wars"
 permalink: /reviews/contra-3-the-alien-wars/
-verdict: "recommended"
+verdict: recommended
 platform: "SNES"
 release_year: 1992
 genre: "Shooter"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A run and gun sequel whose Mode 7 set-pieces, stand-still aiming and memorable alien designs mark a clear step up from its NES predecessors."
+summary: "Intense bullet hell combat and visual upgrades elevate this run-and-gun, though one-hit-kill difficulty and awkward Mode 7 boss encounters test patience."
 image: "/assets/img/reviews/contra-3-the-alien-wars.webp"
 ---
 
-Contra III: The Alien Wars is a major visual step up from the NES entries, with Mode 7 overhead sections giving the campaign a pseudo-3D identity. The R-button stand-still aim is a genuine quality-of-life addition that makes dense firefights far more manageable.
+Contra III: The Alien Wars drops a paramilitary unit into a 2636 alien invasion, opening with intense bullet patterns that demand constant movement. The SNES hardware delivers a visual leap over its predecessors, with Giger-inspired biomechanical aesthetics infusing alien environments with menace. Twin-stick shooting and the ability to stand still by holding R create a tactical foundation that previous entries lacked. Colourful environments range from urban ruins to alien hives, each with its own mechanical identity.
 
-The bike and chopper stages are a highlight, with the L-and-R axis control feeling odd at first but turning quickly once it clicks. The spread shot is the standout weapon, even if it rarely survives long after being collected.
+Eight stages cycle through varied mechanics, from side-scrolling to Mode 7 pseudo-3D sections with rotate controls. Bike chases and aerial sequences break up the platforming rhythm. Weapon power-ups include spread shot, laser, flamethrower, homing missiles, and the power bomb, each suited to different encounter types.
 
-The later stages are packed with strange alien designs, from rhino-like creatures with horns to a Giger-inspired backdrop. These encounters keep the campaign visually fresh right up to the final confrontations.
+Bullet patterns escalate dramatically across the campaign, with enemy density reaching overwhelming levels in later stages. One-hit-kill damage means a single mistake costs a life, demanding memorisation of enemy placement. Pattern recognition becomes essential as stages layer projectiles with environmental hazards.
 
-The missile-bridge boss is the weak point, demanding a lot of simultaneous tracking across jumping, falling missiles and incoming fire. One-hit deaths and dense bullet patterns keep the tension high throughout, even with generous checkpoints nearby.
+The power bomb mechanic delivers a screen-clearing desperation move that shifts momentum during overwhelming encounters. Holding R to stand still allows precise aiming while stationary, a mechanic absent from previous Contra titles. These tools provide just enough leverage to survive the escalating challenge without trivialising it.
 
-Weapon loss on death remains a recurring frustration, since a collected spread or laser is often gone within moments. The flamethrower is especially weak, offering little value compared with the machine guns and their rapid fire.
+Mode 7 rotation levels introduce pseudo-3D perspectives that shift the visual language entirely. The missile stage boss forces constant movement between platforms while dodging projectiles from multiple angles. These moments stand apart from the core side-scrolling formula.
 
-The campaign is short, roughly half over twenty minutes in, but its density gives it real replay value. The hardest difficulty gates the best ending, which encourages returning rather than a single cursory run.
+Giger-inspired corridors and biomechanical alien designs establish an atmosphere that escalates from military action to grotesque horror. The soundtrack drives momentum through each stage with pulsing compositions matching the on-screen intensity.
 
-Overall, the Mode 7 spectacle and the improved aiming make this an easy pick as one of the best Contra entries. It improves on the NES games in nearly every respect while keeping the series' brutal one-hit identity intact.
+Overall, the bullet hell combat, weapon variety, and visual upgrade deliver a run-and-gun that pushes the SNES hardware to its limits. One-hit-kill difficulty and awkward Mode 7 boss encounters prevent the experience from reaching its full potential, but the core shooting remains intensely satisfying throughout.

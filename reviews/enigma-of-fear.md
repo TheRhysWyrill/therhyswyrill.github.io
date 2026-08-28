@@ -3,25 +3,23 @@ layout: review
 date: 2026-06-20
 game_title: "Enigma of Fear"
 permalink: /reviews/enigma-of-fear/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2024
-genre: "Adventure, Survival Horror"
+genre: "Adventure, Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An inventive puzzle-horror adventure whose out-of-the-box puzzles, presentation and character switching make it a positive experience."
+summary: "Deep lore and Tunic-inspired meta-puzzles that require real-world actions drive an atmospheric investigation, though inconsistent boss design and forced game-close on death undermine the otherwise compelling mystery."
 image: "/assets/img/reviews/enigma-of-fear.webp"
 ---
 
-Enigma Of Fear is a puzzle-horror adventure in which Mia, an agent of the Order of Paranormal Investigators, enters the Perimeter to find her vanished father. The campaign spans four open areas plus the underground base, completable in any order across two sessions.
+Mia searches for her missing father within a paranormal perimeter controlled by the enigmatic Straw family, piecing together a mystery through environmental storytelling and radio conversations. The pixel art combined with 3D environments creates a distinctive visual identity that shifts between investigative calm and genuine tension. From the opening moments, the atmosphere communicates a world steeped in layered mythology.
 
-The out-of-the-box puzzles hide answers inside the settings menu, with dimming the brightness revealing a keypad clue and muting all but the sound effects exposing a hidden message. The playthrough calls the trick very, very clever and is reminded of Tunic.
+Meta-puzzles requiring real-world actions such as adjusting brightness settings or muting audio deliver moments of genuine cleverness. These Tunic-inspired challenges demand outside-the-box thinking, rewarding observation and experimentation with satisfying solutions. The lore surrounding the Straw family provides compelling motivation to explore every corner of the perimeter.
 
-Playable roles beyond Mia, including the prologue's Varity and Samuel's side content, mean different characters are needed for different puzzles. The presentation is a strong point, mixing pixel art with decent 3D in a style like Octopath but with less blue.
+Character switching between Mia, Samuel, and Loopy the dog adds mechanical variety, with each character offering unique traversal and puzzle-solving capabilities. Loopy fits through small passages while Samuel handles AR puzzles, creating a system that encourages backtracking with new abilities. Ghost radio conversations add depth to the worldbuilding without interrupting exploration flow.
 
-The ghost-tuning radio captures spectral echoes of past conversations, and the voice acting is called pretty solid throughout. The layered lore arrives through radio calls, documents, tape recordings and cursed items that piece together the Order's failed investigation.
+Voice acting delivers solid performances across most characters, though Agatha's audio quality suffers from noticeable muffled production. The inconsistency between characters' vocal clarity creates a jarring contrast during radio sequences. Pixel art environments rendered in 3D space maintain visual cohesion despite this audio disparity.
 
-The atmosphere leans on the UV-light investigation mode, the sanity system restored by hugging the dog Loopy, and tense stealth against blind blood zombies. The puzzle variety spans a music-following maze, clock-tower synchronisation, ooze manipulation and clever keypad codes.
+Boss encounters prove the game's most divisive element, with the Leticia cat phase confusing through unclear visual tells. The final boss introduces a perspective shift and forced game-close on death that frustrates more than challenges. Psychological damage mechanics that prevent healing compound this frustration during already demanding sequences.
 
-The final boss force-quits the game on death, forcing a full boot sequence, and the Leticia fight makes no sense with a lack of tells. The bright white visuals obscure navigation in places, and psychological attacks in boss fights cannot be healed.
-
-Overall, this inventive puzzle-horror adventure earns a recommendation, with its out-of-the-box puzzles, presentation and character-switching structure as the highlights. The final boss's force-quit and the Leticia fight are the main caveats.
+Overall, the deep lore and clever meta-puzzles create an atmospheric investigation that rewards patience and outside-the-box thinking, though inconsistent boss design and technical friction prevent the experience from fully realising its ambitious potential.

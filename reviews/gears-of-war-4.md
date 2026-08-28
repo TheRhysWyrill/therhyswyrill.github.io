@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-09
 game_title: "Gears of War 4"
 permalink: /reviews/gears-of-war-4/
-verdict: "recommended"
+verdict: not-sure
 platform: "PC"
 release_year: 2016
 genre: "TPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A strong return whose roadie-run camera fix, visual leap and destructible environments polish the cover-shooter template."
+summary: "Wind flare mechanics and a striking visual upgrade impress, though excessive length and repetitive encounters undermine the otherwise strong combat foundation."
 image: "/assets/img/reviews/gears-of-war-4.webp"
 ---
 
-Gears of War 4 is a generational sequel that hands the campaign to a new protagonist while returning veterans back him up. The five-act story runs about seven hours, a length similar to Gears 2, and was completed with credits.
+JD Phoenix and his companions navigate a world where the COG's authoritarian regime drives desperate raids for fabricators, only to encounter the Swarm, a new threat emerging from Locust remains. The premise grounds the narrative in personal stakes rather than inherited mythology.
 
-The roadie-run camera finally stops shaking, a fix that removes the most grating part of the older games. The visual leap from the 360 era is dramatic, with the Unreal Engine 4 presentation running well on modest hardware.
+Unreal Engine 4 delivers a substantial visual leap, with detailed environments and atmospheric lighting elevating every corridor and battlefield. Wind flares introduce environmental storms that affect projectiles, allowing wind-blown objects to become improvised weapons during firefights.
 
-Destructible environments and the wind-flare weather hazard make the world a weapon, with environmental destruction often the smarter choice over wasting ammo. The wind flares look great, and using the environment to take down enemies makes sense.
+The Swarm's horror elements emerge strongest in the dark fort section, where pods harvesting humans establish an unsettling tone. Defence sections with the fabricator blend tower-defence strategy into the cover-shooting formula, though repetition sets in quickly as these sequences recur.
 
-Baird and Cole arriving as backup gives the new cast a link to the past, and the mech section is a highlight. The final boss is a fun fight, an unusual creature that closes the campaign well.
+Cole's return near the campaign's end delivers the most dynamic gameplay, with his charisma elevating sequences that the new cast struggles to match. The centaur mech section breaks the infantry-focused rhythm with missiles and air strikes.
 
-The new enemies are too tanky, with the Scions absorbing far more punishment than anything in earlier games. The drop shot can one-shot, which feels cheap when snipers cannot, and the hammerburst is significantly worse than its Gears 2 version.
+Scions absorb disproportionate damage, turning standard firefights into endurance tests rather than tactical exchanges. Enemy weapon variety suffers from near-universal Hammer Burst usage, with encounters becoming predictable by the midpoint.
 
-The squad AI is weak, with teammates constantly getting downed and revived in a loop. Enemy spawns are predictable, the boot-up advertisement for Gears 5 is unwelcome, and the ending arrives rather abruptly.
+The roadie run camera improvement removes excessive shaking, creating smoother traversal between combat zones. Fabricator sections test defensive positioning but stretch beyond their mechanical novelty, contributing to a campaign that outstays its welcome despite its visual splendour.
 
-Overall, the camera fix, the visual leap and the destructible environments make Gears of War 4 a strong return. The tanky enemies, the one-shot drop shot and the weak squad AI are the caveats.
+Overall, the wind flare mechanic and visual upgrade deliver environmental spectacle and tactical variety, though excessive length and repetitive encounter design dilute the campaign's momentum. The Swarm introduction establishes tension, but the experience struggles to sustain it across a campaign that prioritises duration over focused pacing.

@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Call of Duty: Modern Warfare II"
 permalink: /reviews/call-of-duty-modern-warfare-2-2022/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2022
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A spectacular globe-trotting shooter campaign whose mission variety and squad banter outweigh a confusing story continuity and awkward crafting sections."
+summary: "Creative mission design spanning highway chases, improvised survival, and oil rig assaults builds on the Modern Warfare reboot formula with standout set-pieces, though excessive enemy spawns and confusing narrative choices create friction during otherwise varied combat sequences."
 image: "/assets/img/reviews/call-of-duty-modern-warfare-2-2022.webp"
 ---
 
-Call of Duty: Modern Warfare II is a first-person shooter campaign in which Task Force 141 hunts a Quds Force officer smuggling American missiles across the globe. The mission design moves from the Al Mazrah recon opening through Amsterdam undercover work, a ghillie-suit coastal recon, a highway chase and a Chicago skyscraper assault.
+Task Force 141 hunts a terrorist across Al-Mazra, Amsterdam, Mexico, and Chicago, with the tone consistently dark and action-packed. The narrative delivers a greatest hits of Call of Duty moments, from oil rig assaults to highway chases, maintaining momentum through varied combat scenarios and character dynamics.
 
-The long-range scout sniper sections are the campaign's standout, built on bullet-drop notches, repositioning and the satisfaction of taking out two targets with one shot. The ghillie-suit recon mission stands out for its slow, tense approach with patrol crawling, the heartbeat sensor and thermal spotting.
+The Alone highway chase mission stands as the campaign's mechanical peak, transitioning from pursuit to escape through vehicle combat and mine dodging. The sequence shifts perspective mid-mission, transforming the hunter into the hunted and creating genuine tension through the role reversal.
 
-The visuals are striking once the default render resolution is corrected, and the squad banter between Ghost, Soap and Price lands well throughout. The shotgun proves excellent in the close-quarters church fight, and the set-pieces deliver the expected spectacle.
+The Alone survival section introduces improvised weapon crafting and stealth mechanics that break from the franchise's standard loadout system. Scavenging materials and constructing makeshift weapons creates resource management tension rarely seen in Call of Duty campaigns, with each encounter demanding creative problem-solving rather than trigger discipline. The crafting system rewards exploration, with hidden materials and safehouses providing tactical advantages during stealth sequences.
 
-Combat is classic Call of Duty gunplay built on checkpoints, hitscan shooting and heavily scripted sequences, with deaths frequent on the pressure fights. Enemies are relentlessly grenade-heavy, and shield-carrying foes are a persistent annoyance in the later acts.
+Oil rig and ship assault missions provide tactical variety through multi-team coordination and vertical combat scenarios, with boat assaults and platform infiltration adding mechanical diversity.
 
-The improvised-weapon sections require scavenging glass, tape, chemicals and wax to craft shivs, smoke bombs and gas traps, and these sequences are the campaign's weakest stretch. The highway chase piles on mines and missiles, while the story's continuity with the earlier Modern Warfare games is never clear.
+Excessive enemy spawns in certain sections create frustrating difficulty spikes that test patience rather than skill. The encounter design sometimes prioritises spectacle over fairness, with obscured positions and overwhelming numbers undermining tactical engagement during the campaign's most intense moments.
 
-The narrative's relationship to the original trilogy confuses rather than deepens the experience, with reused characters feeling messy. Textures also fall apart during a late tank fight, and the game forced a restart after a crash at the Shadow Company base.
+Character dynamics between Soap and Ghost provide entertaining banter that humanises the squad beyond their combat roles. The dialogue creates genuine chemistry that elevates mission sequences through personality rather than mechanical innovation alone.
 
-Overall, mission variety, the sniper sequences and the squad banter carry this fun campaign with some pretty cool moments. Call of Duty fans after a bombastic, globe-trotting shooter will find plenty to enjoy here.
+Overall, the creative mission design and survival mechanics establish a Modern Warfare campaign with genuine variety and character depth, though excessive enemy spawns and confusing narrative choices prevent the experience from reaching its full potential.

@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-10
 game_title: "Call of Duty: Black Ops 6"
 permalink: /reviews/call-of-duty-black-ops-6/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2024
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A 1991-set shooter whose open missions, safe-house puzzles and boss-fight music outweigh armour plates and unpatched visual glitches."
+summary: "Safe house puzzles and diverse mission types spanning stealth, open-world exploration, and surreal horror sustain a varied campaign, though cutscene-heavy pacing and battle royale-intrusive mechanics dilute the shooter-focused identity."
 image: "/assets/img/reviews/call-of-duty-black-ops-6.webp"
 ---
 
-Call of Duty: Black Ops 6 is the 2024 entry set in 1991, following a framed team that operates from a Bulgarian safe house between missions. The campaign runs about eight hours and spans Kuwait, a crime-riddled city, Washington, an Iraqi desert and a research facility.
+A CIA operative uncovers a conspiracy within the agency, pulling the narrative across realistic military operations and surreal, drug-induced nightmares. The atmosphere shifts between grounded espionage tension and psychedelic horror, establishing a tonal range few shooters match. The opening mission establishes paranoia and institutional distrust that colours every subsequent encounter.
 
-The Rook safe house is a treasure hunt in itself, with a black-light room, piano code, keypad and radio puzzles and a hidden safe rewarding money for base upgrades. It is the best iteration of the hub idea the series has tried.
+Mission variety defines the campaign's identity. Stealth operations demand careful route planning, open-world segments introduce vehicle traversal with supply drops, and puzzle-solving sequences reward curiosity within the safe house hub. Each mission type occupies distinct mechanical territory, preventing any single approach from overstaying its welcome.
 
-Level variety is the standout, from an unexpected open-world desert mission to a Doom-like level with boss fights and a casino heist. The facility missions add a grappling hook, and the music shifts to a different track for each major fight.
+The safe house itself serves as more than a narrative connective tissue. Piano puzzles, lockpicking challenges, code-cracking mini-games, and hidden rooms populate the converted KGB bunker, creating a metroidvania-like layer where exploration yields tangible mechanical rewards rather than cosmetic collectibles. Each discovered secret unlocks new tools or narrative context, rewarding methodical investigation with progression that carries into subsequent missions.
 
-The armour-plate system is the most persistent gripe, carrying bad memories from the previous entry. The Kuwait airport mission stacks super-armoured, grenade-heavy enemies with no good cover and useless AI companions.
+The Iraq open-world mission breaks from linear design with vehicle traversal, supply drops, and optional encampments across playable space. This departure from the franchise's corridor-focused formula demonstrates ambition, though the execution occasionally reveals the limitations of adapting open-world design into a traditionally structured shooter.
 
-Graphical glitches mar the presentation, with black smoke puffs, black glass and enemies bursting into squares, an unpatched variable-rate-shading bug on AMD cards. The white quick-time prompts are hard to read, and the balance leans heavily on cutscenes over gameplay.
+Cutscene-heavy pacing dominates the middle acts, with extended narrative sequences interrupting gameplay flow. The shift from older titles' gameplay-first philosophy toward cinematic presentation creates a rhythm that alternates between watching and playing rather than maintaining sustained engagement.
 
-The closing gauntlet throws overwhelming damage and crowds, and it is the campaign's weakest stretch. The weapon-card pickup display reads like an action RPG and makes hovering over gear harder to parse.
+Smoke rendering bugs create graphical issues throughout, with glass surfaces appearing black and particle effects distorting clarity. The armor plates mechanic, borrowed from battle royale modes, feels redundant in the campaign's encounter design.
 
-Overall, mission variety, the safe-house puzzles and the boss-fight music make Black Ops 6 a high point of the series. The armour plates and unpatched visual bugs are the main knocks on an otherwise stable campaign.
+Overall, the safe house exploration and mission diversity establish a Call of Duty campaign with genuine mechanical variety, though cutscene-heavy pacing and battle royale-intrusive systems prevent the experimental design from fully cohering.

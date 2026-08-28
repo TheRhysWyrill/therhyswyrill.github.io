@@ -3,25 +3,23 @@ layout: review
 date: 2026-07-19
 game_title: "Dreaming Sarah"
 permalink: /reviews/dreaming-sarah/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2015
-genre: "Platformer"
+genre: "Adventure, Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A short surreal platformer whose umbrella glide, item-gated dream world and deadpan humour make it a pleasant bite-sized adventure."
+summary: "Surreal dream-logic world design and compact interconnected environments deliver a complete micro-Metroidvania, though visual glitches on Proton and overly quiet areas undermine the atmospheric ambition."
 image: "/assets/img/reviews/dreaming-sarah.webp"
 ---
 
-Dreaming Sarah is a surreal adventure platformer in which a girl in a coma explores her own dream world, finishable in about half an hour when the path is known. The connected dream space joins a mansion, desert, island, TV world, ship, bar and dentist's office via shortcuts and teleports.
+A girl awakens in a dreamscape of looping corridors and bizarre NPCs, with no exposition to explain the surreal surroundings. Pixel art environments shift between whimsical talking rocks and unsettling blood-red chambers, creating an atmosphere that feels simultaneously charming and deeply strange. The compact world rewards curiosity, folding back on itself in ways that reveal new paths with each acquired item.
 
-The umbrella glide is the signature traversal tool, letting Sarah float gently down, and it can be used repeatedly across the world. Each collectible unlocks paths as a new ability, from the magnifying glass that shrinks her into small areas to the glasses that reveal invisible platforms and the shell necklace that enables swimming.
+Item-based progression follows classic Metroidvania structure, with each new tool unlocking traversal options that reshape the map. An umbrella enables gliding, a magnifying glass reveals invisible elements, and a watch manipulates time-sensitive sequences. These acquisitions feel earned through exploration rather than combat, maintaining the dreamlike tone throughout.
 
-The item-gated progression keeps exploration rewarding, with the doctor's watch slowing time and the compass pointing to something important. The eccentric NPCs and deadpan humour give the quiet world personality, from the man late for work to the pianist who takes a bullet and the doctor hiding in a vending machine.
+Visual glitches on Linux/Proton disrupt the experience, particularly during vertical movement where seam rendering breaks apart. The issue proves cosmetic rather than mechanical, yet it fractures the carefully constructed atmosphere during platforming sections. Overly quiet environments compound this tension, with several areas dropping to complete silence that feels unintentional rather than atmospheric.
 
-The gentle atmosphere and hand-drawn look carry the presentation, with the floating umbrella animation standing out. Staying tiny through the world is a running visual gag, and reverting from small to huge lands as a mild jump-scare surprise.
+NPC encounters provide whimsical punctuation between exploration segments, from a doctor hiding in a vending machine to rocks delivering puns with deadpan timing. These brief interactions build personality without exposition, trusting environmental storytelling to carry the narrative weight. The interconnected world design rewards thorough exploration with shortcuts and unexpected connections between distant areas.
 
-The dead-silent areas are the biggest complaint, with sparse audio leaving some regions feeling empty. The branching-door sequence that loops back relies on guesswork, and items cannot be used in the water.
+Ambiguous objective guidance occasionally stalls momentum, as the compass item and some puzzle areas leave direction unclear. Missing items after level completion force replay for thorough collection, and the abrupt ending arrives without narrative ceremony. The extreme brevity compresses the experience into something that feels complete yet leaves room for deeper exploration.
 
-The bar area flips the movement controls, and the default bindings show keyboard prompts on a controller-style scheme. The Steam build has a vertical seam glitch, and the post-credits tease points to a page that no longer exists.
-
-Overall, this short, quirky platformer is a warm bite-sized adventure whose umbrella glide, item-gated exploration and deadpan humour earn a recommendation. The silent stretches, loop-maze guesswork and brief runtime are the caveats.
+Overall, the dream-logic world design and compact interconnected environments create a charming micro-Metroidvania that delivers discovery through curiosity and item acquisition, though visual glitches and sparse audio occasionally fracture the carefully constructed atmosphere.

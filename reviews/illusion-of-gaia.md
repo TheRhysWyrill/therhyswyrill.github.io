@@ -3,25 +3,25 @@ layout: review
 date: 2026-08-11
 game_title: "Illusion of Gaia"
 permalink: /reviews/illusion-of-gaia/
-verdict: "recommended"
+verdict: recommended
 platform: "SNES"
 release_year: 1993
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A 16-bit action RPG whose story, transformations and area-clearing levelling loop make it a classic worth revisiting."
+summary: "Body transformation system and comet mythology create ambitious world-building, though Will's combat limitations and Shadow's late introduction undermine the mechanical depth."
 image: "/assets/img/reviews/illusion-of-gaia.webp"
 ---
 
-Illusion of Gaia is a 16-bit action RPG from Quintet, following Will's world-spanning search across Incan ruins, the Great Wall and the Tower of Babel. The full game was completed with all fifty red jewels and all six Mystic statues collected.
+Three playable forms define this SNES action RPG from Quintet's Heavenly Sword trilogy. Will explores with psychic powers, Freedan the Dark Knight offers longer reach, and Shadow provides the ultimate form with devastating attacks. A comet mythology and Moon Tribe lore create surprisingly rich world-building for the era. The narrative spans multiple locations from small towns to cosmic settings.
 
-The story is a highlight, with Will's search for his lost father driving a world-tour structure of memorable set pieces. The shipwreck drift, the village that sacrificed a pig and the Ancestor Wat jungle all stick in the memory.
+Enemy-clearing progression rewards thorough exploration by granting permanent stat upgrades when every foe falls. Red gems scattered throughout provide additional incentives, unlocking extra lives and stat boosts. The no-XP system was innovative for its time. Fifty gems demand thorough scanning of each environment.
 
-The transformation system gives the combat real variety, with Freedan the Dark Knight offering higher defence and strength, and Shadow the Ultimate Warrior dealing devastating damage. Each form changes how encounters play out.
+Psycho Dash adds a dynamic movement option that transforms traversal and combat. Charging through obstacles creates momentum that complements the exploration-focused design. The charge attack makes engagement feel more active than traditional action RPGs. Movement flows between combat and exploration through this mechanic.
 
-The area-clearing levelling loop is a neat twist on the usual system, with upgrades earned by clearing all enemies in a location instead of gathering experience points. The finite enemies mean once an area is cleared, respawning is never a concern.
+Will's combat limitations create friction during extended play, with short range and minimal boss damage making encounters frustrating. The absence of a traditional overworld means level transitions function as loading screens rather than explorable terrain. Hieroglyph puzzles in the Incan Ruins and Pyramid provide satisfying environmental challenges.
 
-The presentation holds up, with an interesting art style and a hair-blowing-in-the-wind clue pointing toward hidden rooms. The slow text on important pickups adds a nostalgic touch, and the world map mystery is appreciated despite the lack of an explorable Overworld.
+Shadow's introduction in the final hours feels like wasted potential, as the most powerful form arrives too late to meaningfully impact the journey. Limited healing items make the final boss gauntlet unnecessarily punishing, demanding precise play against previously defeated enemies. The secret Metal Mantis boss rewards patience with minimal payoff.
 
-Will's combat is the biggest gripe, with very short range and low toughness, and the sprint mechanic on slopes is unreliable. The final gauntlet lacks a save point between bosses, healing items are scarce, and Shadow unlocks with little game left to use it.
+B button save counterintuitively cancels rather than confirms, creating muscle memory friction for modern players. Hair physics near the sea demonstrate charming graphical attention to detail.
 
-Overall, the story, the transformations and the clearing-based progression make this one hell of a classic. The short-range combat and slope sprinting are the caveats.
+Overall, body transformation system and comet mythology deliver ambitious world-building within the SNES action RPG framework. Combat limitations and late power unlocks prevent the transformation mechanics from reaching their full potential.

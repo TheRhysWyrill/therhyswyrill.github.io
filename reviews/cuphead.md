@@ -3,25 +3,23 @@ layout: review
 date: 2026-07-14
 game_title: "Cuphead"
 permalink: /reviews/cuphead/
-verdict: "recommended"
+verdict: recommended
 platform: "Switch"
-release_year: 2019
-genre: "Shooter"
+release_year: 2017
+genre: "Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A run-and-gun boss rush whose 1930s art style, music and boss design outweigh its punishing difficulty."
+summary: "Hand-drawn 1930s cartoon aesthetic and inventive boss design elevate this run-and-gun, though punishing difficulty and frustrating mechanics create friction."
 image: "/assets/img/reviews/cuphead.webp"
 ---
 
-Cuphead is a run-and-gun boss rush drawn in the style of 1930s cartoons, where a deal with the Devil sends the heroes collecting soul contracts. The art style is the first love, with hand-drawn animation that makes even the simplest scene a delight.
+Cuphead follows two brothers who lose their souls to the Devil after a gambling debt, opening with immediate access to hand-drawn 1930s cartoon animation that defines every frame. The visual style draws from Fleischer Studios cartoons, creating a living-cartoon quality that elevates even the most challenging encounters. Music complements the aesthetic with jazz-era compositions that match the on-screen spectacle across both the main game and DLC.
 
-The music matches the aesthetic, with the barbershop-trio Die House and King Dice's casino theme among the standouts. The boss variety is constant, from transformed debtors and mausoleum ghosts to plane levels and shifting stage backdrops.
+Seventeen bosses each feature multiple distinct phases with unique attack patterns, demanding pattern recognition through repetition. Difficulty remains fair throughout, with each death providing insight into enemy behaviour that rewards persistence. The King's Leap parry-only challenges in the DLC add inventive endgame depth, requiring pure timing mastery without conventional shooting.
 
-The weapon and charm system gives the loadout real shape, with the converge, crack shot and chaser changing how each fight is approached. The super-meter arts, from the energy beam to the giant ghost, reward aggressive play.
+The parry system proves conceptually satisfying but executionally demanding, often resulting in mistimed attempts that compound frustration. Run-and-gun stages present greater challenge than bosses, with unpredictable platforming and enemy placement testing precision. Weapon experimentation across Spread, Converge, Crack Shot, Chaser, and Roundabout provides tactical variety for different encounter compositions.
 
-The run-and-gun levels are actually harder than the bosses, with the gravity-flip Funhouse Frazzle and the pickaxe-troll level the worst. The coin economy gives them replay value, since every level hides coins worth hunting, from the archway coin to the sneaky placements.
+The Curse Relic challenge demands no-damage boss runs that feel gruelling, questioning the effort required for completion. The Devil's final boss fight culminates the experience with multiple phases that test accumulated skills, though minion spawns create artificial difficulty spikes. Control remapping becomes necessary for extended sessions, with trigger-based shooting reducing thumb fatigue.
 
-The difficulty is the defining feature, with roughly 250 deaths across the run and the Devil the toughest single fight. The parry obsession backfires, since chasing every pink object costs more health than it saves.
+The DLC introduces Miss Chalice with unique double jump and invincibility roll mechanics, providing fresh approaches to familiar encounters. Chef Saltbaker's quest to bake a Wonder Tart offers compelling narrative motivation for revisiting Inkwell Isle.
 
-The King of Games DLC gauntlet is the standout content, with chess-piece champions fought entirely through parries instead of guns. The Cursed Relic quest is miserable with its single health point, redeemed only by the eventual Divine Relic upgrade.
-
-Overall, art style, music and boss design make Cuphead a very good game. The punishing difficulty and the harder run-and-gun levels are the main caveats.
+Overall, the hand-drawn 1930s cartoon aesthetic and inventive boss design deliver a run-and-gun with lasting appeal, though punishing difficulty and frustrating mechanics prevent the experience from reaching its full potential. The core challenge remains satisfying throughout, anchored by the visual spectacle and rewarding progression.

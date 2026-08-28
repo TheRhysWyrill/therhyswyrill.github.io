@@ -3,25 +3,23 @@ layout: review
 date: 2026-06-22
 game_title: "Crysis Warhead"
 permalink: /reviews/crysis-warhead/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2008
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A standalone expansion whose action-first pacing, lasting visuals and stealth option make it a very fun three-hour run."
+summary: "Condensed action pacing and improved nanosuit mechanics elevate this expansion, though controller quirks and forgettable narrative create friction."
 image: "/assets/img/reviews/crysis-warhead.webp"
 ---
 
-Crysis Warhead is a standalone expansion that plays out as Psycho's parallel campaign on the same island as the first game. The seven-mission run is shorter and more action-packed, chasing a stolen container of alien tech across a beach resort, harbour and airfield.
+Crysis Warhead follows Sergeant Psycho Sidney during the Korean island invasion, opening with immediate access to improved nanosuit mechanics that streamline the experience. The condensed mission structure trims the original's fluff, delivering seven tightly designed levels that maintain momentum through cinematic set pieces. Cloak mode proves essential for bypassing entire encounters, creating satisfying stealth gameplay that rewards patience.
 
-The stealth option still holds, with cloaking letting whole bases be bypassed rather than fought through. The open encounters reward slipping past, since most fights are avoidable entirely.
+The train sequence stands as a memorable highlight, combining turret gameplay, stealth, and a frantic race against time. Vehicle sections break up the on-foot action, though driving controls feel awkward without camera-based steering. The PACS experimental weapon in the final mission provides satisfying payoff against the climactic Ceph boss fight.
 
-The visuals still impress at eighteen years old, with texture quality the only obvious giveaway up close. The suit tweaks are welcome, from armour that does not drain energy unless shot to automatic ammo pickup and an actively selected speed boost.
+Improved suit mechanics enhance the tactical experience, with speed boost requiring active selection and armour no longer draining when not under fire. Auto ammo pickup streamlines resource management, reducing friction during extended combat sequences. Controller support arrives with notable quirks, including toggle-based ADS and awkward crouch mechanics.
 
-The story runs parallel to the first game and ends before it, covering the train chase and the airport showdown. The nano-suit KPA are toned down from the base game, removing the worst fights of the original.
+Visuals hold up remarkably well for an 18-year-old game, with environments that still impress by modern standards. The Korean island setting provides atmospheric backdrop for the action, shifting between beach resorts and alien-infested facilities. Sound design reinforces the sci-fi atmosphere through suit feedback and environmental audio.
 
-The controller support works surprisingly well for an old PC game, with only quirks like the aiming-down-sights toggle and the held cloak button. The vehicle handling is awkward, with acceleration and braking mapped to the left stick in a way that takes getting used to.
+Psycho and O'Neal's banter provides entertaining character moments throughout the mission, though the narrative serves primarily as context for the action rather than a compelling draw. The story runs parallel to the original Crysis, offering Psycho's perspective on events.
 
-The runtime is the running caveat, at around three and a half hours for a full run. The grenades are weak disruption tools, the shotgun-toting enemies carry a lot of health, and the ragdolls are excessive.
-
-Overall, pacing, visuals and the stealth option make Crysis Warhead a very fun expansion. The short runtime and the awkward controls are the main caveats.
+Overall, the condensed action pacing and improved nanosuit mechanics deliver a satisfying expansion that proves less can be more. Controller quirks and forgettable narrative prevent the experience from reaching its full potential, but the core shooting and stealth mechanics remain compelling throughout.

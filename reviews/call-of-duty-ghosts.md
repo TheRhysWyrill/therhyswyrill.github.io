@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Call of Duty: Ghosts"
 permalink: /reviews/call-of-duty-ghosts/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2013
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Impressive mission variety and a playable dog outweigh stuttering PC performance and a weak antagonist."
+summary: "Consistent mission variety spanning underwater combat, dog mechanics, tank warfare, and space station assault creates a broader experience than most franchise entries, though severe PC performance issues and a weak antagonist undermine the otherwise varied campaign."
 image: "/assets/img/reviews/call-of-duty-ghosts.webp"
 ---
 
-Call of Duty: Ghosts follows the Walker brothers and their Ghost father against the Federation, a South American superpower armed with an orbital kinetic weapon. Mission variety is its greatest asset, with each level offering something new.
+Near-future warfare follows brothers fighting to reclaim their homeland after a space weapon turns American cities against their own population. The atmosphere shifts from desperate defensive operations to offensive strikes, with distinct combat scenarios maintaining engagement.
 
-The campaign spans an underground underwater mission, a full level controlling Riley the dog, a skyscraper stealth infiltration and a Payday-style heist. Tanks, a space station finale and a Venice-style blending sequence keep the pacing alive, while burst-fire guns and a thermal sight add variety to the shooting.
+Riley the dog provides emotional stakes rarely seen in military shooters, with dedicated attack mechanics and escort sequences that create genuine investment in the animal's wellbeing. The companion system adds a layer of tactical variety, with command options that extend beyond standard squad mechanics. Attack and heel commands create tension during stealth sequences where Riley's position determines mission success.
 
-There is more gameplay and less cutscene than in modern entries, with the set-pieces making up almost half the campaign. The skyscraper mission is the standout, though it cannot be completed entirely stealthily, and the health model is more forgiving than Modern Warfare 2019's.
+Underwater segments, stealth operations, and tank missions each offer distinct mechanical identities, preventing any single combat style from dominating the experience. The space station assault provides a climactic sequence that breaks from the franchise's typical ground-based formula.
 
-Performance on PC is the biggest problem, with constant stuttering, texture-loading failures and a white-screen bug that broke the final mission. The issues occur on both Windows and Linux and are the game's own, not the operating system's.
+The tank missions deliver surprising speed and responsiveness, with vehicles that handle with arcade-like agility rather than the sluggish weight expected from armoured combat. This design choice maintains momentum through vehicle sequences, keeping the pacing consistent with infantry-focused sections and transforming tank combat into a fast-paced romp.
 
-The antagonist's motivation is weak, a petty grudge against a former ally that never lands as compelling. The title also misleads, suggesting a Modern Warfare 2 connection that the story never delivers.
+PC version performance issues persist throughout, with stuttering and visual bugs that occasionally break immersion. The technical problems prove most severe during the final mission, where performance degradation undermines the climactic encounter design.
 
-Friend and foe are easy to mix up, with friendly fire unpenalised and allies dressed like enemies, and exploding vehicles claim many lives. Aggressive headbob and a harsh strobe effect in the skyscraper add to the discomfort.
+The no man's land revisit provides a satisfying narrative callback, returning to the destroyed prologue area in present day with visual details that reward attentive observation. These moments add depth beyond scripted action.
 
-Overall, mission variety, the Riley missions and the reduced cutscene load make Ghosts better than its reputation. The broken PC performance and the weak antagonist are the main caveats.
+Overall, the consistent mission variety and dog companion mechanics establish a Call of Duty campaign with genuine breadth, though PC performance issues and an underwhelming antagonist prevent the experience from fully realising its ambitious design.

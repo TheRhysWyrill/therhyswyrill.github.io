@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-21
 game_title: "If On A Winter's Night, Four Travelers"
 permalink: /reviews/if-on-a-winters-night-four-travelers/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2021
-genre: "Point & Click"
+genre: "Adventure, Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A free, dark four-story anthology whose distinct tales, clever puzzles and train framing make it a neat little game."
+summary: "Four escalating narratives of guilt and self-destruction deliver professional-quality horror storytelling, though uneven pacing and limited gameplay variety create friction between tales."
 image: "/assets/img/reviews/if-on-a-winters-night-four-travelers.webp"
 ---
 
-If On A Winter's Night, Four Travelers is a narrative-driven point-and-click adventure from Dead Idle Games, exploring four distinct stories that share a masked ball aboard a train. All four tales were completed through the framing reveal and the credits in under two hours.
+A train carrying four souls through purgatory forms the frame narrative for this point-and-click horror anthology. Each passenger shares a story of guilt, addiction, and self-destruction, escalating from mundane beginnings into genuinely disturbing territory. The compact structure ensures no overstaying of welcome. Darkness arrives quickly in each tale, defying initial expectations.
 
-The price is the headline, since the game is completely free and still feels substantial enough to deserve a paid release. A couple of pounds would be entirely reasonable regardless of the length.
+Purgatory setting provides a cohesive thread connecting the four distinct tales. Train stewards who collected these souls out of sympathy add an unsettling layer of supernatural care. Environmental storytelling reveals character backgrounds through interactive objects and atmospheric details. Each tale explores different facets of guilt and self-destruction.
 
-The four-story structure keeps things fresh, with each tale fairly different from the others in tone and setting. Carlo's Rome hotel confrontation, the laudanum-soaked Wiltshire manor and the occult ritual in a hospital each carry their own identity.
+Carlo and Patrick's story delivers the most immediate shock, with a breakup spiralling into accidental violence. Lady Winterborn's opium-fuelled delusion creates sustained unease through time manipulation mechanics. Dr. Samuels' World War One medic narrative features ritual sequences that rank among the most disturbing moments.
 
-The puzzles land well, from the laudanum hallucinations that blur what is real to the delayed clock puzzle set to match a grandfather clock. The ritual bowls and the wound-man markings add further layers to the occult material.
+Carlo's hotel investigation anchors the first tale through point-and-click exploration of interconnected rooms. Lady Winterborn's chapter introduces time-shifting mechanics tied to opium use. Dr. Samuels' story incorporates puzzle-solving and moral choices. These shifts maintain variety but create inconsistent pacing.
 
-The Samuels arc is the deepest of the four, with a chapel full of abandoned soldiers and a final confrontation that ties his choices together. The audio craft is noticed, with the neighbouring flat's arguing audible as a nice touch.
+Abrupt transitions between stories can feel jarring, particularly after emotional climaxes. Some tales build more slowly than others, with Carlo and Patrick's immediate impact contrasting against the deliberate pacing of later entries.
 
-The length is minimal, with the four stories passing quickly, and the Winterborn tale's fades can confuse as to what is real. The Samuels ending remains ambiguous, and some interaction requires realising a click is needed first.
+Uneven quality across the four narratives means not every tale lands with equal force. Limited interaction beyond object examination restricts the gameplay depth. Despite these friction points, the anthology structure sustains engagement.
 
-Overall, the four-story structure, the puzzle craft and the dark tone make this a neat little game. The free price makes the short length easy to forgive.
+Overall, four escalating narratives of guilt and self-destruction deliver professional-quality horror storytelling at no cost. Uneven pacing and limited gameplay variety prevent the anthology structure from reaching its full potential.

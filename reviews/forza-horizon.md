@@ -3,25 +3,23 @@ layout: review
 date: 2026-06-24
 game_title: "Forza Horizon"
 permalink: /reviews/forza-horizon/
-verdict: "recommended"
+verdict: recommended
 platform: "Xbox 360"
 release_year: 2012
 genre: "Racing"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A content-rich festival racer whose showcase events, open world and wristband ladder make it very fun."
+summary: "A festival-themed arcade racer with satisfying open-world exploration and varied event types, though a fatal crash point in the final showdown and a recycled-track rally expansion undercut the otherwise generous content offering."
 image: "/assets/img/reviews/forza-horizon.webp"
 ---
 
-Forza Horizon is an open-world racing game built around the Horizon Festival, where a wristband ladder of events, showcases and street races gates each tier. The base game was completed to a hundred per cent in about twenty hours, including every wristband tier and the Horizon Championship.
+A festival atmosphere radiates from the opening sequence, framing Colorado's varied terrain as a playground rather than a mere race track. The Horizon Festival wraps competitive racing in a celebration of speed, music, and car culture, creating an inviting tone that persists throughout the experience. An unnamed driver earns wristbands through heats, building momentum toward the championship.
 
-The festival structure gives the campaign real content, with the wristband ladder from yellow through gold keeping the events varied. The showcases racing planes and a helicopter come down to the wire, and the Star Showdowns are one-on-one highway races against the wristband rivals.
+Exploration and discovery form the backbone of engagement, rewarding thoroughness with discount signs and barn finds scattered across the landscape alongside competitive driving. The skill point system tracks both clean driving and creative destruction, encouraging varied approaches to each stretch of road.
 
-The open world is packed with barn finds, a hundred discount signs that supercharge the car collection, outposts, speed traps and PR stunts. The starting Corrado stays surprisingly useful throughout, and the low-class car events offer a refreshing control-focused change.
+Cosmetic damage keeps the focus on racing rather than repair management. Sprints, circuits, cross-country routes, and showcase events provide welcome variety, while the car roster spans everyday hatchbacks to high-performance machines with paint customisation adding personal identity to each vehicle.
 
-Pulse is the favourite radio station, with DJ personalities and a standout track in Spirit of the Night. The street races replace barriers with traffic, and the mega point-to-point race across the map is a ten-minute highlight.
+The open-world map holds 216 roads alongside barn finds and PR stunts. Driving anywhere earns skill points, creating a loop where exploration and competition feed into each other.
 
-The final Star Showdown against the champion demands near-perfect driving, since one minor mistake lets him shoot off, and the finish line sits on a road split that blends into the tarmac. The AI is inconsistent, with rivals like the Manic Mini shooting off like rockets and recovering from mistakes far faster.
+The Darius final race delivers a nine-minute point-to-point showdown marred by a crash point near the finish that punishes a single misalignment. The rally expansion disappoints with recycled tracks and no weather system. AI behaviour occasionally breaks in specific events, and GPS recalculation messages become irritating through repetition.
 
-The rally expansion is bare bones, reusing the main map, skipping weather and keeping a mini-map that invalidates the co-driver callouts, and the last rally breaks at the same spot twice. Late-game track reuse disappoints, with the championship final repeating the same race twice and circuits reappearing.
-
-Overall, the showcase races, the open-world content and the wristband ladder make Forza Horizon a very fun and content-rich racer. The near-impossible final showdown and the bare-bones rally expansion are the caveats.
+Overall, the festival atmosphere, open-world exploration, and event variety create an arcade racer with surprising depth beneath its casual presentation. A frustrating finale and underwhelming DLC prevent the experience from reaching its full potential, yet the base game's exploration mechanics and driving satisfaction deliver a worthy entry in the genre.

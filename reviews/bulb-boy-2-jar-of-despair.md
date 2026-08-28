@@ -1,7 +1,7 @@
 ---
 layout: review
 date: 2026-07-04
-game_title: "Bulb Boy 2: Jar Of Despair"
+game_title: "Bulb Boy 2: Jar of Despair"
 permalink: /reviews/bulb-boy-2-jar-of-despair/
 verdict: recommended
 platform: "PC"

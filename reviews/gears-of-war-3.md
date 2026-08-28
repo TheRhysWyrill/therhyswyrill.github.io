@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-09
 game_title: "Gears of War 3"
 permalink: /reviews/gears-of-war-3/
-verdict: "recommended"
+verdict: recommended
 platform: "Xbox 360"
 release_year: 2011
 genre: "TPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A strong conclusion whose set-piece battles, co-op banter and classic cover-shooting loop cap the original trilogy."
+summary: "Silverback mech suit and Cole Train sections deliver fresh perspectives, though ammo scarcity and a nerfed shotgun create persistent friction throughout."
 image: "/assets/img/reviews/gears-of-war-3.webp"
 ---
 
-Gears of War 3 is a third-person cover shooter and the most cinematic entry in the saga, with the campaign completed with credits. The final instalment of the original trilogy delivers the classic cover-shooting loop with bombastic firefights throughout.
+The Lambent threat mutates humans and Locust alike, forcing a three-way conflict across sinking ships, ruined cities, and fortified strongholds. Marcus and squad search for a countermeasure while navigating the collapse of civilisation on Sera.
 
-The set-piece battles and cinematic bombast define the campaign, with huge firefights, vehicle sequences and the disc-and-lever puzzles giving it constant variety. The weapon feel stays strong, with the signature cover-shooting loop still landing well across every encounter.
+Cover-based shooting retains its tactical weight with familiar weapons and new additions like the Retro Lancer's bayonet charge. Active reload timing continues to reward skilled play with increased damage output across each firefight.
 
-The co-op campaign with a partner elevates the run, with the dialogue-driven banter between the two players making the experience more enjoyable. The team banter among the cast, from Jace to Anya, keeps the story's escalation engaging.
+The Silverback mech suit provides temporary firepower superiority in key encounters, evening overwhelming odds with mounted turrets and rocket launchers. Brumaks and Leviathans anchor the large-scale set pieces with destructive spectacle.
 
-The story escalates across the campaign, with character moments and Prescott's broadcast adding weight to the proceedings. The narrative builds to a satisfying conclusion, and the escalation gives each act a reason to push forward.
+The Cole Train sections in Hanover offer a refreshing change of pace, playing as a different character for the first time in the main campaign. Cole's charisma carries sequences that could otherwise feel like familiar corridor combat.
 
-Late-game difficulty spikes produce cheap deaths, with rocket-barrage sequences that punish without warning. The AI squadmate can get stuck on geometry and refuses to help in cover, which becomes frustrating in the tougher fights.
+Ammo capacity sits significantly lower than previous entries, with the Lancer's maximum dropping from six hundred to four hundred and twenty rounds. The Gnasher shotgun feels noticeably weaker even at point blank, failing to kill in single shots where previous games rewarded aggressive close-quarters play. Enemy weapon variety suffers from near-universal Hammer Burst usage.
 
-Some design has dated, with rigid cover snapping, ammo scarcity in spots and an awkward weapon-switch moment. Minor glitches like getting stuck on geometry also crop up along the way, though none of them derail the campaign.
+Set piece encounters like the Bramak fight and highway chase deliver spectacle, but pacing occasionally drags during extended traversal sequences between combat encounters.
 
-Overall, the set-piece battles, the co-op banter and the cover-shooting loop make Gears of War 3 a strong conclusion. The difficulty spikes and the unreliable AI squadmate are the caveats.
+Overall, the Silverback mech suit, Cole Train sections, and emotional narrative create a trilogy conclusion with mechanical variety. Ammo scarcity and a nerfed shotgun prevent the combat from reaching its predecessors' heights, yet the foundation delivers a satisfying conclusion.

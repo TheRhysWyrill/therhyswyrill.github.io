@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Call of Duty: Modern Warfare III"
 permalink: /reviews/call-of-duty-modern-warfare-3-2023/
-verdict: "not-sure"
+verdict: not-sure
 platform: "PC"
 release_year: 2023
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Satisfying gunplay and strong voice acting carry a campaign weighed down by a weak story and repeated Warzone-style missions."
+summary: "Strong stealth missions and open combat variety provide standout moments, though a disjointed narrative, repetitive threat structure, and frequent crashes undermine the reboot trilogy's conclusion."
 image: "/assets/img/reviews/call-of-duty-modern-warfare-3-2023.webp"
 ---
 
-Call of Duty: Modern Warfare III concludes the reboot trilogy with a fourteen-mission campaign whose core gunplay feels genuinely satisfying. The story that wraps around it does not hold up, recycling the missile premise and feeling directionless.
+Task Force 141 hunts Makarov from a Russian prison to London's underground, with the opening Prisoner 627 mission delivering an exceptionally strong start through stealth-based assault mechanics. The atmosphere is consistently dark and urgent, though the narrative struggles to maintain momentum across its uneven structure.
 
-The shooting carries the whole experience, feeling good enough to sustain the campaign through its weaker stretches. Voice acting is the other consistent strength, with the new Price performance singled out for praise.
+The Payload stealth mission with Price provides tactical variety through sniper overwatch mechanics, letting the player support ground operations from a distance. This mechanical shift from direct assault to coordinated support creates pacing diversity that sustains engagement. The quieter sequences demonstrate the campaign's range beyond its louder action set-pieces.
 
-The open combat missions are a mixed bag, recognisably Warzone gameplay with gun boxes, coloured weapons and armour plates throughout. A few, like the stealthy Crash Site and the oligarch financial interrogation, work well, but running them back to back wears thin.
+The Gora Dam mission delivers excellent tension through high-stakes objective design, with the stakes escalating as the mission progresses. The encounter design balances stealth and action effectively, demanding both patience and precision.
 
-The opening prison break and the stealth sniper mission with Price stand out as the campaign's best set-pieces. The AC-130 gunner section and the faster movement of the open zones add variety to the routine shooting.
+Open combat missions prove a mixed bag, with some providing genuine tactical freedom while others devolve into tedious clearing exercises. The mission variety is ambitious, offering multiple approaches, but the execution varies between sequences that demonstrate the formula's potential and those that expose its limitations.
 
-The reboot characters read as hollow reincarnations rather than the same people, and a key character's exit is mishandled. Armoured enemies and riot shields make fights spongy, while the forced armour-plate system adds friction to every engagement.
+The narrative feels disjointed and repetitive, with missile threats recycled from previous entries and character motivations lacking the cohesion of its predecessors. The story struggles to justify its existence as a trilogy conclusion, with plot threads that feel hastily assembled rather than carefully constructed.
 
-Three crashes and odd visual artefacts, including squares filling the screen on certain effects, mar the presentation. The Z4 launcher and the limp C4 throw rank as the weakest equipment in the kit.
+Frequent crashes disrupt the experience at unpredictable intervals, with three crashes during a single playthrough undermining the otherwise polished presentation. These technical issues compound the narrative frustrations, creating friction that tests patience during the campaign's weaker moments.
 
-Overall, gunplay and voice acting anchor the campaign, but the weak story and the repeated open combat missions pull hard against them. The result is a shooter that never quite coheres into a confident whole.
+Overall, the stealth missions and open combat variety establish a Call of Duty campaign with standout individual sequences, though a weak narrative and technical issues prevent the reboot trilogy's conclusion from reaching its potential.

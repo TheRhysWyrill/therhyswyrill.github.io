@@ -3,25 +3,23 @@ layout: review
 date: 2026-08-13
 game_title: "Contra"
 permalink: /reviews/contra/
-verdict: "recommended"
+verdict: recommended
 platform: "NES"
-release_year: 1988
+release_year: 1987
 genre: "Shooter"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A short, brutal run-and-gun whose varied stages, turbo-charged weapons and good music make its punishing difficulty easy to forgive."
+summary: "Satisfying weapon variety and varied environments elevate this run-and-gun, though one-hit deaths and small bullet visibility create punishing challenge."
 image: "/assets/img/reviews/contra.webp"
 ---
 
-Contra is a 1988 NES run-and-gun from Konami that marches two commandos through jungle, bases, snowfields and an alien lair. Infinite lives and a turbo button reframe its notorious difficulty into a breezy brute-force playground, fitting the game's arcade-difficulty lineage.
+Contra drops two soldiers into a jungle assault against an alien invasion, opening with one-hit-kill combat that demands constant movement. Eight stages cycle through environments ranging from coastal fortifications to snowfields to alien lairs, each with distinct enemy placements and hazards. The NES hardware delivers surprising visual diversity across these stages, with scrolling backgrounds that establish a sense of progression through hostile territory.
 
-The machine gun stands out as the best weapon, firing continuously with no bullet limits, while the spread gun becomes devastating under turbo. The laser barely moves under turbo and is all but useless, while rapid fire adds little.
+Weapon power-ups scatter throughout each stage, offering spread shot, laser, machine gun, and rapid fire options. The spread shot paired with turbo fire dominates combat, creating wide coverage that compensates for the one-hit-kill fragility. Machine gun provides a balanced alternative, while rapid fire sustains pressure during密集 encounters.
 
-Stage variety exceeds expectations, moving from jungle cliffs to bases, a snowfield, an energy zone and finally the aliens' lair. The music is a genuine strength, a soundtrack that holds up well on the NES.
+The laser weapon frustrates with its single-shot limitation that resets when fired rapidly, creating an awkward rhythm that disrupts momentum. Enemies pop in from the edges of the screen without warning, a limitation of NES hardware that adds unfair surprise deaths. Small projectiles blend into backgrounds, making them difficult to spot and dodge during intense firefights.
 
-Tiny bullets that blend into the background are a major difficulty factor, compounded by one-hit deaths throughout. NES pop-in makes matters worse, with enemies appearing on screen only once they are already there.
+Alien enemies appear abruptly in the final stages with no foreshadowing, shifting the tone from military action to sci-fi horror without transition. This tonal whiplash catches unprepared players off guard, though the mechanical escalation matches the visual shift. The alien lair stages introduce new enemy types that demand different tactical approaches.
 
-The alien threat arrives without foreshadowing, and the box art barely hints at it, with protagonists drawn close to the likeness of two famous action stars. The campaign is short, but its difficulty guarantees plenty of play time.
+Eight stages deliver tightly designed encounters that reward pattern recognition and weapon management. Each environment introduces distinct visual themes, from jungle warfare to mechanical fortresses to extraterrestrial landscapes. The difficulty curve steepens progressively, with later stages layering environmental hazards alongside increased enemy density.
 
-The ending is minimal, a single line congratulating the hero for saving the universe, yet it suits the era. The franchise's endurance is itself surprising, with the series still active long after the 1980s.
-
-Overall, the weaponry and the varied stages make Contra a fast, fun blast that owns its difficulty. It is short, but it is a game well worth replaying properly with thirty lives.
+Overall, the weapon variety and environmental diversity deliver a run-and-gun with lasting appeal, though one-hit deaths and small bullet visibility create challenge that borders on unfair. The core shooting remains satisfying throughout, anchored by the dominant spread shot and rewarding stage design.

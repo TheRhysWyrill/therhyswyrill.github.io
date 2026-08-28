@@ -3,25 +3,23 @@ layout: review
 date: 2026-06-27
 game_title: "Kraken Academy!!"
 permalink: /reviews/kraken-academy/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2021
 genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A time-loop comedy whose quests, twists and bottle-machine rebellion make it a joy despite a simple final boss."
+summary: "Charming character cast and clever time loop narrative deliver a compact adventure full of humour and heart, though the final boss and money system fall flat."
 image: "/assets/img/reviews/kraken-academy.webp"
 ---
 
-Kraken Academy is a time-loop adventure from Happy Broccoli Games, set in a boarding school where a giant squid demands that four trapped spirits be freed. The complete hundred-per-cent run finished in just under six hours, with every quest, friendship badge and piece of furniture collected.
+A new student arrives at a dilapidated school filled with eccentric characters across five clubs, discovering a traitor threatens to destroy the institution. The premise establishes a quirky, lighthearted tone with tentacles growing everywhere and corruption slowly spreading. Using an amulet to travel back in time allows replaying the same days to gather information across different timelines. The character writing establishes genuine charm from the opening moments.
 
-The comedy lands throughout, with the Gawk the Arc parody play and the bottle machines rebelling over working conditions. The quest structure satisfies, with friendship badges from nearly every character and three-challenge initiations for each club.
+Side-scrolling exploration handles club-related quests, bottle collecting, and social interactions across the school grounds. The bottle economy provides a light collectathon loop, with bottles funding club passes and furniture upgrades. Club-based progression unlocks new areas, with each club offering distinct questlines and personalities. The time loop mechanic allows replaying sections to solve puzzles and gather missed information.
 
-The time-loop premise is well used, with the rainy-day Tuesday demanding a trip back in time to reach quests locked to that day. The secret-agent mission to the Mepsi lair beneath the school is a highlight, complete with a ventilation-shaft infiltration.
+Art direction presents a vibrant 2D aesthetic with expressive character animations that capture each personality. The skeleboner costume triggers music when dancing, creating memorable comedic moments throughout the journey. Sound design features upbeat tracks that shift between calm and comedic intensity during interactions. Character dialogue delivers sharp writing with distinct voices, from the conspiracy theorist to the broccoli girl.
 
-The story twists land, with a pair of betrayals revealed and the science-club backstory recontextualising the whole game from the start. The finale closes on an unexpected note of reconciliation rather than destruction.
+The final boss proves underwhelming with only two attacks and straightforward mechanics. Money becomes largely useless after purchasing all club passes, removing the collectathon incentive early. Sprint speed feels barely distinguishable from walking, creating sluggish traversal. Steam input issues cause duplicate controls on Linux systems.
 
-The final boss disappoints, with only two attacks and a second phase that barely raises the difficulty. The money becomes worthless early, with a couple of thousand bottles covering every pass and few worthwhile purchases left to make.
+The memorable character cast sustains engagement across the compact experience, with each personality delivering comedic moments. The time loop narrative cleverly weaves mystery through the three-day structure, rewarding investigation.
 
-The plate-spinning minigame frustrates, with two plates always turning red at opposite ends. The strength-combo minigame drags, and the absence of fast travel makes the later backtracking a chore.
-
-Overall, the comedy, the quests and the time-loop mystery make this a joy from start to finish. The simple final boss and the early-worthless money are the only caveats.
+Overall, the charming character cast and clever time loop narrative deliver a compact adventure full of humour and heart. The final boss and money system fall flat against the otherwise engaging experience.

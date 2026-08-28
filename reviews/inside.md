@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-11
 game_title: "Inside"
 permalink: /reviews/inside/
-verdict: "recommended"
+verdict: recommended
 platform: "Series X"
 release_year: 2016
-genre: "Platformer, Puzzle"
+genre: "Adventure, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A mysterious puzzle-platformer whose massive sense of scale, audio design and mind-control gimmick make it a cool experience."
+summary: "Incredible sense of scale and zero-dialogue environmental storytelling create an awe-inspiring puzzle platformer, though the deliberately obscure narrative leaves everything to interpretation."
 image: "/assets/img/reviews/inside.webp"
 ---
 
-Inside is a puzzle-platformer from Playdead, following a boy's wordless descent from a woods into an ever-deepening facility. The full game was completed through its memorable finale and zoom-out ending in a single stream.
+A boy in a red shirt runs from a forest into a vast, oppressive facility where people march in unison. The game provides zero explanation, no dialogue, no text, and no cutscenes. Environmental details reveal meaning through observation rather than exposition. Every environment dwarfs the player character, creating constant awe and unease.
 
-The sense of scale is the recurring wow, with everything in the world feeling enormous and the boy like an ant within it. The comparison to Little Nightmares is telling, since this world feels a whole other level larger.
+Helmet mind-control mechanic transforms the puzzle design by allowing control of surrounding husks. Creative uses of this power drive exploration and obstacle navigation through increasingly complex scenarios. The sense of power contrasts against the vulnerability established in earlier sections. Control shifts between the boy and controlled subjects create dynamic puzzle variety.
 
-The descent narrative keeps delivering, with the facility just continuing through submerged ruins, an overgrown abandoned complex and ever-deeper chambers. The atmosphere is carried by audio, with a distant heartbeat that grows bigger, higher, louder and faster with danger.
+Environmental storytelling reveals narrative entirely through visual details and mechanical progression. Every environment dwarfs the player character, creating constant awe and unease. Underwater sections introduce swimming mechanics that generate genuine tension.
 
-The mind-control mechanic is a highlight, with a helmet that lets the boy command the husk-like workers and collect a crew that follows along. The gathered workers help in later sections, making the mechanic feel genuinely useful.
+Inverted water puzzles demand creative spatial reasoning as gravity shifts around submerged areas. These head-scratching challenges provide some of the game's most satisfying moments. The mechanical complexity escalates naturally through each new environment. Submerged sections generate genuine tension through lurking threats.
 
-The blob finale is a memorable payoff, with the mass of bodies smashing through the facility and nothing able to hold it in. The ambiguity of the ending is acknowledged as a feature, with more questions at the close than at the start.
+Disco ball collectibles hide throughout the world, rewarding thorough exploration. Their purpose remains unexplained, leaving completionists to speculate about their significance. Fourteen orbs demand careful scanning of every corner.
 
-The narrative stays opaque throughout, with why the boy heads for the facility and what the workers are left unexplained. Some puzzles stump, the blob controls are clumsy, and the dog sections rely on trial and error with tight jump timing.
+Limited control scheme uses minimal buttons for movement and interaction. The streamlined approach keeps focus on environmental observation rather than mechanical mastery. Deliberate obscurity in the narrative may frustrate those seeking structured explanation. The absence of HUD or health bar reinforces the purely environmental approach.
 
-Overall, the sense of scale, the audio design and the mind-control gimmick make this a cool and mysterious puzzle-platformer. The opaque story and the occasional puzzle stumps are the caveats.
+Overall, incredible sense of scale and zero-dialogue environmental storytelling create an awe-inspiring puzzle platformer. Deliberate narrative obscurity and limited control depth prevent the atmospheric presentation from reaching its full potential.

@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Call of Duty 3"
 permalink: /reviews/call-of-duty-3/
-verdict: "recommended"
+verdict: recommended
 platform: "PS3"
 release_year: 2006
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "The only mainline entry without a PC release, whose upscaled visuals, nation-spanning missions and joyful melee outshine twitchy Panzerschreck aiming."
+summary: "Diverse mission types including tank combat, driving, and radio operator sequences maintain momentum throughout the Normandy breakout, though twitchy anti-tank gun aiming and the absence of sprint create friction."
 image: "/assets/img/reviews/call-of-duty-3.webp"
 ---
 
-Call of Duty 3 is the 2006 Treyarch shooter that stands as the only mainline entry never released on PC, following American, British, French Resistance, Canadian and Polish troops through the liberation of France. The upscaled presentation, delivered through emulation, makes everything look clean and clear for its age.
+Infantry skirmishes give way to tank assaults, high-speed chases through French countryside, and radio operator sequences that demand tactical spotting rather than trigger discipline. This mission variety defines Call of Duty 3's identity, ensuring no two campaigns feel redundant despite sharing the same historical theatre.
 
-The melee is a favourite, with hits sending enemies flying and the occasional front-flip knockback adding physical comedy, and it stays viable across the campaign. The MP44 proves endlessly useful with its effectively unlimited ammunition.
+Melee combat delivers disproportionate force, sending enemies ragdolling with exaggerated impact that borders on comedic. When enemies close distance, a single strike often proves more reliable than panicked hip-fire, creating a secondary combat rhythm that supplements the shooting mechanics.
 
-Nation and mission variety is a strength, with tank driving, vehicle sections, sniper segments and a night drop breaking up the infantry shooting. The driving sections, even when confined to the wheel, are enjoyed.
+Driving sections handle with surprising precision, the vehicles responding crisply to inputs while maintaining momentum through winding rural roads. These sequences break the infantry-focused pacing and inject a different kind of tension, one built on speed rather than cover-based positioning.
 
-The Panzerschreck aiming is the biggest complaint, with the left stick spinning the view rather than steadying the reticle. The rowing mini-game is gimmicky and the least welcome of the set pieces.
+The Falaise Gap setting provides atmospheric grounding, with period-accurate weapons, dynamic weather, and squad dialogue that builds camaraderie through shared danger. Character-driven writing gives the ensemble distinct personalities, particularly through the evolving relationship between squad members who must trust each other under fire.
 
-Squadmates run in front of the barrel, risking failure through accidental friendly fire, and melee attempts are blocked too often to rely on. There is no sprint, the BAR's reload animation looks fumbled, and the audio quality is poor.
+Anti-tank gun aiming, however, suffers from excessive sensitivity. The Pak 43's left stick input translates to violent screen sweeps rather than controlled targeting, making defensive artillery sequences feel more like luck than skill. The absence of sprint compounds this frustration, forcing methodical movement through open ground that demands urgency.
 
-Emulation brings its own quirks, with modules recompiling after every level and the real console hardware crashing near the end of a stage. The run survives both, and the campaign is the shortest of the series so far.
+Battery collection mini-games and inconsistent friendly fire rules create minor disruptions. Occasionally, eliminating a squad member triggers no penalty, breaking the immersion of the military simulation framework.
 
-Overall, nation-spanning variety, upscaled visuals and the joyful melee make Call of Duty 3 a fun entry. The twitchy Panzerschreck aiming and the rowing section are the main caveats.
+Overall, the mission diversity and character-driven squad dynamics elevate Call of Duty 3 beyond its mechanical limitations, delivering a WWII shooter that sustains engagement through constant reinvention rather than refined systems.

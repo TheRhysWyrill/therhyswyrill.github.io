@@ -3,25 +3,23 @@ layout: review
 date: 2026-07-11
 game_title: "Kona II: Brume"
 permalink: /reviews/kona-2-brume/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2023
 genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A first-person narrative adventure whose narration, visual step up and dense underground lab make it very good."
+summary: "Atmospheric quiet and compelling narration elevate this detective thriller, though buggy final encounters and unanswered mysteries undermine the climactic payoff."
 image: "/assets/img/reviews/kona-2-brume.webp"
 ---
 
-Kona II: Brume is a first-person narrative adventure from Parabole, continuing detective Carl Faubert's story through a snowbound Quebec. The complete campaign was finished in a single session, from the mansion to the underground laboratory and the final confrontation.
+Detective Carl Faubert returns to northern Quebec to explore the frozen map, uncovering the Hamilton Mining Corporation's secret MIST programme and the mystery of mistite, a radioactive substance. The premise establishes a 1970s detective fiction tone blended with cosmic horror, with frozen bodies and abandoned mansions creating genuine tension. The narration provides third-person commentary on Carl's actions, creating a storytelling approach reminiscent of interactive fiction. From the opening moments, the oppressive quiet establishes an unsettling atmosphere that persists throughout.
 
-The narration is the standout, with the French-Canadian storybook tone carrying the mystery throughout. The presentation is a clear step up from the first game, looking better and feeling smoother, and the world feels a lot more fleshed out.
+Exploration rewards thorough investigation of Hamilton Estates and the surrounding frozen landscapes, with environmental puzzles and radioactivity detection driving progression. Dog sledding serves as fast travel between locations, with pettable companions adding warmth to the bleak setting. Multiple weapons including revolver, shotgun, and mistite phaser provide combat options during tense wildlife encounters. Inventory management requires balancing batteries, kindling, and first aid supplies.
 
-The mansion chapter impresses with its sheer size, and the underground laboratory is the highlight of the run. The wing-by-wing power restoration, the ventilation and water-drain puzzles and the conveyor-belt repair pack a small area with plenty to do.
+Art direction presents detailed environments that capture the 1970s Quebec setting with atmospheric lighting and frozen textures. The visual upgrade from the original creates significantly improved presentation. Narration delivers strong performances with engaging commentary throughout the investigation. Sound design emphasises environmental ambience, with wind and distant sounds building tension during quiet moments.
 
-The expanded cast pleases, with the survivors at Leech Lake, the herbalist, the sled lady and the scientist all offering interaction. The lore pays off, with the opposition letter, the mist program agreement and the patient files deepening the mystery.
+The final encounter suffers from technical issues requiring multiple attempts due to wall-stuck bugs and crashes. The Wendigo presence, while improved over the original, still feels underutilised. The central mystery of the snowstorm remains unanswered despite learning Pierre's transformation. Depth of field bugs occasionally create visual blurring at scene transitions.
 
-The story resolves the first game, bringing its narrative to a conclusion, and the dog content charms with plentiful pets and the dog-sled fast travel. The stamina and survival systems are kinder, with much longer sprinting than the original.
+Environmental storytelling throughout Hamilton Estates delivers engaging discovery moments, with the MIST programme mystery unfolding through investigation. The blend of historical accuracy with supernatural elements creates a distinctive tone that distinguishes the experience.
 
-The final encounter had to be done three times, with one attempt soft-locked by being battered through a wall and another ended by a crash. The Wendigo's presence is thin, the mistite phaser underwhelms against the revolver, and the dialogue UI is hard to read.
-
-Overall, the narration, the visual step up and the dense underground lab make this a very good narrative adventure. The repeated final encounter and the thin Wendigo presence are the caveats.
+Overall, the atmospheric quiet and compelling narration elevate this detective thriller. Buggy final encounters and unanswered mysteries undermine the climactic payoff.

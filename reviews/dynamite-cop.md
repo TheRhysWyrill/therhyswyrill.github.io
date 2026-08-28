@@ -3,25 +3,23 @@ layout: review
 date: 2026-08-15
 game_title: "Dynamite Cop"
 permalink: /reviews/dynamite-cop/
-verdict: "recommended"
+verdict: recommended
 platform: "Dreamcast"
-release_year: 1999
+release_year: 1998
 genre: "Beat 'em up"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A gloriously absurd Dreamcast beat 'em up where everything is a weapon, undercut only by its hour-long length."
+summary: "Absurd weapon variety and over-the-top exaggeration deliver pure arcade joy through side-scrolling combat, though repetitive mission structure and unclear controls undermine the otherwise relentless momentum."
 image: "/assets/img/reviews/dynamite-cop.webp"
 ---
 
-Dynamite Cop is a 1999 Dreamcast beat 'em up from Sega in which a hijacked cruise liner, its hostages and the president's daughter must be freed from pirates. Three missions form the Caribbean Pirates mode, each one a difficulty step and each starring a different fighter.
+Three agents storm a hijacked cruise liner to rescue the president's daughter, with barely a moment of plot between explosive encounters. The premise exists solely to justify the next brawl, and the game embraces this simplicity with gleeful abandon. Dramatic camera angles, enemies in crab costumes, and a tentacle kraken boss communicate a commitment to excess from the opening moments.
 
-Combat is built around the rule that literally everything is a weapon, from baguettes, brooms and plungers to fish heads, fridges and anti-ship missiles. Enemies themselves can be grabbed and thrown, and emptied guns are lobbed at the next target.
+Weapon variety sustains the experience through sheer absurdity, with baguettes, plungers, hairspray flamethrowers, and anti-tank rifles scattered across every corridor. Environmental objects double as improvised armaments, and enemies themselves become throwable projectiles when grabbed. The arsenal ensures no two encounters feel identical, even when the level geometry repeats.
 
-The exaggerated animations and dramatic camera angles give every punch a cinematic flourish, while the knockout sound effects land with real satisfaction. QTE prompts pepper the fights, and failing one looks goofy rather than punishing.
+Over-the-top exaggeration extends beyond weaponry into every visual and mechanical detail. Clothes disappear as damage accumulates, providing immediate visual feedback for health status. Dramatic camera shifts punctuate combat encounters, and comical sound effects reinforce the arcade tone throughout each corridor brawl.
 
-The absurd tone carries the experience, with enemies in crab, fish and Koopa-shell costumes and insults that change with the chosen character. Taking damage strips clothing piece by piece, so the fighter visibly loses their vest as the brawl wears on.
+Three playable characters offer distinct fighting styles, with Jean favouring kicks and Bruno providing balanced approach. Eddie mirrors Bruno's moveset but with enough variation to encourage experimentation across multiple playthroughs. Each character's powered-up attacks deliver screen-clearing spectacle that rewards aggressive play.
 
-The three characters play differently, with Bruno favouring fists, Jean leaning on kicks and Eddie close to Bruno in style. Every mission visits a different corner of the ship or island, though the layouts repeat across the three runs.
+Unclear controls present the primary friction point, particularly blocking mechanics and combo inputs that remain opaque throughout. Health pickups restore negligible amounts, creating tension during extended encounters that feels more punitive than challenging. The repetitive mission structure follows identical patterns across all three stages, though location variety prevents complete staleness.
 
-The set-pieces stand out, including a Kraken encounter and a recurring final boss who teleports around the arena. Weak health pickups, heavy enemy gunfire and the absence of visible health bars are the main frustrations.
-
-Overall, the weapon-driven combat and the gloriously silly presentation make Dynamite Cop an easy recommendation. The hour-long campaign is the only real disappointment.
+Overall, the weapon variety and over-the-top exaggeration deliver an arcade beat-'em-up that prioritises absurd spectacle over mechanical depth, resulting in pure, unpretentious entertainment despite its structural repetition.

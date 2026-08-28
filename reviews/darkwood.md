@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-21
 game_title: "Darkwood"
 permalink: /reviews/darkwood/
-verdict: "recommended"
+verdict: recommended
 platform: "Switch"
-release_year: 2019
+release_year: 2017
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A top-down survival horror whose day-and-night loop, axe-led combat and grotesque cast make it a very good game."
+summary: "A top-down survival horror driven by a limited visibility mechanic and oppressive sound design that builds relentless tension, though sluggish weapon combat and constant durability repairs undercut the survival loop."
 image: "/assets/img/reviews/darkwood.webp"
 ---
 
-Darkwood is a top-down survival horror set in a hostile forest, where days are spent scavenging and nights are spent barricaded in a hideout. The day-and-night loop drives everything, with the generator, lamps and hiding behind furniture all feeding into each night's defence.
+A procedurally generated Eastern European forest traps inhabitants within its borders, and survival depends on mastering a tense day-night cycle where darkness brings relentless threats. Top-down perspective subverts horror conventions by restricting vision to a narrow cone, forcing reliance on sound and instinct rather than sight.
 
-The workbench and workshop system gives crafting real depth, with upgrades up to level six and weapons built and improved throughout. The axe transforms combat with its quick attack, while the shovel's reach and the pitchfork's wall-sticking downsides keep the choice meaningful.
+Objects vanish when not directly observed, creating constant uncertainty about what lurks beyond the visible radius. Every shadow could conceal danger, and turning away from a corridor means whatever stood there may no longer be where memory places it. Sound design amplifies this dread, layering ambient forest noise with distant screams and crunching footsteps that signal threats long before they appear visually.
 
-The cast is grotesque, from the wolf man and the chicken lady to the deformed musician boy and the masked family, with every character carrying something wrong with them. The story unfolds through quests and character encounters, building to a reveal about the forest's true nature.
+Daylight hours feel almost safe, encouraging exploration, scavenging, and trade with grotesque merchants scattered across three distinct map regions. Nights flip the dynamic entirely, transforming confident wanderers into cornered survivors barricading wardrobes and crafting obstacles against waves of shadows and fast-moving chompers.
 
-The enemy variety keeps the nights unpredictable, from Savages and huge dogs to Chompers that keep crawling even when cut in half. The survival systems, from the fuel economy to the poison fog and the lamp-shorting shadow events, force constant attention.
+Procedural generation ensures no two playthroughs follow identical layouts, rewarding landmark-based navigation over memorised routes. Grotesque NPCs populate the woods, each bearing physical deformities that reflect the forest's corruption, from a wolf-headed trader to a woman draped in chicken feathers.
 
-The atmosphere is tense rather than terrifying, with the stress of the nights outweighing any scares. The hand-drawn art looks great, with the grotesque character design carrying the visual identity.
+Traders barter for supplies at premium prices, workbenches enable weapon upgrades, and a perk system unlocked by cooking mushrooms adds long-term progression. Weapon durability, however, undermines this satisfaction by forcing frequent repairs that interrupt momentum.
 
-The load times are the main technical downside, and the early combat can be punishing, with endless deaths in the Old Woods. The Chompers are the worst enemy, too fast to juke, and the map hides the character's position without the relevant perk.
+Combat feels deliberately sluggish, with every weapon swinging slowly enough to punish mistimed strikes. Fast, aggressive enemies exploit these windows relentlessly, creating encounters that feel more like desperate scrambles than tactical engagements.
 
-Overall, survival loop, axe-led combat and the grotesque world make Darkwood a very good game. The tense-but-not-scary tone and the load times are the main caveats.
+Overall, the limited visibility mechanic and exceptional sound design create an atmosphere of sustained dread unmatched by jump-scare-dependent horror. The combat system and durability mechanics introduce friction that tempers an otherwise suffocatingly tense survival experience.

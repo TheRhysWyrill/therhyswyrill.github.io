@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Call of Duty: Modern Warfare Remastered"
 permalink: /reviews/call-of-duty-modern-warfare-remastered/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
-release_year: 2017
+release_year: 2016
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A dramatic visual upgrade makes revisiting the classic campaign worthwhile, despite a frustrating stealth-mission ending."
+summary: "Remastered visuals bring new life to a memorable campaign with standout stealth and sniper missions, though excessive enemy spawns and frustrating objective design undermine specific sequences."
 image: "/assets/img/reviews/call-of-duty-modern-warfare-remastered.webp"
 ---
 
-Call of Duty: Modern Warfare Remastered rebuilds the 2007 classic with a visual uplift that is night and day against the original. The four-to-five-hour campaign keeps the structure that made the source game a landmark of the series.
+Soap McTavish and Task Force 141 hunt a terrorist leader across cargo ships, Russian villages, and urban environments, with the narrative remaining compelling years after the original release. The atmosphere is consistently intense and cinematic, with the remastered visuals bringing new life to the 2007 classic through updated textures and lighting.
 
-The increased detail is the immediate draw, with environments far more populated than the barren original. The remaster's fidelity is impressive even judged on its own terms, and the visual gap is described as ridiculous for an eight-year difference.
+The All Ghillied Up sniper mission stands as the campaign's most memorable sequence, with stealth mechanics and atmospheric tension creating genuine suspense. The quiet approach through abandoned buildings and long-range engagements demand patience and precision, rewarding methodical play over aggressive engagement.
 
-The ghillie-suit stealth mission is the highlight, a prone crawl through enemy patrols where any movement risks discovery. The sniper mechanics lean into bullet drop, wind and the coriolis effect, adding genuine depth to the long-range shot.
+The training course provides an addictive time trial that determines difficulty recommendations, with speed and accuracy metrics encouraging replayability. This system rewards mastery through mechanical improvement rather than artificial difficulty scaling, creating organic challenge progression throughout the campaign.
 
-The AC-130 gunship section pairs thermal scanning with a running commentary, a memorable change of pace described as terrifying. The timed cargo-ship training course determines the recommended difficulty and stays fun in its own right.
+Remastered visuals transform the original's environments with updated textures, lighting effects, and particle systems. The graphical upgrade brings new life to familiar locations, with the night vision sequences and urban firefights benefiting most from the enhanced presentation.
 
-The One Shot, One Kill ending sours that mission, forcing a full replay on failure and an exposed carry to the helicopter. Teammates keep blocking movement and grenade pressure is constant, with friendly fire triggering mission failures.
+Excessive enemy spawns in certain sections create overwhelming firefights that test patience rather than skill. The RPG spam during vehicle sequences proves particularly frustrating, with the encounter design sometimes prioritising spectacle over tactical engagement.
 
-Generous checkpoints soften the difficulty, checkpointing far more often than earlier entries. The story's flashback structure and the mid-campaign nuclear shock keep the campaign moving, while the tank escort earns its own fondness.
+Friendly AI occasionally proves clumsy, running into the player's path during stealth sequences and interrupting movement. This collision detection issue creates minor but persistent annoyances that undermine the otherwise polished mechanical experience.
 
-Overall, mission design and the visual uplift make Modern Warfare Remastered the best way to revisit the classic campaign. The frustrating tail of the ghillie-suit mission is the one real blemish.
+Overall, the remastered visuals and memorable mission design establish a classic shooter that rewards patience and precision, though excessive enemy spawns and clumsy AI prevent specific sequences from reaching their full potential.

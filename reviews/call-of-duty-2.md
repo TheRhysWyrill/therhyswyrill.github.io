@@ -3,25 +3,23 @@ layout: review
 date: 2026-06-27
 game_title: "Call of Duty 2"
 permalink: /reviews/call-of-duty-2/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2005
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A relentlessly action-packed 2005 sequel with clean presentation, readable objective markers and generous checkpoints, held back by grenade-happy AI."
+summary: "Three distinct WWII campaigns deliver varied combat scenarios and period atmosphere, though excessive grenade spam and occasional AI pathfinding issues create uneven pacing."
 image: "/assets/img/reviews/call-of-duty-2.webp"
 ---
 
-Call of Duty 2 is the 2005 sequel that runs four campaigns across the Russians, the British 7th Armoured Division, the Americans and a second British stretch in Normandy. The action rarely lets up, with Moscow's holdout, the cliff assault and the Hill 400 stand among its densest set pieces.
+Three campaigns spanning Russia, Britain, and America deliver varied perspectives on World War II's most pivotal theatres. From Stalingrad's rubble to North Africa's deserts, each theatre brings distinct weapons, squad dynamics, and environmental challenges that maintain momentum across the full arc. The opening moments establish a grounded tone, with historical documentary-style briefings framing fictionalised combat within real events.
 
-For a 2005 release the game looks clean, running buttery smooth and noticeably better than the Xbox 360 build. The D-Day level holds up well for its age, and the presentation overall is a highlight.
+The regenerating health system keeps firefights relentless, removing the need to hunt for health packs and sustaining forward momentum through dense skirmishes. Generous checkpoint placement softens the sting of repeated deaths, particularly during the more demanding defensive sequences where waves of enemies test positioning and patience. For 2005, the visual presentation holds up remarkably well, with dynamic weather and lighting effects creating atmospheric variation across missions.
 
-The compass and objective markers constantly call out enemy positions and objectives, keeping the chaos readable. Generous checkpoints mean deaths rarely cost much progress, a kindness the previous entry lacked.
+The three-campaign structure delivers distinct tonal contrast through each faction's approach. The Russian campaign emphasises desperation and massed infantry assaults, the British campaign shifts to desert manoeuvres and tactical strikes, and the American campaign delivers large-scale amphibious operations. This variety prevents any single combat style from overstaying its welcome.
 
-The Sten earns favourite status for its unconventional form and satisfying sound, while the MP40 provides a reliable ammo supply. Captain Price's return in the British campaign gives series veterans a familiar anchor.
+The grenade spam from enemy AI, however, feels calibrated for a higher difficulty tier. Encounters frequently devolve into dodging a constant stream of explosives rather than engaging in tactical firefights, which undermines the otherwise strong combat design.
 
-Grenade spam is relentless, with enemies throwing at the highest-difficulty rate and no indicator to warn of the blast, most brutal at Hill 400. Accidental friendly fire instantly fails the mission, which pairs badly with squadmates who run into the line of fire.
+Occasional AI pathfinding glitches surface during scripted sequences, with squad members refusing to follow their intended routes. These moments break immersion in what is otherwise a tightly orchestrated cinematic presentation.
 
-Enemies blend into the scenery so well that spotting them becomes a strain, and the Thompson's 20-round magazine runs dry too fast. One armoured-car mission bugs out when the driver ignores the route, forcing a restart, and the finale ends abruptly.
-
-Overall, relentless action, varied missions and strong presentation make Call of Duty 2 an easy recommendation. The grenade-happy AI and abrupt ending are the main knocks on an otherwise excellent campaign.
+Overall, the three-campaign structure and regenerating health system establish a WWII shooter with strong mechanical variety and historical atmosphere, though the excessive grenade frequency and sporadic AI issues create friction that tempers the experience.

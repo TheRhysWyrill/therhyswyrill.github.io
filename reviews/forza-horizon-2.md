@@ -3,25 +3,23 @@ layout: review
 date: 2026-06-24
 game_title: "Forza Horizon 2"
 permalink: /reviews/forza-horizon-2/
-verdict: "recommended"
+verdict: not-sure
 platform: "Series X"
 release_year: 2014
 genre: "Racing"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A gorgeous open-world racer whose visuals, handling and road-trip structure are undercut by weak AI and thin content."
+summary: "Stunning visual presentation and a curated soundtrack deliver atmospheric open-world driving across southern France and Italy, though trivially easy AI and the absence of car progression undermine structural depth."
 image: "/assets/img/reviews/forza-horizon-2.webp"
 ---
 
-Forza Horizon 2 is an open-world arcade racer set across southern France and northern Italy, spanning fifteen championships, five showcases and the Horizon finale. The full story was beaten in eleven hours, with the finale won outright.
+A European road trip festival spans southern France and Italy, inviting drivers to compete in championships across sun-drenched coastal roads and winding mountain passes. The visual presentation represents a significant leap from its predecessor, with detailed environments and dynamic weather that transform each drive into something atmospheric. From the opening moments, the soundtrack and scenery combine to create a driving experience that feels celebratory.
 
-The visuals are a major step up for the Xbox One, with rain making everything shiny, glowing night-city lights and a car-dirt effect on the road surfaces. The handling feels better than the first game's, with every car distinct and the rain adding extra slip and slide.
+Rewind functionality proves invaluable during long races, allowing mistakes to be corrected without restarting entire events. Bucket list challenges provide welcome variety between championship races, though their quality varies across the progression. Off-road freedom rewards exploration, with skill points accumulating for environmental destruction and clean driving sequences.
 
-The soundtrack is a highlight, with Pulse the standout station, surprise artists like Chromeo and Jane's Addiction, and festival audio blending into the car radio as it passes. The road-trip structure between festival hubs makes the game feel like a road-trip sim, and the showcase races are a consistent high point.
+Championship progression follows a straightforward structure, with three races per location and a festival finale awaiting completion. Cars can be upgraded performance-wise but lack visual customisation options, and the absence of a car acquisition progression system means supercars are available from the start. This casual approach removes the sense of earning vehicles through accomplishment.
 
-The skill-chain system rewards wrecking, clean racing and near-misses, which suits an aggressive driving style. The wheel spins, barn finds and cosmetic-only damage feed a relaxed car-collecting loop, and the rewind feature spares countless retries.
+AI opponents present minimal challenge across all difficulty settings, with races often won without tactical driving or strategic positioning. The trivial difficulty undermines competitive tension, particularly during championship finales that should feel climactic. Menu navigation proves unnecessarily convoluted, especially when applying visual customisations to vehicles.
 
-The AI is the biggest criticism, since the races are a cakewalk with every event ending in a fifteen-second lead even off easy difficulty. The missing progression stands out, with supercars handed out freely and no real need to upgrade, and fifteen championships feel slight against the first game's volume.
+Shadow rendering quality contradicts the otherwise excellent visual presentation, with shadow updates appearing noticeably sluggish during gameplay. The Storm Island DLC remains inaccessible, limiting the available content to the base game's offering. Road trip locations, while beautiful, provide fewer distinct destinations than expected.
 
-The late bucket lists swing to the opposite extreme, with speed challenges demanding perfection and rewards that never match the difficulty. The delisted Storm Island expansion is still advertised in menus, a reminder of content that can no longer be bought.
-
-Overall, the visuals, handling and soundtrack make Forza Horizon 2 a very pretty and fun racer, with the road-trip structure its best idea. The weak AI, the missing progression and the brutal late challenges keep it below the original.
+Overall, the visual presentation and soundtrack deliver atmospheric open-world driving that excels in moment-to-moment enjoyment, though the absence of car progression and trivially easy AI prevent the experience from achieving the structural depth needed for lasting satisfaction.

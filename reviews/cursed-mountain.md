@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-26
 game_title: "Cursed Mountain"
 permalink: /reviews/cursed-mountain/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
-release_year: 2010
-genre: "Survival Horror"
+release_year: 2009
+genre: "Adventure, Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A Himalayan survival horror whose third-eye combat, Buddhist lore and atmosphere make it a welcome surprise."
+summary: "Rune-tracing combat that translates Wii motion controls into precise mouse-driven gestures pairs with deep Tibetan Buddhist mythology, though a bewildering final encounter and fixed camera angles test patience."
 image: "/assets/img/reviews/cursed-mountain.webp"
 ---
 
-Cursed Mountain is a survival horror set on a haunted Himalayan peak, following mountaineer Eric Simmons as he searches for his brother. The third-eye combat reveals and shoots ghosts, weakening them for the symbol-tracing banishment that follows.
+Eric Simmons ascends a cursed Himalayan summit to rescue his brother. Combat revolves around rune-tracing with the mouse, turning each encounter into a gesture-based puzzle rather than a reflex test. The Tibetan setting draws interest, but mechanical identity emerges immediately.
 
-The combat is the standout, with the tracing mechanic far easier with a mouse than the original Wii remote. The ritual weapons progress well, from the cartica ice axe to the one-shot lagpa, with the kila dagger the standout of the set.
+Drawing rune symbols to banish spirits feels precise on PC, with the mouse delivering accuracy the Wii remote lacked. Different ghost types demand specific patterns, creating a combat loop rewarding pattern recognition and reflexes. The ranged approach avoids clunky melee while maintaining tension.
 
-The Tibetan Buddhist lore is the heart of the setting, with the Lando Chronicles and the diary entries slowly painting the protagonist as the arrogant architect of the curse. The atmosphere delivers on the title, with demonic whispers, jump scares and deserted mountain villages.
+Tibetan Buddhist mythology permeates every monastery and chronicle, building a world where Bardo, terma, and kora carry genuine cultural weight. Finding a new journal becomes as rewarding as clearing a room, each document deepening the spiritual context. The commitment to authentic lore transforms what could be generic horror into something culturally grounded. Thorough exploration is rewarded with richer narrative texture beyond the main path.
 
-The climbing and traversal set-pieces carry the ascent, from sheer wall climbs and wind-blasted ridge crossings to the finicky balance-beam QTEs. The story builds on the brotherly dynamic, with a late-game reveal about a supporting character and a summit confrontation that closes the climb.
+Fixed camera angles create deliberate tension through limited sightlines but occasionally disorient during corridor navigation. Fog-shrouded mountain paths and monastery interiors build atmosphere through environmental design rather than jump scares, with ambient sound reinforcing the isolation.
 
-Melee is nearly useless, its whole function mostly breaking open pots, and the swaying ghosts make clean shots a recurring frustration. The fixed camera angles and tank-like movement are awkward, especially when the angle shifts mid-fight.
+The Kila, Lagpa, and Kolo weapon types each serve distinct roles: healing, instant kills, and spread shots respectively. The Kila becomes the default choice for its sustain, while the Lagpa handles elite enemies efficiently. Health upgrades from purification statues reward exploration, while linearity ensures momentum never stalls between combat encounters.
 
-The PC port is a rare find, significantly easier with mouse and keyboard, though it is effectively abandonware with bare-bones options and no controller support. The oxygen gauge barely functions on PC, the closing boss is baffling and disjointed, and the vulture-demon rematch drags.
+Weathered interiors and sweeping Himalayan vistas capture the oppressive mountain atmosphere. The final encounter stumbles with unclear attack patterns, undermining the momentum built across the journey.
 
-Overall, combat, lore and atmosphere make Cursed Mountain a welcome surprise. The finicky controls and the awkward boss fights are the main caveats.
+Overall, rune-tracing combat delivers a mechanically distinct core experience, and the Buddhist mythology provides cultural richness that elevates the horror beyond generic ghost encounters. The fixed camera and final encounter test patience, yet the combination proves more rewarding than expected.

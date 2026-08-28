@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-27
 game_title: "Kindergarten"
 permalink: /reviews/kindergarten/
-verdict: "recommended"
+verdict: recommended
 platform: "Switch"
-release_year: 2023
+release_year: 2017
 genre: "Adventure, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A darkly funny puzzle adventure whose branching quests, hint system and collection hook reward full completion."
+summary: "Darkly humorous writing and time loop puzzle design create satisfying chains of cause and effect, though repeat playthroughs and obscure quest sequences create friction."
 image: "/assets/img/reviews/kindergarten.webp"
 ---
 
-Kindergarten is an abstract puzzle adventure game set across repeated days at a monstrously dysfunctional school, completed to one hundred per cent. The full quest roster was finished, including every monstermon card, all five nuggets of friendship and both endings.
+Bright colours and simple pixel art mask a dark narrative about child endangerment, drug dealing, and murder. Every day is Monday, and the kindergarten resets with each loop. Darkly humorous writing drives every interaction with memorable characters. The contrast between cheerful visuals and disturbing content creates a unique tonal identity.
 
-The dark comedy is the engine, with every adult in the school horrible and the violence far more brutal than the cutesy presentation suggests. The tone keeps pulling back for more, with the writing consistently funny and cynical.
+Time loop puzzle design creates satisfying chains where actions in one run unlock possibilities in the next. Knowledge carries forward through hints that unlock progressively, while physical items reset with each Monday. The apple system limits actions per room, forcing prioritisation. Each loop demands different approaches depending on the current questline focus.
 
-The branching quest structure is the hook, with every character from bugs to the teacher carrying a mission and special items carrying between days. Characters respond differently depending on what items are held and what decisions were made, rewarding exploration.
+Nugget questline delivers the game's highlight through a dramatic ritual sequence. The emotional payoff rewards accumulated investment across multiple loops. This standout sequence demonstrates the time loop mechanic at its best. Nugget's friendship quest stands as one of indie gaming's most memorable moments.
 
-The hint system is genuinely useful, unlocking progressively and guiding the branching quest lines without giving everything away. The room-restart mechanic eases trial and error, fixing mistakes without a full day replay.
+Hint system provides progressive guidance without solving puzzles outright. Character variety ensures each questline feels distinct, from Bugs' social dynamics to the principal's dark secrets. Monstermon card collection extends the experience beyond the main story. Twenty-five cards demand thorough exploration across multiple loops.
 
-The collection hook is satisfying, with the monstermon cards and the friendship nuggets giving full completion a clear shape. The meta ending is a delight, with collecting all twenty-five cards unlocking the cave's true form and setting up the sequel.
+Repeat playthroughs required for full completion create some repetition across the same school day. Principal's office sequences demand specific item combinations that aren't immediately obvious. The deceptively cheerful setting masks genuinely disturbing content throughout. The janitor's threats add darkly comic punctuation to the experience.
 
-The action budget is punishing, with apples limiting actions per room and a single wrong spend forcing a full Monday restart. One ending is fiddly to reach, quests fail silently when not turned in, and the main quest route takes many attempts.
+Limited runtime means the main story completes quickly, though completionism extends the experience. The time loop structure means revisiting familiar locations with new knowledge. Despite the brevity, writing sustains engagement across each Monday.
 
-Overall, the branching quests, the hint system and the collection hook make this a darkly funny puzzle adventure. The punishing action budget and the silent quest failures are the caveats.
+Overall, darkly humorous writing and time loop puzzle design deliver a satisfying puzzle adventure beneath a cheerful exterior. Repeat playthroughs and obscure quest sequences prevent the time loop mechanics from reaching their full potential.

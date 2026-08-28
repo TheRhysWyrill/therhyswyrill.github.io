@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Call of Duty: Black Ops II"
 permalink: /reviews/call-of-duty-black-ops-2/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2012
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A dual-era shooter whose branching narrative and optional strike-force missions reshape the finale, held back by a recast voice and awkward horse control."
+summary: "Branching narrative paths and a dual-timeline structure spanning Cold War flashbacks and near-future warfare create meaningful player agency, though inconsistent voice acting and less engaging tactical missions dilute the otherwise strong campaign."
 image: "/assets/img/reviews/call-of-duty-black-ops-2.webp"
 ---
 
-Call of Duty: Black Ops II is the 2012 entry that splits its campaign between a 1986 hunt in Afghanistan and Nicaragua and a 2025 war against a global network. The dual-era structure carries a branching narrative, with choices and optional missions reshaping how the finale plays out.
+Dual timelines weave between 1980s Cold War flashbacks and near-future 2025, following a father-and-son pair across decades of espionage and technological warfare. The atmosphere shifts between analogue paranoia and digital-age tension, supporting the campaign's mechanical ambition.
 
-The branching paths are the standout, with shoot-or-spare decisions and strike-force outcomes feeding directly into the ending. The system rewards a second playthrough, a rarity in the series.
+Branching narrative paths let player choices shape mission outcomes and determine which endings unlock. This system incentivises replaying the campaign, transforming a typically linear shooter into a choice-driven experience with genuine consequences.
 
-The strike-force missions mix real-time squad control with an RTS-style tactical layer, and the direct-control option is the better half. Performance in those missions changes how the final rooftop sequence unfolds.
+The futuristic 2025 setting introduces cloaking devices, drone warfare, and augmented reality interfaces that expand the tactical options beyond standard firearms. Weapon variety remains strong, with numerous guns to discover and customise, maintaining engagement across the campaign's varied mission types. Load customisation before each mission encourages adapting loadouts to the tactical demands of each engagement.
 
-Weapon variety is generous, with the fast-firing Vector K10 a particular favourite, and missions range from the casino-ship infiltration to horse combat and a jet-boat escape. The KGB-style escape earns an enthusiastic reaction for its pacing.
+Strike Force missions offer tactical squad-based gameplay with a top-down command view, providing a strategic layer that contrasts with the main campaign's action focus. These optional sequences reward careful planning, though they occasionally feel disconnected from the core shooting experience, with success or failure feeding into the branching narrative system.
 
-The recast voice of a returning character takes away from the experience when the new voice sounds nothing like the old. The horse controls are awkward, the FAL's 20-round magazine runs dry fast, and sprinting stamina gives out after two steps.
+Hudson's recast voice actor creates noticeable inconsistency with the original Black Ops, pulling attention away from narrative moments that depend on character familiarity. The tonal shift undermines immersion during critical story beats, particularly when scenes rely on emotional continuity with the predecessor.
 
-A keyboard-and-mouse static bug pushes play towards a controller, which brings its own slight input delay in one escort section. The post-credits concert cameo is bizarre enough to be memorable, and the game otherwise runs stable.
+Driving sections appear as brief action set-pieces, maintaining momentum through vehicle-based sequences that break the infantry-focused pacing. These moments serve the narrative rather than establishing their own mechanical identity, functioning as connective tissue between confrontations.
 
-Overall, branching story, strike-force variety and the dual eras make Black Ops II a standout in the series. The recast voice, awkward horse control and the static quirk are the main caveats.
+Overall, the branching narrative system and dual-timeline structure establish a Call of Duty campaign with meaningful player agency and mechanical variety, though voice acting inconsistencies and occasionally detached tactical missions prevent the experience from fully realising its ambitious design.

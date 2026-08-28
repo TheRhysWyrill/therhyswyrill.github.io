@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Cat Quest"
 permalink: /reviews/cat-quest/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2017
-genre: "Action, RPG"
+genre: "Action RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A fast, pun-heavy action RPG whose satisfying combat and quest volume outweigh its key confusion and humour fatigue."
+summary: "Relentless cat puns and satisfying combat create a charming action RPG with surprisingly deep side quest narratives, though locked chests without accessible keys and map navigation limitations create friction during exploration."
 image: "/assets/img/reviews/cat-quest.webp"
 ---
 
-Cat Quest is an action RPG about an adventuring cat, played from a top-down view with fast, satisfying combat. The attack-then-dodge rhythm, with red telegraphs showing enemy ranges, keeps every fight snappy.
+A cat with a special mark searches for his kidnapped sister across a fantasy world ravaged by dragons, with the narrative establishing stakes through family bonds and magical destiny. The atmosphere is lighthearted and pun-heavy, with the writing maintaining genuine warmth throughout the adventure.
 
-The magic system adds real depth, with flame purr burning enemies for multiplied damage and ice slowing their attack rate. Spells are bought and upgraded at arcane temples, and the heal spell proves essential throughout.
+The combat system delivers immediately satisfying real-time action through melee combos, ranged attacks, and magic spells that create varied encounter design. The mechanics remain enjoyable across dozens of dungeons, with each combat scenario testing different ability combinations that maintain engagement.
 
-The side quests are the surprise highlight, with every town holding multi-part chains that each tell their own story. The twin towns curse, the growling peasant's mother-quest, the chef rivalry and the Santa Paws Christmas saga all land as distinct arcs, and the gentle bros developer cameo island breaks the fourth wall delightfully.
+Every side quest features its own unique narrative with surprising emotional depth, far exceeding expectations for this type of game. The quest design ranges from multi-part storylines to simple fetch missions, with each offering distinct characters and situations that reward completion.
 
-The art style is charming throughout, with the cute cat in full armour earning repeated praise. Walking on water and late-game flight open the entire world, making traversal a joy after the slow early hours.
+The generous leveling system keeps progression rewarding, with rapid level-ups that prevent excessive grinding while maintaining challenge throughout the campaign. Equipment upgrades and magic spell progression provide tangible improvements that feed into the combat system's variety.
 
-The cat puns wear thin over six hours, funny at first but numbing by the end. Locked chests and keys stay confusing, with regular keyed chests never fully explained.
+Locked chests without accessible keys prove a persistent annoyance, with the player encountering locked containers throughout the world without understanding how to obtain the necessary keys. This recurring frustration undermines the otherwise satisfying exploration loop.
 
-The map UI cannot zoom inside caves, and the early travel pace drags before the water and flight unlocks arrive. Quest fatigue builds near the end, with new missions arriving faster than the story resolves, and the levels pile up quickly with no XP-to-next display.
+The map navigation limitation restricts scrolling ability, creating frustration when attempting to survey the world from different perspectives. The inability to spin or move the map view restricts planning and orientation during exploration sequences.
 
-Overall, the combat, the quest volume and the humour make Cat Quest an easy recommendation for action RPG fans. The pun fatigue and the key confusion are the main caveats on an otherwise charming run.
+Overall, the relentless cat puns and satisfying combat establish a charming action RPG with genuine narrative depth in its side content, though locked chests and map limitations create friction that tempers the otherwise delightful exploration experience.

@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-27
 game_title: "GYLT"
 permalink: /reviews/gylt/
-verdict: "recommended"
+verdict: recommended
 platform: "Switch"
-release_year: 2024
+release_year: 2019
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A collectible-rich survival horror whose flashlight combat and bullying-centred story make it a good, enjoyable outing."
+summary: "Mannequin enemies with rotating heads and unsettling whispers create memorable horror, though limited enemy variety and inconsistent AI undermine the stealth-based tension."
 image: "/assets/img/reviews/gylt.webp"
 ---
 
-GYLT is a survival horror set in the foggy town of Bethelwood, where a girl searches for her vanished cousin Emily. The full campaign was completed with credits in a single session, with all six canaries freed and all ten blood quartz found.
+Fog-shrouded streets and flickering lamp posts define Bethwood, a town consumed by nightmare. A young girl navigates this parallel dimension searching for her missing cousin, encountering twisted creatures born from fear. The flashlight serves as both tool and weapon, burning enemies while revealing collectible diary entries.
 
-The flashlight is the core tool, burning away eyeball barriers, blinding nearby monsters with a recharging flash and serving as bait. The upgraded torch from Emily runs on a real battery meter, and the fire extinguisher freezes monsters, puts out fires and neutralises steam jets and electrified puddles.
+Stealth mechanics form the core loop, with hiding spots and distraction tools managing encounters against four enemy types. Mannequin creatures with rotating heads deliver the most unsettling moments, freezing when illuminated. Fish-headed patrollers patrol corridors with predictable patterns, while invisible threats add auditory tension through giggling.
 
-The stealth carries real tension, with a detection meter, hiding spots, a heartbeat audio cue near monsters and sprinting that alerts everything nearby. The enemy types are distinct, from the fish-headed monsters with upside-down heads to the crows, the invisible gigglers and the talking mannequins.
+Collectible diary entries reveal the townspeople's final thoughts, adding narrative depth to exploration. Ticket fragments and blood quartz pieces encourage thorough traversal of each area. The fire extinguisher doubles as a tool for freezing obstacles and enemies. Environmental puzzle opportunities emerge from combining these tools with the town's architecture.
 
-The story centres on bullying through Emily's diary entries, with the search cutting between the old and new halves of the town. The boss encounters are framed as inner demons, and the mountain that feeds on fear gives the world its dark logic.
+Invisible enemies frustrate through the absence of visual cues, relying solely on sound. Bird-like creatures exhibit inconsistent AI, becoming distracted then losing interest within steps. The limited enemy pool means encounters repeat frequently.
 
-The collectible structure is generous, with the canary inhabitants, the blood quartz, the diary pages and the ticket fragments, plus a counter for each. The world rewards backtracking, with previous areas re-explorable and a surprisingly detailed map.
+Environmental puzzles require manipulating ladders and redirecting water flows to progress. Boss encounters demand creative use of the flashlight, extinguisher, and environmental hazards. Some puzzle solutions involve mechanics that may be forgotten between encounters. Flooding rooms against fire enemies demonstrates the game's environmental approach.
 
-The talking mannequins are the standout dislike, with their rotating heads and constant chatter. The crow distraction never holds, with the birds losing interest after a step or two, and the stamina bar is so short that sprinting barely lasts.
+Fog and lighting create an atmospheric horror setting that sustains tension despite the limited threat roster. Lamp-lit streets evoke Alan Wake comparisons while establishing Bethwood's own identity. The collectible system rewards exploration with narrative context, though the limited enemy pool means stealth encounters grow repetitive.
 
-Overall, the flashlight combat, the collectible-rich world and the bullying-centred story make GYLT a good and enjoyable horror. The mannequins, the unreliable crow distraction and the sprint-heavy stealth are the caveats.
+Overall, mannequin enemy design and atmospheric fog-shrouded Bethwood deliver a survival horror experience with distinct visual identity. The limited four-type enemy roster and inconsistent AI behaviour prevent the stealth mechanics from reaching their full potential.

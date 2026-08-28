@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Call of Duty: World at War"
 permalink: /reviews/call-of-duty-world-at-war/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2008
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A grim, graphic Pacific and Eastern Front campaign whose dismemberment and soundtrack stand out against heavy grenade spam."
+summary: "A notably darker and more graphic Call of Duty entry with an unexpectedly heavy soundtrack and weapon details that reward historical knowledge, though frequent grenade spam and poor friendly identification undermine the otherwise brutal atmosphere."
 image: "/assets/img/reviews/call-of-duty-world-at-war.webp"
 ---
 
-Call of Duty: World at War is the darkest and most graphic Call of Duty of its era, with dismemberment and a brutal opening that moves from torture to execution within a minute. Two campaigns run in parallel, the American Pacific war and the Soviet Eastern Front, giving the game a dual structure.
+American and Soviet soldiers fight across the Pacific and Eastern Front, with the tone consistently dark and brutal through graphic violence and dismemberment that distinguishes this entry from its predecessors. The atmosphere captures the horror of war through torture scenes and realistic combat damage, establishing a tonal identity unique within the franchise.
 
-The M1 Garand partial reload is the most impressive detail, letting the player reload mid-magazine in a way most shooters never allow. The soundtrack also stands out, with heavy tracks that hint at Doom 2016 and far better music than expected.
+The heavy soundtrack features tracks that rival modern shooters, with metal-influenced compositions providing unexpected intensity during firefights. The music creates momentum during set-piece moments, elevating action sequences through sonic weight that matches the campaign's brutal tone.
 
-The Vendetta sniper mission in Stalingrad is the tense highlight, a one-armed crawl through a ruined fountain square and a duel with a better shot. The Black Cats flight mission shifts to a PBY Catalina night patrol, strafing the Japanese fleet and rescuing survivors from the water.
+The M1 Garand can be reloaded with remaining bullets, a historical detail that most shooters omit. This mechanical accuracy rewards weapon knowledge and demonstrates the developers' commitment to authenticity, with each firearm maintaining distinct handling characteristics that encourage experimentation.
 
-Grenade spam is the recurring complaint, with the warning indicator appearing only at the last second. Movement is sluggish throughout, and the injured-hand section makes sprinting impossible entirely.
+Flamethrower sequences deliver memorable variety, transforming pillbox assaults into visceral encounters that demonstrate the weapon's devastating effectiveness. The change in combat rhythm from standard rifles to close-range fire creates pacing diversity that sustains engagement across the campaign's mission structure.
 
-Native controller support is absent, requiring a console command, and the menus stay keyboard-only with no aim assist or sensitivity adjustment. The soldiers look far too alike, leading to constant friendly-fire accidents.
+Frequent grenade spam creates frustrating difficulty spikes that test patience rather than skill. The enemy AI prioritises grenade deployment over tactical movement, resulting in explosive barrages that overwhelm positioning and undermine the otherwise satisfying gunplay mechanics.
 
-The sniper duel's enemies can simply not exist when expected, making the marksman fight frustrating. The credits run for twelve minutes with no skip option, and getting stuck on allies or geometry happens often.
+Friendly identification proves difficult during intense firefights, with squad members blending into the environment during chaotic sequences. The lack of distinct visual markers creates confusion that occasionally leads to friendly fire incidents and interrupted movement during stealth sections.
 
-Overall, the graphic realism, the soundtrack and the two-campaign structure make World at War a memorable entry. The grenade spam and the sluggish movement are the main caveats.
+Overall, the graphic violence and heavy soundtrack establish a Call of Duty entry with genuine atmospheric distinction, though grenade spam and poor friendly identification prevent the campaign from fully realising its brutal potential.

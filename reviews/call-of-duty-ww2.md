@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Call of Duty: WWII"
 permalink: /reviews/call-of-duty-ww2/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2017
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A character-driven return to the health-bar era whose squad abilities carry a campaign that handles well on PC."
+summary: "A return to health-based gameplay and a powerful D-Day opening sequence establish a classic Call of Duty feel, though awkward QTEs and limited ammo availability create friction during otherwise intense combat."
 image: "/assets/img/reviews/call-of-duty-ww2.webp"
 ---
 
-Call of Duty: WWII returns the series to the health-bar era after years of regenerating health, and the change works because medkits are everywhere. The Normandy beach landing opens the campaign as a brutal set-piece, with everyone getting torn apart on the sand.
+American soldiers storm the Normandy beaches and fight through Europe to the Rhine crossing, with the D-Day landing delivering an exceptionally intense opening that sets the campaign's tone. The atmosphere captures the chaos of war through graphic violence and dismemberment, establishing a darker identity than most entries in the franchise.
 
-The squad-ability system is the standout, letting each soldier provide grenades, a mortar strike, enemy spotting, health kits or ammo. Zusman's healing proves the most useful in practice, and the abilities give the squad a real tactical identity.
+The return to health bars instead of regeneration creates tension in firefights that demands careful positioning and resource management. This mechanical choice rewards aggressive play only when health pickups are available, transforming encounters into survival challenges that test tactical thinking rather than reflexive movement.
 
-The Pearson and Turner dynamic is the campaign's emotional core, with the hard-ass sergeant and the good-guy officer bouncing off each other throughout. The Paris undercover mission, with its dossier, passphrase and pickpocketed key, is the most memorable stretch.
+Squad abilities and companion mechanics add tactical depth through request systems for ammo and medkits, with earned abilities providing support during intense firefights. The companion system creates mechanical bonds between squad members that reinforce the narrative's themes of brotherhood and sacrifice.
 
-The tank mission at Aachen and the sniper feel add variety, with headshots landing as a satisfying reward. The snowy-forest ambush deliberately echoes the original Call of Duty's equivalent sequence, and the surrender mechanic removes the need to shoot every routed soldier.
+Character banter between squad members provides engaging personality that humanises the soldiers beyond their combat roles, with dialogue that builds naturally across missions. These interactions create emotional investment that makes the campaign's later sequences carry genuine weight.
 
-The stick-movement quick-time events are awkward, demanding analog wiggles where a button press would do. The flight and escort controls are heavy and sluggish, yet the enemy craft turn on a dime.
+QTE sequences prove awkward with confusing stick movements that require precise timing during high-pressure moments. The input requirements feel unintuitive, creating frustration during what should be cinematic climaxes rather than mechanical challenges.
 
-Launch problems required a fallback to the Windows desktop, and the mission-select screen feels needlessly clunky. Weapons change drastically between missions, and picked-up guns carry surprisingly little ammo, while the four-medkit cap keeps the healing supply tight.
+Limited ammo availability creates resource management tension that transforms firefights into survival encounters. The scarcity forces careful shot placement and weapon selection, though the balance occasionally tips from challenging into frustrating during extended combat sequences.
 
-Overall, the squad abilities and the character work make WWII a strong return to the series' roots. The awkward quick-time events and the sluggish flight controls are the main caveats.
+Overall, the return to health-based gameplay and powerful D-Day opening establish a Call of Duty entry with genuine classic feel, though awkward QTEs and ammo scarcity prevent the experience from fully realising its potential as a tense WWII shooter.

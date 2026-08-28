@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-04
 game_title: "Call of Duty: Advanced Warfare"
 permalink: /reviews/call-of-duty-advanced-warfare/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2014
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A future-era shooter whose exo-suit movement, enemy-highlighting attachment and star-led story outweigh a recurring audio bug and occasional geometry traps."
+summary: "The threat enhancer attachment and exo suit upgrade system provide meaningful progression and mechanical identity, though persistent audio technical issues requiring frequent restarts undermine the otherwise polished presentation."
 image: "/assets/img/reviews/call-of-duty-advanced-warfare.webp"
 ---
 
-Call of Duty: Advanced Warfare is the 2014 entry that moves the franchise into a future of private military corporations, with Kevin Spacey heading the giant firm at the centre of the story. The exo-suit reworks movement and combat, and its upgrade system rewards both performance and intel-hunting across the campaign.
+A near-future setting introduces exo suits, boost jumps, and magnetic gloves that inject verticality into the standard Call of Duty formula. The sleek aesthetic and high production values establish a distinctive tone from the opening mission, with advanced weaponry and corporate military architecture framing the conflict.
 
-The boost jump and grapple are a constant delight, with the mute charge and the mech suits making later fights feel properly powerful. The target-enhancer attachment, which highlights enemies, earns a place among the most useful tools in the series.
+Mission variety sustains engagement across infantry combat, mech suit assaults, aerial dogfights, and stealth operations. Each sequence demands different tactical approaches, preventing the linear structure from feeling repetitive despite sharing the same core shooting mechanics. Mech suit sections deliver a power fantasy through overwhelming firepower, while stealth operations strip back the arsenal to encourage methodical movement and cloak management.
 
-The visuals hold up well for a game of its age, with a clean, futuristic look that echoes Killzone Shadowfall. Set pieces across Lagos, Bangkok and a collapsing Golden Gate Bridge keep the spectacle coming.
+The exo upgrade system provides progression most Call of Duty titles lack. Completing missions earns points to enhance reload speed, sprint duration, and overdrive capabilities, creating a genuine sense of advancement that carries between missions. With twenty-two upgrades available, the system encourages replaying earlier stages to unlock different ability combinations and experiment with loadout synergies.
 
-The story plants early doubts about the corporate giant that the campaign later pays off in a twist it leans into hard. The writing juggles a big cast without losing the thread, though it leans on convenience at times.
+The threat enhancer attachment becomes the defining mechanic, highlighting enemies through walls and creating a tactical layer that reshapes firefights. When paired with boost dashes and magnetic gloves, it transforms standard engagements into mobile, information-driven encounters rather than static cover exchanges.
 
-The stealth sections carry a somewhat competent stealth system, and mission types range from hoverbike chases to plane hijacks and a final mech assault. The grenade system, which requires holding and cycling through options, is fiddly in comparison.
+Audio cutting out during cutscenes disrupts the pacing and forces game restarts to restore sound. This persistent technical issue surfaces repeatedly across the campaign, undermining the otherwise strong presentation.
 
-A recurring audio-crackle bug forces a restart roughly every hour, tied to the same VSync issue that plagued the previous PC entry. Getting boxed into level geometry can also force a mission redo, though generous checkpoints soften the blow.
+Flight controls demand awkward input mapping against muscle memory. The aerial sequences deliver visual spectacle but suffer from imprecise handling that makes dogfighting feel more frustrating than exhilarating.
 
-Overall, exo-suit movement, the target enhancer and the star-led story make Advanced Warfare a highlight of the series' future era. The audio bug and occasional geometry traps are the main knocks on an otherwise strong campaign.
+Overall, the threat enhancer attachment and exo suit upgrade system establish a futuristic shooter with genuine mechanical identity and progression depth, though persistent audio issues and awkward flight controls create friction that prevents the experience from fully realising its potential.

@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-29
 game_title: "Champions of Norrath"
 permalink: /reviews/champions-of-norrath/
-verdict: "recommended"
+verdict: recommended
 platform: "PS2"
 release_year: 2004
-genre: "Action, RPG"
+genre: "Action RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A favourite PS2 action RPG whose class variety, sassy shadow knight and varied biomes hold up against the loot grind."
+summary: "Varied biomes and a satisfying loot system create a PS2 classic that holds up remarkably well, though the carrying capacity system and slow inventory management create persistent friction during dungeon crawling sessions."
 image: "/assets/img/reviews/champions-of-norrath.webp"
 ---
 
-Champions of Norrath is a PS2 action RPG from the Baldur's Gate: Dark Alliance engine, and it remains a personal favourite on revisit. Five classes, from warrior to wizard, offer distinct builds, with the shadow knight a strong melee and magic hybrid.
+Orcs and goblins unite to threaten the kingdom of Faydark, with the player taking on the role of a champion sent to investigate and repel this invasion. The atmosphere captures a rich fantasy world through varied environments that span forests, vampire mansions, underwater caverns, and hellscape, establishing a sense of epic scope.
 
-The idle dialogue is a lost art, with the character directly calling out the player for standing around doing nothing. The shadow knight's dark humour, from killing gnomes to redecorating, keeps the downtime entertaining.
+The loot and equipment system provides constant satisfaction through incremental upgrades that feed into the hack-and-slash combat loop. Finding better equipment creates genuine dopamine hits, with each dungeon yielding weapons and armour that maintain engagement through the progression system's breadth.
 
-Act one is the biggest and most open stretch, full of optional dungeons like the goblin caves and the giant spider boss. Act three covers every biome, from beach and underwater to desert, swamp and a tower of clouds connected by ancient portals.
+Random dungeon generation adds significant replayability through varied layouts that prevent the crawling experience from becoming predictable. The procedural design ensures each playthrough offers different spatial challenges while maintaining the core combat and exploration mechanics.
 
-The boss fights vary widely, from the poison-heavy giant spider to the Lord of Vampires and the cloud giant king. The final boss Inarok offers a unique bad ending, adding a replay hook beyond the three-difficulty ladder.
+The carrying capacity system proves a persistent frustration throughout the entire playthrough, with the inventory filling quickly and forcing difficult decisions about what equipment to keep. The limitation creates tension that sometimes feels more punishing than challenging, particularly during extended dungeon sessions.
 
-Carrying capacity is the recurring gripe, forcing constant trips back to the shop and turning progress into a shopping loop. The grid inventory has no compare button and no storage, making every trip a slow process.
+The inventory management system is slow and clunky, requiring multiple menu interactions to sort, equip, and discard items. The interface feels dated compared to modern standards, creating friction during what should be satisfying loot management moments.
 
-The wizard enemies are the worst threat, reviving their allies with full health and no limit on how often. Bosses can stun-lock the character, and the glass-cannon balance keeps the hero always on the edge of death.
+Five distinct acts provide environmental variety that keeps the experience fresh, with each region offering unique enemies and visual themes. The progression from forests through supernatural locations to climactic confrontations maintains momentum across the campaign's substantial length.
 
-Overall, the class variety, the sassy shadow knight and the varied biomes make Champions of Norrath a fantastic PS2 game. The carrying-capacity grind and the reviving wizards are the main caveats.
+Overall, the varied biomes and satisfying loot system establish a PS2 action RPG that holds up remarkably well, though the carrying capacity system and slow inventory management create friction that tempers the otherwise compelling dungeon crawling experience.

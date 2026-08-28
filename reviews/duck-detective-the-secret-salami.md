@@ -3,25 +3,23 @@ layout: review
 date: 2026-07-08
 game_title: "Duck Detective: The Secret Salami"
 permalink: /reviews/duck-detective-the-secret-salami/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2024
-genre: "Adventure"
+genre: "Adventure, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A delightful deduction adventure whose clever clue-word loop, layered conspiracy and voice acting make it a very good game."
+summary: "Sharp voice acting and a clever deduction-blank mechanic transform a mundane bus company office into a charming noir parody, though the extreme brevity leaves the mystery feeling complete yet underserved."
 image: "/assets/img/reviews/duck-detective-the-secret-salami.webp"
 ---
 
-Duck Detective: The Secret Salami is a cozy mystery adventure in which Eugene McQuacklin solves the theft of a high-grade salami at the BearBus branch office. The case runs a couple of hours and was played on Detective mode, the harder setting that withholds information on wrong answers.
+A freshly divorced, bread-addicted duck detective arrives at Bear Bus to investigate a lunch theft, only to find the case spiralling into something far more complex. The noire-parody tone lands immediately through committed voice performances and sharp dialogue, with each character delivering lines that balance absurdity and sincerity. From the opening exchanges, the writing communicates a confidence that sustains momentum across every investigation.
 
-The deducktion mechanic gathers clue words from suspects and surroundings and slots them into phrasal deductions in the notebook. The magnifying-glass inspection highlights hidden traits on characters and objects, letting everything be examined.
+Deduction blanks form the mechanical backbone, requiring clue words gathered through suspect questioning and environmental inspection to complete logical statements. The magnifying glass mechanic transforms passive observation into active participation, rewarding thorough exploration of each room. Progression flows linearly but feels organic, with each solved deduction unlocking new areas and conversations.
 
-The opening puzzle is working out each employee's full name and job, from the giraffe receptionist to the penguin janitor, before the case opens up. A stolen lunch becomes a smuggling conspiracy, with the culprit revealed as the branch manager running a salami ring on the company's own buses.
+Humour saturates every interaction, from bin-knocking compulsions in the office to the absurdity of a salami smuggling conspiracy. The writing balances noir parody with genuine warmth, ensuring comedic moments never undermine the mystery's stakes. Character writing remains consistent throughout, delivering memorable personalities that resist blending into generic archetypes.
 
-A mid-case twist sees the client's target abducted and hidden away when she wants to confess, with an in-progress phone dial pointing the way. Secondary scandals pile up, from the janitor embezzling vouchers to the password puzzle taken from a romance novel and the safe hidden behind a family portrait.
+Voice acting elevates the entire experience, with performances that transform simple dialogue exchanges into something distinctly charming. The dedication to distinct character voices ensures each suspect feels individual, preventing the cast from becoming indistinguishable. This vocal commitment transforms what could be a simple puzzle game into a narrative experience with real personality.
 
-The voice acting comes as a pleasant surprise and is really well done, and the deadpan humour lands throughout, from the waddle walk cycles to the bread-addiction framing. The playthrough compares the game favourably to Ace Attorney, Chicken Police and Frog Detective.
+Minor navigation clunkiness appears during backtracking sequences, and the inspector mechanic occasionally feels fiddly during environmental searches. The extreme brevity compresses the investigation into something that feels complete yet leaves room for deeper exploration of its characters and setting.
 
-The runtime is short, which is called a shame for such a good game, and evidence cannot be re-examined once inspected. The tiny credits and a small game-logic nit about a forgotten payment are the only other niggles.
-
-Overall, this delightful deduction adventure earns a strong recommendation, with its clever clue-word loop, layered conspiracy and voice acting as the highlights. The short runtime and the non-reexaminable evidence are the caveats.
+Overall, the voice acting and sharp writing transform a straightforward deduction system into something memorable, though the compressed structure limits character development and leaves the mystery feeling resolved rather than fully explored.

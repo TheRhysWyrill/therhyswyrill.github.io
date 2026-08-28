@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-24
 game_title: "God of War (2018)"
 permalink: /reviews/god-of-war-2018/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
-release_year: 2022
+release_year: 2018
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A phenomenal action-adventure whose father-son story, visceral combat and huge Norse realms make it an all-time great."
+summary: "Leviathan Axe combat variety and the father-son narrative deliver exceptional quality, though palette-swapped trolls and camera issues during Valkyrie fights create friction."
 image: "/assets/img/reviews/god-of-war-2018.webp"
 ---
 
-God of War (2018) is an action-adventure game in which Kratos and his young son Atreus journey across the Norse realms to scatter the ashes of Atreus's mother from the highest peak. The game was 100% completed to the credits and the bonus scene across six sessions.
+Kratos and his young son Atreus journey to scatter ashes from the highest peak in the realms, navigating a Norse world teeming with mythology and danger. The premise establishes a grieving father connecting with his son whilst concealing his violent past.
 
-The father-son relationship is the spine, with Atreus deliberately made unlikable during his god-reveal phase before the arc pays off in his humbling. The Leviathan axe with its recall, the freeze mechanics and the wind-trap puzzles give combat real depth.
+Combat revolves around three distinct playstyles that sustain engagement across the campaign. The Leviathan Axe delivers satisfying throw-and-recall mechanics, bare-handed combat builds stun for devastating finishers, and the Blades of Chaos provide fire-based crowd control. Runic abilities and equipment upgrades at dwarven shops expand tactical options without overwhelming the core loop.
 
-The Blades of Chaos handle crowd control far better than the axe, and the visceral executions are a highlight. The scale of the realms is huge, from Alfheim's light-elves to Helheim, with Mimir's tales enriching every boat journey.
+The father-son dynamic evolves from strained silence to genuine mutual understanding, with Mimir's storytelling enriching every journey between combat encounters. Environmental storytelling through giant murals and collectible artefacts reinforces the world's mythology without explicit exposition.
 
-The set pieces deliver, from the dragon fights to the first Stranger fight and the upside-down temple. The side content is strong, with the favor quests, treasure maps, realm tears and Odin's ravens filling out the world.
+Valkyrie fights demand precise timing and mastery of the combat system, with the Valkyrie Queen serving as the ultimate mechanical test. Lock-on targeting and camera behaviour during these encounters create frustrating moments where tracking enemies becomes unreliable, undermining otherwise excellent boss design.
 
-Brock and Sindri's bickering and eventual reconciliation give the dwarves real arcs, and Freya's tragedy lands hard. The cinematography, the music and the credits sequence close the journey beautifully.
+Palette-swapped trolls masquerade as unique boss encounters throughout the campaign, repeating the same mechanical patterns with cosmetic variations. Quick-turn controls prove counter-intuitive during chaotic fights, requiring adjustment from muscle memory.
 
-The camera and lock-on during Valkyrie fights are the biggest criticism, since the lock-on cannot keep up with fast enemies. Most bosses are reskins of the troll, and Niflheim's timed mist grind forces an equipment treadmill.
+Niflheim and Muspelheim offer optional challenge realms that test build diversity, though their difficulty tuning skews punishing. The Lake of Nine provides a central hub connecting multiple realms, with hidden chambers rewarding thorough exploration.
 
-Overall, the father-son story, the combat and the scope of the realms make God of War (2018) a phenomenal game. The Valkyrie-fight camera, the troll-reskin bosses and the Niflheim grind are the caveats.
+Overall, the combat variety, evolving father-son narrative, and Mimir's storytelling create an action-adventure that balances intimate character work with mythological spectacle. Palette-swapped bosses and camera friction during Valkyrie encounters prevent the experience from reaching its full potential.

@@ -3,25 +3,23 @@ layout: review
 date: 2026-06-21
 game_title: "Crash Team Racing"
 permalink: /reviews/crash-team-racing/
-verdict: "recommended"
+verdict: recommended
 platform: "PS1"
 release_year: 1999
 genre: "Racing"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A kart racer whose adventure mode, varied tracks and power-slide feel have aged remarkably well."
+summary: "Tight controls and superior adventure mode elevate this kart racer above Mario Kart, though occasional AI frustration and time trial perfection requirements create friction."
 image: "/assets/img/reviews/crash-team-racing.webp"
 ---
 
-Crash Team Racing is a kart racer whose adventure mode gives the single-player campaign a shape few rivals matched. The hub world, warp pads and boss garages turn racing into a structured quest rather than a series of standalone cups.
+Crash Team Racing drops players into an adventure mode where collecting trophies, gems, relics, and CTR tokens leads to a final confrontation with Nitrous Oxide. The tight controls return muscle memory instantly, with drift boosting and power-sliding demanding precision across 16 tracks filled with hidden shortcuts. Adventure mode structures progression through multiple challenge types, offering more single-player depth than the Mario Kart series provides.
 
-Power sliding and boost chaining feel smooth, and the pack stays bunched enough that races remain contested to the final corner. The Wumpa fruit works like a coin pickup, supercharging power-ups when ten are held.
+Track design rewards exploration, with shortcuts hidden behind boost pads and cleverly placed items that reward experimentation. Boss fights punctuate the adventure, each demanding unique strategies and offering satisfying variety against increasingly skilled opponents. The soundtrack pulses through every race, with upbeat compositions that match the lighthearted tone.
 
-The track list varies widely, from the low-gravity delight of Hot Air Skyway to the constant boost tunnel of Engine Labs. The boss races each use different item attacks, from potions and nitro to rolling bombs.
+AI difficulty fluctuates between manageable and maddening, with certain opponents providing disproportionate challenge during critical races. Time trial perfection requires mastering boost chains and shortcut execution that demands hours of practice. The battle mode adds competitive variety, though single-player battles lack the tension of multiplayer encounters.
 
-The music holds up well, with the Oxide Station theme drawing comparisons to Sonic, and the victory poses in the credits are a delight. The closing epilogue hands each character a joke future, a charming cap on a campaign that was ahead of its time.
+Power-ups create chaotic moments that balance skill with chance, from missiles and bombs to the coveted mask and orb items. Boost management becomes essential during time trials, where maintaining speed through consecutive drifts separates casual racers from dedicated players. The challenge modes, including gem and relic races, introduce constraints that test mastery beyond simple lap times.
 
-The campaign is short, with only sixteen tracks in total and a full run of around five hours from start to finish. Coco Park stands out as an uneventful track, mostly straight aways and a couple of corners, that drags down its world.
+Visual presentation holds up acceptably despite the game's age, with upscaled textures and smooth performance enhancing the original aesthetic. Character animations convey personality through victory dances and defeat reactions that reinforce the lighthearted tone throughout.
 
-The closing showdown is the campaign's sharpest difficulty spike, and Pinstripe constantly fires rolling bombs behind him in his own race. The Skull Rock crystal challenge has punishingly thin hitboxes, and the AI rubber-bands hard throughout.
-
-Overall, adventure structure and power sliding make Crash Team Racing an enduring classic. The short runtime and the rubber-banding are the main caveats.
+Overall, the tight controls, superior adventure mode, and satisfying shortcut system deliver a kart racer that rivals and often surpasses Mario Kart 64. Occasional AI frustration and demanding time trial requirements prevent the experience from reaching its full potential, but the core racing mechanics remain deeply satisfying throughout.

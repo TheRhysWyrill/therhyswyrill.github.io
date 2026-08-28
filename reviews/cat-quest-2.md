@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-27
 game_title: "Cat Quest II"
 permalink: /reviews/cat-quest-2/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2019
-genre: "Action, RPG"
+genre: "Action RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A ten-hour action RPG whose dual-character combat and endless cat-and-dog puns make it more of the same in the best way."
+summary: "Charming co-op gameplay and a satisfying upgrade system create an accessible action RPG with genuine warmth, though awkward keyboard controls and occasional repetition create friction during extended play sessions."
 image: "/assets/img/reviews/cat-quest-2.webp"
 ---
 
-Cat Quest II gives the player two playable characters, a cat and a dog, each with separate armour sets and spells, and swapping between them mid-fight is a constant pleasure. The two-kingdom world, with the feline kingdom and the Lupus Empire separated by a wall, doubles the pun potential of the first game.
+A cat and dog king reclaim their kingdoms from an evil sorcerer through cooperative gameplay that lets players switch between characters with different abilities. The atmosphere is consistently playful, with charming dialogue and wordplay that creates genuine warmth throughout the adventure.
 
-The cat-and-dog puns are the best part, from the hot dog quests to Caesar Salad as a villain and the Doge Knight parody. The gentle bros developer cameo returns with fourth-wall quests that spawn NPCs and take over the music.
+Character switching between the cat and dog provides tactical depth through different combat abilities and movement options. Each character brings distinct strengths to encounters, encouraging players to adapt their approach based on which character is currently active.
 
-Combat is fast and satisfying, with dodge-rolling and red telegraphs, and it plays well even on a keyboard. Water walking opens up the entire world, and the regenerating heal spell proves more potent than the first game's version.
+Side quests populate the open world with varied objectives that extend beyond the main quest line, providing wealth of content that rewards exploration. The quest design ranges from dungeon crawls to fetch missions, with each offering satisfying rewards that feed into the progression system.
 
-The cactus enemies are the biggest frustration, endlessly sending off fireballs. The optional Cthulhu fight crashed once, and the cactus mother boss heals herself constantly and can one-shot the player.
+The upgrade system allows players to purchase new weapons and armour using currency earned through combat and quest completion. Character progression feels meaningful, with each upgrade creating tangible improvements that maintain engagement across the campaign's mission structure.
 
-Slow early travel is the other wish, with a huge map and no run button beyond the natural pace. The map cannot zoom out, new quests are not flagged, and there is no quick exit from dungeons.
+Keyboard controls prove awkward, with the mapping designed primarily for controller input creating inconsistent responsiveness during combat sequences. The experience works significantly better with a controller, though the keyboard option remains functional despite its limitations.
 
-The game levels the player at a rapid pace, reaching over twenty levels in the first two hours, and ten hours of content feels complete. The ending teases a third game in the series, a surprise for a story that seemed finished.
+The art style ages beautifully through charming character designs and vibrant environments that create a distinctive visual identity. The cel-shaded approach prioritises personality over graphical fidelity, resulting in a presentation that feels intentionally crafted rather than technically constrained.
 
-Overall, the dual-character combat and the expanded pun world make Cat Quest II a fantastic follow-up. The projectile-spam enemies and the slow early travel are the main caveats.
+Overall, the co-op gameplay and charming art style establish an action RPG with genuine warmth and accessibility, though keyboard controls and occasional repetition prevent the experience from fully realising its potential as a polished cooperative adventure.

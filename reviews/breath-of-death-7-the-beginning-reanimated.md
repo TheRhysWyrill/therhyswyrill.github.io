@@ -1,7 +1,7 @@
 ---
 layout: review
 date: 2026-07-04
-game_title: "Breath Of Death VII: The Beginning Reanimated"
+game_title: "Breath of Death VII: The Beginning: Reanimated"
 permalink: /reviews/breath-of-death-7-the-beginning-reanimated/
 verdict: recommended
 platform: "PC"
