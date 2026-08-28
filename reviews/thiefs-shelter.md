@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-26
 game_title: "Thief's Shelter"
 permalink: /reviews/thiefs-shelter/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2025
 genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A psychological detective mystery where hallucination blurs reality across a locked Victorian mansion."
+summary: "Eerie atmosphere and satisfying puzzles deliver a point-and-click detective mystery with genuine unease, though map limitations and forced backtracking interrupt the otherwise immersive investigation."
 image: "/assets/img/reviews/thiefs-shelter.webp"
 ---
 
-Thief's Shelter is a 3D point-and-click psychological adventure in which Detective James investigates the murder of Thomas Malcolm on Highburn Street. The Victorian-era setting hides the Red Order, an anti-crime organisation secretly running genetic experiments behind its public front.
+Set in 1930s England, Detective James investigates a murder on Highburn Street whilst navigating abandoned streets and quiet mansions. The opening moments establish oppressive atmosphere through eerie silence that creates genuine unease. From the start, the point-and-click mechanics reward careful observation and evidence collection.
 
-James suffers hallucinations tied to dementia, with prescribed medication only partly keeping the recurring visions of his mother at bay. Reality and dream blur throughout the investigation, giving every locked corridor an unreliable edge.
+The first puzzle provides genuine challenge through complex environmental interaction, whilst later puzzles remain accessible. UV flashlight mechanics reveal hidden clues that complement standard investigation methods. These systems create varied mechanical engagement across the detective work.
 
-Point-and-click movement between marked spots is the core structure, with a journal tracking objectives and blue highlighting marking every interactable object. The UV flashlight and a camera-obscura-style digital camera reveal hidden markings and alternate perspectives on the world.
+Missing maps for certain areas hinder completion tracking, particularly the portrait room and surrounding locations. The dining room lock forces scenic routes back, creating unnecessary backtracking during exploration. These design choices disrupt the investigative flow.
 
-The Resident Evil 2-style map colours fully explored areas turquoise and open ones red, though only the mansion's interior is covered. The reading-view toggle makes otherwise illegible text readable, a feature sorely missed elsewhere.
+The read button toggle for difficult text proves a thoughtful accessibility feature that improves legibility across environmental documents. Collectible masks and VHS tapes reward thorough exploration across interconnected environments. These systems add depth beyond the immediate narrative objectives.
 
-Most puzzles are simple and satisfying, with the bedroom's gear-rotation puzzle the one genuine stumper, whose solution lies in treating the gears as rotations. The voicemail riddle and the hearts puzzle follow a poem's capitalised colours through the mansion.
+Point-and-click movement restricts navigation to specific spots rather than continuous exploration. This limitation creates brief pauses during transition between areas, contrasting with the otherwise fluid investigation. The control scheme demands patience during environmental traversal.
 
-Hidden face masks and VHS tapes reward thorough searching, though completion cannot be fully verified in the unmapped rooms. The dining room's lock-in forces a long way around the mansion, and the movement spots occasionally behave oddly.
+The story twist involving Detective James and the Chief provides satisfying narrative payoff through well-handled foreshadowing. The supernatural elements blend with detective investigation without overwhelming the grounded setting. These narrative choices maintain mystery throughout the investigation.
 
-Overall, atmosphere is the standout, and the hallucination-blurred detective story sustains tension from the first room to the finale. Minor map gaps and movement quirks never outweigh an otherwise enjoyable mystery.
+Overall, the eerie atmosphere and satisfying puzzles deliver a point-and-click detective mystery with genuine unease, though map limitations and forced backtracking interrupt the otherwise immersive investigative experience.

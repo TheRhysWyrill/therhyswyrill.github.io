@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-21
 game_title: "Rainbow Six: Vegas 2"
 permalink: /reviews/rainbow-six-vegas-2/
-verdict: "recommended"
+verdict: recommended
 platform: "Xbox 360"
 release_year: 2008
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A rank-driven progression system and generous checkpoints make this tactical shooter a satisfying upgrade on its predecessor."
+summary: "XP progression system and tactical squad commands deliver a satisfying shooter experience with genuine replayability, though AI teammate issues and grenade mechanics create friction during combat."
 image: "/assets/img/reviews/rainbow-six-vegas-2.webp"
 ---
 
-Rainbow Six: Vegas 2 is a first-person tactical shooter from Ubisoft Montreal, with the campaign running in parallel to the first Vegas game. The seven-hour run moves from the Mexican border to the Las Vegas rooftops.
+Tactical breach-and-clear operations define this first-person shooter where squad commands and XP progression create genuine replayability. The parallel narrative structure adds depth by running concurrent to the first Vegas campaign. Bishop's journey from recruit to operative unfolds through room-clearing missions with squad support.
 
-The XP and rank system is the standout feature, with Marksman, Assault and CQB ranks earned through specific kill types. Progression unlocks new weapons and gear and carries across playthroughs, fuelling constant replays of the early missions.
+Squad commands streamline room-clearing tactics with checkpoint placement throughout missions. Character customisation adds personality to the operative, with extensive outfit options. Unlimited pistol ammo provides reliable fallback during intense firefights.
 
-The equipment system is extensive, with full protection and mobility trade-offs across the armour options and a vast customisation suite. Weapons, camo, outfits, attachments and burst-fire modes offer a huge amount of loadout variety, while the unlimited-ammo pistol is a welcome throwback.
+The class system splits into Marksman, CQB, and Assault specialisations with distinct progression paths. XP persists across replays, encouraging experimentation with different builds. Weapons unlock through progression, with each class offering unique arsenal options.
 
-The squad toolset gives real tactical flexibility, with the team splittable and orders to flank, breach-and-clear and rappel. Thermal and night vision expand the approach options inside the darker interiors, where the choice of tool changes the whole plan of entry.
+AI teammates occasionally get stuck on geometry or each other, disrupting tactical flow. Solo missions spike in difficulty without squad support, demanding careful positioning and resource management. Sniper enemies deal one-hit damage, creating tension during long-range encounters.
 
-Enemy grenade spam is the most frustrating element, with frags existing mainly to drive the squad out of cover. Squadmates frequently get stuck on each other, and quick deaths mean turning a corner can end a run.
+The parallel timeline with the first game adds narrative depth but proves confusing when tracking character timelines. Early Xbox 360 graphics show their age with noticeable texture filtering. Grenade throwing lacks precision, making tactical grenades unreliable during combat.
 
-Checkpoint placement is far kinder than the first game, reducing the sting of repeated deaths throughout. The solo oil-refinery infiltration is the hardest stretch, and the closing rooftop encounter demands seven attempts before the campaign resolves.
+Room-clearing tactics remain satisfying despite dated visuals, with each encounter offering tactical variety. The progression system rewards careful play with meaningful unlocks. The campaign maintains solid pacing across its runtime with varied mission objectives.
 
-Overall, the sense of progression elevates this sequel above its predecessor, with the rank system and generous checkpoints leading the way. It is a very good game and a welcome reminder of the squad tactical shooter.
+Overall, the XP progression system and tactical squad commands deliver a satisfying shooter experience with genuine replayability. AI teammate issues and grenade mechanics create friction, but the rewarding progression and mission variety sustain engagement throughout.

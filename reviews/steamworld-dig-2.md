@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "SteamWorld Dig 2"
 permalink: /reviews/steamworld-dig-2/
-verdict: "recommended"
+verdict: recommended
 platform: "Switch"
 release_year: 2017
 genre: "Metroidvania"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A hand-crafted Metroidvania in which mining bot Dorothy hunts for her missing friend Rusty across a frontier town and the ruins beneath it."
+summary: "A polished Metroidvania with addictive progression and a charming world, though the final boss encounter and mid-air pickaxe restriction undermine the otherwise tight mechanics."
 image: "/assets/img/reviews/steamworld-dig-2.webp"
 ---
 
-SteamWorld Dig 2 sends mining bot Dorothy across the hand-crafted West Desert and frontier town of El Machino in search of the first game's hero, Rusty. The loop of digging ore, selling it and buying upgrades keeps the world compelling across a campaign triple the original's length.
+Dorothy McRank ventures into mines to find her missing friend Rusty, uncovering a conspiracy involving an unstable reactor and moon juice. The art style delivers a significant upgrade from the original, with polished steambot character designs replacing cartoony aesthetics.
 
-The tool progression is the game's backbone, with sprint hydraulics, pressure bombs, the jackhammer, hook shot and jet engine opening new routes through the same spaces. The hook shot and jetpack transform traversal so thoroughly that the jetpack was the best upgrade in the game.
+Digging mechanics form the core loop: descend into mines, collect resources, sell materials, and upgrade equipment. The progression system provides constant tangible improvements that change how the mines are navigated, from jetpack fuel capacity to pickaxe power and lamp range.
 
-The cog-mod system lets players swap upgrades freely, from reduced fall damage to refundable cogs, so experimentation costs nothing. The torch mod, removing the fear of running out of light, and the health recovery near water were favourites.
+Movement mechanics feel responsive, with wall-jumping and sprinting creating fluid traversal between dig sites. The 100% completionist path rewards thorough exploration, though challenge dungeons at the end prove frustrating without healing mechanics. Map filling in remains tedious, with the minimap requiring manual completion that disrupts exploration flow.
 
-The story lands a solid reveal, with friendly shiner leader Rosie exposed as the villain using Rusty as a battery in her mech suit. The writing is consistently witty, and the pun-packed artifact flavour text was called very well written and a joy to produce.
+The final boss fight stumbles with mid-air pickaxe restrictions that prevent block destruction during airborne phases. The encounter demands precision timing while removing a core tool, creating frustration that contrasts with the otherwise satisfying combat flow. The difficulty spike at this juncture feels unbalanced compared to the rest of the campaign.
 
-The final boss fight is the worst part of the run, where the inability to attack in mid-air, enemies spawning on top of the player and platforms shifting into acid conspire against fairness. The tenacious trolley puzzle with its inconsistent timing and the recurring mine-cart sections add frustration.
+Upgrade variety spans water tank size, lamp illumination range, and pneumatic tube capacity, each unlocking new exploration possibilities. Charming characters populate the steambot world with distinct personalities, from mining town residents to mysterious underground dwellers.
 
-The Vectron section has no map, making navigation feel aimless, and the challenge trials were skipped as more frustrating than fun. Nine deaths across the run, several in those trials, did not stop full 100% completion.
+The game length exceeds expectations at nearly ten hours for complete exploration, providing substantial value beyond the main story. World design encourages curiosity through hidden passages and upgrade-gated areas that reward return visits with new equipment.
 
-Overall, the satisfying tool progression, the huge hand-crafted world and the consistently funny writing carried a ten-hour run to full completion. The messy final boss and a few infuriating puzzles are the only stains on a very good Metroidvania.
+Overall, the digging mechanics and progression system deliver a polished Metroidvania with addictive exploration, yet the final boss encounter and mid-air pickaxe restriction prevent the experience from reaching its full potential.

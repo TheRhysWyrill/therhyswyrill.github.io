@@ -6,20 +6,20 @@ permalink: /reviews/contra/
 verdict: recommended
 platform: "NES"
 release_year: 1987
-genre: "Shooter"
+genre: "Action, Shooter"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Satisfying weapon variety and varied environments elevate this run-and-gun, though one-hit deaths and small bullet visibility create punishing challenge."
+summary: "A dominant spread weapon paired with turbo fire creates satisfying screen-filling carnage across varied environments, though bullet visibility and a sudden alien tonal shift undercut the otherwise relentless challenge."
 image: "/assets/img/reviews/contra.webp"
 ---
 
-Contra drops two soldiers into a jungle assault against an alien invasion, opening with one-hit-kill combat that demands constant movement. Eight stages cycle through environments ranging from coastal fortifications to snowfields to alien lairs, each with distinct enemy placements and hazards. The NES hardware delivers surprising visual diversity across these stages, with scrolling backgrounds that establish a sense of progression through hostile territory.
+One-hit kills define every encounter across eight escalating stages of run-and-gun action. From the opening jungle assault, death arrives from a single projectile, demanding constant movement and pattern memorisation. The weapon system anchors the experience: picking up a spread shot transforms sparse firepower into a screen-filling cone of destruction that devours everything in its path.
 
-Weapon power-ups scatter throughout each stage, offering spread shot, laser, machine gun, and rapid fire options. The spread shot paired with turbo fire dominates combat, creating wide coverage that compensates for the one-hit-kill fragility. Machine gun provides a balanced alternative, while rapid fire sustains pressure during密集 encounters.
+Spread shot paired with turbo fire becomes the dominant tool, turning each stage into a display of overwhelming firepower. Between those bursts, visual variety surprises across jungle warfare, cliffside ascents, and snow-covered terrain shifting into alien environments. Environments never feel recycled, maintaining momentum through visual diversity.
 
-The laser weapon frustrates with its single-shot limitation that resets when fired rapidly, creating an awkward rhythm that disrupts momentum. Enemies pop in from the edges of the screen without warning, a limitation of NES hardware that adds unfair surprise deaths. Small projectiles blend into backgrounds, making them difficult to spot and dodge during intense firefights.
+Enemy pop-in compounds the challenge, with threats materialising on screen with little warning. Small projectiles blend into busy backgrounds, making dodge timing more about memorisation than visual clarity. These frustrations pale next to the weapon feedback, but they create friction that interrupts the otherwise relentless pacing.
 
-Alien enemies appear abruptly in the final stages with no foreshadowing, shifting the tone from military action to sci-fi horror without transition. This tonal whiplash catches unprepared players off guard, though the mechanical escalation matches the visual shift. The alien lair stages introduce new enemy types that demand different tactical approaches.
+The spread shot and machine gun carry every stage with consistent reliability, while the laser demands deliberate, patient firing to avoid wasting its limited shot. That deliberate pacing clashes with the aggressive tempo the rest of the game demands, rendering it a situational tool at best. Eight stages reward pattern recognition and weapon mastery, pushing forward through memorisation and reflexes.
 
-Eight stages deliver tightly designed encounters that reward pattern recognition and weapon management. Each environment introduces distinct visual themes, from jungle warfare to mechanical fortresses to extraterrestrial landscapes. The difficulty curve steepens progressively, with later stages layering environmental hazards alongside increased enemy density.
+No foreshadowing precedes the alien enemies in the final stages, abruptly shifting the threat from military targets to extraterrestrial forces. That tonal pivot feels jarring, pulling the atmosphere sideways without establishing why the landscape has transformed. The late-game stages lean heavily on the weapon systems rather than narrative context to sustain engagement.
 
-Overall, the weapon variety and environmental diversity deliver a run-and-gun with lasting appeal, though one-hit deaths and small bullet visibility create challenge that borders on unfair. The core shooting remains satisfying throughout, anchored by the dominant spread shot and rewarding stage design.
+Overall, the weapon system delivers a feedback loop where spread shot and turbo fire combine to produce relentless, screen-clearing destruction, though bullet visibility and a sudden tonal shift in the final stages create friction that interrupts the otherwise unwavering momentum.

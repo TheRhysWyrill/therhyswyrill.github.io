@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-21
 game_title: "You Will Die Here Tonight"
 permalink: /reviews/you-will-die-here-tonight/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2023
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A squad's raid on a haunted mansion becomes a fight for survival with a twist that rewrites the story."
+summary: "Seamless top-down and first-person perspective blending creates a distinctive visual identity, though abundant ammunition weakens the survival horror tension."
 image: "/assets/img/reviews/you-will-die-here-tonight.webp"
 ---
 
-You Will Die Here Tonight is a top-down survival horror from Spiral Bound Interactive that wears its Resident Evil influences proudly. An elite police division deploys to Breen Ridge Hall, an abandoned estate, to capture a fugitive who murdered his own family.
+A tactical unit infiltrates an abandoned mansion in Upstate New York to apprehend a fugitive carrying a classified biological substance. Resident Evil's DNA runs through every corridor, from typewriter saves to corporate conspiracy overtones. The art style immediately sets the tone, blending retro aesthetics with modern first-person mechanics into something genuinely distinctive.
 
-The combat is the twist, snapping from a top-down view into first-person aiming in the manner of a lightgun shooter. Weapons must be aimed and reloaded, grabs broken, and the camera swings back out the moment the fighting stops.
+Combat demands precision through controllable crosshairs and responsive aiming mechanics, with each encounter rewarding careful shot placement. The time loop mechanic adds strategic depth, as retained knowledge transforms each reset into an opportunity for different approaches rather than simple repetition. The mansion packs substantial detail into a compact footprint, with loop-specific discoveries encouraging thorough exploration across multiple cycles.
 
-The mansion's staff has been turned into shambling horrors, and the keys, codes and puzzles all recall the classic survival horror formula. Permanent death is central: when an operative falls, the run continues as a different squad member, each with their own strengths.
+Puzzles, inventory management, and workbench modifications sustain engagement between combat encounters. The core loop balances tension with methodical progression, as weapon customisation at workbenches provides meaningful mechanical depth that extends beyond survival horror conventions.
 
-One medic brews extra healing kits while an armourer upgrades the squad's weapons, and items and upgrades carry over between runs. Curiosity is punished ruthlessly, with traps, poison gas and bosses able to end a run in seconds.
+Environmental storytelling and multiple playable characters across different loops add variety to the experience. The time loop structure reinforces the psychological atmosphere, with each cycle layering additional context onto familiar spaces through new perspectives and discoveries.
 
-The abandoned mansion gradually reveals itself as an elaborate test facility run by a shadowy director. A rogue artificial intelligence guides the escape, and the player's own history is called into question as the truth of the operation emerges.
+Technical issues occasionally interrupt the otherwise tight pacing. A poison gas section operates without logical consequence, undermining the environmental hazard design. Controller button prompts occasionally reference incorrect platform layouts, creating momentary confusion during input sequences.
 
-The final act builds to a confrontation with a monstrous clone of the player character, a direct homage to the Nemesis of Resident Evil 3. At around three hours the game is short, but the seamless blend of two camera styles makes it feel far richer than its size.
+Crashes during the credits sequence break immersion at a critical moment, though the core gameplay loop remains stable throughout. These technical blemishes are unfortunate but do not diminish the strength of the combat systems or the art direction.
 
-Overall, the ingenious blend of top-down and first-person play, the permanent-death structure and the surprising twist make this an easy recommendation. It is a neat, compact horror that lives up to its threatening name.
+Overall, the seamless blending of top-down exploration and first-person combat creates a genuinely distinctive art style that elevates the survival horror foundation. Tight pacing and satisfying combat sustain momentum across the experience, though the abundance of ammunition dilutes the survival horror tension the atmosphere otherwise cultivates.

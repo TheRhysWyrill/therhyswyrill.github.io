@@ -3,25 +3,23 @@ layout: review
 date: 2026-07-25
 game_title: "Lifted"
 permalink: /reviews/lifted/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2026
 genre: "Platformer, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A time-travelling puzzle-platformer whose writing, painterly visuals and forgiving checkpoints make it a cool adventure."
+summary: "Rayman-inspired art style and engaging time-travel narrative create a charming cinematic platformer, though heavy cutscene presence occasionally disrupts gameplay flow."
 image: "/assets/img/reviews/lifted.webp"
 ---
 
-Lifted is a puzzle-platformer from Adventure Works, following a schoolgirl and her absent-minded professor on a time-travelling treasure hunt through history. The complete first playthrough finished in a single session, from the Anytime Elevator's malfunction to the present-day resolution.
+Professor Lionel and his assistant Ari pursue a mystical tiara across different historical periods, encountering colourful characters and stopping the villain Jofani Batista Poni. The premise establishes a lighthearted, adventurous tone with romantic subplot elements that add emotional depth to the journey. The limb-less character art style inspired by Rayman creates immediate visual distinction from other platformers. The film-like presentation establishes a cinematic atmosphere from the opening moments.
 
-The writing and characters are the standout, with the comedic banter between the schoolgirl and her professor landing throughout and the running gags paying off. The roller-coaster structure pleases, alternating adventuring puzzle sections with escape sequences in a way that feels like a movie.
+3D platforming handles grappling hook mechanics, environmental puzzles, and chase sequences across varied historical settings. The anytime elevator hub provides access to different time periods, allowing non-linear exploration and progression. A generous checkpoint system prevents excessive punishment during challenging sections, maintaining momentum through failures. Collectibles offer cosmetic skins only with no gameplay impact on the core experience.
 
-The visual presentation is gorgeous, with painterly scenes that never betray the Unreal engine underneath. The Rayman-inspired design is the hook, with the tic-tac bodies and limbless characters drawing the eye from the first moment.
+Art direction presents a vibrant 2.5D aesthetic with expressive character animations that capture the Rayman-inspired design. Sound design features atmospheric music shifting between whimsical exploration motifs and dramatic chase arrangements. The writing delivers strong character work throughout, with Lionel and Ari developing through dialogue and actions. Cutscenes provide narrative context that elevates the experience beyond simple platforming.
 
-The checkpoints are forgiving, with a two-hit buffer before perishing and respawns close at hand after every fall. The grappling hook traversal delights, swinging the pair through time and space between the varied historical chapters.
+The heavy cutscene presence occasionally disrupts gameplay flow, creating pacing that feels more like a film than a traditional game. The ratio of narrative to platforming may feel unbalanced during certain sections. The time-travel narrative requires engagement with story elements to fully appreciate the progression. Collectibles, while plentiful, provide no meaningful reward for thorough exploration.
 
-The time-travel premise keeps each chapter fresh, stitching together Egypt, Tortuga, the Yucatan, the Dolomites and Abu Simbel. The camera constantly shifts, however, making it easy to miss hooks and hard to read where the game wants the player to go.
+The fair checkpoint system maintains enjoyment through challenging sections, preventing frustration from undermining the experience. The writing and characters elevate the platforming beyond simple traversal, creating genuine investment in the narrative outcome.
 
-Jump distances are frequently misjudged, with platforms seeming closer than they are and spikes catching the careless. The game is heavily cutscene-driven, and the collectibles only unlock skins rather than meaningful rewards.
-
-Overall, the writing, the gorgeous presentation and the forgiving checkpoints make this a very cool adventure indeed. The shifting camera and the misjudged jumps are the only caveats.
+Overall, the Rayman-inspired art style and engaging time-travel narrative create a charming cinematic platformer. Heavy cutscene presence occasionally disrupts the otherwise fluid gameplay experience.

@@ -3,25 +3,23 @@ layout: review
 date: 2026-07-11
 game_title: "Luctus"
 permalink: /reviews/luctus/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
-release_year: 2025
-genre: "Action, Adventure"
+release_year: 2024
+genre: "Action"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An action-adventure whose pixel art, parry-and-dash combat and generous healing economy make it a fun compact quest."
+summary: "Engaging stance-switching combat and rich mythology elevate this compact boss gauntlet, though punishing platforming sequences and impractical abilities frustrate throughout."
 image: "/assets/img/reviews/luctus.webp"
 ---
 
-Luctus is an action-adventure following the fire mage Nora on a revenge quest through a world of seals and lost magic. The complete first playthrough finished in a single session, from the village tragedy to the final confrontation and its closing revelation.
+Nora, a Tremis half-human, embarks on a journey to save her companion Luna after a demon named Calderan kills her. The premise establishes emotional stakes through the Uler tribe mythology and the corrupting nature of lost magic. Four chapters each ending with a boss encounter create a satisfying gauntlet. The pixel art visuals establish a distinctive aesthetic from the opening moments.
 
-The pixel art stands out, with the visuals remaining strong throughout the journey. The combat core delivers, with melee and ranged stance switching, a parry that blocks incoming damage and an invulnerable dash.
+Combat features stance-switching between melee and ranged modes with parry, slide, and whip lasso abilities providing tactical variety. The vampire healing ability delivers satisfying damage output alongside full health recovery. Skill tree progression using hope fragments and moon shards unlocks new abilities that expand combat options. Puzzle sections involve rune decoding and sliding block challenges that break up the action sequences.
 
-The healing economy is generous, with meditation restoring health until the spirit power runs dry and potions dropping from defeated monsters. The phoenix revive adds safety, summoning a colossal spirit to bring Nora back with a quarter of her health.
+Art direction presents detailed pixel art with expressive character animations that capture the mythology-rich world. Character designs with different coloured eyes create distinctive visual identities throughout the cast. The Uler tribe and Tremis race mythology is engagingly delivered through environmental storytelling and dialogue. Sound design complements the combat with satisfying audio feedback during strikes and ability activations.
 
-The boss fights stay readable and fair, with Calderan the demon of hatred testing the dodge timing through a three-strike mechanic. The named guardians compare favourably to the ordinary wolves, which remain the weakest encounters.
+The right trigger attack proves impractical with excessive wind-up making it nearly impossible to use. Sliding block puzzles prove functional but frustrating, disrupting the combat pacing. Tutorial prompts repeat unnecessarily, creating irritation through redundant explanations. The platforming escape sequence after the second boss proves punishing with precarious platforms.
 
-The story of Nora's revenge unfolds against the Ula and Tremis lore, with the journal and creature compendium deepening the world. The skill tree and the moon-fleck economy offer meaningful upgrades, though the tree is nearly maxed by the midpoint.
+The compact length delivers surprising narrative weight, with the mythology providing depth beyond expectations. The final boss encounter delivers a pleasant surprise that rewards thorough engagement.
 
-The falling-ceiling escape is the low point, with precarious platforms forcing the whole section to be redone on a single miss. The heavy ranged attack is impractical with its slow wind-up, the blue text is hard to read and the sliding-block puzzles are finicky.
-
-Overall, the pixel art, the parry-and-dash combat and the heal economy make this a fun, compact adventure. The falling-ceiling escape and the impractical ranged attack are the caveats.
+Overall, the engaging stance-switching combat and rich mythology elevate this compact boss gauntlet. Punishing platforming and impractical abilities occasionally undermine the satisfying experience.

@@ -3,25 +3,23 @@ layout: review
 date: 2026-07-14
 game_title: "Legend of Mana"
 permalink: /reviews/legend-of-mana/
-verdict: "recommended"
+verdict: recommended
 platform: "Switch"
-release_year: 2021
+release_year: 2000
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An action RPG whose music, charm and pop-up-book world-building make it special despite awkward combat."
+summary: "Unique world-building artifact system and fantastic soundtrack create a one-of-a-kind action RPG, though combat limitations and hit detection issues frustrate throughout."
 image: "/assets/img/reviews/legend-of-mana.webp"
 ---
 
-Legend of Mana is an action role-playing game from Square Enix, played here as the 2021 HD remaster on PC. The complete run across five streams took just over twenty hours, finishing all sixty-seven events and reaching the credits.
+The Mana Tree has been uprooted and everything scattered into artifacts that players place on a map to rebuild the world through a pop-up book style mechanic. The premise establishes a whimsical, fairy-tale tone with 33 independent events rather than a single narrative. The world-building system provides creative satisfaction as the landscape pops up from the flat map. The atmosphere permeates every aspect with persistent charm.
 
-The music is a standout throughout, with the Swedish-sung intro and the boss themes among the best in the series. The Land Make premise is the hook, with artefacts placed on a blank map causing the world to rise up like a pop-up book.
+Real-time combat handles quick attacks, power attacks, and special techniques across the constructed world. Crafting systems include instrument making, golem building, and monster raising for deeper engagement. Companion characters join the party with distinct abilities creating varied approaches. The world-building artifact system remains the core appeal with unique map configurations.
 
-The layout system makes the world replayable, with many ways to build the land and still experience every event. The anthology structure refreshes, offering a collection of stories rather than a single main plot.
+Art direction presents detailed 2D pixel art with vibrant environments that capture the fairy-tale aesthetic. The soundtrack delivers fantastic compositions shifting between whimsical exploration motifs and dramatic combat themes. Character writing provides memorable personalities with standout highlights throughout the events. Sound design complements the visual presentation with atmospheric effects.
 
-The presentation charms, with pixel art among the prettiest on the PS1 and a diary-keeping cactus who grows sassier with each entry. The cast delights, from the emote-heavy dud bears to the swindling but charming merchant Nicolo.
+Combat suffers from horizontal-only attack limitations that restrict tactical options against vertical enemies. Hit detection creates frustrating moments where attacks miss despite appearing to connect. The final boss proves extremely simple. A guide becomes necessary to avoid missing content.
 
-The remaster quality helps, with saves possible anywhere and widescreen, redone cutscenes and a rearranged soundtrack. The combat is the biggest gripe, with attacks only able to land left or right and hits frequently missing entirely.
+The non-linear event structure rewards exploration and experimentation across multiple independent storylines. Money loses its purpose after initial purchases. The PC version suffers from compatibility issues on Linux.
 
-The events are exceptionally vague, with a guide needed to find most of them and missable content all too easy to overlook. Some events can be failed outright, and the monster-catching minigame is finicky enough to frustrate.
-
-Overall, the music, the charm and the world-building structure make this a very special game. The awkward combat and the guide-dependent quests are the caveats.
+Overall, the unique world-building artifact system and fantastic soundtrack create a one-of-a-kind action RPG. Combat limitations and hit detection issues prevent the mechanical systems from fully realising their potential.

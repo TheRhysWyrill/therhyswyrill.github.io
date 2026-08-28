@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-27
 game_title: "Medal of Honor: Rising Sun"
 permalink: /reviews/medal-of-honor-rising-sun/
-verdict: "recommended"
+verdict: recommended
 platform: "PS2"
 release_year: 2003
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A Pacific first-person shooter whose Pearl Harbor opening, letters from home and period detail make it a memorable campaign."
+summary: "Unforgettable Pearl Harbor opening and letters from home deliver emotional weight to a WWII shooter, though linear level design and bayonet instant-kills undermine the otherwise atmospheric combat."
 image: "/assets/img/reviews/medal-of-honor-rising-sun.webp"
 ---
 
-Medal of Honor: Rising Sun is a first-person shooter from EA, shifting the long-running World War II series to the Pacific theatre. The complete nine-mission campaign runs roughly four hours, from the Pearl Harbor attack to the closing confrontation.
+Pearl Harbor unfolds from the deck of the USS Arizona, placing Joseph Griffin amid anti-aircraft fire and incoming bombers. The opening sequence combines ground-level infantry combat with gun emplacement defence, creating an immersive historical set-piece. Letters from home between missions add emotional context and personal stakes to the Pacific Theatre campaign.
 
-The Pearl Harbor opening is unforgettable, with the destruction and devastation making a lasting impression from the very first moments. The tutorial pacing is praised, with the new systems introduced clearly and gradually through the opening.
+Letters from home bridge missions with personal correspondence, grounding the historical action in familial connection and driving narrative momentum as Griffin searches for Donnie across the Pacific. Nine missions span Pearl Harbor, the Philippines, Guadalcanal, and beyond, each anchored by distinct objectives.
 
-The letters from home anchor the emotional stakes, with the sister's correspondence tracking the home-front war effort through the campaign. The period detail impresses, with the era's authenticity carried through the visuals, the setting and the framing.
+Thompson and M1 Garand form the core arsenal, with sniper rifle and fire extinguisher adding variety. The Thompson's 20-round magazine forces frequent reloading during firefights, creating tension but also frustration. Melee combat introduces bayonet-wielding enemies whose instant-kill potential shifts encounters from tactical to survival horror.
 
-The M1 Garand is the preferred rifle, with the one-shot handling proving handy in the close-range firefights. The crate-breaking supply system is a nice discovery, with ammo and supplies hidden inside the crates.
+The USS Arizona anti-aircraft defence opens the campaign with a visceral, historically grounded sequence. Subsequent missions transition to ground assault and escort objectives, maintaining variety across the Pacific campaign. Linear corridors direct movement through each environment, keeping focus on set-pieces rather than exploration.
 
-The enemies sneaking up is the most persistent annoyance, with foes appearing right next to the soldier even alongside the AI companions that are supposed to be watching. The friendly AI is useless, with the squad standing around getting in the way and running at the enemy.
+Input latency from PSTV emulation affects aiming precision, particularly during intense firefights, while grenade fuse timing varies between instant detonation and delayed explosions. Sparse save points demand careful progression through longer corridors.
 
-The final stage is brutal, with the enemy guns able to destroy the soldier in almost no time at all. The no-crosshair design throws off the aiming, and the slow grenades cannot be cooked before throwing.
+Visuals hold up surprisingly well for a 2003 PlayStation 2 title, with period-accurate environments and character models. The Pearl Harbor recreation captures scale and chaos through layered audio and environmental detail.
 
-Overall, the Pearl Harbor opening, the letters from home and the period detail make this a memorable Pacific campaign for the series' fans. The sneaking enemies and the useless companions are the caveats.
+Overall, the Pearl Harbor opening and personal letters elevate this above standard WWII shooters, delivering emotional resonance through historical immersion. Linear level design and bayonet instant-kills create friction, but the atmospheric combat and narrative weight sustain engagement throughout.

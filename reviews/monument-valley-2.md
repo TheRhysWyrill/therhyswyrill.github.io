@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-21
 game_title: "Monument Valley 2"
 permalink: /reviews/monument-valley-2/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
-release_year: 2022
+release_year: 2017
 genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A meditative puzzle sequel whose two-character twist, optical illusions and short, stylish chapters land the mother-daughter story in ninety minutes."
+summary: "Impossible geometry puzzles and a touching mother-daughter narrative deliver a visually distinctive experience, though short duration and underutilised mechanics prevent fuller exploration of its ideas."
 image: "/assets/img/reviews/monument-valley-2.webp"
 ---
 
-Monument Valley 2 is a puzzle game from ustwo Games, sending the mother Ro and her daughter through a valley of impossible architecture. The complete run covered all twelve main chapters and the Lost Forest expansion in around ninety minutes.
+Impossible geometry and optical illusions define this puzzle game where Ro guides her child through architectural marvels. The visual art style establishes a distinctive identity through impossible structures and perspective manipulation. Mother-daughter relationship themes emerge through metaphorical level design and environmental storytelling.
 
-The two-character mechanic is the defining twist, with the child mirroring the mother's movement early before leading her own way later. The mirroring makes a lot of sense for the pair, and the independent walking gives the journey a clear arc.
+Optical illusion mechanics create puzzle solutions through perspective shifts, with impossible geometries resolving into pathways when viewed from specific angles. The child mirrors player movements, adding a secondary character layer to architectural manipulation. Light-based transformation mechanics dynamically alter environments based on sunlight exposure.
 
-The optical-illusion puzzles are the recurring highlight, with the perspective tricks regularly described as a brain buster. The flat, crush-style levels are the most creative of the set, though they appear less often than they deserve.
+Ro's journey with her child unfolds across 14 main levels, each teaching independence through puzzle progression. The narrative explores growth and separation through mechanical metaphors rather than dialogue. The Lost Forest expansion reinforces environmental conservation themes through its own distinct puzzle sequences.
 
-Light-based puzzles in the orchard chapter change the child's size through shadow and sunlight. Reflective mirror-world levels fold and flatten the geometry, while the minimalist tap-and-drag interaction model keeps every move calm and deliberate.
+The flat dimension mechanic creates two-dimensional sections within the three-dimensional world, offering fresh visual and mechanical variety. These sections demonstrate creative potential but appear infrequently across the level progression. The mechanic's brief appearances leave its full possibilities unexplored.
 
-The mother-daughter story unfolds through sparse text passages, with the chapters tracking the child growing up and learning her own path. The art direction oozes style, with colour shifts marking each chapter's mood and the music intensifying through the later chapters.
+Puzzle complexity remains accessible throughout, with solutions often simpler than their visual presentation suggests. The game prioritises aesthetic experience over challenging problem-solving. The 14 levels maintain consistent quality but the overall duration feels brief.
 
-The short runtime of around ninety minutes is accepted as part of the format, while the solutions regularly turn out simpler than the first glance suggests. The Lost Forest expansion carries a conservation message through its single explorer level.
+The mother-daughter dynamic deepens as the child grows more independent, creating emotional resonance through mechanical progression. Musical accompaniment enhances atmospheric moments without overpowering visual design.
 
-Overall, the puzzle design, the two-character mechanic and the presentation make this a beautiful, inventive sequel that lands its story quickly. The flat levels' underuse and the short runtime are the main caveats.
+Overall, the impossible geometry puzzles and relationship-driven progression deliver a visually distinctive puzzle experience that explores growth and separation through creative mechanics. Short duration and underutilised ideas prevent the experience from fully realising its potential.

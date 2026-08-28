@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "The Room Two"
 permalink: /reviews/the-room-2/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
-release_year: 2016
+release_year: 2013
 genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A far more varied sequel that spreads its puzzle boxes across a ship, a temple and a seance room."
+summary: "More varied puzzles across multiple locations deliver a satisfying improvement over the predecessor, though frustrating rotating controls and one overthought puzzle interrupt the otherwise creative mechanical challenges."
 image: "/assets/img/reviews/the-room-2.webp"
 ---
 
-The Room Two is a puzzle game that trades its predecessor's single box for distinct environments, each hiding its own mechanism. Six chapters run from a model ship to a temple, a seance room and a final laboratory, with a broken eyepiece repaired early on.
+Across a crypt, ship, séance room, and laboratory, you continue following the trail of the null element. The opening moments establish varied environments that expand beyond the single-room design of the first game. From the start, the eyepiece mechanic returns to reveal hidden elements within intricate mechanical puzzles.
 
-The ship chapter is the standout, with captain's logs supplying compass directions that plot routes across a model of the Santa Helena. The temple's mirror shards and the seance room's tarot cards keep the variety coming.
+The ship navigation puzzle stands out as a creative highlight, requiring spatial reasoning and mechanical manipulation. Tarot card sequences introduce symbolic matching challenges that complement the gear systems and lock mechanisms. These diverse puzzle types maintain engagement across six chapters of increasing complexity.
 
-Tarot cards feed a typewriter-style device used to spell out words such as Voyage, Endless and Khn, with riddles resolving into card combinations. The word puzzles add a welcome layer of linguistic reasoning to the tactile object play.
+The rotating object controls frustrate throughout, often rotating the camera instead of manipulating the intended mechanism. Mouse-based rotation feels imprecise, creating brief interruptions during otherwise satisfying puzzle sequences. These control issues contrast with the otherwise polished puzzle design.
 
-The puzzles are markedly more varied than the first game, and the whole package improves on its predecessor. One sliding-piece arrangement proves the low point, needing a piece fed into a rotating ring and carried around, a classic case of overthinking.
+The laboratory setting in the final chapter provides satisfying closure through multi-step mechanical challenges. One puzzle overthinks its own complexity, creating confusion through unclear visual feedback. The difficulty curve occasionally spikes before settling back into thoughtful progression.
 
-A deeper narrative emerges than the series has previously suggested, and the close takes a Lovecraftian turn that reframes everything before it. The narrative thread that emerges carries straight into the sequel.
+Environmental storytelling through journal entries hints at a larger conspiracy involving the Royal Institute. These narrative elements add context without overwhelming the puzzle-focused gameplay. The deeper mystery rewards observation beyond the immediate mechanical objectives.
 
-The inverted mouse-look and mouse-driven dial rotation are the main frustrations, with the view regularly swinging the wrong way. Graphics default to very low on Linux, a quirk rather than a fault.
+The variety of locations and puzzle types distinguishes this entry from the first game, creating a more expansive investigative experience. Each environment introduces distinct mechanics that build upon established systems. These changes maintain freshness across the extended playtime.
 
-Overall, puzzle design is the reason to play, and the variety across six chapters makes it the strongest entry in the series so far. The roughly two-hour length matches its predecessor, but every minute is well spent.
+Overall, the varied puzzles and creative mechanical challenges deliver a satisfying improvement that exceeds the predecessor, though frustrating rotating controls and one overthought puzzle interrupt the otherwise polished experience.

@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-26
 game_title: "Middle-Earth: Shadow of Mordor"
 permalink: /reviews/middle-earth-shadow-of-mordor/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2014
-genre: "Action, Adventure"
+genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An open-world action-adventure whose combat, Nemesis system and branding fantasy make it a fantastic slice of Middle-earth."
+summary: "Fluid sword combat and an innovative Nemesis system create memorable emergent encounters, though frustrating ranged mechanics and dated textures without the HD pack undercut the visual presentation."
 image: "/assets/img/reviews/middle-earth-shadow-of-mordor.webp"
 ---
 
-Middle-earth: Shadow of Mordor is an action-adventure from Monolith Productions, following the ranger Talion's vengeance quest across the lands of Mordor. The complete run covered the main campaign and both story DLCs, from the war chief hunts to the final confrontations of the DLCs.
+Sword strikes chain into flowing combos that leave little room for retaliation. Stealth takedowns through tightly grouped orc patrols reward patience with clean, undetected eliminations. Returning to Mordor after a decade, the mechanical identity holds up remarkably well, built on foundations that age has barely touched.
 
-The combat is the core thrill, with the flow from enemy to enemy proving endlessly satisfying throughout the campaign. The executions and the double counters anchor the fighting, making each encounter a genuine pleasure to play.
+Chaining sword strikes, bow shots, and wraith abilities into seamless executions drives every encounter, with momentum building through each successive kill. Between engagements, stealth demands careful positioning: draining isolated targets from tight-knit groups without raising alarm creates a tension that rewards precision over haste.
 
-The Nemesis system earns the highest praise, with the named enemy orcs building personalities, rivalries and memories across the playthrough. The branding fantasy is the campaign's high point, with the whole army falling under control by the campaign's close.
+Mounted combat on caragors transforms traversal into an extension of the attack system, with brutalise executions unlocking new tactical approaches. Progression layers brutalise, shadow strike, and combat drain into aggressive playstyles, though side missions default to repetitive stealth-and-carry objectives that undermine the systemic variety elsewhere.
 
-The stealth toolkit delights, with the tight-knit groups taken down without discovery and the poisoned grog rewarding creative approaches. Ratbag is the comic heart, with the war chief promotion arc landing the laughs time and again.
+Dagger missions default to stealth infiltrations that strip away the combat system's dynamism, reducing encounters to a single approach. Ranged combat compounds this, with hunters firing from distances that frustrate counterplay and demand positioning the game rarely encourages.
 
-The traversal is the most persistent complaint, with the finicky climbing and the runs up edges that do not exist. The detection-based dagger missions are the worst content, with the bugged torchbearer mission standing as the clear low point.
+Without the HD texture pack, Mordor's environments appear muddy and flat, a stark contrast to the fluid animations running beneath them. The visuals never reach parity with the mechanical polish, even when the HD content is installed.
 
-The hunters are the most hated enemy, with their distance attacks breaking the rhythm of the fights. The crowd targeting is unreliable in the big fights, and the ranged combat remains the weakest option throughout.
+The Nemesis system remains a singular innovation, generating orc captains that remember previous encounters, adapt to tactics, and rise or fall through a dynamic hierarchy. No subsequent game has replicated this procedural storytelling, and the legacy extends only as far as these two titles.
 
-Overall, the combat, the Nemesis system and the branding fantasy make this a fantastic open-world action-adventure. The finicky traversal and the detection missions are the main caveats.
+Overall, sword combat that chains seamlessly from stealth takedowns through mounted executions creates an action loop with lasting mechanical appeal, though the Nemesis system's unmatched legacy as a one-of-a-kind innovation defines what the experience achieves and what was never built upon again.

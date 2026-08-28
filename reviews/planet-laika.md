@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "Planet Laika"
 permalink: /reviews/planet-laika/
-verdict: "recommended"
+verdict: recommended
 platform: "PS1"
 release_year: 1999
 genre: "RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A mirror-switched personality system and a grim hidden story make this 1999 adventure a strange, memorable trip."
+summary: "Multiple personality system and dark psychological narrative deliver a unique RPG experience with memorable character moments, though awkward combat and vague puzzles create friction during exploration."
 image: "/assets/img/reviews/planet-laika.webp"
 ---
 
-Planet Laika is an adventure RPG from Quintet, following dog-headed astronauts in a search across Mars for a vanished colonel. Its defining mechanic is the personality system, in which three selves are switched at mirrors and each carries distinct abilities.
+Dog-like characters navigate a bizarre Mars in this surreal RPG where personality switching drives both puzzle-solving and combat. Five distinct personas (Leica, Nnest, Yolanda, Spacer, Phoenix) unlock different abilities and narrative paths. The dark narrative explores themes of identity and childhood trauma through surreal dreamscapes.
 
-Each personality doubles as a puzzle-solving tool, with Earnest wrenching items loose and Spacer perceiving what others cannot. Over-collecting one personality's colour pushes the run toward a game over, keeping the switching between selves tense throughout.
+Leica balances combat and exploration, Nnest emphasises faith-based abilities, Yolanda prioritises wisdom, and Spacer leverages knowledge. Phoenix appears late as a narrative revelation that recontextualises earlier events. The mind core combat system uses pulse and volley mechanics for ranged engagement.
 
-Beneath the cute dog faces sits a strikingly grim story, touching abuse, suicide and hidden tragedy among the colony's secrets. The narrative handles these heavy themes with a frankness that runs far darker than the game's surface ever suggests.
+The three-phase final battle demands personality switching mid-combat, creating dynamic tactical challenges. FMV sequences establish surprisingly polished visual presentation for the PlayStation 1 era. The atmosphere shifts from quirky to genuinely disturbing through environmental storytelling.
 
-Combat is a volleying duel in which a floating mind core deflects incoming pulses back at enemies. The system is weird but grows more enjoyable with use, though it feels awkward early and leans on timing in the boss fights.
+Quintet's dark storytelling explores identity and childhood trauma through surreal dreamscapes. The tone establishes mature themes uncommon in 1999 RPGs. Environmental details and character interactions expand the narrative without explicit exposition.
 
-Progression depends on working out which personality to bring where, and the game stays vague about how to move forward. The small world of roughly twenty screens keeps the confusion contained, yet choosing which self to bring remains the hardest part.
+Puzzles occasionally obscure their solutions, requiring specific personality states to progress. Combat feels clunky throughout, with awkward animations and imprecise hit detection. The evil mind mechanic loses relevance after the opening hours, becoming a footnote.
 
-Frequent full-motion videos impress for a 1999 release that fits in around 300MB. The strangeness itself, a bizarre and vague ending included, becomes the game's identity, with the whole trip landing as one of the strangest adventures in the medium.
+Japanese control scheme demands adjustment for Western players, with reversed button functions. The personality switching system proves confusing when managing multiple personas simultaneously. Despite these limitations, the experience maintains engagement through narrative depth.
 
-Overall, the personality system carries the experience, with the grim story and the era-defying presentation in support. It remains one of the strangest games of its era, and an enjoyable one despite the vague progression throughout.
+Overall, the multiple personality system and dark psychological narrative deliver a unique RPG experience with memorable character moments. Awkward combat and vague puzzles create friction, but the atmospheric world and surprising depth sustain engagement throughout.

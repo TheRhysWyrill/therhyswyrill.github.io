@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-20
 game_title: "Transient"
 permalink: /reviews/transient/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2020
 genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A first-person cyberpunk investigation of a friend's death, wrapped in hacking rituals and alien dream worlds."
+summary: "Vibrant neon aesthetics and System Shock homages deliver a cyberpunk exploration game with deep lore, though genre mislabelling and dense narrative obscure the otherwise atmospheric investigation."
 image: "/assets/img/reviews/transient.webp"
 ---
 
-Transient is a first-person cyberpunk adventure in which the meta-shaman hacker Carter investigates a friend's death across the domed city of Providence. The loop of scanning bodies, reading documents and hacking terminals grounds the supernatural premise in practical detective work.
+Set in Providence, a domed cyberpunk city after civilisation's collapse, Carter Chalibi explores dream realities as a meta shaman hacker. The opening moments establish atmospheric tension through neon-lit cityscapes blending with organic alien environments. From the start, the visual presentation creates striking cyberpunk identity with vibrant neon aesthetics.
 
-Hacking sessions take the form of grid navigation across security nodes under a countdown, with password clues issued when the system activates. The lock-picking puzzle cycles three icons and rewards brute force when the intended path stays opaque.
+The System Shock homage section stands out as particularly memorable, delivering style and atmosphere that surpasses the main experience. Resident Evil references add variety through distinct environmental design. These homages demonstrate strong understanding of genre conventions across different horror traditions.
 
-Dream excursions carry the adventure to alien worlds, including a hall of records on a planet in Cygnus where a jellyfish-like priest explains a semiphysical plane of existence. These otherworldly sections supply the strangest sights, from tentacled statuary to Carter's blue-skinned dream form.
+Interaction visibility frustrates throughout, with icons blending into environments too much during exploration sequences. Dense narrative complexity creates confusion through convoluted storytelling that resists easy comprehension. These design choices occasionally obscure the atmospheric investigation and reward patient engagement.
 
-Before revisiting memories, Carter must prepare perception-heightening mixtures by combining leaves, cinnamon, saffron, water and renoil in precise order. The ritualistic preparation grounds the hacking in occult detail and gives each replay a sense of ceremony.
+Genre mislabelling presents the experience as horror when it functions closer to a thriller. The cosmic horror elements appear minimal despite marketing promises. These discrepancies create false expectations that contrast with the actual gameplay experience.
 
-Two embedded minigames stand out as the highlights: a System Shock-style shooting section and a Resident Evil-style mansion segment with tank controls and a safe combination. The System Shock homage was the stronger of the pair, offering a stylish change of pace.
+Sprint button mapping through right bumper proves unintuitive during exploration sequences. Some puzzles lack clarity in their solution pathways, creating confusion during progression. These control issues interrupt the otherwise atmospheric traversal through the domed city.
 
-The story is dense, with long document dumps that make the layered reality easy to lose track of. Interaction prompts blend into the environment, sprint is locked early, and one lever puzzle was easy to miss entirely.
+The meta shaman concept provides distinctive narrative framework through dream reality exploration. Collectible documents and audio logs flesh out the world through environmental storytelling. These systems reward engagement with the broader lore beyond immediate objectives, building upon the cyberpunk foundation.
 
-Overall, atmosphere is the calling card, with vibrant neon enclaves and Observer-like presentation carrying the investigation. The homage sections, strange dream worlds and ceremonial hacking make the adventure memorable.
+Overall, the vibrant cyberpunk aesthetics and System Shock homages deliver a visually striking exploration game, though genre mislabelling and dense narrative obscure the otherwise atmospheric investigation.

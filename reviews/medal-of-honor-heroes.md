@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-28
 game_title: "Medal of Honor: Heroes"
 permalink: /reviews/medal-of-honor-heroes/
-verdict: "recommended"
+verdict: recommended
 platform: "PSP"
 release_year: 2006
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A handheld first-person shooter whose weapon handling, three-hero structure and believable story make it a warm, compact campaign."
+summary: "Compact portable FPS with satisfying weapon variety and replayable rank system, though the campaign is extremely short and controls feel awkward on original hardware."
 image: "/assets/img/reviews/medal-of-honor-heroes.webp"
 ---
 
-Medal of Honor: Heroes is a first-person shooter from EA, bringing the long-running World War II series to the PlayStation Portable. The complete campaign spans fifteen missions across three operations, each starring a different named OSS operative.
+A portable World War II first-person shooter spans three campaigns following different OSS operatives across Italy, Denmark, and the Ardennes. The fifteen missions across three operations deliver quick, focused action while PSTV compatibility improves the experience significantly with dual analog controls.
 
-The three-character structure lands, with the Italian, Dutch and Bulge operations each following a distinct hero. The story reads as more believable than the later reboots, with the period framing kept front and centre throughout.
+The Thompson and MP40 become reliable workhorses that transform combat once acquired, while sniper rifle and pistol provide additional variety for different encounter types. Point-capture and elimination objectives create varied mission structures, and the rank system based on accuracy encourages replayability for dedicated completionists.
 
-The weapon handling is a highlight, with the MP40 the favourite for its speed and ammo capacity. The BAR packs a punch with a quick reload, and the carabiner's satisfying pull-back adds to the feel of every shot.
+The confusing control scheme requires adaptation while enemy spawning sometimes becomes excessive during intense firefights. Reload mechanics prove unintuitive, requiring specific button combinations that consistently disrupt combat flow.
 
-Hip fire works best, with most of the shooting done from the hip rather than down the sights during the firefights. The close-range visuals hold up for the platform, and the difficulty stays approachable with enemies missing often.
+Visuals remain entirely acceptable for PSP hardware without exceeding handheld expectations significantly, serving the wartime setting adequately. The JPEG-like bullet textures add unintentional humour to firefights.
 
-The absent in-game music is the main gripe, with the missions running silent while the menus carry the tunes. The control scheme is eccentric, with the jump on select and the aiming sluggish even with a second stick attached.
+The medkit usage requires holding a button rather than simple press, adding unnecessary complexity to the survival mechanics during firefights. The accuracy requirement for gold rank feels arbitrary given the control limitations on the original PSP hardware, particularly with the awkward reload mechanics.
 
-The campaign is very short, with fifteen brief levels done in no time without the secondary objectives. The gold medals demand a seventy-percent accuracy that proves out of reach, and the friendly AI is unreliable at best.
+The three-character structure provides welcome variety across different WWII theatres and campaign settings throughout the experience. PSTV compatibility allows the PSP game to be played with significantly improved dual analog controls, making it the definitive way to experience the game.
 
-Overall, the weapon handling, the three-hero structure and the believable story make this a warm and satisfying handheld shooter. The silent missions and the eccentric controls are the caveats.
+Overall, compact portable FPS with satisfying weapon variety and replayable rank system despite its short length. PSTV compatibility makes this worth revisiting for improved controls and quick, satisfying missions.

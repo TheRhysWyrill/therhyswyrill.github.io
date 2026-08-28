@@ -3,25 +3,23 @@ layout: review
 date: 2026-06-27
 game_title: "Little Nightmares"
 permalink: /reviews/little-nightmares/
-verdict: "recommended"
+verdict: recommended
 platform: "Series X"
 release_year: 2017
-genre: "Platformer, Puzzle"
+genre: "Adventure, Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A puzzle-platformer whose horror designs, atmosphere and escalating hunger mechanic make it a memorable descent into dread."
+summary: "Oppressive atmosphere and exceptional character design create a haunting puzzle-horror experience, though depth perception issues on balance beams frustrate throughout."
 image: "/assets/img/reviews/little-nightmares.webp"
 ---
 
-Little Nightmares is a puzzle-platformer from Tarsier Studios, following a small child through the decaying Maw, a vessel of grotesque proportions. The complete main game and all three DLC chapters finished in a single run of roughly four and a half hours.
+A small child awakens on a mysterious ship called The Maw, navigating nightmarish environments filled with grotesque, elongated inhabitants. The premise establishes an oppressively unsettling tone that persists throughout, with each area introducing new horrors. The Janitor's long arms, the gluttonous Chefs, and The Lady's haunting presence create distinct threats. The perspective of playing as an extremely small child in a world of giants creates constant vulnerability.
 
-The horror character designs are the standout, with the Janitor's gangly arms, the chefs' melting faces and the heavy breathing making every encounter memorable. The atmospheric dread lands throughout, with the haunting melody and the chanting keeping the mood uneasy.
+2.5D puzzle-platforming handles environmental puzzles involving distraction, timing, and object manipulation across the ship's distinct areas. Stealth sections require careful observation of enemy patrol patterns and hiding spots. The hunger mechanic ties narrative to gameplay, with Six becoming progressively hungrier and able to eat disturbing things. Three DLC chapters expand the world with The Depths, The Hideaway, and The Residence.
 
-The hunger mechanic escalates across the run, with a haunting melody playing whenever the child grows hungry. The scale fantasy impresses, with ordinary furniture looming as architecture and giant doors dwarfing the small protagonist.
+Art direction presents detailed, grotesque environments that capture the ship's atmosphere with oppressive lighting. Character designs remain consistently horrifying and memorable with elongated proportions. Sound design emphasises heavy breathing, creaking wood, and the haunting hunger melody that builds tension. The Lady's broken mirror mechanic adds psychological depth to the final encounter.
 
-The DLCs are strong, with the gnome teamwork chapter the favourite as the little creatures are rallied to feed the furnace. The closing confrontation is fair, resolving through a simple fight rather than a punishing gauntlet.
+Depth perception issues prove frustrating on balance beams, making traversal unreliable. The controls feel functional but awkward, requiring adjustment during early sections. The hunger mechanic can be disorienting when visibility reduces during starvation. Balance beams require exact positioning the camera often obscures.
 
-The wordless storytelling carries the same mood as Inside, with the story told through imagery alone. The tight length suits the format, with the complete package including all DLC in about four and a half hours.
+The second DLC with gnome teamwork emerges as a highlight, offering cooperative puzzle-solving that provides satisfaction. The reveal that The Lady turns people into gnomes adds narrative depth to the world's mythology.
 
-The depth perception is the main frustration, with beams and platforms hard to judge when crossing. The controls feel awkward, with grabbing occasionally iffy and falls off edges easy to come by, while the darkness demands maximum brightness.
-
-Overall, the horror designs, the atmosphere and the hunger mechanic make this a memorable journey through the Maw. The depth perception and the awkward controls are the caveats.
+Overall, the oppressive atmosphere and exceptional character design create a haunting puzzle-horror. Depth perception issues on balance beams occasionally undermine the otherwise atmospheric experience.

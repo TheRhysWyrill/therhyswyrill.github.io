@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-14
 game_title: "Momodora: Moonlit Farewell"
 permalink: /reviews/momodora-moonlit-farewell/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2024
 genre: "Metroidvania"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A polished metroidvania whose gorgeous pixel art, traversal abilities and quality-of-life touches make it a fitting series capstone."
+summary: "Gorgeous pixel art and a satisfying end-game power curve reward exploration in a series-concluding Metroidvania, though unreliable dodging and contact damage create consistent friction during combat."
 image: "/assets/img/reviews/momodora-moonlit-farewell.webp"
 ---
 
-Momodora: Moonlit Farewell is a metroidvania from Bombservice, closing out the beloved series as its largest and most polished entry yet. The complete run took around six hours, reaching near-total completion across the whole map and beyond.
+Gorgeous pixel art defines this series-concluding Metroidvania set in the world of Coho village. Momo, a priestess, investigates the theft of the fairies' black bell and the demon invasion it has caused. The visual upgrade from previous entries establishes the most visually impressive entry in the series.
 
-The pixel art is the headline, with the bigger sprites and extra animation frames earning consistent glow-up praise. The full metroidvania structure returns, with the map completion percentage and the treasure markers guiding the exploration forward.
+Leaf-based combat combines with bow and seal attacks for varied offensive options. Sigil abilities unlock magic blades and arrow enhancements, creating multiple build possibilities. Double jump, wall jump, and dodge rolling expand traversal through ability-gated areas.
 
-The traversal set delights, with the double jump, the wall jump and the stamina-based sprint opening the world wide. The lunar attunement gates the moon-mist areas and powers up the combat with the awakening attack.
+Contact damage from enemies creates frustrating encounters during exploration, particularly in tighter corridors. Unreliable dodging mechanics undermine combat responsiveness, with inputs failing to register during critical moments. Money farming for upgrades proves tedious, with slow spawn rates limiting progression speed.
 
-The sigil and companion systems add real build variety, with the equippable perks expanded through the grimoires. The quality-of-life touches shine throughout, with the treasure markers and the cat-retainer fast travel smoothing the long run.
+The sigil system allows multiple ability loadouts, enabling combat customisation across different encounter types. Companion creatures with distinct personality types provide additional tactical options. Berry-based health and attack upgrades supplement the sigil progression through exploration rewards.
 
-The difficulty bites hard, with the bleeding status draining health and the severe spike damage punishing mistakes. The Moonlight Repose challenge rooms are the toughest optional content, with one hard gauntlet drawing direct comparison to Hollow Knight's White Palace.
+Challenge rooms with unfamiliar enemies punish mistakes harshly, creating difficulty spikes that interrupt exploration flow. Cleaver-wielding enemies prove particularly troublesome during these encounters. Fast travel unlocked mid-game alleviates backtracking frustration across the interconnected map.
 
-The story weaves the series' lore into a moon-god confrontation, with the stolen black bell setting the quest in motion. The final boss is messy but ultimately satisfying, with so very much going on that visibility suffers at times.
+Series-spanning lore callbacks tie the narrative together through in-game records and returning characters. Village hub activities including fishing, planting, and cat petting add charm between combat encounters. The narrative concludes the saga with a satisfying culmination.
 
-Overall, the exploration, the gorgeous presentation and the quality-of-life touches make this a fitting capstone for the series. The challenge rooms and the bleeding status are the main caveats.
+Overall, the gorgeous pixel art and satisfying power curve deliver a series-concluding Metroidvania with visual distinction and mechanical depth. Unreliable dodging and contact damage create friction, but the exploration rewards and lore callbacks sustain engagement throughout.

@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "The Evil Within"
 permalink: /reviews/the-evil-within/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2014
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A very solid survival horror whose strong opening and stealthy first half give way to tedious combat and frustrating instant kills."
+summary: "Creative boss designs and atmospheric horror drive a survival horror experience undermined by frustrating instant-kill mechanics and inconsistent chapter quality."
 image: "/assets/img/reviews/the-evil-within.webp"
 ---
 
-The Evil Within is the 2014 survival horror from Tango Gameworks that follows detective Sebastian Castellanos into Beacon Mental Hospital and the nightmare built around the STEM machine. The opening chapters lean heavily on stealth, giving hiding, sneaking and distraction as much weight as the guns.
+Detective Sebastian Castellanos investigates a mass murder at a mental hospital, only to be pulled into STEM, a system that links minds together. The opening chapters establish strong horror atmosphere through tense stealth sequences and creative monster encounters. From the start, the survival horror mechanics demand careful resource management and environmental awareness.
 
-The stealth identity fades as the campaign progresses, with the middle chapters giving way to sprawling shooting-gallery sequences. The shift leaves the game feeling torn between two identities, as early encounters reward patience and later ones demand constant ammo expenditure.
+The crossbow system offers distinct bolt types, including harpoon, flash, shock, and explosive variants that encourage experimentation. Stealth approaches reward patience through corner kills and environmental distraction. Green gel upgrades provide progression across skill trees, enhancing combat effectiveness and survival capabilities.
 
-Combat centres on the headshot, yet enemies barely react to damage and almost never stagger, making every encounter more tedious than tense. The lack of a follow-up stun-and-finisher option, a staple of the fourth Resident Evil, leaves gunfights as drawn-out exchanges.
+Chapter 9 introduces a wandering presence that undermines stealth sections, creating frustration through unpredictable encounters. The quality shifts between chapters, with some segments feeling polished while others lack the same tension. Environmental design ranges from claustrophobic corridors to more open areas that reduce stealth viability.
 
-Instant-death attacks dominate the boss fights, with every major encounter carrying a one-hit grab that is easy to trigger and hard to avoid. Instant kills do not add difficulty, only repetition, since a single mistake sends the fight back to its checkpoint.
+The boss encounters feature instant-kill grab attacks that create sudden death scenarios regardless of preparation. These mechanics punish mistakes harshly, disrupting the flow of otherwise tense encounters. Combat demands precision as ammunition remains scarce across extended sequences.
 
-The weakest stretch is a mansion stealth chapter where a wandering stalker appears at random and kills in a single touch. Because the danger cannot be planned around, the chapter discourages exploration and turns an open space into a rushed corridor.
+The three DLC episodes offer varied experiences, with Assignment and Consequence praised for maintaining the core horror quality. Executioner's final encounter receives criticism for undermining the power fantasy established earlier. These expansions provide additional context to the main narrative whilst testing different gameplay approaches.
 
-The story, built around a machine that links the minds of everyone drawn into the hospital, never fully explains what is real. The visuals still impress for a 2014 release, and the launch-era letterbox bars were later removable via an update.
+The shifting realities create a disorienting visual style that reinforces the psychological horror themes. Enemy variety spans from standard threats to unique boss designs that remain memorable throughout. These elements combine to establish a distinctive identity within the survival horror genre.
 
-Overall, combat and the instant kills that punctuate it are the main drags on an otherwise very solid experience. The strong first half and the two Kidman DLC packs make it a worthwhile survival horror despite its rough edges.
+Overall, the creative monster designs and atmospheric tension deliver a survival horror experience worth playing, though the instant-kill mechanics and inconsistent chapter quality prevent sustained enjoyment throughout.

@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-28
 game_title: "Medal of Honor: European Assault"
 permalink: /reviews/medal-of-honor-european-assault/
-verdict: "recommended"
+verdict: recommended
 platform: "PS2"
 release_year: 2005
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A first-person shooter whose four-battle structure, optional-objective medals and adrenaline system make it a fun, historical campaign."
+summary: "Community patches transform this WWII shooter with 60fps smoothness, though the final boss encounter remains brutally unfair without save states."
 image: "/assets/img/reviews/medal-of-honor-european-assault.webp"
 ---
 
-Medal of Honor: European Assault is a first-person shooter from EA Los Angeles, sweeping through the four key battles of the European theatre in one campaign. The complete run takes just over four hours, from the Saint-Nazaire raid through North Africa, Stalingrad and the Ardennes.
+A World War II first-person shooter follows Lieutenant William Holt, an OSS officer fighting across Europe with community patches transforming the original sluggish experience. The serious tone and personal narrative create genuine atmosphere throughout the entire campaign.
 
-The campaign structure stands out, with open-ended missions and optional objectives that reward thorough play. The medals incentivise completion, with gold medals handed out for strong performances across the battles.
+Open-ended missions feature optional objectives including eliminating enemy commanders and finding intelligence documents. Squad command mechanics allow positioning and recalling teammates, though these systems prove underutilised in practice. The adrenaline power-up grants temporary invisibility, damage boost, and unlimited ammo that becomes critical for survival. Weapon variety spans Thompson, MP40, shotgun, BAR, and sniper rifles with meaningful trade-offs.
 
-The adrenaline mode is a highlight, granting invincibility and unlimited ammo for a short window of near-total dominance. The revive drops, the canteen and the medkit economy round out the survival systems and keep the pressure manageable.
+Visual quality impresses with detailed European environments and atmospheric lighting while sound design delivers authentic weapon reports and environmental audio. The 60fps patch makes every encounter feel responsive and fluid compared to the original release.
 
-The historical framing is appreciated, with the John Milius-style narration and the period vignettes grounding the action in the era. The Garand is a favourite weapon, with the reload limitation accepted as part of its authentic character.
+The final boss encounter presents overwhelming enemy numbers that feel unfairly balanced against the player throughout. No checkpoint system forces complete mission replays from the beginning, making failures particularly punishing without the use of save states.
 
-The finale is the dominant complaint, with the difficulty spiking hard in the closing stretch and death arriving in just three bullets. The back half collapses from smooth sailing into the exposed, no-cover stretches of the Battle of the Bulge.
+Enemy spawning sometimes occurs unexpectedly in previously cleared areas, consistently breaking immersion during tense firefights. Texture glitches appear on certain objects when viewed from specific angles.
 
-The relentless enemy spawning and the scarce ammunition compound the pressure, with the Stalingrad section running completely dry. The Thompson is the least favourite weapon, and the hit registration leaves many shots doing nothing at all.
+The optional objective system adds welcome variety and exploration while the adrenaline mechanic provides satisfying power fantasy contrasts. Nostalgia for PS2-era military shooters enhances the experience for returning players significantly.
 
-Overall, the four-battle structure, the optional-objective medals and the adrenaline system make this a fun, historically flavoured shooter. The brutal finale and the endless spawning are the main caveats.
+Overall, community patches transform this WWII shooter into a worthwhile experience despite its age. The final boss remains unfairly difficult, but the atmosphere and weapon variety make revisiting worthwhile.

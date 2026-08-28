@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-21
 game_title: "Monument Valley"
 permalink: /reviews/monument-valley/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
-release_year: 2022
+release_year: 2014
 genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A meditative optical-illusion puzzler whose reactive music, per-level gimmicks and generous expansions keep the valley fresh."
+summary: "Optical illusion puzzles and musical sound design deliver a meditative puzzle experience with distinctive visual identity, though awkward joystick controls and brief main campaign prevent the experience from fully realising its potential."
 image: "/assets/img/reviews/monument-valley.webp"
 ---
 
-Monument Valley is a puzzle game from ustwo Games, following the silent princess Ida through a valley of stripped monuments. The complete run covered the ten main chapters, the Forgotten Shores expansion and the charity chapter Ida's Dream.
+Impossible architecture and optical illusion puzzles define this meditative puzzle game where Ida journeys through impossible structures to restore sacred geometry. The visual design creates a distinctive identity through impossible geometries that shift based on perspective. Musical sound design accompanies every interaction with harmonious tones.
 
-The optical-illusion perspective shifting is the core draw, with the impossible geometry bending the eye at every turn. Each level carries its own gimmick, from the automated hat-thief to the water-pressure puzzle and the head-frazzling Citadel of Deceit.
+The Forgotten Shores expansion adds eight chapters, each introducing unique mechanics and visual themes. Citadel of Deceit stands as the expansion's highlight, with perspective-shifting puzzles that challenge spatial reasoning. Ida's Dream provides additional standalone content with its own self-contained puzzle experience.
 
-The box-like oubliette level stands out as the favourite of the whole set. The crow people who yell rather than attack give the quiet world a memorable cast, and the pop-up-book chapter extends the run of creative gimmicks.
+Joystick controls prove awkward during precise architectural manipulation, requiring frequent adjustment. Some levels demand careful observation rather than complex problem-solving, with solutions often simpler than their visual presentation suggests. The main game's brevity leaves players wanting more content.
 
-The musical sound design reacts to every move, with nearly everything in the world chiming in tune. The gentle, meditative tone carries through every chapter, with the sacred-geometry theme tying the valley together throughout.
+The totem companion in The Labyrinth creates musical interactions that add environmental variety. Pop-up book levels demonstrate creative visual design through paper-craft aesthetics. Water pressure systems and automated platforms introduce mechanical variety across expansion chapters.
 
-The controls are the main gripe, with the selection snapping awkwardly between points when using a joystick. The optical-illusion levels frazzle the brain, and the base ten chapters admittedly do not run especially long.
+Forgotten Shores substantially extends the base game's content, adding eight chapters that maintain consistent quality. Each expansion level introduces distinct gimmicks that refresh the puzzle formula. The total package delivers substantial value across base game and expansions.
 
-The three components together offer a fair amount of content for a small puzzle game, with the expansions adding most of the variety. The totem companion and the per-level creativity keep the whole run feeling fresh to the finish.
+Ida's journey unfolds through environmental storytelling and brief encounters with a mysterious crow-like figure. The narrative remains minimalist, serving as context for puzzle progression rather than driving emotional engagement. The conclusion brings the journey to a satisfying close.
 
-Overall, the puzzle design, the musical presentation and the level creativity make this a very cool little puzzle game. The awkward controls and the short base chapters are the main caveats.
+Overall, the optical illusion puzzles and musical sound design deliver a meditative puzzle experience with distinctive visual identity. Awkward joystick controls and brief main campaign prevent the experience from fully realising its potential.

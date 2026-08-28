@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-21
 game_title: "Vlad Circus: Descend Into Madness"
 permalink: /reviews/vlad-circus-descend-into-madness/
-verdict: "recommended"
+verdict: recommended
 platform: "Switch"
 release_year: 2023
-genre: "Adventure"
+genre: "Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A storm-bound circus reunion becomes a descent into hallucination in this atmospheric horror from Indiesruption."
+summary: "A 1920s circus setting and atmospheric tension deliver psychological horror with excellent sound design, though a poorly designed baby chase and inventory frustrations interrupt the otherwise compelling narrative investigation."
 image: "/assets/img/reviews/vlad-circus-descend-into-madness.webp"
 ---
 
-Vlad Circus: Descend Into Madness is a first-person horror adventure from Indiesruption in which a former clown returns to his old circus troop after eight years. Oliver Mills, freshly released from Pennhurst Asylum, travels to the Petrescu house through a storm for a reunion that quickly curdles into madness.
+Oliver Mills returns to the Petrescu estate for a reunion with fellow performers from the Vlad Circus, which burned down eight years prior. The opening moments establish oppressive atmosphere through dark corridors and stormy weather. From the start, the 1920s circus setting creates distinctive gothic identity throughout the mansion.
 
-The reunion brings together a familiar cast, from a wheelchair-bound strongman and a self-mutilating fakir to Siamese twins and a ventriloquist's puppet. The circus owner wanders the woods searching for a dead brother executed for burning the circus, the first sign that something is very wrong.
+Headphone mode and directional audio indicators enhance immersion through precise sound design that rewards careful listening. The diary mechanic displays entries differently based on lighting conditions, adding environmental awareness. These systems reward observation and create psychological depth beyond standard exploration across the mansion.
 
-Gameplay is Amnesia-like, with a kerosene lamp, dark corridors and a stress bar that stands in for health. Praying with a rosary lowers the stress, while hallucinations must be dispelled with a suspect tonic from the asylum doctor.
+The baby chase section proves poorly designed through aggressive AI that tracks position regardless of visibility. Inventory management frustrates through limited carrying capacity and excessive key collection. These mechanical issues disrupt the otherwise atmospheric exploration during the final act considerably.
 
-Puzzles lean on inventory work, from fixing the fuse box and sharpening a knife to repairing a clock and bartering with the thieving monkey. Combat against rats and headless horrors is simple, though the four-directional shooting and limited stamina make it fiddly.
+Stress mechanic influences perception through hallucinations that intensify as mental state deteriorates. The system creates uncertainty about what is real versus imagined throughout exploration. These psychological elements add tension without clear mechanical feedback about their progression.
 
-The slow-burn dread is the game's strength, carried by quiet ambience, whispers and a small sound indicator for audio. The fire that destroyed the circus hangs over everything, and Oliver's memories of the blaze, including the orphan he could not save, are the most affecting moments.
+Four-directional gun aiming limits combat precision during defensive encounters. Walking simulator sections feel slow without sprint capability, creating tedious traversal. These control limitations create friction during moments requiring quick navigation through dangerous areas.
 
-The story lands on a genuinely surprising twist, with the reunion's reality called into question in ways that reframe the whole night. The final nightmare section, with a monstrous baby and a ticket booth demanding an absurd fee, proved more frustrating than frightening.
+Environmental puzzles demand observation and experimentation across the mansion's rooms. Well-drawn characters establish distinct personalities through limited screen time. Each circus member's backstory adds emotional weight to the reunion narrative and atmosphere.
 
-Overall, the atmospheric horror, the memorable cast and the strong twist make this a worthwhile trip back to the circus. It is easy to recommend, despite the annoying rats and the underwhelming finale.
+Overall, the atmospheric 1920s setting and excellent sound design deliver compelling psychological horror, though the baby chase section and inventory frustrations interrupt the otherwise immersive narrative investigation.

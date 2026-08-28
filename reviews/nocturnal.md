@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "Nocturnal"
 permalink: /reviews/nocturnal/
-verdict: "recommended"
-platform: "PC"
+verdict: recommended
+platform: "Switch"
 release_year: 2023
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A tight action platformer whose fire-as-heal-and-weapon identity and empowered mid-game state carry the run."
+summary: "Fire-as-resource mechanic and Avatar State power deliver a distinctive action platformer with satisfying combat variety, though trial-and-error room design and brief duration prevent the experience from fully realising its potential."
 image: "/assets/img/reviews/nocturnal.webp"
 ---
 
-Nocturnal is a platformer from Sunnyside Games, sending the soldier Ardashir to the Mist-shrouded island of Nahran in search of his missing sister. The complete run finishes in about two hours and fifteen minutes, with level selection opening the island afterwards.
+Fire serves as both weapon and healing source in this 2D side-scrolling platformer set on a Mist-consumed island. Ardashir, a soldier of the Order, searches for their sister across two realms: the Seen and the Unseen. The fire mechanic creates constant tension by depleting over time and requiring replenishment through braziers.
 
-Fire is the heart of the design, with the sword igniting to burn away the Mist, light braziers and destroy otherwise-invincible enemies. The same flame heals when held, making the destructive force double as the healing resource.
+Avatar State near the end grants unlimited fire, creating an incredibly satisfying power fantasy after careful resource management. The dagger throw with slow-motion aiming adds tactical variety to combat encounters. Nine upgradeable skills provide meaningful progression and build diversity across the experience.
 
-The flame economy shapes every room, with the fire draining over time and water dousing it completely. One-time torches re-light the sword, and inside the Mist the choice between healing and keeping the flame for combat is constant.
+Trial-and-error environmental hazards force repeated deaths before patterns become apparent, creating frustration during exploration. Camera occasionally lags behind movement, disrupting flow during precise platforming sections. The brief runtime keeps focus on core mechanics but leaves some ideas underexplored.
 
-The throwable dagger is a joy, with its slow-motion aiming, return-on-impact and ability to break mist bridges and shoot orb-switches. The upgrade shrines stretch the build across fire duration, fire speed, healing and health.
+Mist areas intensify fire management challenges, requiring strategic choices between offensive use and healing. Brazier placement creates satisfying exploration loops, rewarding thorough navigation of interconnected areas. The balance between risk and resource expenditure sustains engagement across varied encounters.
 
-The empowered flame state is the highlight, with the infinite flame, air dash and screen-clearing burn turning the mid-game into a power fantasy. The prayer altars and lore pages build the island's mythology through eleven scattered writings.
+Stark visual contrasts between fire-lit areas and Mist-shrouded darkness establish distinctive atmospheric identity. Art style uses shadow and light to guide player direction while maintaining visual clarity. Environmental storytelling through architectural details adds depth without explicit narrative exposition.
 
-The trial-and-error rooms are the main frustration, with falling platforms and hidden traps readable only after a death. The combat stays basic, with the same three strikes carrying most fights and only the fire wave adding options.
+The narrative follows Ardashir's search with minimal dialogue, relying on environmental context. Lore fragments scattered throughout hint at deeper worldbuilding without demanding completion. The story serves as motivation for exploration rather than driving emotional engagement.
 
-Overall, the fire identity, the empowered state and the dagger make this a tight, enjoyable action platformer. The trial-and-error rooms and the basic combat are the main caveats.
+Overall, the fire-as-resource mechanic and Avatar State power deliver a distinctive action platformer with satisfying combat variety. Trial-and-error room design and brief duration prevent the experience from fully realising its mechanical depth.

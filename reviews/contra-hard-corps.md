@@ -4,7 +4,7 @@ date: 2026-08-16
 game_title: "Contra: Hard Corps"
 permalink: /reviews/contra-hard-corps/
 verdict: recommended
-platform: "Sega MegaDrive"
+platform: "Sega Mega Drive"
 release_year: 1994
 genre: "Shooter"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

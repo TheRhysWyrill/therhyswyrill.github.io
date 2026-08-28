@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-21
 game_title: "Rainbow Six: Vegas"
 permalink: /reviews/rainbow-six-vegas/
-verdict: "recommended"
+verdict: recommended
 platform: "Xbox 360"
 release_year: 2006
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Squad-based tactics, revivable teammates and a forgiving health system carry this casino-crawl shooter past its stingy checkpoints."
+summary: "Multi-angle breaching system and atmospheric Vegas casino levels deliver a satisfying tactical shooter with genuine depth, though enemy visibility issues and punishing difficulty spikes create friction."
 image: "/assets/img/reviews/rainbow-six-vegas.webp"
 ---
 
-Rainbow Six: Vegas is a first-person tactical shooter whose terrorist plot unfolds over a single night. The campaign runs from the Mexican border through the mines and casino interiors of Las Vegas, moving from a hunt to a hostage-heavy crawl.
+Multi-angle breaching defines this tactical shooter where entering rooms from multiple directions creates satisfying tactical variety. The Vegas casino levels establish atmospheric environments with slot machines and detailed interiors that enhance immersion. Teammates act as disposable cover, allowing aggressive play without permanent consequences.
 
-The squad toolset is a highlight, with ordering teammates, breach-and-clear and frag-and-clear opening multiple angles into a room. Snake cam, thermal vision and rappelling extend the tactical options considerably, with the multi-angle entries the best part of the package.
+Loadout customisation provides extensive options across primary and secondary firearms, with attachments and modifications affecting tactical options. Character outfitting adds personal expression to the operative through outfits and camouflage. The breaching system rewards careful planning with multiple approach angles per room.
 
-The regenerating health system forgives mistakes, letting a run recover from a botched breach rather than restarting the whole section. Squadmates can be revived after being knocked down, which makes sending them ahead first a calculated trade-off.
+The mines section proves particularly punishing with relentless shotgun enemies. Enemy visibility remains consistently poor, making target identification difficult during firefights. Stealth mechanics exist but prove inconsistent in practice.
 
-Spotting enemies is the hardest part, with hostile figures blending into the scenery and deaths repeatedly coming from unseen threats. Shotguns dominate the enemy roster and kill instantly at close range, so whoever shoots first wins.
+Vegas casino levels stand out as atmospheric highlights with detailed interiors that showcase impressive environmental design. Slot machines and casino environments create immersive set-pieces within the tactical framework. The contrast between stealthy approaches and aggressive breaching provides varied gameplay across missions.
 
-Checkpoints are sparse, with whole sections redone after a death and the chosen loadout failing to persist between attempts. The lack of a sprint option compounds the frustration during the long retraces through already-cleared ground.
+Solo pistol-only sections spike difficulty with overwhelming enemy shotguns. Checkpoint placement varies across missions, with some offering generous saves and others demanding flawless execution. The difficulty curve remains punishing throughout.
 
-The set-pieces carry real cool factor, with the security-camera level, the Spire assault and the casino interiors standing out. The solo mines section is the low point, a pistol-only stretch against shotgun-wielding foes that took a long time to clear.
+The progression system carries over between playthroughs, encouraging loadout experimentation and build diversity. Weapon customisation includes attachments and modifications that affect tactical options across different mission types. The multi-angle breaching rewards strategic thinking over reflexes throughout the campaign.
 
-Overall, the squad tools and the forgiving health system make the campaign an enjoyable tactical run. The enemy visibility and the sparse checkpoints are the price of admission for a shooter this focused on careful room entry.
+Overall, the multi-angle breaching system and atmospheric Vegas casino levels deliver a satisfying tactical shooter with genuine depth. Enemy visibility issues and punishing difficulty spikes create friction, but the satisfying breaching mechanics sustain engagement throughout.

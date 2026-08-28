@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "The Surge"
 permalink: /reviews/the-surge/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2017
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A sci-fi action RPG whose limb-targeting combat turns every encounter into a decision about the equipment on offer."
+summary: "A limb-targeting dismemberment system adds strategic depth to souls-like combat, though a finicky lock-on and sparse base game boss count undermine the otherwise satisfying mechanical innovation."
 image: "/assets/img/reviews/the-surge.webp"
 ---
 
-The Surge is a science-fiction action RPG from Deck13 set inside the factory complex of a vast mega-corporation. A wheelchair-bound protagonist gains the ability to walk through an exo-rig procedure, but a catastrophic event soon turns the workforce hostile.
+Set in the Creo corporate facility where an industrial accident has turned workers into hostile machines, you receive an exo-rig implant that allows mobility but thrusts you into chaos. The opening moments establish oppressive industrial sci-fi atmosphere through corporate propaganda contrasting against mechanical horror. From the start, the dismemberment mechanic introduces strategic combat planning.
 
-Combat centres on targeting individual body parts, with dismembered limbs yielding weapon schematics, armour materials and crafting components. The risk-reward loop turns every fight into a small decision about which piece of gear to pursue, and executions finish the job with brutal kill cams.
+Targeting specific body parts to farm equipment and schematics creates a risk-reward loop that distinguishes this from other souls-likes. The staff weapon moveset becomes particularly satisfying once acquired, with overhead swings delivering impactful combat. Stamina management demands constant attention and discipline across extended encounters.
 
-The souls-like structure is familiar, with med bays acting as checkpoints and tech scrap lost on death, though banking currency at a med bay keeps it safe. Implants, weapon proficiency and core power levels give the build plenty of room to grow.
+The lock-on system struggles to target intended limbs, often locking onto wrong body parts during combat. This finicky targeting creates brief interruptions in otherwise smooth mechanical encounters. The camera occasionally proves problematic during multi-enemy situations.
 
-The base game is compact, with only five bosses across the campaign, and the two expansions add an amusement-park area and a western-themed arena mode. The arena expansion's nine episodes repeat just three locations and bosses, which undercuts the variety its structure promises.
+The base game contains only five bosses, creating sparse major encounters across the main campaign. Boss difficulty spikes appear through wide attack ranges and high damage output. These challenges test patience without always providing satisfying resolution.
 
-The lock-on system is the main mechanical frustration, with targeting the body and legs proving finicky in the heat of combat. Two crashes interrupted the run, including one during the closing boss fight, though frequent checkpoints cushioned the losses.
+DLC content fills the base game gap through Walk in the Park, Good The Bad and The Augmented, and Frontier Riders. These expansions require significant main game completion before access, creating a barrier to immediate exploration. Each DLC adds distinct environments and enemies that extend the experience.
 
-The western arena expansion doubles as an excellent source of upgrade materials, and both expansions hold up well on their own. The forced returns to the main campaign to unlock further DLC progress remain the expansions' most awkward design choice.
+The implant system allows ability customisation that complements weapon variety across one-handed, staffs, and heavy weapons. Gear farming through targeted dismemberment rewards strategic planning. These systems create depth beyond standard souls-like progression.
 
-Overall, the dismemberment combat remains the draw, rewarding targeted play with tangible equipment rewards. The game has aged well, and the compact campaign, strong core mechanic and generous expansions make the whole package well worth playing.
+Overall, the limb-targeting dismemberment delivers strategic combat innovation that holds up years later, though finicky lock-on and sparse boss encounters prevent the experience from fully realising its mechanical potential.

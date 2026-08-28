@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "The Council"
 permalink: /reviews/the-council/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2018
-genre: "Adventure, RPG"
+genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A tactical conversation-driven mystery where skill-based dialogue duelling and a demonic conspiracy twist elevate an episodic whodunit."
+summary: "An unexpectedly deep episodic narrative game elevated by its strategic conversation mechanics."
 image: "/assets/img/reviews/the-council.webp"
 ---
 
-The Council turns its conversations into tactical duels, with every guest carrying vulnerabilities that refund effort points and immunities that punish careless questions. The skill-based dialogue system is the game's defining strength, making each interrogation a risk-reward gamble.
+Lord Mortimer's island hosts a gathering of historical figures including Napoleon Bonaparte and George Washington in the early 19th century. Louis de Richet searches for his missing mother whilst investigating a murder mystery that evolves into supernatural conspiracy. The narrative begins with standard mystery conventions before revealing demonic possession and occult forces.
 
-The story opens with French diplomat Louis de Richet arriving on Lord Mortimer's island in 1793 to find his missing mother. What seems like a standard whodunit around the murder of Elizabeth Adams slowly becomes a far stranger conspiracy.
+The conversation system drives gameplay through personality-based weaknesses and immunities that demand strategic dialogue choices. Each character possesses vulnerabilities to certain skills and immunities to others, preventing brute-force approaches. Three classes, Diplomat, Occultist, and Detective, provide distinct skill trees that alter conversation options and investigation paths.
 
-Demons and possession reshape the mystery, with the game revealing that Mortimer and his ally are ancient parasitic spirits and that Louie himself is a demon. The reveal that Sarah is his sister rather than his mother lands as the emotional core of the campaign.
+Skills cost effort points, with items like Golden Elixir and Carmelite Water providing temporary boosts during critical encounters. Manuscripts scattered across rooms grant skill points that expand dialogue possibilities.
 
-The historical cast is a delight, with George Washington, Napoleon Bonaparte and Cardinal Pia scheming around the conference table. Each guest carries their nation's interests and their own secrets, and the epilogue narrating their eventual fates is a satisfying payoff.
+The supernatural twist genuinely surprises, transforming expectations from murder mystery to possession-driven horror. The historical setting grounds fantastical elements through period-appropriate dialogue and character interactions.
 
-Progression carries real weight, with diplomat, occultist and detective classes, chapter-end skill points and manuscripts that grant bonus skills. The vulnerabilities and immunities system rewards careful reading of each personality, though failed checks can exhaust the effort pool.
+Some choices demonstrate minimal narrative consequence, such as losing a hand that characters barely acknowledge. The episodic structure occasionally requires passive observation during extended cutscene sequences, which interrupts the otherwise engaging dialogue-driven gameplay.
 
-The pacing is heavily conversational, with long stretches that play like watching a movie. A couple of sequences drag, including the memory-reconstruction puzzle and the hunt for the holy lance, and one major choice barely registers in later scenes.
+The personality weakness system creates genuine strategic depth in conversation encounters. Each dialogue choice carries weight through the vulnerability and immunity mechanics that define character interactions, rewarding preparation and observation. The system encourages replayability through different class approaches.
 
-Overall, the tactical dialogue, surprising story and memorable cast outweigh the passive pacing, and the result is an easy recommendation. It is a fresh, genuinely twisty take on the episodic adventure.
+Overall, the conversation system and narrative twists deliver an episodic adventure with strategic depth, yet the minimal choice impact and passive observation sequences prevent the atmosphere from fully establishing itself.

@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-28
 game_title: "Medal of Honor: Warfighter"
 permalink: /reviews/medal-of-honor-warfighter/
-verdict: "recommended"
+verdict: recommended
 platform: "PS3"
 release_year: 2012
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A special-ops first-person shooter whose car chase, heavy weaponry and tight length make it an enjoyable, compact campaign."
+summary: "Diverse mission types including stealth, driving, and drone combat keep the campaign fresh, though a confusing time-jumping narrative and frustrating sniper mechanics undermine the otherwise varied shooter experience."
 image: "/assets/img/reviews/medal-of-honor-warfighter.webp"
 ---
 
-Medal of Honor: Warfighter is a first-person shooter from Danger Close, continuing the modern-day reboot's story of special operations soldiers. The complete campaign runs as a short, tight sequence of missions from the opening confusion to the closing raid.
+Mission variety drives this modern military shooter across multiple theatres and gameplay styles. Sniper overwatch, stealth infiltrations, vehicle chases, and drone combat sequences punctuate standard corridor firefights. The serious military tone carries over from the 2010 reboot, grounding the diverse set-pieces in a cohesive operational framework.
 
-The car chase is the standout action set piece, with the high-speed pursuit carrying the energy of a movie set piece. The one-hour-before ship mission is the time jump done right, giving the opening of the mission real context.
+Stealth infiltrations and drone sequences provide tactical alternatives to direct confrontation, with robotic units controlled from remote vantage points. Unlimited ammo sequences punctuate the later chapters with cathartic weapon variety.
 
-The heavy weaponry delights, with the PKP's ammo capacity and the shotgun's guaranteed one-shot kill standing out. The unlimited grenades are a great touch, and the quiet stealth stretches are welcomed between the firefights.
+Sniper missions demand understanding of bullet-drop mechanics that remain unintuitive throughout the campaign. The final breach scene throws six enemies into a confined space, creating an overwhelming difficulty spike. Breach animations offer cosmetic variety but provide no meaningful gameplay difference.
 
-The ending lands, with the closing voiceover telling the story of a wife coming to terms with the job. The twists land despite the messy narrative, with the surprises earning their moments in the closing stretch.
+The time-jumping narrative structure juggles multiple operatives across different timelines, fragmenting the story rather than building tension while Preacher's fractured marriage adds personal stakes. A training mission from the opposing perspective is never adequately explained.
 
-The time-jump storytelling is the biggest complaint, with the narrative jumping back by weeks or months and failing to make sense as it goes. The final breach room is brutal, with far too many enemies and the soldier dying very fast.
+Weapon customisation unlocks through a points-based system, with attachments and cosmetics earned via progression. Squad AI remains inconsistent during firefights, occasionally failing to provide covering fire. Enemy visibility drops in darker environments, adding unintended difficulty to stealth sections.
 
-The smoke chokes visibility throughout, with the firefights hard to read through the haze of the breaches. The ammo economy is punishing, with the soldier running dry quickly and the breaching left entirely to the individual.
+Visuals serve the military setting adequately without pushing technical boundaries, maintaining steady performance across varied environments. Vehicle sequences deliver momentum through environmental destruction and high-speed pursuit.
 
-Overall, the car chase, the heavy weaponry and the tight length make this an enjoyable, compact shooter. The scrambled narrative and the brutal final breach are the caveats.
+Overall, the diverse mission types sustain engagement across the campaign, with stealth, driving, and drone combat providing constant variety. The non-linear narrative creates confusion, but the satisfying shooter mechanics and varied set-pieces maintain momentum throughout.

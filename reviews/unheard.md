@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-11
 game_title: "Unheard"
 permalink: /reviews/unheard/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2019
 genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An acoustic detective game that solves crimes purely by listening, with an audition that mirrors a real heist."
+summary: "An audio-only investigation mechanic delivers a genuinely innovative detective experience through three escalating crime scenarios, though brute-force solutions and Chinese-only DLC limit the otherwise unique auditory puzzle design."
 image: "/assets/img/reviews/unheard.webp"
 ---
 
-Unheard is an acoustic detective game in which crimes are solved purely by listening to past conversations on a rewindable top-down map. Moving between rooms and replaying scenes lets every voice be matched to a named suspect.
+An auditory detective examines crime scenes through sound alone, navigating audio recordings to identify characters and track movements. The opening moments establish tense atmosphere through the purely auditory investigation mechanic. From the start, the concept creates distinctive detective gameplay unlike any other mystery experience.
 
-Voice matching is the core mechanic, with sixteen sound sources that must each receive the correct name before a case closes. Multiple-choice questions then interrogate the sequence of events, such as who held stolen chips and in what order.
+Three scenarios provide escalating complexity through a twin identity swap, art gallery theft, and police station bombing. Voice acting brings characters to life across extensive dialogue that establishes personality and motive. These elements build narrative depth through purely auditory storytelling.
 
-The Lethal Script DLC is considerably larger than expected, running well past twenty minutes. Its premise, in which actors auditioning at a hotel rehearse a script that mirrors a real drug deal gone wrong, creates a genuine puzzle of duplicate people and voices.
+The bombing case presents significant challenge through multiple intersecting timelines and character movements. Duplicate characters create initial confusion before revealing narrative purpose. These complexity layers reward careful listening and systematic investigation.
 
-The overlap between actors and criminals is the central confusion, with the same voices appearing in both the rehearsal and the real events. Mapping actors to their roles while the game tracks progress through its question system keeps the mind fully occupied.
+Brute-force solutions become possible towards the end of each scenario, allowing educated guessing when deduction stalls. This accessibility balances the difficulty curve but reduces satisfaction from pure auditory reasoning. The mechanic occasionally feels less rigorous than the concept promises.
 
-The game allows brute force on the final answer, which becomes useful when the intended deduction path stays obscure. The closing reveal lands as a highlight once the final answers fall into place.
+Audio-only investigation creates unique sense of discovery as characters and their roles emerge through sound alone. No visual clues supplement the auditory experience beyond static images, demanding complete reliance on listening. These constraints establish genuinely innovative investigative gameplay.
 
-Voice acting carries the entire experience, with the game demanding close listening throughout. One DLC in the bundle was not available in English, though the version played had full English support.
+Replayability stems from multiple approaches to each scenario, encouraging different deduction methods across repeated attempts. The short runtime prevents overstaying its welcome whilst providing memorable investigation sequences. These qualities create satisfying density across the three cases.
 
-Overall, puzzle design is the defining strength, turning pure audio into a deductive challenge unlike anything else. The unique acoustic-detective premise makes this a very cool game.
+Overall, the audio-only investigation mechanic delivers a genuinely innovative detective experience through escalating crime scenarios, though brute-force solutions and limited DLC accessibility reduce the otherwise distinctive auditory puzzle design.

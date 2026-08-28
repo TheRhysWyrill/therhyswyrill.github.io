@@ -6,22 +6,20 @@ permalink: /reviews/contra-3-the-alien-wars/
 verdict: recommended
 platform: "SNES"
 release_year: 1992
-genre: "Shooter"
+genre: "Action, Shooter"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Intense bullet hell combat and visual upgrades elevate this run-and-gun, though one-hit-kill difficulty and awkward Mode 7 boss encounters test patience."
+summary: "A significant visual upgrade over its predecessors and intense bullet hell patterns create a demanding run-and-gun experience, though an awkward Mode 7 bike encounter and cheat-related instability undercut the otherwise relentless momentum."
 image: "/assets/img/reviews/contra-3-the-alien-wars.webp"
 ---
 
-Contra III: The Alien Wars drops a paramilitary unit into a 2636 alien invasion, opening with intense bullet patterns that demand constant movement. The SNES hardware delivers a visual leap over its predecessors, with Giger-inspired biomechanical aesthetics infusing alien environments with menace. Twin-stick shooting and the ability to stand still by holding R create a tactical foundation that previous entries lacked. Colourful environments range from urban ruins to alien hives, each with its own mechanical identity.
+Alien forces have returned, and the response is immediate gunfire. From the opening stage, dense bullet patterns demand constant repositioning, with projectiles filling the screen at densities that recall bullet hell shooters. The visual leap over Contra and Super C is striking: detailed sprite work, fluid animations, and biomechanical Giger-inspired environments establish a tone that escalates from military action into grotesque alien landscapes across eight varied stages.
 
-Eight stages cycle through varied mechanics, from side-scrolling to Mode 7 pseudo-3D sections with rotate controls. Bike chases and aerial sequences break up the platforming rhythm. Weapon power-ups include spread shot, laser, flamethrower, homing missiles, and the power bomb, each suited to different encounter types.
+Spread shot, laser, flamethrower, homing missiles, and the devastating power bomb round out an arsenal that rewards experimentation. Holding R to stand still, a mechanic absent from previous entries, sharpens aim for precision shots during bullet-heavy sequences. Between standard side-scrolling stages, Mode 7 pseudo-3D sections rotate the camera around turret positions, shifting the gameplay from horizontal rush to stationary defence.
 
-Bullet patterns escalate dramatically across the campaign, with enemy density reaching overwhelming levels in later stages. One-hit-kill damage means a single mistake costs a life, demanding memorisation of enemy placement. Pattern recognition becomes essential as stages layer projectiles with environmental hazards.
+Enemy pop-in remains a persistent issue, with threats materialising on screen without warning and demanding reflexes rather than pattern recognition. Small projectiles blend into detailed backgrounds, compounding the difficulty during dense encounters. These frustrations persist despite the game's tighter controls, creating friction that interrupts the otherwise responsive pacing.
 
-The power bomb mechanic delivers a screen-clearing desperation move that shifts momentum during overwhelming encounters. Holding R to stand still allows precise aiming while stationary, a mechanic absent from previous Contra titles. These tools provide just enough leverage to survive the escalating challenge without trivialising it.
+The boss gauntlet culminates in a sequence of multi-phase encounters requiring distinct strategies for each encounter. From biomechanical monstrosities to mechanical war machines, each boss demands mastery of a different weapon and movement pattern. The escalating challenge across these final stages tests every skill the game has taught.
 
-Mode 7 rotation levels introduce pseudo-3D perspectives that shift the visual language entirely. The missile stage boss forces constant movement between platforms while dodging projectiles from multiple angles. These moments stand apart from the core side-scrolling formula.
+Mode 7 bike levels introduce awkward platforming between missiles while under constant fire, disrupting the otherwise fluid stage design. That jarring shift in perspective clashes with the tight side-scrolling mechanics that anchor the rest of the campaign.
 
-Giger-inspired corridors and biomechanical alien designs establish an atmosphere that escalates from military action to grotesque horror. The soundtrack drives momentum through each stage with pulsing compositions matching the on-screen intensity.
-
-Overall, the bullet hell combat, weapon variety, and visual upgrade deliver a run-and-gun that pushes the SNES hardware to its limits. One-hit-kill difficulty and awkward Mode 7 boss encounters prevent the experience from reaching its full potential, but the core shooting remains intensely satisfying throughout.
+Overall, the visual leap, diverse stage mechanics, and relentless bullet patterns create a run-and-gun experience that demands precision and rewards persistence, though the Mode 7 bike encounters and occasional enemy pop-in create friction that interrupts the otherwise responsive momentum.

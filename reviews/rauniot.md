@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "Rauniot"
 permalink: /reviews/rauniot/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2024
 genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An authentic Finnish setting, strong presentation and cryptic puzzles make this isometric post-apocalyptic adventure a memorable trip."
+summary: "Authentic Finnish voice acting and atmospheric environmental storytelling create a memorable post-apocalyptic setting, though cryptic puzzle logic and the absence of sprinting create friction during exploration."
 image: "/assets/img/reviews/rauniot.webp"
 ---
 
-Rauniot is an isometric point and click adventure from Act Normal Games, set in Northern Finland after a disaster drowned the continents. The search for a missing companion and a nuclear-powered locomotive prototype drives the whole journey.
+Post-apocalyptic Finland in 1975 provides the backdrop for a point-and-click adventure where a protagonist seeks a companion and a nuclear-powered locomotive. Environmental storytelling through handwritten notes, survivor conversations, and detailed Finnish scenery establishes a bleak but oddly beautiful world from the opening moments.
 
-The presentation is the game's strongest suit, with drawn contact portraits and a notebook that reads like an old instruction manual. The Finnish voice acting lends the setting an authenticity that fits the northern location perfectly.
+Puzzle design ranges from straightforward item interactions to elaborate multi-step sequences involving generators, codes, and railway track switching. The locomotive puzzle section demands careful sequence management across multiple interconnected systems, while simpler puzzles serve as accessible entry points that gradually introduce the game's logic.
 
-The puzzles are the meat of the experience, with the generator room, the sector-six computer and the radio tower standing out. They are often cryptic, and stumbling through them becomes part of the charm rather than a frustration.
+A notebook system tracks objectives and contacts, providing structure without heavy-handed guidance. Fast travel between discovered locations eliminates tedious backtracking, though the absence of a sprint mechanic leaves traversal feeling sluggish during exploration stretches.
 
-Fast travel opens up once the maps are found, which cuts much of the back-and-forth across the small world. The mouse-only controls keep the interaction simple, and the locomotive's fuel demands make for a few refuelling detours.
+Authentic Finnish voice acting delivers a rare linguistic experience in gaming. The decision to use Finnish rather than English or Japanese creates a distinct identity that reinforces the isolated post-apocalyptic setting, with voice performances that convey the desperation of the small survivor community.
 
-The absence of a sprint option is a recurring annoyance, with the protagonist stuck at a walk throughout. Interaction highlighting is also easy to miss, and remembering the various codes and numbers adds to the friction.
+Visual presentation relies on hand-drawn notes, character sketches, and environmental detail to establish its aesthetic. The art style complements the bleak atmosphere without overwhelming the scene with unnecessary visual complexity.
 
-The world carries a genuine moral murkiness throughout, with even the helpful cast operating on favours and mutual suspicion. The creepy touches, from watching security cameras to dark children's drawings and mutilated scenery, sell the post-apocalypse well.
+Cryptic puzzle logic occasionally demands trial-and-error rather than deductive reasoning, creating momentum loss during complex multi-step sequences. Environmental storytelling sometimes obscures critical information, requiring careful examination of scattered notes to progress.
 
-Overall, the presentation and the authentic Finnish setting make this a distinctive point and click adventure worth seeking out. The cryptic puzzles and the missing sprint are the main frustrations, but the compact length keeps the whole run rewarding.
+Overall, Rauniot delivers an atmospheric point-and-click adventure distinguished by its authentic Finnish setting and environmental storytelling. Cryptic puzzle logic and limited traversal options create friction that prevents the experience from flowing seamlessly, but the distinctive cultural identity and meticulous world-building ensure the journey rewards patience.

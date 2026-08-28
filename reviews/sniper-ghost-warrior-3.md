@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-26
 game_title: "Sniper: Ghost Warrior 3"
 permalink: /reviews/sniper-ghost-warrior-3/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2017
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A Georgian open-world sniper game of extreme-range set-pieces and collectible rifles honouring real marksmen."
+summary: "Long-range sniping and weapon customisation deliver satisfying tactical combat, though the open world structure and limited enemy variety undermine the core experience."
 image: "/assets/img/reviews/sniper-ghost-warrior-3.webp"
 ---
 
-Sniper: Ghost Warrior 3 sends marine sniper John North across three regions of the Republic of Georgia to find his kidnapped brother Robert. The kidnapped brother lies at the centre of a conflict that grows increasingly personal as the conspiracy around it expands.
+Open-world design wraps around the core sniping loop in this tactical shooter set across the Georgian mountains. Long-range engagements demand careful positioning and wind calculation, with the bullet cam delivering visceral payoff when shots connect. The 50 calibre arsenal provides raw destructive power that sustains momentum across outpost clearing and collectible hunting.
 
-The extreme-range sniper fantasy is the core thrill, with set-pieces landing shots of 400 to 500 metres and beyond. The collectible rifles honour real legendary marksmen, whose long-distance feats give the arsenal a distinctive historical flavour throughout.
+Weapon customisation allows extensive modification of sniper rifles, with attachment combinations that alter handling characteristics. Accumulating ammunition becomes trivial through looting, creating a sense of preparedness before each engagement. The premonition mechanic, which reveals enemy positions after death, transforms failed attempts into tactical advantages for subsequent approaches.
 
-The drone handles recon, tagging, hacking and camera access, while scout mode reveals enemy positions across the map. The compound bow, the heavily stocked LMG and the collectible sniper rifles give the toolset real flexibility.
+Skill tree progression adds RPG-like depth uncommon in the genre, with unlockable abilities that expand tactical options beyond pure marksmanship. Drone reconnaissance supplements traditional scouting, marking targets and identifying patrol routes before committing to an overwatch position.
 
-The Far Cry-style open world spans three regions with 191 points of interest, though much of it feels underfilled. Clearing outposts does little because they respawn, and crafting is pointless since everything can be bought outright.
+Outpost clearing rewards patient infiltration, with each compound demanding careful observation of guard patterns and environmental opportunities. Stealth-focused missions alternate with high-action stand-your-ground sequences, creating varied pacing across the open world.
 
-The alert AI is the biggest issue, with a single missed shot or a spotted drone making every enemy know exactly where the player is. Enemy weapon variety is poor, with every foe carrying one of about three weapons.
+Enemy weapon variety proves disappointingly narrow, with most hostile forces wielding one of three generic firearms. The binary detection system persists from earlier entries, where missing a single shot triggers immediate full alertness regardless of distance.
 
-Performance is erratic, running poorly on very high settings before settling into something more acceptable overall. The save system relies entirely on checkpoints, and the slow climbing-down mechanic requires a button press to drop off ledges.
+Technical issues, including a soft-lock after a crash, create friction that contrasts with the satisfying core mechanics. Ladder controls feel counterintuitive, requiring a button press to dismount rather than automatic release.
 
-Overall, the long-range set-pieces and the historical rifles make this a memorable sniper game. The reactive alert system and the repetitive open world dilute the campaign's strengths.
+Overall, the long-range sniping and weapon customisation deliver satisfying tactical combat, yet the open world structure, limited enemy variety, and technical instability prevent the experience from reaching its potential.

@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "The Thaumaturge"
 permalink: /reviews/the-thaumaturge/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2024
 genre: "RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A meaty thirty-hour tale of folkloric demons, political intrigue and a missing grimoire in revolutionary Warsaw."
+summary: "Slavic folklore creatures and turn-based combat deliver a reading-heavy CRPG with genuine supernatural companion mechanics, though performance issues and mixed voice acting interrupt the otherwise immersive investigation."
 image: "/assets/img/reviews/the-thaumaturge.webp"
 ---
 
-The Thaumaturge is an isometric role-playing game from Fool's Theory and 11 bit studios, set in a Warsaw gripped by revolutionary unrest under the Russian Empire. Its protagonist, a thaumaturge who can bind folkloric demons called salutors, returns to the city after his father's death and is drawn into a conspiracy over a missing black grimoire.
+In early 20th century Russia and Georgia, Victor Shulski navigates political unrest whilst investigating family secrets through thaumaturgy, the ability to perceive hidden flaws in souls. The opening moments establish a dark, moody atmosphere blending historical drama with supernatural elements. From the start, the salut system introduces creatures rooted in Slavic folklore with distinct designs and abilities.
 
-Combat is turn-based and built around the bound salutors, each with a unique design drawn from folklore and mythology. Focus, status effects and breakdown states demand planning, though the later double-edged salutors, whose abilities come at a cost, are easy to shun.
+The salut combat variety offers strategic options through unique abilities tied to each supernatural companion. Reading and observation systems provide extensive lore through documents, investigations, and dialogue choices. These mechanics reward patience and curiosity across a substantial campaign.
 
-Between battles the game is investigation-led, with observations gathered from the world and locked in place before they fade. It is a dialogue-heavy experience with a great deal of reading, and the choices made carry weight into the final act.
+Performance issues appear throughout, with frame drops during cutscenes disrupting the otherwise smooth exploration. The prologue establishes the world extensively but runs inconsistently on high-end hardware. These technical problems contrast with the polished narrative design.
 
-The plot moves from the father's funeral through the city's factions, from an anti-thaumaturgy society to the salons of the Imperial Hotel. A confrontation with the city's governor at a royal celebration exposes the hatred behind his butchery, and the close brings a mysterious figure who knows far too much.
+Voice acting delivers mixed quality across characters, with some performances well-executed whilst others feel stilted. The latter half introduces saluts that function as double-edged swords, creating imbalance when others have no costs. These design choices disrupt combat fairness during later encounters.
 
-The voice acting is inconsistent, with some characters delivered very well and others noticeably less so, which makes the quality jarring. Performance issues appear mainly in the early game, the prologue worst of all, though nothing worse than a single textbox glitch emerged.
+The skill tree divides across Heart, Deed, Word, and Mind dimensions, offering progression variety through investigation and dialogue. Turn-based combat demands focus management as saluts consume resources. These systems create depth beyond standard RPG mechanics.
 
-Completing everything takes around thirty hours, with the main story achievable in roughly half that. The collectibles, including little drawings and gramophones, give the dense city a pleasant completionist layer.
+The cultural setting of early 20th century Russia provides historical context through political unrest and folklore integration. Extensive reading requirements establish world-building but may deter those preferring action-oriented gameplay. These narrative elements reward engagement with the setting.
 
-Overall, the fantastic writing, the memorable salutors and the meaty role-playing package make this an easy recommendation. It is a game worth praising, provided you do not mind a lot of reading and a lot of talking.
+Overall, the Slavic folklore creatures and turn-based investigation deliver a reading-heavy CRPG with genuine supernatural mechanics, though performance issues and mixed voice acting interrupt the otherwise immersive world-building.

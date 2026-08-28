@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "Secret of Evermore"
 permalink: /reviews/secret-of-evermore/
-verdict: "recommended"
+verdict: recommended
 platform: "SNES"
 release_year: 1995
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A 16-bit action RPG whose ingredient-based alchemy system replaces magic points with a material economy."
+summary: "Alchemy-driven magic and four distinct time periods deliver a uniquely inventive action RPG, though ingredient gathering and uneven pacing undermine the otherwise inventive progression."
 image: "/assets/img/reviews/secret-of-evermore.webp"
 ---
 
-Secret of Evermore is a 16-bit action RPG in which a boy and his dog are zapped into Evermore when an experiment goes wrong. The game is one world divided into four distinct eras, from a prehistoric jungle to a gothic castle age and a modern town.
+Ingredient-based alchemy replaces traditional magic points, demanding constant experimentation with found materials to unlock new spells. This system transforms every combat encounter into a resource management challenge, where combining bones, claws, and minerals produces effects ranging from healing aura to offensive fireballs. The absence of MP restrictions means spells never feel gated behind arbitrary thresholds.
 
-The alchemy system is the defining feature, replacing magic points entirely with spells mixed from ingredients. Repeated use levels each spell up, and once levelled the magic lets the hero steamroll most encounters.
+Between combat sequences, four distinct time periods shift the environmental palette dramatically, with prehistoric jungles giving way to ancient ruins, medieval castles, and futuristic laboratories. Each era introduces unique enemies and terrain while maintaining mechanical continuity through the shared alchemy framework.
 
-The dog companion transforms with each era and fights alongside the hero, sniffing out hidden items and operating switches the boy cannot reach. The humour carries much of the atmosphere, with B-movie one-liners and absurd museum exhibits.
+Dog companion Buddy levels up independently, adding personality through contextual barks and reactions that transform solo exploration into a partnership. Different bark types provide healing, damage, or utility depending on the situation.
 
-Combat runs on a charge-bar system in which every attack waits for a meter to fill, playing like an action RPG with turn-based pacing. The low hit rate causes frequent whiffs even at melee range, making ordinary fights more tedious than they should be.
+The alchemy system rewards experimentation by increasing spell proficiency through repeated use, with identical ingredient combinations strengthening their effects over time. This progression structure means favourite spells become noticeably more potent, creating a natural incentive to revisit earlier recipes rather than discarding them.
 
-Ingredients appear in small amounts and mostly have to be bought, which drives much of the game's grinding. The first boss is a brutal difficulty spike, though farming the flash spell turns the fight around.
+Ingredient scarcity creates friction during extended dungeon sequences, with many materials appearing in limited quantities that force repeated visits to shopkeepers. The tedium of gathering bones and herbs contrasts with the satisfaction of discovering new combinations.
 
-The camera scrolls too late near screen edges, letting enemies land hits before they appear. The game remains remarkably stable for its age, with a single dungeon soft-lock the only serious fault across the campaign.
+Bugs surface occasionally, with visual glitches and input delays appearing during busy combat scenes. One instance blocks progress entirely, requiring a specific workaround to bypass. These technical issues feel characteristic of the era rather than critical design failures.
 
-Overall, the ingredient-based alchemy and the four-era world make the campaign memorable and enjoyable. The whiff-prone combat and the grindy economy are the real costs of its best ideas.
+Overall, the alchemy system and four-era structure deliver an action RPG with mechanical depth and environmental variety. Ingredient scarcity and occasional technical issues prevent the experience from maintaining consistent momentum, yet the inventive spellcraft and varied settings sustain engagement across the journey.

@@ -3,25 +3,23 @@ layout: review
 date: 2026-07-14
 game_title: "Lies of P"
 permalink: /reviews/lies-of-p/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2023
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An action RPG whose weapon crafting, music and story make it phenomenal despite punishing multi-phase bosses."
+summary: "Tight combat with excellent weapon variety and a compelling Pinocchio narrative elevate this Souls-like, though confusing dodge mechanics and long boss combos frustrate throughout."
 image: "/assets/img/reviews/lies-of-p.webp"
 ---
 
-Lies of P is an action role-playing game from Neowiz and Round8 Studio, reimagining Pinocchio in a dark Belle Époque city. The complete run took roughly thirty-four hours, covering every chapter, all fifteen main bosses, the credits and the Overture DLC in full.
+Pinocchio awakens in the puppet city of Krat, guided by the cricket Gemini to become human whilst navigating a world of lies and alchemists. The premise establishes a sombre, melancholic atmosphere with classical music underscoring the tragedy. The Victorian puppet aesthetic creates a distinctive visual identity that persists throughout. The guard regain mechanic establishes combat that rewards aggressive play after blocking.
 
-The weapon assembly system is the standout idea, with most blades combining with most handles and the stat scaling living entirely on the handle. The combat loop clicks once learned, with perfect guards nullifying damage and enough perfect guards breaking an enemy weapon outright.
+Third-person combat handles sword strikes, fable arts, and weapon customisation. The guard regain system transfers blocked damage to a meter recoverable through attacking. Weapon versatility encourages switching between multiple weapons rather than committing to one. The level-up system using ergo provides clear stat recommendations.
 
-The quality-of-life choices help, with lost erggo drops placed outside boss fog walls and the P-organ upgrade tree adding depth. The music is praised throughout, with the collectable records tying directly into the humanity mechanic and Feel standing out as a favourite.
+Art direction presents detailed Victorian environments with atmospheric lighting that captures the Belle Époque. The soundtrack features sombre classical compositions shifting between melancholic exploration themes and dramatic combat arrangements. Boss encounters span 15 main bosses and 15 mini-bosses with varied attack patterns. The puppet city rewards exploration with interconnected shortcuts and hidden areas.
 
-The allied-NPC boss fights are highlights, from the Two-faced Overseer to the DLC duel with Leia Florence. The Anguished Guardian of the Ruins is the favourite boss, a giant fight that never battles the camera.
+Dodging mechanics create confusion between rolling when unlocked and side-stepping when locked on. Some bosses suffer from excessively long attack chains. The Simon Manus fight proves frustratingly long. The Mad Clown Puppet mini-boss delivers particularly annoying patterns.
 
-The multi-phase boss design is the recurring complaint, with long combo strings and a full health-bar reset at each phase. Lumachio is the worst of it, healing twice over the course of the fight.
+The lying system affects narrative outcomes through honest or deceptive choices. The Pinocchio-inspired themes of truth and humanity provide emotional weight. Quality of life features including teleportation between stargazers maintain momentum.
 
-The camera struggles on big enemies, at times making the foe completely invisible. Weapon collisions with walls are a constant irritant, and the vanishing text boxes are too quick to read.
-
-Overall, the weapon crafting, the music and the story make this a phenomenal game. The multi-phase bosses and the camera are the caveats.
+Overall, the tight combat with excellent weapon variety and compelling narrative create a top-tier Souls-like. Confusing dodge mechanics and long boss combos occasionally undermine the satisfying challenge.

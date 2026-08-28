@@ -3,25 +3,23 @@ layout: review
 date: 2026-07-11
 game_title: "Loop//Error"
 permalink: /reviews/loop-error/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2025
-genre: "Visual Novel"
+genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A psychological horror visual novel whose found-footage aesthetic and four short endings make it a creative, memorable loop."
+summary: "Striking one-bit aesthetic and emotionally resonant time loop narrative create a compact psychological horror, though limited branching in early choices may disappoint."
 image: "/assets/img/reviews/loop-error.webp"
 ---
 
-Loop//Error is a visual novel from a solo developer, casting a gas-station worker into a Groundhog Day loop of night shifts and dead-of-night drives. The complete run took just over an hour, reaching all four endings and every achievement.
+A man receives a mysterious phone call about his best friend Peter, discovering he is trapped in a time loop at the place where time dies. The premise establishes an unsettling atmosphere through one-bit pixel art that creates pareidolia, with faces appearing where none may exist. The narrative reveals guilt over failing to save a mother, weaving psychological horror through time loop mechanics. The visual aesthetic immediately strikes with its found-footage inspired presentation.
 
-The found-footage aesthetic is the hook, with the Game Boy camera style making the lo-fi presentation read as spookier. The brain starts seeing things that probably do not exist in the image, with the layout messing with perception.
+Choice-based branching drives the visual novel progression through four distinct endings reached through different decisions. Each ending delivers approximately fifteen minutes of narrative payoff, making completionist playthroughs satisfying rather than tedious. The bicycle man's dialogue adds layers upon replay, with his role as a future version of the protagonist creating recursive depth. An achievement system tracks completion across all four paths.
 
-The loop premise drives the narrative, with the monotony of wake, work, sleep and repeat shaping the story. The dead-of-night drive stands out, with the world stopping existing outside the reach of the headlights.
+Art direction presents detailed one-bit pixel art that generates unease through minimal detail and suggestive imagery. The VHS-inspired visual effects enhance the analog horror atmosphere throughout. Sound design features ambient noise, whispering voices, and atmospheric compositions that build tension. The bicycle man's face and dialogue create particularly memorable horror that persists.
 
-The writing unfolds like a collection of short stories, with a letter found in the protagonist's own handwriting deepening the mystery. The guilt that drives the loop is framed as a prison built by the brain out of guilt and habit.
+Some dialogue choices prove flavour rather than consequential, creating false expectations. The mailbox letter remains fixed regardless of path taken. Jump scares appear but remain manageable, with whispering voices proving more disturbing. The limited branching in early sections may disappoint.
 
-The four endings make separate playthroughs worthwhile, with each run lasting only fifteen minutes. The solo craftsmanship impresses, with every word, frame and line of code credited to one pair of hands.
+The solo development impresses throughout, with every word, frame, and line of code crafted by one person. The final screen confirming this dedication adds poignancy.
 
-The opening chapter must be replayed for each ending with no way to skip ahead, which is the worst part of the experience. The branching is limited and some choices are flavour only, though the short length suits the format.
-
-Overall, the found-footage aesthetic, the looping narrative and the four endings make this a very creative game. The replayed opening and the limited branching are the caveats.
+Overall, the striking one-bit aesthetic and emotionally resonant time loop narrative create a compact psychological horror. Good writing and atmospheric design prove meaningful horror does not need length.

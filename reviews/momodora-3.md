@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-14
 game_title: "Momodora III"
 permalink: /reviews/momodora-3/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2014
-genre: "Platformer"
+genre: "Action, Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A brisk linear platformer whose item system, two playable priestesses and short length make it a fun little hour."
+summary: "Ghost companion and speed ring deliver entertaining power fantasies in a tightly paced linear platformer, though bomb enemies with insta-kill damage and controller input issues undermine the otherwise satisfying combat."
 image: "/assets/img/reviews/momodora-3.webp"
 ---
 
-Momodora III is a platformer from Bombservice, returning the series to a linear level-based structure after the metroidvania of the predecessor. The complete run took just over an hour, covering both endings, full completion and the new game plus mode.
+Leaf-based combat returns in this linear action platformer that shifts away from its predecessor's Metroidvania structure. A ghost companion summoned through a summon stone provides ranged attack support, creating entertainingly overpowered combat encounters. The speed ring adds movement variety, increasing jump height and traversal speed at the cost of heightened damage taken.
 
-The two playable priestesses offer distinct campaigns, a series first for the franchise. The item-and-ring equip system replaces the leaner structure of the earlier entry, with the dream ring, the speed ring and the love letter shaping the loadout.
+Item trade-offs define progression, with each equipment choice balancing offensive capability against defensive vulnerability. The dream ring, ceremonial fabric, and various accessories offer distinct mechanical advantages. New Game Plus persists all items while adding false Watts that unlock additional equipment slots up to a maximum of seven.
 
-The summon-stone helper ghost attacks on its own, proving kind of broken but pretty cool in the fights. The extreme knockback is the main hazard, with a single hit sending the character flying across the screen.
+Bomb enemies deal insta-kill damage with inconsistent hit detection, creating frustration during precision platforming sections. Water sections with fish boss encounters suffer from floaty physics that undermine control responsiveness. Controller input registration fails when pressing multiple buttons simultaneously, limiting combat options during intense encounters.
 
-The item system rewards experimentation, with the love letter healing on kills, the golden flower doubling money and the bomb spell adding range. The costume seed plants a bonus area with an optional boss, extending the short campaign.
+The summon stone introduces the ghost companion mechanic, a spectral ally that autonomously attacks nearby enemies. The ghost's ranged attacks trivialise many encounters, becoming increasingly powerful as item combinations compound its damage output. Its entertainment value stems from the absurd spectacle of clearing rooms without direct engagement.
 
-The level design carries the campaign, with the six main stages plus the time-distortion and final areas keeping the pace brisk. The two-ending structure echoes the series, with credits only on the kinder path.
+Six distinct areas provide environmental variety, with boss encounters testing combat and platforming skills in equal measure. A shop system allows item purchases between areas, supplementing exploration-based rewards. Dual endings based on final encounter choices add narrative consequence to mechanical decisions.
 
-The contact damage is a recurring annoyance, with the touch of an enemy costing health and the knockback compounding it. The bomb-carrying enemies are the main caveat, with the inconsistent instant-kill explosions cheapening the fights.
+Pixel art visuals maintain the series' established aesthetic, with distinct area themes providing visual variety. The linear structure ensures focused progression through each environment without backtracking.
 
-Overall, the level design, the item system and the brisk pacing make this a fun little platformer worth an hour of anyone's time. The knockback and the instant-kill bombs are the caveats.
+Overall, the ghost companion and item trade-off system deliver an entertaining linear platformer with satisfying combat variety. Bomb enemy insta-kill damage and controller input limitations prevent the experience from reaching its full potential.

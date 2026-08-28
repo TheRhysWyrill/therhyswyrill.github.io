@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "Strangeland"
 permalink: /reviews/strangeland/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2021
 genre: "Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A surreal point-and-click adventure in which a nameless stranger searches a nightmarish carnival for a woman who threw herself down a well."
+summary: "A philosophically rich point-and-click that uses carnival imagery to explore grief, elevated by strong voice acting and a unique death-is-not-punishment mechanic."
 image: "/assets/img/reviews/strangeland.webp"
 ---
 
-Strangeland sends the nameless stranger Quarant through a nightmarish carnival in search of the golden-haired woman who threw herself down a well. Every resident he meets, from the blind scribe to the furnace numbered 83, turns out to be a fragment of his own mind.
+A man searches for a golden-haired woman who threw herself down a well, encountering cryptic characters who deliver fragmented wisdom through carnival imagery. The narrative unfolds through encounters with a blind poet, a furnace with personality, and a talking raven, each exploring grief and self-reflection. Voice acting elevates the philosophical dialogue beyond typical point-and-click fare.
 
-The carnival is a mental landscape of guilt, with the dark thing above killing everything it touches and deactivating the rides. The reveal lands late and hard, as the mirror tells the stranger that the woman is dead and the whole park is an evasion of his own self-loathing.
+Point-and-click mechanics drive inventory puzzles, environmental exploration, and dialogue trees. The death mechanic proves distinctive, with dying resetting to the last checkpoint without penalty, encouraging experimentation rather than punishment. The shooting gallery puzzle initially frustrates until a sensitivity switch is discovered that slows the targets.
 
-The gameplay is classic point-and-click, with dialogue trees, a nine-slot inventory, item combining and connected areas to explore. Puzzle chains include forging a beak to open a rat stuffed with coins and decoding the pay phone number 4311013 from a tarot reading.
+Mirror shard reassembly in the final act demands piecing together broken fragments that reflect the protagonist's true self. Environmental puzzles reward observation and lateral thinking, though some solutions require obscure logic.
 
-Death carries no penalty, with the stranger simply respawning at the nearest safe point, a design choice the run found refreshing. Three endings reward the completionist, with the orb ending dissolving the shadow as the good one.
+The dark thing confrontation delivers the emotional peak, with the entity revealing itself as the protagonist's shadow. Three endings offer meaningful choices between resignation and rejection of darkness, each providing closure to the philosophical journey.
 
-The surreal aesthetic, the joke-telling humour and the recognisable voice cast keep the carnival memorable throughout. The tarot reading that hides the phone number is a standout puzzle, and the mirror's final monologue is the game's best writing.
+Mouse-only controls create friction during precision puzzle sections, though this matches the deliberate pace of exploration. Limited replayability exists after completing all endings, though the narrative rewards revisiting earlier scenes with new understanding.
 
-The shooting gallery is nearly impossible until the player finds the control box that slows the targets, and the mouse sensitivity option does nothing. The mirror-shard puzzle barely rotates its pieces, and feeding the teratoma is a tedious repetition.
+The philosophical ambition distinguishes this from typical point-and-click adventures, with carnival imagery serving as metaphor for life's absurdity. Strong voice performances maintain engagement through abstract dialogue sequences.
 
-Overall, the carnival of the mind, the literary writing and the consequence-free deaths made the playthrough fun from the first joke to the final mirror. The frustrating puzzles and the deliberately opaque symbolism are the price of entry, but the journey is worth it.
+Overall, the philosophical narrative and death mechanic deliver a point-and-click with genuine identity, yet the shooting gallery frustration and mouse-only controls prevent the atmosphere from fully establishing itself.

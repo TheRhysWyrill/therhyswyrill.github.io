@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-28
 game_title: "Medal of Honor: Heroes 2"
 permalink: /reviews/medal-of-honor-heroes-2/
-verdict: "recommended"
+verdict: recommended
 platform: "PSP"
 release_year: 2007
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A first-person shooter whose visual leap, compact campaign and strong weapons make it a good little PSP shooter."
+summary: "Impressive visuals for PSP and satisfying MP40 handling create a solid portable shooter, though the final bunker level's enemy spam and absent checkpoints cause significant frustration."
 image: "/assets/img/reviews/medal-of-honor-heroes-2.webp"
 ---
 
-Medal of Honor: Heroes 2 is a first-person shooter from EA Los Angeles, running a compact campaign on the PlayStation Portable. The complete run takes just over three hours on the PSP version, from the Normandy beachhead through the full seven-mission campaign.
+A portable World War II first-person shooter follows Lieutenant Berg on OSS operations in Northern France with expansive multi-area missions. Visual quality represents a significant step up from the first Heroes game with improved textures and environments throughout each level.
 
-The visual step up from the first game is the headline, with the PSP release looking quite a bit better throughout. The MP40 is a favourite weapon, with the gun making the soldier practically unstoppable in firefights.
+Regenerating health system works but depletes too quickly, placing players dangerously near death after brief firefights. The MP40 becomes the default weapon through consistently strong performance across all mission types. Optional secondary objectives encourage exploration beyond the main path, though the game never indicates their locations. Squad command mechanics exist but prove largely ineffective throughout the campaign.
 
-The premise lands, with the reprisal-weapon framing giving the campaign a clear spine throughout. The compact length and brisk pacing suit the format, with the seven missions split and the times varying nicely.
+Sound design delivers authentic weapon reports while the atmosphere captures WWII military tone appropriate for the portable PSP hardware overall. Mission variety spans open fields, urban environments, and interior bunker sections.
 
-The medal and promotion loop rewards completion, with the walkthrough-assisted secondary objectives adding depth. Hip fire works better than aiming down the sights, and the run-while-reloading flow keeps the action moving at a good clip throughout.
+The final bunker level throws excessively large enemy waves at players without checkpoint protection. A fifteen-plus minute gauntlet with no saves forces complete restarts upon each death.
 
-The enemy overload is the dominant complaint, with waves of soldiers spawning at will and the firefights dragging on far too long. The regenerating health is far too weak, with the soldier dying very fast even on the normal difficulty.
+Squad AI disappoints as troops rarely engage enemies and lag behind during firefights while the regenerating health depletes faster than the first game's health bar. Running feels underwhelming with minimal speed increase despite the dedicated animation.
 
-The teammate AI is useless, with the squad standing around looking good instead of fighting. The controls are a persistent frustration, with the unresponsive aiming making precision shots a real chore.
+The mission structure splits levels into multiple areas that feel significantly larger than typical portable shooters overall. Brief narrative beats between missions maintain momentum without overwhelming the action focus.
 
-Overall, the visual leap, the compact campaign and the strong weapon selection make this a good, compact little shooter. The enemy spam and the weak health regen are the main caveats.
+Overall, impressive PSP visuals and satisfying weapon handling make this worthwhile despite significant flaws. The brutal final section and weak health system prevent it from matching the first game's balance.

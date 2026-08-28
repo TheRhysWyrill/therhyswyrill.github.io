@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-14
 game_title: "Momodora: Reverie Under the Moonlight"
 permalink: /reviews/momodora-reverie-under-the-moonlight/
-verdict: "recommended"
+verdict: recommended
 platform: "Xbox One"
-release_year: 2017
+release_year: 2016
 genre: "Metroidvania"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A cute metroidvania whose bow-focused combat, quiet atmosphere and exploration make it a good entry despite contact damage."
+summary: "Cat transformation mechanic and compact Metroidvania structure deliver tightly paced exploration, though contact damage and enemy tracking attacks create consistent friction during combat."
 image: "/assets/img/reviews/momodora-reverie-under-the-moonlight.webp"
 ---
 
-Momodora: Reverie Under the Moonlight is a metroidvania from Bombservice, sending the high priestess Kaho to the kingdom of Karst to seal a spreading curse. The complete run took around four hours, covering both endings, all twenty ivory bugs, the secret boss and full map completion.
+Leaf-based combat and a cat transformation mechanic define this compact Metroidvania set in the Kingdom of Cast. Kaho, a priestess from the village of Lun, journeys to seek the Queen's aid against a spreading curse. The prequel setting provides context for the entire series' lore through environmental storytelling.
 
-The bow-focused combat is the standout, with the charged shots and the elemental arrows rewarding a ranged approach. The double jump, the mid-air dash and the dodge roll with invincibility frames keep the movement sharp and responsive.
+Cast City provides an eerie, quiet atmosphere that contrasts with more vibrant outdoor areas. The unsettling ambience builds tension through environmental design rather than explicit horror. NPC encounters and scattered details convey narrative through observation rather than dialogue.
 
-The warping between the save altars eases the backtracking across the quiet city and monastery spaces. The quiet, ominous atmosphere holds throughout the campaign, with the unnerving silence noted again and again.
+Contact damage from enemies creates frustrating encounters during early exploration, particularly with poison enemies that punish mistakes harshly. Enemy tracking attacks undermine combat responsiveness, with projectiles adjusting trajectory before impact. Ivory bug collection proves tedious, requiring pixel-perfect precision to locate tiny collectibles hidden throughout the map.
 
-The charm system and the bellflower healing shape the loadout, while the twenty ivory bugs feed a gentle collection quest for the bunny florist. The green leaf upgrade arrives late and points toward a different, kinder conclusion.
+The cat transformation mechanic unlocks small passages and different movement capabilities. Cat form provides distinct jumping behaviour that opens alternative traversal paths. Double jump, wall jump, and dodge rolling expand combat and exploration options across interconnected regions.
 
-The difficulty steps up over the earlier games, with the squishy protagonist and the instant-death spikes punishing mistakes hard. The contact damage is the biggest complaint, with the touch of an enemy costing health and momentum.
+The warp system unlocked mid-game greatly improves traversal between altar points. Secret boss encounters provide surprise challenges beyond the main progression path. Companion creature system provides passive buffs that supplement combat capabilities.
 
-The larger sprites and the detailed presentation mark the series' evolution, with the character models roughly quadrupled in size. The secret optional boss and the dev room reward full completion very handsomely.
+Leaf-based combat combines with bow and seal attacks for varied offensive options. Multiple endings based on equipment choices add narrative consequence to mechanical decisions. The compact runtime ensures focused progression without filler content.
 
-Overall, the bow combat, the exploration and the quiet atmosphere make this a good, cute metroidvania worth the frustration. The contact damage and the difficulty spikes are the main caveats.
+Overall, the cat transformation mechanic and compact Metroidvania structure deliver a tightly paced experience with satisfying exploration. Contact damage and early-game poison enemies create friction, but the warp system and secret encounters sustain engagement throughout.

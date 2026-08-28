@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-21
 game_title: "Super Mario Odyssey"
 permalink: /reviews/super-mario-odyssey/
-verdict: "recommended"
+verdict: recommended
 platform: "Switch"
 release_year: 2017
 genre: "Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A play-anything hat capture system, deep movement tech and brilliantly varied themed kingdoms sustain a joyful platforming adventure."
+summary: "A brilliantly creative 3D platformer with a capture mechanic that constantly surprises, deep movement systems, and stunning world design, marred only by an excessively punishing final challenge level."
 image: "/assets/img/reviews/super-mario-odyssey.webp"
 ---
 
-Super Mario Odyssey rests on the capture mechanic, which turns nearly every enemy, object and creature into a playable form, from Bullet Bills and Goombas to a lumbering T-Rex. That sense of boundless possibility defines the adventure, and its creative spark never dims across the themed kingdoms.
+Bowser kidnaps Princess Peach again, and Mario teams up with Cappy, a hat spirit whose sister was also kidnapped, to pursue Bowser across multiple kingdoms. The narrative remains deliberately minimal, with each kingdom providing context for its theme and mechanics. The world-building through kingdom design creates a constantly surprising experience.
 
-Movement depth carries the platforming, with the cap dive, long jump and roll chaining into satisfying shortcuts that save falls and cover vast distances. The controls are responsive enough that momentum mastery feels genuinely rewarding rather than mechanical.
+The capture mechanic allows throwing Cappy to possess enemies and objects, granting new abilities that transform gameplay. Turning into a T-Rex, frog, or tank provides constant variety, with each capture offering distinct movement and attack patterns. The 999 Power Moons provide endless content for completionists seeking thorough exploration.
 
-The kingdom structure provides the adventure's backbone, each world carrying its own currency, outfit, boss encounter and regional secrets. The sand Kingdom is vast while smaller worlds stay compact, and the balance between the two shows how well the pacing holds.
+Movement systems reward mastery through long jumps, ground pounds, and cap throw combinations that create fluid traversal across kingdoms. Each kingdom offers distinct aesthetics, music, and mechanics that maintain engagement throughout the adventure.
 
-Visuals and audio sustain the polish, with the 2017 title still described as genuinely pretty and its kingdom themes lingering long after play. The New Donk City festival sequence stands out as a musical high point that proves hard to shake.
+The Darker Side level presents an extremely punishing gauntlet combining every mechanic with no checkpoints. This brutal challenge blocks 100% completion and demands perfect execution across extended sequences.
 
-The post-game is unusually generous, reworking every kingdom with moon rocks, boss rematches, races and achievements that extend the journey well past the credits. Regional purple coins fund outfits and souvenirs for the Odyssey, giving collection a clear purpose.
+Motion controls occasionally frustrate during precision platforming, requiring specific gestures that conflict with traditional input methods. Camera issues in certain sections limit visibility during complex manoeuvres, though these moments remain brief.
 
-A handful of optional minigame Moons frustrate, most notably the beach volleyball rally and the rolling challenge in the Wooded Kingdom, where a single slip sends the adventure deep into a forest with no fast travel. Motion-controlled moves also attract mild criticism for lacking button alternatives.
+Kingdom-specific soundtracks enhance atmosphere through distinct musical identities that complement visual design. The vibrant aesthetic maintains consistent quality across diverse environments, from desert ruins to tropical islands, each with its own visual personality.
 
-Overall, world design excels because the capture mechanic, movement depth and generous content outweigh the occasional punishing Moon. The final checkpoint-less gauntlet is the only real blemish on an adventure that remains an easy recommendation.
+Overall, the capture mechanic and world design deliver a brilliantly creative 3D platformer with deep movement systems, yet the Darker Side level and motion control frustrations prevent the experience from reaching perfection.

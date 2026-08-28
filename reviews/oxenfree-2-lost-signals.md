@@ -3,25 +3,25 @@ layout: review
 date: 2026-08-13
 game_title: "Oxenfree II: Lost Signals"
 permalink: /reviews/oxenfree-2-lost-signals/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2023
 genre: "Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A supernatural mystery adventure where dialogue choices no longer cut off the speakers, making every conversation flow far more naturally."
+summary: "Improved dialogue system and Jacob-Riley relationship deliver a satisfying narrative adventure that resolves original mysteries, though awkward radio mechanics and underutilised time tears create friction during exploration."
 image: "/assets/img/reviews/oxenfree-2-lost-signals.webp"
 ---
 
-Oxenfree II: Lost Signals sends researcher Riley back to her hometown of Camena to plant radio transmitters along the coast. Handyman Jacob Summers joins her for the night shift, and the pair soon get caught in a time loop tied to a portal over Edwards Island.
+Walkie-talkie conversations define this narrative adventure where Riley investigates mysterious radio signals along the Oregon coast. The improved dialogue system waits for characters to finish speaking before presenting options, resolving the original's cutoff issue. Time-distortion crises linked to Edward's Island draw Riley and Jacob into supernatural danger.
 
-The dialogue system is the sequel's finest fix, because choosing a line no longer cuts off whoever is speaking. The first game's constant interruptions are gone, and exchanges wait for the speaker to finish, letting the naturalistic writing breathe.
+Jacob and Riley's dynamic creates the emotional core, with two damaged people helping each other through crisis. The relationship develops naturally through dialogue choices and shared exploration. The Oregon coast setting establishes atmospheric isolation through environmental storytelling.
 
-The time tears are a clever addition, letting the pair slip between eras through rifts in old mines and churches. They appear only a handful of times, yet each reshapes a puzzle around a different slice of history, so the rare use feels deliberate.
+Time tears allow travel to different historical periods, adding puzzle-solving variety through temporal mechanics. Maggie Adler collectible letters expand worldbuilding with lore fragments. Environmental puzzles using climbing gear supplement the narrative progression.
 
-Maggie Adler's journals anchor the mystery, tying the ghostly radio voices to the USS Canaloa, a submarine lost off the island in 1943. The truth about its crew and about the group from the first game unfolds slowly, and the continuity rewards attentive play.
+Radio-based puzzle locks remain somewhat awkward, requiring channel-switching that disrupts exploration flow. Time tears prove engaging when deployed but appear too infrequently across the campaign. The mechanic's potential feels underexplored given its creative possibilities.
 
-Riley and Jacob carry the whole night, and their bickering, confession and quiet friendship never outstay their welcome. Every side character still gets a visit, from a retired sailor to a paranormal investigator, so the town feels lived in rather than merely sketched.
+The walkie-talkie system allows simultaneous conversations with multiple characters, creating dynamic dialogue scenarios. Environmental storytelling through architectural details and scattered notes adds depth without explicit exposition. The pacing consistently prioritises character moments over action, maintaining measured narrative momentum.
 
-The radio locks initially baffle, because the trick of finding a signal and standing still takes a while to grasp. The moral greyness of the trapped teenagers is the strangest element, but it is handled with enough care to land as drama rather than cruelty.
+The narrative ties up Oxenfree mysteries satisfyingly while establishing its own identity. Character development feels earned through dialogue choices and shared experiences. The conclusion provides closure without demanding completionist investment.
 
-Overall, the improved dialogue and the Riley and Jacob dynamic carry a longer, richer mystery than the original. This sequel fixes its predecessor's biggest flaw and ends the story on a neat, affecting bow.
+Overall, the improved dialogue system and Jacob-Riley relationship deliver a satisfying narrative adventure with emotional depth. Awkward radio mechanics and underutilised time tears create friction, but the character-driven storytelling sustains engagement throughout.

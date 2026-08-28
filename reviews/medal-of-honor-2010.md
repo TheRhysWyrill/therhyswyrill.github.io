@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-28
 game_title: "Medal of Honor (2010)"
 permalink: /reviews/medal-of-honor-2010/
-verdict: "recommended"
+verdict: recommended
 platform: "PS3"
 release_year: 2010
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A first-person shooter whose gritty modern setting, mission variety and compact runtime make it a serious, memorable campaign."
+summary: "Serious tone and satisfying gunplay create a focused military shooter, though the restrictive ammo system limits weapon experimentation throughout."
 image: "/assets/img/reviews/medal-of-honor-2010.webp"
 ---
 
-Medal of Honor (2010) is a first-person shooter from Danger Close, rebooting the long-running series in the modern War in Afghanistan. The complete campaign runs roughly four and a half hours, from the opening mission to the closing extraction.
+A grounded military shooter set during the 2001 War in Afghanistan follows Tier 1 operators on high-stakes missions. The serious tone distinguishes it from arcade-style military shooters, creating genuine emotional weight throughout the entire campaign.
 
-The tonal shift is the defining feature, with the game feeling grittier and more serious than the series' earlier entries. The mission variety pleases, with the Tier 1 squad infiltration, the Ranger firefights and the aircraft missions each changing the pace of the campaign.
+Linear level design delivers a tight, focused campaign completed in under five hours without overstaying its welcome. Cover system and iron sights handle responsively across varied environments from dusty villages to mountain compounds. The PKM machine gun and long-range shotgun both perform surprisingly well despite limitations. Firing mode switching between single and automatic adds tactical depth to encounters.
 
-The Wolfpack stealth village is the standout mission, with silent weapons allowing every enemy to be taken quietly. The thermal optics prove incredibly useful, and the soundtrack holds up apart from the Apache level's one unconvincing song.
+Visual quality impresses for its age with gritty military aesthetics and detailed character models throughout the campaign. Sound design features satisfying weapon reports and environmental audio that enhance immersion throughout each mission.
 
-The fast time-to-kill suits the serious tone, with four shots enough to drop the soldier. The presentation moments land, with the night sky, the optics details and the speaker-indicating icon all impressing.
+The ammo system limits weapon experimentation as allies rarely provide ammunition when requested during intense firefights. Enemies do not consistently drop weapons, making the shotgun a default choice through necessity rather than preference.
 
-The Apache mission is the biggest frustration, with the targets near impossible to spot from the air. The visibility struggles throughout the ground sections, with the heavy smoke, the shadowed corners and the similar colour palette obscuring the enemy.
+Spawn points sometimes appear too obviously out in the open, breaking immersion occasionally during intense firefights. The chopper section features a frustrating hidden target that resists damage for unclear reasons.
 
-The ammo economy punishes experimentation, with switched weapons leaving the soldier unable to restock from allies. The reload and ammo-request controls share a button, and the visible enemy spawning breaks the illusion in full view.
+The emotional weight of character moments creates genuine impact during critical scenes while weapon handling remains satisfying despite the ammo constraints throughout. Visual quality holds up well across varied environments throughout the campaign.
 
-Overall, the gritty setting, the mission variety and the compact runtime make this a serious and memorable modern shooter. The Apache mission and the murky visibility are the caveats.
+Overall, serious tone and satisfying gunplay create a focused military shooter worth experiencing. The restrictive ammo system limits experimentation, but the grounded storytelling and emotional character moments compensate effectively.

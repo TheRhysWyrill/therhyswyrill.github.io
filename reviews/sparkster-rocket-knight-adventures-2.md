@@ -3,25 +3,25 @@ layout: review
 date: 2026-08-16
 game_title: "Sparkster: Rocket Knight Adventures 2"
 permalink: /reviews/sparkster-rocket-knight-adventures-2/
-verdict: "recommended"
-platform: "Sega MegaDrive"
+verdict: not-recommended
+platform: "Sega Mega Drive"
 release_year: 1994
 genre: "Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A sword-swinging platformer whose buried-key hunt, rocket-powered movement and kick-ass soundtrack outweigh its rough hitboxes and a brutal final boss."
+summary: "Satisfying jetpack movement and occasional level variety are undermined by terrible hitboxes, unclear boss mechanics, and an unfairly difficult three-phase final boss."
 image: "/assets/img/reviews/sparkster-rocket-knight-adventures-2.webp"
 ---
 
-Sparkster: Rocket Knight Adventures 2 continues the series' platforming with sword combat, a rocket-pack screw attack and a collect-and-progress structure built around buried swords. The Mega Drive soundtrack is a clear highlight, with the later stages' themes singled out as kick-ass.
+A 16-bit side-scrolling platformer with jetpack-powered movement places Sparkster on another rescue mission across stages that shift abruptly between platforming, mech combat, and ship exploration. The core loop involves fighting through levels, collecting coins to trigger roulette bonuses every ten, and defeating bosses. The rocket dash mechanic provides satisfying horizontal traversal, while the roulette system adds unpredictability to power-up acquisition.
 
-The search for the seven Keys to the Seal gives every stage a tangible objective beyond reaching the exit. Gathering them rewards the golden transformation, a satisfying payoff that makes the collection effort feel worthwhile.
+Hitboxes remain consistently problematic throughout, with collision detection that fails to match visual boundaries. Boss fights require specific knowledge with no clear telegraphing, leaving players to guess at attack patterns through trial and error. The difficulty curve escalates sharply compared to the original, with save states becoming necessary rather than optional.
 
-Boss encounters lean on creative gimmicks, from an electricity fight that demands careful dodging to a battle where both fighters swap places. These set-pieces are the campaign's most memorable moments, even when their rules take a while to read.
+The mech fight segment introduces variety through oversized combat sequences, though the transition from standard platforming lacks narrative justification. Music quality remains high across stages, providing energetic accompaniment to the action.
 
-The mech duel is the low point, since the opposing machine constantly walks away and drags the fight into a tedious chase. The block button offers little help, and the enemy's oversized health pool makes the encounter feel endless.
+The three-phase final boss demands perfect execution across all forms, requiring ten total hits while navigating force field attacks and pattern memorisation. The difficulty spike at this encounter creates an almost insurmountable wall that transforms the experience from challenging to punishing.
 
-Hitboxes are the campaign's recurring flaw, with contact zones that rarely match what appears on screen. Cheap deaths and instant-restart traps punish exploration, while the bouncing rocket attack offers too little control to avoid them reliably.
+Random bonus games between stages provide momentary distractions, though they do nothing to address the core balance issues. The coin collection system rewards exploration but lacks meaningful payoff beyond the roulette mechanic, with each roulette spin offering unpredictable results.
 
-Heavy slowdown appears in the busiest sections, and several bosses hide their weak points behind confusing patterns. Save states are almost essential for the final boss, whose three distinct phases demand ten hearts of flawless play.
+Stage variety keeps environments visually distinct, even when the mechanics within them remain frustrating. Health pickups appear generously in some sections, offering brief reprieves from the mounting pressure before the next encounter.
 
-Overall, the music and the sword-collection structure carry the experience through its rougher patches. Everything outside the finale is mostly okay, and the platforming stays enjoyable from start to finish.
+Overall, the jetpack movement and occasional level variety demonstrate potential, yet the terrible hitboxes, unclear boss mechanics, and unfairly difficult final boss prevent the experience from reaching its intended appeal.

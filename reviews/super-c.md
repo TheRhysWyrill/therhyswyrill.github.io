@@ -3,25 +3,25 @@ layout: review
 date: 2026-08-13
 game_title: "Super C"
 permalink: /reviews/super-c/
-verdict: "recommended"
+verdict: recommended
 platform: "NES"
 release_year: 1990
 genre: "Shooter"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A sequel that fixes the first game's tiny bullets and keeps the machine gun fun, while its top-down stages take the jump away."
+summary: "Improved bullet visibility and nonsensical boss designs elevate this Contra sequel, though frustrating top-down sections and an abrupt ending undermine the otherwise satisfying run-and-gun action."
 image: "/assets/img/reviews/super-c.webp"
 ---
 
-Super C is the 1990 NES follow-up to Contra, ported from the arcade sequel and played immediately after its predecessor. Its most obvious improvement is visible at once: the bullets are far larger and easier to track than the first game's tiny pills.
+The sequel to Contra delivers eight areas of run-and-gun action with alternating side-scrolling and top-down perspectives. Improved bullet visibility over the original makes enemy projectiles more readable, reducing the frustration of dodging invisible threats. Nonsensical boss designs, from laser-shooting plates to scorpion-spider-lady aliens, add absurdist charm to each encounter.
 
-The machine gun remains the dependable weapon of choice, while the laser is still weak even compared with the original. The biggest new wrinkle is the overhead top-down stages, which remove jumping entirely and strain the NES's rendering.
+Side-scrolling sections maintain the tight platforming and shooting that defined the original, with weapon power-ups including machine gun, laser, and spread shot. The core loop of shooting everything that moves whilst collecting upgrades sustains momentum across each area. Boss encounters escalate in scale and visual variety, culminating in alien-themed confrontations.
 
-Screen-popping is the technical weak point, with enemies hiding in newly revealed sections of the screen. It is possible to watch half an enemy spawn before the rest appears, and those enemies regularly catch the hero off guard.
+Top-down sections remove jumping entirely, forcing ground-based movement that restricts tactical options. The inability to leap over obstacles creates frustration during intense firefights, though the perspective shift adds variety to the otherwise consistent side-scrolling formula.
 
-Difficulty is at least as brutal as the original, and the top-down stages make it worse by removing the jump. The boss designs are gloriously nonsensical, from a plate that shoots lasers to a final scorpion-spider-lady alien.
+The laser weapon remains underpowered despite improved bullet visibility, offering minimal advantage over standard firearms. Narrative resolution proves anticlimactic, with the game ending abruptly after the final boss without acknowledgment of completion.
 
-The ending is abrupt, offering nothing beyond a bare "you win" message before booting straight back into the game. It is genuinely fun regardless, and the improved bullet visibility fixes the first game's biggest problem.
+The alternating perspective system distinguishes this from its predecessor, providing visual and mechanical variety across eight distinct areas. Weapon variety maintains engagement through different combat approaches, from spread shot crowd control to laser precision.
 
-Aliens play a larger role here, though not dramatically more than in the original. The campaign stays short, matching the original's length while the varied stages and boss fights keep it thoroughly fun.
+The difficulty remains brutal even with infinite lives enabled, demanding precise positioning and pattern memorisation. Boss patterns require memorisation rather than reaction, creating a learning curve that rewards persistence over skill.
 
-Overall, the improved bullet visibility and the larger stage variety make Super C a fun, brutal run-and-gun. The top-down stages and the abrupt ending are the main caveats.
+Overall, the improved bullet visibility and varied level design deliver a satisfying Contra sequel, yet the frustrating top-down sections and abrupt ending prevent the experience from reaching its full potential.

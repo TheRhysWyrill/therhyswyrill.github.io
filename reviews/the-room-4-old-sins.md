@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "The Room 4: Old Sins"
 permalink: /reviews/the-room-4-old-sins/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2021
 genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A dollhouse of collapsing puzzle rooms whose clear feedback and note-driven tragedy close the series with satisfaction."
+summary: "A creative dollhouse concept and intricate mechanical puzzles deliver a satisfying conclusion to the series, though some circuit puzzles introduce confusing moments that briefly interrupt the otherwise smooth progression."
 image: "/assets/img/reviews/the-room-4-old-sins.webp"
 ---
 
-The Room 4: Old Sins is the final entry in Fireproof Games' puzzle series, unfolding entirely inside a Victorian dollhouse of Walderrave Manor in 1899. The case notes tell of Edward Lockwood, an engineer dismissed from the Royal Institute, his wife Abigail, and an investigation into the strange null element.
+Set in 1899 London, you investigate the disappearance of Edward Lockwood at Walderrave Manor through a mysterious dollhouse. The opening moments establish Victorian atmosphere and introduce the dollhouse as the central investigation tool. From the start, environmental storytelling through journal entries creates narrative context for the mechanical puzzles.
 
-The eyepiece lens reveals hidden things, exposing the null's signature across the house. Each room of the dollhouse is a puzzle box, and completing its central puzzle yields a strange artifact and collapses that room, weakening the seal around the null.
+Each completed room physically transforms the dollhouse, revealing new areas and artifacts that drive progression. The eyepiece mechanic allows viewing hidden elements, adding layers to each puzzle without overwhelming complexity. These systems create a satisfying loop between discovery and resolution.
 
-The puzzle variety is broad, from circuit completion and dial matching to steam-valve routing, a submarine with coordinates, laser reflections and an octopus's two eyes. Solved puzzles announce themselves clearly, with the satisfying click-and-unlock feedback the series is known for.
+Back-and-forth navigation between multiple areas within the dollhouse keeps puzzles fresh, requiring players to cross-reference clues across different rooms. The mechanical design spans gears, locks, and hidden mechanisms that demand careful observation. These elements combine to create intricate multi-step challenges.
 
-The story arrives through books and notes left in the house, charting Edward's descent as the null consumes him and Abigail's quiet resistance. Legible handwriting is a genuine relief after Riven, and the couple's tragedy carries the atmosphere.
+The garden puzzle with circuit connections introduces confusion through corner pieces that connect unexpectedly. Some puzzles require experimentation with no clear feedback until the solution clicks. These moments create brief frustration before the satisfying resolution.
 
-The null remains deliberately mysterious, known only to drive people mad and usually to kill them. The final note reframes the protagonist's own role in the affair, leaving more questions than before.
+Victorian aesthetic and mechanical puzzle design establish a distinctive atmosphere that reinforces the investigative premise. The null element introduces cosmic horror undertones without overwhelming the grounded setting. These details create environmental depth beyond the immediate puzzle objectives.
 
-The rooms' destruction keeps the progression legible, as each closing room weakens the seal and draws the game one step closer to the end. The back-and-forth between rooms threatens convolution but never quite tips over, and the whole game is short.
+The attic's final puzzle provides a memorable conclusion that rewards engagement with the accumulated mechanics. Each solved section contributes to understanding the broader mystery through collected artifacts and journal entries. These elements consolidate into a cohesive narrative experience.
 
-Overall, the puzzle feedback and the dollhouse structure make this a very satisfying finale to the series. The brevity and the lingering mystery are the only complaints.
+Overall, the creative dollhouse concept and intricate mechanical puzzles deliver a satisfying conclusion that rewards careful observation, though occasional confusing circuit puzzles briefly interrupt the otherwise smooth progression through the atmospheric Victorian setting.

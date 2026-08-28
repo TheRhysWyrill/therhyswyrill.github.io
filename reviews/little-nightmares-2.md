@@ -2,26 +2,24 @@
 layout: review
 date: 2026-06-27
 game_title: "Little Nightmares II"
-permalink: /reviews/little-nightmares-2/
-verdict: "recommended"
+permalink: /reviews/little-nightmares-ii/
+verdict: recommended
 platform: "Series X"
 release_year: 2021
-genre: "Platformer, Puzzle"
+genre: "Adventure, Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A puzzle-platformer whose presentation, companion AI and horror designs make it a worthy sequel despite clunky combat."
-image: "/assets/img/reviews/little-nightmares-2.webp"
+summary: "Visually stunning horror-platformer with excellent companion AI and creative puzzles, though frustratingly imprecise combat mars the otherwise atmospheric experience."
+image: "/assets/img/reviews/little-nightmares-ii.webp"
 ---
 
-Little Nightmares II is a puzzle-platformer from Tarsier Studios, following Mono and Six through the Pale City's rain-soaked outskirts. The complete campaign finished in a single session, running through all five chapters from the hunter's domain to the Signal Tower finale.
+Mono awakens in a twisted version of Britain, guided by Six through four distinct chapters containing unique antagonists. The premise establishes a horrifying atmosphere with distorted bodies, mannequins, and oppressive architecture creating genuine unease. The TV and transmission motif runs throughout, with glitchy corridors connecting realities across the journey. The visual presentation represents a significant step up from the first game with impressive detail.
 
-The presentation is a step up, with the visuals looking sharp even in performance mode. The companion AI is the standout mechanic, with Six navigating the world competently, reacting to the environment and feeling like a genuine ally.
+2.5D platforming handles puzzle-solving, stealth sections, and light combat across the varied chapters. Six serves as an AI companion who learns from player behaviour, mirroring actions and providing assistance. TV teleportation puzzles add creative variety, requiring manipulation of signals and glitchy environments. The checkpoint system proves generous, preventing excessive punishment during challenging sections.
 
-The quality-of-life fixes please, with keys auto-stashing instead of slowing the character and narrow walkways no longer causing falls. The horror designs impress, with each threat built around a single grotesque feature and the grim tone maintained throughout.
+Art direction presents detailed, oppressive environments that capture the distorted world with atmospheric lighting. Character animations convey personality through expressive movements despite the protagonists' small scale. Sound design emphasises environmental ambience, with distant sounds and distorted audio building tension. The soundtrack shifts between eerie quiet and dramatic intensity during chase sequences.
 
-The boss encounters are strong, from the shotgun-wielding hunter in the opening woods to the later confrontations. The TV portal puzzles are creative, warping the player between screens in some of the cleverest puzzle designs in the series.
+Combat suffers from frustrating imprecision with depth perception issues that create missed swings. Heavy objects like axes and pipes demand deliberate timing that feels unreliable during encounters. The school chapter's bully fights represent the weakest moment, with clunky mechanics undermining atmospheric tension. Enemy patterns require exact positioning that the camera angle often obscures.
 
-The combat is the one serious complaint, with weapon swings missing against the school bullies and colliding with invisible foreground walls. The heavy weapon is slow and demands precision, and the grab control sits oddly on the right trigger.
+The companion AI for Six proves impressively competent, learning from player actions and providing meaningful assistance. The four distinct boss encounters, including the Hunter, Teacher, Doctor, and Thin Man, deliver unique mechanics.
 
-Depth perception still bites occasionally, and foreground clutter can obscure the character entirely at the worst moments of a chase. The checkpoints are gracious, and there are fewer loading screens than in the first game.
-
-Overall, the presentation, the companion AI and the horror designs make this a worthy sequel to a modern classic. The clunky combat is the only real weakness.
+Overall, the visually stunning horror-platformer with excellent companion AI creates a substantial improvement. Imprecise combat remains a frustrating blemish on the otherwise atmospheric experience.

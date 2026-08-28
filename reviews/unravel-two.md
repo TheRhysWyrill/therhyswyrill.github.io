@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-26
 game_title: "Unravel Two"
 permalink: /reviews/unravel-two/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2018
-genre: "Platformer, Puzzle"
+genre: "Puzzle, Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A co-op yarn platformer with two conjoined creatures, offering more traversal than puzzle depth."
+summary: "Co-op rope mechanics and improved swimming deliver a charming platforming experience, though incoherent narrative and reduced puzzle density weaken the otherwise enjoyable cooperative progression."
 image: "/assets/img/reviews/unravel-two.webp"
 ---
 
-Unravel Two is a co-op puzzle-platformer in which two Yarnys are controlled together, with one carrying the other in solo play. Switching between the pair opens up new possibilities for puzzles and traversal alike, and the character-swap is the heart of the design.
+Two Yarny characters navigate a physics-based world through rope mechanics that demand coordination across cooperative challenges. The opening moments establish the handcrafted aesthetic whilst introducing the dual-character premise. From the start, the co-op design functions effectively even when controlling both characters solo.
 
-Solo play is workable but awkward, and the game is clearly built for two people. Yarn is no longer a scarce resource, as the conjoined pair removes the first game's thread limits and lets the platforming flow freely.
+Swimming mechanics improve significantly from the first game, removing water obstacles that previously frustrated progression. Chase sequences with birds create tension through dynamic pursuit encounters. The ragdoll physics add charm through entertaining character movement across environmental hazards.
 
-Water is now swimmable and fall damage is removed, two deliberate changes that ease the earlier game's pressures. Levels are entered through a hub portal rather than a continuous journey, which weakens the sense of travel.
+The narrative provides confusing storyline that lacks coherence compared to the original's clearer journey structure. Incoherent story development prevents emotional investment despite the cooperative foundation. These storytelling choices contrast with the improved mechanical systems across the campaign.
 
-Hazards run from shadowy smoke creatures that chase to electricity, fire, birds and a fish, an odd assortment beside the first game's nature-based threats. The later levels lean heavily into platforming over puzzles, and the chase sections against shadow creatures supply the real difficulty.
+Puzzle design appears sparse compared to the first game, with platforming elements dominating most encounters. Level transitions feel abrupt, lacking the journey-like progression that established atmosphere in the original. These structural changes shift the experience away from puzzle-solving towards pure traversal mechanics.
 
-Collectibles are paintings hung in the hub, mostly straightforward but with a final few that are unreasonably demanding and two left behind. A built-in hint system offers three escalating hints per section.
+The final collectibles create frustrating difficulty spikes that contrast with earlier accessibility. Backwards jumps feel imprecise during precision sequences, creating control frustrations. EA app technical issues on Linux create additional barriers during initial setup and ongoing sessions.
 
-The story makes little sense, with no clear throughline connecting the lighthouse opening to the later chapters. The closing message about love and light is appreciated, though lighter than the first game's.
+Music proves oddly quiet throughout, failing to establish atmosphere during exploration sequences. The subdued soundtrack undermines the emotional potential of the cooperative adventure. These audio choices reduce environmental immersion despite the charming visual presentation and ragdoll effects.
 
-Overall, platforming dominates this sequel, and the two-Yarny traversal stays enjoyable throughout. It is a fun game, but clearly the weaker of the pair, with the first game's puzzles and story the stronger package.
+Overall, the co-op rope mechanics and improved swimming deliver a charming platforming experience, though incoherent narrative and reduced puzzle density weaken the otherwise enjoyable cooperative progression.

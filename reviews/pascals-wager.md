@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "Pascal's Wager"
 permalink: /reviews/pascals-wager/
-verdict: "recommended"
+verdict: recommended
 platform: "Switch"
-release_year: 2022
+release_year: 2020
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A Soulslike action RPG whose five-character roster, sanity mechanic and deep combat outweigh its presentation faults."
+summary: "Multiple character system and sanity mechanic deliver a distinctive Souls-like experience with satisfying combat variety, though poor voice acting and inconsistent parry timing create friction during exploration."
 image: "/assets/img/reviews/pascals-wager.webp"
 ---
 
-Pascal's Wager is an action RPG from TipsWorks, following Terrence's search for Teresa across the plague-dark land of Solace. The complete campaign runs from the city's founding mystery to the Colossal Grave, with the Tides of Oblivion DLC folded into the journey.
+Five playable characters with distinct combat mechanics anchor this dark fantasy action RPG where Couriers traverse dying Colossi. The sanity system creates risk-reward tension by draining resources during aggressive play. Altar upgrades, trophies, and talent trees provide meaningful progression across the experience.
 
-The five-character roster is one of the game's best ideas, with each fighter playing genuinely differently and the fast movers standing out. Gerald's four-dodge chain is the pick of the bunch, and the variety keeps every chapter feeling distinct.
+Terence balances speed and power, Norwood operates as a slow tank, Viola uses ranged firearms, and Gerald moves with exceptional agility. Each character demands different tactical approaches, encouraging experimentation across encounters. The multi-character system creates replayability through varied combat dynamics.
 
-The sanity system takes time to click, with the lunatic trigger's early healing of enemies causing real frustration. The same system earns genuine appreciation later, with its sun mechanic making the boss fights more challenging in a unique way.
+The sanity mechanic generates constant tension, as aggressive play drains resources and triggers Lunatic states that empower bosses. Executions compound this risk by draining sanity alongside health. The system rewards calculated aggression while punishing reckless engagement.
 
-The combat is solid and fairly deep once the full move sets unlock, with the basic strikes carrying a lean build comfortably. The parry is the weak spot, with its timing awkward and unreliable in the heat of a fight.
+Boss fights deliver challenging, memorable encounters with distinct mechanics, attack patterns, and environmental hazards. The Bloodborne-inspired atmosphere establishes oppressive, mystical environments through environmental storytelling. Notes and journals scattered throughout expand lore without disrupting combat flow.
 
-The voice acting is the chief disappointment, with the performances landing as genuinely bad rather than endearingly so. The subtitles routinely mismatch the spoken lines, and the environmental readability suffers with ladder-like decoration and candle-like notes.
+Altar progression combines leveling, trophies, and crafting into meaningful character improvement across all playable characters. Talent trees allow build customisation across different play styles. Alchemical recipes provide crafting options for potions and items.
 
-The conspiracy-and-sacrifice structure keeps the story serviceable, with the journey's effect on Terrence threaded throughout. The sound design earns praise on its own, with the audio side carrying more than its share of the atmosphere.
+Poor voice acting and incorrect subtitles undermine narrative presentation. The backstab system feels inconsistent, with activation unpredictable during combat. Camera occasionally lags behind movement, creating disorientation during intense encounters.
 
-Overall, the character roster, the sanity system and the combat depth outweigh the presentation flaws. The voice acting and the finicky parry are the main caveats.
+Overall, the multiple character system and sanity mechanic deliver a distinctive Souls-like experience with satisfying combat variety. Poor voice acting and inconsistent parry timing create friction, but the atmospheric world and character progression sustain engagement throughout.

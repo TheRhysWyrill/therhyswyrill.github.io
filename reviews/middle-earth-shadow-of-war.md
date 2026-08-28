@@ -3,25 +3,25 @@ layout: review
 date: 2026-06-25
 game_title: "Middle-Earth: Shadow of War"
 permalink: /reviews/middle-earth-shadow-of-war/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2017
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An action-adventure whose fortress sieges, Nemesis system and army-building make it a hell of a game in Mordor."
+summary: "Massive siege battles and an expanded Nemesis system deliver emergent storytelling on a grander scale, though execution targeting in crowds and excessive pop-up notifications undermine the otherwise satisfying combat."
 image: "/assets/img/reviews/middle-earth-shadow-of-war.webp"
 ---
 
-Middle-earth: Shadow of War is an action-adventure from Monolith Productions, continuing the struggle against Sauron with a new ring of power and a growing army. The complete run spanned the four regions, the fortress sieges and the lengthy post-game epilogue.
+Large-scale siege warfare defines this expanded open-world action sequel set in Mordor. Fortress assaults pit branded orc armies against fortified positions, creating dramatic set-pieces that surpass the predecessor's scope. The Nemesis system deepens with army-building mechanics, generating emergent narratives through orc hierarchies and betrayals.
 
-The fortress sieges are the highlight of the whole experience, with the assault and defence of the strongholds delivering the siege spectacle. The Nemesis system and army-building stay central, with the named orcs and their ranks driving the whole campaign.
+Combat scales to accommodate massive enemy waves, with dozens of orcs engaging simultaneously in open battle while quality of life improvements streamline progression through automatic arrow pickup and movement speed boosts. The skill tree expands significantly, offering more build variety across stealth, combat, and domination paths.
 
-The combat carries the third-person action, with the sword, bow, stealth and executions forming the core toolkit. The mounted combat, the drakes and the wraith abilities expand the options across the four regions.
+Siege battles stand as the game's defining highlight, with fortress assaults delivering satisfying large-scale warfare. Army branding and follower management create strategic depth, though execution targeting in crowded battles frustrates when attempting to focus specific captains. Captain adaptation sometimes produces overwhelmingly defended opponents with multiple immunities.
 
-The four regions each have a distinct character, with Mordor's dark fantasy tone staying consistent with the source material. The skill tree and the gear sets offer meaningful progression, though the most useful skills are gated early.
+The expanded Nemesis system generates emergent stories through orc hierarchies, betrayals, and dynamic power struggles across multiple regions, with fortress ownership adding strategic layering. The system rewards long-term investment through procedural narrative moments that feel personal.
 
-The enemy adaptation is a recurring caveat, with the orcs developing immunities and counters to the tactics used against them. The early gating of the useful skills is the other persistent frustration throughout.
+Pop-up notifications interrupt gameplay excessively, overwhelming screen space with unrelated information. Skills removed from the predecessor create initial frustration, requiring relearning of previously available abilities. Sword damage feels weak against tougher enemies, demanding excessive hits to achieve stun states. Gondorian artifact collectibles lack meaningful rewards for completion.
 
-The story stays engaging enough to push through the lengthy post-game, with the ring and the army framing the entire campaign. The two expansions add distinct playstyles, each reshaping how the combat works in distinct ways.
+Middle-earth lore permeates the world through returning characters and environmental storytelling, serving as backdrop for systemic gameplay rather than driving emotional engagement.
 
-Overall, the fortress sieges, the Nemesis system and the army-building make this a hell of a game through and through. The enemy adaptation and the early skill gating are the caveats.
+Overall, the siege warfare and expanded Nemesis system deliver an open-world action experience with emergent narrative and large-scale conflict. Execution targeting and pop-up interruptions prevent the experience from fully realising its expanded ambitions.

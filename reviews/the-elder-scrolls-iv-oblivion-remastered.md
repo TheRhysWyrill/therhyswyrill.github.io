@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-14
 game_title: "The Elder Scrolls IV: Oblivion Remastered"
 permalink: /reviews/the-elder-scrolls-iv-oblivion-remastered/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2025
-genre: "Action, RPG"
+genre: "RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A phenomenal visual overhaul of a beloved 2006 classic, let down only by fresh bugs and repetitive Oblivion gates."
+summary: "A lovingly expanded classic RPG that rewards thorough exploration with 250 quests and hundreds of hours of content."
 image: "/assets/img/reviews/the-elder-scrolls-iv-oblivion-remastered.webp"
 ---
 
-The Elder Scrolls IV: Oblivion Remastered is Bethesda's 2025 return to the 2006 classic, rebuilding its world in Unreal Engine 5 while keeping the old game intact underneath. The result is the same Cyrodiil as ever, only rendered with modern lighting, richer detail and a welcome sprint.
+Tamriel faces the Oblivion Crisis as demonic gates open across Cyrodiil, and an escaped prisoner rises to become the Champion of Cyrodiil. The main story involves closing these gates and defeating the god Mehrunes Dagon, with guild questlines including Thieves Guild, Dark Brotherhood, Fighters Guild, and Mages Guild providing substantial side content. The world feels rich with hundreds of side quests that expand the setting beyond the main narrative.
 
-The overhaul is the headline achievement, and the praise is effusive for how good the weapons, armour and landscapes now look. The recurring visual gripe is the volumetric fog, which remains the biggest complaint across the whole run.
+The remaster updates combat with new animations and weapon-specific slashing, creating more satisfying melee encounters. Visual improvements bring the 2006 RPG into the modern era whilst preserving the original quest structure and world design. Skill-based levelling and class selection provide character customisation depth that rewards dedicated builds across extended play sessions.
 
-Sprinting, reworked combat animations and the sight of NPCs actually running make the old world feel livelier and far more urgent in its big battles. Ghosting fixes and a host of small details are singled out as genuine improvements to the foundations.
+The sheer volume of content delivers approximately 96 hours across 250 quests, with guild progression and daedric quests providing variety beyond main missions. PC mod support allows quality-of-life improvements including uncapped skills and faster horses that address original design limitations.
 
-The remaster brings its own fresh problems, with crashes that track performance dips and at least one frightening save scare along the way. A broken statue fight in the Thieves Guild finale sees a quest ruined by animations that never play.
+New bugs emerge that never existed in the original, including broken animations during the Ultimate Heist quest. Excessive volumetric fog obscures visibility across outdoor areas, creating visual clutter that detracts from environmental design.
 
-The breadth is enormous, with 250 quests spanning every guild, both expansions and all fifteen Daedric shrines. The downside is the formulaic Oblivion gates, which are admitted to be pure padding once the first has been seen.
+The open world design rewards exploration through hidden locations and optional content scattered across the province. Character progression feels satisfying as skills improve through use, creating organic development paths that reflect playstyle.
 
-The main quest delivers the epic set-pieces, from the great gate battle at Bruma to the finale in the burning Imperial City. Shivering Isles is the pick of the content, though its side quests sink into fetch and collection chores.
+The quest system maintains depth across both main and side content, ensuring varied objectives throughout extended play sessions. Performance remains stable across the expanded environments, supporting uninterrupted exploration.
 
-Overall, the remaster dresses a beloved 2006 game in a phenomenal coat of paint, and the run was an absolute blast from start to finish. The fog, the crashes and the repetitive gates hold it back, but what a game this remains.
+Overall, the combat improvements and quest density deliver a classic RPG experience worth revisiting, yet the new bugs and excessive fog prevent the atmosphere from fully establishing itself.

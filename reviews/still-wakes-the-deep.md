@@ -3,25 +3,25 @@ layout: review
 date: 2026-07-15
 game_title: "Still Wakes the Deep"
 permalink: /reviews/still-wakes-the-deep/
-verdict: "recommended"
+verdict: recommended
 platform: "PC"
 release_year: 2024
 genre: "Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A first-person narrative horror in which electrician Cameron McLeary survives the collapse of a North Sea oil rig after the drilling awakens something below."
+summary: "Authentic Scottish voice acting and Lovecraftian dread elevate this atmospheric horror, though occasional stealth frustrations and floaty underwater controls create minor friction."
 image: "/assets/img/reviews/still-wakes-the-deep.webp"
 ---
 
-Still Wakes the Deep casts the player as electrician Cameron "Caz" McLeary, fleeing an assault charge on the Beira D oil rig in December 1975. The opening hours build a convincing Scottish work family, with the diabetic chef Roy and the hated site manager Renick trading banter before the drill strikes something below.
+A 1975 North Sea oil rig becomes the setting for Lovecraftian horror as drilling breaks through something that transforms crew members into monstrous creatures. The Scottish voice cast provides authentic dialogue with working-class character dynamics that ground the fantastical premise in believable relationships.
 
-The drilling awakens an organic substance that mutates and kills the crew, turning many into blind but lethal stalkers. The horror escalates as the rig collapses, with the helicopter exploding and the crew dying one by one.
+Stealth-focused gameplay requires navigating the rig's corridors whilst avoiding creatures through hiding and environmental puzzles. The absence of combat forces reliance on movement and observation, creating genuine tension during creature encounters. Some sections demand running rather than stealth, though the design occasionally obscures whether exploration or evasion is the intended approach.
 
-The core verbs are sprinting, clinging to ledges, shimmying, hiding in lockers and throwing objects to distract the patrolling mutants. The final stretch adds flooded compartments and open-sea swimming, while the Sirens Rest DLC is underwater exploration with a cutting tool for rust-covered obstacles.
+Environmental storytelling rewards thorough exploration through mementos and scattered evidence that reconstructs the crew's final moments. The Lovecraftian horror unfolds through creature designs and environmental details rather than exposition, maintaining mystery throughout the investigation. Character interactions build genuine warmth before the horror disrupts established relationships.
 
-The Scottish cast and dialect are the high point, with plain-English subtitles that summarise each line rather than transcribing it. The humour lands consistently, and the writing sustains the banter even as the situation spirals.
+The Scottish dialect and authentic dialogue create a grounded atmosphere that makes the horror more impactful. Subtitles summarise rather than transcribe, preserving the natural flow of conversation whilst remaining accessible.
 
-The visuals are striking, particularly the organic growth spreading across the rig, and the balance-beam traversal is unusually realistic with the character crouching low. The central mystery is never explained, which keeps the Lovecraftian threat eerie but leaves many questions open.
+Siren's Rest DLC shifts to underwater exploration through the rig's remains, offering a complementary experience focused on discovery rather than hiding. Frame rate instability occasionally disrupts the atmosphere during intense sequences, though these moments remain brief.
 
-The camera is a recurring frustration, especially during the flooded chase sequences, and the underwater controls in the DLC are floaty. Technical glitches, from pink squares in menus to a chase that ended with the view pinned into a wall, punctuated the otherwise smooth run.
+The combination of authentic Scottish voice acting, Lovecraftian creature design, and claustrophobic oil rig setting creates a horror experience that rewards patience and observation.
 
-Overall, the convincing cast, the witty writing and the unexplained mystery made the playthrough a success from the opening banter to the final dive. The refusal to explain the central threat will frustrate players wanting answers, but the journey is well worth taking.
+Overall, the atmosphere and Scottish voice acting deliver a gripping Lovecraftian horror experience, yet the stealth-focused gameplay and occasional technical issues prevent the atmosphere from fully establishing itself.
