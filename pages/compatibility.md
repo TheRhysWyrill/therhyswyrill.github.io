@@ -21,6 +21,8 @@ position: 1
 	<select id="mobile-platform-select" class="compat-mobile-platform-select"></select>
 	<div id="table-workspace-wrapper"></div>
 
+	<link rel="preconnect" href="https://code.jquery.com" crossorigin>
+	<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 
@@ -37,10 +39,10 @@ position: 1
 
 		$(document).ready(function () {
 
-			$.getJSON("{{ '/assets/data/all_videos.json' | relative_url }}")
+			$.getJSON("{{ '/assets/data/videos_iip.json' | relative_url }}")
 				.done(function (data) {
-					if (data && data.iip) {
-						externalVideoCache = data.iip;
+					if (data && data.length) {
+						externalVideoCache = data;
 						// Re-link videos if a platform tab already finished rendering before this resolved
 						if (currentConfig) {
 							autoLinkCardVideos(currentConfig.emulatorKeywords, currentConfig.excludeKeywords);
@@ -48,7 +50,7 @@ position: 1
 					}
 				})
 				.fail(function () {
-					console.warn("Could not load all_videos.json. Video cross-referencing falls back to inactive.");
+					console.warn("Could not load videos_iip.json. Video cross-referencing falls back to inactive.");
 				});
 
 			const platformRegistry = {

@@ -304,6 +304,84 @@ html {
 
 
 /* --------------------------------------------------------------------------
+   3b. LATEST REVIEWS STRIP (homepage)
+   -------------------------------------------------------------------------- */
+
+.latest-reviews-section {
+    max-width: 1800px;
+    width: 95%;
+    margin: 0 auto 50px auto;
+
+    /* The archive card styles are scoped to .archive-container .archive-grid,
+       so this section reuses those wrappers to inherit them. The html body div
+       prefix out-specifies the theme's `html body .archive-container` geometry
+       so the strip aligns with the homepage cards instead of the reviews page. */
+    html body div.archive-container {
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
+        zoom: 100% !important;
+    }
+
+    .latest-reviews-header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin: 0 0 18px 0;
+
+        h2 {
+            color: $color-white;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        a {
+            color: $color-text-muted;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            transition: color 0.2s ease;
+
+            &:hover { color: $color-white; }
+        }
+    }
+
+}
+
+/* Card internals shared by the homepage strip and the reviews archive
+   (previously homepage-scoped here and inline styles on the reviews page) */
+.archive-card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 2.6em;
+}
+
+.archive-card-inline-date {
+    margin-top: auto;
+    font-size: 10px;
+    color: #8aa0ae;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    opacity: 0.85;
+}
+
+@media (max-width: 650px) {
+    html body .latest-reviews-section .archive-container .archive-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+
+/* --------------------------------------------------------------------------
    4. COMPATIBILITY / "IS IT PLAYABLE?" DATA TABLE
    -------------------------------------------------------------------------- */
    
@@ -830,6 +908,107 @@ body:has(.compat-page) {
     }
 }
 
+/* Reviews archive header: title + filter bar + search (moved out of HTML) */
+.reviews-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 25px 0 15px 0 !important;
+    margin: 0 !important;
+
+    h1 {
+        margin: 0 !important;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1;
+    }
+}
+
+.filter-controls-group {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.search-input-wrapper {
+    position: relative;
+    max-width: 320px;
+    width: 100%;
+
+    .vault-search-input {
+        width: 100% !important;
+        box-sizing: border-box;
+        padding-right: 38px !important;
+    }
+
+    /* Small x control inside the box; JS shows it only while searching */
+    .search-clear-btn {
+        position: absolute;
+        top: 50%;
+        right: 6px;
+        transform: translateY(-50%);
+        width: 26px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        border: none;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.08);
+        color: $color-text-muted;
+        font-size: 15px;
+        line-height: 1;
+        cursor: pointer;
+        transition: all 0.2s ease;
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.16);
+            color: $color-white;
+        }
+
+        &[hidden] {
+            display: none !important;
+        }
+    }
+}
+
+/* Reset control for the filter bar - matches .vault-filter-select geometry */
+.filter-reset-btn {
+    background: rgba(255, 255, 255, 0.04) !important;
+    color: $color-text-muted !important;
+    border: 1px solid $color-border-subtle !important;
+    padding: 8px 14px !important;
+    border-radius: 6px !important;
+    font-size: 0.85rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.5px;
+    cursor: pointer !important;
+    outline: none !important;
+    transition: all 0.2s ease !important;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.08) !important;
+        color: $color-white !important;
+        border-color: rgba(255, 255, 255, 0.25) !important;
+    }
+
+    &:active {
+        transform: scale(0.97);
+    }
+
+    /* JS toggles the hidden attribute to show the button only when
+       sort/filters/search are non-default */
+    &[hidden] {
+        display: none !important;
+    }
+}
+
 .archive-card-summary {
     display: -webkit-box !important;
     -webkit-line-clamp: 3 !important;
@@ -855,6 +1034,57 @@ body:has(.compat-page) {
     background: transparent !important;
     border: none !important;
     padding: 0 !important;
+}
+
+/* Shared pagination controls, rendered by assets/js/pagination.js.
+   The active button's accent comes through the --pg-active custom property
+   so the reviews archive and the video vault can pass different colors. */
+.pagination-nav {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-width: 40px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 18px !important;
+    font-weight: normal;
+    color: #ccdee9 !important;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:not(.is-active):not(.is-disabled):hover {
+        background: rgba(255, 255, 255, 0.08);
+        border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    &.is-active {
+        background: var(--pg-active, #252e36) !important;
+        border-color: rgba(255, 255, 255, 0.2);
+        color: #ffffff !important;
+        font-weight: bold;
+    }
+
+    &.is-disabled {
+        color: rgba(255, 255, 255, 0.2) !important;
+        cursor: not-allowed;
+    }
+}
+
+.pagination-ellipsis {
+    color: #ccdee9;
+    padding: 0 6px;
+    font-size: 16px;
+    width: 40px;
+    text-align: center;
 }
 
 html body .archive-container {
@@ -929,6 +1159,29 @@ html body .archive-container {
                 left: 0 !important;
                 z-index: 1 !important;
             }
+
+            /* Reviews-archive variant: the tighter card previously achieved
+               with inline styles in the reviews page markup */
+            &.game-archive-card--compact {
+                .archive-card-image-wrap { height: 155px !important; }
+
+                .archive-card-details { padding: 10px !important; }
+
+                .archive-card-meta { margin-bottom: 2px !important; }
+
+                h3.archive-card-title {
+                    font-size: 14px !important;
+                    line-height: 1.2 !important;
+                    min-height: 2.4em !important;
+                    margin-bottom: 2px !important;
+                }
+
+                p.archive-card-summary {
+                    font-size: 12px !important;
+                    line-height: 1.3 !important;
+                    margin-bottom: 4px !important;
+                }
+            }
         }
 
         .archive-card-image-wrap .archive-verdict-tag {
@@ -997,6 +1250,9 @@ html body .archive-container {
 
     .reviews-header-container { flex-direction: column !important; align-items: stretch !important; gap: 12px !important; padding: 15px 0 10px 0 !important; }
 
+    /* Preserve the old centered look now that the header styles live in classes */
+    .reviews-header-container h1 { text-align: center !important; }
+
     .filter-controls-group {
         display: flex !important;
         flex-direction: row !important;
@@ -1012,6 +1268,8 @@ html body .archive-container {
     }
 
     .vault-filter-select { flex-shrink: 0 !important; flex-grow: 1 !important; min-width: 105px !important; }
+
+    .filter-reset-btn { flex-grow: 1 !important; min-width: 105px !important; }
 
     html body .archive-container .archive-grid {
         grid-template-columns: 1fr !important;
@@ -1389,6 +1647,104 @@ html body .archive-container {
     background: #0e1117;
 }
 
+/* Offline state: message panel with the latest VOD player */
+.stream-offline-pane {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    min-height: 420px;
+
+    &[hidden] { display: none; }
+}
+
+.stream-offline-message {
+    flex: 0 0 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 40px 32px;
+    box-sizing: border-box;
+
+    h2 {
+        color: $color-white;
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    p {
+        color: $color-text-muted;
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin: 0;
+        overflow-wrap: anywhere;
+    }
+}
+
+.stream-offline-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #3a4149;
+    border: 2px solid #565e66;
+    box-shadow: none;
+}
+
+.stream-vod-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: $color-white;
+    background: #9146ff;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+
+    &:hover { background: #7d2ff0; }
+}
+
+.stream-vod-embed {
+    flex: 1 1 auto;
+    position: relative;
+    background: #000;
+    border-left: 1px solid $color-border-subtle;
+    min-height: 300px;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
+
+@media (max-width: 1050px) {
+    .stream-offline-pane {
+        flex-direction: column;
+    }
+
+    .stream-offline-message {
+        flex: none;
+        width: 100%;
+        padding: 30px 24px;
+    }
+
+    .stream-vod-embed {
+        border-left: none;
+        border-top: 1px solid $color-border-subtle;
+        aspect-ratio: 16 / 9;
+        min-height: 0;
+    }
+}
+
 @media (max-width: 1050px) {
     .stream-player-wrapper {
         flex-direction: column;
@@ -1426,6 +1782,85 @@ body:has(.vault-page) {
 		align-items: center !important;
 		width: 100% !important;
 	}
+}
+
+/* Video vault: channel tabs, header row, grid and pagination chrome.
+   The active tab's per-channel accent comes through --tab-accent. */
+.vault-fluid-row.vault-fluid-row--tabs {
+    margin-top: -5px !important;
+}
+
+.channel-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.tab-btn {
+    flex: 1;
+    text-align: center;
+    min-width: 180px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+    background: rgba(255, 255, 255, 0.05);
+    color: #a0aec0;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    &.active {
+        background: var(--tab-accent, #9146ff);
+        color: #fff;
+        border: none;
+    }
+}
+
+.vault-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 25px;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+
+    #channel-title {
+        margin-bottom: 5px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    #channel-description {
+        color: $color-text-muted;
+        margin: 0;
+    }
+
+    .vault-header-search {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+
+#video-vault-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 15px;
+    margin-bottom: 40px;
+    width: 100%;
 }
 
 .vault-fluid-row {
@@ -1718,6 +2153,7 @@ body:has(.vault-page) {
         min-width: 130px !important;
         padding: 10px 12px !important;
         font-size: 0.9rem !important;
+        border-radius: 8px !important;
     }
 
     .vault-search-input {

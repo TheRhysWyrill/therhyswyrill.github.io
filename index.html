@@ -68,3 +68,19 @@ layout: default
         </a>
     </div>
 </div>
+
+<div class="latest-reviews-section">
+    <div class="latest-reviews-header">
+        <h2>Latest Reviews</h2>
+        <a href="/reviews/">Browse all reviews &rarr;</a>
+    </div>
+
+    <div class="archive-container">
+        <div class="archive-grid">
+            {% assign latest_reviews = site.pages | where: "layout", "review" | sort: "date" | reverse %}
+            {% for review in latest_reviews limit: 6 %}
+            {% include review-card.html review=review %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

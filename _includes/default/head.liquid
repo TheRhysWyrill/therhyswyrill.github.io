@@ -21,6 +21,7 @@
     <!-- Main JS (navbar.js, katex_init.js)-->
     <script defer src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 	<script defer src="{{ '/assets/js/back-to-top.js' | relative_url }}"></script>
+	<script defer src="{{ '/assets/js/live-status.js' | relative_url }}"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
@@ -90,6 +91,7 @@
 
     <!-- Simple-Jekyll-Search 2.1.4 -->
     <script
+        defer
         src="{{ '/assets/js/vendor/simple-jekyll-search.min.js' | relative_url }}"
         type="text/javascript"
     ></script>
@@ -120,47 +122,56 @@
     ></script>
     {% endif %}
 
-    <!-- seo tags -->
-    <meta
-        property="og:image"
-        content="{{ '/' | absolute_url }}{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ page.feature-img | default: site.header_feature_image }}{% endif %}"
-    />
-    {% unless page.layout == post %}
-    <meta property="og:type" content="website" />
-    {% endunless %} {% seo %}
+    <!-- Page-wide SEO variables: fall back through thumbnail, feature image and review covers -->
+    {% assign seo_image_path = page.thumbnail
+        | default: page.feature-img
+        | default: page.image
+        | default: site.header_feature_image %}
+    {% assign seo_image_url = seo_image_path | absolute_url %}
+    {% if page.page_title %}
+        {% assign seo_title = page.page_title %}
+    {% elsif page.game_title %}
+        {% assign seo_title = page.game_title | append: " Review | " | append: site.title %}
+    {% elsif page.title %}
+        {% assign seo_title = page.title | append: " | " | append: site.title %}
+    {% else %}
+        {% assign seo_title = site.page_title | default: site.title %}
+    {% endif %}
+    {% assign seo_description = page.seo_description
+        | default: page.summary
+        | default: page.excerpt
+        | default: site.description | strip_html %}
 
-    <!-- RSS -->
+    <!-- Primary Meta Tags -->
+    <title>{{ seo_title }}</title>
+    <meta name="title" content="{{ seo_title }}" />
+    <meta name="description" content="{{ seo_description }}" />
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+    <!-- RSS / Atom -->
     <link
         rel="alternate"
         type="application/atom+xml"
         title="{{ site.title | default: 'Title' }}"
-        href="{{ 'feed.xml' | absolute_url }}"
+        href="{{ 'atom.xml' | absolute_url }}"
     />
-    {% feed_meta %}
 
-    <!-- Twitter Cards -->
-    <meta
-        name="twitter:title"
-        content="{{ page.title | default: site.title }}"
-    />
-    <meta
-        name="twitter:description"
-        content="{{ page.content | default: site.header_text | strip_html | strip_newlines | truncate: 160 }}"
-    />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:title" content="{{ seo_title }}" />
+    <meta property="og:description" content="{{ seo_description }}" />
+    <meta property="og:image" content="{{ seo_image_url }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ seo_title }}" />
+    <meta name="twitter:description" content="{{ seo_description }}" />
+    <meta name="twitter:image" content="{{ seo_image_url }}" />
+    <meta name="twitter:image:alt" content="{{ seo_title }}" />
     {% if site.data.social.twitter %}
     <meta name="twitter:creator" content="@{{ site.data.social.twitter }}" />
     <meta name="twitter:site" content="@{{ site.data.social.twitter }}" />
     {% endif %}
-    <meta
-        name="twitter:card"
-        content="{% unless page.thumbnail %}summary{% else %}summary_large_image{% endunless %}"
-    />
-    <meta
-        name="twitter:image"
-        content="{{ '/' | absolute_url }}{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ page.feature-img | default: site.header_feature_image }}{% endif %}"
-    />
-    <meta
-        name="twitter:image:alt"
-        content="{{ page.title | default: site.title }}"
-    />
 </head>

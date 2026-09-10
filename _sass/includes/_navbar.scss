@@ -84,6 +84,41 @@ nav {
       }
     }
   }
+
+  /* Live indicator: dot next to the Livestream link, lit while live */
+  .live-status-dot {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-left: 7px;
+    border-radius: 50%;
+    background: #9146ff;
+    box-shadow: 0 0 6px 2px rgba(145, 70, 255, 0.65);
+    animation: live-dot-pulse 1.6s ease-in-out infinite;
+    vertical-align: middle;
+
+    &[hidden] {
+      display: none;
+    }
+  }
+
+  @keyframes live-dot-pulse {
+    0%,
+    100% {
+      box-shadow: 0 0 4px 1px rgba(145, 70, 255, 0.45);
+    }
+
+    50% {
+      box-shadow: 0 0 9px 3px rgba(145, 70, 255, 0.75);
+    }
+  }
+
+  @media (max-width: $break) {
+    .live-status-dot {
+      position: static;
+      margin-left: 10px;
+    }
+  }
 }
 
 /* ---- Responsive ---- */

@@ -1,4 +1,5 @@
 import json
+import os
 import subprocess
 
 # Define your channels here
@@ -9,7 +10,7 @@ CHANNELS = {
     "vods": "https://www.youtube.com/channel/UCYQlzu1EsF04EUOdNTZhCFg/"
 }
 
-vault_data = {}
+OUTPUT_DIR = "./assets/data"
 
 for key, url in CHANNELS.items():
     print(f"Fetching full archive for {key}...")
@@ -33,12 +34,11 @@ for key, url in CHANNELS.items():
                 "title": video_info.get("title")
             })
             
-    vault_data[key] = channel_videos
-    print(f"Done! Found {len(channel_videos)} videos.")
+    # Save each channel into its own file so pages only download the data they need
+    output_path = os.path.join(OUTPUT_DIR, f"videos_{key}.json")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(channel_videos, f, indent=2, ensure_ascii=False)
 
-# Save the compiled database into your assets directory
-output_path = "./assets/data/all_videos.json"
-with open(output_path, "w", encoding="utf-8") as f:
-    json.dump(vault_data, f, indent=2, ensure_ascii=False)
+    print(f"Done! Found {len(channel_videos)} videos. Saved to {output_path}")
 
-print(f"\nSuccess! Vault database saved to {output_path}")
+print("\nSuccess! Vault database updated.")

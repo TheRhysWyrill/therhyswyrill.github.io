@@ -1,0 +1,31 @@
+---
+layout: null
+permalink: /atom.xml
+sitemap: false
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title | xml_escape }}</title>
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  <link href="{{ 'feed.xml' | absolute_url }}" rel="self" />
+  <link href="{{ '/' | absolute_url }}" />
+  <id>{{ '/' | absolute_url }}</id>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+
+  {% assign feed_reviews = site.pages | where: "layout", "review" | sort: "date" | reverse %}
+  {% for review in feed_reviews limit: 30 %}
+  <entry>
+    <title>{{ review.game_title | default: review.title | xml_escape }} Review</title>
+    <link href="{{ review.url | absolute_url }}" rel="alternate" />
+    <id>{{ review.url | absolute_url }}</id>
+    <published>{{ review.date | date_to_xmlschema }}</published>
+    <updated>{{ review.date | date_to_xmlschema }}</updated>
+    <summary>{{ review.summary | xml_escape }}</summary>
+    <content type="html">{{ review.content | strip_html | xml_escape }}</content>
+    <author>
+      <name>{{ site.title | xml_escape }}</name>
+    </author>
+  </entry>
+  {% endfor %}
+</feed>

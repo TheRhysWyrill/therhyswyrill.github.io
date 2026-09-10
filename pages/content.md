@@ -15,18 +15,18 @@ position: 3
 		</div>
 	</div>
 	
-	<div class="vault-fluid-row" style="margin-top: -5px !important;">
-	<div class="channel-tabs" style="display: flex; flex-direction: row; justify-content: center; gap: 12px; width: 100%; padding-bottom: 5px;">
-		<button class="tab-btn active" onclick="switchChannel('trw')" style="background: #9146ff; color: #fff; border: none; padding: 12px 20px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; font-size: 0.9rem; flex: 1; text-align: center; min-width: 180px;">
+	<div class="vault-fluid-row vault-fluid-row--tabs">
+	<div class="channel-tabs">
+	<button class="tab-btn active" onclick="switchChannel('trw')">
 		TheRhysWyrill (Let's Plays)
 		</button>
-		<button class="tab-btn" onclick="switchChannel('iip')" style="background: rgba(255,255,255,0.05); color: #a0aec0; border: 1px solid rgba(255,255,255,0.08); padding: 12px 20px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; font-size: 0.9rem; flex: 1; text-align: center; min-width: 180px;">
+	<button class="tab-btn" onclick="switchChannel('iip')">
 		Is It Playable? (Performance)
 		</button>
-		<button class="tab-btn" onclick="switchChannel('tga')" style="background: rgba(255,255,255,0.05); color: #a0aec0; border: 1px solid rgba(255,255,255,0.08); padding: 12px 20px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; font-size: 0.9rem; flex: 1; text-align: center; min-width: 180px;">
+	<button class="tab-btn" onclick="switchChannel('tga')">
 		The Gaming Archive (Longplays)
 		</button>
-		<button class="tab-btn" onclick="switchChannel('vods')" style="background: rgba(255,255,255,0.05); color: #a0aec0; border: 1px solid rgba(255,255,255,0.08); padding: 12px 20px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; font-size: 0.9rem; flex: 1; text-align: center; min-width: 180px;">
+	<button class="tab-btn" onclick="switchChannel('vods')">
 		Full Livestream VODs
 		</button>
 	</div>
@@ -37,24 +37,25 @@ position: 3
 	</div>
 	
 	<div class="vault-fluid-row" id="vault-content-container">
-	<div class="vault-header-wrapper" style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 25px; gap: 20px; flex-wrap: wrap; width: 100%;">
+	<div class="vault-header-wrapper">
 		<div>
-		<h2 id="channel-title" style="margin-bottom: 5px; font-weight: 700; color: #fff;">Edited Let's Plays</h2>
-		<p id="channel-description" style="color: #a0aec0; margin: 0;">Edited commentary playthroughs, focusing on complete playthroughs.</p>
+	<h2 id="channel-title">Edited Let's Plays</h2>
+	<p id="channel-description">Edited commentary playthroughs, focusing on complete playthroughs.</p>
 		</div>
-		<div style="width: 100%; max-width: 320px;">
+	<div class="vault-header-search">
 		<input type="text" id="vault-search" class="vault-search-input" placeholder="Filter videos..." oninput="handleSearch()">
 		</div>
 	</div>
 	
-	<div id="video-vault-grid" style="display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 15px; margin-bottom: 40px; width: 100%;">
+	<div id="video-vault-grid">
 	</div>
 	
-	<div id="pagination-container" class="pagination-controls" style="display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 40px; padding-bottom: 60px;">
+	<div id="pagination-container" class="pagination-controls">
 			<!-- JavaScript will dynamically inject the chevrons and numbers here -->
 		</div>
 	</div>
 	
+	<script src="/assets/js/pagination.js" defer></script>
 	<script>
 	const channelsConfig = {
 	trw: { title: "Edited Let's Plays", desc: "Edited commentary playthroughs, focusing on complete playthroughs.", tag: "Let's Play", color: "#9146ff" },
@@ -63,26 +64,88 @@ position: 3
 	vods: { title: "Full Livestream VODs", desc: "Unedited stream recordings vaulted permanently from past live streams.", tag: "Live VOD", color: "#a91b1b" }
 	};
 	
-	let videoDatabase = {}; 
+	let videoDatabase = {};
 	let currentChannel = localStorage.getItem('vault_channel') || 'trw';
 	let currentPage = parseInt(localStorage.getItem('vault_page')) || 1;
 	let searchQuery = localStorage.getItem('vault_search') || '';
 	let filteredVideos = [];
+	let inFlightChannel = null;
 	const itemsPerPage = 18;
 	
-	document.addEventListener("DOMContentLoaded", () => {
-	document.getElementById('vault-search').value = searchQuery;
+	// -- URL state sync (shareable / bookmarkable vault views) ----------------
+	function syncStateToUrl() {
+	if (!window.history || !window.history.replaceState) return;
+	const params = new URLSearchParams();
+	if (currentChannel !== 'trw') params.set('channel', currentChannel);
+	if (searchQuery && searchQuery.trim()) params.set('q', searchQuery.trim());
+	if (currentPage > 1) params.set('page', String(currentPage));
+	const qs = params.toString();
+	window.history.replaceState(null, '', qs ? '?' + qs : window.location.pathname);
+	}
 	
-	fetch('/assets/data/all_videos.json')
-		.then(response => response.json())
-		.then(data => {
-		videoDatabase = data;
-		updateFilteredList();
-		applyChannelUI(currentChannel);
-		renderVault();
-		})
-		.catch(err => console.error("Error retrieving video logs:", err));
+	function applyStateFromUrl() {
+	const params = new URLSearchParams(window.location.search);
+	let matched = false;
+	
+	const channel = params.get('channel');
+	if (channel && channelsConfig[channel]) {
+	currentChannel = channel;
+	matched = true;
+	}
+	
+	const query = params.get('q');
+	if (query) {
+	searchQuery = query;
+	matched = true;
+	}
+	
+	const page = parseInt(params.get('page'), 10);
+	if (page > 1) {
+	currentPage = page;
+	matched = true;
+	}
+	
+	return matched;
+	}
+	
+	
+	document.addEventListener("DOMContentLoaded", () => {
+	applyStateFromUrl();
+	document.getElementById('vault-search').value = searchQuery;
+	applyChannelUI(currentChannel);
+	loadChannel(currentChannel);
 	});
+	
+	// Fetches a channel's data file on demand and caches it for repeat visits
+	function loadChannel(channelKey) {
+	if (videoDatabase[channelKey]) {
+	updateFilteredList();
+	renderVault();
+	return;
+	}
+	inFlightChannel = channelKey;
+	const grid = document.getElementById('video-vault-grid');
+	grid.innerHTML = `<p style="color: #718096; grid-column: 1 / -1; text-align: center; padding: 40px 0;">Loading ${channelsConfig[channelKey].title}...</p>`;
+	
+	fetch(`/assets/data/videos_${channelKey}.json`)
+	.then(response => {
+	if (!response.ok) throw new Error(`HTTP ${response.status}`);
+	return response.json();
+	})
+	.then(videos => {
+	videoDatabase[channelKey] = videos;
+	if (inFlightChannel !== channelKey) return; // user switched away mid-flight
+	inFlightChannel = null;
+	updateFilteredList();
+	renderVault();
+	})
+	.catch(err => {
+	console.error("Error retrieving video logs:", err);
+	if (inFlightChannel !== channelKey) return;
+	inFlightChannel = null;
+	grid.innerHTML = `<p style="color: #718096; grid-column: 1 / -1; text-align: center; padding: 40px 0;">Could not load this channel's archive. Please try again later.</p>`;
+	});
+	}
 	
 	function updateFilteredList() {
 	const baseVideos = videoDatabase[currentChannel] || [];
@@ -108,6 +171,7 @@ position: 3
 	const totalPages = Math.ceil(filteredVideos.length / itemsPerPage) || 1;
 	if (currentPage > totalPages) currentPage = totalPages;
 	if (currentPage < 1) currentPage = 1;
+	syncStateToUrl();
 	
 	const start = (currentPage - 1) * itemsPerPage;
 	const end = start + itemsPerPage;
@@ -122,19 +186,20 @@ position: 3
 	}
 	
 	activePageVideos.forEach(video => {
-		const card = document.createElement('div');
-		card.className = 'media-card';
-		card.style.cssText = 'background: rgba(20, 24, 33, 0.4); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 8px; overflow: hidden;';
-		card.innerHTML = `
-		<a href="https://www.youtube.com/watch?v=${video.id}" target="_blank" style="text-decoration: none;">
-			<div style="background-image: url('https://img.youtube.com/vi/${video.id}/mqdefault.jpg'); background-size: cover; background-position: center; aspect-ratio: 16/9; border-bottom: 1px solid rgba(255,255,255,0.05);"></div>
-		</a>
-		<div style="padding: 12px;">
-			<span style="color: ${config.color}; font-size: 0.7rem; font-weight: 700; text-transform: uppercase;">${config.tag}</span>
-			<h4 style="color: #fff; font-size: 0.85rem; margin: 5px 0 0 0; font-weight:600; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; height: 2.6em;">${video.title}</h4>
-		</div>
-		`;
-		grid.appendChild(card);
+	const card = document.createElement('div');
+	card.className = 'media-card';
+	card.style.cssText = 'background: rgba(20, 24, 33, 0.4); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 8px; overflow: hidden;';
+	// Real <img> with lazy loading instead of a background-image so the browser can defer offscreen thumbnails
+	card.innerHTML = `
+	<a href="https://www.youtube.com/watch?v=${video.id}" target="_blank" rel="noopener" style="text-decoration: none;">
+	<img src="https://img.youtube.com/vi/${video.id}/mqdefault.jpg" alt="${video.title.replace(/"/g, '&quot;')} thumbnail" loading="lazy" decoding="async" width="320" height="180" style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; display: block; border-bottom: 1px solid rgba(255,255,255,0.05);">
+	</a>
+	<div style="padding: 12px;">
+	<span style="color: ${config.color}; font-size: 0.7rem; font-weight: 700; text-transform: uppercase;">${config.tag}</span>
+	<h4 style="color: #fff; font-size: 0.85rem; margin: 5px 0 0 0; font-weight:600; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; height: 2.6em;">${video.title}</h4>
+	</div>
+	`;
+	grid.appendChild(card);
 	});
 	
 	setupPagination(totalPages);
@@ -142,116 +207,19 @@ position: 3
 	
 	function setupPagination(totalPages) {
 	const container = document.getElementById('pagination-container');
-	container.innerHTML = '';
 	
-	if (filteredVideos.length <= itemsPerPage) {
-		container.style.display = 'none';
-		return;
-	}
-	
-	container.style.display = 'flex';
-	container.style.gap = '8px';
-	container.style.alignItems = 'center';
-	container.style.justifyContent = 'center';
-	
-	// Get current active tab accent color
-	const activeChannelColor = channelsConfig[currentChannel].color;
-	
-	const createNavButton = (text, targetPage, isDisabled = false) => {
-		const btn = document.createElement("button");
-		btn.innerText = text;
-		
-		// Exact sizing, layout borders, and font structure matched directly from the reviews layout
-		btn.style.background = targetPage === currentPage && !isDisabled ? activeChannelColor : "transparent";
-		btn.style.color = isDisabled ? "rgba(255,255,255,0.2)" : (targetPage === currentPage ? "#ffffff" : "#ccdee9");
-		btn.style.border = targetPage === currentPage && !isDisabled ? "1px solid rgba(255,255,255,0.2)" : "1px solid rgba(255,255,255,0.05)";
-		btn.style.padding = "8px 16px"; 
-		btn.style.borderRadius = "6px";
-		btn.style.fontWeight = targetPage === currentPage ? "bold" : "normal";
-		btn.style.minWidth = "40px"; 
-		btn.style.display = "flex";
-		btn.style.justifyContent = "center";
-		btn.style.alignItems = "center";
-		btn.style.transition = "all 0.2s ease";
-		
-		// Forced font size property override
-		btn.style.setProperty("font-size", "18px", "important");
-		
-		if (isDisabled) {
-		btn.style.cursor = "not-allowed";
-		} else {
-		btn.style.cursor = "pointer";
-		if (targetPage !== currentPage) {
-			btn.addEventListener("mouseover", () => {
-			btn.style.background = "rgba(255,255,255,0.08)";
-			btn.style.borderColor = "rgba(255,255,255,0.15)";
-			});
-			btn.addEventListener("mouseout", () => {
-			btn.style.background = "transparent";
-			btn.style.borderColor = "rgba(255,255,255,0.05)";
-			});
-			btn.addEventListener("click", () => {
+	window.setupPaginationNav({
+		container: container,
+		totalPages: totalPages,
+		currentPage: currentPage,
+		activeColor: channelsConfig[currentChannel].color,
+		onPageChange: (targetPage) => {
 			currentPage = targetPage;
 			localStorage.setItem('vault_page', currentPage);
 			renderVault();
 			document.getElementById('vault-content-container').scrollIntoView({ behavior: 'smooth' });
-			});
 		}
-		}
-		return btn;
-	};
-	
-	// 1. Single Chevron Left Symbol (‹)
-	const prevArrow = createNavButton("«", currentPage - 1, currentPage === 1);
-	container.appendChild(prevArrow);
-	
-	// Calculate inner pagination layout limits window
-	let pages = [];
-	pages.push(1);
-	
-	let startWindow = Math.max(2, currentPage - 1);
-	let endWindow = Math.min(totalPages - 1, currentPage + 1);
-	
-	if (currentPage <= 2) {
-		endWindow = Math.min(totalPages - 1, 3);
-	}
-	if (currentPage >= totalPages - 1) {
-		startWindow = Math.max(2, totalPages - 2);
-	}
-	
-	for (let i = startWindow; i <= endWindow; i++) {
-		if (i > 1 && i < totalPages) {
-		pages.push(i);
-		}
-	}
-	
-	if (totalPages > 1) {
-		pages.push(totalPages);
-	}
-	pages = [...new Set(pages)].sort((a, b) => a - b);
-	
-	// 2. Render Page Numbers and structural Ellipses
-	let lastPageNum = 0;
-	pages.forEach(pageNum => {
-		if (lastPageNum > 0 && pageNum - lastPageNum > 1) {
-		const ellipsis = document.createElement("span");
-		ellipsis.innerText = "...";
-		ellipsis.style.color = "#ccdee9";
-		ellipsis.style.padding = "0 6px";
-		ellipsis.style.fontSize = "16px"; 
-		ellipsis.style.width = "40px";
-		ellipsis.style.textAlign = "center";
-		container.appendChild(ellipsis);
-		}
-	
-		const numBtn = createNavButton(pageNum, pageNum);
-		container.appendChild(numBtn);
-		lastPageNum = pageNum;
 	});
-	
-	// 3. Single Chevron Right Symbol (›)
-	const nextArrow = createNavButton("»", currentPage + 1, currentPage === totalPages);
-	container.appendChild(nextArrow);
 	}
 	
 	function handleSearch() {
@@ -268,26 +236,21 @@ position: 3
 	document.getElementById('vault-search').value = '';
 	
 	applyChannelUI(channelKey);
-	updateFilteredList();
-	renderVault();
+	loadChannel(channelKey);
 	}
 	
 	function applyChannelUI(channelKey) {
+	const config = channelsConfig[channelKey];
 	const tabs = document.querySelectorAll('.tab-btn');
-	const targetColor = channelsConfig[channelKey].color;
+	const keys = Object.keys(channelsConfig);
 	
 	tabs.forEach((btn, idx) => {
-		const keys = Object.keys(channelsConfig);
-		if (keys[idx] === channelKey) {
-		btn.style.background = targetColor;
-		btn.style.color = '#fff';
-		btn.style.border = 'none';
-		} else {
-		btn.style.background = 'rgba(255,255,255,0.05)';
-		btn.style.color = '#a0aec0';
-		btn.style.border = '1px solid rgba(255, 255, 255, 0.08)';
-		}
+	btn.classList.toggle('active', keys[idx] === channelKey);
 	});
+	
+	// Per-channel accent color consumed by the .tab-btn.active and
+	// pagination .is-active styles instead of inline JS styling
+	document.querySelector('.vault-page').style.setProperty('--tab-accent', config.color);
 	}
 	
 	function changePage(direction) {

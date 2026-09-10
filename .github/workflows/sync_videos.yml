@@ -3,8 +3,8 @@ name: Update Video Vault Database
 on:
   # Allows you to manually trigger the sync from the GitHub Actions tab anytime
   workflow_dispatch:
-  
-  # Automatically runs once a week (Every Sunday at midnight) to grab new uploads
+
+  # Automatically runs once a day (Every midnight) to grab new uploads
   schedule:
     - cron: '0 0 * * *'
 
@@ -21,7 +21,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-python: '3.x'
+        python-version: '3.x'
 
     # 3. Install yt-dlp inside the GitHub Runner container
     - name: Install Dependencies
@@ -29,7 +29,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install yt-dlp
 
-    # 4. Execute the script to generate the JSON file
+    # 4. Execute the script to generate the JSON files
     - name: Fetch Latest Videos
       run: python fetch_videos.py
 
@@ -38,7 +38,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add assets/data/all_videos.json
+        git add assets/data/videos_*.json
         if git diff --staged --quiet; then
           echo "No new video data found. Skipping commit."
         else

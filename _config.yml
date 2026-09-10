@@ -4,7 +4,7 @@ url: "https://therhyswyrill.github.io"
 title: "The Playability Report"
 page_title: "The Playability Report | Game Reviews, Benchmarks & Longplays"
 description: "In-depth game reviews, emulation benchmarks, and Proton compatibility testing. Discover performance reports and curated gameplay longplays in one archive."
-avatar: assets/img/avatar.png
+avatar: assets/img/avatar.webp
 favicon: assets/icon.ico
 
 header_text: "Analyzing Performance, Reviewing the Experience, and Archiving the Journey"
@@ -28,6 +28,7 @@ sass:
 
 plugins: 
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - ".idea"
@@ -47,5 +48,6 @@ exclude:
   - "LICENSE"
   - ".github"
   - "test-results"
+  - "review-pipeline"
 
 remote_theme: sylhare/Type-on-Strap

@@ -20,7 +20,7 @@ Hack-and-slash combat spans melee strikes, ranged options, and magical abilities
 
 Setarrif's volcanic fields, crumbling ruins, and lava-scarred landscapes provide visual contrast to the base game's environments, while creature designs establish a hellish tone. The setting carries atmospheric weight, though the writing fails to exploit it beyond surface-level lore.
 
-The final boss reuses the base game's Zha model with identical attack patterns and identical music, stripping the climactic encounter of any distinct identity. Reaching the conclusion after fighting through Setarrif's environments, only to face a direct copy-paste of a previously defeated antagonist, drains the momentum entirely.
+The final boss reuses a base game's boss model with identical attack patterns and identical music, stripping the climactic encounter of any distinct identity. Reaching the conclusion after fighting through Setarrif's environments, only to face a direct copy-paste of a previously defeated boss, drains the momentum entirely.
 
 The expansion offers a fraction of the content the marketing promised. At fifteen dollars, the price-to-content ratio borders on predatory, compounded by audio drops and a visual bug that flattens the protagonist's head model.
 

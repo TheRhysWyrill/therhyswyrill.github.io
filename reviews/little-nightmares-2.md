@@ -9,7 +9,7 @@ release_year: 2021
 genre: "Adventure, Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
 summary: "Visually stunning horror-platformer with excellent companion AI and creative puzzles, though frustratingly imprecise combat mars the otherwise atmospheric experience."
-image: "/assets/img/reviews/little-nightmares-ii.webp"
+image: "/assets/img/reviews/little-nightmares-2.webp"
 ---
 
 Mono awakens in a twisted version of Britain, guided by Six through four distinct chapters containing unique antagonists. The premise establishes a horrifying atmosphere with distorted bodies, mannequins, and oppressive architecture creating genuine unease. The TV and transmission motif runs throughout, with glitchy corridors connecting realities across the journey. The visual presentation represents a significant step up from the first game with impressive detail.

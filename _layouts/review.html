@@ -46,7 +46,7 @@ layout: default
         
         <div class="spec-row spec-verdict-container">
           <span class="spec-label">Verdict</span>
-          <span class="verdict-pill verdict-{{ page.verdict }}">{{ page.verdict | replace: '-', ' ' }}</span>
+          <span class="verdict-pill verdict-{{ page.verdict }}">{{ page.verdict | replace: '-', ' ' | capitalize }}</span>
         </div>
 
         {% if page.platform == "PC" and page.specs %}
@@ -141,6 +141,40 @@ layout: default
       <span id="nav-next-disabled" style="color: #38434c !important; background: transparent !important; border: 1px solid transparent !important; padding: 8px 16px !important; display: none !important; align-items: center !important; gap: 6px !important; cursor: not-allowed !important;">Latest »</span>
     </div>
   </div>
+
+  <!-- Structured data for search engines (Review rich result) -->
+  {% assign ld_genres = "" | split: "," %}
+  {% assign ld_genre_list = page.genre | split: "," %}
+  {% for g in ld_genre_list %}{% assign g = g | strip %}{% assign ld_genres = ld_genres | push: g %}{% endfor %}
+  {% case page.verdict %}
+    {% when "recommended" %}{% assign ld_rating = 3 %}
+    {% when "not-sure" %}{% assign ld_rating = 2 %}
+    {% when "not-recommended" %}{% assign ld_rating = 1 %}
+    {% else %}{% assign ld_rating = 0 %}
+  {% endcase %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "url": {{ page.url | absolute_url | jsonify }},
+    "headline": {{ page.game_title | append: " review" | jsonify }},
+    "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+    "author": { "@type": "Organization", "name": {{ site.title | jsonify }} },
+    "publisher": { "@type": "Organization", "name": {{ site.title | jsonify }} },
+    "itemReviewed": {
+      "@type": "VideoGame",
+      "name": {{ page.game_title | jsonify }},
+      "gamePlatform": {{ page.platform | jsonify }},
+      "genre": {{ ld_genres | jsonify }},
+      "datePublished": "{{ page.release_year }}",
+      "image": {{ page.image | absolute_url | jsonify }}
+    },
+    {% if ld_rating > 0 %}
+    "reviewRating": { "@type": "Rating", "ratingValue": {{ ld_rating }}, "bestRating": 3, "worstRating": 1 },
+    {% endif %}
+    "reviewBody": {{ content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
+  }
+  </script>
 
 </article>
 
@@ -259,11 +293,11 @@ window.addEventListener('click', () => {
 		const normTarget = normalise(rawGameTitle);
 		if (!normTarget) return;
 
-		fetch("/assets/data/all_videos.json")
+		fetch("/assets/data/videos_trw.json")
 			.then(r => r.json())
-			.then(data => {
-				const videos = data && data.trw ? data.trw : [];
-				const match = videos.find(vid => {
+			.then(videos => {
+				const list = Array.isArray(videos) ? videos : [];
+				const match = list.find(vid => {
 					if (!vid.title || !vid.id) return false;
 					const normTitle = normalise(vid.title);
 					const hasJourney = normTitle.includes('complete journey');

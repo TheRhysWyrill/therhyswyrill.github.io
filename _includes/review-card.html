@@ -1,0 +1,53 @@
+{% comment %}
+  Shared review card, used by the homepage "Latest Reviews" strip and the
+  reviews archive grid. Pass the review page as `review`; pass `compact=true`
+  to render the reviews archive's tighter variant (styled via the
+  .game-archive-card--compact modifier in _site-styles.scss).
+
+  Usage:
+    {% include review-card.html review=review %}
+    {% include review-card.html review=review compact=true %}
+{% endcomment %}
+{% assign card = include.review %}
+{% assign card_date_fallback = card.date | default: "2000-01-01" %}
+<a href="{{ card.url }}" class="game-archive-card{% if include.compact %} game-archive-card--compact{% endif %}"
+   data-date="{{ card_date_fallback }}"
+   data-year="{{ card.release_year }}"
+   data-platform="{{ card.platform }}"
+   data-genre="{{ card.genre }}"
+   data-verdict="{{ card.verdict | downcase | replace: ' ', '-' }}">
+
+    <div class="archive-card-image-wrap">
+        {% if card.image %}
+        <img src="{{ card.image }}" alt="{{ card.game_title }} Art" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />
+        {% else %}
+        <div class="archive-card-placeholder">No Art Available</div>
+        {% endif %}
+
+        <span class="archive-verdict-tag archive-badge-{{ card.verdict }}">
+            {{ card.verdict | replace: '-', ' ' | capitalize }}
+        </span>
+    </div>
+
+    <div class="archive-card-details">
+        <div class="archive-card-meta">
+            <span>{{ card.platform }}</span>
+            <span class="meta-divider">&bull;</span>
+            <span>{{ card.genre }}</span>
+            <span class="meta-divider">&bull;</span>
+            <span>{{ card.release_year }}</span>
+        </div>
+
+        <h3 class="archive-card-title">{{ card.game_title }}</h3>
+
+        {% if card.summary %}
+        <p class="archive-card-summary">{{ card.summary }}</p>
+        {% endif %}
+
+        {% if card.date %}
+        <div class="archive-card-inline-date">
+            <span>✍️ Written: {{ card.date | date: "%b %d, %Y" }}</span>
+        </div>
+        {% endif %}
+    </div>
+</a>

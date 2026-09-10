@@ -22,6 +22,6 @@ Space diving demands navigating surreal internal landscapes, solving environment
 
 Exploration occasionally lacks direction, with the town's layout sometimes obscuring the next objective. The heavy themes of depression and suicide may prove triggering for some players, though the game provides content warnings. These elements represent minor friction against an otherwise compelling experience.
 
-The creators of Coffee Talk bring their distinctive narrative style to a larger scope. Warm pixel art renders 1990s Indonesia with nostalgic detail, from bustling markets to quiet streets. The atmosphere sustains emotional investment throughout. Developer pedigree adds confidence to the narrative ambition.
+Mojiken Studio renders 1990s Indonesia with warm pixel art, from bustling markets to quiet streets. The nostalgic detail establishes a distinctive atmosphere that sustains emotional investment throughout. Visual storytelling complements the narrative themes effectively.
 
 Overall, a heartfelt narrative adventure tackles mental health themes with care through a unique space dive mechanic and compelling character relationships. The 1990s Indonesian setting provides a distinctive atmosphere that sustains emotional investment.

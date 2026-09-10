@@ -7,5 +7,6 @@ gem 'base64'
 gem 'bigdecimal'
 
 # For github pages compatibility
+gem "jekyll-sitemap", "~> 1.4"
 # gem 'github-pages', group: :jekyll_plugins
 gemspec
