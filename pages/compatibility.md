@@ -89,7 +89,7 @@ position: 1
 					type: "standard",
 					emulators: ["All", "Eden", "Ryujinx"],
 					emulatorKeywordsMap: {
-						"All":            ["eden", "ryujinx", "switch"],
+						"All":            ["eden", "ryujinx", "switch", "citron"],
 						"Eden":			  ["eden"],
 						"Ryujinx":        ["ryujinx", "switch"]
 					},
@@ -663,6 +663,28 @@ position: 1
 			});
 
 			// ── Video cross-referencing (updated with regex extractor rule) ──
+			const TITLE_ALIASES = {
+				"bayonetta origins cereza and lost demon": "bayonetta origins",
+				"diablo iii eternal collection": "diablo iii",
+				"touch detective 2 5": "touch detective",
+				"touch detective 3": "touch detective",
+				"shin megami tensei v vengeance": "shin megami tensei v"
+			};
+			// Edition markers that describe the same game (stripped iteratively on both sides
+			// before comparing, so "Deluxe/HD/Remastered" suffixes never break a match).
+			const EDITION_WORDS = /\b(game of the year|definitive edition|complete edition|enhanced edition|ultimate edition|eternal collection|goty|remastered|remaster|deluxe|enhanced|hd|edition)\b/g;
+			function normaliseTitle(str) {
+				let s = (str || "").toLowerCase().replace(/&/g, " and ");
+				s = s.replace(/[^a-z0-9]+/g, " ");
+				s = s.replace(/\bthe\b/g, " ");
+				s = s.replace(/\s+/g, " ").trim();
+				let prev = null;
+				while (prev !== s) {
+					prev = s;
+					s = s.replace(EDITION_WORDS, " ").replace(/\s+/g, " ").trim();
+				}
+				return TITLE_ALIASES[s] || s;
+			}
 			function autoLinkCardVideos(emuKeywords, excludeKeywords) {
 				if (!externalVideoCache || externalVideoCache.length === 0) return;
 			
@@ -670,7 +692,7 @@ position: 1
 					const titleEl = card.querySelector('.card-game-title');
 					if (!titleEl) return;
 			
-					const cleanGameTitle = titleEl.innerText.replace(/▶ Watch Test/g, "").trim().toLowerCase();
+					const cleanGameTitle = normaliseTitle(titleEl.innerText.replace(/▶ Watch Test/g, ""));
 					if (!cleanGameTitle) return;
 			
 					const matchedVideo = externalVideoCache.find(vid => {
@@ -680,7 +702,7 @@ position: 1
 						// Exact validation via explicit header title pattern evaluation logic
 						const extracted = ytTitle.match(/^is\s+(.+?)\s+playable\?/i);
 						if (!extracted) return false;
-						const videoGameTitle = extracted[1].trim();
+						const videoGameTitle = normaliseTitle(extracted[1]);
 
 						const hardwareMatches   = ytTitle.includes("7950x");
 						const structuralMatches = videoGameTitle === cleanGameTitle;

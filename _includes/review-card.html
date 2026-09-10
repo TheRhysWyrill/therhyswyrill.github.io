@@ -36,6 +36,8 @@
             <span>{{ card.genre }}</span>
             <span class="meta-divider">&bull;</span>
             <span>{{ card.release_year }}</span>
+            <span class="meta-divider">&bull;</span>
+            <span class="archive-card-readtime">{{ card.content | strip_html | number_of_words | divided_by: 200.0 | ceil | at_least: 1 }} min read</span>
         </div>
 
         <h3 class="archive-card-title">{{ card.game_title }}</h3>

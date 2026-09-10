@@ -2220,6 +2220,37 @@ body:has(.vault-page) {
 
 
 /* --------------------------------------------------------------------------
+   14. RELATED REVIEWS ("More like this") — bottom of each review page
+   -------------------------------------------------------------------------- */
+
+.related-reviews {
+    max-width: 800px; /* aligns with the pagination footer + article column */
+    margin: 50px auto 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    .related-reviews-title {
+        font-size: 20px;
+        color: $color-white;
+        margin: 0 0 18px 0;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $panel-border;
+    }
+}
+
+.related-reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+@media (max-width: 650px) {
+    .related-reviews-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --------------------------------------------------------------------------
    CAVEAT — left unfixed on purpose
    `.archive-container` still carries `zoom: 125%` at desktop widths
    (cancelled back to 100% at 650px and 768px), and `html` separately gets

@@ -39,6 +39,14 @@ for key, url in CHANNELS.items():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(channel_videos, f, indent=2, ensure_ascii=False)
 
-    print(f"Done! Found {len(channel_videos)} videos. Saved to {output_path}")
+    # Slim companion file with just the "Complete Journey" videos (~2 KB).
+    # Review pages match against this instead of the full vault archive,
+    # which keeps a ~1.8 MB payload off every review page load.
+    journeys = [v for v in channel_videos if "complete journey" in (v.get("title") or "").lower()]
+    journeys_path = os.path.join(OUTPUT_DIR, f"journeys_{key}.json")
+    with open(journeys_path, "w", encoding="utf-8") as f:
+        json.dump(journeys, f, separators=(",", ":"), ensure_ascii=False)
+
+    print(f"Done! Found {len(channel_videos)} videos ({len(journeys)} complete journeys). Saved to {output_path}")
 
 print("\nSuccess! Vault database updated.")

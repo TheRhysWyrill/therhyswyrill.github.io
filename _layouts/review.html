@@ -120,6 +120,29 @@ layout: default
     {% endif %}
   {% endfor %}
 
+  <!-- More like this: up to 3 newest reviews sharing this review's genre, else its platform -->
+  {% assign related_pool = "" | split: "," %}
+  {% for r in review_pages %}
+    {% if r.url == page.url %}{% continue %}{% endif %}
+    {% if page.genre and r.genre and page.genre contains r.genre %}
+      {% assign related_pool = related_pool | push: r %}
+    {% elsif page.platform and r.platform and page.platform == r.platform %}
+      {% assign related_pool = related_pool | push: r %}
+    {% endif %}
+  {% endfor %}
+  {% assign related_reviews = related_pool | sort: "date" | reverse | slice: 0, 3 %}
+
+  {% if related_reviews.size > 0 %}
+  <section class="related-reviews" aria-label="More reviews like this">
+    <h2 class="related-reviews-title">More like this</h2>
+    <div class="related-reviews-grid">
+      {% for r in related_reviews %}
+        {% include review-card.html review=r compact=true %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   <div id="dynamic-pagination" class="review-pagination-footer" style="display: flex !important; align-items: center !important; justify-content: space-between !important; max-width: 800px !important; margin: 60px auto 20px auto !important; padding: 0 20px !important; font-size: 18px !important; border-top: 1px solid #252932 !important; padding-top: 30px !important; box-sizing: border-box !important;">
     <div style="flex: 1 !important; text-align: left !important;">
       <a id="nav-prev-btn" href="#" style="color: #ccdee9 !important; text-decoration: none !important; background: #1e252b !important; border: 1px solid rgba(255,255,255,0.08) !important; padding: 8px 16px !important; border-radius: 6px !important; transition: all 0.2s !important; display: inline-flex !important; align-items: center !important; gap: 6px !important;" onmouseover="this.style.background='#252e36'; this.style.color='#ffffff';" onmouseout="this.style.background='#1e252b'; this.style.color='#ccdee9';">
@@ -293,7 +316,7 @@ window.addEventListener('click', () => {
 		const normTarget = normalise(rawGameTitle);
 		if (!normTarget) return;
 
-		fetch("/assets/data/videos_trw.json")
+		fetch("/assets/data/journeys_trw.json")
 			.then(r => r.json())
 			.then(videos => {
 				const list = Array.isArray(videos) ? videos : [];
