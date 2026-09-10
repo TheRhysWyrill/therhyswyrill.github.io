@@ -366,12 +366,19 @@ html {
 
 .archive-card-inline-date {
     margin-top: auto;
-    font-size: 10px;
-    color: #8aa0ae;
     display: flex;
     align-items: center;
-    gap: 4px;
-    opacity: 0.85;
+
+    span {
+        display: inline-block;
+        font-size: 10px;
+        color: #8aa0ae;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 999px;
+        padding: 2px 10px;
+        letter-spacing: 0.3px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -1178,6 +1185,53 @@ body:has(.compat-page) {
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) !important;
         }
 
+        /* Platform pill: overlaid on the cover's top-right corner,
+           balancing the verdict badge in the top-left */
+        .archive-card-image-wrap .archive-card-platform {
+            position: absolute !important;
+            top: 8px !important;
+            right: 8px !important;
+            z-index: 10 !important;
+            width: auto !important;
+            height: auto !important;
+            display: inline-block !important;
+            color: #e9ecef !important;
+            font-size: 10px !important;
+            font-weight: 700 !important;
+            text-transform: uppercase !important;
+            letter-spacing: 0.4px !important;
+            padding: 3px 9px !important;
+            background: rgba(0, 0, 0, 0.65) !important;
+            border-radius: 999px !important;
+            line-height: 1.2 !important;
+            backdrop-filter: blur(4px) !important;
+            -webkit-backdrop-filter: blur(4px) !important;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) !important;
+        }
+
+        /* Reading-time pill: overlaid on the cover's bottom-right corner,
+           diagonal to the verdict badge in the top-left */
+        .archive-card-image-wrap .archive-card-readtime {
+            position: absolute !important;
+            bottom: 8px !important;
+            right: 8px !important;
+            z-index: 10 !important;
+            width: auto !important;
+            height: auto !important;
+            display: inline-block !important;
+            color: #e9ecef !important;
+            font-size: 10px !important;
+            font-weight: 600 !important;
+            letter-spacing: 0.4px !important;
+            padding: 3px 9px !important;
+            background: rgba(0, 0, 0, 0.65) !important;
+            border-radius: 999px !important;
+            line-height: 1.2 !important;
+            backdrop-filter: blur(4px) !important;
+            -webkit-backdrop-filter: blur(4px) !important;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) !important;
+        }
+
         .archive-card-details {
             padding: 16px !important;
             display: flex !important;
@@ -1188,6 +1242,25 @@ body:has(.compat-page) {
             span {
                 color: #868e96 !important;
                 font-size: 13px !important;
+            }
+
+            /* Genre/year chips in the meta row, matching the date pill below */
+            .archive-card-meta span.archive-card-pill {
+                display: inline-block !important;
+                font-size: 10px !important;
+                padding: 2px 9px !important;
+                background: rgba(255, 255, 255, 0.05) !important;
+                border: 1px solid rgba(255, 255, 255, 0.1) !important;
+                border-radius: 999px !important;
+                letter-spacing: 0.3px !important;
+            }
+
+            .archive-card-meta span.meta-divider {
+                background: none !important;
+                border: none !important;
+                padding: 0 !important;
+                color: #565b60 !important;
+                font-size: 11px !important;
             }
 
             h3 {

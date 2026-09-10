@@ -32,3 +32,12 @@ test('vault pagination updates the page param', async ({ page }) => {
   await expect(page).toHaveURL(/page=2/);
   await expect(page.locator('.media-card:visible').first()).toBeVisible();
 });
+
+test("livestream VODs are excluded from the Let's Plays tab", async ({ page }) => {
+  await page.goto(VAULT_URL);
+  // The filter runs in updateFilteredList; poll past the initial JSON fetch
+  await page.waitForFunction(() => document.querySelectorAll('.media-card h4').length > 0);
+  const titles = await page.$$eval('.media-card h4', els => els.map(e => e.textContent.toLowerCase()));
+  expect(titles.length).toBeGreaterThan(0);
+  expect(titles.some(t => t.includes('livestream'))).toBe(false);
+});

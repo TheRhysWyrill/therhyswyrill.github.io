@@ -58,7 +58,7 @@ position: 3
 	<script src="/assets/js/pagination.js" defer></script>
 	<script>
 	const channelsConfig = {
-	trw: { title: "Edited Let's Plays", desc: "Edited commentary playthroughs, focusing on complete playthroughs.", tag: "Let's Play", color: "#9146ff" },
+	trw: { title: "Edited Let's Plays", desc: "Edited commentary playthroughs, focusing on complete playthroughs.", tag: "Let's Play", color: "#9146ff", excludeLivestreams: true },
 	iip: { title: "Emulation & Proton Testing", desc: "Performance testing to see how emulation holds up and testing how 'plug and play' the Proton compatibility layer is.", tag: "Performance Log", color: "#c0c0c0" },
 	tga: { title: "No-Commentary Longplays", desc: "Clean, mostly unedited, no-commentary complete playthroughs.", tag: "Longplay", color: "#d4af37" },
 	vods: { title: "Full Livestream VODs", desc: "Unedited stream recordings vaulted permanently from past live streams.", tag: "Live VOD", color: "#a91b1b" }
@@ -153,6 +153,8 @@ position: 3
 	
 	filteredVideos = baseVideos.filter(video => {
 		const titleLower = video.title.toLowerCase();
+		// Livestream VODs live on their own tab; keep them off the Let's Plays tab
+		if (channelsConfig[currentChannel].excludeLivestreams && titleLower.includes('livestream')) return false;
 		return searchTokens.every(token => titleLower.includes(token));
 	});
 	
@@ -195,8 +197,8 @@ position: 3
 	<img src="https://img.youtube.com/vi/${video.id}/mqdefault.jpg" alt="${video.title.replace(/"/g, '&quot;')} thumbnail" loading="lazy" decoding="async" width="320" height="180" style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; display: block; border-bottom: 1px solid rgba(255,255,255,0.05);">
 	</a>
 	<div style="padding: 12px;">
-	<span style="color: ${config.color}; font-size: 0.7rem; font-weight: 700; text-transform: uppercase;">${config.tag}</span>
-	<h4 style="color: #fff; font-size: 0.85rem; margin: 5px 0 0 0; font-weight:600; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; height: 2.6em;">${video.title}</h4>
+	<span style="display: inline-block; color: ${config.color}; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; padding: 2px 9px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 999px;">${config.tag}</span>
+	<h4 style="color: #fff; font-size: 0.85rem; margin: 7px 0 0 0; font-weight:600; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; height: 2.6em;">${video.title}</h4>
 	</div>
 	`;
 	grid.appendChild(card);

@@ -27,17 +27,17 @@
         <span class="archive-verdict-tag archive-badge-{{ card.verdict }}">
             {{ card.verdict | replace: '-', ' ' | capitalize }}
         </span>
+
+        <span class="archive-card-platform">{{ card.platform }}</span>
+
+        <span class="archive-card-readtime">{{ card.content | strip_html | number_of_words | divided_by: 200.0 | ceil | at_least: 1 }} min read</span>
     </div>
 
     <div class="archive-card-details">
         <div class="archive-card-meta">
-            <span>{{ card.platform }}</span>
-            <span class="meta-divider">&bull;</span>
-            <span>{{ card.genre }}</span>
-            <span class="meta-divider">&bull;</span>
-            <span>{{ card.release_year }}</span>
-            <span class="meta-divider">&bull;</span>
-            <span class="archive-card-readtime">{{ card.content | strip_html | number_of_words | divided_by: 200.0 | ceil | at_least: 1 }} min read</span>
+            <span class="archive-card-pill">{{ card.genre }}</span>
+            <span class="meta-divider">|</span>
+            <span class="archive-card-pill">{{ card.release_year }}</span>
         </div>
 
         <h3 class="archive-card-title">{{ card.game_title }}</h3>
