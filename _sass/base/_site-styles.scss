@@ -1087,32 +1087,7 @@ body:has(.compat-page) {
     text-align: center;
 }
 
-html body .archive-container {
-    width: 100% !important;
-    max-width: 1800px !important;
-    margin: 0 auto !important;
-    padding: 20px !important;
-    box-sizing: border-box !important;
-    zoom: 125% !important;
-
-    &:has(.archive-grid) {
-        width: 90vw !important;
-        max-width: 1400px !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        padding: 0 !important;
-        display: block !important;
-        box-sizing: border-box !important;
-    }
-
-    .archive-grid {
-        display: grid !important;
-        grid-template-columns: repeat(6, 1fr) !important;
-        gap: 16px !important;
-        width: 100% !important;
-        padding: 0 !important;
-        margin: 0 !important;
-
+@mixin archive-card-component {
         a.game-archive-card {
             display: flex !important;
             flex-direction: column !important;
@@ -1230,6 +1205,35 @@ html body .archive-container {
                 margin: 0 0 8px 0 !important;
             }
         }
+}
+
+html body .archive-container {
+    width: 100% !important;
+    max-width: 1800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+    zoom: 125% !important;
+
+    &:has(.archive-grid) {
+        width: 90vw !important;
+        max-width: 1400px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0 !important;
+        display: block !important;
+        box-sizing: border-box !important;
+    }
+
+    .archive-grid {
+        display: grid !important;
+        grid-template-columns: repeat(6, 1fr) !important;
+        gap: 16px !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+
+        @include archive-card-component;
     }
 }
 
@@ -2224,6 +2228,7 @@ body:has(.vault-page) {
    -------------------------------------------------------------------------- */
 
 .related-reviews {
+    @include archive-card-component;
     max-width: 800px; /* aligns with the pagination footer + article column */
     margin: 50px auto 0 auto;
     padding: 0 20px;
