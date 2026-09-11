@@ -10,7 +10,7 @@ position: 3
 		<div class="billboard-title-card">
 			<h1>Video Vault</h1>
 			<p class="billboard-subtitle">
-				A comprehensive digital vault for edited Let's Plays, emulation performance logs, complete longplays, and raw livestream archives. Explore the collection to see how games hold up across various systems and setups.
+				A comprehensive digital vault for edited Complete Journeys, emulation performance logs, complete longplays, and raw livestream archives. Explore the collection to see how games hold up across various systems and setups.
 			</p>
 		</div>
 	</div>
@@ -18,7 +18,7 @@ position: 3
 	<div class="vault-fluid-row vault-fluid-row--tabs">
 	<div class="channel-tabs">
 	<button class="tab-btn active" onclick="switchChannel('trw')">
-		TheRhysWyrill (Let's Plays)
+		TRW (Complete Journeys)
 		</button>
 	<button class="tab-btn" onclick="switchChannel('iip')">
 		Is It Playable? (Performance)
@@ -39,8 +39,8 @@ position: 3
 	<div class="vault-fluid-row" id="vault-content-container">
 	<div class="vault-header-wrapper">
 		<div>
-	<h2 id="channel-title">Edited Let's Plays</h2>
-	<p id="channel-description">Edited commentary playthroughs, focusing on complete playthroughs.</p>
+	<h2 id="channel-title">Complete Journeys</h2>
+	<p id="channel-description">Edited, commentated playthroughs — each game played through to the credits and stitched into one complete journey.</p>
 		</div>
 	<div class="vault-header-search">
 		<input type="text" id="vault-search" class="vault-search-input" placeholder="Filter videos..." oninput="handleSearch()">
@@ -58,7 +58,7 @@ position: 3
 	<script src="/assets/js/pagination.js" defer></script>
 	<script>
 	const channelsConfig = {
-	trw: { title: "Edited Let's Plays", desc: "Edited commentary playthroughs, focusing on complete playthroughs.", tag: "Let's Play", color: "#9146ff", excludeLivestreams: true },
+	trw: { title: "Complete Journeys", desc: "Edited, commentated playthroughs, each game played through to the credits and stitched into one complete journey.", tag: "Complete Journey", color: "#9146ff", excludeLivestreams: true },
 	iip: { title: "Emulation & Proton Testing", desc: "Performance testing to see how emulation holds up and testing how 'plug and play' the Proton compatibility layer is.", tag: "Performance Log", color: "#c0c0c0" },
 	tga: { title: "No-Commentary Longplays", desc: "Clean, mostly unedited, no-commentary complete playthroughs.", tag: "Longplay", color: "#d4af37" },
 	vods: { title: "Full Livestream VODs", desc: "Unedited stream recordings vaulted permanently from past live streams.", tag: "Live VOD", color: "#a91b1b" }
@@ -164,7 +164,7 @@ function nextThumb(img) {
 	
 	filteredVideos = baseVideos.filter(video => {
 		const titleLower = video.title.toLowerCase();
-		// Livestream VODs live on their own tab; keep them off the Let's Plays tab
+		// Livestream VODs live on their own tab; keep them off the Complete Journeys tab
 		if (channelsConfig[currentChannel].excludeLivestreams && titleLower.includes('livestream')) return false;
 		return searchTokens.every(token => titleLower.includes(token));
 	});

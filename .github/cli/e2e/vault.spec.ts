@@ -33,7 +33,15 @@ test('vault pagination updates the page param', async ({ page }) => {
   await expect(page.locator('.media-card:visible').first()).toBeVisible();
 });
 
-test("livestream VODs are excluded from the Let's Plays tab", async ({ page }) => {
+test('the default tab, heading and cards use the Complete Journeys branding', async ({ page }) => {
+  await page.goto(VAULT_URL);
+  await expect(page.locator('.tab-btn').first()).toHaveText(/Complete Journeys/);
+  await expect(page.locator('#channel-title')).toHaveText('Complete Journeys');
+  await page.waitForFunction(() => document.querySelectorAll('.media-card span').length > 0);
+  await expect(page.locator('.media-card span').first()).toHaveText('Complete Journey');
+});
+
+test('livestream VODs are excluded from the Complete Journeys tab', async ({ page }) => {
   await page.goto(VAULT_URL);
   // The filter runs in updateFilteredList; poll past the initial JSON fetch
   await page.waitForFunction(() => document.querySelectorAll('.media-card h4').length > 0);
