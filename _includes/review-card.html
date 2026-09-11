@@ -1,16 +1,22 @@
 {% comment %}
-  Shared review card, used by the homepage "Latest Reviews" strip and the
-  reviews archive grid. Pass the review page as `review`; pass `compact=true`
-  to render the reviews archive's tighter variant (styled via the
-  .game-archive-card--compact modifier in _site-styles.scss).
+  Shared review card, used by the homepage "Latest Reviews" strip, the
+  reviews archive grid, and the review pages' "More like this" strip.
+  Pass the review page as `review`, plus one optional variant:
+
+    compact=true  -> reviews archive's tighter card
+    strip=true    -> 5-up "More like this" mini card (16:9 cover, small type)
+
+  Both variants are styled via .game-archive-card--compact /
+  .game-archive-card--strip in _site-styles.scss.
 
   Usage:
     {% include review-card.html review=review %}
     {% include review-card.html review=review compact=true %}
+    {% include review-card.html review=review strip=true %}
 {% endcomment %}
 {% assign card = include.review %}
 {% assign card_date_fallback = card.date | default: "2000-01-01" %}
-<a href="{{ card.url }}" class="game-archive-card{% if include.compact %} game-archive-card--compact{% endif %}"
+<a href="{{ card.url }}" class="game-archive-card{% if include.compact %} game-archive-card--compact{% endif %}{% if include.strip %} game-archive-card--strip{% endif %}"
    data-date="{{ card_date_fallback }}"
    data-year="{{ card.release_year }}"
    data-platform="{{ card.platform }}"
@@ -35,9 +41,8 @@
 
     <div class="archive-card-details">
         <div class="archive-card-meta">
-            <span class="archive-card-pill">{{ card.genre }}</span>
-            <span class="meta-divider">|</span>
-            <span class="archive-card-pill">{{ card.release_year }}</span>
+            <span class="archive-card-pill archive-card-pill--genre">{{ card.genre }}</span>
+            <span class="archive-card-pill archive-card-pill--year">{{ card.release_year }}</span>
         </div>
 
         <h3 class="archive-card-title">{{ card.game_title }}</h3>
@@ -48,7 +53,7 @@
 
         {% if card.date %}
         <div class="archive-card-inline-date">
-            <span>✍️ Written: {{ card.date | date: "%b %d, %Y" }}</span>
+            <span class="archive-card-date-pill">✍️ Written: {{ card.date | date: "%b %d, %Y" }}</span>
         </div>
         {% endif %}
     </div>

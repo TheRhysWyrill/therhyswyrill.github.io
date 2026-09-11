@@ -2,17 +2,36 @@ import { test, expect } from '@playwright/test';
 
 const REVIEW_URL = '/reviews/a-space-for-the-unbound/';
 
-test('review page shows 1-3 related reviews sharing the genre', async ({ page }) => {
+test('review page shows 1-5 related reviews sharing the genre', async ({ page }) => {
   await page.goto(REVIEW_URL);
   const section = page.locator('.related-reviews');
   await expect(section).toBeVisible();
   const cards = section.locator('.game-archive-card');
   const count = await cards.count();
   expect(count).toBeGreaterThanOrEqual(1);
-  expect(count).toBeLessThanOrEqual(3);
+  expect(count).toBeLessThanOrEqual(5);
   for (let i = 0; i < count; i++) {
     await expect(cards.nth(i)).toHaveAttribute('href', /\/reviews\//);
   }
+});
+
+test('related review covers keep their 16:9 ratio instead of being cropped', async ({ page }) => {
+  await page.goto(REVIEW_URL);
+  const first = page.locator('.related-reviews .game-archive-card').first();
+  const ratio = await first.locator('img').evaluate((img) => {
+    const r = img.getBoundingClientRect();
+    return +(r.width / r.height).toFixed(2);
+  });
+  expect(Math.abs(ratio - 16 / 9)).toBeLessThan(0.08);
+});
+
+test('review card meta uses pills with no text separators', async ({ page }) => {
+  await page.goto(REVIEW_URL);
+  const meta = page.locator('.archive-card-meta').first();
+  await expect(meta).not.toContainText('|');
+  expect(await meta.locator('.archive-card-pill').count()).toBeGreaterThanOrEqual(2);
+  await expect(meta.locator('.archive-card-pill--genre')).toHaveCount(1);
+  await expect(meta.locator('.archive-card-pill--year')).toHaveCount(1);
 });
 
 test('related reviews never include the current review', async ({ page }) => {
