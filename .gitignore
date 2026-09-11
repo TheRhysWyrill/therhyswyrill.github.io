@@ -29,6 +29,10 @@ jekyll-theme-type-on-strap.gemspec
 **/node_modules/*
 **/package-lock.json
 
+# Playwright output (written by `npm run test:e2e`)
+test-results/
+playwright-report/
+
 # Testing
 .github/cli/playwright/.cache/
 .github/cli/coverage/

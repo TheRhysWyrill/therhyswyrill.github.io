@@ -144,10 +144,9 @@ position: 2
           });
         }
         
-        if(card.className) {
-          const tag = card.querySelector('.archive-verdict-tag');
-          if (tag) verdicts.add(tag.innerText.trim());
-        }
+        // Read the verdict slug from the card's data attribute: the visible
+        // badge is now a glyph (tick/dash/cross), not the wording.
+        if (card.dataset.verdict) verdicts.add(card.dataset.verdict.trim());
       });
 
       Array.from(years).sort((a,b)=>b-a).forEach(y => filterYear.options.add(new Option(y, y)));
@@ -158,16 +157,23 @@ position: 2
         return str.toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
       }
 	  
-      const verdictOrder = ["Recommended", "Not Sure", "Not Recommended"];
+      // Dropdown keeps the full wording while the option value stays the slug
+      // the cards and the URL params use.
+      const verdictLabels = {
+        "recommended": "Recommended",
+        "not-sure": "Not Sure",
+        "not-recommended": "Not Recommended"
+      };
+      const verdictOrder = ["recommended", "not-sure", "not-recommended"];
       Array.from(verdicts).sort((a, b) => {
-        let indexA = verdictOrder.indexOf(toTitleCase(a.trim()));
-        let indexB = verdictOrder.indexOf(toTitleCase(b.trim()));
+        let indexA = verdictOrder.indexOf(a.trim());
+        let indexB = verdictOrder.indexOf(b.trim());
         if (indexA === -1) indexA = 99;
         if (indexB === -1) indexB = 99;
         return indexA - indexB;
       }).forEach(v => {
-        const valueKey = v.toLowerCase().replace(/\s+/g, '-');
-        filterVerdict.options.add(new Option(toTitleCase(v), valueKey));
+        const valueKey = v.trim().toLowerCase().replace(/\s+/g, '-');
+        filterVerdict.options.add(new Option(verdictLabels[valueKey] || toTitleCase(v.replace(/-/g, ' ')), valueKey));
       });
     }
 

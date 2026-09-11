@@ -1,6 +1,10 @@
 {% comment %}
   Shared review card, used by the homepage "Latest Reviews" strip, the
   reviews archive grid, and the review pages' "More like this" strip.
+  The verdict shows as a glyph on the cover (tick = recommended, dash = not
+  sure, cross = not recommended); the reviews filter dropdown and the review
+  page's own verdict pill keep the full wording.
+
   Pass the review page as `review`, plus one optional variant:
 
     compact=true  -> reviews archive's tighter card
@@ -30,8 +34,26 @@
         <div class="archive-card-placeholder">No Art Available</div>
         {% endif %}
 
-        <span class="archive-verdict-tag archive-badge-{{ card.verdict }}">
-            {{ card.verdict | replace: '-', ' ' | capitalize }}
+        {% comment %}
+          Cards show the verdict as a glyph (tick / dash / cross) so the cover
+          stays uncluttered; the full wording still lives in the reviews
+          filter dropdown and in the review page's own sidebar verdict pill.
+          aria-label + title keep the meaning available to screen readers and
+          on hover.
+        {% endcomment %}
+        {% assign card_verdict_slug = card.verdict | downcase | replace: ' ', '-' %}
+        {% assign card_verdict_label = card.verdict | replace: '-', ' ' | capitalize %}
+        {% case card_verdict_slug %}
+            {% when 'recommended' %}{% assign card_verdict_glyph = '✓' %}
+            {% when 'not-sure' %}{% assign card_verdict_glyph = '–' %}
+            {% when 'not-recommended' %}{% assign card_verdict_glyph = '✗' %}
+            {% else %}{% assign card_verdict_glyph = '?' %}
+        {% endcase %}
+        <span class="archive-verdict-tag archive-badge-{{ card_verdict_slug }}"
+              role="img"
+              aria-label="Verdict: {{ card_verdict_label }}"
+              title="Verdict: {{ card_verdict_label }}">
+            <span aria-hidden="true">{{ card_verdict_glyph }}</span>
         </span>
 
         <span class="archive-card-platform">{{ card.platform }}</span>

@@ -41,3 +41,47 @@ test("livestream VODs are excluded from the Let's Plays tab", async ({ page }) =
   expect(titles.length).toBeGreaterThan(0);
   expect(titles.some(t => t.includes('livestream'))).toBe(false);
 });
+
+test('vault thumbnails fill the card edge to edge with no crop', async ({ page }) => {
+  await page.goto(VAULT_URL);
+  await page.waitForFunction(() => {
+    const imgs = [...document.querySelectorAll('#video-vault-grid img')] as HTMLImageElement[];
+    return imgs.length > 0 && imgs.slice(0, 8).every((i) => i.naturalWidth > 0);
+  });
+  // thumbnails below the fold are lazily loaded (naturalWidth 0), so measure
+  // only the ones that have actually arrived
+  const cards = await page.locator('#video-vault-grid img').evaluateAll((imgs) =>
+    (imgs as HTMLImageElement[])
+      .filter((i) => i.naturalWidth > 0)
+      .slice(0, 8)
+      .map((img) => {
+        const cs = getComputedStyle(img);
+        const box = img.getBoundingClientRect();
+        const padX = parseFloat(cs.paddingLeft) + parseFloat(cs.paddingRight);
+        const padY = parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom);
+        const card = img.closest('div') as HTMLElement;
+        return {
+          padded: padX > 0.5 || padY > 0.5,
+          contentRatio: (box.width - padX) / (box.height - padY),
+          naturalRatio: img.naturalWidth / img.naturalHeight,
+          naturalWidth: img.naturalWidth,
+          // both from getBoundingClientRect: `html { zoom: 90% }` makes rect and
+          // clientWidth disagree, so mixing them would measure the zoom, not a gap
+          spread: Math.abs(box.width - card.getBoundingClientRect().width),
+          fallbacks: img.dataset.thumbNext
+        };
+      })
+  );
+  expect(cards.length).toBeGreaterThan(0);
+  for (const c of cards) {
+    // the theme's `img { padding: 0 9% }` used to inset the content box, which
+    // cut both sides off and sheared the frame's height
+    expect(c.padded).toBe(false);
+    expect(c.spread).toBeLessThanOrEqual(3.5); // card's own 1px borders
+    expect(Math.abs(c.contentRatio - c.naturalRatio)).toBeLessThan(0.02);
+    expect(Math.abs(c.contentRatio - 16 / 9)).toBeLessThan(0.02);
+    // YouTube's 120x90 placeholder would fail this, and the fallback chain is what recovers it
+    expect(c.naturalWidth).toBeGreaterThanOrEqual(320);
+    expect(c.fallbacks).toContain('hq720');
+  }
+});

@@ -65,3 +65,90 @@ test('visible cards actually match the selected genre', async ({ page }) => {
   expect(genres.length).toBeGreaterThan(0);
   for (const g of genres) expect(g).toContain('RPG');
 });
+
+test('verdict cards show a glyph pill with the wording kept as a label', async ({ page }) => {
+  const tags = page.locator('.game-archive-card .archive-verdict-tag');
+  await expect(tags.first()).toBeVisible();
+  const data = await tags.evaluateAll((els) =>
+    els.slice(0, 12).map((el) => ({
+      text: (el.textContent || '').trim(),
+      label: el.getAttribute('aria-label') || '',
+    }))
+  );
+  expect(data.length).toBeGreaterThan(0);
+  for (const d of data) {
+    expect(['✓', '–', '✗']).toContain(d.text);
+    expect(d.label).toMatch(/^Verdict: (recommended|not sure|not recommended)$/i);
+  }
+});
+
+test('the verdict dropdown keeps the full wording with slug values', async ({ page }) => {
+  const options = await page.locator('#filter-verdict option').evaluateAll((els) =>
+    els.map((el) => ({
+      label: (el.textContent || '').trim(),
+      value: (el as HTMLOptionElement).value,
+    }))
+  );
+  const real = options.filter((o) => o.value);
+  expect(real.length).toBeGreaterThan(0);
+  expect(real.map((o) => o.label)).toContain('Recommended');
+  for (const o of real) {
+    expect(o.label).not.toMatch(/[✓–✗]/);
+    expect(o.value).toMatch(/^[a-z]+(-[a-z]+)*$/);
+  }
+});
+
+test('filtering by verdict matches the cards carrying that slug', async ({ page }) => {
+  await page.selectOption('#filter-verdict', 'recommended');
+  await expect(page).toHaveURL(/verdict=recommended/);
+  const verdicts = await page.locator('.game-archive-card:visible').evaluateAll((cards) =>
+    cards.map((c) => (c as HTMLElement).dataset.verdict)
+  );
+  expect(verdicts.length).toBeGreaterThan(0);
+  for (const v of verdicts) expect(v).toBe('recommended');
+});
+
+test('no dead space between the last content element and the footer', async ({ page }) => {
+  const gap = await page.evaluate(() => {
+    const footerText = document.querySelector('.site-footer p') as HTMLElement;
+    const last = document.querySelector('#paginationNav') as HTMLElement;
+    if (!footerText || !last) return -1;
+    return Math.round(footerText.getBoundingClientRect().top - last.getBoundingClientRect().bottom);
+  });
+  expect(gap).toBeGreaterThanOrEqual(0);
+  expect(gap).toBeLessThan(60);
+});
+
+test('archive covers fill their frame at their own ratio so nothing is cropped', async ({ page }) => {
+  await page.waitForFunction(() => {
+    const img = document.querySelector('.game-archive-card img') as HTMLImageElement | null;
+    return !!img && img.naturalWidth > 0;
+  });
+  // cards below the fold are lazily loaded (naturalWidth 0) until scrolled to,
+  // and pagination displays:none's the rest, so measure only the loaded ones
+  const covers = await page
+    .locator('.game-archive-card:visible img')
+    .evaluateAll((imgs) =>
+      imgs
+        .map((i) => i as HTMLImageElement)
+        .filter((i) => i.naturalWidth > 0)
+        .slice(0, 12)
+        .map((img) => {
+          const cs = getComputedStyle(img);
+          const box = img.getBoundingClientRect();
+          const padX = parseFloat(cs.paddingLeft) + parseFloat(cs.paddingRight);
+          const padY = parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom);
+          return {
+            padded: padX > 0.5 || padY > 0.5,
+            content: (box.width - padX) / (box.height - padY),
+            natural: img.naturalWidth / img.naturalHeight,
+          };
+        })
+    );
+  expect(covers.length).toBeGreaterThan(0);
+  for (const c of covers) {
+    // `img { padding: 0 9% }` from the theme would inset and crop the cover
+    expect(c.padded).toBe(false);
+    expect(Math.abs(c.content - c.natural)).toBeLessThan(0.02);
+  }
+});

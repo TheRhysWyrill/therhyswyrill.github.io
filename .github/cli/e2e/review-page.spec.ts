@@ -42,6 +42,28 @@ test('related reviews never include the current review', async ({ page }) => {
   for (const href of hrefs) expect(href).not.toBe(REVIEW_URL);
 });
 
+test('the review page still spells the verdict out in its sidebar pill', async ({ page }) => {
+  await page.goto(REVIEW_URL);
+  const pill = page.locator('.verdict-pill');
+  await expect(pill).toBeVisible();
+  await expect(pill).toHaveText(/recommended|not sure/i);
+  await expect(pill).not.toHaveText(/^[✓–✗]$/);
+});
+
+test('"More like this" is no longer capped at the old 800px strip', async ({ page }) => {
+  await page.setViewportSize({ width: 1600, height: 900 });
+  await page.goto(REVIEW_URL);
+  const section = page.locator('.related-reviews');
+  const maxWidth = await section.evaluate((el) => parseInt(getComputedStyle(el).maxWidth, 10));
+  expect(maxWidth).toBeGreaterThanOrEqual(1100);
+
+  const widths = await section
+    .locator('.game-archive-card')
+    .evaluateAll((els) => els.map((e) => e.getBoundingClientRect().width));
+  expect(widths.length).toBeGreaterThan(0);
+  for (const w of widths) expect(w).toBeGreaterThan(150);
+});
+
 test('review cards carry the reading-time chip', async ({ page }) => {
   await page.goto(REVIEW_URL);
   await expect(page.locator('.archive-card-readtime').first()).toContainText('min read');

@@ -71,6 +71,17 @@ position: 3
 	let filteredVideos = [];
 	let inFlightChannel = null;
 	const itemsPerPage = 18;
+
+// YouTube sometimes 404s a size variant it has not generated yet and answers
+// with a 120x90 placeholder instead. Step up to the next real size until a
+// full frame arrives, so every card shows a real 16:9 thumbnail.
+function nextThumb(img) {
+	const queue = (img.dataset.thumbNext || '').split(',').filter(Boolean);
+	if (!queue.length) return;
+	const size = queue.shift();
+	img.dataset.thumbNext = queue.join(',');
+	img.src = 'https://img.youtube.com/vi/' + img.dataset.videoId + '/' + size + '.jpg';
+}
 	
 	// -- URL state sync (shareable / bookmarkable vault views) ----------------
 	function syncStateToUrl() {
@@ -194,7 +205,7 @@ position: 3
 	// Real <img> with lazy loading instead of a background-image so the browser can defer offscreen thumbnails
 	card.innerHTML = `
 	<a href="https://www.youtube.com/watch?v=${video.id}" target="_blank" rel="noopener" style="text-decoration: none;">
-	<img src="https://img.youtube.com/vi/${video.id}/mqdefault.jpg" alt="${video.title.replace(/"/g, '&quot;')} thumbnail" loading="lazy" decoding="async" width="320" height="180" style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; display: block; border-bottom: 1px solid rgba(255,255,255,0.05);">
+	<img src="https://img.youtube.com/vi/${video.id}/mqdefault.jpg" alt="${video.title.replace(/"/g, '&quot;')} thumbnail" loading="lazy" decoding="async" width="320" height="180" data-video-id="${video.id}" data-thumb-next="hq720,maxresdefault" onload="if (this.naturalWidth < 320) nextThumb(this)" onerror="nextThumb(this)" style="width: 100%; height: auto; display: block; border-bottom: 1px solid rgba(255,255,255,0.05);">
 	</a>
 	<div style="padding: 12px;">
 	<span style="display: inline-block; color: ${config.color}; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; padding: 2px 9px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 999px;">${config.tag}</span>
