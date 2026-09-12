@@ -1,16 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-09-12T00:35:53Z",
-  "stream": {
-    "title": "Teamwork from the Inside Out | Mario & Luigi: Bowser's Inside Story",
-    "game": "Games + Demos",
-    "viewers": 1,
-    "startedAt": "2026-09-11T21:34:12Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-09-12T04:59:57Z",
+  "stream": null,
   "latestVod": {
     "id": "2871587330",
     "title": "Teamwork from the Inside Out | Mario & Luigi: Bowser's Inside Story",
     "createdAt": "2026-09-11T21:34:17Z",
-    "lengthSeconds": 10896
+    "lengthSeconds": 15330
   }
 }
