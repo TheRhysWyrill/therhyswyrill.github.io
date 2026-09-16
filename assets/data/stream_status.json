@@ -1,6 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-09-16T21:44:24Z",
-  "stream": null,
-  "latestVod": null
+  "isLive": true,
+  "checkedAt": "2026-09-16T23:53:09Z",
+  "stream": {
+    "title": "What Happened in San Reno? | Vlad Circus: Curse of Asmodeus",
+    "game": "Games + Demos",
+    "viewers": 1,
+    "startedAt": "2026-09-16T22:25:43Z"
+  },
+  "latestVod": {
+    "id": "2876062259",
+    "title": "What Happened in San Reno? | Vlad Circus: Curse of Asmodeus",
+    "createdAt": "2026-09-16T22:25:48Z",
+    "lengthSeconds": 5241
+  }
 }
