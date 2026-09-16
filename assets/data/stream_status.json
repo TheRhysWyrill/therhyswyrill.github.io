@@ -1,11 +1,6 @@
 {
   "isLive": false,
-  "checkedAt": "2026-09-16T05:12:29Z",
+  "checkedAt": "2026-09-16T21:44:24Z",
   "stream": null,
-  "latestVod": {
-    "id": "2875178656",
-    "title": "Forbidden Knowledge Has a Price | Cosmic Fear",
-    "createdAt": "2026-09-15T22:00:43Z",
-    "lengthSeconds": 11890
-  }
+  "latestVod": null
 }
