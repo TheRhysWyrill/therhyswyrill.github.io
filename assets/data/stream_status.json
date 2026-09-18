@@ -1,11 +1,6 @@
 {
   "isLive": false,
-  "checkedAt": "2026-09-18T06:32:28Z",
+  "checkedAt": "2026-09-18T21:13:13Z",
   "stream": null,
-  "latestVod": {
-    "id": "2876062259",
-    "title": "What Happened in San Reno? | Vlad Circus: Curse of Asmodeus",
-    "createdAt": "2026-09-16T22:25:48Z",
-    "lengthSeconds": 14070
-  }
+  "latestVod": null
 }
