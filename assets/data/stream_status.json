@@ -1,16 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-09-19T01:24:30Z",
-  "stream": {
-    "title": "The Secret Beneath the Pacific | Cthulhu: The Cosmic Abyss",
-    "game": "Games + Demos",
-    "viewers": 1,
-    "startedAt": "2026-09-18T21:29:57Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-09-19T06:18:23Z",
+  "stream": null,
   "latestVod": {
     "id": "2877780108",
     "title": "The Secret Beneath the Pacific | Cthulhu: The Cosmic Abyss",
     "createdAt": "2026-09-18T21:30:02Z",
-    "lengthSeconds": 14068
+    "lengthSeconds": 23211
   }
 }
