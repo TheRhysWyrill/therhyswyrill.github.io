@@ -1,25 +1,27 @@
 ---
 layout: review
-date: 2026-08-13
+date: 2026-08-12
 game_title: "Contra"
 permalink: /reviews/contra/
 verdict: recommended
 platform: "NES"
-release_year: 1987
-genre: "Action, Shooter"
+release_year: 1988
+genre: "Run and Gun"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A dominant spread weapon paired with turbo fire creates satisfying screen-filling carnage across varied environments, though bullet visibility and a sudden alien tonal shift undercut the otherwise relentless challenge."
+summary: "The archetype of NES hard-action, whose varied stages and genre-defining spread gun survive instant-death difficulty and era-typical enemy pop-in."
 image: "/assets/img/reviews/contra.webp"
 ---
 
-One-hit kills define every encounter across eight escalating stages of run-and-gun action. From the opening jungle assault, death arrives from a single projectile, demanding constant movement and pattern memorisation. The weapon system anchors the experience: picking up a spread shot transforms sparse firepower into a screen-filling cone of destruction that devours everything in its path.
+Eight stages of commando warfare run from jungle canopies through cliff faces and snowfields to the pulsing heart of an alien lair, and the escalation is staged with an assurance few 1988 releases managed. The premise is pure arcade science fiction, with the box art selling rugged action heroes while the campaign's true extraterrestrial opponents remain hidden inside. Stage variety far exceeds what the hardware might suggest, and each biome brings its own hazards and rhythm. The whole structure is built to be beaten, memorised and beaten again.
 
-Spread shot paired with turbo fire becomes the dominant tool, turning each stage into a display of overwhelming firepower. Between those bursts, visual variety surprises across jungle warfare, cliffside ascents, and snow-covered terrain shifting into alien environments. Environments never feel recycled, maintaining momentum through visual diversity.
+Difficulty is the point, and it lands exactly as advertised: brutal, instant-death and utterly committed. One hit kills, checkpoints are sparse, and hazards compound until precision jumping and turret prioritisation become survival skills rather than suggestions. The patterns are legible even when unforgiving, which separates arcade fairness from cheap cruelty, and every death reads as a lesson about what the next attempt requires. The legendary 30-lives code exists because the base game demands it.
 
-Enemy pop-in compounds the challenge, with threats materialising on screen with little warning. Small projectiles blend into busy backgrounds, making dodge timing more about memorisation than visual clarity. These frustrations pale next to the weapon feedback, but they create friction that interrupts the otherwise relentless pacing.
+The weapon pickups define the experience, and the spread gun in particular remains the genre's founding statement. Machine gun, laser, flamethrower, rapid and barrier drops reshape each stage's approach, and the spread's fan of projectiles turns crowded screens into manageable geometry. Weapon choice matters moment to moment, since the wrong tool for a corridor can cost a life instantly. Few armament systems have been copied so completely and improved so rarely.
 
-The spread shot and machine gun carry every stage with consistent reliability, while the laser demands deliberate, patient firing to avoid wasting its limited shot. That deliberate pacing clashes with the aggressive tempo the rest of the game demands, rendering it a situational tool at best. Eight stages reward pattern recognition and weapon mastery, pushing forward through memorisation and reflexes.
+The alien twist arrives mid-game with zero foreshadowing, resetting expectations in a single stage transition. Commandos fight human soldiers for several levels before skeletal invaders and biomechanical nightmares appear without any narrative bridge, and the pivot is jarring even by arcade standards. The spectacle compensates, culminating in the iconic alien-heart boss and a campy, satisfying closing battle against the campaign's red-named leader. Storytelling this abrupt could only belong to its era.
 
-No foreshadowing precedes the alien enemies in the final stages, abruptly shifting the threat from military targets to extraterrestrial forces. That tonal pivot feels jarring, pulling the atmosphere sideways without establishing why the landscape has transformed. The late-game stages lean heavily on the weapon systems rather than narrative context to sustain engagement.
+NES-era enemy pop-in is the most consistent technical complaint, as adversaries materialise on-screen a frame before attacking and punish pure reaction. Hard-to-see bullets compound the ambush problem, and together they push some deaths outside the category of fair challenges. The laser weapon is dead weight under turbo fire, sitting inert in the gun where sustained fire should project it. Controls otherwise demand a D-pad, since crouch inputs on an analogue stick create confusion at critical moments.
 
-Overall, the weapon system delivers a feedback loop where spread shot and turbo fire combine to produce relentless, screen-clearing destruction, though bullet visibility and a sudden tonal shift in the final stages create friction that interrupts the otherwise unwavering momentum.
+Pseudo-3D base corridors break the side-view rhythm with forward-scrolling mazes of shutters and turrets, demanding map-memory rather than twitch reflexes. The music throughout is strong for the hardware, propelling each stage without overstaying, and the audio's pacing mirrors the campaign's escalation. Climbing mechanics add verticality to jungle sections, and the pacing across all eight stages rarely sags. Level design this varied was unusual for the platform, and it remains the game's quietest achievement.
+
+Overall, this is the foundational hard-action classic of the NES library, and nearly four decades of sequels have never replaced it. Varied landscapes, the spread gun and honest arcade brutality carry all eight stages, while enemy pop-in, the inert laser under turbo fire and the jarring mid-game pivot mark the era's limits. The game survives its jank completely, and the recommendation needs no reserve lives.

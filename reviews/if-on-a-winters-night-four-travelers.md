@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-06-21
+date: 2026-05-27
 game_title: "If On A Winter's Night, Four Travelers"
 permalink: /reviews/if-on-a-winters-night-four-travelers/
 verdict: recommended
 platform: "PC"
-release_year: 2021
-genre: "Adventure, Horror"
+release_year: 2023
+genre: "Adventure, Horror, Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Four escalating narratives of guilt and self-destruction deliver professional-quality horror storytelling, though uneven pacing and limited gameplay variety create friction between tales."
+summary: "A free, literary tragedy anthology whose three 1920s vignettes and purgatorial frame outclass its price tag, held back only by sparse interstitial exploration and occasional puzzle opacity."
 image: "/assets/img/reviews/if-on-a-winters-night-four-travelers.webp"
 ---
 
-A train carrying four souls through purgatory forms the frame narrative for this point-and-click horror anthology. Each passenger shares a story of guilt, addiction, and self-destruction, escalating from mundane beginnings into genuinely disturbing territory. The compact structure ensures no overstaying of welcome. Darkness arrives quickly in each tale, defying initial expectations.
+A masked-ball train ride through purgatory frames three tragedies from the 1920s, each told as a self-contained vignette with its own mechanics and its own method of self-destruction. The title riffs on Calvino, and the literary ambition shows in every line of dialogue. A supernatural collector hosts the journey, and the frame's ethical ambiguity, a being smuggling doomed passengers aboard out of something like compassion, is a hook few games attempt. Constant dread accumulates across the anthology rather than shock. This is one of the darkest, most confident pieces of free interactive fiction available.
 
-Purgatory setting provides a cohesive thread connecting the four distinct tales. Train stewards who collected these souls out of sympathy add an unsettling layer of supernatural care. Environmental storytelling reveals character backgrounds through interactive objects and atmospheric details. Each tale explores different facets of guilt and self-destruction.
+The first vignette follows a gay romance through a dialogue-choice-driven confrontation that escalates from blunt honesty into a rage aimed at all the wrong targets. Its turn lands hard despite being the thinnest of the three, and the escalation from civil conversation to catastrophe happens inside a single scene. The mechanic is simple branching dialogue, but the writing carries consequences that make every option feel weighted. What begins as a breakup scene becomes something far darker without ever leaving the room.
 
-Carlo and Patrick's story delivers the most immediate shock, with a breakup spiralling into accidental violence. Lady Winterborn's opium-fuelled delusion creates sustained unease through time manipulation mechanics. Dr. Samuels' World War One medic narrative features ritual sequences that rank among the most disturbing moments.
+Valerie Winterborn's chapter is the anthology's most interesting, built on unreliable perception where laudanum blurs reality into hallucination. Covered-up pictures, misplaced certainty and layered truths make the chapter a puzzle of interpretation rather than inventory, and the horror comes from never being sure which version of events is real. The unreliable-narrator structure gives the tragedy its shape, with the truth assembled only as the hallucination cracks. It is the strongest writing in the collection and the best reason to play.
 
-Carlo's hotel investigation anchors the first tale through point-and-click exploration of interconnected rooms. Lady Winterborn's chapter introduces time-shifting mechanics tied to opium use. Dr. Samuels' story incorporates puzzle-solving and moral choices. These shifts maintain variety but create inconsistent pacing.
+Dr. Samuels' finale is the puzzle-heavy close, demanding real book-cross-referencing for its ritual preparation: bowl colours, herbs, wound-man body parts and a clock delayed by seven minutes all feed the incantation. A liminal library of memory-books deepens the chapter's investigation, and a triage section where the right mercy is a bullet pushes the anthology's darkness to its limit. Some ritual steps turn opaque, with the required colours derivable only after re-reading several sources. The chapter's ambition mostly justifies the friction, and its ambiguous guardian ending ties the frame together.
 
-Abrupt transitions between stories can feel jarring, particularly after emotional climaxes. Some tales build more slowly than others, with Carlo and Patrick's immediate impact contrasting against the deliberate pacing of later entries.
+Between vignettes, a train-hub exploration offers atmosphere but little substance, a surreal dream-space that communicates tone more than content. The hub is brief enough that its sparseness never stalls the pacing, though a first-time visitor could be forgiven for expecting more from it. A gramophone segment adds texture while leaving it unclear whether record order matters. Interstitial material is the anthology's thinnest layer, present for mood rather than play. The vignettes are the meal; the hub is the table dressing.
 
-Uneven quality across the four narratives means not every tale lands with equal force. Limited interaction beyond object examination restricts the gameplay depth. Despite these friction points, the anthology structure sustains engagement.
+The whole package runs roughly one and a half to two hours, and the quality-to-price ratio is the most remarkable thing about it: the game is completely free. Art direction, voice work and writing would not be out of place in a paid release, and several pounds would have been a fair ask. Free distribution makes the anthology the easiest recommendation in its niche, and the studio's next project arrives with expectations now set high. Nothing about the brevity feels like a limitation of craft, only of scope.
 
-Overall, four escalating narratives of guilt and self-destruction deliver professional-quality horror storytelling at no cost. Uneven pacing and limited gameplay variety prevent the anthology structure from reaching its full potential.
+Overall, the literary ambition, the Winterborn chapter's unreliable-perception horror and the Samuels finale's ritual puzzles make this free tragedy anthology remarkable, despite a sparse train hub, occasional puzzle opacity and minor interface ambiguity around the gramophone. Three 1920s vignettes of gay romance, addiction and war trauma land with a confidence most paid releases lack. The frame reveal reframes every chapter's ending into something more chilling, and the whole thing costs nothing.

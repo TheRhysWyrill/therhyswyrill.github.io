@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-08-11
+date: 2024-05-30
 game_title: "Illusion of Gaia"
 permalink: /reviews/illusion-of-gaia/
 verdict: recommended
 platform: "SNES"
-release_year: 1993
+release_year: 1994
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Body transformation system and comet mythology create ambitious world-building, though Will's combat limitations and Shadow's late introduction undermine the mechanical depth."
+summary: "A charming, thematically ambitious Quintet Action, RPG whose transformation system and no-grind jewel loop shine, held back by short-ranged combat and a thinly supplied healing economy."
 image: "/assets/img/reviews/illusion-of-gaia.webp"
 ---
 
-Three playable forms define this SNES action RPG from Quintet's Heavenly Sword trilogy. Will explores with psychic powers, Freedan the Dark Knight offers longer reach, and Shadow provides the ultimate form with devastating attacks. A comet mythology and Moon Tribe lore create surprisingly rich world-building for the era. The narrative spans multiple locations from small towns to cosmic settings.
+A boy with a dark power journeys from his seaside village through Incan ruins, a cursed gold ship, an Edwardian labour-trade city and the pyramids, finally to the Tower of Babel and a literal comet in space. Illusion of Gaia is the middle child of Quintet's loose trilogy between Soul Blazer and Terranigma, and its globe-trotting ambition remains the spine of the whole experience. The tone is unusually mature for a 16-bit Action, RPG, tackling slavery in Friia, starvation and scurvy on a shipwreck middle act, and grief throughout, all delivered with surprising tenderness. The father's ghost-phone calls via the flute, the Moon Tribe's purgatorial commentary and the melodic Incan lore build an atmosphere worth lingering in. The ending's literal redrawing of the world map into the present day lands as a pure Quintet flourish.
 
-Enemy-clearing progression rewards thorough exploration by granting permanent stat upgrades when every foe falls. Red gems scattered throughout provide additional incentives, unlocking extra lives and stat boosts. The no-XP system was innovative for its time. Fifty gems demand thorough scanning of each environment.
+The transformation system genuinely delights, with the protagonist becoming the Dark Knight Freedan and later Shadow, each form gating exploration as much as combat. Freedan's longer reach opens barriers the boy cannot touch, and Shadow's firebird unlocks walls in the endgame, making transformation both a combat tool and a puzzle key. The Shadow unlock arrives late enough to feel like unused potential, a form with real power granted too close to the credits to enjoy. Puzzles range from the musical (Lola's melody, the Melody of the Wind, the golden room) to physics-lite (pushable statues, gold tiles needing simultaneous pressure), and the wind-blown-hair secret-wall tell remains a lovely Zelda-inspired touch. The transform-to-solve loop is the game's signature.
 
-Psycho Dash adds a dynamic movement option that transforms traversal and combat. Charging through obstacles creates momentum that complements the exploration-focused design. The charge attack makes engagement feel more active than traditional action RPGs. Movement flows between combat and exploration through this mechanic.
+Progression abandons XP entirely: clearing every enemy in a room spawns a stat-boosting Red Jewel, an economy that urges thoroughness over grinding. The 50-jewel collectathon rewards a secret mansion and a Metal Mantis superboss, with 48 of 50 reachable in a complete run. The jewel design makes each dungeon a self-contained sweep rather than a level-up treadmill. Rooms demand total clearance to pay out, which some will read as engaging and others as exhausting. Either way it is distinctive, and the no-grind structure suits the chapter-based travel format perfectly.
 
-Will's combat limitations create friction during extended play, with short range and minimal boss damage making encounters frustrating. The absence of a traditional overworld means level transitions function as loading screens rather than explorable terrain. Hieroglyph puzzles in the Incan Ruins and Pyramid provide satisfying environmental challenges.
+Combat is the persistent weakness. The protagonist fights with a flute of paltry range and no projectile, dealing one damage to bosses and weak slaps to mid-game enemies, a slog until Freedan's Dark Fryer charge shot arrives mid-dungeon. The optional Metal Mantis secret boss samples badly enough to be abandoned outright, since the reward structure never justifies a fight that is simply not fun. The Comet finale's confusing bubble mechanics compound the awkwardness. Boss design leans on attrition rather than patterns, and the Incan ruins' repeated statue fights test patience. Freedan's reach redeems much of this, but the base combat never earns equal footing.
 
-Shadow's introduction in the final hours feels like wasted potential, as the most powerful form arrives too late to meaningfully impact the journey. Limited healing items make the final boss gauntlet unnecessarily punishing, demanding precise play against previously defeated enemies. The secret Metal Mantis boss rewards patience with minimal payoff.
+The final-boss gauntlet's save-point spacing forces full-fight replays on death, with a save point after the second boss being the obvious fix the game never offers. Healing items are thin throughout, with herbs barely appearing across an entire campaign, and entering the mummy fight at minimal health is a design oversight rather than a challenge. The Mode 7 travel map replaces any explorable overworld, functioning essentially as a loading screen between level-like chapters, a structure that reads as very strange even by Quintet standards. Emulation friction aside, the old-school save-flow (declining to continue returning to the menu) costs a restart. These are the awkward edges of ambition.
 
-B button save counterintuitively cancels rather than confirms, creating muscle memory friction for modern players. Hair physics near the sea demonstrate charming graphical attention to detail.
+The world-hopping narrative compensates: the school-day prologue, Grandpa's snail pie, the Kara shipwreck arc's growing affection and the slavery subplot the game genuinely engages with all elevate the writing. The musical puzzles and the Mode 7 chapter structure give the whole a dreamlike rhythm. Music throughout is a Quintet high point, melodic and atmospheric in equal measure. The trilogy ranking question is fair to ask, and this instalment lands third behind its siblings without being a bad game by any measure. The ambition outweighs the friction, and the friction is real.
 
-Overall, body transformation system and comet mythology deliver ambitious world-building within the SNES action RPG framework. Combat limitations and late power unlocks prevent the transformation mechanics from reaching their full potential.
+Overall, a charming, thematically ambitious Quintet Action, RPG whose transformation system, no-grind jewel progression and surprisingly mature storytelling shine across a ten-hour campaign. Will's short-ranged flute combat, thinly supplied healing and an unfun secret boss are genuine costs, yet the world-hopping ambition and melodic atmosphere make it a very good, slightly awkward classic.

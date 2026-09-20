@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-07-04
+date: 2025-07-10
 game_title: "Call of Duty: Advanced Warfare"
 permalink: /reviews/call-of-duty-advanced-warfare/
 verdict: recommended
@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2014
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "The threat enhancer attachment and exo suit upgrade system provide meaningful progression and mechanical identity, though persistent audio technical issues requiring frequent restarts undermine the otherwise polished presentation."
+summary: "A maligned futuristic entry that plays far better than its reputation, carried by exo mobility and a movie-star villain arc, brought down only by its own PC port's hourly audio bug."
 image: "/assets/img/reviews/call-of-duty-advanced-warfare.webp"
 ---
 
-A near-future setting introduces exo suits, boost jumps, and magnetic gloves that inject verticality into the standard Call of Duty formula. The sleek aesthetic and high production values establish a distinctive tone from the opening mission, with advanced weaponry and corporate military architecture framing the conflict.
+A 2050s future-war built around private military power rather than national armies. A soldier loses an arm and a close friend in Seoul, joins the world's dominant PMC, hunts a terrorist organisation across the globe, and gradually discovers the employer's true ambitions. The corporate-villain plot is well-trodden in outline but delivers a genuinely unsettling finale: a bioweapon designed to wipe out anyone not in a database, an ideology of subscription-based survival. The turn from manhunt to defection re-energises the campaign precisely where such stories usually fade, and the closing limb-for-limb irony lands as genuinely satisfying.
 
-Mission variety sustains engagement across infantry combat, mech suit assaults, aerial dogfights, and stealth operations. Each sequence demands different tactical approaches, preventing the linear structure from feeling repetitive despite sharing the same core shooting mechanics. Mech suit sections deliver a power fantasy through overwhelming firepower, while stealth operations strip back the arsenal to encourage methodical movement and cloak management.
+The exo-suit movement kit is the game's identity and its constant joy. Boost jumps, a grapple that remains cool from the first use to the last, magnetic gloves and hoverbikes turn traversal into a toybox, and the mobility redefines firefights rather than decorating them. Forceful melee becomes startlingly viable mid-air, the tank-suit and mech-suit missions let the power fantasy escalate properly, and the upgrade loop (exo enhancements earned per mission, comparable to the best gear-progression systems of its era) rewards commitment without gating fun behind it.
 
-The exo upgrade system provides progression most Call of Duty titles lack. Completing missions earns points to enhance reload speed, sprint duration, and overdrive capabilities, creating a genuine sense of advancement that carries between missions. With twenty-two upgrades available, the system encourages replaying earlier stages to unlock different ability combinations and experiment with loadout synergies.
+The threat enhancer attachment is the single best addition, highlighting enemies through cover, and its usefulness only reveals itself once equipped: every other weapon immediately feels worse without it. The Mute charge stealth sections are a quiet highlight, an approach the series rarely attempts, executed cleanly. Visuals hold up remarkably for the game's age, with heavy cinematic pedigree in the Seoul opening and the San Francisco bridge collapse, and the Antarctica plane crash ranks among the series' best pure set pieces.
 
-The threat enhancer attachment becomes the defining mechanic, highlighting enemies through walls and creating a tactical layer that reshapes firefights. When paired with boost dashes and magnetic gloves, it transforms standard engagements into mobile, information-driven encounters rather than static cover exchanges.
+The threat enhancer attachment is the single best addition, highlighting enemies through cover, and its usefulness only reveals itself once equipped: every other weapon immediately feels worse without it. The Mute charge stealth sections are a quiet highlight, an approach the series rarely attempts, executed cleanly. Visuals hold up remarkably for the game's age, with heavy cinematic pedigree in the Seoul opening and the San Francisco bridge collapse, and the Antarctica plane crash ranks among the series' best pure set pieces.
 
-Audio cutting out during cutscenes disrupts the pacing and forces game restarts to restore sound. This persistent technical issue surfaces repeatedly across the campaign, undermining the otherwise strong presentation.
+The villain performance anchors the story. A movie-star presence as the PMC founder gives the corporate menace real weight, and the amusement of that casting never undermines the sincerity of the arc. The betrayal at the story's centre is well-telegraphed, to the point of being guessable long before it arrives, but the telegraphing reads as intent rather than clumsiness: Atlas is designed to feel slightly wrong from the beginning, and the eventual confirmation of the suspicion is the payoff rather than a failure of surprise.
 
-Flight controls demand awkward input mapping against muscle memory. The aerial sequences deliver visual spectacle but suffer from imprecise handling that makes dogfighting feel more frustrating than exhilarating.
+Technical problems on PC are the campaign's real stain. A persistent audio crackling, apparently unrelated to the underlying platform, forces a full game restart roughly every hour; fast boot times and generous checkpoints keep it an inconvenience rather than a dealbreaker, but an eleven-year-old game should not demand such rituals. One physics soft-lock, being boxed in by debris, forced an entire mission redo. QTEs rendered in black and white fail to stand out from the grubby environments they interrupt, and a flight segment's controls remain awkward despite the exo-era machinery on offer.
 
-Overall, the threat enhancer attachment and exo suit upgrade system establish a futuristic shooter with genuine mechanical identity and progression depth, though persistent audio issues and awkward flight controls create friction that prevents the experience from fully realising its potential.
+Overall, this is a maligned futuristic entry that plays far better than its reputation suggests: the exo mobility, the threat enhancer and the corporate villain arc deliver constant novelty, and the campaign's escalation into mech-suit spectacle feels properly powerful. The hourly audio bug, the physics soft-lock and the QTE styling are genuine flaws, but the design underneath remains confident, fast and consistently fun. The series' leap to the future was worth making, and this is the entry that made it best.

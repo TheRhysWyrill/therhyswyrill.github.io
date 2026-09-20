@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-07-12
+date: 2026-07-11
 game_title: "Extinction"
 permalink: /reviews/extinction/
 verdict: not-recommended
@@ -8,18 +8,20 @@ platform: "PC"
 release_year: 2018
 genre: "Action"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Fast movement and wall-climbing deliver satisfying traversal, but a broken rune energy economy and carbon-copy mission structure transform the Shadow of the Colossus premise into mechanical frustration."
+summary: "A giant-slaying score-attack game whose broken rune-energy economy and carbon-copy missions squander genuinely fluid movement and one distinct civilian-as-resource idea."
 image: "/assets/img/reviews/extinction.webp"
 ---
 
-A lone Sentinel fights to defend the kingdom of Deloreum from giant ogre-like creatures called Reveni, rescuing civilians while climbing colossal foes to sever their limbs. The premise evokes Shadow of the Colossus and Attack on Titan, promising epic encounters against towering threats. From the opening mission, the fast movement and wall-climbing deliver genuinely satisfying traversal.
+A fantasy kingdom faces annihilation by ogre-like giants and their jackal scouts, and its last defender arrives with an ally to secure the king's alliance. The premise is disposable B-movie fantasy delivered in brief cutscenes, and the tone borrows openly from a certain titan-slaying anime from the opening minutes. A city-health bar, ticking down as civilians die, supplies genuine if stressful stakes. Atmosphere never rises above generic, but the structural idea of a city that dies with its people has real teeth.
 
-Combat demands climbing the Reveni and executing rune-powered strikes to sever limbs, but the extinction meter tracking civilian deaths and city damage creates constant tension. Rescuing civilians via teleportation portals drains time, while jackal scouts provide the rune energy needed for executions. This dual-resource system collapses under its own weight when multiple Reveni appear simultaneously.
+The core loop is functional arcade fun in isolation. Missions task the defender with rescuing civilians using escape crystals, cutting down jackal scouts, charging rune energy and then climbing a Reveni to sever armour and limbs before the beheading. The climbing and limb-severing is reasonably satisfying when it works, even if it falls well short of the colossus-hunting inspiration that the marketing invoked. Fast, fluid movement is the single best mechanical trait, carrying the player across rooftops and up arms with genuine speed. As a foundation, all of this works.
 
-Rune energy economy proves fundamentally broken, with civilian rescues providing minimal energy and jackal kills insufficient for multi-Reveni encounters. The meter drains completely after each execution, forcing constant grinding that contradicts the mission's urgency. By mission four, this resource starvation creates scenarios that feel essentially impossible to complete successfully.
+The resource economy beneath it is fundamentally broken. Rune energy gained from rescuing civilians and killing jackals is far too small to sustain the finale missions, where executing a giant instantly and completely drains the meter. Energy sources are too sparse, spawns dry up, and the meter's total drain on execution rather than partial loss makes the arithmetic unwinnable. A 30 percent extinction-meter bonus objective on the fourth mission is effectively impossible. The design's central transaction simply does not balance.
 
-Tutorial repetition compounds the frustration, with the game repeatedly explaining mechanics already understood. Dialogue prompts interrupt combat flow, reminding the Sentinel to protect the city even as resources deplete rapidly. The constant hand-holding becomes irritating rather than helpful, particularly during repeated attempts at the same mission.
+Mission four exposes the flaw in full, sending two surprise follow-up giants after the first with no meaningful telegraph, and the encounter defeats the unprepared twice over before its mechanics become legible. Every mission repeats the same template, rescue, kill, charge, climb, execute, making the campaign feel like a collection of carbon-copy levels. Chained extra appearances arrive with poor signalling, and failure teaches nothing the previous failure had not. Five missions in, the loop has shown everything it has.
 
-Skill tree upgrades like faster rescues and higher vault jumps offer marginal improvements that fail to address the fundamental resource economy problem. Visual pop-in during gameplay creates occasional distraction, with shadows and objects appearing abruptly during traversal sequences. These technical issues pale next to the structural brokenness.
+Progression offers little remedy. A compact skill tree carries movement and rescue upgrades behind confusingly gated unlocks, bonus objectives grant no visible skill-point rewards, and the tree initially looks far smaller than it is. Nothing earned meaningfully changes the energy arithmetic that breaks the late missions. Upgrades polish a loop whose economy is already failing, which leaves the progression feeling decorative. The design never addresses its own central flaw.
 
-Overall, the fast movement and wall-climbing deliver satisfying traversal mechanics, but the broken rune energy economy and carbon-copy mission structure undermine the Shadow of the Colossus premise into mechanical frustration.
+The one genuinely distinct idea deserves more than the structure gives it. Executions powered by the lives saved, and a city whose health is its population, is a clever transaction that a better-balanced game could have built a campaign around. Instead, the loop repeats identically across missions, the difficulty spikes on an economy failure rather than a challenge design, and the anime-and-colossus borrowings never deepen into anything of their own. The concept is left as a promising sketch.
+
+Overall, this is a giant-slaying score-attack game with one clever idea, genuinely fluid movement and a resource economy that collapses exactly when the campaign asks the most of it. Carbon-copy missions, a total-drain rune meter and untelegraphed chained encounters bury the strengths, and the colossus-climbing never approaches its inspiration. The central transaction cannot sustain the missions built upon it, and the recommendation is a firm pass.

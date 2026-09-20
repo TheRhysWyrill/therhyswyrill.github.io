@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-06-28
+date: 2025-10-15
 game_title: "God of War"
 permalink: /reviews/god-of-war/
 verdict: recommended
 platform: "PS2"
 release_year: 2005
-genre: "Action, Adventure"
+genre: "Action, Beat 'em up"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Texture pack transforms the PS2-era visuals into something remarkable, though inconsistent grab mechanics and snap camera shifts undermine the otherwise visceral combat."
+summary: "A foundational mythological spectacle whose exploration-rich temple design still holds, marred by inconsistent grab targeting and a punishing family-defence finale."
 image: "/assets/img/reviews/god-of-war.webp"
 ---
 
-Hack-and-slash combat drives every encounter as a Spartan warrior serves the gods of Olympus. Three weapons provide distinct playstyles, and four spells add crowd control and ranged options. Poseidon's Rage dominates as the strongest ability, delivering AoE damage with invincibility. A texture pack elevates the entire presentation, making the mythological setting feel modern.
+A warrior bound to the gods after a decade of servitude is dispatched to stop a siege on Athens, and the campaign built around that assignment defined a genre's template for years. The revenge-tragedy structure carries genuine weight, with foreshadowing planted early in a grave-digging encounter that rewards attention, and the barbarian flashback deepening the personal stakes behind the divine errand. Cutscene production values hold up remarkably for the platform, and the story's connective tissue, from the opening despair to the eventual coronation, closes its own loop with confidence. Greek mythology is mined for spectacle without ever losing the personal tragedy underneath.
 
-Exploration rewards thorough traversal through underwater sections and puzzle rooms. Poseidon's Trident unlocks diving mechanics that open new areas and break up combat pacing. Enemy variety shifts across regions, with each area introducing new threat types. Blade of Artemis proves effective against armoured minotaurs, providing a heavy alternative.
+Pandora's Temple is the campaign's centrepiece and its best argument. The desert of lost souls gives way to three trials, the temple's layered interior conceals muse-keys and hidden upgrade chests, and the architect's tomb books weave environmental storytelling into the level design itself. Thorough exploration is genuinely rewarded, with secret houses and slanted-ledge grabs hiding some of the game's best upgrades, and the Kronos reveal recontextualises the whole location. Few PS2-era levels committed this hard to the idea that the dungeon itself is the story.
 
-QTE sequences punctuate boss fights and critical moments, with button mashing replacing traditional finishers. Grab mechanics remain inconsistent, especially against larger enemies where the window feels imprecise. Snap camera shifts during platforming create disorientation. R2/L2 mashing demands sustained physical effort across extended sequences.
+Combat builds its loop from chained blades, orb upgrades and environmental puzzles, and the upgrade economy drives exploration throughout. Blades change appearance per level, giving visible progression, and magic shapes crowd control in ways that hold up. The infamous Hades section proves less brutal than its reputation, though its balance beams and darkness still rank it among the game's roughest stretches. Difficulty is mostly fair overall, with invisible checkpoints discovered mid-run quietly reshaping how much risk any encounter carries.
 
-Environmental puzzles break up combat encounters, requiring observation and timing rather than brute force. Balance beam sections demand precision that conflicts with the game's forgiving checkpoint system. Hades sections, remembered as frustrating, prove more manageable on revisiting.
+The combat's inconsistencies are its real cost. Grabbing is finicky to the point of inconsistency, most punishing on minotaurs where attempts whiff or lock unpredictably, and accidental spin attacks trigger while blocking. Rotating quick-time events are fussy, with small fonts and unclear windows drawing constant irritation, and hidden cracked walls are often too subtle to spot without a guide. Enemies block frequently, padding encounters, and the overall feel never quite matches the precision the spectacle promises. None of it breaks the flow, but all of it is noticed.
 
-Progression through an orb-based level system provides incremental upgrades, with health and magic expansion scattered throughout each region. Poseidon's Trident and diving mechanics add welcome variety to the traversal options. Each area's visual identity shifts dramatically, from coastal ruins to underground chambers.
+The finale is the sharpest spike. The clone family-defence sequence pairs relentless pressure with no health recovery, turning the closing minutes into a wall that the rest of the game's fairness never prepared for. It is the one section where difficulty tips from challenge into attrition, and the frustration it generates colours the ending's otherwise strong emotional landing. A consistent emulator crash, eventually traced to cycle rate, added its own toll before the finish.
 
-The texture pack maintains original art direction while dramatically improving visual fidelity across every environment. Old character models and textures gain modern detail without losing the PS2-era charm. Poseidon's Rage and Army of Hades provide crowd-clearing options rewarding aggressive play.
+Visually, the game benefits enormously from community restoration work. Texture packs running on emulator transform presentation well beyond the official HD collections, sharpening environments and character detail to a degree that changes how the whole campaign reads. Font-size and visibility issues on quick-time prompts and hidden walls persist regardless of enhancement, a reminder that some friction is authored rather than technical. The underlying art direction, spectacle scale and execution mini-games all survive the years intact, and the game-feel that set the template for its sequels remains intact underneath the polish.
 
-Overall, three-weapon combat with Poseidon's Rage delivers a visceral action-adventure that holds up remarkably well. The texture pack elevates the presentation, though inconsistent grab mechanics and snap camera shifts prevent the experience from reaching its full potential.
+Overall, this is a foundational character-action spectacle that still plays as the template its successors refined, held together by exploration-rich temple design, a coherent tragedy and game-feel that defined an era. Inconsistent grab targeting, fussy rotating quick-time events and a punishing clone-family finale blunt the edges, and the Hades section earns some of its reputation. The core remains very fun, and the groundwork for everything that followed is visible on every screen.

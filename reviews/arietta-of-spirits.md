@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-08-13
+date: 2022-04-20
 game_title: "Arietta of Spirits"
 permalink: /reviews/arietta-of-spirits/
 verdict: recommended
@@ -8,16 +8,20 @@ platform: "Series X"
 release_year: 2021
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Tight Zelda-like combat and a dual-realm spirit mechanic create a charming, self-contained adventure, though small attack hitboxes and an abrupt narrative conclusion limit the otherwise polished experience."
+summary: "A heartfelt top-down ghost story whose emotional beats and hidden-layer island exploration outweigh one-note combat and contact-damage reliance."
 image: "/assets/img/reviews/arietta-of-spirits.webp"
 ---
 
-A remote island vacation becomes supernatural when young Arietta gains the ability to perceive the spirit realm after being struck by lightning, establishing immediate narrative stakes through grief and family bonds. The premise unfolds through exploration of the island and its abandoned silver mine, where miners died under mysterious circumstances. From the opening moments, the pixel-art aesthetic creates a cheerful visual identity that balances emotional weight with adventurous spirit. The intimate island setting rewards thorough exploration within a contained geography.
+A family's first holiday on a summer island since a grandmother's death turns into a duty to shepherd stranded spirits onward, and the ghost story that unfolds lands harder than the game's size suggests. Top-down exploration in the Zelda-like mould, 16-bit-flavoured art, and an island built in layers: what first reads as a compact adventure steadily reveals spirit-realm cabins, caves behind foliage and a buried industrial tragedy. The emotional beats (a grandmother's farewell, a journal's cold corporate cover-up, a sacrifice in the Sunken Realm) carry weight that outstrips the three-and-a-half-hour span.
 
-Core gameplay follows classic Zelda structures: exploring areas, defeating enemies, collecting upgrades, and solving environmental puzzles with a spirit blade and barrier ability. The dual-realm system allows seamless shifting between the human world and the spirit realm, revealing hidden paths and secrets that exist in only one version of the environment. Boss encounters demand pattern recognition and precise timing, with the sunken realm section introducing more complex challenges. The progression loop connects exploration to combat effectiveness through health upgrades and ability unlocks.
+The roma-car health system gives even the smallest enemies a purpose, converting 100-energy guard roamers into max-health upgrades with barely any grinding, and the spirit siphon turns enemy-slaying into health arithmetic that rewards engagement. Frequent checkpoints keep the pace brisk, and an extreme one-hit-death mode exists for those who want the island hostile; the standard mode stays forgiving throughout. Midray's four-item fetch falls out of natural progression rather than padding, and cub-hunting stands as the only true time-sink. Hearts behave oddly, seeming to spawn from bushes only when health runs low, as if the island itself rationed its mercy, and a stamina slowdown adds sweat to long sprints.
 
-The spirit realm mechanic stands as the most distinctive element, creating puzzle and navigation opportunities by layering two parallel versions of the same world. Shifting between realms mid-exploration adds depth to environmental investigation, with secrets hidden behind realm-specific barriers. The mechanic sustains engagement across the campaign, transforming simple area traversal into layered discovery.
+Combat is the limitation. One slash, no combo, and a tiny attack area: the kit never deepens, and the four-directional joystick attack compounds the problem by steering swings sideways during diagonal movement. Contact damage does most of the killing, a fact visible from the tutorial onward and confirmed by the finale, and the wasp-queen boss teaches rolling the hard way mid-fight. The combat upgrades that do arrive are literally gifts from ghosts, thematically neat but mechanically modest.
 
-Small attack hitboxes create frustrating contact damage encounters, where enemies collide with Arietta despite apparent visual clearance. The sunken realm section introduces difficulty spikes that clash with the otherwise accessible pacing. The narrative resolves abruptly, leaving emotional threads underdeveloped and the conclusion feeling rushed.
+The Sunken Realm strips every power for the finale: a wooden sword, no energy, swarms of one-hit sunken spirits, and a three-phase behemoth whose phase count genuinely impresses. The stretch is intentionally tense, though the fast enemies generate more chaos than challenge, and the escape run that follows the behemoth sustains the pressure well. The three-phase design earns respect precisely because the rest of the combat asks so little.
 
-Overall, Arietta of Spirits delivers a charming, compact action-adventure where the dual-realm mechanic and tight combat create a satisfying Zelda-like experience, despite hitbox frustrations and an abrupt ending.
+The island's hidden layer is where exploration pays. Herbicide opens caves behind foliage, root-network shortcuts knit districts together, and the birdhouse-switch misdirection (switches affixed to trees that turn out to be birdhouses) becomes a running joke the game plays straight-faced. Spirit cubs hide in crevices, and the barrier shield manifests through the grandmother's ring, tying the best mechanical gift to the theme of inherited love. Few games this size commit this fully to a ghost-story identity.
+
+The 1905 mine journal anchors the tragedy: miners died of mercury-vapour poisoning from untested company machinery, and a woman was burned as a witch in the scapegoat panic that followed. Helping her spirit accept the crossing drags the heroine toward the Sunken Realm, and the rescue raises questions the game is unafraid to leave uneasy. An optional extreme mode, the 29-award completion board and the credits' forward tease round out a package that knows exactly what scale it wants to be.
+
+Overall, a small, heartfelt, unashamed Zelda-like whose ghost-story writing punches well above its span, with hidden-layer island exploration, the roma-car health economy and a three-phase finale carrying the recommendation. One-note combat, contact-damage reliance and a Sunken Realm stretch that mistakes speed for challenge are the honest costs, and the emotional payoff justifies every minute of the crossing.

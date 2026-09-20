@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-06-22
+date: 2026-06-06
 game_title: "Crysis Warhead"
 permalink: /reviews/crysis-warhead/
 verdict: recommended
@@ -8,18 +8,20 @@ platform: "PC"
 release_year: 2008
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Condensed action pacing and improved nanosuit mechanics elevate this expansion, though controller quirks and forgettable narrative create friction."
+summary: "A compressed, action-packed companion piece told from Psycho's side of the invasion, with cloak routes intact but checkpoint-less defence waves and maze-like vehicle chases stinging."
 image: "/assets/img/reviews/crysis-warhead.webp"
 ---
 
-Crysis Warhead follows Sergeant Psycho Sidney during the Korean island invasion, opening with immediate access to improved nanosuit mechanics that streamline the experience. The condensed mission structure trims the original's fluff, delivering seven tightly designed levels that maintain momentum through cinematic set pieces. Cloak mode proves essential for bypassing entire encounters, creating satisfying stealth gameplay that rewards patience.
+A parallel retelling of the island invasion from the squad's brash Briton rather than the original's nomad, this companion piece chases a stolen nuclear warhead container across beaches, harbours, frozen alien tunnels and an airfield finale. The timeline runs parallel to the first game and concludes before it, and the connective tissue rewards anyone who knows where the two campaigns intersect. The interrogation scene and the redemption arc of a reluctant ally give the brisk runtime surprising personality. The set-piece chain never pauses for breath.
 
-The train sequence stands as a memorable highlight, combining turret gameplay, stealth, and a frantic race against time. Vehicle sections break up the on-foot action, though driving controls feel awkward without camera-based steering. The PACS experimental weapon in the final mission provides satisfying payoff against the climactic Ceph boss fight.
+The compressed pacing is the expansion's defining identity, with seven missions of roughly thirty minutes each replacing the original's sprawl. Beach resort combat, a VTOL crash rescue, harbour infiltration, a hovercraft pursuit, frozen tunnels, a freight-train chase and the airfield finale follow one another with momentum the series never attempted again. The infinite-ammo plasma cannon that closes the campaign is a genuinely satisfying payoff. At under three hours, the whole thing plays like a sprint, and the sprint is the point.
 
-Improved suit mechanics enhance the tactical experience, with speed boost requiring active selection and armour no longer draining when not under fire. Auto ammo pickup streamlines resource management, reducing friction during extended combat sequences. Controller support arrives with notable quirks, including toggle-based ADS and awkward crouch mechanics.
+The cloak-first sandbox freedom survives the action focus intact, and entire missions can still be ghosted. The original mode-selected suit returns, which suits the pace better than later free-flowing iterations, and stealth remains a puzzle worth solving rather than an obligation. Vehicle sections in jeeps, minigun trucks and hovercraft punctuate the cloak-heavy routes, and armour only drains when shot while sprinting no longer wastes speed energy. Ammunition auto-picks-up, and every one of these refinements quietly removes a friction the first game carried.
 
-Visuals hold up remarkably well for an 18-year-old game, with environments that still impress by modern standards. The Korean island setting provides atmospheric backdrop for the action, shifting between beach resorts and alien-infested facilities. Sound design reinforces the sci-fi atmosphere through suit feedback and environmental audio.
+Unexpectedly solid controller support for a shooter of this vintage is a genuine positive surprise, working well enough that keyboard and mouse are optional rather than mandatory. Toggle-aim and awkward vehicle controls are the caveats, but none of it is terrible. The visuals still impress for their age, with lighting and scale that hold up at distance, and only texture quality betrays the years up close. Eighteen years on, the presentation remains respectable.
 
-Psycho and O'Neal's banter provides entertaining character moments throughout the mission, though the narrative serves primarily as context for the action rather than a compelling draw. The story runs parallel to the original Crysis, offering Psycho's perspective on events.
+The checkpoint-less VTOL defence stretch is the campaign's low point, turning a single death into a long redo with no intermediate saves. Navigation during the hovercraft container chase dead-ends repeatedly, and one save landed in the worst possible spot. A thrown barrel killing its own thrower amuses more than it annoys, and an unexplained HUD label and the EMP-frozen suit's restricted abilities round out the loose ends. The gripes are real but small against the momentum.
 
-Overall, the condensed action pacing and improved nanosuit mechanics deliver a satisfying expansion that proves less can be more. Controller quirks and forgettable narrative prevent the experience from reaching its full potential, but the core shooting and stealth mechanics remain compelling throughout.
+The airfield finale deserves specific praise, escalating from the train chase into a boss encounter where the plasma cannon turns the tables on the alien threat. The frozen exoskeleton encounters give the middle chapters their texture, and the EMP-drop setup that strands the protagonist is established cleanly. Speedrunning a second pass would be trivial once the routes are known, and the short runtime makes replay a reasonable proposition rather than a chore. The companion-piece structure suits the material exactly.
+
+Overall, the compressed pacing, the working controller support and the cloak routes that let whole missions be ghosted make this the short, punchy odd-one-out of its series. The checkpoint-less defence wave and the maze-like vehicle chase sting, and the textures age visibly up close, but the momentum never falters. What the expansion sets out to be, it is completely, and the recommendation comes easily.

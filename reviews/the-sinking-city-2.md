@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-08-26
+date: 2026-08-23
 game_title: "The Sinking City 2"
 permalink: /reviews/the-sinking-city-2/
 verdict: recommended
@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2026
 genre: "Action, Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Stunning visual presentation and an Eldritch feats unlockables system that rewards gameplay with in-game content elevate this Lovecraftian survival horror, though combat falters against multiple enemies and linear level design constrains exploration."
+summary: "A tightly authored Lovecraftian survival horror with superb presentation and dodge-driven combat, dragged by forced enemy-swarm arenas and nagging inventory limits."
 image: "/assets/img/reviews/the-sinking-city-2.webp"
 ---
 
-A man ventures into the Dreamlands to save his comatose lover. This Lovecraftian survival horror unfolds in 1920s Arkham, with moody environments steeped in cosmic dread. Gun combat replaces investigation. From the opening corridors, visual presentation communicates a world consumed by forces beyond comprehension.
+Drowned Arkham, three months after the flood: a man returns to a city going under, chasing dreamland rituals to reach his comatose fiancée. The tone runs bleaker and more overtly horrific than its predecessor, and the Lovecraftian writing lands through the world's own media: Mushroom Jack's radio tales, the hospital's grisly experiments, and fish market cult lore delivered in documents worth pausing to read. The narrative stakes build without ceremony, and the city itself remains the star, rendered with real weight in Unreal Engine 5.
 
-Unreal Engine 5 renders Oakmont's flooded streets and Lovecraftian architecture with detailed fidelity. Visual quality holds throughout. The Eldritch feats unlockables system rewards gameplay with concept art, costumes, and weapons, bypassing microtransactions entirely. Each earned reward reinforces the commitment to in-game progression over external monetisation.
+The genre pivot from open-world detective casework to focused, linear survival horror is the design's smartest decision. Chapter-based structure with lock-and-key corridors, face-mask keys, mirror doors, prism-charging stations, laden-jar shortcuts, safe rooms and a suitcase stash gives each area a Resident Evil-shaped rhythm of exploration, unlocking and backtracking. An optional investigation mode that symbol-matches clues softens the casework deliberately, and the area-by-area clearing loop rewards thoroughness without dragging.
 
-Survival horror replaces the first game's detective focus, shifting to gun combat and resource management. Boss encounters appear more frequently, with varied designs demanding different tactical approaches. The narrative follows a personal story about devotion and desperation. Linear structure guides progression through specific sequences.
+Combat is dodge-first, kill-last. On default difficulty everything dies in three hits, running past enemies is the smarter play, and the dodge itself is generous enough to reshape encounters entirely once learned. The Akaronian and Nightmare fights, the fish market's bear-trap gauntlets, and the anticherra time-jump memory sequences stand out as the campaign's best set pieces, and respawning boss crates remove the stress of wasting ammunition.
 
-The Randoloot system adapts crate contents based on current health, providing more healing items when struggling. Combat demands ammunition management alongside tactical positioning, though multiple projectile enemies overwhelm available space. Enemy types include Stigians, lethiums with ranged attacks, and worms that revive fallen corpses.
+Presentation is a genuine strength. The wet, drowned city looks remarkable, though a wetness-rendering quirk that leaves hat brims dry carries over from the remaster, and the engine's cost shows in the performance load. Post-game unlockables, weapons, costumes, concept art and eldritch rewards, are all earned by playing, a player-respecting economy with no microtransactions that more games should imitate.
 
-Inventory management penalises experimentation, as discarded items disappear permanently rather than dropping to the ground. Linear level design railroads progression through specific sequences, removing open exploration. Missing side investigation cases eliminate the deductive depth that characterised the original's investigation focus.
+Forced-combat arenas are the persistent sore point. Scenarios that lock the player in against far too many enemies at once turn the carefully balanced avoidance loop into a mess, with corpses revived by worms mid-fight and bullets arriving from off-screen. Enemy respawns ambush regular backtracking with dull predictability, and inventory limits annoy rather than challenge, tightening nothing while punishing collection habits.
 
-Skill progression through dream essence offers meaningful customisation across combat and survival branches. Ammunition crafting adds resource management depth. Arkham's 1920s aesthetic combines with Lovecraftian architecture to create atmospherically oppressive environments. The visual identity sustains tension throughout.
+Two smaller design decisions grate. Discarded items vanish forever rather than dropping to the floor, a sharp break from the genre's norms that a chapter-based structure may have forced, and a brief walk-in-control segment before the finale adds a pointless mechanical detour. Neither damages the core loop, but both feel like unresolved ideas left in the build.
 
-Overall, stunning visual presentation and the Eldritch feats unlockables system deliver a Lovecraftian survival horror with atmospheric density. Combat falters against multiple enemies and linear design constrains exploration, representing the primary friction points.
+Overall, the tightly authored corridor design, the dodge-driven combat, the document-delivered Lovecraftian lore and the striking visuals make this a very good survival horror on its own terms, and the forced arenas, worm-revival chaos and inventory nagging are real but contained costs. Judged as its own game rather than a sequel to a detective sandbox, it stands confidently.

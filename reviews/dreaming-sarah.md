@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-07-19
+date: 2026-07-18
 game_title: "Dreaming Sarah"
 permalink: /reviews/dreaming-sarah/
 verdict: recommended
@@ -8,18 +8,20 @@ platform: "PC"
 release_year: 2015
 genre: "Adventure, Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Surreal dream-logic world design and compact interconnected environments deliver a complete micro-Metroidvania, though visual glitches on Proton and overly quiet areas undermine the atmospheric ambition."
+summary: "A one-hour dream-logic exploration oddity with imaginative item unlocks and deadpan writing, limited by guesswork navigation and a very short runtime."
 image: "/assets/img/reviews/dreaming-sarah.webp"
 ---
 
-A girl awakens in a dreamscape of looping corridors and bizarre NPCs, with no exposition to explain the surreal surroundings. Pixel art environments shift between whimsical talking rocks and unsettling blood-red chambers, creating an atmosphere that feels simultaneously charming and deeply strange. The compact world rewards curiosity, folding back on itself in ways that reveal new paths with each acquired item.
+A girl wakes after an accident and wanders through increasingly surreal dream spaces, and the world itself tells the story with barely a word of exposition. Mansions give way to deserts, woods loop back on themselves, a dental surgery hides impossible rooms, and one memorable stretch unfolds inside a mouth. The tone is dreamlike and gently unsettling rather than frightening, with silent zones and fleshy corridors doing the atmospheric work. Waking reality intrudes only in fragments, and the ambiguity is clearly deliberate.
 
-Item-based progression follows classic Metroidvania structure, with each new tool unlocking traversal options that reshape the map. An umbrella enables gliding, a magnifying glass reveals invisible elements, and a watch manipulates time-sensitive sequences. These acquisitions feel earned through exploration rather than combat, maintaining the dreamlike tone throughout.
+The item system is the campaign's engine and its charm. An umbrella enables gliding, shrinking glasses reveal invisible paths and brighten hidden areas, a fish necklace transforms the wearer, a watch slows time, and a paint bucket changes the world's colour palette. Items are found organically rather than gated behind puzzles, and they stack into a toybox that rewards experimentation even where use is optional. The magnifying glass and boss card round out a collection that gives every new zone a reason to be poked at.
 
-Visual glitches on Linux/Proton disrupt the experience, particularly during vertical movement where seam rendering breaks apart. The issue proves cosmetic rather than mechanical, yet it fractures the carefully constructed atmosphere during platforming sections. Overly quiet environments compound this tension, with several areas dropping to complete silence that feels unintentional rather than atmospheric.
+Navigation runs on light item-gated structure: find an object, unlock a new area, backtrack via handy shortcuts such as a bus stop and teleport points. There are almost no real puzzles, and friction comes from geography rather than logic. The interconnected world is threaded with shortcuts that make backtracking painless once the map is learned. Progression, when it works, feels like slipping through a dream's private doors.
 
-NPC encounters provide whimsical punctuation between exploration segments, from a doctor hiding in a vending machine to rocks delivering puns with deadpan timing. These brief interactions build personality without exposition, trusting environmental storytelling to carry the narrative weight. The interconnected world design rewards thorough exploration with shortcuts and unexpected connections between distant areas.
+Exploration guidance is thin, and looping areas with sign-less crossroads produce genuine disorientation. A woods-style door gauntlet is pure guesswork with no tell for the correct choice, and the dental area's looping layout compounds the confusion. Getting lost here is arguably part of the dream logic, but the difference between intended mystery and aimless wandering is not always clear. A hint of directional design would have separated the two.
 
-Ambiguous objective guidance occasionally stalls momentum, as the compass item and some puzzle areas leave direction unclear. Missing items after level completion force replay for thorough collection, and the abrupt ending arrives without narrative ceremony. The extreme brevity compresses the experience into something that feels complete yet leaves room for deeper exploration.
+The deadpan NPC writing supplies the game's flavour, and the vignettes are memorably strange. A doctor takes appointments from inside a vending machine, dead men apologise for being late to work, windmill music earns a running joke, and a drugged juice box passes without comment. Each encounter lasts seconds and adds texture without exposition. The writing trusts the player to find it funny, which most of the time it is.
 
-Overall, the dream-logic world design and compact interconnected environments create a charming micro-Metroidvania that delivers discovery through curiosity and item acquisition, though visual glitches and sparse audio occasionally fracture the carefully constructed atmosphere.
+Runtime is the honest limitation: the whole campaign resolves comfortably within a single session, well under two hours. Technical quirks on some setups include vertical-scrolling seam glitches and a default to low graphics settings, though the console build avoids the seams. The entire world remains interconnected and complete regardless, and nothing in the presentation breaks the spell for long. Short as it is, the experience closes cleanly rather than abruptly.
+
+Overall, this is a bite-sized dream-walk worth taking for its atmosphere, item toybox and deadpan humour, even if the challenge and the clock offer little resistance. Guesswork navigation and the very short runtime are real limitations, but the surreal zone design and interconnected shortcuts make every minute count. As a complete, self-contained oddity, it delivers exactly what it sets out to do.

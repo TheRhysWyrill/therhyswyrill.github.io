@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-07-21
+date: 2024-09-03
 game_title: "Rainbow Six: Vegas"
 permalink: /reviews/rainbow-six-vegas/
 verdict: recommended
@@ -8,20 +8,20 @@ platform: "Xbox 360"
 release_year: 2006
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Multi-angle breaching system and atmospheric Vegas casino levels deliver a satisfying tactical shooter with genuine depth, though enemy visibility issues and punishing difficulty spikes create friction."
+summary: "A squad-based tactical shooter whose multi-angle room clearing and forgiving regenerating health define console cover shooting, dented by brutal close-quarters deaths, ambush AI and a non-persistent loadout."
 image: "/assets/img/reviews/rainbow-six-vegas.webp"
 ---
 
-Multi-angle breaching defines this tactical shooter where entering rooms from multiple directions creates satisfying tactical variety. The Vegas casino levels establish atmospheric environments with slot machines and detailed interiors that enhance immersion. Teammates act as disposable cover, allowing aggressive play without permanent consequences.
+A terrorist-crisis campaign runs from Mexican border towns through casinos, a vertigo Spire and a Cold-War bunker lab to a dam-setpiece finale, and the Vegas duology's founding entry defines console cover-based tactical shooting in the process. Snake-cam recon, repelling entries, squad orders and door-stack tactics give every room a puzzle structure, and the locations provide enough variety that the mid-2000s aesthetic never stale. The dam finale closes the arc against an arms dealer and a traitor, and the campaign's difficulty is presented as a feature rather than a flaw, a tactical shooter that expects methodical play.
 
-Loadout customisation provides extensive options across primary and secondary firearms, with attachments and modifications affecting tactical options. Character outfitting adds personal expression to the operative through outfits and camouflage. The breaching system rewards careful planning with multiple approach angles per room.
+Multi-angle room clearing is the identity. The snake cam peeks under doors, breach, flash and frag options decorate every entry point, and sending the team through one door while taking another personally turns every encounter into a choreographed assault. The tactical loop is what the genre's later cover shooters diluted, and the casino firefights in particular deliver the audible satisfaction of competent squad work. Nothing else in the era structured room assaults this flexibly, and the design holds up completely.
 
-The mines section proves particularly punishing with relentless shotgun enemies. Enemy visibility remains consistently poor, making target identification difficult during firefights. Stealth mechanics exist but prove inconsistent in practice.
+Regenerating health is the other modernising stroke, and the forgiveness is deliberate. The system lets imperfect play survive where the traditional health bar of the older Rainbow Six entries would have restarted the mission, and the balance between arcade accessibility and tactical rigour is the game's central design trade. Plentiful checkpoints (among the most generous the series ever gave), outfitting stashes and silencer-based infiltration round out a structure that alternates stealth and assault without forcing either.
 
-Vegas casino levels stand out as atmospheric highlights with detailed interiors that showcase impressive environmental design. Slot machines and casino environments create immersive set-pieces within the tactical framework. The contrast between stealthy approaches and aggressive breaching provides varied gameplay across missions.
+The enemy AI flanks hard and rushes aggressively, which cuts both ways. The flanks create genuinely tense firefights and force awareness of sightlines most shooters ignore, but unseen positions also produce cheap-feeling ambush deaths, and death comes extremely fast in close quarters, with most weapons ending an encounter instantly at range of an arm. Several deaths land as arbitrary rather than educational, and the dark alleys early on test the brightness settings as much as the reflexes. The Dante Casino's courtyard, dense with enemies, is the difficulty's sharpest test.
 
-Solo pistol-only sections spike difficulty with overwhelming enemy shotguns. Checkpoint placement varies across missions, with some offering generous saves and others demanding flawless execution. The difficulty curve remains punishing throughout.
+The loadout does not persist between checkpoints, forcing constant re-outfitting at every death, an annoyance the shallow customisation mostly absorbs but never eliminates. All weapons are available from the start, which suits the sandbox but removes the progression rhythm the sequel would introduce with rank unlocks, a comparison that follows the game everywhere it goes. The sequel's shadow is the honest framing: this is the rougher, harder older sibling, and its own merits survive the comparison intact.
 
-The progression system carries over between playthroughs, encouraging loadout experimentation and build diversity. Weapon customisation includes attachments and modifications that affect tactical options across different mission types. The multi-angle breaching rewards strategic thinking over reflexes throughout the campaign.
+The Vegas setting earns its place beyond novelty. Casinos, night streets and neon interiors give the tactical grammar a stage no other shooter used, and the production's night-vision palette and 2006-era presentation have aged into period charm rather than liability. The narrative is serviceable scaffolding, memorable mostly for its locations and its cliffhanger structure rather than its characters, and the story's sequel connection rewards those who continue the duology. As an archive of mid-2000s console-shooter design, it is close to definitive.
 
-Overall, the multi-angle breaching system and atmospheric Vegas casino levels deliver a satisfying tactical shooter with genuine depth. Enemy visibility issues and punishing difficulty spikes create friction, but the satisfying breaching mechanics sustain engagement throughout.
+Overall, this is a foundational squad-based tactical shooter whose multi-angle room clearing, snake-cam recon and forgiving regeneration define a generation of console cover shooting, despite brutal close-quarters time-to-kill, ambush deaths from unseen AI and a loadout that resets at every checkpoint. The harder, rougher older sibling of its sequel remains fully playable, fully tactical and fully worth finishing on its own terms.

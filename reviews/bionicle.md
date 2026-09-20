@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-08-26
+date: 2020-01-11
 game_title: "Bionicle"
 permalink: /reviews/bionicle/
-verdict: not-sure
-platform: "PC"
+verdict: recommended
+platform: "GameCube"
 release_year: 2003
-genre: "Action, Platformer"
+genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Deep lore and detailed character models deliver a faithful adaptation of the toy line, though inverted controls and repetitive combat undermine the platforming foundation."
+summary: "An affectionate 2003 licensed tour of Mata Nui with six distinct elemental gimmicks and a startlingly deep lore database, dragged down by identical energy-beam combat and a punishing penultimate escape."
 image: "/assets/img/reviews/bionicle.webp"
 ---
 
-Six Toa heroes traverse the island of Mata Nui to defeat Makuta and restore light in this 2003 platformer adapted from the toy line. The premise draws from the franchise's first three story arcs, weaving elemental heroes and ancient evil into eight distinct levels.
+Six elemental warriors arrive on the island of Mata Nui to free it from the dark spirit Makuta, and the game tours each Toa through roughly one level apiece across the island's regions of fire, ice, water, earth, stone and air. The premise adapts the 2001 storyline faithfully, delivered through basic cutscenes and in-game text, with deliberately silly names that read endearing rather than clumsy. The tone stays firmly in a cheesy Saturday-morning register, and the game commits to it without embarrassment. What looks at first like a routine licensed tie-in turns out to carry real care in its structure.
 
-What surprises most is the depth of the lore system. Detailed descriptions of characters, creatures, and locations populate the experience with world-building extending beyond what the platforming demands. Character models carry surprising detail, capturing each Toa's distinctive look with elemental colour schemes that evoke the physical toys.
+That care shows most clearly in the elemental identities. Each Toa's gimmick shapes its level, and Lewa's late gliding segment stands as the mechanical highlight, following the great Goko bird along updrafts in the most intricate stretch of design the game offers. Collecting light stones and masks drives progression through each region, giving the tour a light objective loop between combat encounters. The region-based structure means no two levels feel interchangeable, an achievement rare in tie-in games of the era.
 
-Platforming forms the primary loop, with light puzzle-solving and collectible hunting scattered across each stage. Players control different Toa characters, each equipped with unique elemental abilities. Light stones and masks hidden throughout encourage thorough exploration, rewarding curiosity with tangible progression markers.
+The lore database is the surprise nobody expects from a 2003 licensed release. Post-completion, an in-game archive opens up covering every region, creature and Toa in encyclopedic depth, material no other entry in the property attempts. It invites reading rather than skimming, and it rewards attention with genuinely dense worldbuilding. Combined with corny, charming dialogue, it gives the game a personality its mechanical shortcomings cannot erase.
 
-Inverted camera controls create immediate friction, with every directional input producing the opposite expected movement. Combat compounds this frustration, as the Toa never wield the weapons associated with their characters, reducing encounters to repetitive button sequences rather than tactical engagements.
+Combat is where the design collapses. Every Toa carries a unique weapon, and every weapon is cosmetic: all attacks resolve to the same energy beam regardless of what the character holds. The single biggest disappointment in the package is watching a fire sword, an ice blade and stone claws produce identical projectiles. For a game built around six distinct elemental heroes, resolving combat into one shared attack drains the premise of much of its point.
 
-Environmental variety keeps exploration interesting, with each Toa's elemental affinity shaping the visual identity of their stages from volcanic terrain to watery depths. Swimming sections introduce a two-dimensional movement plane disconnected from the three-dimensional platforming.
+The controls accumulate friction in specific situations rather than universally. The camera turns unreliable in tight spaces, swimming locks to a 2D plane, the double jump intermittently fails to register, and pushing objects around is awkward in exactly the way the puzzles depend on. Hazards that merely bounce the character backwards feel poorly implemented next to water that kills instantly for any Toa who cannot swim, an inconsistency that makes the danger rules read as arbitrary. Hits occasionally fail to connect, adding a final layer of imprecision.
 
-The second-to-last level spikes difficulty through overwhelming enemy density and cramped arena design, creating a bottleneck interrupting the steady progression curve. Moments of enjoyment emerge between these friction points, sustained by atmospheric music and nostalgic charm that permeates the experience.
+The penultimate sled-escape level is the low point. Riding at speed with damage coming from every contact, it punishes in entirely the wrong way and overshadows the finale that follows. Audio glitches compound the roughness: music cuts out randomly mid-level, and the special attack silences all game audio until it ends. Against this, the character models look genuinely strong for 2003, with detail as small as weapons being set down to push objects, and the game deserves far better than the 47% reputation that preceded it.
 
-Overall, the deep lore system and faithful character representations deliver a Bionicle experience that respects its source material, though inverted controls and underdeveloped combat mechanics prevent the platforming from reaching its potential. The result is an average adventure that succeeds as a franchise adaptation whilst struggling as a standalone game.
+Overall, this is an affectionate, functional slice of early-2000s licensed gaming whose gliding level, elemental region design and astonishing lore database outweigh its flat combat and clunky controls. The energy-beam sameness, the sled-escape misery and the audio glitches are real deductions, but the game's reputation undersells what it achieves. Judge it as a charming relic rather than a technical showcase and it holds up.

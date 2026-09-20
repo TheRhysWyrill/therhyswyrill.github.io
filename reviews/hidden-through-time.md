@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-07-14
+date: 2026-02-07
 game_title: "Hidden Through Time"
 permalink: /reviews/hidden-through-time/
 verdict: recommended
 platform: "PC"
 release_year: 2020
-genre: "Adventure, Casual"
+genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Colour-assisted object finding makes scanning significantly more accessible than monochrome alternatives, though the short music loop becomes noticeable during extended play."
+summary: "Colour-forward dioramas make every era a readable hunt, with a joke-dense clue list and five DLC packs offset by a few near-invisible targets."
 image: "/assets/img/reviews/hidden-through-time.webp"
 ---
 
-Hand-drawn scenes across historical eras form the backbone of this hidden-object experience. A colour palette makes objects significantly easier to spot compared to monochrome alternatives. Creative contextual hints provide poetic clues that occasionally give away locations through clever wordplay. The accessible approach distinguishes this from more demanding titles in the genre.
+Hand-drawn dioramas span the whole of human history, from the Stone Age through Egyptian, Medieval and Western eras, and the DLC extends the slide into Norse myth, Japan, Rome, piracy and Aztec ritual. Nothing resembling a plot connects the scenes; the throughline is the eras themselves, each rendered as an animated miniature world crowded with activity. The multi-era scope is unmatched in its field, and the historical breadth gives every chapter its own visual identity without breaking the shared art language.
 
-Multiple historical eras span the base game and five DLCs, from Stone Age to Western settings. Viking, Japanese, Roman, Pirate, and Aztec themes expand the content across diverse environments. Peaceful ambient music and sound design create a meditative atmosphere suitable for casual play. Controller support exists, though mouse remains preferred for precision scanning.
+Colour is the design's central argument. Every target sits somewhere on a readable spectrum, so items pop against the scenery in a way that makes each map a fair hunt rather than a pixel-peeping exercise, and the approach lands in deliberate contrast to the monochrome school of the genre. Difficulty follows directly from that choice: the default experience is brisk and friendly, tuned for a relaxed completionist afternoon rather than a grind, and the softer curve is a feature rather than a concession.
 
-Peaceful atmosphere emerges from the ambient soundtrack and hand-drawn visual style. Each era maintains distinct visual identity despite the shared aesthetic approach. The base game plus substantial DLC catalogue provides considerable content across nine different historical periods. Stone Age, Ancient Egypt, Medieval, and Western settings anchor the core experience.
+Interactive scenery deepens each sweep. Houses and tents open, scenery scrolls, and objects hide in bushes, behind trees and inside buildings, keeping the eye moving across multiple layers as each level unfolds. Progression runs linearly through the eras, and the DLC chapters arrive as shorter packs of roughly ten levels apiece, each completable in about half an hour and themed tightly to its period. Not every container is searchable, which occasionally misleads, since a chest that looks openable turns out to be fixed dressing, and the frustration of a suspected hiding spot behind an unopenable lid recurs just often enough to sting.
 
-Colour palette helps objects stand out from backgrounds, reducing the searching frustration common in monochrome titles. Small items like snails and chameleons still blend with surroundings, creating occasional difficulty spikes. Canyon-level skull placement exemplifies the extreme end of this challenge. Despite these moments, the colour advantage sustains accessibility throughout.
+The clue text carries the comedy. A Pokémon reference sits improbably in the Stone Age, Potion Seller memes and a wisdom-dispensing frog appear alongside Kappa under Japanese bridges, a strutting tanuki at a fireworks festival, and a bare-necessities gag in the jungle. The writing stays joke-dense throughout, and the goblin attack on a village and a pirate crew's petty squabbles earn genuine laughs rather than polite smiles.
 
-Creative hint system provides contextual clues that sometimes reveal locations through wordplay. Short music loop becomes repetitive during extended sessions, though the peaceful tone prevents the repetition from becoming grating. Secret levels remain absent, unlike the sequel's bonus content.
+Difficulty swings hard at the outliers. Most levels fall quickly, but a pair of glasses, a cache of hidden dynamite and an infamous canyon key stall progress out of all proportion, hiding in clutter that defeats the colour logic the rest of the art follows. Those exceptions feel like accidents of density rather than intended spikes, and each one breaks the otherwise even rhythm of a level or two.
 
-Text alignment on objective displays not being centred creates minor visual friction. Despite this, the overall presentation maintains charm throughout.
+The controller support exists but is not really usable, with cursor speed too sluggish for precision work, and the mouse remains effectively mandatory. The soundtrack, by contrast, is a quiet pillar: peaceful loops suit the pacing, and the presence of music at all distinguishes the package from a monochrome rival whose silence wears thin over long sessions.
 
-Overall, colour-assisted object finding and substantial DLC catalogue deliver a hidden-object experience with satisfying accessibility. The short music loop and occasional blending of small objects prevent the peaceful atmosphere from fully establishing itself.
+Overall, the colour-forward art direction, the joke-dense clues and a content total inflated by five DLC packs make this the friendlier counterpart to its monochrome genre-mate, easily cleared with everything included in under four hours. A handful of near-invisible targets and limp controller support dent an otherwise even, charming hunt across the whole of history.

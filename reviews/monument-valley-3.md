@@ -1,27 +1,29 @@
 ---
 layout: review
-date: 2026-06-21
+date: 2026-06-09
 game_title: "Monument Valley 3"
 permalink: /reviews/monument-valley-3/
 verdict: recommended
 platform: "PC"
-release_year: 2024
+release_year: 2025
 genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Sketch-book chapter and boat mechanic elevate the puzzle formula with creative visual design and musical achievement, though awkward boat controls and a frustrating final puzzle prevent the experience from reaching its full potential."
+summary: "The most alive entry in the perspective-puzzle series, with a sketchbook chapter, a sailable boat and genuine emotion, held back only by brevity and one hostile final puzzle."
 image: "/assets/img/reviews/monument-valley-3.webp"
 ---
 
-Lightkeeper apprentice Nor restores sacred light through increasingly creative puzzle worlds in this third series entry. The sketch-book chapter (Origalia) stands as the most visually distinctive level across all three games, with paths unfolding through drawn environments. Impossible geometry and perspective manipulation remain the core puzzle foundation.
+A lightkeeper's apprentice tends a dimming lighthouse for a town of boats as the sea rises and the light fails, and the series' quietest, most melancholy frame yet gives the campaign genuine stakes. Warmth and stained-glass colour early give way to a red sea and losing colour as the tide consumes the light, with the palette doing narrative work no dialogue could. The tone is contemplative rather than tense, until a temple chapter's rising tide and a parting companion make it unexpectedly emotional. This is the first entry with a living world rather than a gallery of set pieces.
 
-The boat mechanic fundamentally changes traversal, allowing water-based navigation between island locations. Water rising chase sequences create genuine tension through timed environmental shifts. Musical composition reaches series peak, with instruments blending into harmonies that enhance atmospheric moments.
+The boat mechanic is all the justification the sequel needed, stitching chapters together through a persistent town hub and enabling entirely new puzzle structures. Passengers are rescued and light is gathered along sailing routes between docks, giving the world continuity the earlier games lacked. Rotate cranks, unfold sketch-paper pathways, invert palaces, flatten dollhouse layers and twist impossible stairways remain the vocabulary, all executed with the series' usual precision. The hub, the boat and the rescued passengers combine into something genuinely alive.
 
-Puzzles remain accessible yet clever, relying on optical illusions that challenge visual perception rather than mechanical difficulty. The inversion mechanic flips characters between orientations, creating fresh puzzle possibilities. Light artefact collection adds exploration incentive across the interconnected island network.
+The sketchbook chapter is the standout, playable line-drawings that unfold as the walk proceeds, an idea no other puzzle game has matched. Chapter after chapter earns the claim of best yet, from the temple's dread to a harmonious duet whose resolution arrives purely through music and geometry. The escalation of the score does real narrative work throughout, and the trilogy's musical evolution peaks here with instruments blending in beautiful ways. Audio and art direction are finally equal partners rather than a visual showcase with accompaniment.
 
-The Hall of Memories contains over twenty micro-puzzles that extend gameplay beyond the main campaign. The final maze puzzle lacks a restart option, creating frustration when paths become blocked through wrong turns. Some levels end too quickly to fully appreciate their creative design.
+Emotional pacing is the quiet achievement of the campaign. The palette's decay from stained-glass warmth to a red, lightless sea mirrors the lighthouse's decline without a word of exposition, and the apprentice's arc lands with more weight than the series' entire silent catalogue combined. Interludes with the aging master set the stakes early, and the temple chapter's parting beat converts gentle puzzle mechanics into genuine tension. The Garden of Life then reframes everything as community healing, with villagers' gathered memories recolouring the ending's loss. A trilogy built on wordless architecture ends up saying more than most voiced adventures.
 
-Boat controls prove consistently awkward, with responsive steering requiring frequent adjustment. The Garden of Life expansion adds community-building layers that distinguish this entry. Short duration despite expanded content remains a recurring series characteristic.
+The puzzles are conceptually simple but visually disorienting, and the optical-illusion presentation is both the series' genius and its tax. Solutions are typically simpler than they appear, and overthinking remains the player's own worst enemy, but the illusionist trick still lands nearly every time. Some clever chapters end before they can be savoured, which is the recurring complaint across all three entries. The brevity is real, though the density of ideas per minute is unrivalled.
 
-Nor's journey unfolds through environmental storytelling and brief character exchanges. The narrative maintains the series' minimalist approach, providing context rather than driving emotional engagement. The conclusion brings narrative threads together with satisfying resolution.
+The Garden of Life expansion and Hall of Memories add substantial free postgame content, with more than twenty micro-puzzle memories scattered across the sea map. Chasing them to completion extends the campaign to roughly three hours, and the memories reframe the ending as community healing through gathered villagers' recollections. The trilogy's runtime pattern holds here too, longer than the shortest entry but shorter than the first. The final memory puzzle, a sliding-pathway contraption, is the campaign's one genuinely hostile stretch, self-sabotaging with no restart and unclear ownership of controls. Boat controls are awkward when sailing between docks, though the trouble is brief.
 
-Overall, the sketch-book chapter and boat mechanic deliver a puzzle experience with creative visual design and musical achievement. Awkward boat controls and a frustrating final puzzle prevent the experience from fully realising its potential.
+As a trilogy closer, the entry earns its place through accumulation rather than reinvention. Familiar verbs return, but the living hub, the rescued passengers and the sailable sea give them context the gallery-style chapters never offered. The opening callbacks to each predecessor land as deliberate thanks rather than rote ritual. Even the series' recurring flaws, the brevity and the eye-bending puzzles, read here as house style rather than neglect. It is a confident, complete close to a trilogy that never once lost its identity.
+
+Overall, the endlessly inventive perspective puzzles, a score that finally equals the visuals and generous free postgame content make this the most alive and emotionally resonant entry yet in the series. One self-sabotaging final puzzle, loose boat handling and the series-wide brevity are the only real deductions. What the campaign attempts, it achieves with style to spare, and the recommendation is wholehearted.

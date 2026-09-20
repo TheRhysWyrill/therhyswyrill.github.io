@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-08-26
+date: 2022-06-14
 game_title: "Aztech Forgotten Gods"
 permalink: /reviews/aztech-forgotten-gods/
 verdict: recommended
@@ -8,18 +8,20 @@ platform: "Series X"
 release_year: 2022
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Jetpack-driven traversal through a vertical Aztec sci-fi city delivers exceptional freedom of movement, though a janky combat targeting system undermines the boss encounters that anchor the experience."
+summary: "A movement-first open-city boss gauntlet in Mesoamerican futurism whose flying traversal and narrative twists outweigh janky reticle combat and buggy pursuits."
 image: "/assets/img/reviews/aztech-forgotten-gods.webp"
 ---
 
-Tenochtitlan rises as a vertical metropolis where ancient Mesoamerican architecture meets advanced technology, creating a setting that feels both mythic and futuristic. Achtli, a young courier, bonds with an ancient gauntlet called Light Keeper after stumbling into a conflict involving dormant giants beneath the city. From the opening moments, the jetpack traversal dominates: near-infinite flight transforms city navigation from a chore into the game's most celebrated mechanic.
+Mesoamerican futurism is a setting almost nothing else occupies: a sprawling Aztec metropolis called Tenochtli, floating challenge beacons, buried temples beneath the streets, and a god-companion gauntlet strapped to a courier's arm. Ahtziri, a package courier with a prosthetic arm and survivor's guilt, bonds with Lightkeeper, a gauntlet whose resident claims to be the feathered serpent himself, and the city's institute has buried an entire divine war under a Protocol of Silence. The premise alone earns attention; the execution mostly honours it.
 
-Between boss encounters, the city opens as a playground for aerial exploration. Pursuit challenges test speed across rooftops, memory tablets weave lore into the environment, and combat arenas provide optional friction, with an upgrade system rewarding completion through cosmetic unlocks and ability enhancements.
+Flying is the whole show. Jetpack boost, wall-grab and endless float turn the open city into a playground, and movement-first design keeps even errand runs light on their feet. Challenge variety spread across the city (fights, pursuits, memory hunts) gives the traversal purpose, and completed challenges remove themselves from the map, a small mercy that respects the completionist loop. Post-boss abilities (charge punch, slicing shot, ground pound, shield) gate optional content and encourage a cleanup pass through districts already flown.
 
-The jetpack traversal system grants freedom rarely found in the action-adventure genre, letting momentum carry through vertical spaces with a fluidity that never stops feeling rewarding. Six major bosses anchor the progression, each introducing distinct attack patterns and phases that demand adaptation. A hidden seventh encounter extends the gauntlet for those who seek it.
+Tenochtli's god-monster roster delivers six-plus boss duels, and the quality curve holds surprisingly well: the penultimate encounter plays less as a fight than a psychological puzzle, a structural swerve that lands, and the giants themselves are properly scaled spectacles. Fodder enemies matter less, dying in roughly four hits and existing mostly to keep arenas moving between the real fights. A photo mode rounds out the package, rare enough in this space to deserve naming.
 
-Light Keeper powers the combat alongside the jetpack, enabling aerial punches, charged heavy attacks, shield blocks, and energy absorption. Regular enemies prove trivial, dispatched in handful of hits and functioning as filler between boss encounters, while the heavy attack targeting system suffers from camera-dependent aim that causes charged strikes to veer off toward whatever the camera faces.
+Combat leans on reticle-driven auto-targeting that zips the heroine between enemies, comfortable at a distance and janky up close: heavy attacks drift to wherever the camera points once the cursor slides off a target, and the floaty precision never deepens into anything reactive. The upgrade economy saturates early, maxing out well before the credits, and the downward punch input is never taught, hiding on the d-pad until stumbled upon by accident. Neither flaw breaks the loop; both blunt it.
 
-The mother-daughter relationship between Achtli and her scientist mother Nantli adds emotional weight to the progression. Side content varies in quality: pursuit challenges demand precision that occasionally frustrates, while memory tablets provide narrative texture.
+Challenge design carries the friction budget. Pursuit events are fragile: the first bugged out and failed on load-in before working on a retry, and even healthy ones despawn targets mid-chase at the worst moment. One fight challenge demands finisher-heavy kills inside ten seconds, an ask the kit cannot reasonably meet, and a boss-room barrier once phased the heroine inside geometry. No crashes or framerate trouble accompany any of it, which keeps these irritations rather than failures.
 
-Overall, the jetpack traversal and vertical city design deliver an action-adventure with mechanical personality that persists beyond its combat shortcomings, creating a compact experience whose movement systems alone justify exploration.
+The narrative earns its keep. A father-guilt therapy thread runs heavy-handed at points, rescued by a mother's letter that lands with quiet force, and a slow-burn companion arc turns an initial nuisance into genuine fondness. The hidden archives beneath the city rewrite the institute's history, and the endgame's revelations recontextualise the whole journey: the companion's true identity, and what the giants have actually been feeding on, reframe every previous flight through the city. The opening hour's errand pacing (wires, a hairpin, workshop runs) tests patience before the first god arrives, and the absence of a full-map screen hampers the optional content, but the story carries the exploration regardless.
+
+Overall, a movement-first open-city boss gauntlet whose flying traversal, Mesoamerican-futurist identity and late narrative punches outweigh janky reticle combat, early upgrade saturation and buggy pursuit challenges. The story punches well above its combat, the six-plus god-monster duels supply the spectacle, and the photo mode and challenge-cleanup loop give the city reasons to keep flying after the credits' approach.

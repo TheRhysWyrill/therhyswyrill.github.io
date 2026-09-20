@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-08-26
+date: 2025-07-20
 game_title: "Call of Duty: Black Ops III"
 permalink: /reviews/call-of-duty-black-ops-3/
 verdict: recommended
@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2015
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "DNI abilities including incendiary drones and enemy hacking create a tactical layer that complements satisfying gunplay, though inconsistent wall running and locked weapon loadouts reduce mechanical variety across the campaign."
+summary: "A far smarter, stranger and more intriguing campaign than its meme reputation suggests, carried by the series' best cyber ability kit, though restrictive weapons, finicky wall-running and a broken final mission test patience."
 image: "/assets/img/reviews/call-of-duty-black-ops-3.webp"
 ---
 
-Set 40 years after Black Ops II in 2065, the campaign follows an operative who gains a Direct Neural Interface after sustaining life-threatening injuries. The atmosphere shifts from military thriller to psychological horror as the DNI infection spreads.
+A bleak cyberpunk 2065 of mega-cities, superstorms and a new cold war, told through the deterioration of a soldier's neural implant. A covert experimentation project has birthed a rogue AI that infects the DNI implants linking soldiers into a networked consciousness, and the conspiracy-mystery structure that follows is the most narratively experimental the series has attempted: an unreliable-narrator campaign filtered through failing hardware, complete with in-fiction tutorials, dream sequences and a villain who is an intelligence rather than a person. No other entry blurs simulation and reality this far, and the intrigue sustains itself right through to an identity twist that recontextualises everything before it. Accepting ambiguity where the mechanics don't fully cohere is part of the deal, and worth it.
 
-DNI abilities expand the tactical options beyond standard firearms. Fireflies deploy incendiary drones that expose enemies, emulation hacks hostile systems, and tactical view highlights positions through walls. These tools layer strategic depth onto the shooting mechanics, rewarding creative deployment. The fireflies ability becomes the most consistently useful tool, opening enemy positions for follow-up damage.
+The reality-bending missions are the story's high points. A dream sequence set in a 1940s battlefield, a zombie nightmare unfolding inside a dying mind during an interface sequence, and a finale that fully abandons the grounding of its own genre make the campaign memorable in ways the series rarely attempts. The hub-based mission select with loadouts, fabrication kits and weapon and ability upgrades gives the seven-hour structure variety, spanning a hostage-rescue prologue, a Singapore quarantine zone arc, Cairo's war-torn districts and the surreal finale, and the game looks impressively sharp for its age.
 
-Wall running and boost jumps add verticality to the traversal, though the mechanics prove inconsistent after the tutorial sequences. Early sections demonstrate fluid movement, but subsequent encounters reveal finicky input that undermines the polished combat flow.
+The reputation that precedes this campaign undersells and misrepresents it. A scene explained away as a train collision was charming exactly once, then repeated across the opening simulations until the joke curdled into annoyance, and it became the game's shorthand in the wider culture despite everything else on offer. The prologue's body-horror dismemberment sets a tonal seriousness the meme never mentions. Anyone arriving expecting a dumb game, based on that single scene, finds a conspiracy thriller instead.
 
-The LMG weapon class delivers sustained firepower with high ammo capacity, making it the campaign's most satisfying weapon category. Fabrication kits earned through levelling unlock cosmetic customisation with vibrant skins. The inability to pick up enemy weapons forces reliance on a single loadout per mission, reducing variety and limiting tactical adaptation.
+The cyber ability system is the most fun the series' power sets have ever offered. Hacking, Fireflies nanobots that open enemies up for clean kills, Emulation, EMP palm strikes: the wheel turns experimentation into a default playstyle rather than a gimmick, and it papers over most of the campaign's other rough edges. Tactical mode vision, highlighting enemies and grenade blast zones through walls, sits alongside it as a cheat-code-level aid that makes crowded firefights legible. Together they define the playthrough, and the boots-on-the-ground shooting underneath remains reliably punchy.
 
-The final level's infinite enemy spawning creates an anticlimactic conclusion that contrasts sharply with the campaign's otherwise structured encounter design. This mechanical breakdown interrupts the narrative momentum at the moment it demands the most engagement.
+Friction accumulates in the systems around the shooting. Enemy weapon pickups are disabled entirely, stripping out a series staple and making loadouts feel static, and the secondary slot is locked to pistols, eliminating the two-primary flexibility the sandbox used to reward. Escalating fabricated weapons are often strictly worse than starting gear, with damage and range losing to fire rate on paper and in practice, making progression feel pointless. Wall-running works in the tutorial and then inconsistently at best, refusing to activate when the geometry demands it, and climbing and vaulting misbehave in the Lotus Towers mission.
 
-The visual quality holds up impressively despite the game's age, with detailed environments and smooth performance maintaining immersion across varied mission settings. Character customisation provides cosmetic identity through unlockable options. The default protagonist name being simply 'player' creates an odd disconnect during narrative moments.
+The final Zurich mission is the campaign's lowest point. Enemy spawning runs effectively endless, waves arriving without rhyme or reason in a way that feels genuinely broken rather than deliberately hard, and the mission's design appears not to have been thought through at all. A forced sniper section and armoured tank fights demand tediously specific counter-weapons, sending players hunting for RPGs they never picked, and companion AI occasionally fails to react to enemies standing directly beside them. Each issue is survivable; stacked into the last hour, they test patience hard.
 
-Overall, the DNI abilities and satisfying gunplay establish a sci-fi shooter with genuine tactical depth, though inconsistent wall running and locked weapon loadouts prevent the mechanical variety from reaching its full potential.
+Overall, this is a far smarter, stranger and more enjoyable campaign than its meme reputation suggests: the cyber ability kit and tactical vision carry the combat, the reality-bending story rewards theorising, and the identity twist redeems even the broken final mission. Disabled weapon pickups, the pistol-locked secondary, finicky wall-running and endless Zurich spawning are real flaws, but none of them fatal. The intrigue is the point, and it delivers.

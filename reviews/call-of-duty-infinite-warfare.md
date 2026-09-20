@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-07-04
+date: 2025-07-30
 game_title: "Call of Duty: Infinite Warfare"
 permalink: /reviews/call-of-duty-infinite-warfare/
 verdict: recommended
@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2016
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Space-based Jackal combat and a robot companion with growing personality create a sci-fi shooter with genuine emotional stakes, though occasional micro-stutters and excessive enemy health create friction during otherwise varied mission sequences."
+summary: "A character-driven space war epic whose hub-based campaign, Jackal dogfights and genuinely costly ending punch far above the series' usual formula, marred only by micro-stutters and bullet-sponge robots."
 image: "/assets/img/reviews/call-of-duty-infinite-warfare.webp"
 ---
 
-Humanity's solar system becomes a warzone when a militaristic colonial faction seizes control of a shipyard, forcing a SCAR team leader to assume command after his commanding officer's death. The atmosphere shifts from desperate defensive operations to offensive strikes, with missions spanning ground, space, and zero-gravity environments.
+A war for the solar system, told from the deck of a carrier, with losses that actually stick. That premise alone separates this campaign from the series' usual one-survivor formula: captains go down with their ships, comrades die covering retreats, and the attrition is never reversed. The Settlement Defense Front makes a properly hateable enemy, the escalating campaign moves from Vesta 3 to a shipyard assault, and the whole arc plays like a war story that respects consequence. It is the rare entry in the franchise where the credits carry emotional weight.
 
-Ethan the robot companion provides emotional depth through his growing personality and dry humour, creating investment rarely seen in military shooters. His presence transforms standard squad mechanics into a character-driven relationship that sustains engagement across the campaign's varied mission types. The dialogue builds naturally, establishing bonds that make later sequences carry genuine weight.
+Ethan is the heart of the game. The companion robot fights alongside the player as a true character rather than a tool, and his arc gives the campaign its emotional core in a way no human squadmate manages. His interactions land as genuine, his loyalty reads as earned rather than programmed, and his place in the finale is the story's most affecting beat. Kit Harington's villain is recognised more than felt, but the supporting cast around the player more than compensates.
 
-Space-based Jackal combat delivers satisfying dogfights through asteroid fields, with auto-tracking missiles making targeting feel responsive. Ground assaults, ship boarding operations, and zero-G segments each offer distinct mechanical identities.
+The Retribution serves as a mission hub between operations, and the structure is the campaign's smartest decision. Choosable side missions (dogfights, boarding actions, assassinations, hostage rescues) display success probabilities, the armory spends salvage on upgrades, Jackal loadouts can be tuned across hull, weapons, thrusters and missiles, and weapon picks come with recommendations from the squad. The freedom to pick the order turns a linear war into a campaign with texture, and side content is substantial enough to make the playthrough feel generous rather than padded.
 
-The hacking module allows players to take control of enemy robots, adding tactical variety to firefights. This mechanic encourages creative deployment, with robot allies providing covering fire while the hacking animation creates brief vulnerability windows that demand timing.
+The space dogfighting deserves singling out. Jackal missions are brief, sharp and repeatedly fun, trading the boots-on-ground pace for solar-system aerial combat that never outstays its welcome. The mix of mission types extends further: zero-G traversal, hacking tools, seeker grenades, drone assists, a tank section on Titan, capital-ship boarding and full space combat. Pacing alternates short dogfights with long cinematic main missions, and the alternation keeps the war's scale feeling varied rather than repetitive.
 
-Enemy health occasionally requires excessive bullets to eliminate, undermining the satisfaction of precise aiming. The distinction between energy and ballistic weapons adds strategic depth, though the learning curve for effectiveness against different enemy types proves steeper than necessary.
+The ending is the campaign's boldest move. The whole crew, including the player character, goes down destroying the shipyard, and the post-credit letters home from fallen soldiers close the story with genuine weight. Few franchises commit to that much loss, and the sincerity of the epilogue redeems even the wordy final act, which piles one escalating set-piece on another until the Retribution's crash briefly reads as the ending before the true climax arrives. The cost is the point, and the game never flinches from it.
 
-PC version micro-stutters surface intermittently, creating brief interruptions during otherwise smooth combat sequences. These performance hiccups prove minor but persistent, pulling attention away from the campaign's strongest moments.
+Friction is modest but real. Micro-stutters recur throughout the PC version without any obvious performance cause, an odd port quirk. Enemy robots take enormous punishment, dragging some firefights past the point of tension into attrition. Fire direction is hard to read in zero-G and open-space sections, with shots arriving from unseen sources. The stealth segments, genuinely functional by series standards, occasionally force an unstealthy shootout anyway. A preference for regenerating health and obvious cinematic budget in detailed cutscenes round out the gripes.
 
-Overall, the robot companion Ethan and space-based Jackal combat establish a Call of Duty campaign with genuine emotional stakes and mechanical variety, though excessive enemy health and minor PC performance issues prevent the experience from reaching its full potential.
+Overall, this is the most unfairly maligned futuristic entry in the series: a character-driven space war epic that punches far above its reputation. The hub structure, the Jackal dogfights and the ending's genuine cost make it a standout campaign, and Ethan's companionship gives it a heart no other entry matches. Micro-stutters and bullet-sponge robots are real flaws, but neither dims a confident, affecting war story.

@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-07-15
+date: 2025-11-08
 game_title: "The Room Three"
 permalink: /reviews/the-room-3/
 verdict: recommended
 platform: "PC"
 release_year: 2015
-genre: "Puzzle"
+genre: "Adventure, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Multiple endings and increasingly complex puzzles deliver a satisfying puzzle experience with Lovecraftian atmosphere, though touch controls and a real-time clock puzzle introduce frustrating interruptions."
+summary: "The series' biggest and creepiest entry, scaling its puzzle-box formula across a whole estate with four endings, slightly hampered by awkward camera controls."
 image: "/assets/img/reviews/the-room-3.webp"
 ---
 
-Set in the mysterious Grey Home, you investigate the disappearance of the Craftsman who has been studying the null element. The opening moments establish a darker tone than previous entries through journal entries and environmental storytelling. From the start, Lovecraftian horror elements create atmospheric tension that complements the mechanical puzzle design.
+A summons to Grey Holme opens the campaign: a mysterious Craftsman sets a test across the estate's rooms, each solved contraption yielding an engraved pyramid, until the final gateway poses a question about mazes and labyrinths that reframes everything. The escalation from mechanical puzzling to cosmic-horror trap is the boldest structural move the series has made, and it lands. Atmosphere runs noticeably darker than its predecessors, with jump scares, doll-eyed fortune tellers and real-time clocks seeding a genuinely unsettling undertone. The tactile physicality survives the scale increase intact, hands still turning, sliding and unlocking everything on screen.
 
-The eyepiece mechanic returns, revealing hidden elements across intricate rooms that demand careful observation. Puzzle complexity increases progressively, spanning clock mechanisms, gear systems, and symbolic matching challenges. These systems build upon each other, creating a satisfying progression loop.
+The estate-spanning puzzle variety is the standout. A workshop, lighthouse, clock tower, forge and observatory each house distinct contraptions: domino and route-tracing puzzles, a knight's-move chess board, a forge where keys are literally reforged from the same ingot, and constellation puzzles overhead. The sheer range exceeds what the series managed in its first two entries combined, and the manor feels like one continuous machine rather than a sequence of boxes. Roughly four and a half hours covers a full completion, double the expected series length, and none of it pads.
 
-Multiple endings with the "Change your fate" mechanic encourage replay to discover alternate outcomes. Each ending requires different puzzle solutions, adding substantial replayability beyond the initial completion. The four distinct conclusions reward thorough exploration of Grey Home's secrets.
+The multiple-endings structure gives the finale real momentum. Four conclusions, imprisonment, escape, release and the true lost ending, each carry their own note and jump scare, and the change-your-fate system lets every variant be collected without redoing the campaign. Progress persists between runs, a mercy that turns the finale into a completionist victory lap rather than a grind. A hidden-artifact layer and a fortune-teller reveal add meta-texture to the replay structure.
 
-The blue crystal puzzle introduces confusion through unclear visual feedback on first attempt. Touch controls frustrate during sliding puzzles, often rotating the camera instead of manipulating the intended mechanism. These control issues create brief interruptions in the otherwise smooth puzzle flow.
+One puzzle deserves singular mention: the real-time clock ending, which requires waiting out the actual current time, minutes and all. It is the kind of design almost no puzzle game dares, at once a clever physical gag and an impish imposition on anyone who wants to keep playing. As a closing flourish it is memorable, though its patience tax is real and deliberately so.
 
-One puzzle requires real-time waiting, pausing progression until a clock reaches a specific time. This mechanic contrasts with the otherwise continuous puzzle flow, creating an artificial pacing break. The wait feels unnecessary compared to the game's otherwise thoughtful design.
+The camera and turn controls are the campaign's clearest friction. Rotating a puzzle piece too often swings the perspective instead, a particular nuisance in sliding-block puzzles where precision matters, and a perspective lock during manipulation is sorely missed. The blue crystal beam puzzle defeated a first approach through pure misunderstanding rather than design fault, and deserves exoneration; nothing else in the estate stonewalled legitimately.
 
-The game's length exceeds previous Room entries, providing significantly more content and complexity. The final ending's tower puzzles initially frustrate but become easier on subsequent playthroughs. These challenges reward the investment in replaying for alternate conclusions.
+The Craftsman himself earns the narrative's momentum, his trap reveal converting a puzzle tour into a horror-tinged escape attempt mid-campaign. The fortune-teller's chamber holds the series' most effective single reveal, a doll-eyed machine that turns out to be far more than decoration. Grey Holme as a location carries the escalation convincingly, its rooms growing stranger as the pyramids accumulate.
 
-Overall, the multiple endings and increasingly complex puzzles deliver a satisfying puzzle experience that rewards replay, though touch controls and a real-time clock puzzle create frustrating interruptions in the atmospheric Lovecraftian setting.
+Overall, this is the series' peak: the biggest, creepiest and most ambitious entry, turning its quiet puzzle-box formula into something genuinely unsettling and far larger than before. The estate-spanning variety, four-endings structure and real-time clock audacity outweigh the awkward camera controls and one real-time wait. A superb high point that keeps every earlier entry's tactile charm.

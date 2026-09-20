@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-07-04
+date: 2025-02-15
 game_title: "Call of Duty: United Offensive"
 permalink: /reviews/call-of-duty-united-offensive/
 verdict: recommended
@@ -8,20 +8,21 @@ platform: "PC"
 release_year: 2004
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Multiple national campaigns spanning American, British, and Soviet perspectives deliver varied mission design that builds effectively on the original formula, though technical challenges on modern systems require troubleshooting patience."
+summary: "The expansion that invented several franchise staples, from sprint to bomber turret missions, and outperforms the base game on nearly every axis, held back by medkit survival mechanics and 2004-era control quirks."
 image: "/assets/img/reviews/call-of-duty-united-offensive.webp"
 ---
 
-American, British, and Soviet campaigns span the European theatre, with each perspective offering distinct combat scenarios and squad dynamics that expand the original's narrative scope. The atmosphere remains consistent with the base game—intense, cinematic, and focused on the chaos of war across multiple fronts.
+Three campaigns span the breadth of the Second World War in a single expansion: the American 101st Airborne holding Bastogne and Foy through the Battle of the Bulge, a British arc running from a Rotterdam bombing raid through occupied Holland to Sicily's Operation Husky, and a Soviet finale ending at the Kursk train station after history's largest tank battle. Inter-mission text briefings provide genuine historical context, and closing synopsis screens summarise each campaign's events with a care the era rarely bothered with. The snowbound Bastogne settings do heavy atmospheric lifting, and the gritty register never lapses into parody.
 
-Mission variety impresses with infantry combat, vehicle sections, and set-piece moments that break the standard shooting formula. The different campaigns provide pacing diversity, with each sequence introducing mechanical variations that prevent repetition across the expansion's structure.
+The expansion's mechanical additions are its quiet revolution. Sprint arrives here for the first time in the series, and its stamina-based implementation (a genuine run that runs out of breath rather than a timed burst) feels more honest than what later entries made of it. That stamina-based sprint asks for genuine route planning rather than timed bursts, and it changes how open ground is crossed.
 
-The expansion builds effectively on the original Call of Duty's formula, improving mission design while maintaining the franchise's signature intensity. The squad-based mechanics remain engaging, with friendly AI providing covering fire and call-outs that create the illusion of coordinated military operations.
+The B-17 bomber mission is the campaign's centrepiece and holds up as one of the era's best set-pieces. Mounting different turrets across the fuselage while engines catch fire, operating the bomb-bay doors manually, and finally bailing out over Holland give the sequence a dramatic arc the ground missions rarely attempt. The SAS infiltration arc brings a silenced Sten and a slower, stealth-flavoured pacing; motorbike-with-sidecar chases and a PT boat capture round out a vehicle roster the base game never attempted, and the variety alone justifies the expansion's existence.
 
-Vehicle sections add mechanical diversity, with controllable tanks and jeep sequences that break the infantry-focused rhythm. These moments demonstrate the expansion's ambition to expand beyond the base game's established combat formula, adding variety without sacrificing the core shooting mechanics.
+Quick saving (F5/F9) is undocumented and transformative, restoring full health on load, and its obscurity is the game's most avoidable frustration; discovering it mid-campaign changes the entire difficulty curve. The health-bar-and-medkit survival loop, by contrast, remains the classic era's most annoying habit: enemies drop medkits unreliably, death comes fast at low health, and survival too often depends on hoping the next corpse carries a pickup, which more often than not it does not.
 
-Technical challenges on modern systems prove significant, with setup difficulties requiring troubleshooting patience before the expansion becomes operational. The experience rewards persistence, though the initial barrier may deter players seeking immediate accessibility.
+Hold the Line defences return, and their quality varies wildly. The Noville château defence is a genuine nightmare, punishing without the generosity its design needs; the better versions, which save constantly at checkpoints, play far fairer and show how good the format could be. Fewer of these missions than the base game carried is one reason the expansion's five-hour campaign is the more enjoyable half of the original package. A confusion over an unexplained eighteen-bullet opening loadout sets an odd first note, and the shortage forces early scavenging before the arsenal opens up.
 
-The multiple national perspectives provide variety that the original game lacked, with each campaign offering distinct tonal experiences. American missions emphasise large-scale assaults, British operations focus on tactical objectives, and Soviet sequences highlight desperate defensive engagements.
+Friction clusters around era-typical roughness. Enemies disproportionately target the player character even when squadmates concentrate nearby, squadmates themselves block movement and cannot be commanded, and ladders require walking into them rather than pressing a button. Fire-mode switching is counterintuitively bound to M, mouse movement occasionally feels stuttery, and one early crash arrived without explanation, consistent with known stability issues at particular campaign points. The instant mission fail on a single accidental friendly-fire bullet in the bomber mission is arbitrary, jumping straight to failure where a warning would serve.
 
-Overall, the multiple national campaigns and varied mission design establish a worthy expansion that builds on the original Call of Duty's formula, though technical challenges on modern systems require patience that not all players may possess.
+Overall, this is the better half of the original package: sprint, bomber turret missions and vehicle set-pieces that later entries would treat as franchise staples all debut here, and the three-campaign structure gives the expansion a breadth the base game lacked. The medkit survival loop, the brutal Noville defence and the 2004-era control quirks are real deductions, but as a close to the classic era it lands warmly, and it completes the original story properly.
+

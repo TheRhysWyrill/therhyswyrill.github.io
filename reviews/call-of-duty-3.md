@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-07-04
+date: 2025-04-11
 game_title: "Call of Duty 3"
 permalink: /reviews/call-of-duty-3/
 verdict: recommended
@@ -8,20 +8,21 @@ platform: "PS3"
 release_year: 2006
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Diverse mission types including tank combat, driving, and radio operator sequences maintain momentum throughout the Normandy breakout, though twitchy anti-tank gun aiming and the absence of sprint create friction."
+summary: "The most character-driven of the classic WWII entries, with four Allied perspectives and strong mission variety, held back by gimmicky motion mini-games, a missing sprint and hold-position repetition."
 image: "/assets/img/reviews/call-of-duty-3.webp"
 ---
 
-Infantry skirmishes give way to tank assaults, high-speed chases through French countryside, and radio operator sequences that demand tactical spotting rather than trigger discipline. This mission variety defines Call of Duty 3's identity, ensuring no two campaigns feel redundant despite sharing the same historical theatre.
+The Normandy breakout has rarely been told with this much personality. Across four Allied perspectives (American, British SAS, Canadian and Polish) the campaign traces the push to close the Falaise Gap, and the ensemble writing lifts it above the era's standard: Nichols' squadmates Huxley, Guzo, Dixon and Sarge get genuine arcs rather than exposition duties, and the campaign's willingness to kill off the character the structure has been building expects makes the late beats land harder than anything else in the classic trilogy. The writing sits comfortably above what 2006 expectations would suggest, and the ensemble focus gives this entry an identity its siblings lack.
 
-Melee combat delivers disproportionate force, sending enemies ragdolling with exaggerated impact that borders on comedic. When enemies close distance, a single strike often proves more reliable than panicked hip-fire, creating a secondary combat rhythm that supplements the shooting mechanics.
+Mission variety is the other selling point. Tank combat runs from Operation Totalize's open-field push to the Black Baron chase, where an alternate tank control scheme proves genuinely preferable; jeep escapes, vineyard manor assaults, mortar emplacements and a final multi-stage street battle fill the roster, and an artillery-spotting defence of Hill 262 closes the Canadian arc with real momentum. Few entries in the classic era juggle this many mission shapes, and the rotation keeps the five-hour campaign moving without a dud stretch.
 
-Driving sections handle with surprising precision, the vehicles responding crisply to inputs while maintaining momentum through winding rural roads. These sequences break the infantry-focused pacing and inject a different kind of tension, one built on speed rather than cover-based positioning.
+Melee, improbably, becomes a highlight. The lunge zips the player toward enemies with such force that opponents occasionally front-flip from the impact, and the mechanic is viable often enough to become a deliberate playstyle through the fuel depot and beyond. When it connects, the physics comedy is a recurring delight; when it fails, the same lunge is often blocked by enemies standing too close, turning a strength into a coin flip at the worst moments.
 
-The Falaise Gap setting provides atmospheric grounding, with period-accurate weapons, dynamic weather, and squad dialogue that builds camaraderie through shared danger. Character-driven writing gives the ensemble distinct personalities, particularly through the evolving relationship between squad members who must trust each other under fire.
+The motion mini-games are the campaign's persistent flaw. Rowing sections, bomb-defusal rotation and the Pak 43 anti-tank aiming all suffer from oversensitive stick mapping, with the left-stick rotation sending the reticle shooting across the screen rather than tracking steadily. These context-sensitive interruptions break the combat rhythm the rest of the campaign builds so carefully, and their frequency (the heaviest use of such mini-games in the classic series) makes the friction cumulative rather than isolated. Nothing here is unfinishable; all of it is unwelcome.
 
-Anti-tank gun aiming, however, suffers from excessive sensitivity. The Pak 43's left stick input translates to violent screen sweeps rather than controlled targeting, making defensive artillery sequences feel more like luck than skill. The absence of sprint compounds this frustration, forcing methodical movement through open ground that demands urgency.
+Structural repetition compounds the irritation. Hold-position-until-reinforcements missions recur across several chapters, a tradition inherited from the series' earliest entries that has aged into tedium. There is no sprint, a surprising omission even by the standards of the second entry, and sensitive mounted MG42s punish small adjustments. Enemies block melee lunges or run directly into the player's line of fire, and shooting a teammate who steps into a firing lane triggers an instant mission failure, the single most frustrating failure mode in the campaign.
 
-Battery collection mini-games and inconsistent friendly fire rules create minor disruptions. Occasionally, eliminating a squad member triggers no penalty, breaking the immersion of the military simulation framework.
+Visually, the game sits squarely in the brown-shades era it helped define, and on original hardware that muted palette was marred by instability. Emulation changes the calculus entirely: upscaled to 1080p, everything looks cleaner than native hardware ever allowed, sharper textures, steadier frame pacing and a clarity that makes the art direction read as deliberate rather than muddy. The emulated version proves more stable than the original console, which crashed near the finale, a reversal that rescues a campaign the hardware could not finish.
 
-Overall, the mission diversity and character-driven squad dynamics elevate Call of Duty 3 beyond its mechanical limitations, delivering a WWII shooter that sustains engagement through constant reinvention rather than refined systems.
+Overall, this is the most human of the classic WWII entries: four nations' perspectives, scripted character deaths that genuinely surprise, and a mission roster with more variety than the era usually managed. The motion mini-games, the missing sprint and the hold-position repetition are real deductions, but the ensemble writing and the mission craft hold up, and the upscaled presentation finally gives the campaign the presentation it always deserved.
+

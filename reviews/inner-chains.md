@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-08-11
+date: 2026-08-04
 game_title: "Inner Chains"
 permalink: /reviews/inner-chains/
 verdict: recommended
@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2017
 genre: "FPS, Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Giger-inspired biomechanical aesthetics and a three-weapon combat system deliver a first-person horror experience with mechanical substance beneath the visuals, though sparse checkpoints and shader compilation interruptions puncture the atmosphere."
+summary: "A Gigeresque FPS whose art direction and weapon design outpace brain-dead enemies, sparse checkpoints and a deliberately impenetrable story."
 image: "/assets/img/reviews/inner-chains.webp"
 ---
 
-A planet reclaimed by biomechanical evolution sets the stage for a first-person horror experience where nature and abandoned technology have fused into something hostile. Masked priests enforce fanatical doctrine across Giger-inspired corridors of organic machinery, establishing an oppressive tone from the opening moments.
+A grim, biblically-inflected world of masked cultists, a false goddess and organic-gothic architecture sets the stage for a first-person campaign of heresy and dread. Cutscene sermons denounce heretics in a register closer to ritual than exposition, and the tone borrows equally from biomechanical art tradition and the demon-blasting heritage of the arena shooter. Nothing here looks generic, which is the highest compliment available to a 2017 independent production. The aesthetic ambition is real, and it carries the rest of the design on its back.
 
-Visual design distinguishes itself through biomechanical structures that blend organic tissue with mechanical components, evoking H.R. Giger's artwork without resorting to generic horror aesthetics. Every corridor and chamber feels deliberately crafted, contributing to an atmosphere that sustains unease through environmental detail alone.
+The flamethrower is the standout armament, powerful and versatile enough to solve nearly every combat problem the campaign poses. The electric shock rifle stuns enemies and plants alike while doubling as a puzzle tool, and a weak dart gun rounds out the trio, each fed by separate refills with a health-cost fallback when the ammunition runs dry. Three organic guns with distinct functions give the shooting genuine texture. When the shock rifle's stun-and-puzzle synergy clicks, the design shows what it can do.
 
-Three weapons define the combat loop, each serving dual purposes. The flamethrower dominates hostile engagements, dispatching gun-wielding threats with sustained damage. The shock rifle deactivates hazards and stuns targets, serving as the utility weapon. The third weapon offers ranged capability but lacks impact.
+Combat arenas alternate with shoot-the-switch puzzles, camera plants and maze-like navigation that loops back on itself with deliberate disorientation. Difficulty spikes in clusters, where long-range enemies crowd arenas built for closer work, yet the boss falls to simple aggression rather than any elaborate strategy. The hallucination sequences, drugged-offering cutscenes and jump scares, including a healing station that attacks, keep the dread consistent even where comprehension fails. The pacing wavers between tense and aimless, but the atmosphere never lifts.
 
-The healing station ambush delivers a precisely timed scare, rewarding vigilance with a visceral shock. Multiple masked warriors coordinating attacks trap movement into inescapable corners, turning encounters into desperate scrambles. Dogs add erratic movement that disrupts aiming, keeping combat unpredictable across each corridor.
+Enemy design is the campaign's weakest pillar. Most foes walk and shoot with little intelligence, yet the white-masked rushers can box a target into instant-death corners when they arrive in numbers, and the fast dogs track with frustrating accuracy. The result is combat that alternates between trivial and unfairly lethal depending on the composition of a single wave. Cheap deaths sit awkwardly beside enemies that otherwise pose no threat at all.
 
-Sparse checkpoints punish death with significant backtracking, as save points stretch across extended corridors. Shader compilation notifications compound this, appearing so frequently they masquerade as checkpoint confirmations. This creates a repetition cycle that undercuts momentum. Performance dips in areas dense with NPCs further disrupt pacing.
+Checkpoints take the form of brain orbs that trigger only once, and their sparsity in later chapters turns restart-heavy arena sections into real punishment. Performance dips during cutscenes crowded with non-player characters, and shader-compilation pop-ups arrive frequently enough to be mistaken for save notifications. Control quirks add minor friction: sprint sits on a stick-click rather than a toggle, no quick weapon-switch exists, and one early gun pickup bugged the weapon wheel entirely. Individually small, collectively wearing.
 
-The narrative relies on environmental storytelling and cryptic murals, demanding interpretation from scattered visual cues. Controls remain unexplained throughout, requiring experimentation to discover basic functions like weapon switching. Neither derails the journey, but both add friction that blunts atmosphere.
+The narrative remained opaque from start to finish, and collectable letters spell out nothing parseable even after the credits. Whether the impenetrability is intentional interpretive design or simple incoherence is genuinely difficult to determine, and the ambiguity invites comparison with the biomechanical mystery tradition it visually anticipates. The second chapter's vertical route once defeated a first attempt entirely, hidden in a direction the game never signals. A story that communicates nothing is a strange thing to defend, but the dread it wraps around itself is at least consistent.
 
-Overall, Giger-inspired visual design and a three-weapon combat system deliver a first-person horror experience exceeding modest expectations. Environmental storytelling and calculated scares provide mechanical depth within a biomechanical world built on distinctive visual logic.
+Overall, the art direction alone justifies the trip, and the weapon design makes sure the journey is more than a gallery visit. Gigeresque architecture, the flamethrower and shock rifle duo, and relentless dread outweigh brain-dead AI punctuated by boxing-in deaths, sparse checkpoints, and a story that never coheres. What the campaign attempts visually, it achieves completely, and the recommendation rests on that achievement.

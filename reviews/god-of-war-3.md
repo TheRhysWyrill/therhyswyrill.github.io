@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-06-29
+date: 2025-11-10
 game_title: "God of War III"
 permalink: /reviews/god-of-war-3/
 verdict: recommended
 platform: "PS3"
 release_year: 2010
-genre: "Action, Adventure"
+genre: "Action, Beat 'em up"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Seamless weapon switching and stunning PS3 visuals deliver exceptional combat, though the edge-of-screen QTE system undermines the experience."
+summary: "A visually spectacular Greek-saga conclusion with a superb reworked weapon system, marred by edge-of-screen QTE prompts and a drawn-out labyrinth stretch."
 image: "/assets/img/reviews/god-of-war-3.webp"
 ---
 
-Kratos leads the Titans in an assault on Mount Olympus, systematically killing gods whilst seeking the Flame of Olympus to exact revenge on Zeus. Each god encounter creates environmental consequences that reshape the world, maintaining relentless momentum from start to finish.
+An apocalyptic assault on Olympus opens mid-siege and never pauses for breath: a vengeful Spartan rides the titan Gaia up the mountain and dismantles the pantheon god by god. Each death visibly wrecks the world, floods swallowing coastlines when Poseidon falls, plague spreading when Hermes does, the sun itself extinguished with Helios. That escalating consequence is the design's central idea, the game world as collateral damage, and it never stops paying off. The PS3 presentation is a genuine generational leap, the jump from its predecessor enormous even before the first-person kills sequence arrives as a signature moment few games have replicated. Chests, gore and scale all render with a richness the hardware had no right to deliver.
 
-Combat revolves around four weapons switchable mid-combo: the Blades of Exile for primary strikes, the Claws of Hades for soul summoning, the Nemesis Whip for chain building, and the Nemean Cestus for shield breaking. Each weapon upgrades independently with associated spells, and the ability to move whilst attacking transforms combat flow.
+The weapon and spell rework is the smartest mechanical change in the trilogy. Spells are tied to weapons, and weapons can be quick-switched mid-combo, letting a string flow from blades into cestus into whip without breaking rhythm. The new tools (Apollo's Bow, Head of Helios, Boots of Hermes, Nemean Cestus, Nemesis Whip) each open fresh traversal or combat options rather than padding the inventory. Mobility improves too: movement while attacking, combos while climbing, and a general looseness the earlier entries lacked. The core combat-orb-upgrade-puzzle cycle is refined rather than reinvented, and it plays superbly.
 
-The Poseidon opening boss fight establishes the visual standard with a multi-stage encounter that shifts perspective to first-person during finishing moves. PS3 hardware pushes detailed character models, environmental destruction, and particle effects that create cinematic spectacle.
+The boss parade is the campaign's spine. The Hades fight, the Hermes chase, the Hercules brawl and the Zeus/Gaia finale each carry a distinct identity, with the Hermes chase the goofiest and most purely entertaining of the set. Killing each god mechanically transforms the world, so the bosses double as world-building rather than mere spectacle. The escalating scale finds a genuinely clever landing, reframing the whole series' power fantasy around hope itself, a thematic swerve that gives the carnage an actual point.
 
-The Claws of Hades emerge as the most versatile weapon, with soul-summoning abilities and ground-pull mechanics that add crowd-control depth. This weapon's move set sustains engagement across the campaign, proving indispensable during extended combat sequences.
+The new edge-of-screen quick-time event system is the most consistently grating misstep. Prompts sit at the frame's periphery, small and easy to lose track of, a regression from the centred prompts every prior entry used. Combat wobbles in places as well: enemy AI that blocks too readily, juggles that overstay, and the Skorpius fight, which devolves into being grabbed every few seconds. These are punctures in an otherwise confident loop rather than structural failures.
 
-The edge-of-screen QTE system proves divisive, relocating button prompts to screen periphery where they become harder to read during frantic moments. Camera tracking struggles during busy fights, with flashing effects and close angles obscuring enemy actions.
+Pacing sags in the labyrinth. The Pandora escort drags, enemy waves respawn seemingly without end, and the extended combat gauntlet tests patience precisely when the finale should be accelerating. The gold dust and Head of Helios objectives are also unclear at the point they matter, sending the player hunting without direction. The labyrinth remains the one stretch where the relentless momentum genuinely stalls.
 
-The Gaia boss fight delivers an anticlimactic resolution, and the Pandora escort segment tests patience. Hermes's chase sequence compensates with entertaining dismemberment, though his boots grant only brief sprinting duration.
+Technical gremlins surface at the margins. A game-breaking Helios glitch lurks in the campaign, grab attacks occasionally warp enemies across geometry, and busy scenes turn choppy under load. Slow lifts and finicky save points draw brief irritation, saves sometimes refusing to register without fussing. Collectibles are streamlined to three each of Gorgon Eyes, Phoenix Feathers and Minotaur Horns, which telegraphs a runtime slightly shorter than its two predecessors. None of this dents the spectacle.
 
-Overall, the weapon-switching combat system and stunning PS3 presentation deliver a Greek saga conclusion that excels in mechanical variety. Edge-of-screen QTEs and close camera angles prevent the experience from reaching its full potential, yet the core hack-and-slash satisfaction remains formidable.
+Overall, this is a visually insane, tightly paced conclusion to the Greek saga whose boss variety, weapon-spell rework and world-wrecking consequences outweigh its edge-of-screen QTEs, labyrinth fatigue and scattered jank. The Hermes chase, the Zeus/Gaia spectacle and the hope-driven finale justify the hardware leap entirely. A very good game, and a proper send-off.

@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-06-24
+date: 2026-01-22
 game_title: "God of War (2018)"
 permalink: /reviews/god-of-war-2018/
 verdict: recommended
 platform: "PC"
 release_year: 2018
-genre: "Action, Adventure"
+genre: "Action, Adventure, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Leviathan Axe combat variety and the father-son narrative deliver exceptional quality, though palette-swapped trolls and camera issues during Valkyrie fights create friction."
+summary: "A Norse soft reboot whose father-son story, axe-and-blades combat depth and lore density earn their reputation, with lock-on and reskinned-troll bosses as the standing irritants."
 image: "/assets/img/reviews/god-of-war-2018.webp"
 ---
 
-Kratos and his young son Atreus journey to scatter ashes from the highest peak in the realms, navigating a Norse world teeming with mythology and danger. The premise establishes a grieving father connecting with his son whilst concealing his violent past.
+A father and son journey across the Norse realms to scatter a mother's ashes, and the premise hides how much reinvention the framing carries. Kratos is quieter, older and fighting his own temper as much as any troll, Atreus's illness and slow-divinity reveal threads the myth into family drama, and the single-shot camera never cuts from the pair. Greek spectacle is traded for Norse melancholy, prophecies hang over the whole journey, and the restraint of the writing keeps the melodrama in check. This is a soft reboot that reorients an entire franchise around parenthood without losing the violence that built it.
 
-Combat revolves around three distinct playstyles that sustain engagement across the campaign. The Leviathan Axe delivers satisfying throw-and-recall mechanics, bare-handed combat builds stun for devastating finishers, and the Blades of Chaos provide fire-based crowd control. Runic abilities and equipment upgrades at dwarven shops expand tactical options without overwhelming the core loop.
+Combat rebuilds the series' identity around weight rather than speed. The Leviathan Axe throws, recalls and freezes, the Blades of Chaos arrive mid-game as a crowd-control fire pairing, bare-handed brawling fills the gaps, and Atreus's support arrows interrupt from range. Skill trees, runic attacks, enchantments and armour crafting stack into upgrade depth far beyond anything the Greek entries attempted, and the axes-first weight of the encounters reads closer to deliberate, Souls-adjacent pacing than the old arena spectacle. The absence of quick-time events alone signals how thoroughly the reinvention runs.
 
-The father-son dynamic evolves from strained silence to genuine mutual understanding, with Mimir's storytelling enriching every journey between combat encounters. Environmental storytelling through giant murals and collectible artefacts reinforces the world's mythology without explicit exposition.
+Mimir rides the belt as the game's storytelling engine. His tales, from tragic backstory to realm gossip, fill every long trek, and the density of Norse lore, giants' mythology, realm design and Midgard's dying atmosphere, turns traversal into a radio drama. Freya's heartbreak, Brok and Sindri's bickering reconciliation, and the prophecies threaded through the Lake of Nine give the supporting cast real texture, and the lore rewards anyone who stops to listen.
 
-Valkyrie fights demand precise timing and mastery of the combat system, with the Valkyrie Queen serving as the ultimate mechanical test. Lock-on targeting and camera behaviour during these encounters create frustrating moments where tracking enemies becomes unreliable, undermining otherwise excellent boss design.
+The Lake of Nine anchors exploration in a hub-and-spoke structure: realm towers, Fafnir's hoard, hidden Valkyrie chambers, Odin's ravens, artefacts and treasure maps radiate outward as the water level drops. Linear dungeons punctuate the open lake, and the sheer volume of discoverable content rewards completionists with a genuine payoff rather than checklist filler. Two optional regions test patience differently: Niflheim's cursed-mist maze gates rewards behind a timed loop of cycling enemies, tedious by design, while Muspelheim's trials prove the more palatable grind of the pair.
 
-Palette-swapped trolls masquerade as unique boss encounters throughout the campaign, repeating the same mechanical patterns with cosmetic variations. Quick-turn controls prove counter-intuitive during chaotic fights, requiring adjustment from muscle memory.
+The Balder fights bookend the campaign as its combat peaks, an early Stranger encounter that establishes ambition and a finale that reverses every accumulated frustration in one sequence. Boss variety is the genuine weak spot between them: most bosses are trolls with a new paint job, reskins that stretch a single enemy archetype across the whole journey, and the classic pantheon cameo structure is gone entirely. The Valkyries, led by Sigrun, supply the real challenge, but imperfect lock-on and a camera that loses the fighter in tight corners turn their fights into the game's biggest mechanical frustration.
 
-Niflheim and Muspelheim offer optional challenge realms that test build diversity, though their difficulty tuning skews punishing. The Lake of Nine provides a central hub connecting multiple realms, with hidden chambers rewarding thorough exploration.
+Quality-of-life details lag the ambition. The map offers no region percentage listing, making a full-completion push harder than it needs to be, fast travel locks during the endgame while exploration is still expected, and travel points deposit near shrines rather than at them. Upgrade costs occasionally pinch without ever blocking progress.
 
-Overall, the combat variety, evolving father-son narrative, and Mimir's storytelling create an action-adventure that balances intimate character work with mythological spectacle. Palette-swapped bosses and camera friction during Valkyrie encounters prevent the experience from reaching its full potential.
+Overall, the father-son arc, the axe-and-blades combat systems and a myth-soaked world of constant storytelling carry a landmark reboot that earns its reputation across a substantial campaign. Lock-on trouble in the Valkyrie arenas, reskinned-troll boss design and fussy travel conveniences are the honest caveats, and everything else lands with the weight of a journey built to be remembered.

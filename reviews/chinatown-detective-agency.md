@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-07-04
+date: 2026-01-24
 game_title: "Chinatown Detective Agency"
 permalink: /reviews/chinatown-detective-agency/
 verdict: recommended
 platform: "PC"
 release_year: 2022
-genre: "Point & Click"
+genre: "Adventure, Point & Click, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A genuinely innovative detective game that transforms real-world research into compelling gameplay through its Google-reliant puzzle design, though audio bugs and browser integration issues create friction during otherwise immersive investigation sequences."
+summary: "A cyber-noir detective adventure whose genuine real-world research puzzles make every case feel like actual detective work, undercut by identical replay endings and flight-cost friction."
 image: "/assets/img/reviews/chinatown-detective-agency.webp"
 ---
 
-A former police officer turned private investigator runs the Chinatown Detective Agency in near-future Singapore, taking cases that require genuine research rather than following waypoints. The atmosphere blends cyberpunk aesthetics with classic noir detective fiction, establishing a unique identity through holographic displays and AI-powered surveillance alongside traditional Chinatown culture.
+A near-future 2037 Singapore where the state is failing and print media is dying provides the backdrop for a private detective agency run by an ex-Interpol agent named Amira Darma. The cyber-noir setting is rare in games, and the worldbuilding earns its detail: filing cabinets as a cost-cutting measure because cloud storage now costs more than physical storage, an MRT system as transit backbone, and a globe-trotting case structure that treats the world map as a puzzle surface. Atmosphere comes from the density of the dystopia rather than spectacle, and the dying-print neighbourhood around the agency grounds every case in a plausible economy.
 
-The puzzle design requires real-world research to solve, with players Googling historical facts, geographical locations, and cultural references to progress through cases. This mechanic transforms detective work from a passive experience into active investigation, creating genuine satisfaction when research yields the correct answer.
+The real-world research design is the defining strength. Every case sends the investigation outside the game: decoding a book cipher through library pages, identifying Ottoman-era stamp cancellations, translating Sumerian tablets, resolving Polybius squares and Greek stamp origins, and tracking a Herodotus quote to its source. Few games genuinely require leaving the window to solve a puzzle, and fewer make that friction feel like detective work rather than a chore. The commitment to authentic material, real cities, real history, real art, delivers a become-a-detective fantasy that most genre peers only gesture at.
 
-Multiple cases interweave into a larger conspiracy involving AI and corruption, with each investigation revealing new threads that connect to the overarching narrative. The story maintains engagement through well-written dialogue and atmospheric world-building that grounds the cyberpunk setting in relatable human drama.
+Client arcs give the case list genuine narrative scope. A conspiracy thread winds through art history and paintings, a repatriation strand returns stolen artefacts across the former Ottoman world, and a hacker's jobs spiral into something larger, with each strand distinctive enough that no two cases tread the same ground. The variety holds across the whole campaign, and the escalation from missing-person work to dismantling an art-thief syndicate gives the structure an arc beyond case-of-the-week repetition.
 
-The global travel system adds variety through a flight booking mechanic that sends players to different countries to investigate leads. Each location provides distinct environmental storytelling and puzzle opportunities, with the travel system creating a sense of scope that extends beyond the Singapore setting.
+Resource friction interrupts the flow. Flights booked through the Horus interface cost real in-game money, the Athens-to-Singapore shuttle drains funds fast, bookings are non-refundable, and boarding opens three hours before departure, a rule that strands anyone who books a flight too close to a deadline. The system generates stakes but also busywork, and repeated trips between continents turn budget management into a second, less interesting puzzle layered over the research ones.
 
-Puzzle difficulty varies significantly between straightforward research tasks and puzzles requiring lateral thinking that may lead down rabbit holes. The inconsistency creates moments of frustration when the connection between research and solution proves unclear.
+Replay structure disappoints. Cases advertise branching outcomes depending on companions and choices, yet replayed branches reach identical endings regardless of decisions, squandering the setup and making a second run feel like repetition rather than consequence. The final act compounds the structural wobbliness with case transitions that jump oddly between employers, from one client's assignments straight into an investigation with no connective tissue, an abruptness that reads as incomplete editing rather than intent.
 
-Audio issues surface through bugged footsteps and intermittent cutting out that disrupts the otherwise atmospheric presentation. These technical problems undermine the immersion that the game's detective mechanics work so hard to establish.
+On Steam Deck and other console-mode environments the in-game browser links do not open, since game mode exposes no browser, forcing external workarounds for a mechanic that depends on external lookups. The occasional timed shootout asks for restraint, shooting limbs rather than heads, which fits the investigative tone more than the arcade phrasing suggests. Hacking minigames fill the gaps between research without overstaying.
 
-Overall, the real-world research mechanic and engaging conspiracy narrative establish a genuinely innovative detective experience, though audio bugs and inconsistent puzzle design prevent the investigation from fully realising its potential.
+Overall, this is a distinctive cyber-noir adventure that trusts its audience to be genuine detectives, and the research puzzles, varied client arcs and Singapore setting deliver an experience nothing else on the platform quite matches. Identical replay endings, jarring late-game transitions and flight-booking busywork are real blemishes, but the core fantasy of becoming a cyber sleuth carries the campaign.

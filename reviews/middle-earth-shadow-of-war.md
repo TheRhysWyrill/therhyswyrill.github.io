@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-06-25
+date: 2026-02-11
 game_title: "Middle-Earth: Shadow of War"
 permalink: /reviews/middle-earth-shadow-of-war/
 verdict: recommended
 platform: "PC"
 release_year: 2017
-genre: "Action, Adventure"
+genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Massive siege battles and an expanded Nemesis system deliver emergent storytelling on a grander scale, though execution targeting in crowds and excessive pop-up notifications undermine the otherwise satisfying combat."
+summary: "Fortress sieges and an addictive army-building loop tower over a grindy fortress-defence endgame and occasionally infuriating adaptive enemies."
 image: "/assets/img/reviews/middle-earth-shadow-of-war.webp"
 ---
 
-Large-scale siege warfare defines this expanded open-world action sequel set in Mordor. Fortress assaults pit branded orc armies against fortified positions, creating dramatic set-pieces that surpass the predecessor's scope. The Nemesis system deepens with army-building mechanics, generating emergent narratives through orc hierarchies and betrayals.
+Middle-earth: Shadow of War expands the Nemesis sandbox into a full strategic layer, and the expansion mostly justifies its sprawl. A ranger and the wraith bound to him build an army to conquer Sauron's fortresses, dominating captains, planting spies and staging betrayals until every warchief on a map either serves or falls. The moral ambiguity of the Bright Lord plot threads through the campaign, Shelob's memories and Gondorian artifacts reward lore attention, and the whole structure runs far longer than its predecessor while sustaining the same counter-combat core. This is a bigger, busier machine, and its best gears still turn beautifully.
 
-Combat scales to accommodate massive enemy waves, with dozens of orcs engaging simultaneously in open battle while quality of life improvements streamline progression through automatic arrow pickup and movement speed boosts. The skill tree expands significantly, offering more build variety across stealth, combat, and domination paths.
+Sieges stand as the clear peak. Assaulting a fortress with the army cultivated over dozens of hours produces the game's most epic spectacles, with warchiefs, drums, trolls and friendly captains converging on gates and courtyards, and the payoff of flipping a stronghold to the Bright Lord's banner lands every time. The friction is that the spectacle burns briefly: sieges are among the shortest activities in a very long game, and the pacing never gives the best part of the design the room it deserves.
 
-Siege battles stand as the game's defining highlight, with fortress assaults delivering satisfying large-scale warfare. Army branding and follower management create strategic depth, though execution targeting in crowded battles frustrates when attempting to focus specific captains. Captain adaptation sometimes produces overwhelmingly defended opponents with multiple immunities.
+Army-building carries the addictive loop between assaults. Dominating captains, promoting traitors and seeding spies trivialises warchief hunts in the most satisfying way, and the temptation of one more recruitment proves hard to resist, turning a revenge plot into a collecting spree. The Uruk roster itself is a genuine upgrade: designs are varied enough that two captains rarely look alike, personalities run from cowardly schemers to bombastic loyalists, and the gross factor has been dialled up along with the character work. Captains who remember deaths, betray, adapt and rise again make every encounter personal.
 
-The expanded Nemesis system generates emergent stories through orc hierarchies, betrayals, and dynamic power struggles across multiple regions, with fortress ownership adding strategic layering. The system rewards long-term investment through procedural narrative moments that feel personal.
+Enemy adaptation cuts both ways. Facing a captain who has learned to counter favoured tools is fair design on paper, yet certain defenders with vault breakers and enrage spam become infuriating rather than tactical, and targeting in crowds remains as messy as before. Climbing has regressed too, with grip registration noticeably worse than in the previous game, and worm availability swings wildly by region, making army intel a formality in some strongholds and a guessing game in others. An in-game timer that misreports play length is a small oddity worth noting.
 
-Pop-up notifications interrupt gameplay excessively, overwhelming screen space with unrelated information. Skills removed from the predecessor create initial frustration, requiring relearning of previously available abilities. Sword damage feels weak against tougher enemies, demanding excessive hits to achieve stun states. Gondorian artifact collectibles lack meaningful rewards for completion.
+The Shadow Wars endgame asks for the same fortress-defence loop repeated across all conquered strongholds, a grindy structure whose shape owes much to launch-era monetisation, with loot boxes in the original design suggesting how much of the grind was commercial rather than mechanical. On modern balance, levelling and money flow generously enough that the loop is more tolerable than its reputation, but the repetition is real. The skill system's one-skill-at-a-time limitation also feels arbitrary, and removing it via mod reveals how little the restriction added.
 
-Middle-earth lore permeates the world through returning characters and environmental storytelling, serving as backdrop for systemic gameplay rather than driving emotional engagement.
+The Blade of Galadriel chapter hands over light powers so overwhelming that the challenge evaporates, in a short arc that nearly maxes its skill tree before ending. Desolation of Mordor takes the opposite approach: a mortal protagonist hiring mercenaries in a desert campaign with a grappling glider, and a permadeath rule that lends genuine stakes, rewarding a cautious route through its map. The two chapters make a worthwhile, contrasting pair.
 
-Overall, the siege warfare and expanded Nemesis system deliver an open-world action experience with emergent narrative and large-scale conflict. Execution targeting and pop-up interruptions prevent the experience from fully realising its expanded ambitions.
+Overall, the sieges, the personality-rich orc sandbox and the betrayals-and-spies loop deliver a strategic revenge fantasy nothing else matches, and the combat core stays satisfying across a very long campaign. The Shadow Wars grind, regressed climbing and occasionally infuriating adaptive defenders weigh the tail sections down without dimming the high of turning Sauron's own army against him.

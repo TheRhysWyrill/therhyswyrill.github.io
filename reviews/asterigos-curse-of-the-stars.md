@@ -1,23 +1,27 @@
 ---
 layout: review
-date: 2026-08-13
+date: 2023-03-05
 game_title: "Asterigos: Curse of the Stars"
 permalink: /reviews/asterigos-curse-of-the-stars/
 verdict: recommended
-platform: "PC"
+platform: "Series X"
 release_year: 2022
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Exceptional weapon variety and a richly detailed Greek-inspired world deliver a Soulslike experience that punches above its weight, though late fast travel and minor camera issues create friction before the combat system's depth fully emerges."
+summary: "A dense Greek-myth Souls-vania whose interlocking exploration, readable worldbuilding and one gloriously broken skill outweigh vague quests, add-spam bosses and unvoiced text dumps."
 image: "/assets/img/reviews/asterigos-curse-of-the-stars.webp"
 ---
 
-Aphis burns under a thousand-year-old curse, where warrior Hilda enters to find her father and uncovers a political conspiracy involving factional archons and a former commoner turned revolutionary. The premise establishes immediate narrative complexity through layered factions, with the adherents led by Minerva working to lift the curse while navigating power struggles. From the opening streets, the Greek-inspired architecture creates atmospheric foundation through detailed environmental storytelling. Echo Stones scattered throughout provide historical context that deepens world understanding.
+Aphes is a thousand-year-cursed Greek-flavoured city-state where immortality has curdled into hunger, class resentment, cults and political decay, and the worldbuilding is the crown jewel. Martial-law posters, miner diaries, cult doctrine, love-letter tragedies and Colossus conscription notices reward every reading impulse, the political layer of warring factions lands with real weight, and the closing epilogue's per-character scrolls scale with which side quests were finished. It is an unusually dense, readable world, and the writing treats its players as literate.
 
-Core gameplay centres on Soulslike combat with six weapon types that can be freely mixed, creating hundreds of possible two-weapon combinations. The skill tree branches across weapon-specific talents and elemental abilities, with Stardust points invested during level-ups. Fast travel unlocks at roughly the halfway point, transforming the exploration experience from tedious traversal into efficient progression. The glimmering light mechanic guides discovery of secrets and chests, rewarding careful observation during exploration.
+The structure is genuinely novel: party-RPG systems wrapped around a metroidvania-Souls hybrid, with ten interlocking regions, 106 chests, bestiary creatures granting permanent attribute elixirs, memory echoes, a lion trading quest junk for trinkets and DLC trials layered on top. Five weapon classes with two of each type invite exhaustive experimentation, and the parry, once learned, is genuinely satisfying. Mid-game unlocks reshape the experience twice: conduit fast travel arriving at the halfway point kills the tedium stone dead, and the realisation that the glimmering light signals nearby chests and secrets transforms how every remaining area is played.
 
-The free weapon mixing system stands as the most distinctive mechanical element, with any two weapons from six types creating genuinely customisable combat approaches. The dagger-spear combination proves particularly satisfying, blending rapid close-range strikes with mid-range crowd control. Each weapon carries unique movesets and talents that reward experimentation, ensuring no two combat sessions feel identical.
+Blade Dance is the combat identity and it is gloriously, hilariously broken: a cheap, mobile, hyper-damaging dagger skill that tears through everything, so overpowered that it becomes the whole build and never stops being fun. Riding one broken skill across a thirty-plus-hour completionist run is its own reward, and the elemental system, while uneven with astral strictly best over underpowered ice and fire, gives the upgrade economy texture through rare-material gating.
 
-Minor camera issues emerge during encounters with larger enemies, where lock-on struggles to maintain appropriate framing. The controls occasionally feel janky during platforming sequences, particularly when judging environmental boundaries. Not all dialogue receives voice acting, creating inconsistency during character interactions that occasionally breaks immersion.
+Boss quality is the sharpest weakness: the best are strong, from an amphitheatre harpy to the Titan rift, but too many lean on adds, one-shot zones and invincible phases, with bomb spawns in one late fight ranking among the worst mechanics the genre offers. The Black Warden chase in Styx is memorable design undercut by its cheap pacing, optional boss reskins in the DLC trials are at least honest about being cool rather than new, and the roster overall is generous even when individual fights are not.
 
-Overall, Asterigos: Curse of the Stars delivers a Soulslike experience where exceptional weapon variety and a richly detailed world create genuine engagement, despite early friction from limited fast travel and minor technical issues.
+Vague quest design pushes note-taking out of the game entirely: the Roxanne, Bion and Myron chains are so oblique that keeping browser notes becomes necessary, objectives refuse to state what they want, and missable content like the fennec-fox creatures and one silent bazaar echo gives no feedback at all. The story itself arrives through enormous unvoiced text dumps that invite skipping, a contradiction the game never resolves, though the plot still lands through the notes and epilogues even when the dumps are skipped wholesale.
+
+Jank accumulates at the edges: low animation frame counts up close, bugged climbing, interactables with no highlight, a resting glitch in the sewers and one texture glitch in the mine, nothing game-breaking but all noticeable. Environmental hazards claim their share, drowning edges and insta-kill pits, and Blade Dance itself can launch its user off a cliff, a self-inflicted death the skill's own momentum causes. Platforming generally is the least polished layer of an otherwise confident structure, and the talisman and gift-trading economy with the lion gives the collectible loop a social dimension no comparable game offers. The Paragon trials' memory-plaque platforming, at least, is well designed even when its bosses are reskins.
+
+Overall, a dense, text-heavy Greek-myth Souls-vania whose interlocking exploration, readable worldbuilding and one gloriously broken skill reward the completionist instinct more than anything else in its field, with vague questing, add-spam bosses and unvoiced text dumps as the honest costs. The epilogue scrolls, the glimmer-light secrets and the fast-travel unlock make the thirty-plus hours feel earned rather than padded, and the whole thing holds together with genuine warmth.

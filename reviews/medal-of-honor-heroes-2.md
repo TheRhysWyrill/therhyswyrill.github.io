@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-06-28
-game_title: "Medal of Honor: Heroes 2"
+date: 2021-06-20
+game_title: "Medal of Honor Heroes 2"
 permalink: /reviews/medal-of-honor-heroes-2/
 verdict: recommended
 platform: "PSP"
 release_year: 2007
-genre: "FPS"
+genre: "Action, FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Impressive visuals for PSP and satisfying MP40 handling create a solid portable shooter, though the final bunker level's enemy spam and absent checkpoints cause significant frustration."
+summary: "A visually impressive handheld shooter elevated by scale and undone by unbalanced enemy spam, a weak regenerating-health model and a coverless checkpoint-free finale."
 image: "/assets/img/reviews/medal-of-honor-heroes-2.webp"
 ---
 
-A portable World War II first-person shooter follows Lieutenant Berg on OSS operations in Northern France with expansive multi-area missions. Visual quality represents a significant step up from the first Heroes game with improved textures and environments throughout each level.
+An OSS undercover mission in Normandy-era France, Medal of Honor Heroes 2 escalates from a beach landing through village warfare to the discovery of a German atomic-bomb and V2 programme in a secret base. The seven-mission linear campaign (eight on Wii, which splits the village into two) balloons in length from roughly ten minutes to thirty, and the plot engages only lightly, ending abruptly with no credits sequence at all. The story is scaffolding, not substance, and the game makes no apology for it. What substance exists lives in the firefights and the technical achievement of fitting them onto handheld hardware.
 
-Regenerating health system works but depletes too quickly, placing players dangerously near death after brief firefights. The MP40 becomes the default weapon through consistently strong performance across all mission types. Optional secondary objectives encourage exploration beyond the main path, though the game never indicates their locations. Squad command mechanics exist but prove largely ineffective throughout the campaign.
+Visually it is one hell of a step up from the first Heroes. Detailed environments, on-rails-scale firefights and hold-the-line defence set pieces (graveyard, chapel, farmhouses) with mortar and machine-gun emplacements push the PSP hardware far harder than its predecessor bothered to. The beachhead and U-boat missions land well, and the scale of the production reads as a console effort compressed rather than a handheld effort compromised. It is not quite a visual showcase, but the gap between this and the first game is immediately obvious from the opening mission.
 
-Sound design delivers authentic weapon reports while the atmosphere captures WWII military tone appropriate for the portable PSP hardware overall. Mission variety spans open fields, urban environments, and interior bunker sections.
+Enemy spam defines the whole experience, worst in the finale. Soldiers arrive in overwhelming, unbalanced waves, and the design leans on volume rather than placement to generate difficulty. The AI teammates, a regression from the first game, contribute almost nothing: they hang back and occasionally fire, leaving every serious engagement a solo affair. The sub-pens machine-gun defence lands as the campaign's low point before the finale, and the Monastery's hold-the-line sections lean on the same trick. Volume substitutes for variety throughout, and the pattern wears thin by the final act.
 
-The final bunker level throws excessively large enemy waves at players without checkpoint protection. A fifteen-plus minute gauntlet with no saves forces complete restarts upon each death.
+The regenerating-health model is the campaign's mechanical regression. Recovery is so weak that the character is squishier than the first game's health-bar design, with the screen reddening and a heartbeat drumming long before the actual edge, and the model fails in exactly the situations the spam design creates. Grenade timers run around ten seconds, slow enough to make them unreliable in the firefights that matter most. Neither flaw is fatal alone; together they turn the final act into a war of attrition the systems were never tuned to support.
 
-Squad AI disappoints as troops rarely engage enemies and lag behind during firefights while the regenerating health depletes faster than the first game's health bar. Running feels underwhelming with minimal speed increase despite the dedicated animation.
+The finale is the campaign's real sin: a coverless 15-minute gauntlet through the secret base with essentially no checkpoints, against an enemy garrison that sees through bushes and punishes every mistake with a full mission restart. Dying is easy even on normal, and the trial-and-error repetition of losing whole mission runs sours what came before. PSP aiming is inherently poor even remapped onto a second stick (or a PS4 controller with face-button mapping on PS TV), so the finale's demands compound the hardware's limits. The 100% secondary objectives, feeding an end-of-mission percentage, are also never disclosed in-game: they must be found to be completed, a design choice that punishes rather than rewards curiosity.
 
-The mission structure splits levels into multiple areas that feel significantly larger than typical portable shooters overall. Brief narrative beats between missions maintain momentum without overwhelming the action focus.
+Against all that, the package still works. Just over three hours, nearly every mission's percentage maxed, and the series remains good little games worth the double bill with the first entry. The visual step-up, the set-piece defence missions and the sheer scale of the campaign for handheld hardware carry real weight, and the first game still does squadmates and health better, which is its own kind of compliment to this one's ambition. The finale's excess is a design failure, not a structural one, and everything before it lands.
 
-Overall, impressive PSP visuals and satisfying weapon handling make this worthwhile despite significant flaws. The brutal final section and weak health system prevent it from matching the first game's balance.
+Overall, this is a solid, good-looking handheld shooter whose visual leap, defence set pieces and three-hour campaign outweigh enemy spam, a weak health model and an unforgiving finale. The first entry handles squadmates and recovery better, but this one's scale and presentation make the pair worth playing back to back. Accept the last mission on its own excessive terms and the rest delivers exactly what a portable war shooter should.

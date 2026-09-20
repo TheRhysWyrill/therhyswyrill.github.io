@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-07-04
+date: 2025-09-12
 game_title: "Call of Duty: Modern Warfare II"
 permalink: /reviews/call-of-duty-modern-warfare-2-2022/
 verdict: recommended
@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2022
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Creative mission design spanning highway chases, improvised survival, and oil rig assaults builds on the Modern Warfare reboot formula with standout set-pieces, though excessive enemy spawns and confusing narrative choices create friction during otherwise varied combat sequences."
+summary: "Spectacle set-pieces, sharp banter and a mid-campaign betrayal carry the campaign, undercut by buggy visuals, enemy swarms and continuity confusion in the finale."
 image: "/assets/img/reviews/call-of-duty-modern-warfare-2-2022.webp"
 ---
 
-Task Force 141 hunts a terrorist across Al-Mazra, Amsterdam, Mexico, and Chicago, with the tone consistently dark and action-packed. The narrative delivers a greatest hits of Call of Duty moments, from oil rig assaults to highway chases, maintaining momentum through varied combat scenarios and character dynamics.
+A task force chases smuggled Iranian missiles across a cartel-corrupted border, and the globe-trotting chase, from a Gulf oil rig to Amsterdam docks to a Mexican safe house and a Chicago finale, gives the campaign its structure. The shadowy command structure funding the enemy from inside the chain of command supplies the story's spine, and the central betrayal lands with genuine force, recontextualising everything before it. Character banter carries the quieter stretches, with the masked operator and his young partner's dynamic providing the campaign's best writing, and two cartel-side additions prove strong enough to earn their screen time. Visually the game impresses from the first mission onward.
 
-The Alone highway chase mission stands as the campaign's mechanical peak, transitioning from pursuit to escape through vehicle combat and mine dodging. The sequence shifts perspective mid-mission, transforming the hunter into the hunted and creating genuine tension through the role reversal.
+The sniper missions are the campaign's mechanical peak. Ghillie-suit recon with bullet-drop notch counting rewards patience and observation, and the two-in-one positioning puzzles, lining up a single shot to kill two targets, rank among the coolest things the series has attempted, even when the solution takes several frustrating attempts to find. The camera-hacking prison break gives stealth a digital verb, and the two-person missile disarm minigame turns a rig assault into genuine tension. Each standout mechanic feels purpose-built for its mission rather than recycled.
 
-The Alone survival section introduces improvised weapon crafting and stealth mechanics that break from the franchise's standard loadout system. Scavenging materials and constructing makeshift weapons creates resource management tension rarely seen in Call of Duty campaigns, with each encounter demanding creative problem-solving rather than trigger discipline. The crafting system rewards exploration, with hidden materials and safehouses providing tactical advantages during stealth sequences.
+The fugitive mission after the betrayal is the campaign's highlight. Stripped of support and hunted across farmland, the two survivors improvise weapons from whatever the environment offers, molotovs, mines and smoke bombs crafted on the fly, and the banter between them carries both tension and warmth. The shotgun that emerges from the crafting loop is devastating enough to abandon stealth entirely, and the mission plays as the series' best expression of desperation-turned-competence. It alone justifies the campaign.
 
-Oil rig and ship assault missions provide tactical variety through multi-team coordination and vertical combat scenarios, with boat assaults and platform infiltration adding mechanical diversity.
+Stealth sections divide cleanly. The Amsterdam docks, a cartel party infiltration and the prison break offer genuine choices and multiple approaches, but stealth detection is inconsistent enough that being spotted rarely matters, which undermines the stakes the level design works to build. The missile-launch oil rig sequence is dramatic and the two-person disarm a tense highlight, though repeated retries and objective confusion blunt the pacing. Checkpoints are generous after deaths, yet enemy swarms sometimes spawn beyond any reasonable capacity to recover, spiking difficulty through volume rather than design.
 
-Excessive enemy spawns in certain sections create frustrating difficulty spikes that test patience rather than skill. The encounter design sometimes prioritises spectacle over fairness, with obscured positions and overwhelming numbers undermining tactical engagement during the campaign's most intense moments.
+The finale stumbles on scarcity. The last tower mission restricts weapons so severely that glass must be scavenged and crafted into improvised weapons, enemies drop guns holding three bullets, and the padding around the glass-scavenging loop is tedious rather than tense. The scarcity reads as artificial difficulty in a campaign that otherwise balances well. Technical issues compound the frustration: texture flickering during the tank fight, and a crash to desktop mid-mission that demands a full restart. A default 50% render resolution blurs the opening hours until the setting is found.
 
-Character dynamics between Soap and Ghost provide entertaining banter that humanises the squad beyond their combat roles. The dialogue creates genuine chemistry that elevates mission sequences through personality rather than mechanical innovation alone.
+Continuity is the story's lingering confusion. The rebooted timeline reuses legacy characters in ways that never explain their own logic, and a post-credits appearance by a familiar villain raises parallel-timeline questions the campaign makes no attempt to answer. The recycling undermines the freshness the rest of the writing earns, and the ending's implications feel messy rather than intriguing. The betrayal arc is strong enough to carry the story regardless, but the surrounding continuity keeps it from landing cleanly.
 
-Overall, the creative mission design and survival mechanics establish a Modern Warfare campaign with genuine variety and character depth, though excessive enemy spawns and confusing narrative choices prevent the experience from reaching its full potential.
+Overall, this is a spectacle-driven campaign whose betrayal twist, fugitive survival mission and sniper puzzles justify the campaign, with banter and mechanical variety holding the middle. Weapon scarcity in the finale, armour-sponge enemies, texture glitches, a crash and continuity confusion are the costs. The set-pieces and the character dynamic earn the recommendation, even as the ending leaves its own logic unresolved.

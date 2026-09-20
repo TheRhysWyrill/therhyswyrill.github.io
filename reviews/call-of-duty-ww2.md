@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-07-04
+date: 2025-08-09
 game_title: "Call of Duty: WWII"
 permalink: /reviews/call-of-duty-ww2/
 verdict: recommended
@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2017
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A return to health-based gameplay and a powerful D-Day opening sequence establish a classic Call of Duty feel, though awkward QTEs and limited ammo availability create friction during otherwise intense combat."
+summary: "A return to form whose finite med-kit economy and squad-support requests vindicate the old health-bar era, undermined by awkward stick QTEs, opaque stealth detection and an ending that loses its footing."
 image: "/assets/img/reviews/call-of-duty-ww2.webp"
 ---
 
-American soldiers storm the Normandy beaches and fight through Europe to the Rhine crossing, with the D-Day landing delivering an exceptionally intense opening that sets the campaign's tone. The atmosphere captures the chaos of war through graphic violence and dismemberment, establishing a darker identity than most entries in the franchise.
+The campaign restores the health-bar era deliberately: no regenerating health, a finite med-kit inventory capped at four, and a survival loop built on supply management rather than peeking behind cover until the screen clears. What makes the system work is generosity, both enemy drops and squad requests flooding the player with med kits for most of the runtime, which keeps the old-school design from feeling punishing. The contrast with earlier attempts at finite-health survival is stark, and the balance here vindicates the mechanic rather than merely reviving it.
 
-The return to health bars instead of regeneration creates tension in firefights that demands careful positioning and resource management. This mechanical choice rewards aggressive play only when health pickups are available, transforming encounters into survival challenges that test tactical thinking rather than reflexive movement.
+The squad-ability system is the campaign's best addition, layering a support economy on top of the health bars. Requesting grenades, mortar strikes, enemy spotting, med kits and ammo from squadmates gives the ensemble a mechanical purpose beyond dialogue, and the mortar strike proves the most useful request in practice. Cooldowns keep the system honest without ever feeling scarce. It is a simple idea executed cleanly, and it turns the platoon from window dressing into an actual resource.
 
-Squad abilities and companion mechanics add tactical depth through request systems for ammo and medkits, with earned abilities providing support during intense firefights. The companion system creates mechanical bonds between squad members that reinforce the narrative's themes of brotherhood and sacrifice.
+The D-Day opening makes an immediate impression, the beach assault played for chaos rather than heroics, and the Normandy-to-Rhine arc that follows moves through Paris, the Hürtgen Forest and the Battle of the Bulge with confident pacing. Tank escort missions are a highlight, the armoured sections carrying a weight the infantry missions lack. The campaign handles its darker material seriously, with the Holocaust camp discovery played straight and sombre, and the character writing earns its beats: one squadmate's arc from hard-ass to broken commander recontextualises his cruelty midway through.
 
-Character banter between squad members provides engaging personality that humanises the soldiers beyond their combat roles, with dialogue that builds naturally across missions. These interactions create emotional investment that makes the campaign's later sequences carry genuine weight.
+The story stumbles in its final stretch. The dénouement stretches across months, a comrade's capture and a dream-sequence homecoming blur the line between what happened and what did not, and the confused finale undercuts the emotional clarity the rest of the campaign earned. Up to that point the pacing had been confident, the wolf-hunt guilt framing and the letters home giving the private's story a personal spine. The ending simply lacks the discipline of what precedes it.
 
-QTE sequences prove awkward with confusing stick movements that require precise timing during high-pressure moments. The input requirements feel unintuitive, creating frustration during what should be cinematic climaxes rather than mechanical challenges.
+Friction clusters around mechanics the genre should have outgrown. Stick-based QTEs are awkward in the way button-prompt QTEs never quite manage, a recurring irritant rather than a deal-breaker. Two stealth missions, a train infiltration and an air-base sabotage, suffer from opaque detection rules, with the required proximity to enemies feeling arbitrary. The AI only ever targets the player directly, squadmates dying only to grenades, which breaks the fiction in firefights that should threaten the whole unit. A companion-drag sequence and the one-companion-at-a-time limit add further friction.
 
-Limited ammo availability creates resource management tension that transforms firefights into survival encounters. The scarcity forces careful shot placement and weapon selection, though the balance occasionally tips from challenging into frustrating during extended combat sequences.
+Technical issues are minor but real: the game refuses to launch through handheld game mode on one platform, forcing a desktop workaround, and the bomber escort segment feels heavy and sluggish compared with its recent genre peers. An obligatory dog kill returns once again, a series habit that has worn thin. None of these are serious, but they accumulate at the margins of an otherwise confident campaign.
 
-Overall, the return to health-based gameplay and powerful D-Day opening establish a Call of Duty entry with genuine classic feel, though awkward QTEs and ammo scarcity prevent the experience from fully realising its potential as a tense WWII shooter.
+Overall, this is a solid, affecting campaign that deserves better than its lukewarm reputation: the med-kit economy and squad-support system vindicate the old health-bar design, the D-Day-to-Rhine arc lands emotionally, and the character writing carries the darker beats with appropriate seriousness. Awkward QTEs, opaque stealth and a muddled ending are real flaws, but the whole remains a confident return to form for the historical branch of the series.

@@ -1,25 +1,27 @@
 ---
 layout: review
-date: 2026-06-24
+date: 2026-04-24
 game_title: "Forza Horizon 2"
 permalink: /reviews/forza-horizon-2/
-verdict: not-sure
+verdict: recommended
 platform: "Series X"
 release_year: 2014
-genre: "Racing"
+genre: "Racing, Simulation, Sports"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Stunning visual presentation and a curated soundtrack deliver atmospheric open-world driving across southern France and Italy, though trivially easy AI and the absence of car progression undermine structural depth."
+summary: "A gorgeous, easygoing road-trip racer whose completionist sandbox delights even as toothless race AI, sadistic speed zones and permanently delisted DLC leave the experience feeling conflicted."
 image: "/assets/img/reviews/forza-horizon-2.webp"
 ---
 
-A European road trip festival spans southern France and Italy, inviting drivers to compete in championships across sun-drenched coastal roads and winding mountain passes. The visual presentation represents a significant leap from its predecessor, with detailed environments and dynamic weather that transform each drive into something atmospheric. From the opening moments, the soundtrack and scenery combine to create a driving experience that feels celebratory.
+The road-trip structure remains the identity: a travelling festival with car-class-specific championships at each of its stops, every event tailored to whatever machine is currently being driven. Fifteen championships lead to a fifteen-minute point-to-point finale across the whole map, and the day-by-day rhythm of hub, events and awards party keeps the campaign moving. Progression is deliberately casual, with supercars arriving almost immediately and upgrades mostly unnecessary when buying a new car is easier. Wristbands tied to player level rather than festival progress remain a bizarre design choice. As festival organisation, it still has no real equivalent.
 
-Rewind functionality proves invaluable during long races, allowing mistakes to be corrected without restarting entire events. Bucket list challenges provide welcome variety between championship races, though their quality varies across the progression. Off-road freedom rewards exploration, with skill points accumulating for environmental destruction and clean driving sequences.
+The racing AI offers no challenge whatsoever, with virtually every race won by ten to fifteen seconds without effort on default difficulty. The cross-country events are the only races that stay close, and they are consequently the favourites, precisely because losing control or overshooting a checkpoint is actually possible there. Speed zones sit at the opposite extreme: maintaining an average speed through mandatory slowdown areas is the game's most-hated mechanic, placed deliberately in spots that demand heavy braking. The Pagani 200 mph challenge and the go-kart skill target produce genuine surrender after dozens of attempts. Difficulty lives entirely outside the races, and the two extremes share almost no middle ground.
 
-Championship progression follows a straightforward structure, with three races per location and a festival finale awaiting completion. Cars can be upgraded performance-wise but lack visual customisation options, and the absence of a car acquisition progression system means supercars are available from the start. This casual approach removes the sense of earning vehicles through accomplishment.
+Bucket list difficulty is wildly inconsistent as a result, mostly trivial with a handful of near-impossible outliers that two of the fifty-five challenges abandoned outright. The delisted DLC problem compounds it: Storm Island and the Porsche expansion baked into the disc but unobtainable, locking ten bucket list entries behind content that can never be bought, advertised constantly from the menu. Rewind is the load-bearing feature of the entire experience, credited with making the spikes tolerable at all. Without it, the difficulty design would curdle completely. With it, even the sadistic zones stay playable.
 
-AI opponents present minimal challenge across all difficulty settings, with races often won without tactical driving or strategic positioning. The trivial difficulty undermines competitive tension, particularly during championship finales that should feel climactic. Menu navigation proves unnecessarily convoluted, especially when applying visual customisations to vehicles.
+The road-discovery completionist loop hooks hard: 300 roads to drive, bonus boards to smash, and barn finds at a more consistent one-per-region rate than the first game. The grey-to-white driven-road distinction is too subtle to read, leaving the final two roads effectively unfindable. Skill points are undermined by multiplayer-oriented perks that do nothing offline, a dead system waiting for the servers to die. Reward payouts from races and bucket lists are minuscule compared to the first game, cars cannot be sold, and the classics championship prices itself out of reach. The economy is the campaign's thinnest system.
 
-Shadow rendering quality contradicts the otherwise excellent visual presentation, with shadow updates appearing noticeably sluggish during gameplay. The Storm Island DLC remains inaccessible, limiting the available content to the base game's offering. Road trip locations, while beautiful, provide fewer distinct destinations than expected.
+Showcases (train, hot-air balloons, biplane, cargo plane) remain highlights, but five of them against the first game's frequent set-pieces is a content downgrade. The map paradoxically feels smaller despite grander scale: thirty speed traps, fewer showcases, everything six miles away. No rival antagonises the festival the way the original's antagonist did, leaving the lightweight radio-chatter framing without a narrative hook. The story ends abruptly after five in-game days with no epilogue, stranding 168 mostly-duplicate championships as postgame filler. Visual customisation stops at paint, with no body kits anywhere.
 
-Overall, the visual presentation and soundtrack deliver atmospheric open-world driving that excels in moment-to-moment enjoyment, though the absence of car progression and trivially easy AI prevent the experience from achieving the structural depth needed for lasting satisfaction.
+Visually it earns genuine awe: rain, night lighting and a southern European map of real beauty, still running at thirty frames per second on modern hardware so seamlessly the difference went unnoticed. The low-frame-rate animated shadows are the one glaring exception. Horizon Pulse remains the standout radio station, with the classical channel's oddball charm close behind, and dynamic weather rolls in mid-race with real effect. One crash in roughly twelve hours of play is the extent of the technical trouble. The presentation carries the whole festival on its back.
+
+Overall, the visuals, the rewind-enabled driving model and the road-board-barn-find exploration loop make this a thoroughly enjoyable festival racer despite toothless AI, sadistic speed zones, permanently locked delisted DLC and thin rewards. It is a step up in so many ways and so many steps down, gorgeous and easygoing while stripping away its predecessor's progression, showcase count and rivalry. Conflicted is the honest word, but the enjoyment was real throughout.

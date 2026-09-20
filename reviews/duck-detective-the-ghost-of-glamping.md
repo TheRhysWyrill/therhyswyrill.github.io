@@ -1,25 +1,27 @@
 ---
 layout: review
-date: 2026-07-08
-game_title: "Duck Detective: The Ghost of Glamping"
+date: 2025-10-23
+game_title: "Duck Detective The Ghost Of Glamping"
 permalink: /reviews/duck-detective-the-ghost-of-glamping/
 verdict: recommended
 platform: "PC"
 release_year: 2025
-genre: "Adventure, Puzzle"
+genre: "Adventure, Point & Click, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Sharp voice acting and clever mystery writing elevate a deduction-blank puzzle system, though the extreme brevity means the experience concludes before its characters fully resonate."
+summary: "A cosy duck-noir comedy mystery whose voice acting and clever spy reveal charm across ninety brisk minutes, with deduction kept deliberately light."
 image: "/assets/img/reviews/duck-detective-the-ghost-of-glamping.webp"
 ---
 
-Eugene McQuacklin and his reluctant sidekick Frederson arrive at Sunny Lake for a glamping trip, only to find a stolen chair and strange "ghost" activity pulling them into something far more complex. The noire-parody tone lands immediately through sharp dialogue and committed voice performances, with each character delivering lines that balance absurdity and sincerity. From the opening exchanges, the writing communicates a confidence that sustains momentum across every investigation.
+A broke duck detective is dragged on a glamping trip by his landlord, and stolen camping chairs, a missing child and military secrets tangle into a conspiracy far larger than the ghost-haunted-campsite premise sells on its title screen, all unfolding in one continuous day at the campsite. The haunting turns out to be pure campfire showmanship for the guests, and the case behind it involves a chess-streaming celebrity, a spy from the rival nation of West Canton and a fiercely protective single mother. Card-game tangents between interrogations add flavour, and the tone stays warm, silly and self-aware throughout, with the finale closing on the series' trademark gut-punch of the landlord's fresh misfortune alongside the detective's own arrest gag.
 
-Deduction blanks form the mechanical backbone, requiring clue words gathered through suspect questioning and environmental inspection to complete logical statements. Sleuth mode strips away answer validation, demanding genuine deduction rather than trial-and-error selection. The clue-word system transforms passive observation into active participation, rewarding thorough exploration of each location.
+Voice acting carries the entire production. The deadpan noir monologue of the duck protagonist lands every line, and the supporting cast, an overbearing military mother, a simping chess-streamer fan, a glamping-obsessed bear, elevate scenes that would read as merely funny on paper into genuinely hilarious ones. Character comedy is the engine, the performances make each suspect worth interrogating for the dialogue alone, and the delivery is what transforms a tidy script into a memorable one.
 
-Sanatorium sequences introduce atmospheric tension through dim lighting and environmental storytelling, contrasting the campsite's colourful absurdity. Light platforming segments break up the investigation rhythm, though these moments feel secondary to the core mystery. The ghost tour narrative layer adds depth, weaving a secondary story that parallels the main investigation.
+The mystery plotting is sharper than the comedy suggests. A spy concealed behind excessive makeup as a long-term cover delivers a reveal that genuinely surprises, the deduction connecting identity to disguise is the cleverest beat in the script, and a mid-game twist, a haunted sanatorium concealing a spy lair, shifts the tone briefly darker before the comedic reveal-and-arrest finale restores the balance. A three-way arrest judgement choice closes the case with consequence, and the whole plot hangs together more tightly than its silliest jokes advertise.
 
-Voice acting elevates every interaction, with performances that transform simple dialogue exchanges into memorable comedic moments. The dedication to distinct character voices ensures each suspect feels individual, preventing the cast from blending into generic archetypes. Writing sharpness remains consistent, delivering punchlines that land without sacrificing narrative coherence.
+Quality-of-life improvements distinguish this entry from its predecessor. Re-examinable evidence is the standout fix, allowing clues to be reviewed after new revelations instead of forcing guesswork, and an accessible Sleuth difficulty welcomes newcomers without stripping the interrogation loop. Interrogating characters for clue words, inspecting objects and filling deduction boards remains the full mechanical loop, and it runs linearly with no wasted detours, keeping the ninety minutes dense with jokes rather than filler.
 
-Fredd's repeated emotional devastation provides reliable comedic relief, though the pattern risks diminishing returns across the short runtime. The mystery layers unfold satisfyingly, with each revelation connecting back to earlier clues in ways that reward attentive observation. The deduction mechanic sustains engagement through its tactile, hands-on approach to puzzle-solving.
+The setting earns its keep as more than backdrop. The glamping site's showbiz-haunt staging gives every location a reason to look theatrical, and the campsite's grounds fold a sanatorium, a lair and a lake-side stage into one continuous day without a single loading-screen seam. The Magicorn card-game tangents between interrogations riff affectionately on schoolyard trading-card nostalgia, and they land as some of the script's best throwaway gags. Environmental comedy does quiet work throughout: posters, signage and props reward the cursor's wander as much as any suspect does. It is a small world assembled with conspicuous care.
 
-Overall, the voice acting and sharp writing transform a straightforward deduction system into something memorable, though the extreme brevity limits character development and leaves the investigation feeling complete yet underserved by its compressed structure.
+The deduction challenge stays light. Most boards resolve without strain, and the experience plays closer to interactive story than puzzle, with the jokes and the plotting doing the heavy lifting rather than the reasoning, though an identity-deduction linking a girlfriend's behaviour to the case rewards attention. Title expectations also misfire slightly: the promised ghost never appears, a cheeky tease compared to the previous entry's literal secret salami, and the ninety-minute runtime wraps before the formula wears thin, though the brevity is the one real limitation.
+
+Overall, this is a cosy, hilarious duck-noir bite that solves its case with charm to spare, held up by superb voice performances, a genuinely clever spy reveal and smart quality-of-life touches over the first game. The guided deduction and short runtime are honest constraints, the sitcom rhythm of the landlord's escalating misfortune leaves the door wide open for a third case, and as a palette cleanser between longer investigations it lands almost perfectly.

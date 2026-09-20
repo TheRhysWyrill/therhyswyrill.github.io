@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-06-21
+date: 2026-06-07
 game_title: "Monument Valley 2"
 permalink: /reviews/monument-valley-2/
 verdict: recommended
@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2017
 genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Impossible geometry puzzles and a touching mother-daughter narrative deliver a visually distinctive experience, though short duration and underutilised mechanics prevent fuller exploration of its ideas."
+summary: "A beautiful, imaginative sequel that swaps mechanics for emotional core, with mirroring-child puzzles and a shrinking flower, undone only by brevity and underused flatland ideas."
 image: "/assets/img/reviews/monument-valley-2.webp"
 ---
 
-Impossible geometry and optical illusions define this puzzle game where Ro guides her child through architectural marvels. The visual art style establishes a distinctive identity through impossible structures and perspective manipulation. Mother-daughter relationship themes emerge through metaphorical level design and environmental storytelling.
+A mother introduces her child to the valley, and the sequel changes the emotional core rather than the mechanics, told entirely through architecture and poetic interludes between chapters. Pastel geometry, shifting palettes and a quietly escalating soundtrack give the fable its calm, with music growing more intense as the arc progresses. The chapters frame a transformation completed rather than a conflict resolved. It is the rare puzzle game whose subject is parenthood, and the framing never once breaks its wordless register. The ambition is visible from the first interlude onward.
 
-Optical illusion mechanics create puzzle solutions through perspective shifts, with impossible geometries resolving into pathways when viewed from specific angles. The child mirrors player movements, adding a secondary character layer to architectural manipulation. Light-based transformation mechanics dynamically alter environments based on sunlight exposure.
+The optical-illusion puzzle design remains the whole show, and it impresses from start to finish. Impossible geometry, rotating blocks, cranks, sliding blocks and walkable architecture click into alignment with the first game's precision, and the presentation oozes style throughout. The sacred-geometry rotation rules (three dots slide, two dots spin) add a legible new grammar to the vocabulary. Every level is a small act of stagecraft, and the isometric perspective does the heavy lifting throughout.
 
-Ro's journey with her child unfolds across 14 main levels, each teaching independence through puzzle progression. The narrative explores growth and separation through mechanical metaphors rather than dialogue. The Lost Forest expansion reinforces environmental conservation themes through its own distinct puzzle sequences.
+The mother-and-child dual-character mechanic is a clever evolution, with the daughter mirroring the mother's movements rather than demanding independent control. The mirroring creates puzzles the first game's single walker could never pose, and the design wrings genuine variety from the symmetry. A floral-garden growth puzzle, where a flower transforms more the less sunlight it receives, is a highlight of mechanical creativity. A drawing level makes any sketched shape walkable geometry, and an orchard transformation arrives as a small, quiet surprise that lands as one of the campaign's finest moments.
 
-The flat dimension mechanic creates two-dimensional sections within the three-dimensional world, offering fresh visual and mechanical variety. These sections demonstrate creative potential but appear infrequently across the level progression. The mechanic's brief appearances leave its full possibilities unexplored.
+The story beats hidden inside the geometry deserve singling out, because they are what elevate the sequel above its predecessor. The orchard's seasonal shift, the garden's light-hungry bloom and the separation chapters each deliver their emotional beat through mechanics rather than narration, and the wordless register never breaks. Poetic interludes frame the chapters with just enough text to orient the fable without explaining it. The soundtrack escalates in step with the arc, growing more intense as the valley's journey approaches its close. It is storytelling through systems, executed with a light hand and total confidence.
 
-Puzzle complexity remains accessible throughout, with solutions often simpler than their visual presentation suggests. The game prioritises aesthetic experience over challenging problem-solving. The 14 levels maintain consistent quality but the overall duration feels brief.
+The flat, 2D-crushing levels are the most striking new idea in the game and the most underused, appearing briefly before vanishing for stretches at a time. Their visual collapse of isometric space into a flat plane is genuinely creative, and the design never exploits the concept as thoroughly as it deserves. Difficulty is uneven as well, with most levels falling quickly while a few are genuine brain-busters whose peaks pass before they can be savoured. Overthinking is the player's own worst enemy, and the solutions are always fair when found. Every reflection chapter and every illusion earns its keep.
 
-The mother-daughter dynamic deepens as the child grows more independent, creating emotional resonance through mechanical progression. Musical accompaniment enhances atmospheric moments without overpowering visual design.
+Runtime is the honest limitation. The full campaign, including the bonus chapter, completes in roughly ninety minutes against the predecessor's two and a half, and the brevity means the best ideas come and go fast. The Lost Forest charity expansion, which doubles as climate advocacy for a real-world alliance, is a single short level. The quality-per-minute remains extraordinary, but the wanting-more feeling is baked into the design. Nothing here outstays its welcome because nothing is given the time to. Within that time, every idea still lands.
 
-Overall, the impossible geometry puzzles and relationship-driven progression deliver a visually distinctive puzzle experience that explores growth and separation through creative mechanics. Short duration and underutilised ideas prevent the experience from fully realising its potential.
+Overall, the optical-illusion craft, the mirroring-child mechanic and the gentle parenthood fable make this a beautiful, imaginative sequel whose best ideas are over too soon. The underused flatland levels and the ninety-minute runtime are real deductions, but the presentation and the emotional core earn their place completely. What the design attempts, it achieves with style, and the recommendation follows naturally from the craft on display.

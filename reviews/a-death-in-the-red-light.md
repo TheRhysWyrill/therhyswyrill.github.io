@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-08-26
+date: 2026-08-24
 game_title: "A Death in the Red Light"
 permalink: /reviews/a-death-in-the-red-light/
 verdict: recommended
 platform: "PC"
 release_year: 2024
-genre: "Adventure, Puzzle"
+genre: "Adventure, Puzzle, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A jazz-inflected soundtrack and varied puzzle mechanics elevate this noir detective adventure set in Amsterdam's red light district, though some puzzles demand brute-force over deduction and developer self-promotion disrupts the atmosphere."
+summary: "A witty 1988 Amsterdam puzzle anthology in a detective's coat, with a superb soundtrack, a humane non-murder at its heart, and some poorly signposted puzzles."
 image: "/assets/img/reviews/a-death-in-the-red-light.webp"
 ---
 
-A dead body in Amsterdam's red light district launches a detective's investigation across jazz clubs, Chinatown, and hotels. 1988 Amsterdam provides the backdrop, rendered with charming pixel art and a jazz-influenced soundtrack. Five acts structure the narrative. From the opening notes, the music commands attention.
+Amsterdam, 1988: a disgraced detective is reinstated for one night to investigate a body in the red light district, and the trail runs from morgue to pawn shop, through squat houses, opium dens and jazz bars, past brothel windows ringing the oldest church in the city, to a hotel rooftop. The setting loves its city without sanitising it, from the pink-triangle monument under construction to the tourist office's characteristic customer service, and the whole affair is loosely based on the true story of a jazz trumpeter's 1988 window death, revealed on the end card.
 
-Five distinct tracks cycle throughout, each complementing different Amsterdam locations and investigation moods. Puzzle design spans chemical element assembly, fingerprint matching, weather map reconstruction, and lock identification. Each type demands different cognitive approaches, from chemistry knowledge to spatial reasoning. The variety sustains engagement across the five-act structure.
+The puzzle anthology is the game's true genre. Every clue arrives as a self-contained minigame dressed as forensics: chemical-formula assembly, shoe-print stratigraphy, weather maps, watch-face spot-the-error, liar-truth-teller logic, fingerprint overlays, ballistics comparison, counterfeit bills, bomb wires, semaphore maths, hidden-city word searches, transit-ticket routing and suitcase codes. The menu acrostic, squat-window logic grid, and beer-label cartography that overlays a map onto bottle labels stand out as the anthology's finest entries, each with a real idea inside a familiar form.
 
-A murder suspect leads the detective through Amsterdam's red light district, jazz bars, and Chinatown across five acts. Witness interviews and environmental clues build the case. A self-aware detective protagonist adds personality. The victim's identity unfolds gradually, maintaining narrative momentum.
+Progress is act-gated across five acts, body through suspects, chase, last night and hotel, and wrong answers carry no penalty, a generosity that keeps the unexplained puzzles from stalling the night entirely. Crime-board structure in the second act reveals the anthology shape early, with peripheral cases solved to eliminate suspects, and the fixed linear path stays legible throughout.
 
-Chemical element assembly demands forming molecular formulas from periodic table components, requiring both chemistry knowledge and logical deduction. Fingerprint matching compares partial prints against databases, while weather map reconstruction pieces together atmospheric conditions from scattered data. Codebreaking sequences recover images through nonogram-style logic.
+The soundtrack earns singular praise. Hooked from the title screen before any gameplay begins, songs keep landing deep into the fourth act, each track strong enough to name individually, and at least one arrives as welcome relief precisely when a puzzle earns resentment. Few adventure games treat their music as a first-class citizen this consistently.
 
-Several puzzles resist logical deduction, requiring trial-and-error brute-forcing rather than deductive reasoning. Anagram sequences in particular demand letter rearrangement without clear hints, disrupting the investigative flow. Developer self-promotion appears as unskippable cinema credits, breaking the noir atmosphere without adding gameplay value.
+Clarity frays at the margins. A handful of puzzles never explain themselves: shoe prints brute-forced early, counterfeits solved as spot-the-difference with no visible differences, and the park path resolved by guesswork rather than deduction. The nonogram is the clearest mechanical failure, presented to anyone unfamiliar with the genre with a hint that merely names it, and the pixel-mail puzzle becomes the investigation's low point for anyone who has not already learned the form.
 
-A hint system provides assistance without penalties for wrong answers, maintaining accessibility. Pixel art renders Amsterdam's locations with charm, from neon-lit red light streets to intimate jazz bars. The jazz soundtrack rotates through distinct tracks, each reinforcing the 1988 Amsterdam setting with era-appropriate instrumentation.
+The finale's friction is structural. A "my gut tells me there's more to find" prompt in the hotel room sends searching into every clickable surface, burning hints and patience alike, only for the game to confirm everything was already found. Look-alike names blur across logic puzzles, with Veronica, Vanessa, Victoria, Sarah and Maria occasionally swapping places mid-deduction, though each misread self-corrects. The ending holds a single fixed resolution, with no alternate branches for curiosity to chase.
 
-Overall, a jazz-inflected soundtrack and varied puzzle mechanics deliver a noir detective adventure that sustains momentum across five acts. Occasional obtuse puzzle logic and intrusive self-promotion represent minor friction against the atmospheric investigation.
+Overall, the anthology's hit rate, the lovingly researched Amsterdam setting and a soundtrack strong enough to sit on the title screen for make this a witty, humane night of deduction worth recommending. Under-explained puzzles, a phantom search prompt and a fixed ending are real costs, but the non-murder at the heart of the case lands as tragedy rather than gimmick, and the craft holds on both ends.

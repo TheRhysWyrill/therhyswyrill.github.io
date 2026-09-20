@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-06-21
+date: 2026-05-27
 game_title: "S.p.l.i.t"
 permalink: /reviews/s.p.l.i.t/
 verdict: recommended
 platform: "PC"
-release_year: 2025
-genre: "Horror, Puzzle"
+release_year: 2021
+genre: "Adventure, Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Terminal-based hacking mechanics and tense cyberpunk atmosphere deliver a focused psychological horror experience, though the brief runtime limits the depth of its puzzle systems."
+summary: "A razor-thin keyboard-only terminal thriller whose real-command hacking and thought-typing state machine earn the Hacknet comparison, despite opaque puzzles and a drawn-out body-horror ending."
 image: "/assets/img/reviews/s.p.l.i.t.webp"
 ---
 
-Command-line interfaces dominate every interaction in this cyberpunk horror experience. A hacker named Axel gets recruited for a heist on a mysterious facility, with terminal commands serving as the sole method of interaction. The amber-on-black aesthetic and ominous soundtrack establish tension from the first keystroke, creating an atmosphere that feels both retro and threatening.
+A remote hacker recruits a crew to break into a dystopian correctional facility's network from inside an old LK912 field kit, with a fifteen-minute beacon window before the guards trace the connection. Everything happens through a terminal: probe, connect, copy, nano-edit configuration files, generate authorisation tokens. The tone is bleak tech-noir, built from interrogation presets, inmate registrations and a convoy bearing down on the safehouse. This is a game made almost entirely of typing, and it is tense in a way few point-and-click interfaces manage.
 
-Between terminal sessions, the narrative unfolds through text-based conversations with crew members Victor and Sarah. Dialogue choices shape the branching structure, leading toward one of two distinct endings. The betrayal premise drives the tension, with each command typed feeling like a step deeper into danger.
+The hacking loop uses real commands rather than menus, and schematic puzzles demand actual deduction: copying a trusted-devices list in a nano editor, deriving authorisation keys from a K-Comm schematic, and surviving a live trace-back sequence that rewards quick, correct typing. Break the trace, secure root access, and the tension lands with genuine force. The oppressive, ominous soundtrack and the mouse-free interface keep the illusion of being at a compromised keyboard intact. It earns its Hacknet lineage in all the best ways.
 
-File system navigation forms the mechanical backbone, requiring players to generate auth keys, traverse directory structures, and connect to remote servers. Commands like `ls`, `cd`, and `cat` become tools of progression, with each successful hack opening new pathways.
+Key thoughts surface as literal text in the terminal, and acknowledging or suppressing them by typing steers the protagonist's mental state between branches. Intrusive thoughts such as potential betrayal or withdrawal can be typed into the record or refused, and the choice shapes which ending the story will allow. The mechanic merges terminal play with a mental-health state machine in a way that gives the typing an emotional register beyond procedure. It is the design's most distinctive idea and the reason the brief runtime lingers.
 
-The eye horror sequences punctuate the terminal gameplay with visceral discomfort, creating moments of unease that contrast sharply with the abstract text-based interactions. These sequences ground the hacking mechanics in physical consequence.
+The runtime is razor-thin, with both endings reachable in roughly forty minutes for the complete package. Comparison to similar short-form narrative indies is fair, and the package feels complete rather than truncated, but the price-to-length ratio is an obvious limitation. Pacing inside those forty minutes is excellent, with the fifteen-minute beacon window giving the whole arc a countdown structure. Everything here is compression, and the compression is deliberate.
 
-Sound design reinforces the cyberpunk atmosphere through ambient hums and keyboard clatter, with each keystroke producing satisfying feedback. Environmental audio shifts signal narrative progression while the soundtrack maintains tension without overwhelming the terminal focus.
+Schematic and reference-number puzzles occasionally leave the goal opaque, with confusion about what is actually being asked surfacing at several points. Keyboard-only controls with no mouse support and no autocomplete cause avoidable friction, particularly when re-typing long command names by hand. A login screen's undocumented character limit trips up the very first interaction. These are small frictions, but they sit awkwardly in a game whose entire interaction model is typing accurately.
 
-Branching pathways based on terminal commands create meaningful replay potential, with different command sequences leading to distinct outcomes. The two endings provide resolutions that reflect the choices made throughout the hacking sequences.
+The bad ending's drawn-out eye and lobotomy sequence is the campaign's most visceral stretch, wince-inducing in a way the rest of the game never aims for. Restarting for the second ending means re-typing sequences from a mid-point checkpoint that is never clearly signposted, with uncertainty about where the replay will resume. Both endings together complete the picture, one descending, one escaping, and the contrast between them is the narrative payoff. Body horror this graphic feels imported from a louder genre and sits oddly against the terminal quiet elsewhere.
 
-Overall, the terminal-based hacking mechanics and atmospheric presentation deliver a focused psychological horror experience. The condensed scope limits the complexity of its puzzle systems, yet the command-line interface and branching structure sustain tension across both narrative paths.
+Overall, the real-command hacking loop, the thought-typing state machine and the oppressive dystopian atmosphere make this brief, sharply made terminal thriller worth the recommendation despite opaque puzzle goals, keyboard-only friction and a body-horror ending that outstays its welcome. Forty minutes is short, but every minute of it is authored. The Hacknet comparison is earned, and the urge to replay that lineage afterwards is the surest sign it lands.

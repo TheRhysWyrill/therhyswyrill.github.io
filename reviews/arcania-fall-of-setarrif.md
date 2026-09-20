@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-06-25
+date: 2024-02-26
 game_title: "ArcaniA: Fall of Setarrif"
 permalink: /reviews/arcania-fall-of-setarrif/
-verdict: not-recommended
+verdict: not-sure
 platform: "PC"
-release_year: 2011
+release_year: 2013
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "An overpowered imported character and generous loot drops deliver a power fantasy, though a reskinned final boss, minimal content, and an unjustifiable price point undermine the entire package."
+summary: "A brief, generous-looted victory lap for an imported end-game character that coasts pleasantly until a reskinned final boss and sub-three-hour length expose how little new content is here."
 image: "/assets/img/reviews/arcania-fall-of-setarrif.webp"
 ---
 
-Importing a max-level character into this expansion drops an overpowered warrior onto a volcanic island to hunt a demon and find missing allies. From the first swing, damage numbers soar into the hundreds while health regenerates through pure offence. The premise promises continuation, but the imported build recalibrates expectations from the start.
+The premise picks up after the main game: Robar's kingdom is at peace until a volcano erupts and demon-possessed creatures overrun the land, sending the nameless hero, now in Robar's service, into the shattered city of Setarrif. The possessed-city atmosphere lands well, with everything from barkeeps to beasts conspicuously possessed by something never adequately explained, and the writing stays thin in the way the main game's did. Rescuing allies, collecting keystones and holy artefacts, and descending into the volcano give the short campaign a shape, if not much substance.
 
-Encounters become demonstrations of power rather than tests of skill, with health regenerating through lifesteal and damage output trivialising enemy health pools. Progression boils down to collecting increasingly powerful loot that only widens the gap. That power fantasy delivers a satisfying surge before the expansion's structural weaknesses surface.
+The import system is the expansion's genuine hook: a completed main-game character, gear, spells, Enos's blessing and crafting access intact, walks straight in from a dragged-over save. No other content in the series offers that continuity, and the early-game loot windfall compounds it, showering high-end gear on a character already at full power. A lifesteal and health-regen build turns the possessed crowds into a parade of one-shots, a power fantasy that is genuinely fun even as it flattens every curve.
 
-Hack-and-slash combat spans melee strikes, ranged options, and magical abilities, requiring little more than selecting the highest-damage option. Enemy encounters lack mechanical variety, reducing each skirmish to a damage race rather than a strategic exchange. The approach works as mindless catharsis but offers nothing beyond that threshold.
+The structure is the main game compressed: quest chains through a valley, ruins, the possessed city, an orc mine, a temple and the volcano. The orc mine features a brief playable cameo, and an ordeal-by-combat duel with Carella is a highlight, as is a chest-imprisonment quest with a satisfying payoff. At around three hours the whole thing is a miniature, and the mathematically inclined will notice the discrepancy with any stated length expectations.
 
-Setarrif's volcanic fields, crumbling ruins, and lava-scarred landscapes provide visual contrast to the base game's environments, while creature designs establish a hellish tone. The setting carries atmospheric weight, though the writing fails to exploit it beyond surface-level lore.
+The finale is the defining disappointment: the arch-demon is a straight reskin of Zeser, reusing the model, the attacks, the arena and even the music, with identical hit-and-summon tedium where a new encounter should be. The XP economy inflates rather than scales for imported characters, handing out more experience per kill as levels climb instead of less. Difficulty never arrives at all between the import and the loot, leaving the whole campaign without a single genuine test.
 
-The final boss reuses a base game's boss model with identical attack patterns and identical music, stripping the climactic encounter of any distinct identity. Reaching the conclusion after fighting through Setarrif's environments, only to face a direct copy-paste of a previously defeated boss, drains the momentum entirely.
+Technical niggles persist: the blessing's halo renders the head flat, the health bar only displays when locked on, and combat audio drops to a whisper mid-fight for no discernible reason. None are run-ending, but the sum suggests limited polish and testing. The possessed-premise's thin explanation is the writing's biggest single gap in a script already running on fumes, and a chatty population with no answers behind its possession wears that gap thin fast.
 
-The expansion offers a fraction of the content the marketing promised. At fifteen dollars, the price-to-content ratio borders on predatory, compounded by audio drops and a visual bug that flattens the protagonist's head model.
+Value is the question the whole expansion turns on: as a full-price purchase, under three hours with a reskinned boss is a hard sell, while at bargain-bin pricing the calculus flips entirely. As closure to a saga and a victory lap for a beloved character, it delivers exactly what it promises, no more, with a final tally somewhere north of five hundred words of review for what amounts to an afternoon. As a standalone piece of content it is hollow, shallow and basic, and content with being so.
 
-Overall, a momentary power fantasy built on imported progression delivers temporary enjoyment, but the reskinned final boss, compressed content, and unjustifiable price point make this expansion difficult to recommend even at a discount.
+Overall, a brief and generous-looted epilogue whose import system and power fantasy are genuinely enjoyable, but whose reskinned finale, inflated XP curve and sub-three-hour span leave it impossible to recommend at full price and easy to shrug at in a sale. Fun and mindless in miniature, it closes its saga warmly without ever justifying its own existence as a separate product.

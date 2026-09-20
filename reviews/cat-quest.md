@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-07-04
+date: 2018-09-15
 game_title: "Cat Quest"
 permalink: /reviews/cat-quest/
 verdict: recommended
 platform: "PC"
 release_year: 2017
-genre: "Action RPG"
+genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Relentless cat puns and satisfying combat create a charming action RPG with surprisingly deep side quest narratives, though locked chests without accessible keys and map navigation limitations create friction during exploration."
+summary: "A charming, tightly-scoped cat-pun Action, RPG whose surprising story depth and dense side-quest storytelling outshine pun fatigue, repeated quest structures and minor UI gaps."
 image: "/assets/img/reviews/cat-quest.webp"
 ---
 
-A cat with a special mark searches for his kidnapped sister across a fantasy world ravaged by dragons, with the narrative establishing stakes through family bonds and magical destiny. The atmosphere is lighthearted and pun-heavy, with the writing maintaining genuine warmth throughout the adventure.
+A bright, colourful kingdom of cats, Felingard, hides a genuinely substantial story: a silent hero marked as dragon blood chases the white cat Drakoth to rescue a kidnapped sister, guided by a spirit with a mundane name and an old-masters lore that quietly seeds a wider world. The classic-villain framing is the easiest kind to hate, exactly as intended, and regal cat names (King Lionardo, KitKat) keep the whole thing breezily self-aware. The finale delivers a twist that a "cute cat game" has no right to hold, executed well enough to recontextualise the entire adventure, and the touching epilogue sends it off with warmth rather than a simple bow.
 
-The combat system delivers immediately satisfying real-time action through melee combos, ranged attacks, and magic spells that create varied encounter design. The mechanics remain enjoyable across dozens of dungeons, with each combat scenario testing different ability combinations that maintain engagement.
+The art style and pun-filled quest design hook from the first minutes: colourful cat-pun world, charming pixel warmth, and side quests with their own unique stories rather than filler. The growling peasant curse chain, the Twin Towns Necronomicon arc, a chef's rivalry and a doomed-shipping quest all pull attention off the main story, and the density keeps the roughly eight-hour run fresh throughout. Quest-board pins hide whole miniature arcs, checking every board becomes a compulsion, and the hands-off "here's the world, go do what you feel like" design trusts the player completely.
 
-Every side quest features its own unique narrative with surprising emotional depth, far exceeding expectations for this type of game. The quest design ranges from multi-part storylines to simple fetch missions, with each offering distinct characters and situations that reward completion.
+Combat is top-down real-time melee with spells learned at arcane temples (fire, lightning, ice, heal), dodge-rolls against red-circle telegraphs, and level-gated dungeons that respect the level scaling as a guide rather than a wall. Catnapping doubles as save and heal, a perfect fit for the theme, and equipment with duplicate-upgrade mechanics feeds the loot loop. Levelling is extremely fast, with endgame flying trivialising traversal in a way that feels earned rather than cheap, and the controller feel is noticeably better than keyboard for the dodge-heavy rhythm.
 
-The generous leveling system keeps progression rewarding, with rapid level-ups that prevent excessive grinding while maintaining challenge throughout the campaign. Equipment upgrades and magic spell progression provide tangible improvements that feed into the combat system's variety.
+The purgatory-tombstone side quest and the Dragon's Rest memory-log discoveries are the side content's highlights, and the multi-wave dragon-spirit finale is worth every level ground to reach it. The old-masters monument lore rewards exploration with world-building, and the meta-nods tucked into notes and item descriptions tease a wider world with a wink, including a dev-hat find and a sequel tease hidden in plain text. Very few games commit this completely to being a cat, from the save mechanic to the pun-named towns.
 
-Locked chests without accessible keys prove a persistent annoyance, with the player encountering locked containers throughout the world without understanding how to obtain the necessary keys. This recurring frustration undermines the otherwise satisfying exploration loop.
+Pun frequency wears thin over a long playthrough: delightful at first, desensitising by the end, an honest fatigue issue rather than a quality one. The Twin Towns mirrored-town mechanic forces near-identical quest steps across both halves of the arc, though the Necronomicon twist payoff redeems the repetition. The forbidden-history level-99 chain and constant post-story quest spawns (flyer distribution among them) frustrate anyone who just wants credits to roll, even as the open design earns genuine appreciation for its trust.
 
-The map navigation limitation restricts scrolling ability, creating frustration when attempting to survey the world from different perspectives. The inability to spin or move the map view restricts planning and orientation during exploration sequences.
+Small UI gaps accumulate: no XP-to-next-level display annoys throughout, and locked golden chests with no clear key source dead-end completionists into a key hunt the game never explains. The over-levelled endgame steamrolls whatever challenge the dungeons once offered, leaving the last hours more celebratory than tense. None of it sinks the experience.
 
-Overall, the relentless cat puns and satisfying combat establish a charming action RPG with genuine narrative depth in its side content, though locked chests and map limitations create friction that tempers the otherwise delightful exploration experience.
+Overall, a charming, tightly-scoped cat-pun Action, RPG whose surprising story depth, dense side-quest storytelling and signature save-by-catnapping mechanic prove it to be far more than a novelty, with pun fatigue, repeated Twin Towns steps and hidden XP costs as the minor friction. A short, self-contained adventure with a genuinely surprising twist, and the foundation for something bigger.

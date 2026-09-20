@@ -1,23 +1,29 @@
 ---
 layout: review
-date: 2026-08-15
+date: 2026-08-14
 game_title: "Astérix"
 permalink: /reviews/asterix/
-verdict: not-recommended
+verdict: not-sure
 platform: "SNES"
-release_year: 1993
+release_year: 1992
 genre: "Action, Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Diverse level environments and occasionally catchy music cannot overcome fundamentally broken hitboxes and poor screen visibility that force every combat encounter to become an exercise in frustration rather than fun."
+summary: "Catchy music and generous lives sit alongside broken hitboxes, right-hand screen placement and a pyramid act that punishes without warning."
 image: "/assets/img/reviews/asterix.webp"
 ---
 
-Obelix's capture by Romans sends Astérix across Helvetia, Egypt, Greece, and Rome, where diverse environments mask fundamental mechanical failures. The premise provides nostalgic charm through the comic book licence, with character designs and settings capturing European comic book aesthetics. From the opening forest, the slow movement speed communicates an immediate control issue. The story remains purely functional, serving only to justify level progression through brief text interludes.
+A tour of the ancient world carries the campaign across six themed acts, from Gaul through Helvetia, a sea voyage, Egypt, Greece and finally Rome, each with its own music and palette. The premise is pure comic-book slapstick: a chase after Caesar's patrols to recover a captured companion, delivered through brief cutscenes in green text that is certainly a stylistic choice. Atmosphere leans on the licence rather than on mechanical invention. The structure is the game's best framing idea, even when the stages inside it misbehave.
 
-Core gameplay follows classic side-scrolling platformer conventions, with five acts spanning forests, caves, pyramids, mountains, mines, beaches, and cities. The spear attack possesses almost no range, requiring contact with enemies to deal damage while simultaneously guaranteeing return damage. Difficulty settings adjust starting health and lives, though the mechanical issues persist regardless of chosen difficulty. Time limits remain generous throughout, never creating genuine pressure.
+Combat sits at the centre of every complaint. Hitboxes and attack range are fundamentally broken: landing a blow requires standing nearly on top of an enemy, which guarantees taking damage in return. The hero can be touching a foe head-on and still register as nowhere near it. Precision platforming is impossible under these rules, and every death traces back to the same unfair arithmetic. No other single flaw defines the game so completely.
 
-The level variety stands as the most positive element, with distinct environments providing visual and mechanical diversity across the campaign. Cave levels introduce ice physics that create engaging sliding challenges, while pyramid interiors offer maze-like exploration. The boat sequences and minecart sections add mechanical variety that briefly elevates the experience above its frustrations.
+Screen placement compounds the damage. The character walks on the right-hand side of the display, so what lies ahead stays hidden until it is too late to react; the view shifts only at the literal edge, echoing the notorious late-screen behaviour of other 16-bit titles. Enemy placement exploits this mercilessly, with hazards appearing without reaction time in a way that recalls the worst instincts of Bubsy. Deaths feel authored rather than earned.
 
-The hitboxes represent a fundamental design failure, with attack range so minimal that dealing damage requires accepting damage in return. Screen scrolling positions Astérix too far right, leaving almost no visibility of approaching enemies and hazards. Invincible hedgehog enemies appear without warning, creating unavoidable damage sources that punish progression rather than skill.
+The Egypt pyramid act hardens irritation into outright hostility. Multi-room layouts hide dead ends, camouflaged entrances disguise themselves as cliff faces, and the whole section drags far beyond the pacing of anything around it. Ice caves and minecart sections fare better, and cloud platforms repeat across acts without offending. Individual levels can be blasted through in thirty seconds when the layout cooperates, a stark contrast with the pyramid's slog.
 
-Overall, Astérix delivers a charming retro aesthetic undermined by broken hitboxes, poor visibility, and enemy design that transforms every encounter into a frustrating coin flip rather than a satisfying challenge.
+Mechanics underneath the unfairness are standard for the period. A Y-to-run control scheme and a three-hit health bar anchor the fundamentals, with collectible coins, meat restoring health and temporary power-ups spanning invisibility, invincibility, flight helmets and freezing projectiles. The flight power-up switches itself on and off inconsistently, and destructible boxes turn out to be platforms the game never announces. Difficulty selection changes only starting health and lives.
+
+Generosity offsets some cruelty. Lives arrive in bulk, including a fish pickup that grants nineteen at once, and the time-limit system is notably forgiving by the standards of the era. Score is the only progression currency, since no meaningful upgrades exist. What the game does not offer at all is bosses: a structure that builds toward confrontations delivers none, an absence that reads as incompleteness rather than restraint. Hedgehogs, meanwhile, cannot be killed under any circumstance.
+
+The music deserves its own arc. The looping chiptune initially grates as mind-numbingly basic, yet repeated exposure flips the judgement entirely; it becomes genuinely catchy, the kind of earworm that outlives the cartridge. Sluggish movement is the other constant: the hero runs slowly even holding Y, which stretches every level and amplifies the visibility problem. Both traits shape the experience more than the licence ever does.
+
+Overall, the catchy music, generous lives and fast individual levels are real, and the ancient-world tour gives the game structure beyond its period-generic mechanics. Broken hitboxes, right-hand screen placement, unkillable enemies and the brutal pyramid act outweigh those virtues more often than not. Harmlessly dated and frequently unfair, this curio lands in genuinely ambiguous territory.

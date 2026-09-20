@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-07-21
+date: 2023-10-27
 game_title: "The Callisto Protocol"
 permalink: /reviews/the-callisto-protocol/
 verdict: recommended
@@ -8,20 +8,20 @@ platform: "Series X"
 release_year: 2022
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A gorgeous Dead Space successor with fun melee combat undermined by a terribly designed DLC boss."
+summary: "A gorgeous melee-forward survival horror whose patched dodge-and-dismember combat, evolving grip glove and kinetic hammer power fantasy outweigh thin enemy variety, a recycled brute and an atrocious DLC finale."
 image: "/assets/img/reviews/the-callisto-protocol.webp"
 ---
 
-Jacob Lee finds himself wrongly imprisoned on Callisto, a prison moon where a viral outbreak and corporate conspiracy threaten survival. The setting draws clear parallels to Dead Space with themes of corporate malfeasance and religious cults, creating a familiar yet distinct atmosphere. Visual presentation delivers stunning detail across the prison environments, maintaining consistent quality throughout the campaign.
+A cargo pilot crash-lands into a prison on a frozen moon just as a biophage outbreak tears through the cells, and the plot wears its lineage openly: prisoners experimented on by a doctor, a warden chasing a forced-evolution protocol as religious dogma, and a guilt twist revealing the protagonist and partner unknowingly transported the pathogen themselves. It is a sci-fi horror structure familiar to the point of being a genre checklist, and the familiarity extends to the scares, where dangling bodies behave exactly as expected. What saves the narrative is execution: the visual craft is so high that even the borrowed beats look spectacular.
 
-Melee-focused combat drives encounters through dodge mechanics and light-heavy attack combinations. The kinesis-style ability proves essential for environmental kills, with spinning blades and hazards providing tactical options beyond direct confrontation. Enemies attack one at a time, preventing overwhelming gang situations and maintaining strategic pacing.
+Melee-first combat is the identity, and post-launch patches turned it from a launch liability into the game's engine of enjoyment. Direction-held dodging is clean and readable, arm and leg dismemberment carves enemies down limb by limb, and shooting the tentacles that sprout from downed foes prevents mutations before they start. Crucially, the pacing never lets a mob overwhelm: encounters funnel into one-on-one exchanges rather than ganking, which keeps the system fair and readable. Quick-shot aim snapping and heavy attacks round out a kit that starts simple and builds into a genuinely satisfying loop.
 
-The upgrade system uses a reforge 3D printer with credits and CPU printers, creating meaningful progression through weapon modifications. Limited inventory slots demand careful resource management during exploration sequences.
+The grip glove is the build's centrepiece, evolving from a near-useless gimmick into a fully upgraded highlight that yanks enemies and objects around with escalating authority. The 3D-printer reforge system handles upgrades and ammo, and the six-slot suit expansion eventually renders early inventory bloat moot, though the printer's visual output barely changes after upgrades so the reward stays purely mechanical. Banked audio logs reward thoroughness with the prison's backstory, and the collection is generous enough that nearly all can be found blind.
 
-The DLC final boss fight severely undermines the experience with excessive health pools and unavoidable ground-pound attacks. The encounter demands perfect timing whilst removing player agency through unavoidable damage sequences.
+The blind, sound-tracking enemies in the Arcus mines are a genuine highlight, forcing listening over looking and turning every confrontation into an exercise in sound placement, an encounter design far more tense than the sighted enemies elsewhere. Guns (hand cannon, riot shotgun, tactical pistol) stay deliberately secondary to the baton, and in the DLC the kinetic hammer steals the entire show, turning the final stretch into an unstoppable power fantasy that borders on comic. Few horror games hand the player this much escalating confidence and make it feel earned.
 
-Audio issues emerge when camera angles shift away from speaking characters, creating moments of inaudible dialogue. The prison moon setting provides atmospheric depth through environmental storytelling and character interactions.
+Friction accumulates elsewhere: enemy variety is thin, and one two-headed brute is relentlessly recycled across four fights, a stretch that outstays its welcome badly. The horror playbook is well-worn, delivering predictable beats rather than genuine dread, an atmosphere that stuns visually without ever actually frightening. Pre-suit inventory bloat makes looting feel like spreadsheet management for a stretch, and one early cutscene stutters regardless of graphics mode hard enough to break immersion.
 
-The combination of visual presentation and melee combat creates an enjoyable survival horror experience that rewards patience and environmental observation. The Dead Space comparisons prove apt but the execution maintains sufficient distinction.
+The Final Transmission DLC ends on the game's lowest point: a final boss with unblockable AoE attacks, no visible escape route and a health sponge of a health bar, a fight that retroactively sours the goodwill the hammer built. Camera jank in close-quarters kills occasionally swallows the action, and the non-numerical health bar turns heal timing into guesswork. Presentation remains the trump card throughout, with cutscene-to-gameplay transitions so seamless they cannot be spotted.
 
-Overall, the visual presentation and combat system deliver a gorgeous survival horror experience, yet the DLC boss fight design and audio issues prevent the atmosphere from fully establishing itself.
+Overall, a gorgeous, mechanically solid melee-forward survival horror carried by satisfying dodge-and-dismember combat, an evolving grip glove and a kinetic hammer power fantasy, undermined only by thin enemy variety, a recycled two-headed brute and an atrocious DLC finale. Against its launch reputation it plays far better than its reputation, and the spectacle alone justifies the trip.

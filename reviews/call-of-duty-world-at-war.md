@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-07-04
+date: 2025-05-05
 game_title: "Call of Duty: World at War"
 permalink: /reviews/call-of-duty-world-at-war/
 verdict: recommended
@@ -8,20 +8,21 @@ platform: "PC"
 release_year: 2008
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A notably darker and more graphic Call of Duty entry with an unexpectedly heavy soundtrack and weapon details that reward historical knowledge, though frequent grenade spam and poor friendly identification undermine the otherwise brutal atmosphere."
+summary: "A shockingly brutal dual-front WWII campaign with a heavy, surprising soundtrack, undercut only by relentless grenade spam and a PC port that resists controllers and skippable credits."
 image: "/assets/img/reviews/call-of-duty-world-at-war.webp"
 ---
 
-American and Soviet soldiers fight across the Pacific and Eastern Front, with the tone consistently dark and brutal through graphic violence and dismemberment that distinguishes this entry from its predecessors. The atmosphere captures the horror of war through torture scenes and realistic combat damage, establishing a tonal identity unique within the franchise.
+Brutality is the first thing this World War II campaign establishes, and it never once softens. Within the opening minutes a captive soldier is tortured and executed on camera, and from there the register holds: dismemberment that severs limbs outright, graphic deaths that other entries in the franchise avoid, and a grounded grimness that makes every firefight feel filthy. Makin Atoll opens the Pacific half with night infiltration and cruelty played straight; Peleliu follows with attritional misery across beaches and airstrips where death is cheap and chaos is constant. It is the darkest, grimmest entry the series has produced, and the violence is not garnish but identity.
 
-The heavy soundtrack features tracks that rival modern shooters, with metal-influenced compositions providing unexpected intensity during firefights. The music creates momentum during set-piece moments, elevating action sequences through sonic weight that matches the campaign's brutal tone.
+The two-campaign structure works as effectively as anything here. One arc follows the US Marines through the island-hopping war against Japan, all flamethrower bunker-clearing, banzai charges and booby-trapped corpses; the other hands the Eastern Front to the Red Army, tracing a vengeful march from the ruins of Stalingrad through Seelow Heights to the Reichstag, executed prisoners and all. Neither half waters the other down, and the alternation between Pacific island horror and European spectacle gives roughly thirteen missions a breadth few single-front campaigns manage. Interstitial narration frames both arcs as a war memoir, and the framing lands with more emotional weight than the franchise usually attempts.
 
-The M1 Garand can be reloaded with remaining bullets, a historical detail that most shooters omit. This mechanical accuracy rewards weapon knowledge and demonstrates the developers' commitment to authenticity, with each firearm maintaining distinct handling characteristics that encourage experimentation.
+The soundtrack is the quiet revelation. Heavy, driving compositions that would not sound out of place beside the 2016 Doom reboot score the misery without ever turning it camp, and the contrast between pulverising riffs and quiet narration is one of the campaign's best effects. For a franchise whose music is usually competent wallpaper, this is a genuine step up, aggressive and memorably rhythmic.
 
-Flamethrower sequences deliver memorable variety, transforming pillbox assaults into visceral encounters that demonstrate the weapon's devastating effectiveness. The change in combat rhythm from standard rifles to close-range fire creates pacing diversity that sustains engagement across the campaign's mission structure.
+The Vendetta sniper mission is the structural highlight and, unfortunately, the clearest friction point. Set in ruined Stalingrad as a cat-and-mouse duel against a hidden enemy marksman, it builds wonderful tension through its quiet, wind-scoured streets, then squanders some of that promise with targets that are nearly impossible to see, a fail condition that punishes the player for a companion's death rather than any visible mistake, and opponents that occasionally seem to simply vanish. The core idea remains excellent; the execution leaves too much to guesswork.
 
-Frequent grenade spam creates frustrating difficulty spikes that test patience rather than skill. The enemy AI prioritises grenade deployment over tactical movement, resulting in explosive barrages that overwhelm positioning and undermine the otherwise satisfying gunplay mechanics.
+Mechanically, the campaign carries a handful of signatures worth celebrating. The M1 Garand's partial reload, forbidden by the vast majority of military shooters, works here and remains a small marvel of period accuracy. Flamethrower sections burn out bunkers with ugly intimacy, tank missions and a Black Cat flying-boat sortie break up the infantry work, and death cards scattered through the levels unlock co-op cheats. Enemies pour screaming from trees and tunnels, keeping every engagement close and desperate. The dismemberment and the reload quirk together give the combat a tactile identity nothing else in the series shares.
 
-Friendly identification proves difficult during intense firefights, with squad members blending into the environment during chaotic sequences. The lack of distinct visual markers creates confusion that occasionally leads to friendly fire incidents and interrupted movement during stealth sections.
+Friction accumulates in predictable and unpredictable places. Grenades are merciless and near-constant, the single most common cause of death throughout, a known trait of the era's difficulty design that nonetheless crosses into relentless. Squadmates and enemies wear near-identical uniforms, producing more friendly fire than any opposing soldier manages. The PC port lacks native controller support without a console command, offers no aim assist and an unadjustable sensitivity curve, and closes on twelve minutes of unskippable credits. Killing dogs, a recurring series grievance, returns here as well. None of it breaks the campaign; all of it chafes.
 
-Overall, the graphic violence and heavy soundtrack establish a Call of Duty entry with genuine atmospheric distinction, though grenade spam and poor friendly identification prevent the campaign from fully realising its brutal potential.
+Overall, this is the series at its darkest and most graphic, and the grit is earned rather than gratuitous: dismemberment, cruelty and a war-memoir frame give it a register no other entry matches, while the dual-campaign structure and the surprisingly heavy soundtrack hold the whole thing together. The grenade spam, the lookalike uniforms and the port's controller and credits oddities are irritants rather than wounds, and the campaign underneath them remains a grim, confident high point.
+

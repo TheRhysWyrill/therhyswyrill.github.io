@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-07-21
+date: 2023-10-23
 game_title: "Super Mario Odyssey"
 permalink: /reviews/super-mario-odyssey/
 verdict: recommended
@@ -8,20 +8,22 @@ platform: "Switch"
 release_year: 2017
 genre: "Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A brilliantly creative 3D platformer with a capture mechanic that constantly surprises, deep movement systems, and stunning world design, marred only by an excessively punishing final challenge level."
+summary: "A joyful, endlessly inventive 3D platformer whose possession sandbox and 880-moon economy outshine forced motion controls and a tedious optional gauntlet."
 image: "/assets/img/reviews/super-mario-odyssey.webp"
 ---
 
-Bowser kidnaps Princess Peach again, and Mario teams up with Cappy, a hat spirit whose sister was also kidnapped, to pursue Bowser across multiple kingdoms. The narrative remains deliberately minimal, with each kingdom providing context for its theme and mechanics. The world-building through kingdom design creates a constantly surprising experience.
+A light, breezy abduction chase sends a plumber and his sentient hat across a string of self-contained kingdoms, each with its own tone: a desert with a sunken-ice twist, a lake dome, a mechanical garden, a realistic city, an extinct-volcano kitchen and a Japanese-style castle. The framework exists less as plot than as connective tissue between Kingdoms, and the design knows it. Environmental gags and callbacks reward long-time followers of the series, from a courtyard painted in the style of an earlier era to arcade references tucked into the realistic city. Visually the game still looks vibrant and distinctly Mario despite its age. The whole package radiates confidence in what a collectathon platformer can be.
 
-The capture mechanic allows throwing Cappy to possess enemies and objects, granting new abilities that transform gameplay. Turning into a T-Rex, frog, or tank provides constant variety, with each capture offering distinct movement and attack patterns. The 999 Power Moons provide endless content for completionists seeking thorough exploration.
+Capture is the centrepiece. Possessing a T-Rex, a frog, a tank, a Zipper or an octopus serves as both traversal engine and puzzle language, and no other 3D Mario hands the player a possession sandbox of this scale. Enemies, plants and objects across every kingdom open themselves to capture, each with distinct movement and abilities that recontextualise familiar spaces. The mechanic never wears thin because the kingdoms keep finding new hosts for it. Few systems in the series' history do this much work while staying this legible.
 
-Movement systems reward mastery through long jumps, ground pounds, and cap throw combinations that create fluid traversal across kingdoms. Each kingdom offers distinct aesthetics, music, and mechanics that maintain engagement throughout the adventure.
+Kingdom design sustains the invention. Flat 2D pipe sections compress the platforming into pure classic form, while orientation-shifting 2D levels rotate the world around the character, an idea that dazzles in concept but produces queasy discomfort in execution. Inverted pyramids, hidden interiors and the New Donk City festival set-piece, capped by the festival song that lodges in the head for days, give the mid-game its emotional peak. The soundtrack deserves particular credit: the festival track alone elevates its whole kingdom sequence into one of the series' best moments.
 
-The Darker Side level presents an extremely punishing gauntlet combining every mechanic with no checkpoints. This brutal challenge blocks 100% completion and demands perfect execution across extended sequences.
+Controls are tight and responsive, with the movement engine tuned so well that even basic jumps feel expressive. The one caveat is motion: certain moons and races require shaking the pad, and there is no button substitute for those specific challenges. HD-rumble dig-for-buried-moons hunts fare worse, a gimmick that never communicates what the vibration is supposed to mean and turns discovery into guesswork. Both are small blemishes on an otherwise superb-feeling game.
 
-Motion controls occasionally frustrate during precision platforming, requiring specific gestures that conflict with traditional input methods. Camera issues in certain sections limit visibility during complex manoeuvres, though these moments remain brief.
+The 880-moon economy treats a full clear as roughly two playthroughs' worth of content. Beating the credits opens moon rocks and roughly half the total collection, making the post-game genuinely meaty rather than a token epilogue: rematch pipes, hint-art hunts, moon rocks and an achievement board give the tail real structure. Wandering design occasionally works against pacing, with coins hiding where power moons appear to be, and a handful of minigame moons (the desert trace-walk, fishing, the seaside volleyball with its hundred-bounce demand) drag more than they reward.
 
-Kingdom-specific soundtracks enhance atmosphere through distinct musical identities that complement visual design. The vibrant aesthetic maintains consistent quality across diverse environments, from desert ruins to tropical islands, each with its own visual personality.
+The Darker Side gauntlet is the campaign's most sadistic stretch. A checkpoint-free challenge level that fails into a completely different area, demanding hundreds of attempts, pushes past difficulty into tedium; one checkpoint per section would have fixed it entirely. The Wooded Kingdom rolling moon earns similar criticism as a punishing rather than clever challenge. Toadette's achievement-moon payout loop, with its endless unskippable dialogue animation, grinds the late completion push to a crawl.
 
-Overall, the capture mechanic and world design deliver a brilliantly creative 3D platformer with deep movement systems, yet the Darker Side level and motion control frustrations prevent the experience from reaching perfection.
+Three smaller oddities round out the picture. The most expensive cosmetic outfits cost 10,000 coins each with no practical benefit and no good grinding method. The Japanese-castle kingdom aesthetic never quite reconciles with its occupant. And a balloon-photo side mode sits behind a paid online subscription, locking out content that needed no such gate. None threatens the core; all irritate at the margins.
+
+Overall, this is a joyful and endlessly inventive 3D Mario whose capture sandbox, kingdom variety, festival set-piece and substantial post-game outweigh its forced motion controls, rumble-gimmick hunts and a checkpoint-free final gauntlet that mistakes tedium for difficulty. Beating the credits merely unlocks half the journey, and almost every step of the rest is worth taking. The series' most creative entry in decades.

@@ -1,25 +1,29 @@
 ---
 layout: review
-date: 2026-08-16
+date: 2026-08-15
 game_title: "Contra III: The Alien Wars"
 permalink: /reviews/contra-3-the-alien-wars/
 verdict: recommended
 platform: "SNES"
 release_year: 1992
-genre: "Action, Shooter"
+genre: "Run and Gun"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A significant visual upgrade over its predecessors and intense bullet hell patterns create a demanding run-and-gun experience, though an awkward Mode 7 bike encounter and cheat-related instability undercut the otherwise relentless momentum."
+summary: "A technical showpiece whose Mode 7 stages and relentless escalation earn its standing, though dense bullet patterns and mandatory D-pad precision punish the unprepared."
 image: "/assets/img/reviews/contra-3-the-alien-wars.webp"
 ---
 
-Alien forces have returned, and the response is immediate gunfire. From the opening stage, dense bullet patterns demand constant repositioning, with projectiles filling the screen at densities that recall bullet hell shooters. The visual leap over Contra and Super C is striking: detailed sprite work, fluid animations, and biomechanical Giger-inspired environments establish a tone that escalates from military action into grotesque alien landscapes across eight varied stages.
+Earth burns in the year 2636, and the alien invasion sweeping its cities is an excuse for the finest arcade spectacle the 16-bit era produced. Narrative barely exists; atmosphere does the work instead, moving from burning urban warzones to corridors of biomechanical horror. The set-up is pure arcade action, and the game spends every stage justifying it. Very little on the SNES in 1992 matched this pace.
 
-Spread shot, laser, flamethrower, homing missiles, and the devastating power bomb round out an arsenal that rewards experimentation. Holding R to stand still, a mechanic absent from previous entries, sharpens aim for precision shots during bullet-heavy sequences. Between standard side-scrolling stages, Mode 7 pseudo-3D sections rotate the camera around turret positions, shifting the gameplay from horizontal rush to stationary defence.
+Mechanically this is the series refined to a sharp edge. Stand-still aiming via the shoulder button fixes the old aiming vagueness, wall climbing adds vertical routes, and weapon cycling spreads choice across the spread gun, homing missile, laser and flamethrower. Screen-clearing power bombs arrive as panic buttons, and dual-wielding doubles the arsenal. Against the first two entries the improvement is sweeping, and the reputation as the series' best rests on mechanics rather than nostalgia.
 
-Enemy pop-in remains a persistent issue, with threats materialising on screen without warning and demanding reflexes rather than pattern recognition. Small projectiles blend into detailed backgrounds, compounding the difficulty during dense encounters. These frustrations persist despite the game's tighter controls, creating friction that interrupts the otherwise responsive pacing.
+The Mode 7 top-down stages are the showpiece. Rotating pseudo-3D battlegrounds play like nothing else on the console, a perspective shift so dramatic it recalls contemporary role-playing presentations while staying wedded to gunfire. Varied stage types keep the campaign off-balance in the best way: on-foot gauntlets, a bike stage, a chopper stage and a missile platform each impose their own rules. No two consecutive levels play alike.
 
-The boss gauntlet culminates in a sequence of multi-phase encounters requiring distinct strategies for each encounter. From biomechanical monstrosities to mechanical war machines, each boss demands mastery of a different weapon and movement pattern. The escalating challenge across these final stages tests every skill the game has taught.
+The missile-jumping platform sequence late in the campaign is the hardest stretch by far. Platforms, projectiles and falling hazards arrive simultaneously, demanding a juggling act of positioning while the screen fills with hostile fire. It asks more of the D-pad than anything else in the cartridge, and one-hit deaths send progress back to checkpoints. Memorisation-heavy patterns reward repetition, and the chaos resolves only through learning.
 
-Mode 7 bike levels introduce awkward platforming between missiles while under constant fire, disrupting the otherwise fluid stage design. That jarring shift in perspective clashes with the tight side-scrolling mechanics that anchor the rest of the campaign.
+The Giger-esque alien aesthetic of the later levels transforms the tone entirely. Organic corridors replace burning cities, and the art direction commits fully to biomechanical dread without losing clarity. The multi-boss finale stacks encounters end to end, each demanding a different weapon choice. Escalation feels architectural rather than arbitrary: every stage raises the ceiling set by the last, and the boss gauntlet paces itself so each fight introduces a twist the previous encounter never prepared. Sound design tracks the visual shift, with industrial percussion giving way to organic, echoing tones deep in the hive. Presentation and difficulty climb the same curve.
 
-Overall, the visual leap, diverse stage mechanics, and relentless bullet patterns create a run-and-gun experience that demands precision and rewards persistence, though the Mode 7 bike encounters and occasional enemy pop-in create friction that interrupts the otherwise responsive momentum.
+Bullet-hell density cuts both ways. The sheer volume of projectiles is the game's thrill and its chief friction at once, catching even experienced hands off guard when patterns compress. Mandatory D-pad precision adds another layer, since analogue-stick habits translate poorly to directional input this exacting. One-hit deaths make the density unforgiving. The difficulty is honest, but it never relents.
+
+The true ending locked behind the hardest difficulty follows a Konami tradition of the era, giving mastery a concrete goal. Structurally the campaign is built to be replayed: six stages, each learnable to a point where cheats become unnecessary. That design choice converts brevity into depth, with repeated attempts revealing patterns rather than exhausting content. Few arcade conversions rewarded practice this deliberately.
+
+Overall, the mechanical refinements, Mode 7 showmanship and relentless pacing validate the game's standing as a series high point and one of the SNES's defining action titles. Dense projectiles and exacting input demands gate the enjoyment behind genuine skill. Mastery is the point, and the ride to it stays spectacular from the first burning city to the final hive. As a statement of what the console could do at full throttle, it remains the benchmark its successors were measured against.

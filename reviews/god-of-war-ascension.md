@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-06-29
+date: 2025-12-11
 game_title: "God of War: Ascension"
 permalink: /reviews/god-of-war-ascension/
 verdict: recommended
 platform: "PS3"
 release_year: 2013
-genre: "Action, Adventure"
+genre: "Action, Beat 'em up"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Stunning PS3 visuals and satisfying elemental combat deliver a prequel worth experiencing, though camera issues and limited weapon variety undermine the presentation."
+summary: "A visually dazzling, puzzle-forward prequel held back by the series' thinnest arsenal, an early upgrade ceiling and one notorious bug."
 image: "/assets/img/reviews/god-of-war-ascension.webp"
 ---
 
-Three weeks after imprisonment by the Furies, Kratos seeks to break his blood oath to Ares whilst navigating the consequences of his rage. The prequel setting establishes a vulnerable Kratos bound by divine契约, grounding the hack-and-slash spectacle in psychological torment.
+A warrior imprisoned and tortured by the Furies for breaking his blood oath to Ares tears free and fights his way across Greece, from the village of Kirra through the oracle's temple to the island of Delos and Archimedes' unfinished statue. As a prequel it catches its protagonist in a rare state of calm, before the tragedy that defines him, and the quieter register suits the material. The flashback-heavy structure hops restlessly between timelines with chapter cards marking the gaps, an odd rhythm that nevertheless resolves satisfyingly. Terrence C. Carson returns as the original voice, anchoring continuity. Visually the game is a small marvel, running on PS3 hardware that deserves far less credit than the results command, with cutscenes that hand off to gameplay so seamlessly the join is invisible.
 
-The Blades of Chaos anchor combat with four elemental variations: fire, ice, lightning, and soul. Each element transforms attack properties and rage mechanics, with the lightning variant delivering particularly satisfying crowd control.
+The amulet of Uroboros is the headline toy, granting power over decay and restoration across time. It drives the water-wheel and gear-chain sequences and culminates in the repair of Archimedes' statue, and the puzzles built around it are the most distinctive level design in the Greek saga. The Oath Stone, which creates a clone for paired switch work, joins it early on. Both are delightful contraptions whose usefulness regrettably fades long before the credits, the clone mechanic in particular dissolving into irrelevance after its introduction.
 
-Visual fidelity pushes PS3 hardware to its limits, with seamless transitions between cutscenes and gameplay demonstrating Santa Monica Studio's cinematic mastery. Architecture, character models, and particle effects maintain visual consistency during combat-heavy sequences that would expose lesser engines.
+Traversal mostly happens without button input: moving toward a wall sends the character climbing automatically, eliminating the mash-to-climb tedium of earlier entries. A new ranged grab extends the moveset usefully, letting enemies be seized from a distance rather than closing to arm's length first. Navigation aids communicate through camera angles alone, a pre-yellow-paint approach that still guides clearly. These small quality-of-life decisions age far better than the hardware they run on.
 
-The Amulet of Oraoros enables time decay and healing manipulation for puzzle-solving, creating moments where rewinding environmental decay reveals hidden pathways. This mechanic distinguishes Ascension from other entries, though its application narrows as the campaign progresses and puzzle complexity plateaus.
+The three-element blade system is engaging on its own terms. Fire, ice and lightning swap on the D-pad, and the shared rage meter fills at different rates depending on the element, fastest with fire. But the electricity underperforms noticeably, sounding impressive while dealing little actual damage. More fundamentally, the arsenal never grows: no new permanent weapons arrive across the whole campaign, and the disposable pickups (club, spear, sling, shield, sword) each carry a single attack pattern. It is the thinnest weapon variety of the entire classic series.
 
-Camera behaviour becomes problematic during multi-enemy encounters, pulling back to show the battlefield whilst obscuring Kratos's position. The Hades element causes enemies to despawn when launched too high, forcing mandatory redo sections.
+Progression compounds the problem. Both health and magic upgrade trees max out absurdly early, roughly at the game's midpoint, removing any sense of growth for the entire second half. Enemies that turn invulnerable during their rage phases rank among the least enjoyable foes, and quick-time events demand instant reactions while occasionally dispensing tips that do not apply. The camera, panning out in crowded fights, loses track of the player entirely.
 
-Disposable weapons (clubs, slings, spears, shields) offer one-hit attack patterns that fail to meaningfully expand the combat repertoire. Health and magic max out well before the campaign's conclusion, diminishing the satisfaction of progressive character growth across increasingly challenging encounters.
+The furnace houses the game's worst technical failure: Hades-knockback launches flying enemies too high to stun, letting them drop aggro and despawn and forcing full room re-runs. The Trial of Archimedes follows as a brutal difficulty spike, wave after wave of tanky opponents with disproportionate health that suggests missing upgrades rather than a fair test. PS3 load times drag, and texture pop-in blurs the frame at the worst moments. Against all this, the checkpoint system itself is genuinely well judged, even as its relentless autosave popup overstays its welcome on screen.
 
-Overall, the elemental combat system and visual achievements deliver a technically impressive prequel that holds its own within the franchise's legacy. Camera frustration, enemy despawn issues, and limited weapon variety prevent the experience from matching its strongest entries, yet the core hack-and-slash satisfaction remains intact.
+Overall, this is a shorter, shinier and more gimmick-driven entry whose visuals, time-amulet puzzles and auto-climbing traversal outweigh its threadbare arsenal, early upgrade ceiling and one notorious bug. The flashback structure lands, the calmer protagonist register works, and the ending restores the memory of the family's murder with real weight. Flawed but confidently made, it closes the Greek era on a warm note.

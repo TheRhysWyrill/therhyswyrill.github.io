@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-06-25
-game_title: "Hidden Around the World"
+date: 2026-04-11
+game_title: "Hidden Around The World"
 permalink: /reviews/hidden-around-the-world/
 verdict: recommended
 platform: "PC"
-release_year: 2024
-genre: "Adventure, Casual"
+release_year: 2026
+genre: "Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Massive diorama scenes packed with hundreds of objects deliver satisfying exploration, though the disconnect between found items and their real-world locations squanders the world-tour premise."
+summary: "A massively scaled hidden-object sequel whose snapshot recreation mode and earworm soundtrack outweigh item lists that ignore the world locations they are placed in."
 image: "/assets/img/reviews/hidden-around-the-world.webp"
 ---
 
-Dense diorama scenes of real-world cities form the backbone of this hidden-object experience. Twelve levels span locations from New York to Tokyo, each containing 15 to 21 objects across hand-drawn environments. A risk-free gacha shop system provides post-game progression.
+A hidden-object sandbox spanning twelve world locations (Paris, Italy, London, Tokyo, Delhi, Beijing, New York, Mexico, Rio, Egypt, an African savannah and Sydney), each rendered in a cheerful crayon-drawn art style that rewards zooming in close. The scale is the headline: levels here are enormous compared to the predecessor, with twelve bigger stages replacing twenty-four condensed ones and running about an hour longer overall. The first level alone is a doozy, and the world-travel framing gives the campaign a shape its predecessor lacked. Pure tourism, no story, and none needed.
 
-Exploration rewards meticulous scanning of every corner, with snip puzzles breaking up the rhythm. Hidden fairies tucked into each level add an optional challenge, though locating the final fairy demands extensive scanning. The gacha system guarantees no duplicates until completion.
+The snapshot recreation mode is the game's best feature, composing scenes from found objects to match a target photograph, and every one across all twelve levels rewards the effort. Fairy hunting adds a second collectible layer, five sparkles per level, easiest spotted at night when their glow shows and found by moving objects that conceal them. The day/night toggle becomes a strategic tool rather than a cosmetic one, even though the music does not shift with it as it did before. Nothing else in the genre quite combines photo composition, fairy hunting and a coin economy this way. The snaps alone justify the price of entry.
 
-New York City exemplifies the game's biggest missed opportunity: objects found bear no relation to their locations. Baseballs and red bags appear across multiple levels regardless of setting, undermining the world-tour premise. The Statue of Liberty, iconic to New York, goes entirely unrepresented in the object pool.
+The central design flaw is thematic: the objects hunted have no connection to the locations visited. New York is the headline missed opportunity, where the Statue of Liberty is not among the searchable items and nothing on the lists reflects local culture. Every location's identity is purely cosmetic, which undercuts the world-travel premise at its foundation. The critique surfaces in the first hour and remains the closing verdict. A landmark-hint structure or culturally tied item lists would transform the whole game.
 
-Fairy hunting reaches frustrating peaks in the later levels, with some requiring minutes of pixel-level scanning. The absence of a hint system compounds this, offering only full answers after extended searching rather than graduated guidance. Bulk ticket purchasing is missing from the gacha shop, turning post-game completion into repetitive clicking.
+Item placement is deliberately obtuse rather than observation-testing: objects half-cut-off behind trees, tiny items in plain sight, and one fairy convincingly hidden indoors behind a window. No hint system exists beyond a reveal button, a contrast with the hint-based design of the genre's better exemplars. The picture-mode camera is fussy, with objects cut off at the frame edge, inverted-feeling zoom and items flipping the wrong way round because the controls work backwards in photo mode. Brute-force clicking remains the foolproof strategy throughout, which says something about the difficulty curve. Observation skill matters less than patience.
 
-Visual quality varies across locations, with some saturation filters appearing jarring against the otherwise charming art style. Despite these issues, the sheer density and environmental detail in each scene sustains engagement across the full duration.
+The post-game gacha loop converts earned coins into cosmetics with guaranteed wins until maxed out, a satisfying collection system ground to completion after the credits. Ticket purchasing cannot be bulk-bought, however, turning the grind into one-at-a-time clicking that qualifies as genuine agony. Visual filters look weirder than they look attractive. The coin-to-gacha economy feeds an online level editor, giving the collection a creative destination. The loop works; the shop interface does not.
 
-Comparison to the predecessor reveals a trade-off: larger scenes and more content come at the cost of object-location relevance. The scale and detail of each diorama remain compelling, even when the items within them feel disconnected. Twelve levels provide substantial exploration value despite the object-relevance shortcoming.
+The soundtrack is catchy, varied and basic in the best way, just catchy enough to avoid annoyance across a long campaign, and it invites humming along throughout. Cheery animals, clickable for money alongside chests, keep the scenes alive. Money hunting doubles as a micro-game inside every level's main hunt. The audio identity is a genuine step up and a reason the long runtime never sours. It sticks long after the credits.
 
-Overall, massive diorama scenes and a risk-free gacha system deliver a hidden-object experience with satisfying exploration depth. The disconnect between found objects and their real-world locations undermines the world-tour premise, preventing the scale from reaching its full potential.
+Overall, the snapshot recreation mode, the enormous level scale and the earworm soundtrack make this a very fun hidden-object romp whose world-travel premise is crying out for objects that actually belong to the places visited. Random item lists, hint-free maddening placement, backwards photo-mode controls and a one-ticket-at-a-time shop grind hold it back. It lands just below its predecessor, but both are worth the time.

@@ -1,6 +1,6 @@
 ---
 layout: review
-date: 2026-07-09
+date: 2025-08-26
 game_title: "Gears of War: Reloaded"
 permalink: /reviews/gears-of-war-reloaded/
 verdict: not-sure
@@ -8,20 +8,20 @@ platform: "PC"
 release_year: 2025
 genre: "TPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "Active reload timing and Cole Train's personality shine, though frustrating AI companions and missing shoulder-switching create friction throughout."
+summary: "A remaster of a remaster whose underlying campaign still shines through active reloads and nostalgic atmosphere, undermined by untouched AI, traversal jank and a marginal visual uplift."
 image: "/assets/img/reviews/gears-of-war-reloaded.webp"
 ---
 
-Marcus Phoenix and Delta Squad deploy the Resonator to map Locust tunnels, navigating Krill-infested nights and fortified strongholds in a campaign that defined the cover-shooter genre. The premise remains compelling fifteen years on, with new cutscenes replacing the original in-engine sequences.
+A broken soldier is freed from a cell, a squad pursues a resonator through ruined cities, and the campaign that defined a generation of cover shooters arrives here wrapped in its second remaster. The structure is intact from the original: the prison opening, a mansion of horrors, darkness stalked by flying horrors, a Berserker chase and a bomb delivered underground all play as remembered beats rather than surprises. The atmosphere of memory is the campaign's real subject, and the nostalgia lands exactly as designed. What the packaging adds is the question the whole release circles: whether a remaster of a remaster justifies existing at all.
 
-Active reload timing drives combat with mechanical precision, rewarding button presses at the optimal window with increased damage output and faster cycling. The chainsaw bayonet delivers visceral close-quarters payoffs, though its reliability falters under pressure.
+The core loop remains the series' best argument for itself. Active reload timing for damage boosts stays one of the most satisfying mechanics in shooters, the chainsaw bayonet retains its absurd charm even when it fails more than it connects, and grenades plug the enemy spawn holes as effectively as ever. Cover-based shooting is polished to a mirror shine, and the split-path structure offers light co-op perspective value. The combat underneath the remaster needs nothing; it never did.
 
-Cole Train's enthusiastic exclamations and unwavering optimism provide consistent levity across the campaign. His personality elevates sequences that might otherwise feel formulaic, with voice lines punctuating combat encounters and traversal sections alike.
+Nostalgia does the heavy lifting the remaster should have done. The Krill darkness sections still unsettle, Carmine's fate still stings, Cole Train still steals every scene, and the Berserker's wall-smashing pursuit remains a masterclass in staged panic. Character models with oversized torsos and tiny heads get affectionate ribbing rather than criticism, and the door-kicking bravado lands as camp the game fully understands. The campaign's emotional register, camp and dread in equal measure, survives two decades of reissues completely intact.
 
-The Junker truck section introduces vehicular combat with a UV turret for Krill defence, though the vehicle clips through objects and stalls on terrain. Berserker encounters demand the time-limited Hammer of Dawn, creating tense but punishing sequences.
+The technical polish is where the packaging fails its product. Companion AI is untouched since the original: allies wander into open ground, get stuck in doorways, and go down repeatedly from the first act through the final boss, a flaw the remaster's marketing implied would be addressed and never was. Stuck-on-geometry traversal jank, cars that barely move, and curbs requiring a sprint are surprising in a 2025 re-release, and enemy pop-in persists alongside one-shot Boomer damage and untelegraphed ambushes. Death reloads run slow, and the new chapters' co-op-first revival assumption leaves solo players dead with no recourse.
 
-AI companion behaviour undermines cooperative pacing, with Dom frequently getting stuck on geometry or charging recklessly into enemy fire. The absence of a shoulder-switching toggle limits tactical flexibility during firefights, forcing awkward camera management in confined spaces.
+The added content is thin. Five extra chapters, including a Brumak fight, and fully rendered cutscenes contribute roughly an hour at most, and the Brumak encounter itself is more frustrating than fun, killing quickly and offering no shoulder-swap aiming to manage its sweeps. The visual uplift over the previous remaster is marginal, screen-space reflections and minor passes on an engine two decades old, and the sensible alternative (a patch to the existing edition) goes unmade. The double-dip structure invites comparison with other publishers' re-release habits, and the comparison flatters nobody.
 
-Linux compatibility justifies the release for those previously locked out of the franchise, though the minimal visual improvements over Ultimate Edition raise questions about the standalone necessity.
+The accessibility argument is the release's genuine defence. Previous packaging locked the campaign to a proprietary platform that excluded whole platforms entirely, and this release finally opens it to everyone else, which for many is the only reason this version exists at all. As a way in, it is the best available; as a product, it is an unnecessary game carrying an excellent one. Both statements are true simultaneously, and the review has to hold them together.
 
-Overall, the active reload system and Cole Train's charisma deliver mechanical satisfaction and character charm, though dated AI behaviour and missing quality-of-life features undermine the remaster's purpose. The release serves non-Windows platforms but struggles to justify its existence beyond that niche.
+Overall, this is an unnecessary remaster of a still-excellent game, whose active reloads, nostalgic dread and camp bravado remain as satisfying as ever underneath packaging that adds almost nothing. Untouched companion AI, traversal jank, slow death reloads and a marginal visual uplift are the costs, and the added chapters are an hour of frustration. Worth it only if it is the only way in; for the platforms it finally opens the door to, that is enough.

@@ -1,27 +1,27 @@
 ---
 layout: review
-date: 2026-08-26
+date: 2026-08-25
 game_title: "Spirit Roots"
 permalink: /reviews/spirit-roots/
-verdict: not-sure
+verdict: not-recommended
 platform: "PC"
 release_year: 2019
-genre: "Action, Platformer"
+genre: "Action, Adventure, Platformer"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
-summary: "A Rayman-inspired aesthetic and four competent worlds establish a promising platformer, though ice physics that border on the unplayable and a completionist bug undermine the experience at its most demanding."
+summary: "A colourful Rayman-adjacent platformer wrecked by momentum-locking ice physics, blind hazards, a slide-attack that kills and a completion-busting bug."
 image: "/assets/img/reviews/spirit-roots.webp"
 ---
 
-A planet breaking apart forces inhabitants across forbidden borders in this 2D side-scrolling platformer. Five distinct worlds offer visual variety, from village landscapes to frozen tundra. Rayman-inspired aesthetics establish a charming first impression. What follows varies wildly depending on which world is being traversed.
+A planet shatters after a treaty between races collapses, and a lone traveller crosses forbidden borders to return to family: a thin post-apocalyptic frame delivered in one loud opening cutscene and never referenced again. Five themed worlds of ten levels each follow, spanning a village, desert, swamp, dark woods and an ice kingdom, with a boss closing each world. The narrative exists purely as scaffolding, and the game never pretends otherwise.
 
-The first four worlds deliver competent platforming across village, desert, swamp, and gloomy environments. Each area introduces distinct visual themes and enemy types. Shooting and melee attacks provide combat options, though the attack sliding forward becomes a recurring frustration during precision sections. The variety sustains interest through these opening worlds.
+The art direction earns its praise. Enemy designs carry personality across the first four worlds, and the container-based aesthetic gives levels a Rayman-adjacent charm that photographs far better than it plays. Colour palettes shift convincingly between biomes, and the visual craft is the strongest argument the game makes for itself.
 
-The Kingdom of Ice introduces physics that border on the unplayable, with invisible hazards blending into the background. Pixel-perfect precision demands combine with visual clarity issues. Attack sliding compounds the problem. What begins as a competent platformer collapses during this final stretch.
+Combat alternates a sword slash and a gun, and the slide-forward attack animation turns every offensive action into a gamble: attacking moves the character forward into enemies and hazards, making it the single most common cause of death across the campaign. The gun's periodic invincibility trivialises boss fights in the opposite direction, so combat manages to be simultaneously lethal by accident and effortless by design.
 
-Coin and enemy completion tracking tie together through a system that can lock players out of backtracking for missed collectibles. An enemy respawn bug in the swamp area robbed 100% completion, discouraging thorough exploration. No visual feedback confirms checkpoint activation, leaving progress uncertain.
+Blind hazards define the level design. Spikes, saw blades and dotted platforms blend into the background art, forcing trial-and-error deaths on jumps where nothing visible marks the danger, and the difficulty reads as unfair rather than demanding. The labelling compounds the confusion: the easy setting promises infinite health points but the character still dies in one hit, while normal's three hearts behave as three lives, and neither behaves as its label suggests.
 
-Difficulty settings present misleading descriptions, with normal mode offering more forgiveness than easy. Boss fights rely on a shooting mechanic that grants temporary invincibility, reducing encounters to endurance tests rather than skill challenges. The difficulty curve feels inverted, undermining the challenge progression.
+The swamp soft-lock bug robs full completion outright: an enemy respawns after a level ends, voiding the kill count permanently, and once that happens the incentive to chase hundred-per-cent clears collapses. Checkpoints give no visual or audio feedback, so whether one registered stays unknowable, and the coin economy that gates world unlocks loses its meaning when full credit can vanish to a bug.
 
-Rayman-like aesthetics charm throughout, with pastel backgrounds and fluid animations maintaining visual appeal. Swamp levels introduce confusing multi-path layouts that obscure progression routes. The five worlds provide distinct visual identity. Invisible hazards and blending colours undermine visual clarity during critical platforming sequences.
+The ice kingdom is where the design fails completely. Momentum locks into one direction with no ability to steer, and unavoidable falling icicles turn traversal into a lottery, with a single section demanding upwards of fifteen attempts. Momentum-locking ice physics of this severity are hard to recall in any other platformer, and the world stands as some of the worst platforming design in recent memory.
 
-Overall, the first four worlds deliver a competent Rayman-inspired platformer with charming aesthetics. The Kingdom of Ice's physics and invisible hazards transform the final stretch into frustration that undermines the earlier quality.
+Overall, the pleasant art and strong enemy designs cannot compensate for blind hazards, a lethal slide-attack, completion-busting bugs and an ice world built on physics that punish the player for existing. The coin-gated progression and misleading difficulty labels only deepen the frustration. A colourful shell around design that fights its own player at every turn.
