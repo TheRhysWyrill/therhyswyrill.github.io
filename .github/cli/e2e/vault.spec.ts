@@ -16,7 +16,7 @@ test('a shared channel URL activates the right tab', async ({ page }) => {
 
 test('an invalid channel param is ignored and the default stays active', async ({ page }) => {
   await page.goto(`${VAULT_URL}?channel=nope`);
-  await expect(page.locator('.tab-btn.active')).toHaveText(/TheRhysWyrill/);
+  await expect(page.locator('.tab-btn.active')).toHaveText(/(TheRhysWyrill|TRW) \(Complete Journeys\)/);
   await expect(page).not.toHaveURL(/channel=/);
 });
 

@@ -390,6 +390,7 @@ html {
 .archive-card-inline-date {
     margin-top: auto;
     display: flex;
+    justify-content: center;
     align-items: center;
 
     span {
@@ -1350,31 +1351,40 @@ body:has(.compat-page) {
             }
 
             /* Info pills: each type gets its own tint so the row reads at a
-               glance — genre violet, year sky, written-date gold. */
+               glance — genre violet, year sky, written-date gold. The row is
+               single-line: pills never wrap internally (ellipsis via title
+               tooltip on hover), the genre pill shrinks, the year never does. */
             .archive-card-meta {
                 display: flex !important;
-                flex-wrap: wrap !important;
+                flex-wrap: nowrap !important;
                 align-items: center !important;
-                gap: 5px !important;
+                gap: 4px !important;
             }
 
             .archive-card-meta span.archive-card-pill {
                 display: inline-block !important;
                 font-size: 10px !important;
                 font-weight: 700 !important;
-                padding: 2px 9px !important;
+                padding: 2px 8px !important;
                 border-radius: 999px !important;
-                letter-spacing: 0.4px !important;
+                letter-spacing: 0.3px !important;
                 text-transform: uppercase !important;
+                white-space: nowrap !important;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+                min-width: 0 !important;
+                max-width: 100% !important;
             }
 
             .archive-card-meta span.archive-card-pill--genre {
+                flex: 0 1 auto !important;
                 color: #cbb6ff !important;
                 background: rgba(145, 70, 255, 0.18) !important;
                 border: 1px solid rgba(145, 70, 255, 0.42) !important;
             }
 
             .archive-card-meta span.archive-card-pill--year {
+                flex: 0 0 auto !important;
                 color: #8ed6fb !important;
                 background: rgba(56, 189, 248, 0.15) !important;
                 border: 1px solid rgba(56, 189, 248, 0.38) !important;
