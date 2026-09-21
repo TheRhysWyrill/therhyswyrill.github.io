@@ -2,14 +2,14 @@
 layout: review
 date: 2026-08-12
 game_title: "Tom & Jerry in House Trap"
-permalink: /reviews/tom-jerry-in-house-trap/
+permalink: /reviews/tom-and-jerry-in-house-trap/
 verdict: recommended
 platform: "PS1"
 release_year: 2000
 genre: "Action, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
 summary: "A split-screen house-wide trap duel with cheerfully offensive hazards, undermined only by unreliable melee and a missing item-drop button."
-image: "/assets/img/reviews/tom-jerry-in-house-trap.webp"
+image: "/assets/img/reviews/tom-and-jerry-in-house-trap.webp"
 ---
 
 A cartoon cat and mouse wage house-wide warfare across fifteen levels of split-screen slapstick, and the design treats the entire home as a munitions depot. Kitchen appliances become ambush weapons, garden paths turn into choke points, and the duel never leaves the arena of the household. Levels borrow their names from classic episodes, and the tone never strays from Saturday-morning chaos. The licensed curio of its era, this one built something genuinely distinct out of its property.
