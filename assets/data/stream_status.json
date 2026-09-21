@@ -1,16 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-09-20T23:17:10Z",
-  "stream": {
-    "title": "A Deal With the Devil | Devil's Hunt",
-    "game": "Games + Demos",
-    "viewers": 1,
-    "startedAt": "2026-09-20T22:38:14Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-09-21T01:13:35Z",
+  "stream": null,
   "latestVod": {
     "id": "2879741865",
     "title": "A Deal With the Devil | Devil's Hunt",
     "createdAt": "2026-09-20T22:38:19Z",
-    "lengthSeconds": 2331
+    "lengthSeconds": 2820
   }
 }
