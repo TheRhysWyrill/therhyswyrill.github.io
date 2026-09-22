@@ -1,16 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-09-22T00:55:00Z",
-  "stream": {
-    "title": "Run, Jump, Flip the World | LOVE ETERNAL",
-    "game": "Games + Demos",
-    "viewers": 1,
-    "startedAt": "2026-09-21T22:25:51Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-09-22T05:52:46Z",
+  "stream": null,
   "latestVod": {
     "id": "2880555156",
     "title": "Run, Jump, Flip the World | LOVE ETERNAL",
     "createdAt": "2026-09-21T22:25:56Z",
-    "lengthSeconds": 8944
+    "lengthSeconds": 9080
   }
 }
