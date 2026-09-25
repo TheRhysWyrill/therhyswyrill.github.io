@@ -1,11 +1,6 @@
 {
   "isLive": false,
-  "checkedAt": "2026-09-25T04:50:14Z",
+  "checkedAt": "2026-09-25T19:18:38Z",
   "stream": null,
-  "latestVod": {
-    "id": "2883115256",
-    "title": "Finishing Medal of Honor | Homefront to Follow",
-    "createdAt": "2026-09-24T22:27:24Z",
-    "lengthSeconds": 18770
-  }
+  "latestVod": null
 }
