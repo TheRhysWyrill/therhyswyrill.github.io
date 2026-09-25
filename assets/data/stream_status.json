@@ -1,6 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-09-25T19:18:38Z",
-  "stream": null,
-  "latestVod": null
+  "isLive": true,
+  "checkedAt": "2026-09-25T22:30:58Z",
+  "stream": {
+    "title": "Fighting Through History's Worst Days | Darkest of Days",
+    "game": "Games + Demos",
+    "viewers": 1,
+    "startedAt": "2026-09-25T22:23:04Z"
+  },
+  "latestVod": {
+    "id": "2883985030",
+    "title": "Fighting Through History's Worst Days | Darkest of Days",
+    "createdAt": "2026-09-25T22:23:09Z",
+    "lengthSeconds": 469
+  }
 }
