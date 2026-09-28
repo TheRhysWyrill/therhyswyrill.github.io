@@ -1,11 +1,6 @@
 {
   "isLive": false,
-  "checkedAt": "2026-09-28T07:45:12Z",
+  "checkedAt": "2026-09-28T16:03:41Z",
   "stream": null,
-  "latestVod": {
-    "id": "2885868345",
-    "title": "Fighting Through History's Worst Days | Darkest of Days",
-    "createdAt": "2026-09-27T21:38:19Z",
-    "lengthSeconds": 16950
-  }
+  "latestVod": null
 }
