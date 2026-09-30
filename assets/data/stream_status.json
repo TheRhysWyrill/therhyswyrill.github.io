@@ -1,11 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-09-30T02:06:17Z",
-  "stream": null,
+  "isLive": true,
+  "checkedAt": "2026-09-30T23:45:21Z",
+  "stream": {
+    "title": "Four Worlds, Four Rules | Home, Four Sided Fantasy, Forest Grove, Gunstoppable",
+    "game": "Games + Demos",
+    "viewers": 1,
+    "startedAt": "2026-09-30T21:50:43Z"
+  },
   "latestVod": {
-    "id": "2887516136",
-    "title": "Five Games, Five Very Different Ideas | Samorost 1, Samorost 2, Samorost 3, Home, Four Sided Fantasy",
-    "createdAt": "2026-09-29T21:13:18Z",
-    "lengthSeconds": 12770
+    "id": "2888404005",
+    "title": "Four Worlds, Four Rules | Home, Four Sided Fantasy, Forest Grove, Gunstoppable",
+    "createdAt": "2026-09-30T21:50:48Z",
+    "lengthSeconds": 6873
   }
 }
