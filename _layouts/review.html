@@ -2,6 +2,80 @@
 layout: default
 ---
 
+{% comment %}
+  Structured data (schema.org) built from the review's front matter so search
+  engines see a proper Review of a VideoGame: verdict maps onto a 5-point
+  rating (recommended=4, not-sure=3, not-recommended=2).
+{% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "headline": {{ page.game_title | append: " review" | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "url": {{ site.url | append: page.url | jsonify }},
+  "mainEntityOfPage": {{ site.url | append: page.url | jsonify }},
+  "author": { "@type": "Person", "name": "Rhys Wyrill" },
+  "publisher": { "@type": "Organization", "name": {{ site.title | jsonify }} },
+  "reviewBody": {{ content | strip_html | normalize_whitespace | jsonify }},
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": {% if page.verdict == "recommended" %}4{% elsif page.verdict == "not-sure" %}3{% else %}2{% endif %},
+    "bestRating": 5,
+    "worstRating": 1,
+    "description": {{ page.verdict | replace: "-", " " | capitalize | jsonify }}
+  },
+  "itemReviewed": {
+    "@type": "VideoGame",
+    "name": {{ page.game_title | jsonify }},
+    "gamePlatform": {{ page.platform | jsonify }},
+    "image": {{ site.url | append: page.image | jsonify }},
+    "datePublished": {{ page.release_year | append: "-01-01" | date_to_xmlschema | jsonify }},
+    "publisher": { "@type": "Organization", "name": "Rhys Wyrill" }{% if page.genre %},
+    "genre": {{ page.genre | jsonify }}{% endif %}
+  }
+}
+</script>
+
+<div id="reading-progress" aria-hidden="true"></div>
+<style>
+  /* Thin violet scroll-progress bar pinned just under the sticky navbar */
+  #reading-progress {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 3px;
+    width: 0;
+    background: linear-gradient(90deg, #7c3aed, #a78bfa);
+    z-index: 9998;
+    pointer-events: none;
+  }
+</style>
+<script>
+(function () {
+  var bar = document.getElementById('reading-progress');
+  if (!bar) return;
+  var header = document.querySelector('.site-header') || document.querySelector('body > header');
+  function positionBar() { if (header) bar.style.top = header.offsetHeight + 'px'; }
+  function update() {
+    var doc = document.documentElement;
+    var max = doc.scrollHeight - window.innerHeight;
+    var pct = max > 0 ? Math.min(1, window.scrollY / max) : 0;
+    bar.style.width = (pct * 100).toFixed(2) + '%';
+  }
+  var ticking = false;
+  window.addEventListener('scroll', function () {
+    if (!ticking) {
+      ticking = true;
+      requestAnimationFrame(function () { update(); ticking = false; });
+    }
+  }, { passive: true });
+  window.addEventListener('resize', function () { positionBar(); update(); });
+  positionBar();
+  update();
+})();
+</script>
+
 <article class="review-article-box">
   
   <header class="review-hero-banner" {% if page.image %}style="background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35)), url('{{ page.image }}');"{% endif %}>
@@ -59,7 +133,7 @@ layout: default
 
       <!-- SHARING HUB: Custom Dynamic Horizontal Colored Social Bubbles -->
       <div class="share-container" style="position: relative; display: block; margin-top: 16px; width: 100%;">
-        <button id="share-review-btn" onclick="toggleShareMenu(event)" style="display: inline-flex !important; align-items: center !important; justify-content: center !important; gap: 8px !important; background: #1e252b !important; color: #8aa0ae !important; border: 1px solid rgba(255, 255, 255, 0.08) !important; padding: 10px 16px !important; border-radius: 6px !important; font-size: 13px !important; cursor: pointer !important; transition: all 0.2s ease !important; width: 100% !important; box-sizing: border-box !important;">
+        <button id="share-review-btn" onclick="toggleShareMenu(event)" style="display: inline-flex !important; align-items: center !important; justify-content: center !important; gap: 8px !important; background: #1e252b !important; color: #8aa0ae !important; border: 1px solid rgba(255, 255, 255, 0.08) !important; padding: 10px 16px !important; border-radius: 6px !important; font-size: 13.33px !important; cursor: pointer !important; transition: all 0.2s ease !important; width: 100% !important; box-sizing: border-box !important;">
           <span id="share-btn-icon" style="transition: all 0.2s ease;">🔗</span>
           <span id="share-btn-text">Share Review</span>
         </button>
@@ -143,7 +217,7 @@ layout: default
   </section>
   {% endif %}
 
-  <div id="dynamic-pagination" class="review-pagination-footer" style="display: flex !important; align-items: center !important; justify-content: space-between !important; max-width: 800px !important; margin: 34px auto 6px auto !important; padding: 0 20px !important; font-size: 18px !important; border-top: 1px solid #252932 !important; padding-top: 30px !important; box-sizing: border-box !important;">
+  <div id="dynamic-pagination" class="review-pagination-footer" style="display: flex !important; align-items: center !important; justify-content: space-between !important; max-width: 800px !important; margin: 34px auto 6px auto !important; padding: 0 20px !important; font-size: 17.78px !important; border-top: 1px solid #252932 !important; padding-top: 30px !important; box-sizing: border-box !important;">
     <div style="flex: 1 !important; text-align: left !important;">
       <a id="nav-prev-btn" href="#" style="color: #ccdee9 !important; text-decoration: none !important; background: #1e252b !important; border: 1px solid rgba(255,255,255,0.08) !important; padding: 8px 16px !important; border-radius: 6px !important; transition: all 0.2s !important; display: inline-flex !important; align-items: center !important; gap: 6px !important;" onmouseover="this.style.background='#252e36'; this.style.color='#ffffff';" onmouseout="this.style.background='#1e252b'; this.style.color='#ccdee9';">
         <span>«</span> Previous

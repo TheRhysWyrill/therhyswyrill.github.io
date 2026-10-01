@@ -569,7 +569,7 @@ position: 1
 						btn.style.justifyContent = "center";
 						btn.style.alignItems = "center";
 						btn.style.transition = "all 0.2s ease";
-						btn.style.setProperty("font-size", "18px", "important");
+						btn.style.setProperty("font-size", "17.78px", "important"); /* renders 16 under the 90% zoom */
 						
 						if (isDisabled) {
 							btn.style.cursor = "not-allowed";

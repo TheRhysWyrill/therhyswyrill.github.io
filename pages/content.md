@@ -57,6 +57,15 @@ position: 3
 	
 	<script src="/assets/js/pagination.js" defer></script>
 	<script>
+	{% comment %} Complete Journeys videos cross-link to their written reviews
+	(TRW tab only — performance logs, longplays and VODs never match). {% endcomment %}
+	const reviewUrlByTitle = {
+	{%- assign review_pages = site.pages | where: "layout", "review" -%}
+	{%- for r in review_pages %}
+	{{ r.game_title | downcase | jsonify }}: {{ r.url | jsonify }}{%- unless forloop.last %},{% endunless %}
+	{%- endfor %}
+	};
+
 	const channelsConfig = {
 	trw: { title: "Complete Journeys", desc: "Edited, commentated playthroughs, each game played through to the credits and stitched into one complete journey.", tag: "Complete Journey", color: "#9146ff", excludeLivestreams: true },
 	iip: { title: "Emulation & Proton Testing", desc: "Performance testing to see how emulation holds up and testing how 'plug and play' the Proton compatibility layer is.", tag: "Performance Log", color: "#c0c0c0" },
@@ -74,8 +83,26 @@ position: 3
 
 // YouTube sometimes 404s a size variant it has not generated yet and answers
 // with a 120x90 placeholder instead. Step up to the next real size until a
-// full frame arrives, so every card shows a real 16:9 thumbnail.
-function nextThumb(img) {
+// full frame arrives, so every card shows a real 16:9 thumbnail.	// Normalises a game title for matching: video titles carry suffixes like
+	// "| Complete Journey #809" that the review front matter never has.
+	function normaliseGameTitle(title) {
+	return (title || '')
+	.toLowerCase()
+	.replace(/\s*[\|\-–—]\s*complete journey.*$/i, '')
+	.replace(/\s*#\d+\s*$/, '')
+	.replace(/[^a-z0-9]+/g, ' ')
+	.trim();
+	}
+	const reviewLookup = {};
+	for (const [t, u] of Object.entries(reviewUrlByTitle)) {
+	const key = normaliseGameTitle(t);
+	if (key && !reviewLookup[key]) reviewLookup[key] = u;
+	}
+	function findReviewUrl(videoTitle) {
+	if (currentChannel !== 'trw') return null; // TRW tab only, never the other channels
+	return reviewLookup[normaliseGameTitle(videoTitle)] || null;
+	}
+	function nextThumb(img) {
 	const queue = (img.dataset.thumbNext || '').split(',').filter(Boolean);
 	if (!queue.length) return;
 	const size = queue.shift();
@@ -208,8 +235,12 @@ function nextThumb(img) {
 	<img src="https://img.youtube.com/vi/${video.id}/mqdefault.jpg" alt="${video.title.replace(/"/g, '&quot;')} thumbnail" loading="lazy" decoding="async" width="320" height="180" data-video-id="${video.id}" data-thumb-next="hq720,maxresdefault" onload="if (this.naturalWidth < 320) nextThumb(this)" onerror="nextThumb(this)" style="width: 100%; height: auto; display: block; border-bottom: 1px solid rgba(255,255,255,0.05);">
 	</a>
 	<div style="padding: 12px;">
-	<span style="display: inline-block; color: ${config.color}; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; padding: 2px 9px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 999px;">${config.tag}</span>
-	<h4 style="color: #fff; font-size: 0.85rem; margin: 7px 0 0 0; font-weight:600; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; height: 2.6em;">${video.title}</h4>
+	<span style="display: inline-block; color: ${config.color}; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; padding: 2px 9px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 999px;">${config.tag}</span>
+	<h4 style="color: #fff; font-size: 13.33px; margin: 7px 0 0 0; font-weight:600; line-height: 17.78px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; height: 35.56px;">${video.title}</h4>
+	${(() => {
+	const reviewUrl = findReviewUrl(video.title);
+	return reviewUrl ? `<a href="${reviewUrl}" style="display: inline-block; margin-top: 7px; color: #a78bfa; font-size: 12.22px; line-height: 15.56px; font-weight: 600; text-decoration: none;">&#9998;&nbsp;Read the review &rarr;</a>` : '';
+	})()}
 	</div>
 	`;
 	grid.appendChild(card);
@@ -269,8 +300,29 @@ function nextThumb(img) {
 	function changePage(direction) {
 	currentPage += direction;
 	localStorage.setItem('vault_page', currentPage);
-	renderVault();
-	document.getElementById('vault-content-container').scrollIntoView({ behavior: 'smooth' });
+	renderVault();	document.getElementById('vault-content-container').scrollIntoView({ behavior: 'smooth' });
 	}
+	// Keyboard shortcuts: "/" focuses the filter box, arrow keys paginate.
+	document.addEventListener('keydown', function (e) {
+	const t = e.target;
+	if (t && (t.tagName === 'INPUT' || t.tagName === 'SELECT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+	if (e.key === '/') {
+	e.preventDefault();
+	const box = document.getElementById('vault-search');
+	if (box) { box.focus(); box.select(); }
+	return;
+	}
+	if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+	const nav = document.querySelector('.pagination-nav');
+	if (!nav || nav.offsetParent === null) return;
+	const btns = nav.querySelectorAll('.pagination-btn');
+	if (!btns.length) return;
+	const target = e.key === 'ArrowLeft' ? btns[0] : btns[btns.length - 1];
+	if (target && !target.classList.contains('is-disabled')) {
+	e.preventDefault();
+	target.click();
+	}
+	}
+	});
 	</script>
 </div>

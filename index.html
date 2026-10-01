@@ -69,6 +69,26 @@ layout: default
     </div>
 </div>
 
+{% comment %} Backlog progress, computed at build from review front matter {% endcomment %}
+{% assign all_reviews = site.pages | where: "layout", "review" %}
+{% assign rec_count = all_reviews | where: "verdict", "recommended" | size %}
+{% assign unsure_count = all_reviews | where: "verdict", "not-sure" | size %}
+{% assign notrec_count = all_reviews | where: "verdict", "not-recommended" | size %}
+{% assign platform_count = all_reviews | map: "platform" | uniq | size %}
+{% assign genre_count = all_reviews | map: "genre" | uniq | size %}
+{% assign newest_review = all_reviews | sort: "date" | reverse | first %}
+<div class="backlog-stats-strip" aria-label="Backlog progress">
+    <div class="archive-container backlog-stats-inner">
+        <span class="backlog-stat"><strong>{{ all_reviews.size }}</strong>&nbsp;games reviewed so far</span>
+        <span class="backlog-stat backlog-stat-rec">&#10003;&nbsp;{{ rec_count }} recommended</span>
+        <span class="backlog-stat backlog-stat-unsure">?&nbsp;{{ unsure_count }} undecided</span>
+        <span class="backlog-stat backlog-stat-notrec">&#10007;&nbsp;{{ notrec_count }} not recommended</span>
+        <span class="backlog-stat"><strong>{{ platform_count }}</strong>&nbsp;platforms tested</span>
+        <span class="backlog-stat"><strong>{{ genre_count }}</strong>&nbsp;genres</span>
+        <span class="backlog-stat">Updated&nbsp;{{ newest_review.date | date: "%-d %b %Y" }}</span>
+    </div>
+</div>
+
 <div class="latest-reviews-section">
     <div class="latest-reviews-header">
         <h2>Latest Reviews</h2>

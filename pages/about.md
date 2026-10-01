@@ -50,7 +50,7 @@ To keep data transparent across my compatibility sheets and reviews, all testing
 </div>
 
 <div class="about-fluid-row" style="width: 95vw !important; max-width: 1600px !important; margin: 0 auto; text-align: center;">
-    <p style="color: #a0aec0; font-size: 1rem; line-height: 1.7; width: 100%; text-align: center; margin: -20px auto 30px auto; padding: 0 20px; box-sizing: border-box;">
+    <p style="color: #a0aec0; font-size: 15.56px; line-height: 1.7; width: 100%; text-align: center; margin: -20px auto 30px auto; padding: 0 20px; box-sizing: border-box;">
         The archive is always expanding. If you want to check out the live content, read the source repositories, or get in touch, you can find me across these nodes:
     </p>
 

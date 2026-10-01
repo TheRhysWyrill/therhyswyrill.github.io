@@ -14,7 +14,7 @@ position: 2
             <select id="sort-order" class="vault-filter-select">
                 <option value="alpha-asc">Alphabetical (A-Z)</option>
                 <option value="alpha-desc">Alphabetical (Z-A)</option>
-                <option value="date-desc">Date Written (Newest)</option>
+                <option value="date-desc" selected>Date Written (Newest)</option>
                 <option value="date-asc">Date Written (Oldest)</option>
                 <option value="release-desc">Release Date (Newest)</option>
                 <option value="release-asc">Release Date (Oldest)</option>
@@ -65,14 +65,38 @@ position: 2
 
     const itemsPerPage = 18;
     let currentPage = 1;
+
+    // ── Full-text search index (build-time /search-index.json) ────────────
+    // Card DOM text already covers titles + summaries; this adds the full
+    // review body, fetched lazily on first search interaction.
+    let fullTextBlobs = null;
+    let fullTextPending = false;
+    function ensureSearchIndex(onReady) {
+      if (fullTextBlobs || fullTextPending) { if (fullTextBlobs && onReady) onReady(); return; }
+      fullTextPending = true;
+      fetch("/search-index.json")
+        .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+        .then(entries => {
+          const map = {};
+          entries.forEach(e => { if (e && e.url) map[e.url] = ((e.title || "") + " " + (e.summary || "") + " " + (e.body || "")).toLowerCase(); });
+          fullTextBlobs = map;
+          fullTextPending = false;
+          if (onReady) onReady();
+        })
+        .catch(() => { fullTextPending = false; }); // DOM-text search still works
+    }
+    function cardPathname(card) {
+      try { return new URL(card.href).pathname; } catch (e) { return card.getAttribute("href"); }
+    }
     // ── URL state sync (shareable / bookmarkable filter views) ──────────
     const VALID_SORTS = ["alpha-asc", "alpha-desc", "date-desc", "date-asc", "release-desc", "release-asc"];
+    const DEFAULT_SORT = "date-desc"; // reviews are dated by the final stream date, so newest-first is the natural landing view
     
     function syncStateToUrl() {
       if (!window.history || !window.history.replaceState) return;
       const params = new URLSearchParams();
       const sort = document.getElementById("sort-order").value;
-      if (sort && sort !== "alpha-asc") params.set("sort", sort);
+      if (sort && sort !== DEFAULT_SORT) params.set("sort", sort);
       if (filterYear.value) params.set("year", filterYear.value);
       if (filterPlatform.value) params.set("platform", filterPlatform.value);
       if (filterGenre.value) params.set("genre", filterGenre.value);
@@ -245,7 +269,11 @@ position: 2
       const selVerdict = filterVerdict.value;
       
       const filteredCards = Array.from(sortedCards).filter(card => {
-        const matchesSearch = card.innerText.toLowerCase().includes(query);
+        let matchesSearch = card.innerText.toLowerCase().includes(query);
+        if (!matchesSearch && query && fullTextBlobs) {
+          const blob = fullTextBlobs[cardPathname(card)];
+          if (blob && blob.includes(query)) matchesSearch = true;
+        }
         const matchesYear = !selYear || card.dataset.year === selYear;
         const matchesPlatform = !selPlatform || card.dataset.platform === selPlatform;
         
@@ -310,6 +338,11 @@ position: 2
     });
     
     if (searchInput) {
+      const onSearchInteraction = () => ensureSearchIndex(() => {
+        if (searchInput.value.trim()) { updatePagination(); }
+      });
+      searchInput.addEventListener("focus", onSearchInteraction);
+      searchInput.addEventListener("input", onSearchInteraction);
       searchInput.addEventListener("input", function () {
         currentPage = 1;
         localStorage.removeItem('reviews_current_page'); 
@@ -317,12 +350,13 @@ position: 2
         syncStateToUrl();
         updateResetVisibility();
       });
+      if (searchInput.value.trim()) ensureSearchIndex(() => updatePagination());
     }
 
     // Reset is only relevant when something is actually set; shown/hidden
     // as sort, filters or search change.
     function updateResetVisibility() {
-      const hasSort = document.getElementById("sort-order").value !== "alpha-asc";
+      const hasSort = document.getElementById("sort-order").value !== DEFAULT_SORT;
       const hasFilters = filterYear.value !== "" || filterPlatform.value !== "" ||
         filterGenre.value !== "" || filterVerdict.value !== "";
       const hasSearch = searchInput ? searchInput.value.trim() !== "" : false;
@@ -334,7 +368,7 @@ position: 2
     const clearSearchBtn = document.getElementById("clear-search");
     if (resetFiltersBtn) {
       resetFiltersBtn.addEventListener("click", function () {
-        document.getElementById("sort-order").value = "alpha-asc";
+        document.getElementById("sort-order").value = DEFAULT_SORT;
         filterYear.value = "";
         filterPlatform.value = "";
         filterGenre.value = "";
@@ -373,5 +407,28 @@ position: 2
     updatePagination();
     syncStateToUrl();
     updateResetVisibility();
+  });
+
+  // Keyboard shortcuts: "/" focuses the search box, arrow keys paginate.
+  document.addEventListener("keydown", function (e) {
+    const t = e.target;
+    if (t && (t.tagName === "INPUT" || t.tagName === "SELECT" || t.tagName === "TEXTAREA" || t.isContentEditable)) return;
+    if (e.key === "/") {
+      e.preventDefault();
+      const box = document.getElementById("live-search");
+      if (box) { box.focus(); box.select(); }
+      return;
+    }
+    if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
+      const nav = document.querySelector(".pagination-nav");
+      if (!nav || nav.offsetParent === null) return;
+      const btns = nav.querySelectorAll(".pagination-btn");
+      if (!btns.length) return;
+      const target = e.key === "ArrowLeft" ? btns[0] : btns[btns.length - 1];
+      if (target && !target.classList.contains("is-disabled")) {
+        e.preventDefault();
+        target.click();
+      }
+    }
   });
 </script>
