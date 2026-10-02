@@ -1,6 +1,11 @@
 {
   "isLive": false,
-  "checkedAt": "2026-10-02T13:46:19Z",
+  "checkedAt": "2026-10-02T18:43:53Z",
   "stream": null,
-  "latestVod": null
+  "latestVod": {
+    "id": "2888404005",
+    "title": "Four Worlds, Four Rules | Home, Four Sided Fantasy, Forest Grove, Gunstoppable",
+    "createdAt": "2026-09-30T21:50:48Z",
+    "lengthSeconds": 22300
+  }
 }
