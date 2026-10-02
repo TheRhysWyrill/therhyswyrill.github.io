@@ -42,10 +42,19 @@ position: 3
 	<h2 id="channel-title">Complete Journeys</h2>
 	<p id="channel-description">Edited, commentated playthroughs — each game played through to the credits and stitched into one complete journey.</p>
 	<p id="vault-progress" class="vault-progress" aria-live="polite"></p>
+	<p id="vault-result-count" class="sr-only" role="status" aria-live="polite"></p>
 		</div>
 	<div class="vault-header-search">
 		<input type="text" id="vault-search" class="vault-search-input" placeholder="Filter videos..." oninput="handleSearch()">
-		<label class="vault-unwatched-toggle"><input type="checkbox" id="unwatched-only"> Unwatched only</label>
+		<div class="vault-header-controls">
+			<label class="vault-unwatched-toggle"><input type="checkbox" id="unwatched-only"> Unwatched only</label>
+			<select id="vault-sort" class="vault-filter-select" onchange="handleSortChange()">
+				<option value="default">Channel order</option>
+				<option value="newest">Newest first</option>
+				<option value="oldest">Oldest first</option>
+				<option value="alpha">A–Z</option>
+			</select>
+		</div>
 		</div>
 	</div>
 	
@@ -82,6 +91,7 @@ position: 3
 	let filteredVideos = [];
 	let inFlightChannel = null;
 	const itemsPerPage = 18;
+	let vaultSort = localStorage.getItem('vault_sort') || 'default';
 	// Watched-tracker store: video IDs the viewer has marked as watched,
 	// persisted locally so progress survives revisits without any backend.
 	const watchedStore = {
@@ -160,6 +170,8 @@ position: 3
 	document.addEventListener("DOMContentLoaded", () => {
 	applyStateFromUrl();
 	document.getElementById('vault-search').value = searchQuery;
+	const sortSel = document.getElementById('vault-sort');
+	if (sortSel) { sortSel.value = vaultSort; sortSel.addEventListener('change', handleSortChange); }
 	const unwatchedBox = document.getElementById('unwatched-only');
 	if (unwatchedBox) unwatchedBox.addEventListener('change', () => { currentPage = 1; updateFilteredList(); renderVault(); });
 	applyChannelUI(currentChannel);
@@ -202,25 +214,59 @@ position: 3
 	const searchTokens = searchQuery.toLowerCase().split(/\s+/).filter(token => token.length > 0);
 	const unwatchedOnly = document.getElementById('unwatched-only') && document.getElementById('unwatched-only').checked;
 	
-	filteredVideos = baseVideos.filter(video => {
-		const titleLower = video.title.toLowerCase();
-		// Livestream VODs live on their own tab; keep them off the Complete Journeys tab
-		if (channelsConfig[currentChannel].excludeLivestreams && titleLower.includes('livestream')) return false;
-		if (unwatchedOnly && watchedStore.has(video.id)) return false;
-		return searchTokens.every(token => titleLower.includes(token));
-	});
+	filteredVideos = applySort(baseVideos.filter(video => {
+	const titleLower = video.title.toLowerCase();
+	// Livestream VODs live on their own tab; keep them off the Complete Journeys tab
+	if (channelsConfig[currentChannel].excludeLivestreams && titleLower.includes('livestream')) return false;
+	if (unwatchedOnly && watchedStore.has(video.id)) return false;
+	return searchTokens.every(token => titleLower.includes(token));
+	}));
 	
 	localStorage.setItem('vault_channel', currentChannel);
 	localStorage.setItem('vault_page', currentPage);
 	localStorage.setItem('vault_search', searchQuery);
 	}
 	
-	function renderProgress() {
+	function applySort(list) {
+	const copy = list.slice();
+	if (vaultSort === 'alpha') {
+	copy.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+	} else if (vaultSort === 'newest' || vaultSort === 'oldest') {
+	const dir = vaultSort === 'newest' ? -1 : 1;
+	copy.sort((a, b) => {
+	const da = a.published || '', db = b.published || '';
+	if (da && db) return da < db ? -dir : da > db ? dir : 0;
+	if (da) return -1; // dated videos rank above undated ones
+	if (db) return 1;
+	return 0;
+	});
+	}
+	return copy;
+	}
+	function handleSortChange() {
+	vaultSort = document.getElementById('vault-sort').value;
+	localStorage.setItem('vault_sort', vaultSort);
+	currentPage = 1;
+	updateFilteredList();
+	renderVault();
+	}
+	function renderProgress() {
 	const base = videoDatabase[currentChannel] || [];
 	const listable = base.filter(v => !(channelsConfig[currentChannel].excludeLivestreams && v.title.toLowerCase().includes('livestream')));
 	const done = listable.filter(v => watchedStore.has(v.id)).length;
 	const el = document.getElementById('vault-progress');
 	if (el) el.textContent = done + ' / ' + listable.length + ' watched';
+	}
+
+	// Screen-reader announcement of the filtered/total vault count.
+	let vaultAnnounceTimer = null;
+	function announceVaultResults(count, total) {
+	const el = document.getElementById('vault-result-count');
+	if (!el) return;
+	clearTimeout(vaultAnnounceTimer);
+	const msg = count === total ? total + ' videos in this tab'
+		: count === 1 ? '1 video matches' : count + ' of ' + total + ' videos match';
+	vaultAnnounceTimer = setTimeout(() => { el.textContent = msg; }, 350);
 	}
 	function toggleWatched(event, videoId) {
 	event.preventDefault();
@@ -256,6 +302,7 @@ position: 3
 	
 	grid.innerHTML = '';
 	renderProgress();
+	announceVaultResults(filteredVideos.length, (videoDatabase[currentChannel] || []).filter(v => !(config.excludeLivestreams && v.title.toLowerCase().includes('livestream'))).length);
 	
 	if (activePageVideos.length === 0) {
 		grid.innerHTML = `<p style="color: #718096; grid-column: 1 / -1; text-align: center; padding: 40px 0;">No matching entries found.</p>`;
@@ -275,11 +322,11 @@ position: 3
 	<div style="padding: 12px;">
 	<span style="display: inline-block; color: ${config.color}; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; padding: 2px 9px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 999px;">${config.tag}</span>
 	<h4 style="color: #fff; font-size: 13.33px; margin: 7px 0 0 0; font-weight:600; line-height: 17.78px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; height: 35.56px;">${video.title}</h4>
+	<button type="button" class="watched-toggle${watchedStore.has(video.id) ? ' is-watched' : ''}" aria-pressed="${watchedStore.has(video.id)}" onclick="toggleWatched(event, '${video.id}')">&#10003;&nbsp;${watchedStore.has(video.id) ? 'Watched' : 'Mark watched'}</button>
 	${(() => {
 	const reviewUrl = findReviewUrl(video.title);
-	return reviewUrl ? `<a href="${reviewUrl}" style="display: inline-block; margin-top: 7px; color: #a78bfa; font-size: 12.22px; line-height: 15.56px; font-weight: 600; text-decoration: none;">&#9998;&nbsp;Read the review &rarr;</a>` : '';
+	return reviewUrl ? `<a href="${reviewUrl}" style="display: inline-block; margin-top: 8px; margin-left: 8px; color: #a78bfa; font-size: 12.22px; line-height: 15.56px; font-weight: 600; text-decoration: none;">&#9998;&nbsp;Review</a>` : '';
 	})()}
-	<button type="button" class="watched-toggle${watchedStore.has(video.id) ? ' is-watched' : ''}" aria-pressed="${watchedStore.has(video.id)}" onclick="toggleWatched(event, '${video.id}')">&#10003;&nbsp;${watchedStore.has(video.id) ? 'Watched' : 'Mark watched'}</button>
 	</div>
 	`;
 	grid.appendChild(card);

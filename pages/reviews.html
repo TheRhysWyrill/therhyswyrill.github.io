@@ -27,12 +27,15 @@ position: 2
 
             <button type="button" id="reset-filters" class="filter-reset-btn" title="Clear all filters and search" hidden>Reset</button>
             <button type="button" id="surprise-review" class="filter-reset-btn" title="Jump to a random review from the archive">🎲 Surprise me</button>
+
+            <div class="search-input-wrapper">
+                <input type="text" id="live-search" class="vault-search-input" placeholder="Filter games, platforms, genres...">
+                <button type="button" id="clear-search" class="search-clear-btn" aria-label="Clear search" title="Clear search" hidden>&times;</button>
+            </div>
         </div>
 
-        <div class="search-input-wrapper">
-            <input type="text" id="live-search" class="vault-search-input" placeholder="Filter games, platforms, genres...">
-            <button type="button" id="clear-search" class="search-clear-btn" aria-label="Clear search" title="Clear search" hidden>&times;</button>
-        </div>
+        <div id="active-chips" class="active-chips" hidden></div>
+    <p id="reviews-result-count" class="sr-only" role="status" aria-live="polite"></p>
     </div>
 
     <div class="archive-grid">
@@ -63,6 +66,18 @@ position: 2
     const filterPlatform = document.getElementById("filter-platform");
     const filterGenre = document.getElementById("filter-genre");
     const filterVerdict = document.getElementById("filter-verdict");
+    const liveResults = document.getElementById("reviews-result-count");
+
+    // Announce filtered-result counts to screen readers (aria-live polite,
+    // visually hidden). Debounced so fast typing doesn't spam.
+    let announceTimer = null;
+    function announceResults(count) {
+      if (!liveResults) return;
+      clearTimeout(announceTimer);
+      announceTimer = setTimeout(function () {
+        liveResults.textContent = count === 1 ? "1 review matches" : count + " reviews match";
+      }, 350);
+    }
 
     const itemsPerPage = 18;
     let currentPage = 1;
@@ -338,6 +353,7 @@ position: 2
       localStorage.setItem('custom_review_order', JSON.stringify(currentUrls));
       
       const totalPages = Math.ceil(filteredCards.length / itemsPerPage);
+      announceResults(filteredCards.length);
       // A shared/bookmarked URL can point past the last page - clamp back into range
       if (currentPage > totalPages) currentPage = Math.max(totalPages, 1);
       sortedCards.forEach(card => card.style.setProperty("display", "none", "important"));
@@ -412,7 +428,53 @@ position: 2
       const hasSearch = searchInput ? searchInput.value.trim() !== "" : false;
       if (resetFiltersBtn) resetFiltersBtn.hidden = !(hasSort || hasFilters || hasSearch);
       if (clearSearchBtn) clearSearchBtn.hidden = !hasSearch;
+      updateChips();
     }
+
+    // ── Active-filter chips: one removable pill per non-default filter ────
+    function chipLabel(select) {
+      const opt = select.options[select.selectedIndex];
+      return opt ? opt.textContent : "";
+    }
+    function updateChips() {
+      const wrap = document.getElementById("active-chips");
+      if (!wrap) return;
+      const chips = [];
+      const sortSel = document.getElementById("sort-order");
+      if (sortSel.value !== DEFAULT_SORT) chips.push({ kind: "sort", label: "Sort: " + chipLabel(sortSel) });
+      if (filterYear.value) chips.push({ kind: "year", label: "Year: " + chipLabel(filterYear) });
+      if (filterPlatform.value) chips.push({ kind: "platform", label: "Platform: " + chipLabel(filterPlatform) });
+      if (filterGenre.value) chips.push({ kind: "genre", label: "Genre: " + chipLabel(filterGenre) });
+      if (filterVerdict.value) chips.push({ kind: "verdict", label: "Verdict: " + chipLabel(filterVerdict) });
+      if (searchInput && searchInput.value.trim()) chips.push({ kind: "search", label: "\u201C" + searchInput.value.trim() + "\u201D" });
+
+      wrap.hidden = chips.length === 0;
+      wrap.innerHTML = chips.map(function (c, i) {
+        return '<span class="active-chip" data-kind="' + c.kind + '">' + c.label +
+          '<button type="button" class="chip-clear" data-kind="' + c.kind + '" aria-label="Remove ' + c.label + ' filter">\u00d7</button></span>';
+      }).join("");
+    }
+
+    function clearChip(kind) {
+      currentPage = 1;
+      localStorage.removeItem('reviews_current_page');
+      if (kind === "sort") {
+        document.getElementById("sort-order").value = DEFAULT_SORT;
+        sortDOMCards();
+      } else if (kind === "year") { filterYear.value = ""; }
+      else if (kind === "platform") { filterPlatform.value = ""; }
+      else if (kind === "genre") { filterGenre.value = ""; }
+      else if (kind === "verdict") { filterVerdict.value = ""; }
+      else if (kind === "search") { if (searchInput) searchInput.value = ""; }
+      updatePagination();
+      syncStateToUrl();
+      updateResetVisibility();
+    }
+
+    document.addEventListener("click", function (e) {
+      const btn = e.target.closest ? e.target.closest(".chip-clear") : null;
+      if (btn) { e.preventDefault(); clearChip(btn.dataset.kind); }
+    });
 
     const resetFiltersBtn = document.getElementById("reset-filters");
     const clearSearchBtn = document.getElementById("clear-search");
@@ -455,6 +517,26 @@ position: 2
         window.location.href = pick.getAttribute("href");
       });
     }
+
+    // Clickable genre/year pills: cards are <a> elements (so real nested
+    // links are invalid HTML) — intercept clicks on the pills and navigate
+    // to the filtered archive instead of the review.
+    document.addEventListener("click", function (e) {
+      const genre = e.target.closest ? e.target.closest(".archive-card-pill--genre") : null;
+      const year = e.target.closest ? e.target.closest(".archive-card-pill--year") : null;
+      if (!genre && !year) return;
+      const card = (genre || year).closest(".game-archive-card");
+      if (!card) return;
+      e.preventDefault();
+      e.stopPropagation();
+      if (genre) {
+        const first = (card.dataset.genre || "").split(",")[0].trim();
+        if (first) window.location.href = "/reviews/?genre=" + encodeURIComponent(first);
+      } else if (year) {
+        const y = card.dataset.year || "";
+        if (y) window.location.href = "/reviews/?year=" + encodeURIComponent(y);
+      }
+    });
 
     const hasUrlState = applyStateFromUrl();
     if (!hasUrlState) {

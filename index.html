@@ -119,73 +119,18 @@ layout: default
         {% endfor %}
     </div>
 </div>
+<script src="/assets/js/tested-counter.js" defer></script>
 <script>
 (function () {
-  // Total games tested = every row across the Is It Playable sheets whose
-  // status is anything other than "to be tested" (i.e. real test results).
-  var SHEETS = [
-    { name: 'Nintendo 3DS', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=989513195&single=true&output=csv' },
-    { name: 'GameCube / Wii', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=722868656&single=true&output=csv' },
-    { name: 'Nintendo Switch', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=412405791&single=true&output=csv' },
-    { name: 'PS2', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=2142455474&single=true&output=csv' },
-    { name: 'PS3', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=223480540&single=true&output=csv' },
-    { name: 'PS4', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=1869087751&single=true&output=csv' },
-    { name: 'PS5', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=83107815&single=true&output=csv' },
-    { name: 'PS Vita', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=1379946484&single=true&output=csv' },
-    { name: 'SteamOS', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=441094204&single=true&output=csv' },
-    { name: 'Wii U', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=84424098&single=true&output=csv' },
-    { name: 'Xbox', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=91761340&single=true&output=csv' },
-    { name: 'Xbox 360', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=1207700995&single=true&output=csv' }
-  ];
-  window.__compatTestedCount = null;
-
-  function parseCSV(text) {
-    // Minimal RFC-4180 split (quoted commas + escaped quotes) — enough for
-    // the status sheets, with no external parser dependency.
-    var rows = [], row = [], cell = '', inQ = false;
-    for (var i = 0; i < text.length; i++) {
-      var c = text[i];
-      if (inQ) {
-        if (c === '"') { if (text[i + 1] === '"') { cell += '"'; i++; } else { inQ = false; } }
-        else cell += c;
-      } else if (c === '"') { inQ = true; }
-      else if (c === ',') { row.push(cell); cell = ''; }
-      else if (c === '\n') { row.push(cell.replace(/\r$/, '')); if (row.length > 1 || row[0] !== '') rows.push(row); row = []; cell = ''; }
-      else cell += c;
-    }
-    row.push(cell.replace(/\r$/, ''));
-    if (row.length > 1 || row[0] !== '') rows.push(row);
-    return rows;
+  function updateStat(d) {
+    if (!d || !(d.tested > 0)) return;
+    var num = document.getElementById("games-tested-count");
+    var label = document.getElementById("games-tested-label");
+    if (num) num.textContent = d.tested.toLocaleString("en-GB");
+    if (label) label.textContent = "games tested";
   }
-
-  function countTested(text) {
-    var rows = parseCSV(text);
-    if (!rows.length) return 0;
-    var head = rows[0].map(function (h) { return h.trim().toLowerCase(); });
-    var gi = head.indexOf('game title') >= 0 ? head.indexOf('game title') : head.indexOf('game');
-    var si = head.indexOf('status') >= 0 ? head.indexOf('status') : head.indexOf('emulation status');
-    var n = 0;
-    for (var i = 1; i < rows.length; i++) {
-      var r = rows[i];
-      var game = gi >= 0 && gi < r.length ? r[gi].trim() : '';
-      var status = si >= 0 && si < r.length ? r[si].trim().toLowerCase() : '';
-      if (!game) continue;
-      if (!status || status === 'to be tested' || status === 'to-be-tested') continue;
-      n++;
-    }
-    return n;
-  }
-
-  Promise.all(SHEETS.map(function (s) {
-    return fetch(s.url).then(function (r) { return r.text(); }).then(countTested).catch(function () { return 0; });
-  })).then(function (counts) {
-    var total = counts.reduce(function (a, b) { return a + b; }, 0);
-    window.__compatTestedCount = total;
-    var num = document.getElementById('games-tested-count');
-    var label = document.getElementById('games-tested-label');
-    if (num && total > 0) { num.textContent = total.toLocaleString('en-GB'); }
-    if (label && total > 0) { label.textContent = 'games tested'; }
-  });
+  document.addEventListener("compat-tested-count", function (e) { updateStat(e.detail); });
+  if (window.__compatTestedDetails) updateStat(window.__compatTestedDetails);
 })();
 </script>
 
@@ -204,3 +149,57 @@ layout: default
         </div>
     </div>
 </div>
+
+<div class="latest-vault-section" id="latest-vault-section" hidden>
+    <div class="latest-reviews-header">
+        <h2>Latest from the Vault</h2>
+        <a href="/content/">Open the Vault &rarr;</a>
+    </div>
+    <div class="archive-container">
+        <div class="home-vault-grid" id="home-vault-grid">
+            <!-- Filled by the script below from /assets/data/latest_videos.json -->
+        </div>
+    </div>
+</div>
+
+<script src="/assets/js/tested-counter.js" defer></script>
+<script>
+(function () {
+    var CHANNEL_META = {
+        trw:  { name: "Complete Journeys",   color: "#9146ff" },
+        iip:  { name: "Is It Playable?",      color: "#c0c0c0" },
+        tga:  { name: "No-Commentary Longplays", color: "#d4af37" },
+        vods: { name: "Live VOD",             color: "#a91b1b" }
+    };
+
+    function escapeHtml(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+
+    fetch("/assets/data/latest_videos.json")
+        .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+        .then(function (data) {
+            var pool = [];
+            Object.keys(data).forEach(function (ch) {
+                var meta = CHANNEL_META[ch] || { name: ch, color: "#9146ff" };
+                data[ch].forEach(function (v) {
+                    // Keep the Complete Journeys tag honest: livestream VODs
+                    // stay off it (they have their own channel).
+                    if (ch === "trw" && /livestream/i.test(v.title || "")) return;
+                    pool.push({ ch: ch, meta: meta, id: v.id, title: v.title, published: v.published || "" });
+                });
+            });
+            pool.sort(function (a, b) { return a.published < b.published ? 1 : a.published > b.published ? -1 : 0; });
+            var grid = document.getElementById("home-vault-grid");
+            if (!grid || !pool.length) return;
+            grid.innerHTML = pool.slice(0, 8).map(function (v) {
+                var title = escapeHtml(v.title);
+                return '<a class="home-vault-card" href="https://www.youtube.com/watch?v=' + v.id + '" target="_blank" rel="noopener">' +
+                    '<div class="home-vault-thumb"><img src="https://img.youtube.com/vi/' + v.id + '/mqdefault.jpg" alt="" loading="lazy" decoding="async" width="320" height="180" onerror="this.style.display=\'none\'"></div>' +
+                    '<span class="home-vault-tag" style="color: ' + v.meta.color + '; border-color: ' + v.meta.color + '55;">' + escapeHtml(v.meta.name) + '</span>' +
+                    '<span class="home-vault-title">' + title + '</span>' +
+                    '</a>';
+            }).join("");
+            document.getElementById("latest-vault-section").hidden = false;
+        })
+        .catch(function () { /* section stays hidden without data */ });
+})();
+</script>

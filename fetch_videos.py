@@ -13,6 +13,7 @@ CHANNELS = {
 }
 
 OUTPUT_DIR = "./assets/data"
+latest_all = {}
 RSS_NS = {
     "atom": "http://www.w3.org/2005/Atom",
     "yt": "http://www.youtube.com/xml/schemas/2015",
@@ -34,8 +35,13 @@ def fetch_rss_latest(channel_id):
     for entry in root.findall("atom:entry", RSS_NS):
         vid = entry.find("yt:videoId", RSS_NS)
         title = entry.find("atom:title", RSS_NS)
+        published = entry.find("atom:published", RSS_NS)
         if vid is not None and title is not None and vid.text:
-            videos.append({"id": vid.text, "title": title.text if title.text else ""})
+            videos.append({
+                "id": vid.text,
+                "title": title.text if title.text else "",
+                "published": published.text[:10] if published is not None and published.text else None,
+            })
     return videos
 
 
@@ -58,7 +64,8 @@ for key, url in CHANNELS.items():
             video_info = json.loads(line)
             channel_videos.append({
                 "id": video_info.get("id"),
-                "title": video_info.get("title")
+                "title": video_info.get("title"),
+                "published": (video_info.get("published") or "")[:10] or None,
             })
 
     # Always-fresh recent uploads from the RSS feed (see docstring above)
@@ -98,6 +105,20 @@ for key, url in CHANNELS.items():
     with open(journeys_path, "w", encoding="utf-8") as f:
         json.dump(journeys, f, separators=(",", ":"), ensure_ascii=False)
 
+    # Tiny "latest uploads" bundle (top 8 per channel) for the homepage's
+    # Latest from the Vault section — sorted by publish date where known.
+    # Written once after the channel loop, below.
+    dated = [v for v in merged if v.get("published")]
+    latest_all[key] = sorted(dated, key=lambda v: v["published"], reverse=True)[:8]
+
     print(f"Done! Found {len(merged)} videos ({len(journeys)} complete journeys). Saved to {output_path}")
 
 print("\nSuccess! Vault database updated.")
+
+# Tiny homepage bundle: the newest upload per channel (top 8 each, date-sorted,
+# livestream channel excluded). The homepage's Latest from the Vault section
+# stays hidden if this file is absent or fails to load — by design.
+latest_path = os.path.join(OUTPUT_DIR, "latest_videos.json")
+with open(latest_path, "w", encoding="utf-8") as f:
+    json.dump(latest_all, f, separators=(",", ":"), ensure_ascii=False)
+print(f"Latest uploads bundle written to {latest_path} ({sum(len(v) for v in latest_all.values())} videos).")

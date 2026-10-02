@@ -448,6 +448,81 @@ a.backlog-stat {
     color: #b6bfc9;
 }
 
+/* Homepage "Latest from the Vault" strip (fed by latest_videos.json) */
+.latest-vault-section {
+    max-width: 1800px;
+    width: 95%;
+    margin: 0 auto 50px auto;
+}
+
+.home-vault-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 16px !important;
+    width: 100% !important;
+}
+
+@media (max-width: 1200px) {
+    .home-vault-grid { grid-template-columns: repeat(2, 1fr) !important; }
+}
+
+@media (max-width: 650px) {
+    .home-vault-grid { grid-template-columns: 1fr !important; }
+}
+
+.home-vault-card {
+    display: flex;
+    flex-direction: column;
+    background: rgba(20, 24, 28, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none !important;
+}
+
+.home-vault-thumb {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        padding: 0 !important;
+        transition: transform 0.25s ease;
+    }
+
+    .home-vault-card:hover & img { transform: scale(1.04); }
+}
+
+.home-vault-tag {
+    align-self: flex-start;
+    margin: 10px 12px 0 12px;
+    font-size: 10px;      /* renders 9 at 90% zoom */
+    line-height: 12.22px; /* renders 11 */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding: 2px 9px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+}
+
+.home-vault-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 6px 12px 12px 12px;
+    color: #fff;
+    font-size: 13.33px;   /* renders 12 at 90% zoom */
+    line-height: 17.78px; /* renders 16; ratio 1.33 keeps clamped descenders */
+    font-weight: 600;
+}
+
 /* Reviews-per-year mini chart beside the stats strip (pure Liquid + CSS) */
 .backlog-activity {
     display: flex;
@@ -1124,6 +1199,37 @@ body:has(.compat-page) {
     }
 }
 
+/* Screen-reader result counts (never rendered visually) */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Visible focus rings for keyboard users on interactive card elements.
+   Scoped to :focus-visible so mouse clicks stay ring-free. */
+.game-archive-card:focus-visible,
+.archive-card-pill--genre:focus-visible,
+.archive-card-pill--year:focus-visible,
+.backlog-stat:focus-visible,
+.home-vault-card:focus-visible,
+.active-chip .chip-clear:focus-visible,
+.watched-toggle:focus-visible {
+    outline: 2px solid #a78bfa;
+    outline-offset: 2px;
+    border-radius: 6px;
+}
+
+/* Genre/year pills stay pointer-only shortcuts (the filter dropdowns remain
+   the keyboard/screen-reader path), so they get hover cues but no tab stop —
+   see the scoped hover block in the reviews-archive section. */
+
 .filter-controls-group {
     display: flex;
     gap: 10px;
@@ -1132,10 +1238,64 @@ body:has(.compat-page) {
     flex-wrap: wrap;
 }
 
+/* Active-filter chips: one removable pill per non-default filter */
+.active-chips {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 2px 0 0 0 !important;
+
+    &[hidden] { display: none; }
+}
+
+.active-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11.11px;   /* renders 10 at 90% zoom */
+    line-height: 14.44px; /* renders 13 */
+    font-weight: 600;
+    color: #cbb6ff;
+    background: rgba(145, 70, 255, 0.14);
+    border: 1px solid rgba(145, 70, 255, 0.4);
+    border-radius: 999px;
+    padding: 3px 6px 3px 10px;
+    white-space: nowrap;
+}
+
+.chip-clear {
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: #cbb6ff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 12.22px;   /* renders 11 */
+    line-height: 1;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+    &:hover { background: rgba(255, 255, 255, 0.25); color: #fff; }
+}
+
 .search-input-wrapper {
     position: relative;
     max-width: 320px;
     width: 100%;
+
+    /* Lives inside .filter-controls-group (after the Surprise button) so the
+       controls and search share one wrapping row: grows into slack space,
+       shrinks before wrapping, and never squeezes below a usable width. */
+    .filter-controls-group & {
+        flex: 1 1 240px;
+        max-width: 380px;
+        min-width: 220px;
+    }
 
     .vault-search-input {
         width: 100% !important;
@@ -1640,6 +1800,39 @@ html body .archive-container {
     }
 }
 
+/* Reviews archive page only: match the review-page width and drop to four
+   columns so the cards get real breathing room (the homepage strip keeps its
+   own 6-across layout). Scoped with :has so the homepage is untouched, and
+   wrapped in min-width 1201px so the existing 3/2-column breakpoints still
+   win below that. */
+@media (min-width: 1201px) {
+    /* html body prefix: the compiled sheet keeps source order, and the theme's
+       own `html body .archive-container ...` !important rules must lose to
+       these, not win on tie-break. */
+    html body:has(.reviews-header-container) .archive-container:has(.archive-grid) {
+        width: 100% !important;
+        max-width: 1800px !important;
+        padding: 0 40px !important;
+    }
+
+    html body:has(.reviews-header-container) .archive-container .archive-grid {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}
+
+/* Genre/year pills act as filters on the reviews page (JS navigates to the
+   pre-filtered archive); hover cues only there, not on the homepage. */
+body:has(.reviews-header-container) .archive-card-pill--genre,
+body:has(.reviews-header-container) .archive-card-pill--year {
+    cursor: pointer;
+    transition: border-color .15s ease, background .15s ease;
+
+    &:hover {
+        border-color: rgba(255, 255, 255, 0.45);
+        background: rgba(145, 70, 255, 0.28);
+    }
+}
+
 .archive-badge-recommended { background-color: #28a745 !important; }
 .archive-badge-not-sure { background-color: #e67e22 !important; }
 .archive-badge-not-recommended { background-color: #dc3545 !important; }
@@ -1677,6 +1870,8 @@ html body .archive-container {
     .vault-filter-select { flex-shrink: 0 !important; flex-grow: 1 !important; min-width: 105px !important; }
 
     .filter-reset-btn { flex-grow: 1 !important; min-width: 105px !important; }
+
+    .search-input-wrapper { flex: 1 1 100% !important; max-width: none !important; min-width: 0 !important; }
 
     html body .archive-container .archive-grid {
         grid-template-columns: 1fr !important;
@@ -2089,25 +2284,26 @@ html body .archive-container {
     background: #0e1117;
 }
 
-/* Offline state: message panel with the latest VOD player */
+/* Offline state: message panel with the latest VOD player. Stacks so the
+   VOD gets the full wrapper width at a true 16:9 — in the old side-by-side
+   row the player letterboxed small inside a squat 420px strip. */
 .stream-offline-pane {
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
+    flex-direction: column;
     width: 100%;
-    min-height: 420px;
 
     &[hidden] { display: none; }
 }
 
 .stream-offline-message {
-    flex: 0 0 320px;
+    flex: none;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 14px;
-    padding: 40px 32px;
+    padding: 30px 28px;
     box-sizing: border-box;
 
     h2 {
@@ -2152,11 +2348,11 @@ html body .archive-container {
 }
 
 .stream-vod-embed {
-    flex: 1 1 auto;
     position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
     background: #000;
-    border-left: 1px solid $color-border-subtle;
-    min-height: 300px;
+    border-top: 1px solid $color-border-subtle;
 
     iframe {
         position: absolute;
@@ -2169,21 +2365,8 @@ html body .archive-container {
 }
 
 @media (max-width: 1050px) {
-    .stream-offline-pane {
-        flex-direction: column;
-    }
-
     .stream-offline-message {
-        flex: none;
-        width: 100%;
-        padding: 30px 24px;
-    }
-
-    .stream-vod-embed {
-        border-left: none;
-        border-top: 1px solid $color-border-subtle;
-        aspect-ratio: 16 / 9;
-        min-height: 0;
+        padding: 26px 22px;
     }
 }
 
@@ -2202,6 +2385,59 @@ html body .archive-container {
     }
 }
 
+
+/* Tested-vs-backlog summary bar (fed by tested-counter.js). Base look is
+   the stacked version used on The Numbers page; on the compatibility page it
+   floats over the hero's bottom edge so it adds no scroll height. */
+.compat-tested-bar {
+    width: min(90vw, 760px);
+    max-width: 900px;
+    margin: 0 auto 18px auto;
+    background: rgba(20, 24, 28, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+    padding: 14px 20px;
+}
+
+/* On the compatibility page the bar lives INSIDE the hero, seated flush
+   along its bottom edge (14px inset): it covers only imagery, never the
+   centred title card, and adds no scroll height at all. */
+.compat-page .compat-tested-bar {
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    z-index: 3;
+    width: auto;
+    max-width: none;
+    margin: 0;
+    background: rgba(16, 20, 24, 0.88);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+.compat-tested-text {
+    display: block;
+    font-size: 13.33px;   /* renders 12 at 90% zoom */
+    line-height: 17.78px; /* renders 16 */
+    color: #b6bfc9;
+    margin-bottom: 8px;
+
+    strong { color: #fff; }
+}
+
+.compat-tested-track {
+    height: 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.06);
+    overflow: hidden;
+}
+
+.compat-tested-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #7c3aed, #a78bfa);
+    border-radius: 999px;
+    transition: width 0.6s ease;
+}
 
 /* --------------------------------------------------------------------------
    10. VIDEO VAULT PAGE (channel tabs, video grid, pagination)
@@ -2373,6 +2609,14 @@ body:has(.vault-page) {
    -------------------------------------------------------------------------- */
 
 @media (max-width: 768px) {
+
+	/* Mobile hero stacks its title card in-flow, so the tested bar can't be
+	   seated inside it without covering the text — stack it below instead. */
+	.compat-page .compat-tested-bar {
+		position: static;
+		margin: 12px auto 14px auto;
+		width: calc(100% - 24px);
+	}
 
 	#back-to-top {
 		position: fixed;
@@ -2806,4 +3050,175 @@ body:has(.vault-page) {
     .review-sidebar-panel h4 {
         font-size: 23.33px !important; /* renders 21 */
     }
+}
+
+/* --------------------------------------------------------------------------
+   14. THE NUMBERS PAGE (build-time Liquid stats)
+   -------------------------------------------------------------------------- */
+
+.numbers-page {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px 24px 30px 24px;
+    box-sizing: border-box;
+}
+
+.numbers-section {
+    margin: 0 0 38px 0;
+}
+
+.numbers-section-title {
+    color: $color-white;
+    font-size: 24.44px;   /* renders 22 */
+    line-height: 31.11px; /* renders 28 */
+    font-weight: 700;
+    margin: 0 0 16px 0;
+    text-align: center;
+}
+
+.numbers-lead {
+    color: #a0aec0;
+    font-size: 14.44px;   /* renders 13 */
+    line-height: 20px;    /* renders 18 */
+    text-align: center;
+    margin: -6px 0 18px 0;
+}
+
+/* Horizontal bar rows (verdicts, platforms) */
+.numbers-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.numbers-bar-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.numbers-bar-label {
+    flex: 0 0 170px;
+    text-align: right;
+    color: #b6bfc9;
+    font-size: 13.33px;   /* renders 12 */
+    line-height: 17.78px; /* renders 16 */
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.numbers-bar-track {
+    flex: 1 1 auto;
+    height: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.numbers-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #7c3aed, #a78bfa);
+    border-radius: 999px;
+    min-width: 2px;
+}
+
+.numbers-bar-fill--rec { background: linear-gradient(90deg, #16833c, #4caf50); }
+.numbers-bar-fill--unsure { background: linear-gradient(90deg, #b97e17, #e8c268); }
+.numbers-bar-fill--notrec { background: linear-gradient(90deg, #a02634, #e05252); }
+
+.numbers-bar-count {
+    flex: 0 0 110px;
+    color: #8a909e;
+    font-size: 12.22px;   /* renders 11 */
+    line-height: 15.56px; /* renders 14 */
+    white-space: nowrap;
+}
+
+/* Genre / era pills */
+.numbers-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    justify-content: center;
+}
+
+.numbers-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #b6bfc9;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 13.33px;   /* renders 12 */
+    line-height: 17.78px; /* renders 16 */
+
+    strong { color: #fff; font-weight: 700; }
+}
+
+/* Records grid */
+.numbers-records {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+@media (max-width: 800px) {
+    .numbers-records { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 520px) {
+    .numbers-records { grid-template-columns: 1fr; }
+    .numbers-bar-label { flex-basis: 110px; }
+    .numbers-bar-count { flex-basis: 84px; }
+}
+
+.numbers-record {
+    background: rgba(20, 24, 28, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+    padding: 14px 18px;
+    text-align: center;
+}
+
+.numbers-record-kicker {
+    display: block;
+    color: #8a909e;
+    font-size: 11.11px;   /* renders 10 */
+    line-height: 13.33px; /* renders 12 */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.numbers-record-value {
+    margin: 6px 0 2px 0;
+    color: #a78bfa;
+    font-size: 15.56px;   /* renders 14 */
+    line-height: 20px;    /* renders 18 */
+    font-weight: 700;
+
+    a { color: inherit; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+}
+
+.numbers-record-meta {
+    margin: 0;
+    color: #b6bfc9;
+    font-size: 12.22px;   /* renders 11 */
+    line-height: 15.56px; /* renders 14 */
+}
+
+/* The Numbers page keeps the bar stacked in its own section (the floating
+   overlap is compat-page-only) */
+.numbers-compat .compat-tested-bar {
+    max-width: 760px;
+    width: 100%;
 }

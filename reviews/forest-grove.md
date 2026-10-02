@@ -5,7 +5,7 @@ game_title: "Forest Grove"
 permalink: /reviews/forest-grove/
 verdict: recommended
 platform: "PC"
-release_year: 2021
+release_year: 2023
 genre: "Adventure, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
 summary: "A genuinely novel nano deck house-reconstruction mystery with real forensic depth, undone at the last hurdle by illegible endgame charge logic and zero guidance."

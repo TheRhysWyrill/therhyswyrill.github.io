@@ -2,7 +2,7 @@
 layout: default
 title: "About"
 permalink: /about/
-position: 5
+position: 6
 ---
 
 <div class="isolated-cinematic-card">

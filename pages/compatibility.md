@@ -15,11 +15,32 @@ position: 1
 				search bar to narrow down titles. Everything contained within this table is a matter of opinion, what might be considered "Playable with Issues" for me might be "Playable" for you and vice versa.
 			</p>
 		</div>
+		<div class="compat-tested-bar" id="compat-tested-bar" aria-live="polite">
+			<span class="compat-tested-text" id="compat-tested-text">Counting tested games…</span>
+			<div class="compat-tested-track"><div class="compat-tested-fill" id="compat-tested-fill" style="width: 0%;"></div></div>
+		</div>
 	</div>
 
 	<div class="excel-tabs"></div>
 	<select id="mobile-platform-select" class="compat-mobile-platform-select"></select>
 	<div id="table-workspace-wrapper"></div>
+
+	<script src="/assets/js/tested-counter.js" defer></script>
+	<script>
+		(function () {
+			function renderBar(d) {
+				if (!d || !(d.tested > 0) && !(d.backlog > 0)) return;
+				var total = d.tested + d.backlog;
+				var pct = total > 0 ? Math.round(d.tested / total * 100) : 0;
+				document.getElementById('compat-tested-text').innerHTML =
+					'<strong>' + d.tested.toLocaleString('en-GB') + '</strong> games tested across ' + d.platforms.length +
+					' platforms &nbsp;·&nbsp; ' + d.backlog.toLocaleString('en-GB') + ' still to be tested';
+				document.getElementById('compat-tested-fill').style.width = pct + '%';
+			}
+			document.addEventListener('compat-tested-count', function (e) { renderBar(e.detail); });
+			if (window.__compatTestedDetails) renderBar(window.__compatTestedDetails);
+		})();
+	</script>
 
 	<link rel="preconnect" href="https://code.jquery.com" crossorigin>
 	<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
