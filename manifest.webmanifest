@@ -1,0 +1,17 @@
+{
+  "name": "The Playability Report",
+  "short_name": "Playability",
+  "description": "In-depth game reviews, emulation benchmarks, and Proton compatibility testing.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#22272e",
+  "theme_color": "#22272e",
+  "icons": [
+    {
+      "src": "/assets/img/avatar.webp",
+      "sizes": "1000x1000",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+}

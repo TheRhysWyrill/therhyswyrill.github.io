@@ -41,9 +41,11 @@ position: 3
 		<div>
 	<h2 id="channel-title">Complete Journeys</h2>
 	<p id="channel-description">Edited, commentated playthroughs — each game played through to the credits and stitched into one complete journey.</p>
+	<p id="vault-progress" class="vault-progress" aria-live="polite"></p>
 		</div>
 	<div class="vault-header-search">
 		<input type="text" id="vault-search" class="vault-search-input" placeholder="Filter videos..." oninput="handleSearch()">
+		<label class="vault-unwatched-toggle"><input type="checkbox" id="unwatched-only"> Unwatched only</label>
 		</div>
 	</div>
 	
@@ -80,6 +82,14 @@ position: 3
 	let filteredVideos = [];
 	let inFlightChannel = null;
 	const itemsPerPage = 18;
+	// Watched-tracker store: video IDs the viewer has marked as watched,
+	// persisted locally so progress survives revisits without any backend.
+	const watchedStore = {
+	set: new Set(JSON.parse(localStorage.getItem('vault_watched') || '[]')),
+	save() { localStorage.setItem('vault_watched', JSON.stringify([...this.set])); },
+	has(id) { return this.set.has(id); },
+	toggle(id) { this.set.has(id) ? this.set.delete(id) : this.set.add(id); this.save(); }
+	};
 
 // YouTube sometimes 404s a size variant it has not generated yet and answers
 // with a 120x90 placeholder instead. Step up to the next real size until a
@@ -150,6 +160,8 @@ position: 3
 	document.addEventListener("DOMContentLoaded", () => {
 	applyStateFromUrl();
 	document.getElementById('vault-search').value = searchQuery;
+	const unwatchedBox = document.getElementById('unwatched-only');
+	if (unwatchedBox) unwatchedBox.addEventListener('change', () => { currentPage = 1; updateFilteredList(); renderVault(); });
 	applyChannelUI(currentChannel);
 	loadChannel(currentChannel);
 	});
@@ -188,11 +200,13 @@ position: 3
 	function updateFilteredList() {
 	const baseVideos = videoDatabase[currentChannel] || [];
 	const searchTokens = searchQuery.toLowerCase().split(/\s+/).filter(token => token.length > 0);
+	const unwatchedOnly = document.getElementById('unwatched-only') && document.getElementById('unwatched-only').checked;
 	
 	filteredVideos = baseVideos.filter(video => {
 		const titleLower = video.title.toLowerCase();
 		// Livestream VODs live on their own tab; keep them off the Complete Journeys tab
 		if (channelsConfig[currentChannel].excludeLivestreams && titleLower.includes('livestream')) return false;
+		if (unwatchedOnly && watchedStore.has(video.id)) return false;
 		return searchTokens.every(token => titleLower.includes(token));
 	});
 	
@@ -201,7 +215,30 @@ position: 3
 	localStorage.setItem('vault_search', searchQuery);
 	}
 	
-	function renderVault() {
+	function renderProgress() {
+	const base = videoDatabase[currentChannel] || [];
+	const listable = base.filter(v => !(channelsConfig[currentChannel].excludeLivestreams && v.title.toLowerCase().includes('livestream')));
+	const done = listable.filter(v => watchedStore.has(v.id)).length;
+	const el = document.getElementById('vault-progress');
+	if (el) el.textContent = done + ' / ' + listable.length + ' watched';
+	}
+	function toggleWatched(event, videoId) {
+	event.preventDefault();
+	event.stopPropagation();
+	watchedStore.toggle(videoId);
+	const btn = event.currentTarget;
+	const on = watchedStore.has(videoId);
+	btn.classList.toggle('is-watched', on);
+	btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+	btn.lastChild.textContent = on ? ' Watched' : ' Mark watched';
+	renderProgress();
+	if (document.getElementById('unwatched-only').checked) {
+	currentPage = 1;
+	updateFilteredList();
+	renderVault();
+	}
+	}
+	function renderVault() {
 	const grid = document.getElementById('video-vault-grid');
 	const config = channelsConfig[currentChannel];
 	
@@ -218,6 +255,7 @@ position: 3
 	const activePageVideos = filteredVideos.slice(start, end);
 	
 	grid.innerHTML = '';
+	renderProgress();
 	
 	if (activePageVideos.length === 0) {
 		grid.innerHTML = `<p style="color: #718096; grid-column: 1 / -1; text-align: center; padding: 40px 0;">No matching entries found.</p>`;
@@ -241,6 +279,7 @@ position: 3
 	const reviewUrl = findReviewUrl(video.title);
 	return reviewUrl ? `<a href="${reviewUrl}" style="display: inline-block; margin-top: 7px; color: #a78bfa; font-size: 12.22px; line-height: 15.56px; font-weight: 600; text-decoration: none;">&#9998;&nbsp;Read the review &rarr;</a>` : '';
 	})()}
+	<button type="button" class="watched-toggle${watchedStore.has(video.id) ? ' is-watched' : ''}" aria-pressed="${watchedStore.has(video.id)}" onclick="toggleWatched(event, '${video.id}')">&#10003;&nbsp;${watchedStore.has(video.id) ? 'Watched' : 'Mark watched'}</button>
 	</div>
 	`;
 	grid.appendChild(card);

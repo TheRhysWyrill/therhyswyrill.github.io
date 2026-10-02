@@ -26,6 +26,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 
+    <!-- PWA + mobile chrome -->
+    <meta name="theme-color" content="#22272e" />
+    <link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}" />
+
+    <!-- Self-hosted fonts: warm the cache for the body/heading weights -->
+    <link rel="preload" href="{{ '/assets/fonts/source-sans-pro/source-sans-pro-regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="{{ '/assets/fonts/source-sans-pro/source-sans-pro-bold.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin />
+
     <!--Favicon-->
     <link
         rel="shortcut icon"

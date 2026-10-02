@@ -61,13 +61,35 @@
         <span class="archive-card-readtime">{{ card.content | strip_html | number_of_words | divided_by: 200.0 | ceil | at_least: 1 }} min read</span>
     </div>
 
+    {% comment %} Scannable emoji per genre family: keyword-matched, first hit wins {% endcomment %}
+    {% assign g = card.genre | downcase %}
+    {% assign genre_emoji = "🎮" %}
+    {% if g contains "fps" or g contains "shooter" %}{% assign genre_emoji = "🎯" %}
+    {% elsif g contains "racing" or g contains "driving" %}{% assign genre_emoji = "🏎️" %}
+    {% elsif g contains "puzzle" %}{% assign genre_emoji = "🧩" %}
+    {% elsif g contains "horror" %}{% assign genre_emoji = "👻" %}
+    {% elsif g contains "rogue" or g contains "deckbuilder" or g contains "deck-builder" %}{% assign genre_emoji = "🎲" %}
+    {% elsif g contains "platformer" %}{% assign genre_emoji = "🏃" %}
+    {% elsif g contains "metroidvania" %}{% assign genre_emoji = "🧭" %}
+    {% elsif g contains "rpg" or g contains "role-playing" %}{% assign genre_emoji = "⚔️" %}
+    {% elsif g contains "strategy" or g contains "tactics" or g contains "management" or g contains "builder" or g contains "city" %}{% assign genre_emoji = "🏗️" %}
+    {% elsif g contains "survival" or g contains "crafting" %}{% assign genre_emoji = "🌲" %}
+    {% elsif g contains "sport" %}{% assign genre_emoji = "⚽" %}
+    {% elsif g contains "fighting" %}{% assign genre_emoji = "🥊" %}
+    {% elsif g contains "narrative" or g contains "story" or g contains "walking" %}{% assign genre_emoji = "📖" %}
+    {% elsif g contains "stealth" %}{% assign genre_emoji = "🕶️" %}
+    {% elsif g contains "rhythm" or g contains "music" %}{% assign genre_emoji = "🎵" %}
+    {% elsif g contains "sim" %}{% assign genre_emoji = "🛠️" %}
+    {% elsif g contains "action" or g contains "adventure" %}{% assign genre_emoji = "💥" %}
+    {% endif %}
+
     <div class="archive-card-details">
+        <h3 class="archive-card-title">{{ card.game_title }}</h3>
+
         <div class="archive-card-meta">
-            <span class="archive-card-pill archive-card-pill--genre" title="{{ card.genre }}">{{ card.genre }}</span>
+            <span class="archive-card-pill archive-card-pill--genre" title="{{ card.genre }}">{{ genre_emoji }} {{ card.genre }}</span>
             <span class="archive-card-pill archive-card-pill--year">{{ card.release_year }}</span>
         </div>
-
-        <h3 class="archive-card-title">{{ card.game_title }}</h3>
 
         {% if card.summary %}
         <p class="archive-card-summary">{{ card.summary }}</p>

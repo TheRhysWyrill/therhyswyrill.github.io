@@ -53,6 +53,49 @@ layout: default
 </style>
 <script>
 (function () {
+  // Quick-nav: jump to Top or the verdict paragraph ("Overall, …"). The
+  // verdict button only shows once its paragraph is located in the DOM.
+  // Wired on DOMContentLoaded: this script block sits before the article
+  // markup, so the sidebar and body do not exist yet at parse time.
+  document.addEventListener('DOMContentLoaded', function () {
+  var nav = document.querySelector('.review-quicknav');
+  if (nav) {
+    var verdictBtn = nav.querySelector('[data-nav="verdict"]');
+    var body = document.querySelector('.review-article-body');
+    var verdictEl = null;
+    if (body) {
+      var paras = body.querySelectorAll('p');
+      for (var i = 0; i < paras.length; i++) {
+        if (/^Overall,/i.test(paras[i].textContent.trim())) { verdictEl = paras[i]; break; }
+      }
+    }
+    if (!verdictEl) verdictBtn.style.display = 'none';
+    verdictEl && (verdictEl.id = verdictEl.id || 'review-verdict');
+    nav.addEventListener('click', function (e) {
+      var btn = e.target.closest('.quicknav-btn');
+      if (!btn) return;
+      var target = btn.dataset.nav === 'verdict' ? document.getElementById('review-verdict') : document.querySelector('.review-article-box');
+      if (target) target.scrollIntoView({ behavior: 'instant', block: btn.dataset.nav === 'verdict' ? 'center' : 'start' });
+    });
+    var tickingNav = false;
+    window.addEventListener('scroll', function () {
+      if (!tickingNav) {
+        tickingNav = true;
+        requestAnimationFrame(function () {
+          var nearTop = window.scrollY < 200;
+          var nearVerdict = verdictEl && (function () {
+            var r = verdictEl.getBoundingClientRect();
+            return r.top < window.innerHeight * 0.5 && r.bottom > 0;
+          })();
+          nav.querySelector('[data-nav="top"]').classList.toggle('is-current', nearTop && !nearVerdict);
+          verdictBtn.classList.toggle('is-current', !!nearVerdict);
+          tickingNav = false;
+        });
+      }
+    }, { passive: true });
+  }
+  });
+
   var bar = document.getElementById('reading-progress');
   if (!bar) return;
   var header = document.querySelector('.site-header') || document.querySelector('body > header');
@@ -98,6 +141,11 @@ layout: default
 
     <!-- Right Sidebar Column -->
     <aside class="review-sidebar-panel">
+      <nav class="review-quicknav" aria-label="Page sections">
+        <button type="button" class="quicknav-btn" data-nav="top">↑ Top</button>
+        <button type="button" class="quicknav-btn" data-nav="verdict">✓ Verdict</button>
+      </nav>
+
       <div class="review-spec-card">
         <h3>Game Info</h3>
         

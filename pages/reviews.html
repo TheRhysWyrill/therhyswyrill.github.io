@@ -26,6 +26,7 @@ position: 2
             <select id="filter-verdict" class="vault-filter-select"><option value="">Verdict</option></select>
 
             <button type="button" id="reset-filters" class="filter-reset-btn" title="Clear all filters and search" hidden>Reset</button>
+            <button type="button" id="surprise-review" class="filter-reset-btn" title="Jump to a random review from the archive">🎲 Surprise me</button>
         </div>
 
         <div class="search-input-wrapper">
@@ -87,6 +88,53 @@ position: 2
     }
     function cardPathname(card) {
       try { return new URL(card.href).pathname; } catch (e) { return card.getAttribute("href"); }
+    }
+
+    // ── Search-match highlighting ───────────────────────────────────────────
+    // Visible cards get the matched term marked in their summary; cards whose
+    // hit came from the full-text index (body only) get a small badge instead,
+    // so it is clear why they matched.
+    function escapeRegExp(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+    function escapeHtml(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+    function clearHighlights(cards) {
+      cards.forEach(card => {
+        const summary = card.querySelector("p.archive-card-summary");
+        if (summary && card.dataset.origSummary !== undefined) {
+          summary.textContent = card.dataset.origSummary;
+          delete card.dataset.origSummary;
+        }
+        const badge = card.querySelector(".body-match-badge");
+        if (badge) badge.hidden = true;
+      });
+    }
+    function highlightMatches(cards, query) {
+      clearHighlights(cards);
+      if (!query) return;
+      const re = new RegExp(escapeRegExp(query), "gi");
+      cards.forEach(card => {
+        const summary = card.querySelector("p.archive-card-summary");
+        if (!summary) return;
+        if (card.dataset.origSummary === undefined) card.dataset.origSummary = summary.textContent;
+        const text = card.dataset.origSummary;
+        const hitInSummary = re.test(text);
+        re.lastIndex = 0;
+        if (hitInSummary) {
+          const escapedQuery = escapeRegExp(escapeHtml(query));
+          summary.innerHTML = escapeHtml(text).replace(new RegExp(escapedQuery, "gi"), m => "<mark class=\"search-hit\">" + m + "</mark>");
+        } else if (fullTextBlobs) {
+          const blob = fullTextBlobs[cardPathname(card)];
+          if (blob && blob.includes(query)) {
+            let badge = card.querySelector(".body-match-badge");
+            if (!badge) {
+              badge = document.createElement("span");
+              badge.className = "body-match-badge";
+              summary.insertAdjacentElement("afterend", badge);
+            }
+            badge.textContent = "Matched in review body";
+            badge.hidden = false;
+          }
+        }
+      });
     }
     // ── URL state sync (shareable / bookmarkable filter views) ──────────
     const VALID_SORTS = ["alpha-asc", "alpha-desc", "date-desc", "date-asc", "release-desc", "release-asc"];
@@ -297,6 +345,7 @@ position: 2
       if (filteredCards.length === 0 || totalPages <= 1) {
         if (paginationNav) paginationNav.style.setProperty("display", "none", "important");
         filteredCards.forEach(card => card.style.setProperty("display", "", "important"));
+        highlightMatches(filteredCards, query);
         return;
       }
       
@@ -309,6 +358,7 @@ position: 2
       filteredCards.slice(start, end).forEach(card => {
         card.style.setProperty("display", "", "important");
       });
+      highlightMatches(filteredCards.slice(start, end), query);
       
       if (pageIndicator) {
         window.setupPaginationNav({
@@ -392,6 +442,17 @@ position: 2
         syncStateToUrl();
         updateResetVisibility();
         if (searchInput) searchInput.focus();
+      });
+    }
+
+    // Surprise me: jump to a uniformly random review across the whole archive
+    const surpriseBtn = document.getElementById("surprise-review");
+    if (surpriseBtn) {
+      surpriseBtn.addEventListener("click", function () {
+        const all = Array.from(document.querySelectorAll(".game-archive-card"));
+        if (!all.length) return;
+        const pick = all[Math.floor(Math.random() * all.length)];
+        window.location.href = pick.getAttribute("href");
       });
     }
 

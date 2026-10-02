@@ -1,6 +1,8 @@
 <footer class="site-footer">
     <p class="text">
-        {{ site.footer_text | default: "Powered by <a href='https://jekyllrb.com/'>Jekyll</a> with <a href='https://github.com/sylhare/Type-on-Strap'>Type on Strap</a>" }}</p>
+        {{ site.footer_text | default: "Powered by <a href='https://jekyllrb.com/'>Jekyll</a> with <a href='https://github.com/sylhare/Type-on-Strap'>Type on Strap</a>" }}
+        &nbsp;·&nbsp;
+        <a href="{{ '/atom.xml' | relative_url }}" title="Atom feed of the latest reviews"><i class="fas fa-rss" aria-hidden="true"></i>&nbsp;RSS</a></p>
     <div class="footer-icons">
         <ul>
             <!-- Social icons from Font Awesome, if enabled -->

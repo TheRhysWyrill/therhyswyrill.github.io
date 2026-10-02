@@ -11,6 +11,28 @@ $panel-border: #252932;
    1. GLOBAL / SITE-WIDE 
    -------------------------------------------------------------------------- */
 
+/* Accessibility: hidden until focused, then the first tab stop on every page */
+.skip-to-content {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 10000;
+    background: #1e252b;
+    color: #fff;
+    padding: 10px 18px;
+    border: 1px solid rgba(167, 122, 255, 0.55);
+    border-radius: 0 0 8px 0;
+    font-size: 14.44px;   /* renders 13 at 90% zoom */
+    line-height: 17.78px; /* renders 16 */
+    text-decoration: none;
+
+    &:focus {
+        left: 0;
+        outline: 2px solid #a78bfa;
+        outline-offset: -2px;
+    }
+}
+
 body > header,
 .site-header:not(.post-header),
 nav.nav-container {
@@ -134,6 +156,13 @@ html {
     padding-top: 12px !important;
     padding-bottom: 20px !important;
     margin-top: 0 !important;
+    /* Theme sets z-index: -1, which paints the whole footer BEHIND the page
+       layer — links look fine but can never be clicked. Lift it back into
+       the normal stacking order. */
+    z-index: auto !important;
+    position: relative;
+
+    a { pointer-events: auto; }
 }
 
 /* The theme centres inline media with `iframe, img, embed, object, video {
@@ -356,12 +385,114 @@ html {
     border-radius: 999px;
     padding: 6px 14px;
     white-space: nowrap;
+    text-decoration: none;
 
     strong { color: #fff; font-weight: 700; }
+
+    /* Verdict pills are links into the filtered reviews archive
+       (the rec/unsure/notrec variants are <a> elements in index.html);
+       hover feedback only for the clickable ones. Written as a sibling rule
+       because Sass forbids trailing parent selectors (a&). */
+    transition: border-color .15s ease, background .15s ease, transform .15s ease;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.08);
+    }
+}
+
+a.backlog-stat {
+    cursor: pointer;
+
+    &:hover {
+        border-color: rgba(255, 255, 255, 0.25);
+        transform: translateY(-1px);
+    }
 
     &.backlog-stat-rec { color: #7dd88f; }
     &.backlog-stat-unsure { color: #e8c268; }
     &.backlog-stat-notrec { color: #e07a7a; }
+}
+
+/* About-page milestone stats (computed at build in pages/about.md) */
+.about-milestones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin: 0 auto 26px auto;
+    max-width: 900px;
+}
+
+.milestone-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    background: rgba(20, 24, 28, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+    padding: 14px 22px;
+    min-width: 130px;
+}
+
+.milestone-num {
+    font-size: 24.44px;   /* renders 22 at 90% zoom */
+    line-height: 28.89px; /* renders 26 */
+    font-weight: 800;
+    color: #a78bfa;
+}
+
+.milestone-label {
+    font-size: 12.22px;   /* renders 11 */
+    line-height: 15.56px; /* renders 14 */
+    color: #b6bfc9;
+}
+
+/* Reviews-per-year mini chart beside the stats strip (pure Liquid + CSS) */
+.backlog-activity {
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.activity-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.activity-count {
+    font-size: 11.11px;   /* renders 10 */
+    line-height: 13.33px; /* renders 12 */
+    color: #8a909e;
+}
+
+.activity-track {
+    width: 34px;
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+}
+
+.activity-bar {
+    width: 100%;
+    background: linear-gradient(180deg, #a78bfa, #7c3aed);
+    border-radius: 5px 5px 0 0;
+    min-height: 3px;
+}
+
+.activity-year {
+    font-size: 11.11px;   /* renders 10 */
+    line-height: 13.33px; /* renders 12 */
+    color: #b6bfc9;
+    font-weight: 600;
 }
 
 .latest-reviews-section {
@@ -1087,6 +1218,26 @@ body:has(.compat-page) {
     line-height: 17.78px !important;
 }
 
+/* Search-hit highlighting inside card summaries + body-match badge */
+mark.search-hit {
+    background: rgba(167, 122, 255, 0.35);
+    color: #fff;
+    border-radius: 3px;
+    padding: 0 2px;
+}
+
+.body-match-badge {
+    display: inline-block;
+    margin: 2px 0 4px 0;
+    font-size: 11.11px;   /* renders 10 */
+    line-height: 13.33px; /* renders 12 */
+    color: #a78bfa;
+    background: rgba(124, 58, 237, 0.14);
+    border: 1px solid rgba(167, 122, 255, 0.35);
+    border-radius: 999px;
+    padding: 2px 9px;
+}
+
 #paginationNav,
 .pagination-container {
     display: flex !important;
@@ -1217,18 +1368,20 @@ body:has(.compat-page) {
 
                 .archive-card-details { padding: 10px !important; }
 
-                .archive-card-meta { margin-bottom: 2px !important; }
-
+                /* Title sits above the pill row; keep 2-line min-height so
+                   pill rows align across a grid row of cards */
                 h3.archive-card-title {
-                    font-size: 14.44px !important;
-                    line-height: 18.89px !important; /* renders 17 at 90% zoom */
-                    min-height: 37.78px !important;
-                    margin-bottom: 2px !important;
+                    font-size: 15.56px !important; /* readability bump: renders 14 at 90% zoom */
+                    line-height: 20px !important;  /* renders 18; ratio 1.29 keeps clamped descenders */
+                    min-height: 40px !important;
+                    margin: 0 0 2px 0 !important;
                 }
 
+                .archive-card-meta { margin-bottom: 4px !important; }
+
                 p.archive-card-summary {
-                    font-size: 12.22px !important;
-                    line-height: 16.67px !important; /* renders 15 at 90% zoom */
+                    font-size: 13.33px !important; /* readability bump: renders 12 */
+                    line-height: 17.78px !important; /* renders 16 */
                     margin-bottom: 4px !important;
                 }
             }
@@ -1248,25 +1401,25 @@ body:has(.compat-page) {
                 .archive-card-details { padding: 11px !important; }
 
                 .archive-card-meta span.archive-card-pill {
-                    font-size: 10px !important;
+                    font-size: 11.11px !important; /* renders 10 */
                     padding: 2px 8px !important;
                 }
 
                 .archive-card-inline-date span.archive-card-date-pill {
-                    font-size: 10px !important;
+                    font-size: 11.11px !important; /* renders 10 */
                     padding: 2px 8px !important;
                 }
 
                 h3.archive-card-title {
-                    font-size: 14.44px !important;
-                    line-height: 18.89px !important; /* renders 17 at 90% zoom */
-                    min-height: 37.78px !important;
-                    margin: 4px 0 4px 0 !important;
+                    font-size: 15.56px !important; /* readability bump: renders 14 */
+                    line-height: 20px !important;  /* renders 18 */
+                    min-height: 40px !important;
+                    margin: 0 0 4px 0 !important;
                 }
 
                 p.archive-card-summary {
-                    font-size: 12.22px !important;
-                    line-height: 16.67px !important; /* renders 15 at 90% zoom */
+                    font-size: 13.33px !important; /* readability bump: renders 12 */
+                    line-height: 17.78px !important; /* renders 16 */
                     -webkit-line-clamp: 2 !important;
                     margin-bottom: 6px !important;
                 }
@@ -1281,7 +1434,7 @@ body:has(.compat-page) {
 
                 .archive-card-image-wrap .archive-card-platform,
                 .archive-card-image-wrap .archive-card-readtime {
-                    font-size: 10px !important;
+                    font-size: 11.11px !important; /* renders 10 */
                     padding: 2px 8px !important;
                 }
 
@@ -1338,7 +1491,7 @@ body:has(.compat-page) {
             height: auto !important;
             display: inline-block !important;
             color: #ffffff !important;
-            font-size: 10px !important;
+            font-size: 11.11px !important; /* renders 10 at 90% zoom */
             font-weight: 800 !important;
             text-transform: uppercase !important;
             letter-spacing: 0.4px !important;
@@ -1364,7 +1517,7 @@ body:has(.compat-page) {
             height: auto !important;
             display: inline-block !important;
             color: #e9ecef !important;
-            font-size: 10px !important;
+            font-size: 11.11px !important; /* renders 10 at 90% zoom */
             font-weight: 600 !important;
             letter-spacing: 0.4px !important;
             padding: 3px 9px !important;
@@ -1402,7 +1555,7 @@ body:has(.compat-page) {
 
             .archive-card-meta span.archive-card-pill {
                 display: inline-block !important;
-                font-size: 10px !important;
+                font-size: 11.11px !important; /* renders 10 at 90% zoom */
                 font-weight: 700 !important;
                 padding: 2px 8px !important;
                 border-radius: 999px !important;
@@ -1424,6 +1577,7 @@ body:has(.compat-page) {
 
             .archive-card-meta span.archive-card-pill--year {
                 flex: 0 0 auto !important;
+                margin-left: auto !important; /* pin the year to the right edge of the pill row */
                 color: #8ed6fb !important;
                 background: rgba(56, 189, 248, 0.15) !important;
                 border: 1px solid rgba(56, 189, 248, 0.38) !important;
@@ -1431,7 +1585,7 @@ body:has(.compat-page) {
 
             .archive-card-inline-date span.archive-card-date-pill {
                 color: #e8cd76 !important;
-                font-size: 10px !important;
+                font-size: 11.11px !important; /* renders 10 */
                 background: rgba(212, 175, 55, 0.14) !important;
                 border: 1px solid rgba(212, 175, 55, 0.36) !important;
             }
@@ -1611,6 +1765,39 @@ html body .archive-container {
 .review-main-content { min-width: 0 !important; }
 .review-sidebar-panel { position: sticky !important; top: 40px !important; }
 
+/* Quick-nav: Top / Verdict jump buttons above the spec card */
+.review-quicknav {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.quicknav-btn {
+    flex: 1;
+    font-size: 12.22px;   /* renders 11 at 90% zoom */
+    line-height: 15.56px; /* renders 14 */
+    font-weight: 600;
+    color: #b6bfc9;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    padding: 7px 10px;
+    cursor: pointer;
+    transition: color .15s ease, background .15s ease, border-color .15s ease;
+
+    &:hover {
+        color: #fff;
+        border-color: rgba(167, 122, 255, 0.5);
+        background: rgba(124, 58, 237, 0.12);
+    }
+
+    &.is-current {
+        color: #c9b8f5;
+        border-color: rgba(167, 122, 255, 0.55);
+        background: rgba(124, 58, 237, 0.16);
+    }
+}
+
 .review-spec-card {
     background: $panel-bg-dark !important;
     border: 1px solid $panel-border !important;
@@ -1687,8 +1874,8 @@ html body .archive-container {
 }
 
 .review-article-body {
-    font-size: 16.67px !important;
-    line-height: 31.11px !important; /* renders 28 at 90% zoom; was 1.9em = 28.5 fractional */
+    font-size: 17.78px !important; /* readability bump: renders 16 at 90% zoom */
+    line-height: 31.11px !important; /* renders 28; ratio 1.75 */
     color: #e2e8f0 !important;
 
     p { margin-bottom: 26px !important; }
@@ -2099,6 +2286,51 @@ body:has(.vault-page) {
         width: 100%;
         max-width: 320px;
     }
+}
+
+/* Watched-tracker: progress line under the channel description + per-card toggle */
+.vault-progress {
+    margin-top: 4px;
+    font-size: 12.22px;   /* renders 11 at 90% zoom */
+    line-height: 15.56px; /* renders 14 */
+    color: #8a909e;
+}
+
+.watched-toggle {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 11.11px;   /* renders 10 */
+    line-height: 13.33px; /* renders 12 */
+    font-weight: 700;
+    color: #8a909e;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    padding: 3px 10px;
+    cursor: pointer;
+    transition: color .15s ease, background .15s ease, border-color .15s ease;
+
+    &:hover { color: #fff; border-color: rgba(167, 122, 255, 0.5); }
+
+    &.is-watched {
+        color: #7dd88f;
+        background: rgba(70, 160, 90, 0.14);
+        border-color: rgba(125, 216, 143, 0.45);
+    }
+}
+
+.vault-unwatched-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+    font-size: 12.22px;   /* renders 11 */
+    line-height: 15.56px; /* renders 14 */
+    color: #b6bfc9;
+    cursor: pointer;
+    white-space: nowrap;
+
+    input { accent-color: #7c3aed; cursor: pointer; }
 }
 
 .pagination-controls {

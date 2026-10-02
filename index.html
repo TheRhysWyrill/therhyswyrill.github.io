@@ -74,20 +74,120 @@ layout: default
 {% assign rec_count = all_reviews | where: "verdict", "recommended" | size %}
 {% assign unsure_count = all_reviews | where: "verdict", "not-sure" | size %}
 {% assign notrec_count = all_reviews | where: "verdict", "not-recommended" | size %}
-{% assign platform_count = all_reviews | map: "platform" | uniq | size %}
-{% assign genre_count = all_reviews | map: "genre" | uniq | size %}
+{% comment %}
+  "Total games tested" is computed client-side below: the Is It Playable
+  sheets are runtime-fetched CSVs (one per platform), so build-time Liquid
+  cannot count them. window.__compatTestedCount is set by the counter script;
+  until it loads the strip shows the reviewed-games figure instead.
+{% endcomment %}
+{% comment %}
+  Genres are stored as comma-separated combinations ("Adventure, Puzzle"), so
+  map/uniq counts combinations, not genres. Split on commas and dedupe to
+  count the actual genres behind those combinations.
+{% endcomment %}
+{% assign genre_combos = all_reviews | map: "genre" | join: "," | downcase | split: "," %}
+{% assign genre_set = "" %}
+{% for combo in genre_combos %}
+    {% assign g = combo | strip %}
+    {% unless g == "" or genre_set contains g %}
+        {% capture genre_set %}{{ genre_set }}|{{ g }}{% endcapture %}
+    {% endunless %}
+{% endfor %}
+{% assign genre_count = genre_set | split: "|" | size | minus: 1 %}
 {% assign newest_review = all_reviews | sort: "date" | reverse | first %}
+{% assign year_groups = all_reviews | group_by_exp: "r", "r.date | date: '%Y'" | sort: "name" | reverse %}
+{% assign max_year_count = 1 %}
+{% for g in year_groups %}{% if g.size > max_year_count %}{% assign max_year_count = g.size %}{% endif %}{% endfor %}
 <div class="backlog-stats-strip" aria-label="Backlog progress">
     <div class="archive-container backlog-stats-inner">
         <span class="backlog-stat"><strong>{{ all_reviews.size }}</strong>&nbsp;games reviewed so far</span>
-        <span class="backlog-stat backlog-stat-rec">&#10003;&nbsp;{{ rec_count }} recommended</span>
-        <span class="backlog-stat backlog-stat-unsure">?&nbsp;{{ unsure_count }} undecided</span>
-        <span class="backlog-stat backlog-stat-notrec">&#10007;&nbsp;{{ notrec_count }} not recommended</span>
-        <span class="backlog-stat"><strong>{{ platform_count }}</strong>&nbsp;platforms tested</span>
+        <a class="backlog-stat backlog-stat-rec" href="/reviews/?verdict=recommended" title="Show all recommended reviews">&#10003;&nbsp;{{ rec_count }} recommended</a>
+        <a class="backlog-stat backlog-stat-unsure" href="/reviews/?verdict=not-sure" title="Show all reviews I'm not sure about">?&nbsp;{{ unsure_count }} not sure</a>
+        <a class="backlog-stat backlog-stat-notrec" href="/reviews/?verdict=not-recommended" title="Show all not-recommended reviews">&#10007;&nbsp;{{ notrec_count }} not recommended</a>
+        <span class="backlog-stat"><strong id="games-tested-count">{{ all_reviews.size }}</strong>&nbsp;<span id="games-tested-label">games reviewed</span></span>
         <span class="backlog-stat"><strong>{{ genre_count }}</strong>&nbsp;genres</span>
         <span class="backlog-stat">Updated&nbsp;{{ newest_review.date | date: "%-d %b %Y" }}</span>
     </div>
+    <div class="archive-container backlog-activity" role="img"
+         aria-label="Reviews written per year: {% for g in year_groups %}{{ g.name }}: {{ g.size }}{% unless forloop.last %}, {% endunless %}{% endfor %}">
+        {% for g in year_groups %}
+        <div class="activity-col">
+            <span class="activity-count">{{ g.size }}</span>
+            <div class="activity-track"><div class="activity-bar" style="height: {{ g.size | times: 100 | divided_by: max_year_count }}%;"></div></div>
+            <span class="activity-year">{{ g.name }}</span>
+        </div>
+        {% endfor %}
+    </div>
 </div>
+<script>
+(function () {
+  // Total games tested = every row across the Is It Playable sheets whose
+  // status is anything other than "to be tested" (i.e. real test results).
+  var SHEETS = [
+    { name: 'Nintendo 3DS', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=989513195&single=true&output=csv' },
+    { name: 'GameCube / Wii', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=722868656&single=true&output=csv' },
+    { name: 'Nintendo Switch', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=412405791&single=true&output=csv' },
+    { name: 'PS2', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=2142455474&single=true&output=csv' },
+    { name: 'PS3', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=223480540&single=true&output=csv' },
+    { name: 'PS4', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=1869087751&single=true&output=csv' },
+    { name: 'PS5', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=83107815&single=true&output=csv' },
+    { name: 'PS Vita', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=1379946484&single=true&output=csv' },
+    { name: 'SteamOS', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=441094204&single=true&output=csv' },
+    { name: 'Wii U', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=84424098&single=true&output=csv' },
+    { name: 'Xbox', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=91761340&single=true&output=csv' },
+    { name: 'Xbox 360', url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=1207700995&single=true&output=csv' }
+  ];
+  window.__compatTestedCount = null;
+
+  function parseCSV(text) {
+    // Minimal RFC-4180 split (quoted commas + escaped quotes) — enough for
+    // the status sheets, with no external parser dependency.
+    var rows = [], row = [], cell = '', inQ = false;
+    for (var i = 0; i < text.length; i++) {
+      var c = text[i];
+      if (inQ) {
+        if (c === '"') { if (text[i + 1] === '"') { cell += '"'; i++; } else { inQ = false; } }
+        else cell += c;
+      } else if (c === '"') { inQ = true; }
+      else if (c === ',') { row.push(cell); cell = ''; }
+      else if (c === '\n') { row.push(cell.replace(/\r$/, '')); if (row.length > 1 || row[0] !== '') rows.push(row); row = []; cell = ''; }
+      else cell += c;
+    }
+    row.push(cell.replace(/\r$/, ''));
+    if (row.length > 1 || row[0] !== '') rows.push(row);
+    return rows;
+  }
+
+  function countTested(text) {
+    var rows = parseCSV(text);
+    if (!rows.length) return 0;
+    var head = rows[0].map(function (h) { return h.trim().toLowerCase(); });
+    var gi = head.indexOf('game title') >= 0 ? head.indexOf('game title') : head.indexOf('game');
+    var si = head.indexOf('status') >= 0 ? head.indexOf('status') : head.indexOf('emulation status');
+    var n = 0;
+    for (var i = 1; i < rows.length; i++) {
+      var r = rows[i];
+      var game = gi >= 0 && gi < r.length ? r[gi].trim() : '';
+      var status = si >= 0 && si < r.length ? r[si].trim().toLowerCase() : '';
+      if (!game) continue;
+      if (!status || status === 'to be tested' || status === 'to-be-tested') continue;
+      n++;
+    }
+    return n;
+  }
+
+  Promise.all(SHEETS.map(function (s) {
+    return fetch(s.url).then(function (r) { return r.text(); }).then(countTested).catch(function () { return 0; });
+  })).then(function (counts) {
+    var total = counts.reduce(function (a, b) { return a + b; }, 0);
+    window.__compatTestedCount = total;
+    var num = document.getElementById('games-tested-count');
+    var label = document.getElementById('games-tested-label');
+    if (num && total > 0) { num.textContent = total.toLocaleString('en-GB'); }
+    if (label && total > 0) { label.textContent = 'games tested'; }
+  });
+})();
+</script>
 
 <div class="latest-reviews-section">
     <div class="latest-reviews-header">

@@ -44,6 +44,36 @@ To keep data transparent across my compatibility sheets and reviews, all testing
 | **Purpose** | Emulation testing and the system used for PC playthroughs. |
 
 ---
+<arg_value><b88a6f17><div class="about-milestones" role="list" aria-label="Archive milestones">
+    {% assign milestone_reviews = site.pages | where: "layout", "review" %}
+    {% assign milestone_rec = milestone_reviews | where: "verdict", "recommended" | size %}
+    {% assign earliest = milestone_reviews | sort: "date" | first %}
+    {% assign now_s = site.time | date: "%s" | plus: 0 %}
+    {% assign earliest_s = earliest.date | date: "%s" | plus: 0 %}
+    {% assign days_running = now_s | minus: earliest_s | divided_by: 86400 %}
+    {% assign total_words = 0 %}
+    {% for r in milestone_reviews %}{% assign r_wc = r.content | strip_html | number_of_words %}{% assign total_words = total_words | plus: r_wc %}{% endfor %}
+    <div class="milestone-card" role="listitem">
+        <span class="milestone-num">{{ milestone_reviews.size }}</span>
+        <span class="milestone-label">games reviewed</span>
+    </div>
+    <div class="milestone-card" role="listitem">
+        <span class="milestone-num">{{ days_running }}</span>
+        <span class="milestone-label">days running</span>
+    </div>
+    <div class="milestone-card" role="listitem">
+        <span class="milestone-num">{{ total_words }}</span>
+        <span class="milestone-label">words written</span>
+    </div>
+    <div class="milestone-card" role="listitem">
+        <span class="milestone-num">{{ milestone_rec | times: 100 | divided_by: milestone_reviews.size }}%</span>
+        <span class="milestone-label">recommended</span>
+    </div>
+    <div class="milestone-card" role="listitem">
+        <span class="milestone-num">{{ milestone_reviews | map: "genre" | uniq | size }}</span>
+        <span class="milestone-label">genres explored</span>
+    </div>
+</div>
 
 ## Connect
 
