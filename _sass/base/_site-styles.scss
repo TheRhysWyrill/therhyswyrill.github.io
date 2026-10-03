@@ -1234,7 +1234,11 @@ body:has(.compat-page) {
     display: flex;
     gap: 10px;
     flex-grow: 1;
-    justify-content: center;
+    /* Even spacing, not centring: the controls then share the row edge to
+       edge between the heading on the left and the search on the right, and
+       the Reset button appearing or hiding just takes its own equal slot
+       instead of shoving everything sideways. */
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -1289,10 +1293,13 @@ body:has(.compat-page) {
     width: 100%;
 
     /* Lives inside .filter-controls-group (after the Surprise button) so the
-       controls and search share one wrapping row: grows into slack space,
-       shrinks before wrapping, and never squeezes below a usable width. */
+       controls and search share one wrapping row: a fixed basis with shrink
+       allowed, so the group’s space-between does the spacing (a growing box
+       would swallow the slack and leave nothing to distribute), the search
+       still yields on narrow screens, and it ends flush with the row's right
+       edge — the mirror of the "Reviews" heading on the left edge. */
     .filter-controls-group & {
-        flex: 1 1 240px;
+        flex: 0 1 340px;
         max-width: 380px;
         min-width: 220px;
     }
@@ -1800,23 +1807,94 @@ html body .archive-container {
     }
 }
 
-/* Reviews archive page only: match the review-page width and drop to four
-   columns so the cards get real breathing room (the homepage strip keeps its
-   own 6-across layout). Scoped with :has so the homepage is untouched, and
-   wrapped in min-width 1201px so the existing 3/2-column breakpoints still
-   win below that. */
-@media (min-width: 1201px) {
-    /* html body prefix: the compiled sheet keeps source order, and the theme's
-       own `html body .archive-container ...` !important rules must lose to
-       these, not win on tie-break. */
+/* Reviews archive: six cards per row, across the page width, with the type
+   drawn on whole pixels.
+
+   The archive sits under the site-wide 90% zoom (section 1), so every px in a
+   card — padding, gap, border, and the 15.56/13.33/11.11px type that was
+   deliberately snapped so it lands on a whole pixel AFTER that zoom — ends up
+   on a fraction of a device pixel. Glyphs rasterised at fractional sizes and
+   fractional x-positions are what read as "fuzzy".
+
+   The grid cancels the zoom precisely: calc(100% / 0.9) is the exact inverse
+   of the 90% clamp, so one declared px is one device px again. (A rounded
+   111.111% does not work — it multiplies out to 0.99998, which was measured.)
+
+   The grid then takes the container's physical width and rounds it so six
+   cards divide it evenly: with a 16px gap the width has to be 2 (mod 6), so
+   round down to a multiple of 6 and take 4px off. That keeps every card the
+   same integer width with an integer gap at any viewport, so all six cards'
+   text boxes start at the same sub-pixel offset — the one the rest of the
+   site's centred blocks already have — instead of drifting by n × 14.4px down
+   the row. Browsers without round() fall back to 100%: a fraction of a pixel
+   per card, still fine.
+
+   Scoped with :has so the homepage strip and the "More like this" strip keep
+   the 90% scale, and wrapped in min-width 1024px to match the zoom itself —
+   below that the page is unzoomed and cancelling a zoom that isn't there
+   would inflate the cards by 11%. The type rules repeat
+   `.archive-grid a.game-archive-card` on purpose: the mixin's own `--compact`
+   rules carry that extra `a` element, so a shorter selector would lose to them
+   on specificity no matter where it sits in the file. */
+@media (min-width: 1024px) {
     html body:has(.reviews-header-container) .archive-container:has(.archive-grid) {
         width: 100% !important;
         max-width: 1800px !important;
-        padding: 0 40px !important;
+        padding: 0 !important;
     }
 
     html body:has(.reviews-header-container) .archive-container .archive-grid {
-        grid-template-columns: repeat(4, 1fr) !important;
+        zoom: calc(100% / 0.9) !important;
+        width: calc(round(down, 100%, 6px) - 4px) !important;
+        max-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    /* Card type restated at the size it used to RENDER at (15.56 → 14, 13.33 →
+       12, 11.11 → 10, 12.22 → 11, plus the matching line-heights), so the cards
+       keep their current proportions while every glyph is drawn at an exact
+       integer size and sits on an integer line box. */
+    html body:has(.reviews-header-container) .archive-container .archive-grid a.game-archive-card {
+        .archive-card-details {
+            span { font-size: 12px !important; }
+
+            h3,
+            h3.archive-card-title {
+                font-size: 14px !important;
+                line-height: 18px !important;
+                min-height: 36px !important; /* two lines, as the 90% box was */
+            }
+
+            p,
+            p.archive-card-summary {
+                font-size: 12px !important;
+                line-height: 16px !important;
+            }
+
+            .archive-card-meta span.archive-card-pill {
+                font-size: 10px !important;
+                line-height: 14px !important;
+            }
+
+            .archive-card-inline-date span.archive-card-date-pill {
+                font-size: 10px !important;
+                line-height: 14px !important;
+            }
+        }
+
+        .archive-card-image-wrap {
+            .archive-verdict-tag {
+                font-size: 11px !important;
+                line-height: 13px !important;
+            }
+
+            .archive-card-platform,
+            .archive-card-readtime {
+                font-size: 10px !important;
+                line-height: 10px !important;
+            }
+        }
     }
 }
 
@@ -3058,14 +3136,26 @@ body:has(.vault-page) {
 
 .numbers-page {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1800px; /* matches the review article and the reviews archive */
     margin: 0 auto;
     padding: 10px 24px 30px 24px;
     box-sizing: border-box;
 }
 
+/* The page head is the site's standard .isolated-cinematic-card hero (see
+   pages/about.md), so this section only styles the body below it. */
+
+/* Desktop dashboard: two columns, with the wide blocks (totals, the year
+   chart, the platform table, the playability bar) spanning both. The single
+   column below 1200px is the old vertical layout. */
+.numbers-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 36px;
+}
+
 .numbers-section {
-    margin: 0 0 38px 0;
+    margin: 0;
 }
 
 .numbers-section-title {
@@ -3214,6 +3304,52 @@ body:has(.vault-page) {
     color: #b6bfc9;
     font-size: 12.22px;   /* renders 11 */
     line-height: 15.56px; /* renders 14 */
+}
+
+/* Desktop overrides for the dashboard above. These sit at the end of the
+   section on purpose: the rules they override (.numbers-bars, .milestone-card)
+   are the same specificity, so source order is what settles them. */
+@media (min-width: 1200px) {
+    .numbers-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 34px 46px;
+        align-items: start;
+    }
+
+    .numbers-section--full { grid-column: 1 / -1; }
+
+    /* Ranked platform list in two balanced columns, still reading downwards */
+    .numbers-bars--split {
+        display: block;
+        column-count: 2;
+        column-gap: 46px;
+        max-width: none;
+    }
+
+    .numbers-bars--split .numbers-bar-row { break-inside: avoid; }
+
+    /* Six stat cards spread evenly across the full width instead of the About
+       page's 900px cap and content-sized cards */
+    .numbers-section--full .about-milestones { max-width: none; margin-bottom: 0; }
+
+    .numbers-section--full .milestone-card {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    /* The year chart grows from its 34px-wide bars into a real full-width
+       column chart */
+    .numbers-years { gap: 30px; margin-top: 4px; }
+
+    .numbers-years .activity-col {
+        flex: 1 1 0;
+        max-width: 190px;
+    }
+
+    .numbers-years .activity-track {
+        width: 100%;
+        height: 190px;
+    }
 }
 
 /* The Numbers page keeps the bar stacked in its own section (the floating
