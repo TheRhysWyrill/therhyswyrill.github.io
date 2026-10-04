@@ -1,11 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-10-03T06:52:59Z",
-  "stream": null,
+  "isLive": true,
+  "checkedAt": "2026-10-04T23:31:39Z",
+  "stream": {
+    "title": "Shipwrecked and Overrun | Dead Island Riptide",
+    "game": "Dead Island: Riptide",
+    "viewers": 1,
+    "startedAt": "2026-10-04T21:53:15Z"
+  },
   "latestVod": {
-    "id": "2890148370",
-    "title": "One Oath, One Fang, One Demon Lord | Okko The Exiled",
-    "createdAt": "2026-10-02T21:44:01Z",
-    "lengthSeconds": 23170
+    "id": "2892098998",
+    "title": "Shipwrecked and Overrun | Dead Island Riptide",
+    "createdAt": "2026-10-04T21:53:20Z",
+    "lengthSeconds": 5899
   }
 }
