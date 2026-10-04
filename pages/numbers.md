@@ -23,7 +23,7 @@ seo_description: "The Playability Report in statistics: every review, verdict, w
 {% assign avg_words = total_words | divided_by: total %}
 {% assign total_minutes = total_words | divided_by: 200 %}
 {% assign total_hours = total_minutes | divided_by: 60.0 | round %}
-{% assign rec_pct = rec_count | times: 100 | divided_by: total %}
+
 
 {% comment %} Genre count mirrors the homepage: front matter stores
    comma-separated combinations, so split and dedupe to count the
@@ -65,6 +65,35 @@ seo_description: "The Playability Report in statistics: every review, verdict, w
 {% assign unsure_pct = unsure_count | times: 100.0 | divided_by: total %}
 {% assign notrec_pct = notrec_count | times: 100.0 | divided_by: total %}
 
+{% comment %} Largest-remainder rounding. Rounding each share on its own gives
+   totals like 97 + 1 + 1 = 99, so instead floor all three, then hand the
+   leftover points to whichever shares were rounded down hardest. The three
+   labels are then guaranteed to add up to exactly 100 while each stays within
+   one point of its true share. {% endcomment %}
+{% assign rec_floor = rec_pct_exact | floor %}
+{% assign unsure_floor = unsure_pct | floor %}
+{% assign notrec_floor = notrec_pct | floor %}
+{% assign leftover = 100 | minus: rec_floor | minus: unsure_floor | minus: notrec_floor %}
+{% assign rem_rec = rec_pct_exact | minus: rec_floor | times: 1000 | round %}
+{% assign rem_unsure = unsure_pct | minus: unsure_floor | times: 1000 | round %}
+{% assign rem_notrec = notrec_pct | minus: notrec_floor | times: 1000 | round %}
+{% assign rec_shown = rec_floor %}
+{% assign unsure_shown = unsure_floor %}
+{% assign notrec_shown = notrec_floor %}
+{% if leftover > 0 %}
+    {% for i in (1..leftover) %}
+        {% assign top_key = rem_rec %}
+        {% assign top_name = "rec" %}
+        {% if rem_unsure > top_key %}{% assign top_key = rem_unsure %}{% assign top_name = "unsure" %}{% endif %}
+        {% if rem_notrec > top_key %}{% assign top_key = rem_notrec %}{% assign top_name = "notrec" %}{% endif %}
+        {% case top_name %}
+            {% when "rec" %}{% assign rec_shown = rec_shown | plus: 1 %}{% assign rem_rec = -1 %}
+            {% when "unsure" %}{% assign unsure_shown = unsure_shown | plus: 1 %}{% assign rem_unsure = -1 %}
+            {% else %}{% assign notrec_shown = notrec_shown | plus: 1 %}{% assign rem_notrec = -1 %}
+        {% endcase %}
+    {% endfor %}
+{% endif %}
+
 <div class="isolated-cinematic-card">
     <div class="billboard-overlay"></div>
     <div class="billboard-title-card">
@@ -93,7 +122,7 @@ seo_description: "The Playability Report in statistics: every review, verdict, w
                     <span class="milestone-label">avg words per review</span>
                 </div>
                 <div class="milestone-card" role="listitem">
-                    <span class="milestone-num">{{ rec_pct }}%</span>
+                    <span class="milestone-num">{{ rec_shown }}%</span>
                     <span class="milestone-label">recommended</span>
                 </div>
                 <div class="milestone-card" role="listitem">
@@ -113,19 +142,20 @@ seo_description: "The Playability Report in statistics: every review, verdict, w
                 <div class="numbers-bar-row">
                     <span class="numbers-bar-label">✓ Recommended</span>
                     <div class="numbers-bar-track"><div class="numbers-bar-fill numbers-bar-fill--rec" style="width: {{ rec_pct_exact }}%;"></div></div>
-                    <span class="numbers-bar-count">{{ rec_count }} · {{ rec_pct_exact | round }}%</span>
+                    <span class="numbers-bar-count">{{ rec_count }} · {{ rec_shown }}%</span>
                 </div>
                 <div class="numbers-bar-row">
                     <span class="numbers-bar-label">– Not sure</span>
                     <div class="numbers-bar-track"><div class="numbers-bar-fill numbers-bar-fill--unsure" style="width: {{ unsure_pct }}%;"></div></div>
-                    <span class="numbers-bar-count">{{ unsure_count }} · {{ unsure_pct | round }}%</span>
+                    <span class="numbers-bar-count">{{ unsure_count }} · {{ unsure_shown }}%</span>
                 </div>
                 <div class="numbers-bar-row">
                     <span class="numbers-bar-label">✗ Not recommended</span>
                     <div class="numbers-bar-track"><div class="numbers-bar-fill numbers-bar-fill--notrec" style="width: {{ notrec_pct }}%;"></div></div>
-                    <span class="numbers-bar-count">{{ notrec_count }} · {{ notrec_pct | round }}%</span>
+                    <span class="numbers-bar-count">{{ notrec_count }} · {{ notrec_shown }}%</span>
                 </div>
             </div>
+            <p class="numbers-note">Rounded to whole numbers so the three shares total 100%.</p>
         </div>
 
         <div class="numbers-section">

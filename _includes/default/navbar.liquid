@@ -34,8 +34,14 @@
                     {% if page.url == '/live/' %}<span class="live-status-dot" id="live-status-dot" hidden aria-hidden="true"></span>{% endif %}
                 </a>
             </li>
+            {% comment %}
+              Only remember titles that were actually rendered. Accumulating
+              hidden pages too meant a hidden "Horror Reviews" stub suppressed
+              the real "Reviews" link, because the check below is a substring
+              test rather than an equality one.
+            {% endcomment %}
+            {% assign name_page = page.title | append: name_page %}
         {% endunless %}
-        {% assign name_page = page.title | append: name_page %}
         {% endfor %}
 
         {% if site.color_theme == 'auto' %}

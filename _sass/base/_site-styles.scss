@@ -3175,6 +3175,16 @@ body:has(.vault-page) {
     margin: -6px 0 18px 0;
 }
 
+/* Rounding footnote under the verdict bars. Sized off .numbers-lead and
+   snapped the same way (declared px = rendered px / 0.9 site zoom). */
+.numbers-note {
+    color: #718096;
+    font-size: 13.33px;   /* renders 12 */
+    line-height: 18.89px; /* renders 17 */
+    text-align: center;
+    margin: 14px 0 0 0;
+}
+
 /* Horizontal bar rows (verdicts, platforms) */
 .numbers-bars {
     display: flex;
@@ -3357,4 +3367,343 @@ body:has(.vault-page) {
 .numbers-compat .compat-tested-bar {
     max-width: 760px;
     width: 100%;
+}
+
+/* --------------------------------------------------------------------------
+   15. GENRE LANDING PAGES (/genres/<slug>/) + the /genres/ index
+   --------------------------------------------------------------------------
+   The hero is the site's standard .isolated-cinematic-card (see pages/about.md
+   and pages/numbers.md), so this block only styles the body below it.
+
+   The "start here" row deliberately borrows .archive-container / .archive-grid
+   rather than restating them: the archive card styles are scoped to those two
+   wrappers, so a plain .genre-start-grid would render three unstyled boxes.
+   -------------------------------------------------------------------------- */
+
+html body .genre-page {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 26px 24px 30px 24px;
+    box-sizing: border-box;
+}
+
+.genre-lede {
+    max-width: 780px;
+    margin: 0 auto 30px auto;
+    font-size: 17.78px;   /* renders 16 at 90% zoom */
+    line-height: 27.78px; /* renders 25 */
+    color: $color-text-muted;
+    text-align: center;
+
+    a { color: #cbb6ff; }
+}
+
+.genre-section {
+    margin-bottom: 42px;
+}
+
+.genre-section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid $panel-border;
+}
+
+.genre-section-title {
+    font-size: 24.44px;   /* renders 22 */
+    line-height: 32.22px; /* renders 29 */
+    font-weight: 700;
+    color: $color-white;
+    margin: 0;
+}
+
+.genre-section-note {
+    font-size: 13.33px;   /* renders 12 */
+    line-height: 17.78px; /* renders 16 */
+    color: #718096;
+}
+
+.genre-section-link {
+    font-size: 13.33px;   /* renders 12 */
+    line-height: 17.78px; /* renders 16 */
+    font-weight: 600;
+    color: #cbb6ff;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+}
+
+/* The start-here row: three cards, narrower than the six-up archive grid. */
+html body .archive-container.genre-start-container:has(.genre-start-grid) {
+    width: 100% !important;
+    max-width: 1080px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
+html body .archive-container.genre-start-container .genre-start-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 18px !important;
+}
+
+@media (max-width: 1000px) {
+    html body .archive-container.genre-start-container .genre-start-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+}
+
+@media (max-width: 650px) {
+    html body .archive-container.genre-start-container .genre-start-grid {
+        grid-template-columns: minmax(0, 1fr) !important;
+    }
+}
+
+/* "Worth knowing about": the reviews that didn't get a clean yes. This is the
+   block a genre page actually adds — 65 horror reviews are all green, so the
+   single dash is the one thing the filtered archive doesn't surface. */
+.genre-hedged-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 860px;
+}
+
+.genre-hedged-item a {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 16px;
+    background: $panel-bg-dark;
+    border: 1px solid $panel-border;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: border-color 0.2s ease, background 0.2s ease;
+
+    &:hover {
+        background: #1e252b;
+        border-color: rgba(167, 139, 250, 0.45);
+    }
+}
+
+.genre-hedged-glyph {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15.56px;   /* renders 14 */
+    line-height: 1;
+    font-weight: 700;
+}
+
+.genre-hedged-glyph--notsure {
+    background: rgba(234, 179, 8, 0.15);
+    color: #facc15;
+}
+
+.genre-hedged-glyph--notrecommended {
+    background: rgba(239, 68, 68, 0.15);
+    color: #f87171;
+}
+
+.genre-hedged-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    min-width: 0;
+}
+
+.genre-hedged-title {
+    font-size: 16.67px;   /* renders 15 */
+    line-height: 21.11px; /* renders 19 */
+    font-weight: 600;
+    color: $color-white;
+}
+
+.genre-hedged-meta {
+    font-size: 12.22px;   /* renders 11 */
+    line-height: 15.56px; /* renders 14 */
+    color: #8a909e;
+}
+
+.genre-span {
+    max-width: 860px;
+    margin: 4px auto 0 auto;
+    font-size: 13.33px;   /* renders 12 */
+    line-height: 17.78px; /* renders 16 */
+    color: #718096;
+    text-align: center;
+}
+
+/* Chip rows: one for the overlapping genres, one for every review tagged. */
+.genre-chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.genre-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 999px;
+    font-size: 13.33px;   /* renders 12 */
+    line-height: 17.78px; /* renders 16 */
+    border: 1px solid $color-border-subtle;
+    background: rgba(255, 255, 255, 0.04);
+    color: $color-text-muted;
+    text-decoration: none;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.09);
+        border-color: rgba(255, 255, 255, 0.18);
+        color: $color-white;
+    }
+}
+
+.genre-chip--link {
+    border-color: rgba(145, 70, 255, 0.32);
+    background: rgba(145, 70, 255, 0.12);
+    color: #cbb6ff;
+    font-weight: 600;
+}
+
+/* Long titles (Chillquarian Society of the Spectacle and friends) must not
+   stretch the row; the full name stays available via the title attribute,
+   exactly as it does on the archive cards. */
+.genre-chip--review {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 28.89px; /* renders 26 — pill padding + snapped text */
+}
+
+.genre-chip--more {
+    border-style: dashed;
+    color: #cbb6ff;
+}
+
+.genre-chip-count {
+    font-weight: 700;
+    opacity: 0.75;
+    font-variant-numeric: tabular-nums;
+}
+
+.genre-chip-glyph {
+    font-weight: 700;
+}
+
+.genre-chip-glyph--recommended { color: #4ade80; }
+.genre-chip-glyph--notsure { color: #facc15; }
+.genre-chip-glyph--notrecommended { color: #f87171; }
+
+/* /genres/ index */
+.genre-index-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.genre-index-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 18px 20px;
+    background: $panel-bg-dark;
+    border: 1px solid $panel-border;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: border-color 0.2s ease, background 0.2s ease;
+
+    &:hover {
+        background: #1e252b;
+        border-color: rgba(167, 139, 250, 0.45);
+    }
+}
+
+.genre-index-name {
+    font-size: 20px;      /* renders 18 */
+    line-height: 25.56px; /* renders 23 */
+    font-weight: 700;
+    color: $color-white;
+}
+
+.genre-index-count {
+    font-size: 13.33px;   /* renders 12 */
+    line-height: 17.78px; /* renders 16 */
+    color: #8a909e;
+}
+
+.genre-index-card .genre-section-link { margin-top: 6px; }
+
+/* Reviews-page strip that front-doors the genre pages */
+.genre-strip {
+    width: 90vw;
+    max-width: 1400px;
+    margin: 0 auto 6px auto;
+    padding: 16px 0 0 0;
+    box-sizing: border-box;
+    border-top: 1px solid $panel-border;
+}
+
+.genre-strip-label {
+    display: block;
+    font-size: 11.11px;   /* renders 10 */
+    line-height: 14.44px; /* renders 13 */
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #718096;
+    margin-bottom: 10px;
+}
+
+/* Review sidebar: the Embed Card button, styled to match the share button
+   above it (which is inline-styled, so the values are duplicated here). */
+.embed-review-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    background: #1e252b !important;
+    color: #8aa0ae !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    padding: 10px 16px !important;
+    border-radius: 6px !important;
+    font-size: 13.33px !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin-top: 8px !important;
+
+    &:hover { background: #252e36 !important; color: #fff !important; }
+}
+
+@media (max-width: 1100px) {
+    .genre-index-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 780px) {
+    html body .genre-page { padding: 20px 16px 26px 16px; }
+    .genre-index-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .genre-strip { width: 100%; padding: 14px 16px 0 16px; }
+}
+
+@media (max-width: 520px) {
+    .genre-index-grid { grid-template-columns: minmax(0, 1fr); }
+    .genre-section-head { gap: 4px; }
 }

@@ -171,7 +171,7 @@ position: 3
 	applyStateFromUrl();
 	document.getElementById('vault-search').value = searchQuery;
 	const sortSel = document.getElementById('vault-sort');
-	if (sortSel) { sortSel.value = vaultSort; sortSel.addEventListener('change', handleSortChange); }
+	if (sortSel) { sortSel.value = vaultSort; } // the markup's onchange already calls handleSortChange; adding a listener here too would render twice per change
 	const unwatchedBox = document.getElementById('unwatched-only');
 	if (unwatchedBox) unwatchedBox.addEventListener('change', () => { currentPage = 1; updateFilteredList(); renderVault(); });
 	applyChannelUI(currentChannel);
@@ -211,6 +211,7 @@ position: 3
 	
 	function updateFilteredList() {
 	const baseVideos = videoDatabase[currentChannel] || [];
+		syncSortAvailability(baseVideos);
 	const searchTokens = searchQuery.toLowerCase().split(/\s+/).filter(token => token.length > 0);
 	const unwatchedOnly = document.getElementById('unwatched-only') && document.getElementById('unwatched-only').checked;
 	
@@ -227,21 +228,44 @@ position: 3
 	localStorage.setItem('vault_search', searchQuery);
 	}
 	
-	function applySort(list) {
-	const copy = list.slice();
+	// Upload dates only exist for the slice of each channel the fetcher has dated
+// so far. Rather than leave a date sort that silently reorders nothing, grey
+// the options out until there is something to sort by, so an inert control
+// reads as unavailable instead of broken.
+function syncSortAvailability(videos) {
+const sel = document.getElementById('vault-sort');
+if (!sel) return;
+const dated = videos.some(v => v && v.published);
+for (const opt of sel.options) {
+if (opt.value !== 'newest' && opt.value !== 'oldest') continue;
+opt.disabled = !dated;
+opt.textContent = opt.value === 'newest'
+? (dated ? 'Newest first' : 'Newest first (no dates yet)')
+: (dated ? 'Oldest first' : 'Oldest first (no dates yet)');
+}
+if (!dated && (vaultSort === 'newest' || vaultSort === 'oldest')) {
+vaultSort = 'default'; // nothing to order by, so fall back to channel order
+localStorage.setItem('vault_sort', vaultSort);
+}
+sel.value = vaultSort;
+sel.title = dated ? '' : 'Upload dates are still being collected for this channel.';
+}
+
+function applySort(list) {
+	const copy = list.map((v, i) => ({ v: v, i: i, d: v.published || '' }));
 	if (vaultSort === 'alpha') {
-	copy.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+	copy.sort((a, b) => (a.v.title || '').localeCompare(b.v.title || '') || (a.i - b.i));
 	} else if (vaultSort === 'newest' || vaultSort === 'oldest') {
 	const dir = vaultSort === 'newest' ? -1 : 1;
 	copy.sort((a, b) => {
-	const da = a.published || '', db = b.published || '';
-	if (da && db) return da < db ? -dir : da > db ? dir : 0;
-	if (da) return -1; // dated videos rank above undated ones
+	const da = a.d, db = b.d;
+	if (da && db) return (da < db ? -dir : da > db ? dir : 0) || (a.i - b.i);
+	if (da) return -1; // a dated upload outranks an undated one
 	if (db) return 1;
-	return 0;
+	return a.i - b.i; // both undated: keep the channel's own order
 	});
 	}
-	return copy;
+	return copy.map(entry => entry.v);
 	}
 	function handleSortChange() {
 	vaultSort = document.getElementById('vault-sort').value;

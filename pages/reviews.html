@@ -38,6 +38,37 @@ position: 2
     <p id="reviews-result-count" class="sr-only" role="status" aria-live="polite"></p>
     </div>
 
+    {% comment %}
+      Front door to the genre landing pages (generate_genre_pages.py). Only
+      genres that clear the review-count threshold get one, and the genre
+      dropdown below still covers every tag including the stubs. This is a
+      discovery affordance, not a second filter: each chip counts the reviews
+      behind it so it is obvious which genres are worth a page.
+    {% endcomment %}
+    {% assign genre_landing_pages = site.pages | where: "genre_page", true | sort: "title" %}
+    {% if genre_landing_pages.size > 0 %}
+    <nav class="genre-strip" aria-label="Genres with their own page">
+      <span class="genre-strip-label">Browse by genre</span>
+      <div class="genre-chip-row">
+        {% for gp in genre_landing_pages %}
+            {% assign count = 0 %}
+            {% assign archive_reviews = site.pages | where: "layout", "review" %}
+            {% for review in archive_reviews %}
+                {% if review.genre %}
+                    {% assign row_parts = review.genre | split: "," %}
+                    {% for raw in row_parts %}
+                        {% assign segment = raw | strip %}
+                        {% if segment == gp.genre %}{% assign count = count | plus: 1 %}{% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+            <a class="genre-chip genre-chip--link" href="{{ gp.url | relative_url }}">{{ gp.genre }} <span class="genre-chip-count">{{ count }}</span></a>
+        {% endfor %}
+        <a class="genre-chip genre-chip--more" href="/genres/">All genres &rarr;</a>
+      </div>
+    </nav>
+    {% endif %}
+
     <div class="archive-grid">
         {% assign reviews = site.pages | where: "layout", "review" %} 
 
@@ -341,7 +372,13 @@ position: 2
         const matchesPlatform = !selPlatform || card.dataset.platform === selPlatform;
         
         const cardGenre = card.dataset.genre || "";
-        const matchesGenre = !selGenre || cardGenre.includes(selGenre);
+        // Exact match against each comma-separated tag, not a substring test.
+        // `includes` made "Horror" swallow the Survival Horror reviews (76
+        // instead of 65) and "Adventure" pull in "Narrative Adventure", while
+        // the dropdown it drives is built from the same split — so the filter
+        // and its own options disagreed.
+        const cardGenres = cardGenre.split(",").map(g => g.trim());
+        const matchesGenre = !selGenre || cardGenres.includes(selGenre);
         const matchesVerdict = !selVerdict || card.dataset.verdict === selVerdict;
       
         return matchesSearch && matchesYear && matchesPlatform && matchesGenre && matchesVerdict;

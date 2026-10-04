@@ -30,7 +30,12 @@ jobs:
         pip install yt-dlp
 
     # 4. Execute the script to generate the JSON files
+    #    VAULT_DATE_HARVEST controls how many of each channel's newest uploads
+    #    get a real (slow) date extraction. Dates accumulate in
+    #    assets/data/video_dates.json across runs, so this can stay modest.
     - name: Fetch Latest Videos
+      env:
+        VAULT_DATE_HARVEST: '400'
       run: python fetch_videos.py
 
     # 5. Automatically commit the changes back to your repository if anything changed
@@ -38,7 +43,9 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add assets/data/videos_*.json assets/data/journeys_*.json assets/data/latest_videos.json
+        # video_dates.json must be committed too: it is the accumulated upload
+        # date store, and without it every run would re-date the same slice.
+        git add assets/data/video_dates.json assets/data/videos_*.json assets/data/journeys_*.json assets/data/latest_videos.json
         if git diff --staged --quiet; then
           echo "No new video data found. Skipping commit."
         else

@@ -186,6 +186,12 @@ layout: default
           <span id="share-btn-text">Share Review</span>
         </button>
     
+        <!-- Embed: copies the <iframe> snippet for the standalone review card at /embed/ -->
+        <button type="button" id="embed-review-btn" class="embed-review-btn" onclick="copyEmbedSnippet(event)" title="Copy an embeddable card of this review">
+          <span id="embed-btn-icon" style="transition: all 0.2s ease;">🧩</span>
+          <span id="embed-btn-text">Embed Card</span>
+        </button>
+
         <!-- Dynamic Row Panel popping out with colored custom branding circles -->
         <div id="share-popout-menu" style="display: none; position: absolute !important; top: 50px !important; left: 50% !important; transform: translateX(-50%) !important; background: #16191f !important; border: 1px solid rgba(255, 255, 255, 0.1) !important; border-radius: 30px !important; box-shadow: 0 10px 30px rgba(0,0,0,0.6) !important; padding: 8px 14px !important; width: max-content !important; min-width: 230px !important; box-sizing: border-box !important; z-index: 1000 !important; flex-direction: row !important; gap: 12px !important; justify-content: center !important; align-items: center !important;">
           
@@ -342,6 +348,59 @@ function toggleShareMenu(event) {
     } else {
         menu.style.display = 'none';
     }
+}
+
+function copyEmbedSnippet(event) {
+    // The card is a standalone page, so the snippet only needs this review's
+    // slug. 560x230 is the card's natural size plus a little slack; hosts can
+    // scale it with CSS.
+    var slug = "{{ page.url | replace: '/reviews/', '' | replace: '/', '' }}";
+    var src = "{{ site.url }}{{ site.baseurl }}/embed/?game=" + encodeURIComponent(slug);
+    var snippet =
+      '<iframe src="' + src + '" width="560" height="230" loading="lazy" ' +
+      'style="border:0;border-radius:12px;max-width:100%" ' +
+      'title="{{ page.game_title | escape }} review by The Playability Report"></iframe>';
+
+    var icon = document.getElementById('embed-btn-icon');
+    var text = document.getElementById('embed-btn-text');
+    var button = document.getElementById('embed-review-btn');
+
+    function restore() {
+        icon.innerText = '🧩';
+        text.innerText = 'Embed Card';
+        button.style.borderColor = 'rgba(255, 255, 255, 0.08)';
+    }
+
+    function done() {
+        icon.innerText = '✅';
+        text.innerText = 'Embed code copied!';
+        button.style.borderColor = '#2ecc71';
+        setTimeout(restore, 2000);
+    }
+
+    function failed() {
+        icon.innerText = '❌';
+        text.innerText = 'Press Ctrl+C';
+        setTimeout(restore, 2000);
+    }
+
+    if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(snippet).then(done).catch(failed);
+        return;
+    }
+    // http:// (and anything that denies the clipboard permission) has no async
+    // write available, so fall back to a selection the user can copy.
+    var area = document.createElement('textarea');
+    area.value = snippet;
+    area.setAttribute('readonly', '');
+    area.style.position = 'fixed';
+    area.style.opacity = '0';
+    document.body.appendChild(area);
+    area.select();
+    var copied = false;
+    try { copied = document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(area);
+    copied ? done() : failed();
 }
 
 function copyToClipboard(button) {
