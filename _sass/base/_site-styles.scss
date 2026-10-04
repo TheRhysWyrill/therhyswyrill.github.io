@@ -3650,7 +3650,10 @@ html body .archive-container.genre-start-container .genre-start-grid {
 
 .genre-index-card .genre-section-link { margin-top: 6px; }
 
-/* Reviews-page strip that front-doors the genre pages */
+/* Reviews-page strip that front-doors the genre pages.
+   The box is already centred in its container, so the label and the chips
+   are centred inside it too instead of hugging the left edge. The rule
+   above stays full width, which reads as a section divider. */
 .genre-strip {
     width: 90vw;
     max-width: 1400px;
@@ -3658,6 +3661,7 @@ html body .archive-container.genre-start-container .genre-start-grid {
     padding: 16px 0 0 0;
     box-sizing: border-box;
     border-top: 1px solid $panel-border;
+    text-align: center;
 }
 
 .genre-strip-label {
@@ -3669,6 +3673,12 @@ html body .archive-container.genre-start-container .genre-start-grid {
     text-transform: uppercase;
     color: #718096;
     margin-bottom: 10px;
+}
+
+/* .genre-chip-row is a flex wrap, so text-align alone won't centre it.
+   Scoped to the strip: the chip rows on the genre pages stay left aligned. */
+.genre-strip .genre-chip-row {
+    justify-content: center;
 }
 
 /* Review sidebar: the Embed Card button, styled to match the share button
