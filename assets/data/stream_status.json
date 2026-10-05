@@ -1,16 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-10-05T02:22:19Z",
-  "stream": {
-    "title": "Shipwrecked and Overrun | Dead Island Riptide",
-    "game": "Dead Island: Riptide",
-    "viewers": 1,
-    "startedAt": "2026-10-04T21:53:15Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-10-05T09:28:29Z",
+  "stream": null,
   "latestVod": {
     "id": "2892098998",
     "title": "Shipwrecked and Overrun | Dead Island Riptide",
     "createdAt": "2026-10-04T21:53:20Z",
-    "lengthSeconds": 16139
+    "lengthSeconds": 19390
   }
 }
