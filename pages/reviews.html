@@ -69,6 +69,14 @@ position: 2
     </nav>
     {% endif %}
 
+    {% comment %}
+      The archive grid's cards use <h3> for the game title, so the page needs
+      an h2 between the h1 and the cards — otherwise screen-reader heading
+      navigation jumps h1 -> h3. Visually hidden; the h1 already reads
+      "Reviews".
+    {% endcomment %}
+    <h2 class="sr-only">All reviews</h2>
+
     <div class="archive-grid">
         {% assign reviews = site.pages | where: "layout", "review" %} 
 
@@ -110,7 +118,7 @@ position: 2
       }, 350);
     }
 
-    const itemsPerPage = 18;
+    const itemsPerPage = 20;
     let currentPage = 1;
 
     // ── Full-text search index (build-time /search-index.json) ────────────

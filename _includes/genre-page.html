@@ -209,8 +209,20 @@
                 <span class="milestone-label">recommended</span>
             </div>
             <div class="milestone-card" role="listitem">
+                {% comment %}
+                  Horror and puzzle are entirely recommended, so "0 not a clean
+                  yes" would be a stat that says nothing. Swap that slot for the
+                  genre's share of the archive, which carries real variance.
+                {% endcomment %}
+                {% if clean_count > 0 %}
                 <span class="milestone-num">{{ clean_count }}</span>
                 <span class="milestone-label">not a clean yes</span>
+                {% else %}
+                {% assign archive_total = site.pages | where: "layout", "review" | size %}
+                {% assign genre_share = total | times: 100.0 | divided_by: archive_total | round %}
+                <span class="milestone-num">{{ genre_share }}%</span>
+                <span class="milestone-label">of the archive</span>
+                {% endif %}
             </div>
             <div class="milestone-card" role="listitem">
                 <span class="milestone-num">{{ platform_count }}</span>

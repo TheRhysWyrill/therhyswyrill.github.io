@@ -25,6 +25,9 @@ cookie_consent: false
 sass:
   style: compressed
   quiet_deps: true
+  # jekyll-sass-converter defaults to :always, which ships a 500 KB .css.map and
+  # a sourceMappingURL comment in every production CSS response.
+  sourcemap: never
 
 plugins: 
   - jekyll-seo-tag
@@ -50,5 +53,11 @@ exclude:
   - ".github"
   - "test-results"
   - "review-pipeline"
+  # katex and mermaid are both disabled above, so nothing links these: the
+  # vendor bundle is ~3.5 MB (mermaid alone is 3.2 MB) and the fonts are a
+  # further 640 KB. No page contains a .katex or .mermaid element, so the
+  # @font-face rules never trigger a fetch either.
+  - "assets/js/vendor"
+  - "assets/fonts/katex"
 
 remote_theme: sylhare/Type-on-Strap

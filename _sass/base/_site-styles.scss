@@ -1599,19 +1599,10 @@ mark.search-hit {
                     left: 6px !important;
                 }
 
-                .archive-card-image-wrap .archive-card-platform,
-                .archive-card-image-wrap .archive-card-readtime {
+                .archive-card-image-wrap .archive-card-platform {
                     font-size: 11.11px !important; /* renders 10 */
                     padding: 2px 8px !important;
-                }
-
-                .archive-card-image-wrap .archive-card-platform {
                     top: 6px !important;
-                    right: 6px !important;
-                }
-
-                .archive-card-image-wrap .archive-card-readtime {
-                    bottom: 6px !important;
                     right: 6px !important;
                 }
             }
@@ -1672,29 +1663,69 @@ mark.search-hit {
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) !important;
         }
 
-        /* Reading-time pill: overlaid on the cover's bottom-right corner,
-           diagonal to the verdict badge in the top-left. Kept dark for
-           contrast over bright cover art. */
-        .archive-card-image-wrap .archive-card-readtime {
+        /* Genre + year ride the cover's bottom row, but keep the exact look
+           they had in the card body: the same soft violet/sky tints, weight,
+           padding and 4px gap. A scrim matching the card body (#1c1e1f) sits
+           behind them so those translucent tints land on the same dark
+           backdrop as before instead of straight on bright cover art.
+           The pill classes are untouched, so the archive's delegated handler
+           (matching .archive-card-pill--*) still filters. */
+        .archive-card-image-wrap::after {
+            content: "" !important;
             position: absolute !important;
-            bottom: 8px !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            height: 58px !important;
+            z-index: 5 !important;
+            pointer-events: none !important;
+            background: linear-gradient(to top, #1c1e1f 0%, rgba(28, 30, 31, 0.9) 40%, rgba(28, 30, 31, 0) 100%) !important;
+        }
+
+        .archive-card-image-wrap .archive-card-meta {
+            position: absolute !important;
+            left: 8px !important;
             right: 8px !important;
+            bottom: 8px !important;
             z-index: 10 !important;
             width: auto !important;
             height: auto !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            display: flex !important;
+            flex-wrap: nowrap !important;
+            align-items: center !important;
+            gap: 4px !important;
+        }
+
+        .archive-card-image-wrap .archive-card-meta span.archive-card-pill {
             display: inline-block !important;
-            color: #e9ecef !important;
             font-size: 11.11px !important; /* renders 10 at 90% zoom */
-            font-weight: 600 !important;
-            letter-spacing: 0.4px !important;
-            padding: 3px 9px !important;
-            background: rgba(0, 0, 0, 0.68) !important;
-            border: 1px solid rgba(255, 255, 255, 0.22) !important;
+            font-weight: 700 !important;
+            padding: 2px 8px !important;
             border-radius: 999px !important;
-            line-height: 11.11px !important; /* renders 10 at 90% zoom */
-            backdrop-filter: blur(4px) !important;
-            -webkit-backdrop-filter: blur(4px) !important;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) !important;
+            letter-spacing: 0.3px !important;
+            text-transform: uppercase !important;
+            white-space: nowrap !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+            min-width: 0 !important;
+            max-width: 100% !important;
+        }
+
+        .archive-card-image-wrap .archive-card-meta span.archive-card-pill--genre {
+            flex: 0 1 auto !important;
+            color: #cbb6ff !important;
+            background: rgba(145, 70, 255, 0.18) !important;
+            border: 1px solid rgba(145, 70, 255, 0.42) !important;
+        }
+
+        .archive-card-image-wrap .archive-card-meta span.archive-card-pill--year {
+            flex: 0 0 auto !important;
+            margin-left: auto !important; /* pin the year to the right edge */
+            color: #8ed6fb !important;
+            background: rgba(56, 189, 248, 0.15) !important;
+            border: 1px solid rgba(56, 189, 248, 0.38) !important;
         }
 
         .archive-card-details {
@@ -1839,7 +1870,12 @@ html body .archive-container {
 @media (min-width: 1024px) {
     html body:has(.reviews-header-container) .archive-container:has(.archive-grid) {
         width: 100% !important;
-        max-width: 1800px !important;
+        /* 2000px, not 1800: this sits inside html's site-wide `zoom: 0.9`, so
+           a declared 1800px only ever rendered 1620px wide and left a huge
+           dead margin on both sides of a wide window — while also being
+           119px too narrow for five cards to clear the widest genre pill.
+           2000px renders 1800px, which is where five-up finally fits. */
+        max-width: 2000px !important;
         padding: 0 !important;
     }
 
@@ -1889,8 +1925,7 @@ html body .archive-container {
                 line-height: 13px !important;
             }
 
-            .archive-card-platform,
-            .archive-card-readtime {
+            .archive-card-platform {
                 font-size: 10px !important;
                 line-height: 10px !important;
             }
@@ -1915,12 +1950,83 @@ body:has(.reviews-header-container) .archive-card-pill--year {
 .archive-badge-not-sure { background-color: #e67e22 !important; }
 .archive-badge-not-recommended { background-color: #dc3545 !important; }
 
-@media (max-width: 1200px) {
-    html body .archive-container .archive-grid { grid-template-columns: repeat(3, 1fr) !important; }
+/* GENRE-PILL COLUMN LADDER — sized so no pill ever ellipsises.
+
+   The widest genre list on the site ("Action, Adventure, Metroidvania,
+   Puzzle") renders at 272px once the pill's `text-transform: uppercase` is
+   accounted for — widths measured on the mixed-case title attribute come out
+   ~60% too small (measured ratio 1.646), which is how an earlier version of
+   this ladder ended up too tight. Distribution over all 413 pills:
+   p50 124px, p90 178px, p99 229px, max 272px.
+
+   A pill needs its card to be at least 272 + 16px insets + 4px gap + 45px
+   year pill = 337px, so n columns need n*337 + (n-1)*16 of container:
+   2 need 690px, 3 need 1043px, 4 need 1396px, 5 need 1749px.
+
+   The container's max-width also lives inside html's `zoom: 0.9`, so the old
+   1800px declaration only ever rendered 1620px — above the 1749px five-up
+   needs, which is why five cards per row still clipped one pill even at a
+   2560px window, and why wide windows had a large dead margin either side.
+   Raising it to 2000px (renders 1800px) makes five-up viable from 1800px and
+   fills that margin. Six columns would still need 2108px, which no window
+   gives us, so six-up stays retired.
+
+   Every tier was then checked live at its lower bound (its tightest point)
+   against all 413 pills: 1800px -> 5-up, 1422px -> 275px of room, 1072px ->
+   277px, 1071px -> 457px, 730px -> 275px, all versus the 272px maximum, each
+   with zero clipped. 701px was the one that failed (260px) — below 1024px the
+   grid carries an extra 24px of page inset, so two-up is only safe from 730px.
+   Platform and year badges never overflowed, so only the column count changes.
+
+   The width calc is retuned per tier because the base
+   `round(down, 100%, 6px) - 4px` only lands integer card widths when the
+   total is 2 (mod 6) — i.e. for six columns, which we no longer use. */
+@media (min-width: 1422px) {
+    html body .archive-container .archive-grid { grid-template-columns: repeat(4, 1fr) !important; }
+
+    html body:has(.reviews-header-container) .archive-container .archive-grid {
+        width: calc(round(down, 100%, 4px)) !important; /* total ≡ 0 (mod 4) */
+    }
 }
 
-@media (max-width: 900px) {
+/* Five-up only above 1800px: below that the window itself is narrower than
+   the 1749px five columns need. */
+@media (min-width: 1800px) {
+    html body .archive-container .archive-grid { grid-template-columns: repeat(5, 1fr) !important; }
+
+    html body:has(.reviews-header-container) .archive-container .archive-grid {
+        width: calc(round(down, 100%, 5px) - 1px) !important; /* total ≡ 4 (mod 5) */
+    }
+}
+
+@media (min-width: 1072px) and (max-width: 1421px) {
+    html body .archive-container .archive-grid { grid-template-columns: repeat(3, 1fr) !important; }
+
+    html body:has(.reviews-header-container) .archive-container .archive-grid {
+        width: calc(round(down, 100%, 3px) - 1px) !important; /* total ≡ 2 (mod 3) */
+    }
+}
+
+/* Two-up rather than three-up below 1072px: three columns only clears the
+   337px card from 1072px, so 901-1071px used to lose ten pills. */
+@media (max-width: 1071px) {
     html body .archive-container .archive-grid { grid-template-columns: repeat(2, 1fr) !important; }
+}
+
+/* The base width calc only exists from 1024px up, so it only needs retuning
+   over the part of the two-up range that overlaps it. */
+@media (min-width: 1024px) and (max-width: 1071px) {
+    html body:has(.reviews-header-container) .archive-container .archive-grid {
+        width: calc(round(down, 100%, 2px)) !important; /* total ≡ 0 (mod 2) */
+    }
+}
+
+/* Two columns clear the 337px card from 730px (701px measured 260px of room
+   and still clipped the four-tag list, because below 1024px the grid carries
+   24px of extra page inset). Below that one column is the only count that
+   never clips. (The 650px block further down keeps its own 1-up rule.) */
+@media (max-width: 729px) {
+    html body .archive-container .archive-grid { grid-template-columns: repeat(1, 1fr) !important; }
 }
 
 @media (max-width: 650px) {
@@ -3122,11 +3228,17 @@ body:has(.vault-page) {
    file. Any heading that still renders fractional is snapped with a scoped
    rule instead (see the h4 meta rule below). */
 
-/* Review-page sidebar spec card (its h3/h4 fall through to the theme's em
-   scale: h3 30px → 27 rendered is fine; h4 23px → 20.7 is fractional). */
+/* Review-page sidebar spec card. Its headings used to be h3/h4, which skipped
+   h2 directly under the page's h1 and broke the document outline; they are now
+   h2/h3, pinned here to the exact sizes the old tags rendered at (theme h2/h3
+   would otherwise be a size step too large for a card heading). */
 @media (min-width: 1024px) {
-    .review-sidebar-panel h4 {
-        font-size: 23.33px !important; /* renders 21 */
+    .review-sidebar-panel h2 {
+        font-size: 30px !important;    /* renders 27, as the old h3 did */
+    }
+
+    .review-sidebar-panel h3 {
+        font-size: 23.33px !important; /* renders 21, as the old h4 did */
     }
 }
 
