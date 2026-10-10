@@ -1,11 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-10-10T18:50:24Z",
-  "stream": null,
+  "isLive": true,
+  "checkedAt": "2026-10-10T22:14:06Z",
+  "stream": {
+    "title": "Blood Weapons and Body Hoppin' | Slitterhead",
+    "game": "Games + Demos",
+    "viewers": 1,
+    "startedAt": "2026-10-10T21:31:29Z"
+  },
   "latestVod": {
-    "id": "2893756186",
-    "title": "Shipwrecked and Overrun | Dead Island Riptide",
-    "createdAt": "2026-10-06T21:32:10Z",
-    "lengthSeconds": 16510
+    "id": "2897350878",
+    "title": "Blood Weapons and Body Hoppin' | Slitterhead",
+    "createdAt": "2026-10-10T21:31:34Z",
+    "lengthSeconds": 2552
   }
 }
