@@ -1,16 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-10-12T23:49:56Z",
-  "stream": {
-    "title": "Blood Weapons and Body Hoppin' | Slitterhead",
-    "game": "Games + Demos",
-    "viewers": 2,
-    "startedAt": "2026-10-12T21:10:31Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-10-13T03:58:56Z",
+  "stream": null,
   "latestVod": {
     "id": "2899150333",
     "title": "Blood Weapons and Body Hoppin' | Slitterhead",
     "createdAt": "2026-10-12T21:10:36Z",
-    "lengthSeconds": 9560
+    "lengthSeconds": 16412
   }
 }
