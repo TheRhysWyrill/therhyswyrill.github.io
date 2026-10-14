@@ -1,11 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-10-14T01:52:23Z",
-  "stream": {
+  "isLive": false,
+  "checkedAt": "2026-10-14T07:08:05Z",
+  "stream": null,
+  "latestVod": {
+    "id": "2900020480",
     "title": "Trapped Inside Your Own Backlog | Ved: Recure",
-    "game": "Games + Demos",
-    "viewers": 1,
-    "startedAt": "2026-10-13T21:43:26Z"
-  },
-  "latestVod": null
+    "createdAt": "2026-10-13T21:43:30Z",
+    "lengthSeconds": 16380
+  }
 }
