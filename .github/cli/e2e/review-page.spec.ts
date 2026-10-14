@@ -75,6 +75,46 @@ test('review cards keep the two badges that carry real information', async ({ pa
   await expect(page.locator('.archive-card-readtime')).toHaveCount(0);
 });
 
+test('the hero cover fills its banner instead of being inset by image padding', async ({ page }) => {
+  // The theme's base stylesheet gives every bare `img` 9% side padding. With
+  // box-sizing: border-box that shrinks a filling image's content box, so the
+  // banner's own background shows down both sides as black bars. A CSS
+  // background is immune to it, which is why this only appeared once the cover
+  // became a real <img> — the same trap the archive covers and vault
+  // thumbnails already have tests for.
+  for (const width of [1600, 420]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto(REVIEW_URL);
+
+    const img = page.locator('.review-hero-cover');
+    await expect(img).toBeVisible();
+
+    const m = await img.evaluate((el) => {
+      const cs = getComputedStyle(el);
+      const frame = el.parentElement!.getBoundingClientRect();
+      const box = el.getBoundingClientRect();
+      return {
+        padding: [cs.paddingTop, cs.paddingRight, cs.paddingBottom, cs.paddingLeft],
+        objectFit: cs.objectFit,
+        gapLeft: box.left - frame.left,
+        gapRight: frame.right - box.right,
+        gapTop: box.top - frame.top,
+        gapBottom: frame.bottom - box.bottom,
+      };
+    });
+
+    // the cause: a filling image must carry no padding of its own
+    expect(m.padding, `at ${width}px`).toEqual(['0px', '0px', '0px', '0px']);
+    expect(m.objectFit).toBe('cover');
+
+    // and the effect: flush against the banner, whose own 1px border is the
+    // only thing that may show between them
+    for (const gap of [m.gapLeft, m.gapRight, m.gapTop, m.gapBottom]) {
+      expect(Math.abs(gap), `at ${width}px, gaps ${JSON.stringify(m)}`).toBeLessThanOrEqual(2);
+    }
+  }
+});
+
 test('review pages fetch the slim journeys file, never the 1.8 MB vault archive', async ({ page }) => {
   const requested: string[] = [];
   page.on('request', (r) => {

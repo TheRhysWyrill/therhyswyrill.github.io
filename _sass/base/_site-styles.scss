@@ -1447,12 +1447,23 @@ mark.search-hit {
 /* Review hero cover.
    The cover is a real <img> (see _layouts/review.html) so this, the page's LCP,
    can be hinted and sized responsively. It fills the banner behind everything,
-   the scrim is a ::after overlay above it, and the text sits above that. */
+   the scrim is a ::after overlay above it, and the text sits above that.
+
+   padding/margin are reset because the theme's base stylesheet gives every
+   bare `img` 9% side padding. With box-sizing:border-box that shrinks the
+   image's content box to 82% of the banner and paints the cover narrower than
+   the frame — visible as black bars down both sides. (A CSS background was
+   immune to it, which is why this only appeared once the cover became an
+   <img>.) Every other image on the site that fills a box, such as the archive
+   cards, resets it the same way. */
 .review-hero-banner .review-hero-cover {
     position: absolute !important;
     inset: 0 !important;
     width: 100% !important;
     height: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: none !important;
     object-fit: cover !important;
     object-position: center 30% !important;
     border-radius: inherit !important;
