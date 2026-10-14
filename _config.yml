@@ -22,6 +22,12 @@ excerpt: false
 post_navigation: false
 cookie_consent: false
 
+# How many cards the reviews archive renders at build time, and therefore how
+# far into the card index (reviews-cards.json) the browser picks up from. The
+# archive's own pagination reads it back off the grid, so this is the single
+# source of truth for the archive's page size.
+reviews_archive_page_size: 20
+
 sass:
   style: compressed
   quiet_deps: true

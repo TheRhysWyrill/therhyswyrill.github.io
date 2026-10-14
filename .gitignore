@@ -45,5 +45,5 @@ playwright-report/
 *copy.md
 test/*
 /type-on-strap*/*
-Reviews Drafts.txt
-/review-pipeline
+.agents/*
+.freebuff/*

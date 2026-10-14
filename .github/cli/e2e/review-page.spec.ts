@@ -64,9 +64,15 @@ test('"More like this" is no longer capped at the old 800px strip', async ({ pag
   for (const w of widths) expect(w).toBeGreaterThan(150);
 });
 
-test('review cards carry the reading-time chip', async ({ page }) => {
+test('review cards keep the two badges that carry real information', async ({ page }) => {
   await page.goto(REVIEW_URL);
-  await expect(page.locator('.archive-card-readtime').first()).toContainText('min read');
+  const first = page.locator('.game-archive-card').first();
+  await expect(first.locator('.archive-verdict-tag')).toBeVisible();
+  await expect(first.locator('.archive-card-platform')).not.toBeEmpty();
+
+  // The reading-time chip was removed: 99.5% of the archive read as 3 or 4
+  // minutes, so it labelled every card with the same thing.
+  await expect(page.locator('.archive-card-readtime')).toHaveCount(0);
 });
 
 test('review pages fetch the slim journeys file, never the 1.8 MB vault archive', async ({ page }) => {

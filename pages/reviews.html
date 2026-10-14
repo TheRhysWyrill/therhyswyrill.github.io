@@ -11,22 +11,29 @@ position: 2
         <h1>Reviews</h1>
         
         <div class="filter-controls-group">
-            <select id="sort-order" class="vault-filter-select">
-                <option value="alpha-asc">Alphabetical (A-Z)</option>
-                <option value="alpha-desc">Alphabetical (Z-A)</option>
-                <option value="date-desc" selected>Date Written (Newest)</option>
-                <option value="date-asc">Date Written (Oldest)</option>
-                <option value="release-desc">Release Date (Newest)</option>
-                <option value="release-asc">Release Date (Oldest)</option>
-            </select>
+            {% comment %}
+              The dropdowns + buttons are one group so they can sit centred and
+              bunched together, while the search stays a sibling pinned to the
+              row's right edge (mirroring the heading on the left).
+            {% endcomment %}
+            <div class="filter-selects">
+                <select id="sort-order" class="vault-filter-select">
+                    <option value="alpha-asc">Alphabetical (A-Z)</option>
+                    <option value="alpha-desc">Alphabetical (Z-A)</option>
+                    <option value="date-desc" selected>Date Written (Newest)</option>
+                    <option value="date-asc">Date Written (Oldest)</option>
+                    <option value="release-desc">Release Date (Newest)</option>
+                    <option value="release-asc">Release Date (Oldest)</option>
+                </select>
 
-            <select id="filter-genre" class="vault-filter-select"><option value="">Genre</option></select>
-            <select id="filter-platform" class="vault-filter-select"><option value="">Platform</option></select>
-            <select id="filter-year" class="vault-filter-select"><option value="">Release Year</option></select>
-            <select id="filter-verdict" class="vault-filter-select"><option value="">Verdict</option></select>
+                <select id="filter-genre" class="vault-filter-select"><option value="">Genre</option></select>
+                <select id="filter-platform" class="vault-filter-select"><option value="">Platform</option></select>
+                <select id="filter-year" class="vault-filter-select"><option value="">Release Year</option></select>
+                <select id="filter-verdict" class="vault-filter-select"><option value="">Verdict</option></select>
 
-            <button type="button" id="reset-filters" class="filter-reset-btn" title="Clear all filters and search" hidden>Reset</button>
-            <button type="button" id="surprise-review" class="filter-reset-btn" title="Jump to a random review from the archive">🎲 Surprise me</button>
+                <button type="button" id="reset-filters" class="filter-reset-btn" title="Clear all filters and search" hidden>Reset</button>
+                <button type="button" id="surprise-review" class="filter-reset-btn" title="Jump to a random review from the archive">🎲 Surprise me</button>
+            </div>
 
             <div class="search-input-wrapper">
                 <input type="text" id="live-search" class="vault-search-input" placeholder="Filter games, platforms, genres...">
@@ -46,13 +53,14 @@ position: 2
       behind it so it is obvious which genres are worth a page.
     {% endcomment %}
     {% assign genre_landing_pages = site.pages | where: "genre_page", true | sort: "title" %}
+    {% comment %} Built once, not re-filtered inside the genre loop. {% endcomment %}
+    {% assign archive_reviews = site.pages | where: "layout", "review" %}
     {% if genre_landing_pages.size > 0 %}
     <nav class="genre-strip" aria-label="Genres with their own page">
       <span class="genre-strip-label">Browse by genre</span>
       <div class="genre-chip-row">
         {% for gp in genre_landing_pages %}
             {% assign count = 0 %}
-            {% assign archive_reviews = site.pages | where: "layout", "review" %}
             {% for review in archive_reviews %}
                 {% if review.genre %}
                     {% assign row_parts = review.genre | split: "," %}
@@ -77,25 +85,188 @@ position: 2
     {% endcomment %}
     <h2 class="sr-only">All reviews</h2>
 
-    <div class="archive-grid">
-        {% assign reviews = site.pages | where: "layout", "review" %} 
+    {% comment %}
+      Only the first page is rendered at build time. Shipping all 480 cards as
+      markup made this page ~800 KB; the reviews behind the rest arrive as
+      data (reviews-cards.json) and are painted by the loader below, once the
+      visitor — or the page itself — actually wants them. The page size and the
+      newest-first order here match the archive's default sort and pagination,
+      so the build-time cards are exactly the first page a visitor sees, and
+      the no-JS view.
+    {% endcomment %}
+    {% assign archive_page_size = site.reviews_archive_page_size | default: 20 %}
+    {% assign all_reviews = site.pages | where: "layout", "review" | sort: "date" | reverse %}
 
-        {% for review in reviews %}
+    <div class="archive-grid" data-page-size="{{ archive_page_size }}">
+        {% for review in all_reviews limit: archive_page_size %}
         {% include review-card.html review=review compact=true %}
         {% endfor %}
     </div>
 </div>
 
-<div id="paginationNav" class="pagination-container">
+<div id="paginationNav" class="pagination-container" hidden>
     <nav class="archive-pagination" aria-label="Page navigation">
         <span id="pageIndicator"></span>
     </nav>
 </div>
 
 
+<script>
+  // Keep the sticky filter bar flush under the sticky navbar. The navbar's
+  // height comes from percentage padding, so it changes with the viewport
+  // width and can't be hard-coded; read it live and hand it to CSS.
+  (function () {
+    const bar = document.querySelector('.reviews-header-container');
+    const nav = document.querySelector('.site-header');
+    if (!bar || !nav) return;
+    const sync = () => bar.style.setProperty('--sticky-offset', nav.offsetHeight + 'px');
+    sync();
+    window.addEventListener('resize', sync, { passive: true });
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(sync);
+  })();
+</script>
+<script>
+  // ── The rest of the archive, fetched instead of inlined ────────────────
+  // The build renders the first page of cards above; the reviews behind the
+  // other ~460 sit in reviews-cards.json. Keeping them out of the HTML gets
+  // the page painted sooner, so the fetch waits until it is justified: a deep
+  // link (?genre=…, ?page=3) loads on arrival because it has to resolve
+  // immediately, a plain visit waits for idle, and reaching for the filter
+  // bar, the search box or a page control starts it too. A visit that never
+  // looks past the first page never fetches anything.
+  //
+  // It emits the same card markup the build does — see cardHtml below, and
+  // the "one markup skeleton" spec that holds the two together.
+  //
+  // window.reviewsArchive.whenReady(cb) runs cb once the index has settled,
+  // one way or the other: a failed fetch downgrades the archive to the
+  // build-rendered first page rather than leaving it dead.
+  window.reviewsArchive = (function () {
+    const grid = document.querySelector('.archive-grid');
+    if (!grid) return { whenReady: function (cb) { cb(); } };
+
+    const SRC = '/reviews-cards.json';
+    const FETCH_TIMEOUT_MS = 8000;
+    const IDLE_TIMEOUT_MS = 1500;
+
+    let settleCallbacks = [];
+    let settled = false;
+    let loadPromise = null;
+
+    const VERDICTS = {
+      'recommended': { glyph: '\u2713', label: 'Recommended' },
+      'not-sure': { glyph: '\u2013', label: 'Not Sure' },
+      'not-recommended': { glyph: '\u2717', label: 'Not Recommended' }
+    };
+
+    function esc(value) {
+      return String(value == null ? '' : value)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function cardHtml(c) {
+      const slug = String(c.verdict || '').toLowerCase().replace(/ /g, '-');
+      const verdict = VERDICTS[slug] || { glyph: '?', label: '' };
+      const cover = c.image
+        ? '<img src="' + esc(c.image) + '" alt="' + esc(c.title) + ' Art" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />'
+        : '<div class="archive-card-placeholder">No Art Available</div>';
+      const summary = c.summary ? '<p class="archive-card-summary">' + esc(c.summary) + '</p>' : '';
+      const written = c.date_label
+        ? '<div class="archive-card-inline-date"><span class="archive-card-date-pill">\u270d\ufe0f Written: ' + esc(c.date_label) + '</span></div>'
+        : '';
+      return '<a href="' + esc(c.url) + '" class="game-archive-card game-archive-card--compact"' +
+        ' data-date="' + esc(c.date) + '" data-year="' + esc(c.year) + '"' +
+        ' data-platform="' + esc(c.platform) + '" data-genre="' + esc(c.genre) + '"' +
+        ' data-verdict="' + esc(slug) + '">' +
+        '<div class="archive-card-image-wrap">' + cover +
+        '<span class="archive-verdict-tag archive-badge-' + esc(slug) + '" role="img" aria-label="Verdict: ' + esc(verdict.label) + '" title="Verdict: ' + esc(verdict.label) + '"><span aria-hidden="true">' + verdict.glyph + '</span></span>' +
+        '<span class="archive-card-platform">' + esc(c.platform) + '</span>' +
+        '<div class="archive-card-meta">' +
+        '<span class="archive-card-pill archive-card-pill--genre" title="' + esc(c.genre) + '">' + esc(c.emoji) + ' ' + esc(c.genre) + '</span>' +
+        '<span class="archive-card-pill archive-card-pill--year">' + esc(c.year) + '</span>' +
+        '</div></div>' +
+        '<div class="archive-card-details">' +
+        '<h3 class="archive-card-title">' + esc(c.title) + '</h3>' + summary + written +
+        '</div></a>';
+    }
+
+    function settle() {
+      settled = true;
+      const waiting = settleCallbacks;
+      settleCallbacks = [];
+      waiting.forEach(function (cb) { cb(); });
+    }
+
+    function load() {
+      if (loadPromise) return loadPromise;
+      const controller = typeof AbortController === 'function' ? new AbortController() : null;
+      let timer = null;
+      if (controller) {
+        timer = setTimeout(function () { controller.abort(); }, FETCH_TIMEOUT_MS);
+      }
+      loadPromise = fetch(SRC, controller ? { signal: controller.signal } : undefined)
+        .then(function (response) {
+          if (!response.ok) throw new Error('HTTP ' + response.status);
+          return response.json();
+        })
+        .then(function (cards) {
+          if (Array.isArray(cards) && cards.length) {
+            grid.insertAdjacentHTML('beforeend', cards.map(cardHtml).join(''));
+          }
+        })
+        .catch(function (error) {
+          // Nothing here is needed to read the first page, so this is a
+          // downgrade rather than a failure: the archive initialises with the
+          // build-rendered cards instead of staying dead.
+          console.warn('reviews archive: card index unavailable', error);
+        })
+        .then(function () {
+          if (timer) clearTimeout(timer);
+          settle();
+        });
+      return loadPromise;
+    }
+
+    // A deep link has to be right on arrival, so it loads straight away.
+    // Everything else waits for idle or for the visitor to reach for a
+    // control — whichever happens first.
+    const ARCHIVE_PARAMS = ['sort', 'year', 'platform', 'genre', 'verdict', 'q', 'page'];
+    const params = new URLSearchParams(window.location.search);
+    if (ARCHIVE_PARAMS.some(function (key) { return params.has(key); })) {
+      load();
+    } else {
+      if (window.requestIdleCallback) {
+        window.requestIdleCallback(function () { load(); }, { timeout: IDLE_TIMEOUT_MS });
+      } else {
+        setTimeout(load, 300);
+      }
+      const controls = document.querySelector('.reviews-header-container');
+      if (controls) {
+        ['pointerenter', 'pointerdown', 'focusin'].forEach(function (type) {
+          controls.addEventListener(type, load, { once: true, passive: true });
+        });
+      }
+    }
+
+    return {
+      whenReady: function (cb) {
+        if (settled) cb();
+        else settleCallbacks.push(cb);
+      }
+    };
+  })();
+</script>
 <script src="/assets/js/pagination.js" defer></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    // The cards come first: the filters, the sort order, the pagination and
+    // the search all read the grid, so the archive is wired up once the card
+    // index has settled rather than on DOMContentLoaded.
+    window.reviewsArchive.whenReady(initArchive);
+  });
+
+  function initArchive() {
     const searchInput = document.getElementById("live-search");
     const cards = document.querySelectorAll(".game-archive-card");
     const pageIndicator = document.getElementById("pageIndicator");
@@ -118,7 +289,11 @@ position: 2
       }, 350);
     }
 
-    const itemsPerPage = 20;
+    // The build and the card index both hand the archive its page size on the
+    // grid, so the rendered first page, the index offset and the pagination
+    // can't drift apart.
+    const gridEl = document.querySelector(".archive-grid");
+    const itemsPerPage = parseInt(gridEl && gridEl.dataset.pageSize, 10) || 20;
     let currentPage = 1;
 
     // ── Full-text search index (build-time /search-index.json) ────────────
@@ -563,26 +738,6 @@ position: 2
       });
     }
 
-    // Clickable genre/year pills: cards are <a> elements (so real nested
-    // links are invalid HTML) — intercept clicks on the pills and navigate
-    // to the filtered archive instead of the review.
-    document.addEventListener("click", function (e) {
-      const genre = e.target.closest ? e.target.closest(".archive-card-pill--genre") : null;
-      const year = e.target.closest ? e.target.closest(".archive-card-pill--year") : null;
-      if (!genre && !year) return;
-      const card = (genre || year).closest(".game-archive-card");
-      if (!card) return;
-      e.preventDefault();
-      e.stopPropagation();
-      if (genre) {
-        const first = (card.dataset.genre || "").split(",")[0].trim();
-        if (first) window.location.href = "/reviews/?genre=" + encodeURIComponent(first);
-      } else if (year) {
-        const y = card.dataset.year || "";
-        if (y) window.location.href = "/reviews/?year=" + encodeURIComponent(y);
-      }
-    });
-
     const hasUrlState = applyStateFromUrl();
     if (!hasUrlState) {
       const savedPage = localStorage.getItem('reviews_current_page');
@@ -595,6 +750,31 @@ position: 2
     updatePagination();
     syncStateToUrl();
     updateResetVisibility();
+
+    // Cards present, filters populated, URL state applied: the archive is up.
+    document.documentElement.dataset.archiveReady = "true";
+  }
+
+  // Clickable genre/year pills: cards are <a> elements (so real nested links
+  // are invalid HTML) — intercept clicks on the pills and navigate to the
+  // filtered archive instead of the review. Registered outside initArchive
+  // because the build-rendered first page carries pills and has to stay
+  // clickable while the rest of the card index is still on its way.
+  document.addEventListener("click", function (e) {
+    const genre = e.target.closest ? e.target.closest(".archive-card-pill--genre") : null;
+    const year = e.target.closest ? e.target.closest(".archive-card-pill--year") : null;
+    if (!genre && !year) return;
+    const card = (genre || year).closest(".game-archive-card");
+    if (!card) return;
+    e.preventDefault();
+    e.stopPropagation();
+    if (genre) {
+      const first = (card.dataset.genre || "").split(",")[0].trim();
+      if (first) window.location.href = "/reviews/?genre=" + encodeURIComponent(first);
+    } else if (year) {
+      const y = card.dataset.year || "";
+      if (y) window.location.href = "/reviews/?year=" + encodeURIComponent(y);
+    }
   });
 
   // Keyboard shortcuts: "/" focuses the search box, arrow keys paginate.

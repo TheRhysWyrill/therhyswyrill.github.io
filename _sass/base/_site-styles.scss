@@ -1199,6 +1199,33 @@ body:has(.compat-page) {
     }
 }
 
+/* The archive runs to hundreds of cards, so keep the sort/filter bar within
+   reach by pinning it under the sticky navbar. --sticky-offset is the navbar's
+   live height, set by the page script — the navbar is percentage-padded, so
+   its height changes with the viewport and can't be hard-coded. The bar stays
+   inside .archive-container, so its backdrop covers exactly the column the
+   cards occupy and nothing scrolls past its sides. */
+body:has(.reviews-header-container) .reviews-header-container {
+    position: sticky !important;
+    /* The fallback just keeps the bar usable without JavaScript — it is an
+       approximation of the navbar's height (percentage padding makes the real
+       value viewport-dependent) and the page script overrides it with the
+       exact height on load and resize. */
+    top: var(--sticky-offset, 78px) !important;
+    z-index: 900 !important;
+    /* Exactly the page background, not a shaded panel: the pinned bar then
+       reads as empty page rather than a dark band, while still being opaque
+       so cards don't show through the controls as they scroll under it. */
+    background: var(--background) !important;
+}
+
+/* Above 1024px the site runs at 90% zoom, so the navbar is taller in CSS px. */
+@media (min-width: 1024px) {
+    body:has(.reviews-header-container) .reviews-header-container {
+        top: var(--sticky-offset, 112px) !important;
+    }
+}
+
 /* Screen-reader result counts (never rendered visually) */
 .sr-only {
     position: absolute;
@@ -1234,11 +1261,23 @@ body:has(.compat-page) {
     display: flex;
     gap: 10px;
     flex-grow: 1;
-    /* Even spacing, not centring: the controls then share the row edge to
-       edge between the heading on the left and the search on the right, and
-       the Reset button appearing or hiding just takes its own equal slot
-       instead of shoving everything sideways. */
+    align-items: center;
+    /* Two zones: the dropdown cluster grows across the row while the search
+       keeps its own slot on the right, so the buttons can be centred and
+       bunched without dragging the search in with them. */
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Dropdowns + actions as one centred, tightly-bunched cluster. The row's free
+   width is what centres them, so the Reset button appearing just nudges the
+   cluster by half its width instead of re-spacing every control. */
+.filter-selects {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex: 1 1 auto;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -1413,6 +1452,16 @@ mark.search-hit {
     margin-top: 50px !important;
     padding-bottom: 10px !important;
     width: 100% !important;
+}
+
+/* The display:flex above is !important, which would defeat the `hidden`
+   attribute the archive ships while its card index is still in flight —
+   leaving an empty band above the footer where the pager will be. Collapse it
+   until something fills it; once the archive populates the pager it sets an
+   inline display, and an inline !important outranks this rule. */
+#paginationNav[hidden],
+.pagination-container[hidden] {
+    display: none !important;
 }
 
 #pageIndicator {
@@ -2029,6 +2078,38 @@ body:has(.reviews-header-container) .archive-card-pill--year {
     html body .archive-container .archive-grid { grid-template-columns: repeat(1, 1fr) !important; }
 }
 
+/* Homepage "Latest Reviews": six cards in one clean row on wide screens, and
+   in clean multiples of three below that.
+
+   The shared ladder above tops out at five columns because the reviews
+   archive needs that ceiling — six cards there would clip the widest genre
+   pill. The homepage strip only ever shows six cards, so it just inherits
+   that five-up row and orphans the sixth card on a row of its own, which is
+   the lopsided look we're fixing. Four-up is no better (a 4 + 2 orphan), so
+   the strip skips it: six-up, then three-up, then the shared two/one-up
+   tiers further down. The container is widened to 1800px (from 1400px) and
+   set to fill the section, matching the homepage's other blocks instead of
+   sitting 32px inset on each side, so six cards are at least as wide as the
+   five they replace. */
+html body .latest-reviews-section .archive-container:has(.archive-grid) {
+    width: 100% !important;
+    max-width: 1800px !important;
+}
+
+@media (min-width: 1800px) {
+    html body .latest-reviews-section .archive-container .archive-grid {
+        grid-template-columns: repeat(6, 1fr) !important;
+    }
+}
+
+/* Below six-up the strip drops straight to three-up (two clean rows) instead
+   of the archive's four-up, which would leave a 4 + 2 orphan. */
+@media (min-width: 1422px) and (max-width: 1799px) {
+    html body .latest-reviews-section .archive-container .archive-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
 @media (max-width: 650px) {
     html body .archive-container { zoom: 100% !important; padding: 12px !important; }
 
@@ -2054,6 +2135,10 @@ body:has(.reviews-header-container) .archive-card-pill--year {
     .vault-filter-select { flex-shrink: 0 !important; flex-grow: 1 !important; min-width: 105px !important; }
 
     .filter-reset-btn { flex-grow: 1 !important; min-width: 105px !important; }
+
+    /* Keep the whole button cluster on one scrollable line, as it was before
+       the wrapper existed. */
+    .filter-selects { flex: 0 0 auto !important; flex-wrap: nowrap !important; }
 
     .search-input-wrapper { flex: 1 1 100% !important; max-width: none !important; min-width: 0 !important; }
 

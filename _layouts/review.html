@@ -220,45 +220,44 @@ layout: default
 
   </div>
 
-  <!-- Dynamic Pagination Setup Logic -->
-  {% assign review_pages = "" | split: "," %}
-  {% for doc in site.documents %}
-    {% if doc.layout == "review" %}{% assign review_pages = review_pages | push: doc %}{% endif %}
-  {% endfor %}
-  {% if review_pages.size == 0 %}
-    {% for p in site.pages %}
-      {% if p.layout == "review" or p.path contains 'reviews/' %}{% assign review_pages = review_pages | push: p %}{% endif %}
-    {% endfor %}
-  {% endif %}
+  {% comment %}
+    Ordered review list, built in one pass.
 
-  {% assign review_pages = review_pages | uniq | sort: "date" %}
-  {% assign current_url = page.url | strip %}
-
-  {% for r in review_pages %}
-    {% assign check_url = r.url | strip %}
-    {% if check_url == current_url %}
-      {% unless forloop.first %}
-        {% assign prev_index = forloop.index0 | minus: 1 %}
-        {% assign prev_review = review_pages[prev_index] %}
-      {% endunless %}
-      {% unless forloop.last %}
-        {% assign next_index = forloop.index0 | plus: 1 %}
-        {% assign next_review = review_pages[next_index] %}
-      {% endunless %}
-    {% endif %}
-  {% endfor %}
+    Reviews are ordinary top-level pages (this site has no `_reviews`
+    collection), so a single `where` filter returns them. The old version grew
+    the list with `| push` inside a Liquid loop over every page, and each
+    `push` dups the whole array — O(n²) work *per review page*, repeated for
+    all 480 of them, which was the build's single largest cost. (The old
+    version also carried a prev/next loop whose `prev_review`/`next_review`
+    assignments nothing ever read; the footer script computes those itself.)
+  {% endcomment %}
+  {% assign review_pages = site.pages | where: "layout", "review" | sort: "date" %}
 
   <!-- More like this: up to 5 newest reviews sharing this review's genre, else its platform -->
-  {% assign related_pool = "" | split: "," %}
-  {% for r in review_pages %}
-    {% if r.url == page.url %}{% continue %}{% endif %}
-    {% if page.genre and r.genre and page.genre contains r.genre %}
-      {% assign related_pool = related_pool | push: r %}
-    {% elsif page.platform and r.platform and page.platform == r.platform %}
-      {% assign related_pool = related_pool | push: r %}
-    {% endif %}
+  {% comment %}
+    Two one-pass `where_exp` filters replace the old per-review `push` loop;
+    `uniq` drops the reviews matched by both halves.
+  {% endcomment %}
+  {% assign other_reviews = review_pages | where_exp: "r", "r.url != page.url" %}
+  {% assign related_by_genre = other_reviews | where_exp: "r", "r.genre and page.genre and page.genre contains r.genre" %}
+  {% assign related_by_platform = other_reviews | where_exp: "r", "r.platform and page.platform and r.platform == page.platform" %}
+  {% comment %}
+    Selected deterministically: group the candidates by date, walk the groups
+    newest-first, and order each (usually tied) group by url — a unique key.
+    Sorting by date alone leaves same-date reviews in whatever order the pool
+    happened to be assembled, and Ruby's sort is not stable, so which of the
+    tied reviews filled the last slot varied with the surrounding code.
+  {% endcomment %}
+  {% assign related_pool = related_by_genre | concat: related_by_platform | uniq %}
+  {% assign related_reviews = "" | split: "," %}
+  {% assign related_dates = related_pool | group_by_exp: "r", "r.date" | sort: "name" | reverse %}
+  {% for day in related_dates %}
+    {% if related_reviews.size >= 5 %}{% break %}{% endif %}
+    {% for r in day.items | sort: "url" %}
+      {% if related_reviews.size >= 5 %}{% break %}{% endif %}
+      {% assign related_reviews = related_reviews | push: r %}
+    {% endfor %}
   {% endfor %}
-  {% assign related_reviews = related_pool | sort: "date" | reverse | slice: 0, 5 %}
 
   {% if related_reviews.size > 0 %}
   <section class="related-reviews" aria-label="More reviews like this">
@@ -430,10 +429,14 @@ window.addEventListener('click', () => {
 });
 
 (function() {
-    {% assign fallback_pages = "" | split: "," %}
-    {% for doc in site.documents %}{% if doc.layout == "review" %}{% assign fallback_pages = fallback_pages | push: doc %}{% endif %}{% endfor %}
-    {% assign fallback_pages = fallback_pages | uniq | sort: "date" %}
-    
+    {% comment %}
+      Every review in date order, for the prev/next buttons. This used to read
+      `site.documents`, which is empty on this site (no collections), so the JS
+      fallback was always `[]` and the buttons only worked after visiting
+      /reviews/ (which parks an order in localStorage).
+    {% endcomment %}
+    {% assign fallback_pages = site.pages | where: "layout", "review" | sort: "date" %}
+
     const fallbackOrder = [
       {% for r in fallback_pages %}"{{ r.url | strip }}"{% unless forloop.last %},{% endunless %}{% endfor %}
     ];

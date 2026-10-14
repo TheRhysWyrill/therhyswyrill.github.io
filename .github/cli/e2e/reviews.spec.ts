@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
+import { waitForArchive } from './archive';
 
 const REVIEWS_URL = '/reviews/';
 
 test.beforeEach(async ({ page }) => {
   await page.goto(REVIEWS_URL);
+  await waitForArchive(page);
 });
 
 test('hides Reset and clear-search on a clean default view', async ({ page }) => {
@@ -52,6 +54,7 @@ test('Reset clears filters, search, saved state and the URL in one click', async
 
 test('a shared filtered URL restores that state on load', async ({ page }) => {
   await page.goto(`${REVIEWS_URL}?genre=RPG&q=hollow&page=2`);
+  await waitForArchive(page);
   await expect(page.locator('#filter-genre')).toHaveValue('RPG');
   await expect(page.locator('#live-search')).toHaveValue('hollow');
   await expect(page.locator('#reset-filters')).toBeVisible();
@@ -106,6 +109,66 @@ test('filtering by verdict matches the cards carrying that slug', async ({ page 
   );
   expect(verdicts.length).toBeGreaterThan(0);
   for (const v of verdicts) expect(v).toBe('recommended');
+});
+
+test('the build-time and client-rendered cards share one markup skeleton', async ({ page }) => {
+  // Two renderers paint the same card — _includes/review-card.html for the
+  // first page, the client renderer in pages/reviews.html for the ~460 behind
+  // it — and every filter, sort, search and pagination path reads the card
+  // straight off the DOM. A tweak to one that misses the other would silently
+  // desync half the archive, so pin them together.
+  const cards = await page.evaluate(() => {
+    // Which renderer painted which card is not in the markup (and should not
+    // be): the two halves are told apart by their hrefs below.
+    const normaliseClass = (value: string) =>
+      value
+        .split(/\s+/)
+        .filter(Boolean)
+        // The badge's suffix is the verdict, not the card's structure.
+        .map((c) => c.replace(/^archive-badge-.*$/, 'archive-badge-<verdict>'))
+        .sort()
+        .join(' ');
+
+    // Attribute names are the contract; only the attributes both renderers
+    // write as fixed literals also have to agree on their value.
+    const FIXED_ATTRS = ['role', 'aria-hidden', 'loading', 'decoding', 'width', 'height'];
+
+    const skeleton = (el: Element): string => {
+      const attrs = [...el.attributes]
+        .map((a) => {
+          if (a.name === 'class') return `class="${normaliseClass(a.value)}"`;
+          if (FIXED_ATTRS.includes(a.name)) return `${a.name}="${a.value}"`;
+          return a.name;
+        })
+        // Pagination sets its own display on every card at runtime; that is
+        // not part of either renderer's markup.
+        .filter((a) => a !== 'style')
+        .sort()
+        .join(' ');
+      return `<${el.tagName.toLowerCase()} ${attrs}>${[...el.children].map(skeleton).join('')}`;
+    };
+
+    return [...document.querySelectorAll<HTMLElement>('.archive-grid .game-archive-card')].map((card) => ({
+      href: card.getAttribute('href'),
+      skeleton: skeleton(card),
+    }));
+  });
+
+  // The card index is what the browser renders the tail from, so anything in
+  // it was painted in JS; everything else came from the build.
+  const index = await (await page.request.get('/reviews-cards.json')).json();
+  const indexed = new Set<string>(index.map((entry: { url: string }) => entry.url));
+  const sources = cards.map((c) => (indexed.has(c.href || '') ? 'index' : 'build'));
+  expect([...new Set(sources)].sort(), 'both renderers have to be represented').toEqual(['build', 'index']);
+
+  const shapes = [...new Set(cards.map((c) => c.skeleton))];
+  expect(shapes, 'one card shape shared by both renderers').toHaveLength(1);
+
+  // ...and the two halves have to join into one complete, unduplicated list.
+  const pageSize = Number(await page.locator('.archive-grid').getAttribute('data-page-size')) || 20;
+  const hrefs = cards.map((c) => c.href);
+  expect(new Set(hrefs).size, 'no review is rendered twice').toBe(hrefs.length);
+  expect(hrefs.length).toBe(index.length + pageSize);
 });
 
 test('no dead space between the last content element and the footer', async ({ page }) => {
