@@ -143,8 +143,22 @@ layout: default
     <div class="archive-container">
         <div class="archive-grid">
             {% assign latest_reviews = site.pages | where: "layout", "review" | sort: "date" | reverse %}
+            {% comment %}
+              Two columns here, so a card is drawn far wider than in the
+              archive's grid — say so, or the browser picks the 560px thumbnail
+              for it.
+
+              Measured rendered widths (DPR 1): 146px at 360, 279px at 640,
+              then one full-width column (631px) at 700, 339px at 768, 472px at
+              1024, and three columns above 1200 — 397px at 1300, 441px at
+              1440, 492px at 1600, and a flat 256px once the container caps at
+              1920. The old tail bucket said 890px, which asked for the 1280px
+              cover (~108 KB) to fill a 391px card on the very common 1280px
+              viewport; 34vw with a 512px cap keeps the request on the
+              thumbnail across that whole range.
+            {% endcomment %}
             {% for review in latest_reviews limit: 6 %}
-            {% include review-card.html review=review %}
+            {% include review-card.html review=review card_sizes="(max-width: 700px) 92vw, (max-width: 1200px) 46vw, (max-width: 1700px) 34vw, 512px" %}
             {% endfor %}
         </div>
     </div>

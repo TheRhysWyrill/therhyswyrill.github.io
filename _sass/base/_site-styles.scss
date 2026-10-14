@@ -1444,6 +1444,36 @@ mark.search-hit {
     padding: 2px 9px;
 }
 
+/* Review hero cover.
+   The cover is a real <img> (see _layouts/review.html) so this, the page's LCP,
+   can be hinted and sized responsively. It fills the banner behind everything,
+   the scrim is a ::after overlay above it, and the text sits above that. */
+.review-hero-banner .review-hero-cover {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center 30% !important;
+    border-radius: inherit !important;
+    z-index: 0 !important;
+}
+
+.review-hero-banner::after {
+    content: '' !important;
+    position: absolute !important;
+    inset: 0 !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35)) !important;
+    border-radius: inherit !important;
+    pointer-events: none !important;
+    z-index: 1 !important;
+}
+
+.review-hero-banner .review-hero-alignment-engine {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
 #paginationNav,
 .pagination-container {
     display: flex !important;

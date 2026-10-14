@@ -17,8 +17,9 @@
   font-style: normal;
   font-weight: 900;
   font-display: $fa-font-display;
-  src: url('#{$fa-font-path}/fa-solid-900.woff2') format('woff2'),
-    url('#{$fa-font-path}/fa-solid-900.ttf') format('truetype');
+  /* Subset to the glyphs this site renders by subset_font_awesome.py — every
+     browser that matters reads woff2, so the 416 KB truetype fallback is gone. */
+  src: url('#{$fa-font-path}/fa-solid-900.woff2') format('woff2');
 }
 
 .fas,

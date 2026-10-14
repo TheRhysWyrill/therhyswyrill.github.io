@@ -96,10 +96,18 @@ position: 2
     {% endcomment %}
     {% assign archive_page_size = site.reviews_archive_page_size | default: 20 %}
     {% assign all_reviews = site.pages | where: "layout", "review" | sort: "date" | reverse %}
+    {% comment %}
+      How wide a card gets is only known to CSS, so `sizes` is stated once here
+      and handed to both renderers: the build-time cards below take it as a
+      parameter, and the loader reads it back off the grid for the cards it
+      paints. Without it a retina visitor would get the 640px thumbnail for a
+      card drawn across a third of a 1800px grid.
+    {% endcomment %}
+    {% assign card_sizes_archive = "(max-width: 480px) 92vw, (max-width: 900px) 30vw, (max-width: 1300px) 22vw, 300px" %}
 
-    <div class="archive-grid" data-page-size="{{ archive_page_size }}">
+    <div class="archive-grid" data-page-size="{{ archive_page_size }}" data-card-sizes="{{ card_sizes_archive }}">
         {% for review in all_reviews limit: archive_page_size %}
-        {% include review-card.html review=review compact=true %}
+        {% include review-card.html review=review compact=true card_sizes=card_sizes_archive %}
         {% endfor %}
     </div>
 </div>
@@ -165,11 +173,33 @@ position: 2
         .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     }
 
+    // The grid states how wide a card is allowed to be drawn (`sizes`); read it
+    // once from the DOM, where the build put it, so the JS renderer and
+    // _includes/review-card.html cannot disagree about it. This script runs
+    // before the archive loader, so it reads the attribute lazily on first use.
+    let cardSizesValue = null;
+    function cardSizes() {
+      if (cardSizesValue === null) {
+        const grid = document.querySelector('.archive-grid');
+        cardSizesValue = (grid && grid.dataset.cardSizes) || '';
+      }
+      return cardSizesValue;
+    }
+
     function cardHtml(c) {
       const slug = String(c.verdict || '').toLowerCase().replace(/ /g, '-');
       const verdict = VERDICTS[slug] || { glyph: '?', label: '' };
+      // Same shape as the build-time card in _includes/review-card.html: the
+      // 560px thumbnail first (make_review_thumbs.mjs), the 1280px original as
+      // the larger candidate, and `sizes` as stated once on the grid.
+      const thumb = esc(c.thumb || '');
+      const full = esc(c.image);
       const cover = c.image
-        ? '<img src="' + esc(c.image) + '" alt="' + esc(c.title) + ' Art" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />'
+        ? '<img src="' + (thumb || full) + '"' +
+          (thumb && cardSizes()
+            ? ' srcset="' + thumb + ' 560w, ' + full + ' 1280w" sizes="' + esc(cardSizes()) + '"'
+            : '') +
+          ' alt="' + esc(c.title) + ' Art" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />'
         : '<div class="archive-card-placeholder">No Art Available</div>';
       const summary = c.summary ? '<p class="archive-card-summary">' + esc(c.summary) + '</p>' : '';
       const written = c.date_label
@@ -297,23 +327,26 @@ position: 2
     let currentPage = 1;
 
     // ── Full-text search index (build-time /search-index.json) ────────────
-    // Card DOM text already covers titles + summaries; this adds the full
-    // review body, fetched lazily on first search interaction.
+    // Card DOM text already covers titles + summaries; this adds the review
+    // body. It is ~700 KB gzipped, so it is only fetched when a query the card
+    // text cannot answer is being typed — see the trigger in updatePagination.
+    // Focusing the box fetches nothing: most visits never search.
     let fullTextBlobs = null;
     let fullTextPending = false;
+    let fullTextFailed = false;
     function ensureSearchIndex(onReady) {
-      if (fullTextBlobs || fullTextPending) { if (fullTextBlobs && onReady) onReady(); return; }
+      if (fullTextBlobs || fullTextPending || fullTextFailed) { if (fullTextBlobs && onReady) onReady(); return; }
       fullTextPending = true;
       fetch("/search-index.json")
         .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
         .then(entries => {
           const map = {};
-          entries.forEach(e => { if (e && e.url) map[e.url] = ((e.title || "") + " " + (e.summary || "") + " " + (e.body || "")).toLowerCase(); });
+          entries.forEach(e => { if (e && e.url) map[e.url] = (e.body || "").toLowerCase(); });
           fullTextBlobs = map;
           fullTextPending = false;
           if (onReady) onReady();
         })
-        .catch(() => { fullTextPending = false; }); // DOM-text search still works
+        .catch(() => { fullTextPending = false; fullTextFailed = true; }); // DOM-text search still works
     }
     function cardPathname(card) {
       try { return new URL(card.href).pathname; } catch (e) { return card.getAttribute("href"); }
@@ -567,6 +600,15 @@ position: 2
         return matchesSearch && matchesYear && matchesPlatform && matchesGenre && matchesVerdict;
       });
       
+      // Deep search is opt-in per query: only reach for the body index when the
+      // cards on screen (titles + summaries) hardly match at all, so an ordinary
+      // query costs nothing extra and never waits on a download. A failed fetch
+      // is not retried on every keystroke.
+      if (query.length >= 2 && !fullTextBlobs && !fullTextPending && !fullTextFailed &&
+          filteredCards.length < 3) {
+        ensureSearchIndex(updatePagination);
+      }
+
       const currentUrls = filteredCards.map(card => {
         try { return new URL(card.href).pathname; } catch(e) { return card.getAttribute('href'); }
       });
@@ -624,11 +666,6 @@ position: 2
     });
     
     if (searchInput) {
-      const onSearchInteraction = () => ensureSearchIndex(() => {
-        if (searchInput.value.trim()) { updatePagination(); }
-      });
-      searchInput.addEventListener("focus", onSearchInteraction);
-      searchInput.addEventListener("input", onSearchInteraction);
       searchInput.addEventListener("input", function () {
         currentPage = 1;
         localStorage.removeItem('reviews_current_page'); 

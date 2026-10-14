@@ -111,11 +111,23 @@
     });
   }
 
+  // Twelve third-party CSVs from Google only feed the hero counter, so they run
+  // once the page itself has loaded and the browser is idle, rather than
+  // competing with the first paint and the platform sheet the table needs. The
+  // bar keeps its "Counting tested games…" state until the event arrives, which
+  // is what happens today — it just arrives a moment later. A cached result
+  // (12h TTL) still publishes immediately, without touching the network.
+  function schedule() {
+    var start = function () {
+      if (readCache()) { load(); return; }
+      if (window.requestIdleCallback) window.requestIdleCallback(load, { timeout: 2000 });
+      else setTimeout(load, 300);
+    };
+    if (document.readyState === 'complete') start();
+    else window.addEventListener('load', start, { once: true });
+  }
+
   window.__compatTestedCount = null;
   window.__compatTestedDetails = null;
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', load);
-  } else {
-    load();
-  }
+  schedule();
 })();

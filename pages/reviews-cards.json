@@ -15,6 +15,11 @@ permalink: /reviews-cards.json
   the two halves join into one complete in-order card list. If you change the
   order or the offset here, change it in pages/reviews.html too.
 
+  `thumb` is the card-sized cover the browser should prefer (see
+  _includes/review-thumb.html and make_review_thumbs.mjs); it is empty for
+  covers with no generated thumbnail and then the client renderer falls back to
+  the full-size `image`, exactly as the build-time card does.
+
   Consumed by the archive's client renderer, which mirrors
   _includes/review-card.html's `compact` variant field for field.
 {% endcomment %}
@@ -23,7 +28,8 @@ permalink: /reviews-cards.json
 {%- assign all_reviews = site.pages | where: "layout", "review" | sort: "date" | reverse -%}
 {%- for review in all_reviews offset: archive_page_size -%}
 {%- include review-genre-emoji.html genre=review.genre -%}
-{"url":{{ review.url | jsonify }},"image":{{ review.image | default: "" | jsonify }},"title":{{ review.game_title | jsonify }},"summary":{{ review.summary | default: "" | jsonify }},"platform":{{ review.platform | jsonify }},"genre":{{ review.genre | default: "" | jsonify }},"emoji":{{ genre_emoji | jsonify }},"year":{{ review.release_year | jsonify }},"verdict":{{ review.verdict | jsonify }},"date":{{ review.date | default: "2000-01-01" | jsonify }},"date_label":{{ review.date | date: "%b %d, %Y" | jsonify }}}
+{%- include review-thumb.html image=review.image -%}
+{"url":{{ review.url | jsonify }},"image":{{ review.image | default: "" | jsonify }},"thumb":{{ review_thumb | jsonify }},"title":{{ review.game_title | jsonify }},"summary":{{ review.summary | default: "" | jsonify }},"platform":{{ review.platform | jsonify }},"genre":{{ review.genre | default: "" | jsonify }},"emoji":{{ genre_emoji | jsonify }},"year":{{ review.release_year | jsonify }},"verdict":{{ review.verdict | jsonify }},"date":{{ review.date | default: "2000-01-01" | jsonify }},"date_label":{{ review.date | date: "%b %d, %Y" | jsonify }}}
 {%- unless forloop.last -%},{%- endunless -%}
 {%- endfor -%}
 ]

@@ -131,12 +131,23 @@ test('the build-time and client-rendered cards share one markup skeleton', async
 
     // Attribute names are the contract; only the attributes both renderers
     // write as fixed literals also have to agree on their value.
-    const FIXED_ATTRS = ['role', 'aria-hidden', 'loading', 'decoding', 'width', 'height'];
+    const FIXED_ATTRS = ['role', 'aria-hidden', 'loading', 'decoding', 'width', 'height', 'sizes'];
+
+    // srcset is per-card (each cover has its own thumbnail), so compare its
+    // shape: which candidate widths it offers and in what order. A renderer
+    // that dropped the thumbnail, or swapped the candidates, would show up
+    // here even though the URLs themselves differ.
+    const normaliseSrcset = (value: string) =>
+      value
+        .split(',')
+        .map((candidate) => candidate.trim().replace(/^\S+/, '<img>'))
+        .join(', ');
 
     const skeleton = (el: Element): string => {
       const attrs = [...el.attributes]
         .map((a) => {
           if (a.name === 'class') return `class="${normaliseClass(a.value)}"`;
+          if (a.name === 'srcset') return `srcset="${normaliseSrcset(a.value)}"`;
           if (FIXED_ATTRS.includes(a.name)) return `${a.name}="${a.value}"`;
           return a.name;
         })

@@ -1,6 +1,15 @@
 /*!
  * Type-on-strap Font Awesome kit v6.7.2
  * Find the version and license of the included Font Awesome here: _sass/external/font-awesome/fontawesome.scss
+ *
+ * The webfonts in assets/fonts/font-awesome/ are NOT the stock upstream files:
+ * they are subsets, cut down to the glyphs this site can render (~277 KB ->
+ * ~4 KB, most of which a page downloaded to draw a handful of icons).
+ * Re-run `python subset_font_awesome.py` after adding an icon anywhere, which
+ * reads the glyphs back out of the built site and an icon it is not told about
+ * would render as an empty box. The @font-face rules here only list woff2 for
+ * the same reason: the truetype fallbacks were never fetched by any browser we
+ * support, and they are no longer shipped.
  */
 $fa-inverse: var(--background);
 $fa-font-path: "../fonts/font-awesome" !default;

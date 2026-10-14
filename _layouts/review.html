@@ -3,39 +3,12 @@ layout: default
 ---
 
 {% comment %}
-  Structured data (schema.org) built from the review's front matter so search
-  engines see a proper Review of a VideoGame: verdict maps onto a 5-point
-  rating (recommended=4, not-sure=3, not-recommended=2).
+  The Review structured data (schema.org) for this page is emitted once, at the
+  end of the article, where the front matter it needs has already been read.
+  There used to be a second Review block up here as well, describing the same
+  URL on a different rating scale — two Review entities for one page is worse
+  than either alone, so it was removed.
 {% endcomment %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Review",
-  "headline": {{ page.game_title | append: " review" | jsonify }},
-  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
-  "url": {{ site.url | append: page.url | jsonify }},
-  "mainEntityOfPage": {{ site.url | append: page.url | jsonify }},
-  "author": { "@type": "Person", "name": "Rhys Wyrill" },
-  "publisher": { "@type": "Organization", "name": {{ site.title | jsonify }} },
-  "reviewBody": {{ content | strip_html | normalize_whitespace | jsonify }},
-  "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": {% if page.verdict == "recommended" %}4{% elsif page.verdict == "not-sure" %}3{% else %}2{% endif %},
-    "bestRating": 5,
-    "worstRating": 1,
-    "description": {{ page.verdict | replace: "-", " " | capitalize | jsonify }}
-  },
-  "itemReviewed": {
-    "@type": "VideoGame",
-    "name": {{ page.game_title | jsonify }},
-    "gamePlatform": {{ page.platform | jsonify }},
-    "image": {{ site.url | append: page.image | jsonify }},
-    "datePublished": {{ page.release_year | append: "-01-01" | date_to_xmlschema | jsonify }},
-    "publisher": { "@type": "Organization", "name": "Rhys Wyrill" }{% if page.genre %},
-    "genre": {{ page.genre | jsonify }}{% endif %}
-  }
-}
-</script>
 
 <div id="reading-progress" aria-hidden="true"></div>
 <style>
@@ -51,77 +24,19 @@ layout: default
     pointer-events: none;
   }
 </style>
-<script>
-(function () {
-  // Quick-nav: jump to Top or the verdict paragraph ("Overall, …"). The
-  // verdict button only shows once its paragraph is located in the DOM.
-  // Wired on DOMContentLoaded: this script block sits before the article
-  // markup, so the sidebar and body do not exist yet at parse time.
-  document.addEventListener('DOMContentLoaded', function () {
-  var nav = document.querySelector('.review-quicknav');
-  if (nav) {
-    var verdictBtn = nav.querySelector('[data-nav="verdict"]');
-    var body = document.querySelector('.review-article-body');
-    var verdictEl = null;
-    if (body) {
-      var paras = body.querySelectorAll('p');
-      for (var i = 0; i < paras.length; i++) {
-        if (/^Overall,/i.test(paras[i].textContent.trim())) { verdictEl = paras[i]; break; }
-      }
-    }
-    if (!verdictEl) verdictBtn.style.display = 'none';
-    verdictEl && (verdictEl.id = verdictEl.id || 'review-verdict');
-    nav.addEventListener('click', function (e) {
-      var btn = e.target.closest('.quicknav-btn');
-      if (!btn) return;
-      var target = btn.dataset.nav === 'verdict' ? document.getElementById('review-verdict') : document.querySelector('.review-article-box');
-      if (target) target.scrollIntoView({ behavior: 'instant', block: btn.dataset.nav === 'verdict' ? 'center' : 'start' });
-    });
-    var tickingNav = false;
-    window.addEventListener('scroll', function () {
-      if (!tickingNav) {
-        tickingNav = true;
-        requestAnimationFrame(function () {
-          var nearTop = window.scrollY < 200;
-          var nearVerdict = verdictEl && (function () {
-            var r = verdictEl.getBoundingClientRect();
-            return r.top < window.innerHeight * 0.5 && r.bottom > 0;
-          })();
-          nav.querySelector('[data-nav="top"]').classList.toggle('is-current', nearTop && !nearVerdict);
-          verdictBtn.classList.toggle('is-current', !!nearVerdict);
-          tickingNav = false;
-        });
-      }
-    }, { passive: true });
-  }
-  });
-
-  var bar = document.getElementById('reading-progress');
-  if (!bar) return;
-  var header = document.querySelector('.site-header') || document.querySelector('body > header');
-  function positionBar() { if (header) bar.style.top = header.offsetHeight + 'px'; }
-  function update() {
-    var doc = document.documentElement;
-    var max = doc.scrollHeight - window.innerHeight;
-    var pct = max > 0 ? Math.min(1, window.scrollY / max) : 0;
-    bar.style.width = (pct * 100).toFixed(2) + '%';
-  }
-  var ticking = false;
-  window.addEventListener('scroll', function () {
-    if (!ticking) {
-      ticking = true;
-      requestAnimationFrame(function () { update(); ticking = false; });
-    }
-  }, { passive: true });
-  window.addEventListener('resize', function () { positionBar(); update(); });
-  positionBar();
-  update();
-})();
-</script>
+<script defer src="{{ '/assets/js/review-quicknav.js' | relative_url }}"></script>
 
 <article class="review-article-box">
   
-  <header class="review-hero-banner" {% if page.image %}style="background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35)), url('{{ page.image }}');"{% endif %}>
+  {% comment %}
+    The cover is a real <img> rather than a CSS background: this is the page's
+    largest contentful paint, and a background image cannot be preloaded, given
+    fetchpriority, or offered in responsive sizes. The dark scrim stays, but as
+    an overlay drawn above the cover and below the text (see the
+    .review-hero-banner rules in _sass/base/_site-styles.scss).
+  {% endcomment %}
+  <header class="review-hero-banner">
+    {% if page.image %}<img class="review-hero-cover" src="{{ page.image }}" alt="" width="1280" height="720" fetchpriority="high" decoding="async" />{% endif %}
     <div class="review-hero-alignment-engine">
       <h1 class="review-article-title">{{ page.game_title }}</h1>
       {% if page.summary %}
@@ -146,7 +61,7 @@ layout: default
         <button type="button" class="quicknav-btn" data-nav="verdict">✓ Verdict</button>
       </nav>
 
-      <div class="review-spec-card">
+      <div class="review-spec-card" data-game-title="{{ page.game_title | escape }}">
         <h2>Game Info</h2>
         
         <div class="spec-row">
@@ -235,25 +150,51 @@ layout: default
 
   <!-- More like this: up to 5 newest reviews sharing this review's genre, else its platform -->
   {% comment %}
-    Two one-pass `where_exp` filters replace the old per-review `push` loop;
-    `uniq` drops the reviews matched by both halves.
+    Written for the Liquid GitHub Pages builds with (4.0.4 via jekyll 3.10),
+    which is stricter than the 4.4.1 used locally:
+
+      * `where_exp` takes a single comparison — no `and`, no `contains`;
+      * a `for` tag cannot apply a filter to the thing it iterates.
+
+    Genre matching needs substring containment (`page.genre contains r.genre`),
+    which no `where_exp` grammar expresses, so it is one pass over the
+    candidates ordered newest-first that stops once five are collected: the
+    `push` accumulator never grows past five items, where the old per-review
+    loop copied a ~100-item array on every hit.
   {% endcomment %}
   {% assign other_reviews = review_pages | where_exp: "r", "r.url != page.url" %}
-  {% assign related_by_genre = other_reviews | where_exp: "r", "r.genre and page.genre and page.genre contains r.genre" %}
-  {% assign related_by_platform = other_reviews | where_exp: "r", "r.platform and page.platform and r.platform == page.platform" %}
+  {% assign candidates = other_reviews | sort: "url" %}
+  {% assign candidate_dates = candidates | group_by_exp: "r", "r.date" | sort: "name" | reverse %}
+
+  {% assign related_by_genre = "" | split: "," %}
+  {% for day in candidate_dates %}
+    {% if related_by_genre.size >= 5 %}{% break %}{% endif %}
+    {% assign day_items = day.items | sort: "url" %}
+    {% for r in day_items %}
+      {% if related_by_genre.size >= 5 %}{% break %}{% endif %}
+      {% if page.genre and r.genre and page.genre contains r.genre %}{% assign related_by_genre = related_by_genre | push: r %}{% endif %}
+    {% endfor %}
+  {% endfor %}
+
+  {% if page.platform %}
+    {% assign related_by_platform = other_reviews | where_exp: "r", "r.platform == page.platform" %}
+  {% else %}
+    {% assign related_by_platform = "" | split: "," %}
+  {% endif %}
+
   {% comment %}
-    Selected deterministically: group the candidates by date, walk the groups
-    newest-first, and order each (usually tied) group by url — a unique key.
-    Sorting by date alone leaves same-date reviews in whatever order the pool
-    happened to be assembled, and Ruby's sort is not stable, so which of the
-    tied reviews filled the last slot varied with the surrounding code.
+    `uniq` drops the reviews matched by both halves. Selection is
+    deterministic: candidates are url-ordered before grouping (Ruby's sort is
+    not stable, and grouping keeps the order it is given), so each date group
+    comes out url-ordered and the newest-first walk is stable when dates tie.
   {% endcomment %}
   {% assign related_pool = related_by_genre | concat: related_by_platform | uniq %}
   {% assign related_reviews = "" | split: "," %}
   {% assign related_dates = related_pool | group_by_exp: "r", "r.date" | sort: "name" | reverse %}
   {% for day in related_dates %}
     {% if related_reviews.size >= 5 %}{% break %}{% endif %}
-    {% for r in day.items | sort: "url" %}
+    {% assign day_items = day.items | sort: "url" %}
+    {% for r in day_items %}
       {% if related_reviews.size >= 5 %}{% break %}{% endif %}
       {% assign related_reviews = related_reviews | push: r %}
     {% endfor %}
@@ -263,8 +204,19 @@ layout: default
   <section class="related-reviews" aria-label="More reviews like this">
     <h2 class="related-reviews-title">More like this</h2>
     <div class="related-reviews-grid">
+      {% comment %}
+        Five columns here, then three, then one — the archive default of six
+        would under-state the card width on a wide screen.
+
+        Measured rendered widths (1280x900 and down, DPR 1): 252px at a 360px
+        viewport, 532px at 640px (the grid is one full-width column there),
+        then 187px at 700px as it switches to the five-column strip, and a flat
+        197px from 1200px up. The small-viewport bucket therefore has to stop
+        below 700px: stating 92vw across the whole range asked for ~644px and
+        made the browser fetch the 1280px cover, ~108 KB each in a 187px card.
+      {% endcomment %}
       {% for r in related_reviews %}
-        {% include review-card.html review=r strip=true %}
+        {% include review-card.html review=r strip=true card_sizes="(max-width: 660px) 92vw, (max-width: 1200px) 30vw, 240px" %}
       {% endfor %}
     </div>
   </section>
@@ -307,6 +259,7 @@ layout: default
     "@context": "https://schema.org",
     "@type": "Review",
     "url": {{ page.url | absolute_url | jsonify }},
+    "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
     "headline": {{ page.game_title | append: " review" | jsonify }},
     "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
     "author": { "@type": "Organization", "name": {{ site.title | jsonify }} },
@@ -486,49 +439,14 @@ window.addEventListener('click', () => {
     }
   })();
   
-  // ── Complete Journey video matcher ───────────────────────────────────
-	(function() {
-		const rawGameTitle = "{{ page.game_title }}";
-		if (!rawGameTitle) return;
-
-		function normalise(str) {
-			return str.toLowerCase()
-				.replace(/[^a-z0-9]+/g, ' ')
-				.trim();
-		}
-
-		const normTarget = normalise(rawGameTitle);
-		if (!normTarget) return;
-
-		fetch("/assets/data/journeys_trw.json")
-			.then(r => r.json())
-			.then(videos => {
-				const list = Array.isArray(videos) ? videos : [];
-				const match = list.find(vid => {
-					if (!vid.title || !vid.id) return false;
-					const normTitle = normalise(vid.title);
-					const hasJourney = normTitle.includes('complete journey');
-					const hasGame    = normTitle.includes(normTarget);
-					return hasJourney && hasGame;
-				});
-
-				if (!match) return;
-
-				// Only inject the row when a real match is confirmed
-				const specCard = document.querySelector('.review-spec-card');
-				if (!specCard) return;
-
-				const row = document.createElement('div');
-				row.className = 'spec-row';
-				row.innerHTML = `
-					<span class="spec-label">Complete Journey</span>
-					<a href="https://youtu.be/${match.id}" target="_blank" class="journey-yt-badge" title="Watch full playthrough">
-						<svg style="width:13px;height:13px;fill:#ffffff;flex-shrink:0;" viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
-						<span>Watch</span>
-					</a>
-				`;
-				specCard.appendChild(row);
-			})
-			.catch(() => {});
-	})();
 </script>
+
+{% comment %}
+  The "Complete Journey" row is looked up from assets/js/review-journey.js
+  on idle instead of here: the index fetch used to start while the parser
+  was still running, competing with this page's LCP image. The share,
+  embed and prev/next code stays inline because its buttons call it from
+  onclick attributes and its prev/next order is page data (every review
+  URL, in date order) that only the template knows.
+{% endcomment %}
+<script defer src="{{ '/assets/js/review-journey.js' | relative_url }}"></script>

@@ -19,7 +19,9 @@
 @import 'external/reset';
 @import 'external/font-awesome';
 @import 'external/pacifico';
-@import 'external/katex';
+// KaTeX is off site-wide (see katex: in _config.yml), so this compiled ~24 KB
+// of .katex rules whose @font-face URLs point at assets/fonts/katex — a
+// directory the build excludes. Re-add the import if maths ever comes back.
 @import 'external/source-sans-pro';
 
 /* Base */

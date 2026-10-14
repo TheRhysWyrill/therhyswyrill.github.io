@@ -4,7 +4,13 @@
 	<div class="branding">
         {% if site.avatar %}
 		<a href="{{ '/' | relative_url }}">
-			<img alt="logo img" class="avatar" src="{{ site.avatar | relative_url }}" loading="lazy"/>
+			{%- comment -%}
+				avatar_nav is the same mark cut down for the navbar (the full-size
+				avatar is a 1000px square kept for the PWA icon and the SEO fallback
+				image). It is above the fold, so it is not lazy — lazy only delays
+				an element that is already on screen.
+			{%- endcomment -%}
+			<img alt="logo img" class="avatar" src="{{ site.avatar_nav | default: site.avatar | relative_url }}"/>
 		</a>
         {% endif %}
         <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">

@@ -20,6 +20,16 @@
 {% endcomment %}
 {% assign card = include.review %}
 {% assign card_date_fallback = card.date | default: "2000-01-01" %}
+{% comment %}
+  Card covers are 1280x720 originals drawn into a ~300px frame, so each card
+  offers the 560px thumbnail (see make_review_thumbs.mjs) alongside the
+  original and lets the browser choose. `sizes` describes the widest grid this
+  card appears in — the archive's six columns — and callers that draw it much
+  larger (the home page's two columns, the review page's related row) pass
+  `card_sizes` to say so, otherwise a retina home page would pick the small
+  candidate for a card nearly three times wider.
+{% endcomment %}
+{% assign card_sizes = include.card_sizes | default: "(max-width: 480px) 92vw, (max-width: 900px) 30vw, (max-width: 1300px) 22vw, 300px" %}
 
 {% comment %} Scannable emoji per genre family: keyword-matched, first hit wins.
    Shared with the archive's client-side card renderer (see
@@ -35,7 +45,8 @@
 
     <div class="archive-card-image-wrap">
         {% if card.image %}
-        <img src="{{ card.image }}" alt="{{ card.game_title }} Art" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />
+        {% include review-thumb.html image=card.image %}
+        <img src="{% if review_thumb != '' %}{{ review_thumb }}{% else %}{{ card.image }}{% endif %}"{% if review_thumb != '' %} srcset="{{ review_thumb }} 560w, {{ card.image }} 1280w" sizes="{{ card_sizes }}"{% endif %} alt="{{ card.game_title }} Art" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />
         {% else %}
         <div class="archive-card-placeholder">No Art Available</div>
         {% endif %}

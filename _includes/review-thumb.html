@@ -1,0 +1,24 @@
+{%- comment -%}
+  Thumbnail path for a review cover, worked out in exactly one place.
+
+  The archive paints its cards from two renderers — _includes/review-card.html
+  for the first page, the client renderer in pages/reviews.html for the rest —
+  and both have to point at the same files, so the build-time cards and the card
+  index (pages/reviews-cards.json) both include this and read `review_thumb`
+  back out of the caller's scope (Liquid includes share scope).
+
+  `review_thumb` is empty when the cover is not a local review image (nothing
+  else has a generated thumbnail), and callers then emit no srcset at all rather
+  than a broken one.
+
+  Usage:
+    {% include review-thumb.html image=card.image %}
+{%- endcomment -%}
+{%- assign _thumb_image = include.image | default: "" -%}
+{%- assign review_thumb = "" -%}
+{%- if _thumb_image contains "/assets/img/reviews/" and _thumb_image contains ".webp" -%}
+  {%- assign _thumb_parts = _thumb_image | split: "/" -%}
+  {%- assign _thumb_file = _thumb_parts | last -%}
+  {%- assign _thumb_head = _thumb_parts | pop | join: "/" -%}
+  {%- assign review_thumb = _thumb_head | append: "/thumbs/" | append: _thumb_file -%}
+{%- endif -%}

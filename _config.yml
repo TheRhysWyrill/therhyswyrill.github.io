@@ -5,6 +5,10 @@ title: "The Playability Report"
 page_title: "The Playability Report | Game Reviews, Benchmarks & Longplays"
 description: "In-depth game reviews, emulation benchmarks, and Proton compatibility testing. Discover performance reports and curated gameplay longplays in one archive."
 avatar: assets/img/avatar.webp
+# Navbar version of the same mark: the full-size avatar is a 1000px square
+# (~80 KB) used as the PWA icon and the SEO fallback image, which is far more
+# pixels than a ~40px logo needs.
+avatar_nav: assets/img/avatar-nav.webp
 favicon: assets/icon.ico
 
 header_text: "Analysing Performance, Reviewing the Experience, and Archiving the Journey"
@@ -65,5 +69,15 @@ exclude:
   # @font-face rules never trigger a fetch either.
   - "assets/js/vendor"
   - "assets/fonts/katex"
+  # Build-time tooling that lives at the repo root (video/stream fetchers, the
+  # genre-page generator, the Font Awesome subsetter, the thumbnail generator).
+  # Jekyll copies unknown static files into the site, so these were published
+  # at the site root — ~33 KB of tooling crawlable at public URLs — even though
+  # nothing links them. Excluding them keeps the deploy to the site itself;
+  # __pycache__ goes with them, since running those scripts leaves bytecode
+  # behind that would otherwise be published too.
+  - "*.py"
+  - "*.mjs"
+  - "__pycache__"
 
 remote_theme: sylhare/Type-on-Strap

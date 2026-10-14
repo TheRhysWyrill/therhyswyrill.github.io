@@ -3,19 +3,21 @@ layout: null
 permalink: /search-index.json
 ---
 {% comment %}
-  Build-time full-text search index for the reviews archive.
-  Emits one entry per review with title, summary and the full plain-text body,
-  so the reviews page can match words that appear deep inside a review and not
-  just in its card. Consumed by pages/reviews.html (lazy-fetched on first
-  search keystroke).
+  Build-time full-text search index for the reviews archive: one entry per
+  review holding its plain-text body, so the archive can match words that
+  appear deep inside a review rather than only in its card.
+
+  Titles and summaries are deliberately not duplicated here — every card in the
+  archive already carries them in the DOM, and the archive searches that text
+  first. pages/reviews.html only downloads this file when a query has almost no
+  matches in the card text, because it is the largest asset the site serves
+  (~700 KB gzipped).
 {% endcomment %}
 [
 {%- assign review_pages = site.pages | where: "layout", "review" | sort: "game_title" -%}
 {%- for review in review_pages %}
   {
     "url": {{ review.url | jsonify }},
-    "title": {{ review.game_title | jsonify }},
-    "summary": {{ review.summary | jsonify }},
     "body": {{ review.content | markdownify | strip_html | normalize_whitespace | jsonify }}
   }{%- unless forloop.last %},{% endunless %}
 {%- endfor %}
