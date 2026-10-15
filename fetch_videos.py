@@ -71,8 +71,10 @@ def save_dates(known):
 
 
 def normalise_date(raw):
-    """yt-dlp hands back YYYYMMDD (upload_date) or a unix timestamp. Normalise
-    to the YYYY-MM-DD the archive and the vault's string comparison expect."""
+    """yt-dlp hands back YYYYMMDD (upload_date) or a unix timestamp, and the
+    channel RSS feed hands back an ISO-8601 timestamp ("2026-10-15T17:00:35
+    +00:00"). Normalise all of them to the YYYY-MM-DD the archive and the
+    vault's string comparison expect."""
     if not raw:
         return None
     raw = str(raw).strip()
@@ -82,7 +84,19 @@ def normalise_date(raw):
         import datetime
 
         return datetime.datetime.utcfromtimestamp(int(raw)).strftime("%Y-%m-%d")
-    return None
+
+    # atom:published from the RSS feed. Without this branch every RSS date came
+    # back None, which silently disarmed the always-current fallback that
+    # fetch_rss_latest exists to provide: the feed's uploads were merged in
+    # undated, so the newest uploads could only ever be dated by the slow
+    # yt-dlp harvest, and latest_videos.json (dated videos only) could never
+    # move past whatever that harvest last reached.
+    import datetime
+
+    try:
+        return datetime.datetime.fromisoformat(raw.replace("Z", "+00:00")).strftime("%Y-%m-%d")
+    except ValueError:
+        return None
 
 
 def harvest_dates(channel_id, known, limit):
@@ -274,25 +288,18 @@ def main():
         print(f"  Date harvest: {DATE_HARVEST} newest checked, {gained} newly dated "
               f"({len(known)} known overall).", flush=True)
 
-        latest_all[key] = sorted((v for v in merged if v.get("published")),
-                                 key=lambda v: v["published"], reverse=True)[:8]
-        write_latest(latest_all)
-
-        latest_all[key] = sorted((v for v in merged if v.get("published")),
-                                 key=lambda v: v["published"], reverse=True)[:8]
+        # Both paths must write the per-channel archive. The scheduled (full)
+        # run used to skip it entirely, so the daily job refreshed only
+        # latest_videos.json and left videos_*.json / journeys_*.json frozen at
+        # whenever that split landed -- the vault kept serving month-old
+        # uploads while the workflow stayed green.
+        write_archives({key: merged}, latest_all)
+        write_latest(latest_all)  # rewritten per channel: a late crash keeps progress
 
         if args.dates_only:
-            with open(output_path, "w", encoding="utf-8") as f:
-                json.dump(merged, f, indent=2, ensure_ascii=False)
-            journeys = [v for v in merged if "complete journey" in (v.get("title") or "").lower()]
-            with open(os.path.join(OUTPUT_DIR, f"journeys_{key}.json"), "w", encoding="utf-8") as f:
-                json.dump(journeys, f, separators=(",", ":"), ensure_ascii=False)
             undated = sum(1 for v in merged[:20] if not v.get("published"))
             print(f"Patched {key}: {len(merged)} videos, {sum(1 for v in merged if v.get('published'))} dated, "
                   f"{undated} of newest 20 undated.")
-        else:
-            latest_all[key] = sorted((v for v in merged if v.get("published")),
-                                     key=lambda v: v["published"], reverse=True)[:8]
 
     save_dates(known)
     print(f"\nUpload dates known: {len(known)}")
