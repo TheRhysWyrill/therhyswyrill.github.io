@@ -1,11 +1,6 @@
 {
   "isLive": false,
-  "checkedAt": "2026-10-15T23:38:14Z",
+  "checkedAt": "2026-10-17T00:24:50Z",
   "stream": null,
-  "latestVod": {
-    "id": "2900885778",
-    "title": "Trapped Inside Your Own Backlog | Ved: Recure",
-    "createdAt": "2026-10-14T21:51:31Z",
-    "lengthSeconds": 11720
-  }
+  "latestVod": null
 }
