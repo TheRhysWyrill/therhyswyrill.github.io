@@ -1,11 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-10-18T23:30:10Z",
-  "stream": {
+  "isLive": false,
+  "checkedAt": "2026-10-19T01:38:03Z",
+  "stream": null,
+  "latestVod": {
+    "id": "2904598674",
     "title": "Something Waits Beneath the Facility | Below, Rusted Gods",
-    "game": "Games + Demos",
-    "viewers": 1,
-    "startedAt": "2026-10-18T22:16:42Z"
-  },
-  "latestVod": null
+    "createdAt": "2026-10-18T22:16:47Z",
+    "lengthSeconds": 7894
+  }
 }
