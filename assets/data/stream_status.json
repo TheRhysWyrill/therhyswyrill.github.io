@@ -1,11 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-10-20T07:16:34Z",
-  "stream": null,
+  "isLive": true,
+  "checkedAt": "2026-10-20T23:38:05Z",
+  "stream": {
+    "title": "Chasing a Traitor Across the Globe | Conduit 2",
+    "game": "Retro",
+    "viewers": 1,
+    "startedAt": "2026-10-20T22:28:01Z"
+  },
   "latestVod": {
-    "id": "2905433521",
-    "title": "Turning a Broken Vow Into Honour | Trek to Yomi",
-    "createdAt": "2026-10-19T22:32:48Z",
-    "lengthSeconds": 15179
+    "id": "2906283431",
+    "title": "Chasing a Traitor Across the Globe | Conduit 2",
+    "createdAt": "2026-10-20T22:28:06Z",
+    "lengthSeconds": 4199
   }
 }
