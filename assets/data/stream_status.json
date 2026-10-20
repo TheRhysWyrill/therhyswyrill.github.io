@@ -1,16 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-10-20T01:56:00Z",
-  "stream": {
-    "title": "Turning a Broken Vow Into Honour | Trek to Yomi",
-    "game": "Games + Demos",
-    "viewers": 2,
-    "startedAt": "2026-10-19T22:32:43Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-10-20T07:16:34Z",
+  "stream": null,
   "latestVod": {
     "id": "2905433521",
     "title": "Turning a Broken Vow Into Honour | Trek to Yomi",
     "createdAt": "2026-10-19T22:32:48Z",
-    "lengthSeconds": 12192
+    "lengthSeconds": 15179
   }
 }
