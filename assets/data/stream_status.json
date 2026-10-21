@@ -1,11 +1,6 @@
 {
   "isLive": false,
-  "checkedAt": "2026-10-21T02:01:32Z",
+  "checkedAt": "2026-10-21T13:12:18Z",
   "stream": null,
-  "latestVod": {
-    "id": "2906283431",
-    "title": "Chasing a Traitor Across the Globe | Conduit 2",
-    "createdAt": "2026-10-20T22:28:06Z",
-    "lengthSeconds": 6016
-  }
+  "latestVod": null
 }
