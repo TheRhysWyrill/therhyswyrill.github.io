@@ -4,7 +4,7 @@ date: 2023-05-04
 game_title: "Ravenlok"
 permalink: /reviews/ravenlok/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2023
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

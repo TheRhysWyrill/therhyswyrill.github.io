@@ -4,7 +4,7 @@ date: 2021-10-06
 game_title: "BPM: Bullets Per Minute"
 permalink: /reviews/bpm-bullets-per-minute/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2020
 genre: "Action, FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

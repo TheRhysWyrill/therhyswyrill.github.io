@@ -4,7 +4,7 @@ date: 2022-06-27
 game_title: "Divination"
 permalink: /reviews/divination/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2022
 genre: "Visual Novel"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

@@ -4,7 +4,7 @@ date: 2023-06-06
 game_title: "GRIME"
 permalink: /reviews/grime/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2021
 genre: "Action, Metroidvania"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

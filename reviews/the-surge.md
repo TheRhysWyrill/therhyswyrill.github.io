@@ -4,7 +4,7 @@ date: 2024-05-14
 game_title: "The Surge"
 permalink: /reviews/the-surge/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2017
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

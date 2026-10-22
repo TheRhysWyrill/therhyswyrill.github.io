@@ -4,7 +4,7 @@ date: 2022-06-25
 game_title: "Nexomon"
 permalink: /reviews/nexomon/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2020
 genre: "RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

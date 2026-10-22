@@ -4,7 +4,7 @@ date: 2023-10-27
 game_title: "The Callisto Protocol"
 permalink: /reviews/the-callisto-protocol/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2022
 genre: "Survival Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

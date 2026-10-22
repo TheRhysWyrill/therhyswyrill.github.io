@@ -4,7 +4,7 @@ date: 2024-10-21
 game_title: "Bendy and the Ink Machine"
 permalink: /reviews/bendy-and-the-ink-machine/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2017
 genre: "Horror, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

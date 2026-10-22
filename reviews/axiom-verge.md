@@ -4,7 +4,7 @@ date: 2021-10-16
 game_title: "Axiom Verge"
 permalink: /reviews/axiom-verge/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2015
 genre: "Metroidvania"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

@@ -4,7 +4,7 @@ date: 2023-05-14
 game_title: "Coffee Talk Episode 2: Hibiscus & Butterfly"
 permalink: /reviews/coffee-talk-episode-2-hibiscus-butterfly/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2023
 genre: "Simulation, Visual Novel"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

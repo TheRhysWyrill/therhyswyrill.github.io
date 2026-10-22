@@ -4,7 +4,7 @@ date: 2023-03-05
 game_title: "Asterigos: Curse of the Stars"
 permalink: /reviews/asterigos-curse-of-the-stars/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2022
 genre: "Action, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

@@ -4,7 +4,7 @@ date: 2023-07-04
 game_title: "Reverie"
 permalink: /reviews/reverie/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2016
 genre: "Action-adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

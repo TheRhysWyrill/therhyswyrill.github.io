@@ -4,7 +4,7 @@ date: 2023-03-07
 game_title: "Rhythm Sprout"
 permalink: /reviews/rhythm-sprout/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2022
 genre: "Music, Rhythm"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

@@ -4,7 +4,7 @@ date: 2023-04-06
 game_title: "A Space for the Unbound"
 permalink: /reviews/a-space-for-the-unbound/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2023
 genre: "Narrative Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

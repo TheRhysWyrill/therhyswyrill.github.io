@@ -4,7 +4,7 @@ date: 2023-02-28
 game_title: "Chasing Static"
 permalink: /reviews/chasing-static/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2021
 genre: "Adventure, Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

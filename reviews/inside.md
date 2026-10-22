@@ -4,7 +4,7 @@ date: 2024-05-10
 game_title: "Inside"
 permalink: /reviews/inside/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2016
 genre: "Platformer, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

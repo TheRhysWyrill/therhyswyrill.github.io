@@ -4,7 +4,7 @@ date: 2024-04-27
 game_title: "Little Nightmares"
 permalink: /reviews/little-nightmares/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2017
 genre: "Horror, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
@@ -22,6 +22,6 @@ The loop is stealth, chase escapes and physical puzzle-solving: key hunts, sausa
 
 Depth perception on the balance-beam and pipe-crossing sections is the most repeated complaint, with no second-chance grab once a slip begins, and it is genuinely hard to tell where the character is standing. The controls compound the problem: trigger-to-grab is iffy, climbing is awkward, and unexplained mechanics like lamps that look like checkpoints but are not cost real progress early. The game demands a maximised brightness setting and is punishingly dark in stretches even then. Long end credits with an unintuitive hold-to-skip close the package awkwardly, a small design miss in an otherwise polished presentation.
 
-Two hard crashes during the DLC marred the technical picture, though the Series X instability rather than the game itself drew the blame, and one apparent loading hang after a death added to the suspicion. The hide-and-seek stealth sequences carry genuine tension, especially against the Janitor's roving hands. Sound design earns its praise throughout, from the chanting to the wet acoustics of the depths. Forceful hugs for gnome friends are the comedy's high point. Everything technical is excusable; everything tactile is not, and the grab inputs sit in the latter camp.
+Two hard crashes during the DLC marred the technical picture, though the Xbox Series X instability rather than the game itself drew the blame, and one apparent loading hang after a death added to the suspicion. The hide-and-seek stealth sequences carry genuine tension, especially against the Janitor's roving hands. Sound design earns its praise throughout, from the chanting to the wet acoustics of the depths. Forceful hugs for gnome friends are the comedy's high point. Everything technical is excusable; everything tactile is not, and the grab inputs sit in the latter camp.
 
 Overall, a grotesque, scale-obsessed horror puzzle-platformer whose creature design, gnome-cooperation DLC puzzles and wordless dread justify the full package despite depth-perception platforming, iffy grab controls and punishing darkness. The same-ship DLC structure and the fate its parallel route implies make the whole greater than its parts, and the experience leaves the player eager for the sequel.

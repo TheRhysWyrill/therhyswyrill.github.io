@@ -4,7 +4,7 @@ date: 2023-05-19
 game_title: "Figment 2: Creed Valley"
 permalink: /reviews/figment-2-creed-valley/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2023
 genre: "Action, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

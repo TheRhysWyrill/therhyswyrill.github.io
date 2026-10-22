@@ -4,7 +4,7 @@ date: 2024-09-30
 game_title: "Alien: Isolation"
 permalink: /reviews/alien-isolation/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2014
 genre: "Horror, Stealth"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

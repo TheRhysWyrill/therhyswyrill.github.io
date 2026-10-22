@@ -4,7 +4,7 @@ date: 2024-04-22
 game_title: "Amnesia: The Bunker"
 permalink: /reviews/amnesia-the-bunker/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2023
 genre: "Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

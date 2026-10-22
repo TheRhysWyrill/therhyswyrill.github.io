@@ -4,7 +4,7 @@ date: 2021-09-14
 game_title: "Battlefield 1"
 permalink: /reviews/battlefield-1/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2016
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

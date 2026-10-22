@@ -4,7 +4,7 @@ date: 2026-04-24
 game_title: "Forza Horizon 2"
 permalink: /reviews/forza-horizon-2/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2014
 genre: "Racing, Simulation, Sports"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

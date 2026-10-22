@@ -4,7 +4,7 @@ date: 2021-09-08
 game_title: "Battlefield Hardline"
 permalink: /reviews/battlefield-hardline/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2015
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

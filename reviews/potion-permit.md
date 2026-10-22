@@ -4,7 +4,7 @@ date: 2023-04-24
 game_title: "Potion Permit"
 permalink: /reviews/potion-permit/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2022
 genre: "RPG, Simulation"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

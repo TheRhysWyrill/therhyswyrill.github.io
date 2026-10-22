@@ -4,7 +4,7 @@ date: 2021-09-25
 game_title: "Battlefield V"
 permalink: /reviews/battlefield-5/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2018
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

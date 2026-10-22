@@ -4,7 +4,7 @@ date: 2022-04-20
 game_title: "Arietta of Spirits"
 permalink: /reviews/arietta-of-spirits/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2021
 genre: "Action, Adventure"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

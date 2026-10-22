@@ -4,7 +4,7 @@ date: 2022-04-22
 game_title: "Aspire: Ina's Tale"
 permalink: /reviews/aspire-inas-tale/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2021
 genre: "Adventure, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

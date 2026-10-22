@@ -4,7 +4,7 @@ date: 2023-03-25
 game_title: "Children of Silentown"
 permalink: /reviews/children-of-silentown/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2022
 genre: "Adventure, Point & Click"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

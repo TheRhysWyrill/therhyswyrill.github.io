@@ -4,7 +4,7 @@ date: 2021-09-05
 game_title: "Battlefield 4"
 permalink: /reviews/battlefield-4/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2013
 genre: "Action, FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

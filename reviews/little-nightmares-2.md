@@ -4,7 +4,7 @@ date: 2024-05-05
 game_title: "Little Nightmares II"
 permalink: /reviews/little-nightmares-2/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2021
 genre: "Horror, Puzzle"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
@@ -22,6 +22,6 @@ Quality-of-life fixes stand out everywhere: keys go straight into pockets, balan
 
 The school chapter's bully combat is the one serious complaint: slow, weighty swings that whiff by millimetres, collisions with invisible foreground geometry, and instant death on contact. The combat reads as clunky by accident rather than intent, and the "intentionally clunky" defence rings hollow. It occupies a single chapter, and the game would be stronger if the school had stayed puzzle-only. Getting lost in the cluttered hospital hiding sequences adds friction, with foreground elements obscuring the character's position at the worst moments. Neither issue sinks the experience, and both are scoped tightly.
 
-The roughly four-and-a-half-hour campaign runs slightly shorter than the first game including its DLC, but the density compensates: stealth set-pieces, hide-and-seek chases, co-op environmental puzzles and the TV transmissions rarely repeat a beat. Performance mode holds the visuals impressively on Series X. The store description spoils the companion's identity before the reveal lands, an avoidable marketing misstep. As a sequel it is a clear step up in presentation and design across the board. The pocket-sized flashlight's perfect convenience is the kind of detail the series trades in.
+The roughly four-and-a-half-hour campaign runs slightly shorter than the first game including its DLC, but the density compensates: stealth set-pieces, hide-and-seek chases, co-op environmental puzzles and the TV transmissions rarely repeat a beat. Performance mode holds the visuals impressively on Xbox Series X. The store description spoils the companion's identity before the reveal lands, an avoidable marketing misstep. As a sequel it is a clear step up in presentation and design across the board. The pocket-sized flashlight's perfect convenience is the kind of detail the series trades in.
 
 Overall, a clear step up from its predecessor, carried by companion AI that genuinely learns, creative TV teleport puzzles and scale-based horror executed with total confidence. The school's clunky bully combat and occasional depth-perception deaths are real blemishes, but everything else is incredible, and the wordless dread earns the recommendation wholeheartedly.

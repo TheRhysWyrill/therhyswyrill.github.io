@@ -4,7 +4,7 @@ date: 2025-05-17
 game_title: "Halo 5: Guardians"
 permalink: /reviews/halo-5-guardians/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2015
 genre: "Action, FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

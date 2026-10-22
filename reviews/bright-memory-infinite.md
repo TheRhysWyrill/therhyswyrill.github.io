@@ -4,7 +4,7 @@ date: 2022-07-28
 game_title: "Bright Memory: Infinite"
 permalink: /reviews/bright-memory-infinite/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2021
 genre: "FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

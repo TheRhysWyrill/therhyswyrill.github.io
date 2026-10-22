@@ -4,7 +4,7 @@ date: 2023-03-10
 game_title: "Moonscars"
 permalink: /reviews/moonscars/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2022
 genre: "Action, Metroidvania"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

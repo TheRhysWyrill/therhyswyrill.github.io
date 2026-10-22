@@ -4,7 +4,7 @@ date: 2021-07-10
 game_title: "Bright Memory"
 permalink: /reviews/bright-memory/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2019
 genre: "Action, FPS"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

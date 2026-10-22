@@ -4,7 +4,7 @@ date: 2023-06-30
 game_title: "Bramble The Mountain King"
 permalink: /reviews/bramble-the-mountain-king/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2023
 genre: "Adventure, Horror"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"

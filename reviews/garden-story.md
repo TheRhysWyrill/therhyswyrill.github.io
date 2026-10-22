@@ -4,7 +4,7 @@ date: 2023-03-29
 game_title: "Garden Story"
 permalink: /reviews/garden-story/
 verdict: recommended
-platform: "Series X"
+platform: "Xbox Series X"
 release_year: 2021
 genre: "Adventure, RPG"
 specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
