@@ -1,11 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-10-21T21:37:23Z",
-  "stream": null,
+  "isLive": true,
+  "checkedAt": "2026-10-22T00:12:26Z",
+  "stream": {
+    "title": "Conduit 2 | Hunting John Adams",
+    "game": "Retro",
+    "viewers": 2,
+    "startedAt": "2026-10-21T21:39:21Z"
+  },
   "latestVod": {
-    "id": "2905433521",
-    "title": "Turning a Broken Vow Into Honour | Trek to Yomi",
-    "createdAt": "2026-10-19T22:32:48Z",
-    "lengthSeconds": 15179
+    "id": "2907112026",
+    "title": "Conduit 2 | Hunting John Adams",
+    "createdAt": "2026-10-21T21:39:27Z",
+    "lengthSeconds": 9179
   }
 }
