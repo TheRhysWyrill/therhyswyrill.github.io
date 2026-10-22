@@ -1,11 +1,6 @@
 {
   "isLive": false,
-  "checkedAt": "2026-10-22T05:00:20Z",
+  "checkedAt": "2026-10-22T10:05:33Z",
   "stream": null,
-  "latestVod": {
-    "id": "2907112026",
-    "title": "Conduit 2 | Hunting John Adams",
-    "createdAt": "2026-10-21T21:39:27Z",
-    "lengthSeconds": 11858
-  }
+  "latestVod": null
 }
