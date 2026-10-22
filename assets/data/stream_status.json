@@ -1,11 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-10-22T15:12:18Z",
-  "stream": null,
+  "isLive": true,
+  "checkedAt": "2026-10-22T22:26:49Z",
+  "stream": {
+    "title": "Aliens vs Predator | Three Species, Three Hunts",
+    "game": "Retro",
+    "viewers": 0,
+    "startedAt": "2026-10-22T21:39:25Z"
+  },
   "latestVod": {
-    "id": "2907112026",
-    "title": "Conduit 2 | Hunting John Adams",
-    "createdAt": "2026-10-21T21:39:27Z",
-    "lengthSeconds": 11858
+    "id": "2907975451",
+    "title": "Aliens vs Predator | Three Species, Three Hunts",
+    "createdAt": "2026-10-22T21:39:31Z",
+    "lengthSeconds": 2838
   }
 }
