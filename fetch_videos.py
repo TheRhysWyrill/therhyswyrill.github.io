@@ -20,16 +20,26 @@ OUTPUT_DIR = "./assets/data"
 # `yt-dlp --flat-playlist` is the fast way to list a channel but it returns no
 # dates at all (no `published`, no `upload_date`, `timestamp` is null), so dates
 # can only come from a real extraction -- roughly a second per video, which is
-# far too slow to redo for a 19,000 video channel on every run. Harvesting a
-# bounded window of the newest videos and merging it into a sidecar means each
-# scheduled run dates a fresh slice instead of repeating the last one, so
-# coverage climbs on its own and old dates are never thrown away.
+# far too slow to redo for a 19,000 video channel on every run. The sidecar is
+# therefore the date cache: a run harvests only the uploads that have no date
+# yet and merges them in, so a date is paid for once and kept forever.
 DATES_PATH = os.path.join(OUTPUT_DIR, "video_dates.json")
 
-# How many of the newest uploads per channel to date on each run. A channel's
-# /videos listing is newest-first, so this window moves forward as the schedule
-# runs; raise it for a deliberate backfill, or set VAULT_DATE_HARVEST=0 to skip.
+# How many of the newest uploads per channel to check for dates on each run.
+# Only uploads that still have no date are actually extracted (see
+# harvest_dates), so this is a ceiling on new work, not a fixed cost. A
+# channel's /videos listing is newest-first, so the window moves forward as the
+# schedule runs; raise it for a deliberate backfill, or set
+# VAULT_DATE_HARVEST=0 to skip.
 DATE_HARVEST = int(os.environ.get("VAULT_DATE_HARVEST", "300"))
+
+# How many of a channel's newest uploads to re-list when an archive already
+# exists. The full listing is ~190 pages for the largest channel and ~235 across
+# all four, which is minutes of paging every single day just to discover a
+# handful of new ids at the front. A scheduled run therefore lists the newest
+# page and appends it to the archive it already has; `--full` re-lists every
+# video, which also drops uploads that no longer exist on YouTube.
+LIST_WINDOW = int(os.environ.get("VAULT_LIST_WINDOW", "100"))
 
 RSS_NS = {
     "atom": "http://www.w3.org/2005/Atom",
@@ -99,30 +109,48 @@ def normalise_date(raw):
         return None
 
 
-def harvest_dates(channel_id, known, limit):
-    """Date the newest `limit` uploads with a real (non-flat) extraction.
+def harvest_dates(known, candidates, limit):
+    """Date the newest uploads that do not have a date yet.
 
-    Returns the number of ids that gained a date for the first time.
+    A real (non-flat) extraction costs ~1.4 s per video, and a scheduled run
+    used to ask yt-dlp for the channel's newest `limit` uploads outright -- of
+    which roughly 340 of every 400 already carried a date from an earlier run.
+    That re-dated the same videos every day for no new information and was the
+    bulk of the job's runtime. Only the ids that are actually undated are
+    extracted now, passed as explicit watch URLs so the channel has to be paged
+    only once.
+
+    Returns (newly dated, extractions attempted).
     """
     if limit <= 0:
-        return 0
-    url = f"https://www.youtube.com/channel/{channel_id}/videos"
+        return 0, 0
+    todo, seen = [], set()
+    for v in candidates:
+        vid = v.get("id")
+        if not vid or vid in seen or known.get(vid):
+            continue
+        seen.add(vid)
+        todo.append(vid)
+    todo = todo[:limit]
+    if not todo:
+        return 0, 0
+
     cmd = [
         "yt-dlp",
         "--skip-download",
         "--no-warnings",
+        "--no-update",
         "--ignore-errors",
-        f"--playlist-end={limit}",
         "--print",
         "%(id)s|%(upload_date)s",
-        url,
     ]
+    cmd.extend(f"https://www.youtube.com/watch?v={vid}" for vid in todo)
     gained = 0
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
     except FileNotFoundError:
         print("WARNING: yt-dlp not on PATH; skipping date harvest.")
-        return 0
+        return 0, len(todo)
     for line in result.stdout.splitlines():
         if "|" not in line:
             continue
@@ -133,7 +161,7 @@ def harvest_dates(channel_id, known, limit):
         if vid not in known:
             gained += 1
         known[vid] = date
-    return gained
+    return gained, len(todo)
 
 
 def fetch_rss_latest(channel_id):
@@ -162,9 +190,17 @@ def fetch_rss_latest(channel_id):
     return videos
 
 
-def list_channel(key, url):
-    """The full channel listing: fast, ids and titles, no dates."""
-    cmd = ["yt-dlp", "--flat-playlist", "--dump-json", f"{url}/videos"]
+def list_channel(key, url, limit=None):
+    """The channel listing: fast, ids and titles, no dates.
+
+    `limit` caps how far into the channel yt-dlp pages. One page is 100 ids. This
+    still costs a request per page, so on a channel with 19 000 uploads the
+    difference between `limit=100` and no limit is ~190 requests.
+    """
+    cmd = ["yt-dlp", "--flat-playlist", "--no-warnings", "--no-update", "--dump-json"]
+    if limit:
+        cmd.append(f"--playlist-end={limit}")
+    cmd.append(f"{url}/videos")
     result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
     videos = []
     for line in result.stdout.splitlines():
@@ -231,6 +267,10 @@ def main():
     parser.add_argument("--dates-only", action="store_true",
                         help="Harvest upload dates and patch the existing archives, "
                              "skipping the (slow) full channel listing refresh.")
+    parser.add_argument("--full", action="store_true",
+                        help="Re-list every video on each channel instead of only the "
+                             "newest uploads. Slower, but it repairs a gap in the archive "
+                             "and drops uploads that no longer exist on YouTube.")
     args = parser.parse_args()
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -250,8 +290,24 @@ def main():
                 merged = json.load(f)
             print(f"Patching existing {key} archive ({len(merged)} videos)...")
         else:
-            print(f"Fetching full archive for {key}...")
-            channel_videos = list_channel(key, url)
+            # The archive already holds most of the channel, and new uploads only
+            # ever appear at the front, so a scheduled run lists the newest page
+            # and appends it rather than paging through every video again.
+            existing = []
+            if not args.full and os.path.exists(output_path):
+                try:
+                    with open(output_path, encoding="utf-8") as f:
+                        existing = json.load(f)
+                except (OSError, ValueError) as e:
+                    print(f"  WARNING: could not read {output_path} ({e}); re-listing in full.")
+
+            if existing:
+                print(f"Refreshing newest {LIST_WINDOW} uploads for {key} "
+                      f"({len(existing)} videos already archived)...")
+                channel_videos = list_channel(key, url, limit=LIST_WINDOW)
+            else:
+                print(f"Fetching full archive for {key}...")
+                channel_videos = list_channel(key, url)
 
             # Always-fresh recent uploads from the RSS feed (see docstring above)
             try:
@@ -261,20 +317,23 @@ def main():
                 print(f"  WARNING: RSS fetch failed for {key} ({e}); using yt-dlp results only.")
                 rss_videos = []
 
-            # Merge: RSS newest-first, then the full archive, deduplicated by id
+            # Guard against writing an empty/partial archive (e.g. YouTube hiccup):
+            # keep the previous file untouched rather than wiping the vault. With
+            # an archive on disk every new-video source can still come back empty,
+            # so the check has to look at what was fetched, not at `merged`.
+            if not channel_videos and not rss_videos:
+                print(f"  WARNING: no videos extracted for {key}; keeping existing file unchanged.")
+                continue
+
+            # Merge: RSS newest-first, then the newest page, then whatever is
+            # already archived, deduplicated by id so the newest metadata wins.
             seen = set()
             merged = []
-            for v in rss_videos + channel_videos:
+            for v in rss_videos + channel_videos + existing:
                 vid = v.get("id")
                 if vid and vid not in seen:
                     seen.add(vid)
                     merged.append(v)
-
-            # Guard against writing an empty/partial archive (e.g. YouTube hiccup):
-            # keep the previous file untouched rather than wiping the vault.
-            if not merged:
-                print(f"  WARNING: no videos extracted for {key}; keeping existing file unchanged.")
-                continue
 
         for v in merged:
             if v.get("id") and v.get("published"):
@@ -282,11 +341,11 @@ def main():
             if v.get("id") and known.get(v["id"]):
                 v["published"] = known[v["id"]]
 
-        gained = harvest_dates(channel_id, known, DATE_HARVEST)
+        gained, attempted = harvest_dates(known, merged[:DATE_HARVEST], DATE_HARVEST)
         save_dates(known)  # persist per channel: a later failure keeps this progress
         apply_dates(merged, known)
-        print(f"  Date harvest: {DATE_HARVEST} newest checked, {gained} newly dated "
-              f"({len(known)} known overall).", flush=True)
+        print(f"  Date harvest: {attempted} undated of the newest {DATE_HARVEST} extracted, "
+              f"{gained} newly dated ({len(known)} known overall).", flush=True)
 
         # Both paths must write the per-channel archive. The scheduled (full)
         # run used to skip it entirely, so the daily job refreshed only

@@ -190,14 +190,14 @@ position: 2
       const slug = String(c.verdict || '').toLowerCase().replace(/ /g, '-');
       const verdict = VERDICTS[slug] || { glyph: '?', label: '' };
       // Same shape as the build-time card in _includes/review-card.html: the
-      // 560px thumbnail first (make_review_thumbs.mjs), the 1280px original as
+      // 640px thumbnail first (make_review_thumbs.mjs), the 1280px original as
       // the larger candidate, and `sizes` as stated once on the grid.
       const thumb = esc(c.thumb || '');
       const full = esc(c.image);
       const cover = c.image
         ? '<img src="' + (thumb || full) + '"' +
           (thumb && cardSizes()
-            ? ' srcset="' + thumb + ' 560w, ' + full + ' 1280w" sizes="' + esc(cardSizes()) + '"'
+            ? ' srcset="' + thumb + ' 640w, ' + full + ' 1280w" sizes="' + esc(cardSizes()) + '"'
             : '') +
           ' alt="' + esc(c.title) + ' Art" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />'
         : '<div class="archive-card-placeholder">No Art Available</div>';

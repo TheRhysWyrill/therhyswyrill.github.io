@@ -1,16 +1,29 @@
 name: Update Video Vault Database
 
 on:
-  # Allows you to manually trigger the sync from the GitHub Actions tab anytime
+  # Allows you to manually trigger the sync from the GitHub Actions tab anytime.
+  # Tick "full_refresh" to re-list every video instead of just the newest ones.
   workflow_dispatch:
+    inputs:
+      full_refresh:
+        description: 'Re-list every video on each channel (slow; repairs gaps and drops deleted uploads)'
+        type: boolean
+        default: false
 
-  # Automatically runs once a day (Every midnight) to grab new uploads
+  # A daily incremental sync, plus one full refresh a week so the archive stays
+  # exactly in step with YouTube. The incremental run only pages the newest
+  # uploads of each channel and only extracts dates for videos that lack one,
+  # which is what turns a 30-40 minute job into a couple of minutes.
   schedule:
     - cron: '0 0 * * *'
+    - cron: '0 3 * * 0'
 
 jobs:
   update-vault:
     runs-on: ubuntu-latest
+    # The sync is minutes of network work; a hang should fail the run rather
+    # than sit on the default six-hour budget.
+    timeout-minutes: 20
 
     steps:
     # 1. Check out your website repository files
@@ -24,19 +37,25 @@ jobs:
         python-version: '3.x'
 
     # 3. Install yt-dlp inside the GitHub Runner container
+    #    (upgrading pip itself first is a few seconds of no-op on every run)
     - name: Install Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install yt-dlp
+      run: pip install --disable-pip-version-check yt-dlp
 
     # 4. Execute the script to generate the JSON files
-    #    VAULT_DATE_HARVEST controls how many of each channel's newest uploads
-    #    get a real (slow) date extraction. Dates accumulate in
-    #    assets/data/video_dates.json across runs, so this can stay modest.
+    #    VAULT_DATE_HARVEST caps how many undated uploads per channel get a real
+    #    (slow) date extraction. Dates accumulate in assets/data/video_dates.json
+    #    across runs, and already-dated videos are skipped, so only genuinely
+    #    new uploads cost anything.
     - name: Fetch Latest Videos
       env:
         VAULT_DATE_HARVEST: '400'
-      run: python fetch_videos.py
+      run: |
+        if [ "${{ github.event.inputs.full_refresh }}" = "true" ] || [ "${{ github.event.schedule }}" = "0 3 * * 0" ]; then
+          echo "Full refresh: re-listing every video on each channel."
+          python fetch_videos.py --full
+        else
+          python fetch_videos.py
+        fi
 
     # 5. Automatically commit the changes back to your repository if anything changed
     - name: Commit and Push Changes
