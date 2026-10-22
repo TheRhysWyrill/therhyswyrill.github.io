@@ -1,16 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-10-22T00:12:26Z",
-  "stream": {
-    "title": "Conduit 2 | Hunting John Adams",
-    "game": "Retro",
-    "viewers": 2,
-    "startedAt": "2026-10-21T21:39:21Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-10-22T05:00:20Z",
+  "stream": null,
   "latestVod": {
     "id": "2907112026",
     "title": "Conduit 2 | Hunting John Adams",
     "createdAt": "2026-10-21T21:39:27Z",
-    "lengthSeconds": 9179
+    "lengthSeconds": 11858
   }
 }
