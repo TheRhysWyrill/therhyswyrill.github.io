@@ -1,16 +1,11 @@
 {
   "isLive": true,
-  "checkedAt": "2026-10-22T22:26:49Z",
+  "checkedAt": "2026-10-23T00:50:33Z",
   "stream": {
     "title": "Aliens vs Predator | Three Species, Three Hunts",
     "game": "Retro",
-    "viewers": 0,
+    "viewers": 1,
     "startedAt": "2026-10-22T21:39:25Z"
   },
-  "latestVod": {
-    "id": "2907975451",
-    "title": "Aliens vs Predator | Three Species, Three Hunts",
-    "createdAt": "2026-10-22T21:39:31Z",
-    "lengthSeconds": 2838
-  }
+  "latestVod": null
 }
