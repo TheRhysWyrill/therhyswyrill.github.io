@@ -1,11 +1,6 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-10-25T00:00:28Z",
-  "stream": {
-    "title": "Dementium 2 | Escaping Bright Dawn Alive",
-    "game": "Games + Demos",
-    "viewers": 1,
-    "startedAt": "2026-10-24T22:27:19Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-10-25T04:32:53Z",
+  "stream": null,
   "latestVod": null
 }
