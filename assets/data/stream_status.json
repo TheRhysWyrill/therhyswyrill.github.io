@@ -1,6 +1,11 @@
 {
   "isLive": false,
-  "checkedAt": "2026-10-25T04:32:53Z",
+  "checkedAt": "2026-10-25T09:22:53Z",
   "stream": null,
-  "latestVod": null
+  "latestVod": {
+    "id": "2909900061",
+    "title": "Dementium 2 | Escaping Bright Dawn Alive",
+    "createdAt": "2026-10-24T22:27:25Z",
+    "lengthSeconds": 10733
+  }
 }
