@@ -1,11 +1,11 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-10-24T05:45:44Z",
-  "stream": null,
-  "latestVod": {
-    "id": "2908896697",
-    "title": "LocoRoco 2 Remastered | Splitting Through Every Squeeze",
-    "createdAt": "2026-10-23T22:00:02Z",
-    "lengthSeconds": 16939
-  }
+  "isLive": true,
+  "checkedAt": "2026-10-25T00:00:28Z",
+  "stream": {
+    "title": "Dementium 2 | Escaping Bright Dawn Alive",
+    "game": "Games + Demos",
+    "viewers": 1,
+    "startedAt": "2026-10-24T22:27:19Z"
+  },
+  "latestVod": null
 }
