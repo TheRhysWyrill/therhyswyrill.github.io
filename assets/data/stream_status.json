@@ -1,11 +1,6 @@
 {
   "isLive": false,
-  "checkedAt": "2026-10-27T05:59:58Z",
+  "checkedAt": "2026-10-27T12:00:03Z",
   "stream": null,
-  "latestVod": {
-    "id": "2911710242",
-    "title": "Lucius | Staging Accidents in Dante Manor",
-    "createdAt": "2026-10-26T22:56:17Z",
-    "lengthSeconds": 12000
-  }
+  "latestVod": null
 }
