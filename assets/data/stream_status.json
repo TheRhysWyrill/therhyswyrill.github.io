@@ -1,11 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-10-26T05:11:37Z",
-  "stream": null,
+  "isLive": true,
+  "checkedAt": "2026-10-27T00:53:33Z",
+  "stream": {
+    "title": "Lucius | Staging Accidents in Dante Manor",
+    "game": "Games + Demos",
+    "viewers": 1,
+    "startedAt": "2026-10-26T22:56:12Z"
+  },
   "latestVod": {
-    "id": "2909900061",
-    "title": "Dementium 2 | Escaping Bright Dawn Alive",
-    "createdAt": "2026-10-24T22:27:25Z",
-    "lengthSeconds": 10733
+    "id": "2911710242",
+    "title": "Lucius | Staging Accidents in Dante Manor",
+    "createdAt": "2026-10-26T22:56:17Z",
+    "lengthSeconds": 7036
   }
 }
