@@ -1,12 +1,32 @@
 [
   {
+    "id": "dbt7et7KUKU",
+    "title": "Lucius | Staging Accidents in Dante Manor",
+    "published": "2026-10-26"
+  },
+  {
+    "id": "Tj1Inhjp0-Y",
+    "title": "Call of Juarez: The Cartel | Complete Journey #835",
+    "published": "2026-10-26"
+  },
+  {
     "id": "PnFS9fPtBPM",
     "title": "Apocalipsis | Complete Journey #834",
-    "published": null
+    "published": "2026-10-25"
+  },
+  {
+    "id": "Uz15U7G044Q",
+    "title": "Dementium 2 | Livestream VOD",
+    "published": "2026-10-25"
   },
   {
     "id": "ACqJ5HDGJP4",
     "title": "A Tiny Sticker Tale | Complete Journey #833",
+    "published": "2026-10-24"
+  },
+  {
+    "id": "Esw_O7evvOg",
+    "title": "LocoRoco 2 Remastered | Livestream VOD",
     "published": "2026-10-24"
   },
   {
@@ -15,8 +35,18 @@
     "published": "2026-10-23"
   },
   {
+    "id": "XCxlX3VYdaM",
+    "title": "Aliens vs Predator | Livestream VOD",
+    "published": "2026-10-22"
+  },
+  {
     "id": "rTQx_uWGdck",
     "title": "Creepy Tale 3: Ingrid Penance | Complete Journey #831",
+    "published": "2026-10-22"
+  },
+  {
+    "id": "ibprmFwNQgM",
+    "title": "Conduit 2 | Livestream VOD",
     "published": "2026-10-22"
   },
   {
@@ -30,8 +60,18 @@
     "published": "2026-10-20"
   },
   {
+    "id": "F-7XYYf14Qs",
+    "title": "Trek to Yomi | Livestream VOD",
+    "published": "2026-10-20"
+  },
+  {
     "id": "kZWTJEkW98g",
     "title": "7th Sector | Complete Journey #828",
+    "published": "2026-10-19"
+  },
+  {
+    "id": "yf85_vksqJs",
+    "title": "Below, Rusted Gods | Livestream VOD",
     "published": "2026-10-19"
   },
   {
@@ -493,41 +533,6 @@
     "id": "Wx0rGz4lKOE",
     "title": "Untold Legends: The Warrior's Code | First/Blind Playthrough | Part 27/30",
     "published": "2026-06-04"
-  },
-  {
-    "id": "I-FUjRMcoWU",
-    "title": "Thief Simulator | First/Blind Playthrough | Part 32/36",
-    "published": "2026-06-04"
-  },
-  {
-    "id": "Uz15U7G044Q",
-    "title": "Dementium 2 | Livestream VOD",
-    "published": "2026-10-25"
-  },
-  {
-    "id": "Esw_O7evvOg",
-    "title": "LocoRoco 2 Remastered | Livestream VOD",
-    "published": "2026-10-24"
-  },
-  {
-    "id": "XCxlX3VYdaM",
-    "title": "Aliens vs Predator | Livestream VOD",
-    "published": "2026-10-22"
-  },
-  {
-    "id": "ibprmFwNQgM",
-    "title": "Conduit 2 | Livestream VOD",
-    "published": "2026-10-22"
-  },
-  {
-    "id": "F-7XYYf14Qs",
-    "title": "Trek to Yomi | Livestream VOD",
-    "published": "2026-10-20"
-  },
-  {
-    "id": "yf85_vksqJs",
-    "title": "Below, Rusted Gods | Livestream VOD",
-    "published": "2026-10-19"
   },
   {
     "id": "psR69VuSFso",
@@ -993,6 +998,11 @@
     "id": "WNqjrwescIg",
     "title": "PowerWash Simulator | Livestream VOD 7/18",
     "published": "2026-05-08"
+  },
+  {
+    "id": "I-FUjRMcoWU",
+    "title": "Thief Simulator | First/Blind Playthrough | Part 32/36",
+    "published": "2026-06-04"
   },
   {
     "id": "9HtX43Ib11Y",
