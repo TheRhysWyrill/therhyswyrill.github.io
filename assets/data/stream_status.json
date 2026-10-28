@@ -1,11 +1,6 @@
 {
   "isLive": false,
-  "checkedAt": "2026-10-28T06:46:59Z",
+  "checkedAt": "2026-10-28T19:05:27Z",
   "stream": null,
-  "latestVod": {
-    "id": "2912615048",
-    "title": "You Are Empty | Hunting Mutants in Soviet City",
-    "createdAt": "2026-10-27T23:40:32Z",
-    "lengthSeconds": 16405
-  }
+  "latestVod": null
 }
