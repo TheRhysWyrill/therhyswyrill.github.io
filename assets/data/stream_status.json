@@ -1,11 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-10-27T17:53:48Z",
-  "stream": null,
+  "isLive": true,
+  "checkedAt": "2026-10-28T00:59:27Z",
+  "stream": {
+    "title": "You Are Empty | Hunting Mutants in Soviet City",
+    "game": "Games + Demos",
+    "viewers": 3,
+    "startedAt": "2026-10-27T23:40:27Z"
+  },
   "latestVod": {
-    "id": "2911710242",
-    "title": "Lucius | Staging Accidents in Dante Manor",
-    "createdAt": "2026-10-26T22:56:17Z",
-    "lengthSeconds": 12000
+    "id": "2912615048",
+    "title": "You Are Empty | Hunting Mutants in Soviet City",
+    "createdAt": "2026-10-27T23:40:32Z",
+    "lengthSeconds": 4735
   }
 }
