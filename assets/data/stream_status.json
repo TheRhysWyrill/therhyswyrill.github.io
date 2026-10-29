@@ -1,16 +1,16 @@
 {
   "isLive": true,
-  "checkedAt": "2026-10-28T23:09:16Z",
+  "checkedAt": "2026-10-29T02:26:04Z",
   "stream": {
     "title": "Blair Witch | No Light Means Death in the Woods",
     "game": "Games + Demos",
-    "viewers": 0,
+    "viewers": 1,
     "startedAt": "2026-10-28T23:04:05Z"
   },
   "latestVod": {
     "id": "2913468580",
     "title": "Blair Witch | No Light Means Death in the Woods",
     "createdAt": "2026-10-28T23:04:10Z",
-    "lengthSeconds": 306
+    "lengthSeconds": 12114
   }
 }
