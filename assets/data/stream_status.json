@@ -1,16 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-10-30T00:18:55Z",
-  "stream": {
-    "title": "Forza Horizon 2 Presents Fast & Furious | Hunting Tej's Cars",
-    "game": "Games + Demos",
-    "viewers": 1,
-    "startedAt": "2026-10-29T23:30:58Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-10-30T06:02:57Z",
+  "stream": null,
   "latestVod": {
     "id": "2914377852",
     "title": "Forza Horizon 2 Presents Fast & Furious | Hunting Tej's Cars",
     "createdAt": "2026-10-29T23:31:03Z",
-    "lengthSeconds": 2872
+    "lengthSeconds": 11907
   }
 }
