@@ -1,16 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-11-02T01:44:07Z",
-  "stream": {
-    "title": "Looping Corridors to Cursed Seas | P.T., Umigari",
-    "game": "Games + Demos",
-    "viewers": 2,
-    "startedAt": "2026-11-01T23:15:05Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-11-02T08:23:01Z",
+  "stream": null,
   "latestVod": {
     "id": "2917130182",
     "title": "Looping Corridors to Cursed Seas | P.T., Umigari",
     "createdAt": "2026-11-01T23:15:11Z",
-    "lengthSeconds": 8936
+    "lengthSeconds": 21657
   }
 }
