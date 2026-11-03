@@ -1,11 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-11-02T08:23:01Z",
-  "stream": null,
+  "isLive": true,
+  "checkedAt": "2026-11-03T01:18:36Z",
+  "stream": {
+    "title": "Uncharted: Drake's Fortune Remastered | Hunting El Dorado",
+    "game": "Games + Demos",
+    "viewers": 1,
+    "startedAt": "2026-11-02T22:58:26Z"
+  },
   "latestVod": {
-    "id": "2917130182",
-    "title": "Looping Corridors to Cursed Seas | P.T., Umigari",
-    "createdAt": "2026-11-01T23:15:11Z",
-    "lengthSeconds": 21657
+    "id": "2917964770",
+    "title": "Uncharted: Drake's Fortune Remastered | Hunting El Dorado",
+    "createdAt": "2026-11-02T22:58:33Z",
+    "lengthSeconds": 8403
   }
 }
