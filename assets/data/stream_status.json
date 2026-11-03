@@ -1,16 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-11-03T01:18:36Z",
-  "stream": {
-    "title": "Uncharted: Drake's Fortune Remastered | Hunting El Dorado",
-    "game": "Games + Demos",
-    "viewers": 1,
-    "startedAt": "2026-11-02T22:58:26Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-11-03T08:00:01Z",
+  "stream": null,
   "latestVod": {
     "id": "2917964770",
     "title": "Uncharted: Drake's Fortune Remastered | Hunting El Dorado",
     "createdAt": "2026-11-02T22:58:33Z",
-    "lengthSeconds": 8403
+    "lengthSeconds": 17662
   }
 }
