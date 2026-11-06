@@ -1,11 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-11-06T10:25:47Z",
-  "stream": null,
+  "isLive": true,
+  "checkedAt": "2026-11-06T22:23:29Z",
+  "stream": {
+    "title": "Uncharted 3: Drake's Deception Remastered | Lost in the Rub al Khali",
+    "game": "Games + Demos",
+    "viewers": 1,
+    "startedAt": "2026-11-06T22:14:55Z"
+  },
   "latestVod": {
-    "id": "2920588788",
-    "title": "Finishing Uncharted 2 | Drake's Deception to Follow",
-    "createdAt": "2026-11-05T22:02:27Z",
-    "lengthSeconds": 20256
+    "id": "2921523537",
+    "title": "Uncharted 3: Drake's Deception Remastered | Lost in the Rub al Khali",
+    "createdAt": "2026-11-06T22:15:00Z",
+    "lengthSeconds": 509
   }
 }
