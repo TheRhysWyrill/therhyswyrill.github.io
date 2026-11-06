@@ -1,11 +1,16 @@
 {
   "isLive": true,
-  "checkedAt": "2026-11-05T22:49:42Z",
+  "checkedAt": "2026-11-06T02:54:08Z",
   "stream": {
     "title": "Finishing Uncharted 2 | Drake's Deception to Follow",
     "game": "Games + Demos",
     "viewers": 1,
     "startedAt": "2026-11-05T22:02:22Z"
   },
-  "latestVod": null
+  "latestVod": {
+    "id": "2920588788",
+    "title": "Finishing Uncharted 2 | Drake's Deception to Follow",
+    "createdAt": "2026-11-05T22:02:27Z",
+    "lengthSeconds": 17501
+  }
 }
