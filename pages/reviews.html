@@ -96,18 +96,9 @@ position: 2
     {% endcomment %}
     {% assign archive_page_size = site.reviews_archive_page_size | default: 20 %}
     {% assign all_reviews = site.pages | where: "layout", "review" | sort: "date" | reverse %}
-    {% comment %}
-      How wide a card gets is only known to CSS, so `sizes` is stated once here
-      and handed to both renderers: the build-time cards below take it as a
-      parameter, and the loader reads it back off the grid for the cards it
-      paints. Without it a retina visitor would get the 640px thumbnail for a
-      card drawn across a third of a 1800px grid.
-    {% endcomment %}
-    {% assign card_sizes_archive = "(max-width: 480px) 92vw, (max-width: 900px) 30vw, (max-width: 1300px) 22vw, 300px" %}
-
-    <div class="archive-grid" data-page-size="{{ archive_page_size }}" data-card-sizes="{{ card_sizes_archive }}">
+    <div class="archive-grid" data-page-size="{{ archive_page_size }}">
         {% for review in all_reviews limit: archive_page_size %}
-        {% include review-card.html review=review compact=true card_sizes=card_sizes_archive %}
+        {% include review-card.html review=review compact=true %}
         {% endfor %}
     </div>
 </div>
@@ -173,33 +164,13 @@ position: 2
         .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     }
 
-    // The grid states how wide a card is allowed to be drawn (`sizes`); read it
-    // once from the DOM, where the build put it, so the JS renderer and
-    // _includes/review-card.html cannot disagree about it. This script runs
-    // before the archive loader, so it reads the attribute lazily on first use.
-    let cardSizesValue = null;
-    function cardSizes() {
-      if (cardSizesValue === null) {
-        const grid = document.querySelector('.archive-grid');
-        cardSizesValue = (grid && grid.dataset.cardSizes) || '';
-      }
-      return cardSizesValue;
-    }
-
     function cardHtml(c) {
       const slug = String(c.verdict || '').toLowerCase().replace(/ /g, '-');
       const verdict = VERDICTS[slug] || { glyph: '?', label: '' };
-      // Same shape as the build-time card in _includes/review-card.html: the
-      // 640px thumbnail first (make_review_thumbs.mjs), the 1280px original as
-      // the larger candidate, and `sizes` as stated once on the grid.
-      const thumb = esc(c.thumb || '');
+      // Same shape as the build-time card in _includes/review-card.html.
       const full = esc(c.image);
       const cover = c.image
-        ? '<img src="' + (thumb || full) + '"' +
-          (thumb && cardSizes()
-            ? ' srcset="' + thumb + ' 640w, ' + full + ' 1280w" sizes="' + esc(cardSizes()) + '"'
-            : '') +
-          ' alt="' + esc(c.title) + ' Art" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />'
+        ? '<img src="' + full + '" alt="' + esc(c.title) + ' Art" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />'
         : '<div class="archive-card-placeholder">No Art Available</div>';
       const summary = c.summary ? '<p class="archive-card-summary">' + esc(c.summary) + '</p>' : '';
       const written = c.date_label

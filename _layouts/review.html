@@ -204,19 +204,8 @@ layout: default
   <section class="related-reviews" aria-label="More reviews like this">
     <h2 class="related-reviews-title">More like this</h2>
     <div class="related-reviews-grid">
-      {% comment %}
-        Five columns here, then three, then one — the archive default of six
-        would under-state the card width on a wide screen.
-
-        Measured rendered widths (1280x900 and down, DPR 1): 252px at a 360px
-        viewport, 532px at 640px (the grid is one full-width column there),
-        then 187px at 700px as it switches to the five-column strip, and a flat
-        197px from 1200px up. The small-viewport bucket therefore has to stop
-        below 700px: stating 92vw across the whole range asked for ~644px and
-        made the browser fetch the 1280px cover, ~108 KB each in a 187px card.
-      {% endcomment %}
       {% for r in related_reviews %}
-        {% include review-card.html review=r strip=true card_sizes="(max-width: 660px) 92vw, (max-width: 1200px) 30vw, 240px" %}
+        {% include review-card.html review=r strip=true %}
       {% endfor %}
     </div>
   </section>

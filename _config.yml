@@ -70,7 +70,7 @@ exclude:
   - "assets/js/vendor"
   - "assets/fonts/katex"
   # Build-time tooling that lives at the repo root (video/stream fetchers, the
-  # genre-page generator, the Font Awesome subsetter, the thumbnail generator).
+  # genre-page generator, the Font Awesome subsetter).
   # Jekyll copies unknown static files into the site, so these were published
   # at the site root — ~33 KB of tooling crawlable at public URLs — even though
   # nothing links them. Excluding them keeps the deploy to the site itself;
