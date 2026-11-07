@@ -1,0 +1,29 @@
+---
+layout: review
+date: 2026-10-22
+game_title: "Aliens vs Predator"
+permalink: /reviews/aliens-vs-predator/
+verdict: recommended
+platform: "PC"
+release_year: 2010
+genre: "Action, FPS"
+specs: "AMD Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS"
+summary: "Three overlapping campaigns flip power fantasies across shared maps, held back by acid splash deaths and erratic close-range targets."
+image: "/assets/img/reviews/aliens-vs-predator.webp"
+---
+
+A corporate contract draws colonial marines to BG-386, where colony streets, a refinery, jungle paths, ruins, a research lab and a pyramid structure frame a single conflict viewed from three sides. The Marine campaign plays as tense survival against overwhelming numbers, the Predator campaign plays as methodical stalking from concealment, and the Alien campaign plays as high-speed stealth across walls and ceilings. That triple structure gives one purchase three distinct combat logics on shared geography, with timelines visibly overlapping across factions. Atmosphere leans into pulpy corporate-conspiracy horror, fond of hunter ritual and boardroom villainy in equal measure.
+
+Marine operations centre on flashlight discipline and signal interpretation, with pulse rifle bursts, shotgun blasts, flamethrower cones and combat rifle fire covering different ranges. Ammo reserves stay capped and force weapon rotation, while an unlimited pistol sidearm offers a fallback that reduces pressure to switch under stress. Sentry defences anchor fixed positions during holdouts, and hacking bypasses open sealed routes through extended interaction sequences. Escort beats slow momentum by tethering movement to a guarded charge, which sharpens dread during corridor crawls through the colony and refinery.
+
+Predator equipment builds around concealment and ranged control, with cloak enabling repositioning before strikes from shadowed angles. Heat and alternate vision modes separate warm bodies from machinery and xenomorph shapes against cluttered backdrops. Trophy collection follows retinal-scanner head takes, converting clean kills into persistent marks of dominance. Wrist-detonation charges add area denial for surrounded positions, trading personal safety for blast radius. Unlockable mines, a guided smart disc and a thrown combi stick widen options as the campaign advances, rewarding experimentation with angles, timing and elevation.
+
+Motion tracker management defines Marine tension across jungle and ruins approaches, where blips resolve into lunging shapes only at close distance. Flashlight cones compete with muzzle flash for visibility, so target identification stays partial during swarm rushes. Hacking bypass holds interrupt firing lines at awkward moments, leaving flanks exposed while progress bars complete. Escort movement compounds the problem by fixing pace through dense cover where sprinting would otherwise break contact. Sentry placement offsets some pressure, but fixed arcs leave blind corners for faster climbers.
+
+Alien mobility reframes the same maps as vertical hunting grounds, with wall and ceiling traversal turning floors into optional routes. Vent networks permit flanking around fortified sightlines, while hissing and harvest feeding restore condition after kills. High-speed lunges close distance in a single motion, favouring ambushes from above or behind. An automatic clamber transition assists surface changes yet triggers at inconsistent moments, sending lunges wide or sticking movement to unintended geometry. Jungle canopy runs and lab duct routes show the system at maximum fluency, while tight pyramid corridors expose control imprecision.
+
+Colony streets introduce the marine foothold, the refinery adds vertical pipework and furnace heat, and jungle density breaks sightlines into short segments. Ruins slow navigation with broken sightlines, the research lab compresses encounters into sterile chambers, and pyramid architecture funnels movement toward ceremonial depths. A crashed vessel interior recurs from each faction viewpoint with altered entry points and lighting states, reinforcing the overlapping timeline design. The furnace confrontation with the matriarch uses heat, platforms and spawning waves rather than open damage trading. A late corporate executive duel forces shotgun rushes through one-shot pressure, which reads as a gimmick interruption rather than a test of accumulated skill.
+
+Friction concentrates around close-range readability and punishment rather than difficulty curve alone. Xenomorph locomotion snaps between floor, wall and ceiling vectors, making tracking with heavier weapons unreliable at point-blank range. Acid blood splash punishes successful kills at shotgun distance, so optimal positioning often means retreat instead of engagement. The marine arsenal feels narrow across extended corridors, with capped reserves reinforcing repetition rather than adaptation. Flamethrower output underwhelms against faster targets, particularly beside pulse rifle consistency. The executive duel compounds these issues through forced aggression inside lethal range, while Alien handling loses precision exactly when speed matters most. A PC boot quirk involving an unclosable readme window adds an inelegant desktop detour before start-up, while later mission beats across campaigns begin to blend together structurally through recurring arena shapes despite different movement verbs.
+
+Overall, the three-way structure carries the experience through uneven patches by constantly reframing familiar ground under new movement and sensory rules. Cloak hunting, tracker-led defence and ceiling-based ambushes each receive enough mechanical support to feel complete rather than demonstrative. Acid punishment, escort drag and control quirks dent momentum without breaking the central appeal of one conflict told from opposite ends.
