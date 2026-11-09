@@ -1,16 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-11-08T23:53:17Z",
-  "stream": {
-    "title": "Assassin's Creed: Brotherhood | Ezio vs the Borgia in Rome",
-    "game": "Games + Demos",
-    "viewers": 0,
-    "startedAt": "2026-11-08T23:43:05Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-11-09T04:51:21Z",
+  "stream": null,
   "latestVod": {
     "id": "2923615288",
     "title": "Assassin's Creed: Brotherhood | Ezio vs the Borgia in Rome",
     "createdAt": "2026-11-08T23:43:10Z",
-    "lengthSeconds": 607
+    "lengthSeconds": 14597
   }
 }
