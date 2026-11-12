@@ -27,11 +27,6 @@
   step with the markup.
 {% endcomment %}
 
-{% comment %} Scannable emoji per genre family: keyword-matched, first hit wins.
-   Shared with the archive's client-side card renderer (see
-   review-genre-emoji.html) so the two can't drift. {% endcomment %}
-{% include review-genre-emoji.html genre=card.genre %}
-
 <a href="{{ card.url }}" class="game-archive-card{% if include.compact %} game-archive-card--compact{% endif %}{% if include.strip %} game-archive-card--strip{% endif %}"
    data-date="{{ card_date_fallback }}"
    data-year="{{ card.release_year }}"
@@ -41,7 +36,9 @@
 
     <div class="archive-card-image-wrap">
         {% if card.image %}
-        <img src="{{ card.image }}" alt="{{ card.game_title }} Art" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />
+        {% comment %} The link's heading already announces the game, so the
+           cover is decorative: an alt of "<Title> Art" only repeated it. {% endcomment %}
+        <img src="{{ card.image }}" alt="" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />
         {% else %}
         <div class="archive-card-placeholder">No Art Available</div>
         {% endif %}
@@ -79,7 +76,7 @@
           filters, and the genre pill keeps its title tooltip.
         {% endcomment %}
         <div class="archive-card-meta">
-            <span class="archive-card-pill archive-card-pill--genre" title="{{ card.genre }}">{{ genre_emoji }} {{ card.genre }}</span>
+            <span class="archive-card-pill archive-card-pill--genre" title="{{ card.genre }}">{{ card.genre }}</span>
             <span class="archive-card-pill archive-card-pill--year">{{ card.release_year }}</span>
         </div>
     </div>
@@ -93,7 +90,7 @@
 
         {% if card.date %}
         <div class="archive-card-inline-date">
-            <span class="archive-card-date-pill">✍️ Written: {{ card.date | date: "%b %d, %Y" }}</span>
+            <span>{{ card.date | date: "%-d %b %Y" }}</span>
         </div>
         {% endif %}
     </div>

@@ -42,6 +42,18 @@ layout: default
       {% if page.summary %}
       <p class="review-hero-summary">&ldquo;{{ page.summary }}&rdquo;</p>
       {% endif %}
+      {% comment %} A review with no date, author or length beside the title
+         reads as a draft; the archive cards carried the date but the article
+         itself never did. {% endcomment %}
+      {% assign word_count = content | number_of_words %}
+      {% assign read_minutes = word_count | divided_by: 200 | plus: 1 %}
+      <p class="review-byline">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+        <span class="review-byline-sep" aria-hidden="true">&middot;</span>
+        <span>{{ page.platform }}</span>
+        <span class="review-byline-sep" aria-hidden="true">&middot;</span>
+        <span>{{ read_minutes }} min read</span>
+      </p>
     </div>
   </header>
 

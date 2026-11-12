@@ -1176,7 +1176,8 @@ body:has(.compat-page) {
     }
 
     &::placeholder {
-        color: #4a5568 !important;
+        /* was #4a5568 on #1e252b: 2.06:1, effectively unreadable */
+        color: #8f9bab !important;
     }
 }
 
@@ -4101,4 +4102,443 @@ html body .archive-container.genre-start-container .genre-start-grid {
 @media (max-width: 520px) {
     .genre-index-grid { grid-template-columns: minmax(0, 1fr); }
     .genre-section-head { gap: 4px; }
+}
+
+/* ==========================================================================
+   9. DESIGN PASS: reading measure, orientation, calmer cards
+   ==========================================================================
+
+   One place for the values this section needs, so new components stop
+   inventing another near-identical grey or an em-of-em font size. The rest of
+   the sheet still carries its historical values; anything touched here reads
+   from these. */
+
+:root {
+    --type-xs: 12px;
+    --type-sm: 13px;
+    --type-base: 15px;
+    --type-md: 17px;
+    --type-lg: 22px;
+
+    --text-muted: #a8b3c2;
+    --text-faint: #8b97a6;
+    --surface-1: #1e252b;
+    --surface-2: #252e36;
+    --border-soft: rgba(255, 255, 255, 0.09);
+    --border-strong: rgba(255, 255, 255, 0.18);
+}
+
+/* --- Review reading measure ------------------------------------------------
+   At 1440px the prose column measured 961px = ~135 characters per line,
+   because the grid's 1fr simply took whatever the window gave it. Capping the
+   column alone left the article as a narrow island under a full-width hero on
+   wide screens, so the article box itself is capped and the hero, prose and
+   sidebar now all share one width. */
+.review-article-box {
+    max-width: 1180px !important;
+    padding: 20px 24px 0 !important;
+}
+
+.review-layout-grid {
+    grid-template-columns: minmax(0, 1fr) 400px !important;
+    gap: 56px !important;
+    justify-content: stretch !important;
+}
+
+.review-hero-summary {
+    max-width: 62ch !important;
+}
+
+/* --- Review byline -------------------------------------------------------- */
+.review-byline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4px 12px;
+    margin: 20px 0 0 0 !important;
+    font-size: var(--type-sm);
+    letter-spacing: 0.02em;
+    color: #c7d2dd;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
+
+    time { font-variant-numeric: tabular-nums; }
+}
+
+.review-byline-sep {
+    opacity: 0.5;
+}
+
+/* --- Current section in the navbar ---------------------------------------- */
+.site-header nav ul li a {
+    /* text-height links are ~20px tall; give them a real target without
+       widening them, or the floated nav wraps onto three lines */
+    padding: 10px 0 !important;
+    white-space: nowrap;
+    border-radius: 6px;
+
+    &[aria-current="page"] {
+        color: #ffffff !important;
+
+        &::after {
+            content: "";
+            display: block;
+            height: 2px;
+            margin-top: 5px;
+            border-radius: 2px;
+            background: #a78bfa;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .site-header nav ul li a {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+    }
+
+    /* The collapsed menu keeps its box (it animates opacity/font-size only),
+       so 44px tap targets would leave ~260px of invisible space above the
+       page content. Collapse the box while it is closed. */
+    .site-header nav ul.hide {
+        height: 0 !important;
+        overflow: hidden;
+    }
+
+    .site-header nav ul.hide li a {
+        min-height: 0 !important;
+        padding: 0 !important;
+    }
+
+    .site-header nav ul li a[aria-current="page"]::after {
+        display: none;
+    }
+
+    .site-header nav ul li a[aria-current="page"] {
+        background: rgba(167, 139, 250, 0.14) !important;
+    }
+}
+
+/* Homepage cards keep their original arrangement: three across, then two at
+   half width. With only five sections the second row is meant to fill the
+   width; making every card the same size left an empty quarter of the page. */
+
+/* Wider gaps between nav items, now that the padding is vertical only. */
+.site-header nav ul li {
+    margin-right: 18px !important;
+}
+
+/* Hero subtitle sits on the artwork, so it needs more than the muted grey. */
+.isolated-cinematic-card .billboard-subtitle {
+    color: #dde6ef !important;
+}
+
+/* Section icons: one stroke set instead of five platform-dependent emoji. */
+.card-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: 34px;
+    height: 34px;
+    margin-right: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border-soft);
+    background: rgba(255, 255, 255, 0.06);
+    color: #c9d5e2;
+
+    svg {
+        width: 19px;
+        height: 19px;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 1.6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+}
+
+/* --- Archive: gutter, count, empty state ---------------------------------- */
+/* The archive grid bleeds to the viewport edge, which left the "Reviews"
+   heading and the first card flush against x=0 while every other page kept
+   its gutter. The gutter goes on <main> rather than the grid's container: the
+   grid's own width is snapped to whole columns, so shrinking it would undo
+   that pixel snapping. */
+main.content:has(.reviews-header-container) {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+@media (min-width: 1400px) {
+    main.content:has(.reviews-header-container) {
+        padding-left: 32px !important;
+        padding-right: 32px !important;
+    }
+}
+
+@media (max-width: 650px) {
+    main.content:has(.reviews-header-container) {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+}
+
+/* Header: heading left, dropdowns centred on the page, search right, all on
+   one level line. The controls group is flattened with display:contents so its
+   two halves (selects, search) become grid items of the header and the middle
+   column can be centred between equal 1fr side columns. */
+body:has(.reviews-header-container) .reviews-header-container {
+    display: grid !important;
+    grid-template-columns: 1fr auto 1fr !important;
+    align-items: center !important;
+    gap: 12px 20px !important;
+}
+
+body:has(.reviews-header-container) .reviews-header-container h1 {
+    grid-column: 1;
+    justify-self: start;
+    margin: 0 !important;
+}
+
+body:has(.reviews-header-container) .filter-controls-group {
+    display: contents !important;
+}
+
+body:has(.reviews-header-container) .filter-selects {
+    grid-column: 2;
+    justify-self: center;
+    flex: 0 1 auto !important;
+}
+
+body:has(.reviews-header-container) .search-input-wrapper {
+    grid-column: 3;
+    justify-self: end;
+    width: 280px;
+    max-width: 100%;
+}
+
+/* Narrower dropdowns so the three zones still fit on one line at 1280, where
+   the 120px minimums wrapped the cluster onto a second row. */
+body:has(.reviews-header-container) .vault-filter-select {
+    min-width: 96px;
+}
+
+body:has(.reviews-header-container) .filter-selects {
+    gap: 8px !important;
+}
+
+body:has(.reviews-header-container) .active-chips {
+    grid-column: 1 / -1;
+}
+
+/* Between a wide screen and a tablet the heading, dropdowns and search no
+   longer fit on one line. Keep the heading and the search level on the first
+   line and drop the centred dropdowns to their own row, rather than letting
+   the cluster wrap into a ragged two-row blob off to one side. */
+@media (min-width: 1101px) and (max-width: 1360px) {
+    body:has(.reviews-header-container) .reviews-header-container {
+        grid-template-columns: 1fr auto !important;
+        grid-template-areas:
+            "title search"
+            "selects selects" !important;
+        row-gap: 14px !important;
+    }
+
+    body:has(.reviews-header-container) .reviews-header-container h1 {
+        grid-area: title;
+    }
+
+    body:has(.reviews-header-container) .search-input-wrapper {
+        grid-area: search;
+    }
+
+    body:has(.reviews-header-container) .filter-selects {
+        grid-area: selects;
+        justify-self: center;
+    }
+
+    body:has(.reviews-header-container) .active-chips {
+        grid-area: 3 / 1 / auto / -1;
+    }
+}
+
+@media (max-width: 1100px) {
+    body:has(.reviews-header-container) .reviews-header-container {
+        grid-template-columns: minmax(0, 1fr) !important;
+        justify-items: stretch;
+    }
+
+    body:has(.reviews-header-container) .reviews-header-container h1,
+    body:has(.reviews-header-container) .filter-selects,
+    body:has(.reviews-header-container) .search-input-wrapper {
+        grid-column: 1;
+        justify-self: stretch;
+    }
+
+    body:has(.reviews-header-container) .filter-selects {
+        flex: 1 1 auto !important;
+    }
+
+    body:has(.reviews-header-container) .search-input-wrapper {
+        width: auto;
+    }
+}
+
+.archive-result-count {
+    margin: 4px 0 18px 0 !important;
+    font-size: var(--type-sm);
+    letter-spacing: 0.02em;
+    color: var(--text-faint);
+
+    &:empty { display: none; }
+}
+
+.archive-empty {
+    padding: 64px 24px 72px;
+    margin: 8px 0 32px;
+    text-align: center;
+    border: 1px dashed var(--border-soft);
+    border-radius: 12px;
+    color: var(--text-muted);
+
+    &[hidden] { display: none !important; }
+
+    h2 {
+        margin: 0 0 10px 0 !important;
+        font-size: var(--type-lg);
+        color: #eef3f8;
+    }
+
+    p {
+        margin: 0 auto 20px auto !important;
+        max-width: 46ch;
+        font-size: var(--type-base);
+        line-height: 1.6;
+    }
+
+    .filter-reset-btn {
+        display: inline-flex !important;
+        align-items: center;
+        min-height: 40px;
+        padding: 8px 18px !important;
+    }
+}
+
+/* --- Cards: neutral meta instead of four coloured pills -------------------
+   The genre/year pills carried violet and sky tints on top of the verdict,
+   platform and date chips, so every cover arrived with five loud badges. */
+.archive-card-pill--genre,
+.archive-card-pill--year {
+    background: rgba(10, 14, 18, 0.72) !important;
+    border: 1px solid rgba(255, 255, 255, 0.14) !important;
+    color: #e8eef5 !important;
+}
+
+.archive-card-pill--genre:hover {
+    background: rgba(167, 139, 250, 0.22) !important;
+    color: #ffffff !important;
+}
+
+.archive-card-inline-date span {
+    background: none !important;
+    border: 0 !important;
+    padding: 0 !important;
+    font-size: var(--type-xs) !important;
+    letter-spacing: 0.02em !important;
+    color: var(--text-faint) !important;
+}
+
+/* --- Mobile filters: wrap instead of a hidden-scrollbar strip ------------- */
+@media (max-width: 650px) {
+    body:has(.reviews-header-container) .filter-controls-group {
+        flex-wrap: wrap !important;
+        overflow-x: visible !important;
+        white-space: normal !important;
+        padding-bottom: 0 !important;
+    }
+
+    body:has(.reviews-header-container) .filter-selects {
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+    }
+
+    body:has(.reviews-header-container) .vault-filter-select,
+    body:has(.reviews-header-container) .filter-reset-btn {
+        flex: 1 1 calc(50% - 4px) !important;
+        min-width: 0 !important;
+    }
+
+    body:has(.reviews-header-container) .search-input-wrapper {
+        flex: 1 1 100% !important;
+    }
+}
+
+/* --- Footer ---------------------------------------------------------------- */
+.site-footer .footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 28px;
+    max-width: 1400px;
+    margin: 0 auto 20px auto;
+    padding: 8px 24px 0 24px;
+    text-align: left;
+}
+
+.footer-brand {
+    max-width: 340px;
+}
+
+.footer-title {
+    display: inline-block;
+    margin-bottom: 6px;
+    font-size: var(--type-md);
+    font-weight: 700;
+    color: var(--text);
+}
+
+.footer-tagline {
+    margin: 0 !important;
+    font-size: var(--type-sm);
+    line-height: 1.55;
+    color: var(--text-faint);
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    font-size: var(--type-sm);
+
+    a {
+        color: var(--text-muted);
+
+        &:hover { color: #ffffff; }
+    }
+}
+
+.site-footer .footer-icons ul {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-legal {
+    max-width: 1400px;
+    margin: 0 auto !important;
+    padding: 16px 24px 0 24px;
+    border-top: 1px solid var(--border-soft);
+    font-size: var(--type-xs);
+    color: var(--text-faint);
+
+    a { color: var(--text-muted); }
+
+ 
+
+    span[aria-hidden] {
+        margin: 0 8px;
+        opacity: 0.5;
+    }
 }

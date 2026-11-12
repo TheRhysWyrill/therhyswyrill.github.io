@@ -2,7 +2,7 @@
     <meta charset="utf-8" />
     <meta
         name="viewport"
-        content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5"
+        content="width=device-width, initial-scale=1"
     />
 
     <!-- Theme Mode-->
@@ -158,7 +158,7 @@
     />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="{% if page.layout == 'review' %}article{% else %}website{% endif %}" />
     <meta property="og:url" content="{{ page.url | absolute_url }}" />
     <meta property="og:title" content="{{ seo_title }}" />
     <meta property="og:description" content="{{ seo_description }}" />

@@ -17,7 +17,7 @@ position: 2
               row's right edge (mirroring the heading on the left).
             {% endcomment %}
             <div class="filter-selects">
-                <select id="sort-order" class="vault-filter-select">
+                <select id="sort-order" class="vault-filter-select" aria-label="Sort reviews">
                     <option value="alpha-asc">Alphabetical (A-Z)</option>
                     <option value="alpha-desc">Alphabetical (Z-A)</option>
                     <option value="date-desc" selected>Date Written (Newest)</option>
@@ -26,23 +26,22 @@ position: 2
                     <option value="release-asc">Release Date (Oldest)</option>
                 </select>
 
-                <select id="filter-genre" class="vault-filter-select"><option value="">Genre</option></select>
-                <select id="filter-platform" class="vault-filter-select"><option value="">Platform</option></select>
-                <select id="filter-year" class="vault-filter-select"><option value="">Release Year</option></select>
-                <select id="filter-verdict" class="vault-filter-select"><option value="">Verdict</option></select>
+                <select id="filter-genre" class="vault-filter-select" aria-label="Filter by genre"><option value="">Genre</option></select>
+                <select id="filter-platform" class="vault-filter-select" aria-label="Filter by platform"><option value="">Platform</option></select>
+                <select id="filter-year" class="vault-filter-select" aria-label="Filter by release year"><option value="">Release Year</option></select>
+                <select id="filter-verdict" class="vault-filter-select" aria-label="Filter by verdict"><option value="">Verdict</option></select>
 
                 <button type="button" id="reset-filters" class="filter-reset-btn" title="Clear all filters and search" hidden>Reset</button>
-                <button type="button" id="surprise-review" class="filter-reset-btn" title="Jump to a random review from the archive">🎲 Surprise me</button>
+                <button type="button" id="surprise-review" class="filter-reset-btn" title="Jump to a random review from the archive">Surprise me</button>
             </div>
 
             <div class="search-input-wrapper">
-                <input type="text" id="live-search" class="vault-search-input" placeholder="Filter games, platforms, genres...">
+                <input type="text" id="live-search" class="vault-search-input" placeholder="Filter games, platforms, genres..." aria-label="Search reviews">
                 <button type="button" id="clear-search" class="search-clear-btn" aria-label="Clear search" title="Clear search" hidden>&times;</button>
             </div>
         </div>
 
         <div id="active-chips" class="active-chips" hidden></div>
-    <p id="reviews-result-count" class="sr-only" role="status" aria-live="polite"></p>
     </div>
 
     {% comment %}
@@ -77,6 +76,10 @@ position: 2
     </nav>
     {% endif %}
 
+    {% comment %} Visible now, not just announced: in a 500+ card archive the
+       count is how you know the filter did something. {% endcomment %}
+    <p id="reviews-result-count" class="archive-result-count" role="status" aria-live="polite"></p>
+
     {% comment %}
       The archive grid's cards use <h3> for the game title, so the page needs
       an h2 between the h1 and the cards — otherwise screen-reader heading
@@ -100,6 +103,12 @@ position: 2
         {% for review in all_reviews limit: archive_page_size %}
         {% include review-card.html review=review compact=true %}
         {% endfor %}
+    </div>
+
+    <div id="archive-empty" class="archive-empty" hidden>
+        <h2>No reviews match</h2>
+        <p id="archive-empty-detail">Try a different search or clear the filters.</p>
+        <button type="button" id="archive-empty-reset" class="filter-reset-btn">Clear filters</button>
     </div>
 </div>
 
@@ -170,11 +179,11 @@ position: 2
       // Same shape as the build-time card in _includes/review-card.html.
       const full = esc(c.image);
       const cover = c.image
-        ? '<img src="' + full + '" alt="' + esc(c.title) + ' Art" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />'
+        ? '<img src="' + full + '" alt="" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />'
         : '<div class="archive-card-placeholder">No Art Available</div>';
       const summary = c.summary ? '<p class="archive-card-summary">' + esc(c.summary) + '</p>' : '';
       const written = c.date_label
-        ? '<div class="archive-card-inline-date"><span class="archive-card-date-pill">\u270d\ufe0f Written: ' + esc(c.date_label) + '</span></div>'
+        ? '<div class="archive-card-inline-date"><span>' + esc(c.date_label) + '</span></div>'
         : '';
       return '<a href="' + esc(c.url) + '" class="game-archive-card game-archive-card--compact"' +
         ' data-date="' + esc(c.date) + '" data-year="' + esc(c.year) + '"' +
@@ -184,7 +193,7 @@ position: 2
         '<span class="archive-verdict-tag archive-badge-' + esc(slug) + '" role="img" aria-label="Verdict: ' + esc(verdict.label) + '" title="Verdict: ' + esc(verdict.label) + '"><span aria-hidden="true">' + verdict.glyph + '</span></span>' +
         '<span class="archive-card-platform">' + esc(c.platform) + '</span>' +
         '<div class="archive-card-meta">' +
-        '<span class="archive-card-pill archive-card-pill--genre" title="' + esc(c.genre) + '">' + esc(c.emoji) + ' ' + esc(c.genre) + '</span>' +
+        '<span class="archive-card-pill archive-card-pill--genre" title="' + esc(c.genre) + '">' + esc(c.genre) + '</span>' +
         '<span class="archive-card-pill archive-card-pill--year">' + esc(c.year) + '</span>' +
         '</div></div>' +
         '<div class="archive-card-details">' +
@@ -272,6 +281,16 @@ position: 2
     const cards = document.querySelectorAll(".game-archive-card");
     const pageIndicator = document.getElementById("pageIndicator");
     const paginationNav = document.getElementById("paginationNav");
+
+    // Zero results used to leave an empty grid and nothing else. The message
+    // reuses the Reset button's handler, so both paths clear the same state.
+    const emptyReset = document.getElementById("archive-empty-reset");
+    if (emptyReset) {
+      emptyReset.addEventListener("click", function () {
+        const reset = document.getElementById("reset-filters");
+        if (reset) reset.click();
+      });
+    }
 
     const filterYear = document.getElementById("filter-year");
     const filterPlatform = document.getElementById("filter-platform");
@@ -584,7 +603,22 @@ position: 2
         try { return new URL(card.href).pathname; } catch(e) { return card.getAttribute('href'); }
       });
       localStorage.setItem('custom_review_order', JSON.stringify(currentUrls));
-      
+
+      const emptyState = document.getElementById("archive-empty");
+      if (emptyState) {
+        const isEmpty = filteredCards.length === 0;
+        emptyState.hidden = !isEmpty;
+        if (isEmpty) {
+          const detail = document.getElementById("archive-empty-detail");
+          const typed = searchInput ? searchInput.value.trim() : "";
+          if (detail) {
+            detail.textContent = typed
+              ? 'Nothing matches "' + typed + '". Try a broader term, or clear the filters.'
+              : "No reviews match the selected filters.";
+          }
+        }
+      }
+
       const totalPages = Math.ceil(filteredCards.length / itemsPerPage);
       announceResults(filteredCards.length);
       // A shared/bookmarked URL can point past the last page - clamp back into range

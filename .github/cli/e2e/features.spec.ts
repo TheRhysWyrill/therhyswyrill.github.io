@@ -304,14 +304,16 @@ test('the search box sits inside the filter row, not displaced below it', async 
   await page.setViewportSize({ width: 1600, height: 900 });
   await page.goto(REVIEWS_URL);
   await waitForArchive(page);
+  // The header is a three-zone grid (heading / dropdowns / search) and the
+  // controls wrapper is display:contents, so it has no box of its own. Measure
+  // against the dropdown row itself: the search must share its centre line.
   const inRow = await page.evaluate(() => {
     const search = document.querySelector('.search-input-wrapper');
-    const group = document.querySelector('.filter-controls-group');
-    if (!search || !group) return false;
+    const selects = document.querySelector('.filter-selects');
+    if (!search || !selects) return false;
     const s = search.getBoundingClientRect();
-    const g = group.getBoundingClientRect();
-    const sameRow = s.top >= g.top - 2 && s.top <= g.bottom - s.height + 2;
-    return group.contains(search) && sameRow;
+    const f = selects.getBoundingClientRect();
+    return Math.abs(s.top + s.height / 2 - (f.top + f.height / 2)) <= 4;
   });
   expect(inRow).toBe(true);
 });
@@ -496,10 +498,16 @@ test('genres below the threshold get a page and the dropdown still lists them', 
   // "Rhythm" has one review, so it must not have generated a landing page...
   const response = await page.goto('/genres/rhythm/');
   expect(response?.status()).toBe(404);
-  // ...but it must still be filterable from the archive.
+  // ...but it must still be filterable from the archive. The count is taken
+  // from the cards on screen rather than hard-coded: the archive gains reviews
+  // every week, and a fixed number here was the one test going stale.
   await page.goto(REVIEWS_URL + '?genre=Rhythm');
   await waitForArchive(page);
-  await expect(page.locator('#reviews-result-count')).toContainText('1 review matches');
+  const shown = await page.locator('.game-archive-card:visible').count();
+  expect(shown).toBeGreaterThan(0);
+  await expect(page.locator('#reviews-result-count')).toContainText(
+    `${shown} review${shown === 1 ? '' : 's'} match`
+  );
 });
 
 // ── Embeddable review card ────────────────────────────────────────────────

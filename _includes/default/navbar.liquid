@@ -10,7 +10,7 @@
 				image). It is above the fold, so it is not lazy — lazy only delays
 				an element that is already on screen.
 			{%- endcomment -%}
-			<img alt="logo img" class="avatar" src="{{ site.avatar_nav | default: site.avatar | relative_url }}"/>
+			<img alt="" class="avatar" src="{{ site.avatar_nav | default: site.avatar | relative_url }}"/>
 		</a>
         {% endif %}
         <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
@@ -30,14 +30,19 @@
         {% assign emptyArray = '' | split: '' %}
         {% assign menus = site.data.menu | default: emptyArray %}
         {% assign pages = site.pages | concat: menus | sort: 'position' %}
-        {% for page in pages %}
-        {% unless page.title == null or page.hide or name_page contains page.title %}
+        {% comment %}
+          `nav_page`, not `page`: inside this loop the theme called the item
+          `page`, which shadowed the real page being rendered and made it
+          impossible to mark the current section.
+        {% endcomment %}
+        {% for nav_page in pages %}
+        {% unless nav_page.title == null or nav_page.hide or name_page contains nav_page.title %}
             <li class="separator"> | </li>
             <li>
-                <a class="clear" aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ page.url | relative_url }}">
-                    {% if page.icon %} <i class="navbar-icon fas {{ page.icon }}" aria-hidden="true"></i>{% endif %}
-                    <span class="navbar-label {% if page.icon %}navbar-label-with-icon{% endif %}">{{ page.title }}</span>
-                    {% if page.url == '/live/' %}<span class="live-status-dot" id="live-status-dot" hidden aria-hidden="true"></span>{% endif %}
+                <a class="clear" aria-label="{{ nav_page.title }}" title="{{ nav_page.title }}" href="{{ nav_page.url | relative_url }}"{% if nav_page.url == page.url %} aria-current="page"{% endif %}>
+                    {% if nav_page.icon %} <i class="navbar-icon fas {{ nav_page.icon }}" aria-hidden="true"></i>{% endif %}
+                    <span class="navbar-label {% if nav_page.icon %}navbar-label-with-icon{% endif %}">{{ nav_page.title }}</span>
+                    {% if nav_page.url == '/live/' %}<span class="live-status-dot" id="live-status-dot" hidden aria-hidden="true"></span>{% endif %}
                 </a>
             </li>
             {% comment %}
@@ -46,7 +51,7 @@
               the real "Reviews" link, because the check below is a substring
               test rather than an equality one.
             {% endcomment %}
-            {% assign name_page = page.title | append: name_page %}
+            {% assign name_page = nav_page.title | append: name_page %}
         {% endunless %}
         {% endfor %}
 

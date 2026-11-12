@@ -44,7 +44,7 @@ To keep data transparent across my compatibility sheets and reviews, all testing
 | **Purpose** | Emulation testing and the system used for PC playthroughs. |
 
 ---
-<arg_value><b88a6f17><div class="about-milestones" role="list" aria-label="Archive milestones">
+<div class="about-milestones" role="list" aria-label="Archive milestones">
     {% assign milestone_reviews = site.pages | where: "layout", "review" %}
     {% assign milestone_rec = milestone_reviews | where: "verdict", "recommended" | size %}
     {% assign earliest = milestone_reviews | sort: "date" | first %}
@@ -75,7 +75,11 @@ To keep data transparent across my compatibility sheets and reviews, all testing
     </div>
 </div>
 
-## Connect
+{% comment %}
+  Raw <h2>, not `## Connect`: this sits inside a markdown="1" div, and a
+  nested HTML block leaves kramdown treating the heading as literal text.
+{% endcomment %}
+<h2 class="about-connect-title">Connect</h2>
 
 </div>
 
