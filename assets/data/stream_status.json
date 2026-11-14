@@ -1,11 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-11-13T05:17:18Z",
-  "stream": null,
+  "isLive": true,
+  "checkedAt": "2026-11-14T01:00:12Z",
+  "stream": {
+    "title": "Uncharted 4: A Thief's End | Avery Gold, One Last Job",
+    "game": "Games + Demos",
+    "viewers": 0,
+    "startedAt": "2026-11-13T22:45:36Z"
+  },
   "latestVod": {
-    "id": "2927082384",
-    "title": "Assassin's Creed: Brotherhood | Ezio vs the Borgia in Rome",
-    "createdAt": "2026-11-12T22:12:29Z",
-    "lengthSeconds": 6049
+    "id": "2928023695",
+    "title": "Uncharted 4: A Thief's End | Avery Gold, One Last Job",
+    "createdAt": "2026-11-13T22:45:42Z",
+    "lengthSeconds": 8070
   }
 }
