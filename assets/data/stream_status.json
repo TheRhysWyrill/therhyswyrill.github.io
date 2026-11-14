@@ -1,6 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-11-14T19:25:06Z",
-  "stream": null,
-  "latestVod": null
+  "isLive": true,
+  "checkedAt": "2026-11-14T23:14:35Z",
+  "stream": {
+    "title": "Uncharted 4: A Thief's End | Avery Gold, One Last Job",
+    "game": "Games + Demos",
+    "viewers": 1,
+    "startedAt": "2026-11-14T22:05:46Z"
+  },
+  "latestVod": {
+    "id": "2929016189",
+    "title": "Uncharted 4: A Thief's End | Avery Gold, One Last Job",
+    "createdAt": "2026-11-14T22:05:52Z",
+    "lengthSeconds": 4123
+  }
 }
