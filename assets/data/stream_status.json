@@ -1,11 +1,6 @@
 {
   "isLive": false,
-  "checkedAt": "2026-11-17T10:23:38Z",
+  "checkedAt": "2026-11-17T19:16:15Z",
   "stream": null,
-  "latestVod": {
-    "id": "2930892432",
-    "title": "Uncharted: The Lost Legacy | Tusk of Ganesh Trail Starts",
-    "createdAt": "2026-11-16T22:38:50Z",
-    "lengthSeconds": 21869
-  }
+  "latestVod": null
 }
