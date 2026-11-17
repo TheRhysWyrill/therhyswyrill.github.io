@@ -1,11 +1,16 @@
 {
-  "isLive": false,
-  "checkedAt": "2026-11-16T18:25:19Z",
-  "stream": null,
+  "isLive": true,
+  "checkedAt": "2026-11-17T01:56:42Z",
+  "stream": {
+    "title": "Uncharted: The Lost Legacy | Tusk of Ganesh Trail Starts",
+    "game": "Games + Demos",
+    "viewers": 1,
+    "startedAt": "2026-11-16T22:38:46Z"
+  },
   "latestVod": {
-    "id": "2929900213",
-    "title": "Uncharted 4: A Thief's End | Avery Gold, One Last Job",
-    "createdAt": "2026-11-15T19:48:11Z",
-    "lengthSeconds": 22796
+    "id": "2930892432",
+    "title": "Uncharted: The Lost Legacy | Tusk of Ganesh Trail Starts",
+    "createdAt": "2026-11-16T22:38:50Z",
+    "lengthSeconds": 11872
   }
 }
