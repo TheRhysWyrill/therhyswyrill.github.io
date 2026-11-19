@@ -1,16 +1,11 @@
 {
-  "isLive": true,
-  "checkedAt": "2026-11-19T00:29:53Z",
-  "stream": {
-    "title": "999: Nine Hours, Nine Persons, Nine Doors | Zero Calls the Game",
-    "game": "Games + Demos",
-    "viewers": 1,
-    "startedAt": "2026-11-18T22:44:58Z"
-  },
+  "isLive": false,
+  "checkedAt": "2026-11-19T07:50:20Z",
+  "stream": null,
   "latestVod": {
     "id": "2932810253",
     "title": "999: Nine Hours, Nine Persons, Nine Doors | Zero Calls the Game",
     "createdAt": "2026-11-18T22:45:04Z",
-    "lengthSeconds": 6289
+    "lengthSeconds": 25494
   }
 }
