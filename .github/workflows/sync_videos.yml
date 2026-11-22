@@ -1,0 +1,73 @@
+name: Update Video Vault Database
+
+on:
+  # Allows you to manually trigger the sync from the GitHub Actions tab anytime.
+  # Tick "full_refresh" to re-list every video instead of just the newest ones.
+  workflow_dispatch:
+    inputs:
+      full_refresh:
+        description: 'Re-list every video on each channel (slow; repairs gaps and drops deleted uploads)'
+        type: boolean
+        default: false
+
+  # A daily incremental sync, plus one full refresh a week so the archive stays
+  # exactly in step with YouTube. The incremental run only pages the newest
+  # uploads of each channel and only extracts dates for videos that lack one,
+  # which is what turns a 30-40 minute job into a couple of minutes.
+  schedule:
+    - cron: '0 0 * * *'
+    - cron: '0 3 * * 0'
+
+jobs:
+  update-vault:
+    runs-on: ubuntu-latest
+    # The sync is minutes of network work; a hang should fail the run rather
+    # than sit on the default six-hour budget.
+    timeout-minutes: 20
+
+    steps:
+    # 1. Check out your website repository files
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    # 2. Set up the pre-installed Python environment
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    # 3. Install yt-dlp inside the GitHub Runner container
+    #    (upgrading pip itself first is a few seconds of no-op on every run)
+    - name: Install Dependencies
+      run: pip install --disable-pip-version-check yt-dlp
+
+    # 4. Execute the script to generate the JSON files
+    #    VAULT_DATE_HARVEST caps how many undated uploads per channel get a real
+    #    (slow) date extraction. Dates accumulate in assets/data/video_dates.json
+    #    across runs, and already-dated videos are skipped, so only genuinely
+    #    new uploads cost anything.
+    - name: Fetch Latest Videos
+      env:
+        VAULT_DATE_HARVEST: '400'
+      run: |
+        if [ "${{ github.event.inputs.full_refresh }}" = "true" ] || [ "${{ github.event.schedule }}" = "0 3 * * 0" ]; then
+          echo "Full refresh: re-listing every video on each channel."
+          python fetch_videos.py --full
+        else
+          python fetch_videos.py
+        fi
+
+    # 5. Automatically commit the changes back to your repository if anything changed
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        # video_dates.json must be committed too: it is the accumulated upload
+        # date store, and without it every run would re-date the same slice.
+        git add assets/data/video_dates.json assets/data/videos_*.json assets/data/journeys_*.json assets/data/latest_videos.json
+        if git diff --staged --quiet; then
+          echo "No new video data found. Skipping commit."
+        else
+          git commit -m "chore: auto-update video vault archive database [skip ci]"
+          git push
+        fi

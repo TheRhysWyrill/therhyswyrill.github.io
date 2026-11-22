@@ -1,0 +1,327 @@
+---
+layout: null
+permalink: /embed/
+hide: true
+sitemap: false
+---
+
+{% comment %}
+  Embeddable review card. One page serves all 413 reviews:
+  /embed/?game=home renders the card for reviews/home.md.
+
+  Deliberately NOT the site layout. This page is meant to be pasted into a
+  YouTube description, a Reddit post or someone's blog, so it carries its own
+  stylesheet rather than assets/css/main.css — the host page's CSS can never
+  reach in and the card's CSS can never leak out. It also opts out of the
+  90% zoom clamp, which exists to keep the site's own headings on whole device
+  pixels and is just a scale bug inside a 560px iframe.
+
+  Query string:
+    ?game=<slug>   required — the reviews/<filename> stem
+    ?ref=<label>   optional, shown as a small "via <label>" credit
+
+  The iframe snippet offered on each review page is what actually drives
+  traffic here; nothing links to this page from the nav.
+{% endcomment %}<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>{{ site.title }}</title>
+<style>
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("{{ '/assets/fonts/source-sans-pro/source-sans-pro-regular.woff2' | relative_url }}") format("woff2");
+    font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("{{ '/assets/fonts/source-sans-pro/source-sans-pro-bold.woff2' | relative_url }}") format("woff2");
+    font-weight: 700; font-style: normal; font-display: swap;
+}
+
+html {
+    background: transparent;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    color: #e6edf3;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.45;
+}
+a { color: inherit; }
+
+/* ── the card ───────────────────────────────────────────────────────── */
+.embed-card {
+    display: grid;
+    grid-template-columns: 210px minmax(0, 1fr);
+    gap: 0;
+    max-width: 560px;
+    margin: 0;
+    background: #16191f;
+    border: 1px solid #2a2f3a;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+.embed-cover {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    background: #0f1216;
+    overflow: hidden;
+}
+.embed-cover img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+}
+/* Stretched link: the whole card is clickable, so a link element per field
+   would be four links for the same destination. */
+.embed-cover::after {
+    content: "";
+    position: absolute; inset: 0;
+}
+.embed-body {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 16px 12px 16px;
+    min-width: 0;
+}
+.embed-eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #a78bfa;
+    margin: 0 0 4px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.embed-title {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0 0 6px 0;
+    color: #ffffff;
+    /* One line, so the card is a fixed height whatever the review. A host
+       can't resize a cross-origin iframe to fit its content, and a card that
+       changes height per review means a scrollbar in someone else's blog. */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.embed-summary {
+    font-size: 13px;
+    line-height: 1.42;
+    color: #a0aec0;
+    margin: 0 0 10px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.embed-meta {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 8px;
+    font-size: 11.5px;
+    color: #8a909e;
+}
+.embed-verdict {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+}
+.embed-verdict--recommended { background: rgba(46, 204, 113, 0.14); color: #4ade80; }
+.embed-verdict--notsure      { background: rgba(234, 179, 8, 0.14);  color: #facc15; }
+.embed-verdict--notrecommended { background: rgba(239, 68, 68, 0.14); color: #f87171; }
+.embed-sep { color: #3d444f; }
+
+.embed-foot {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 9px 16px;
+    background: #101318;
+    border-top: 1px solid #23272f;
+    font-size: 11.5px;
+    color: #8a909e;
+}
+.embed-foot a { color: #a78bfa; text-decoration: none; white-space: nowrap; }
+.embed-foot a:hover { text-decoration: underline; }
+
+/* ── no / unknown ?game= ───────────────────────────────────────────── */
+.embed-missing {
+    max-width: 560px;
+    padding: 18px 20px;
+    background: #16191f;
+    border: 1px solid #2a2f3a;
+    border-radius: 12px;
+    font-size: 13px;
+    color: #a0aec0;
+    box-sizing: border-box;
+}
+.embed-missing code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    color: #a78bfa;
+    font-size: 12px;
+}
+.embed-missing a { color: #a78bfa; }
+
+@media (max-width: 430px) {
+    .embed-card { grid-template-columns: minmax(0, 1fr); }
+    .embed-summary { -webkit-line-clamp: 4; }
+}
+@media (prefers-color-scheme: light) {
+    .embed-card { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18); }
+}
+</style>
+</head>
+<body>
+
+<div id="embed-root"></div>
+
+{% comment %}
+  The review data is inlined rather than fetched: an iframe that has to make a
+  second request renders a blank box first, and a YouTube description link has
+  no room to wait. Keys are short because this is ~413 entries.
+{% endcomment %}
+<script id="embed-data" type="application/json">
+[
+{%- assign embed_reviews = site.pages | where: "layout", "review" | sort: "game_title" -%}
+{%- for r in embed_reviews -%}
+{%- assign r_slug = r.url | replace: "/reviews/", "" | replace: "/", "" -%}
+{"s":{{ r_slug | jsonify }},"t":{{ r.game_title | jsonify }},"v":{{ r.verdict | jsonify }},"p":{{ r.platform | jsonify }},"y":{{ r.release_year | jsonify }},"g":{{ r.genre | jsonify }},"d":{{ r.date | jsonify }},"m":{{ r.summary | jsonify }},"i":{{ r.image | jsonify }},"u":{{ r.url | relative_url | jsonify }}}
+{%- unless forloop.last %},{% endunless -%}
+{%- endfor -%}
+]
+</script>
+
+<script>
+(function () {
+    var data = JSON.parse(document.getElementById("embed-data").textContent);
+    var root = document.getElementById("embed-root");
+    var params = new URLSearchParams(window.location.search);
+    var ref = (params.get("ref") || "").trim();
+
+    var VERDICTS = {
+        "recommended": { label: "Recommended", glyph: "✓", cls: "recommended" },
+        "not-sure": { label: "Not Sure", glyph: "–", cls: "notsure" },
+        "not-recommended": { label: "Not Recommended", glyph: "✗", cls: "notrecommended" }
+    };
+
+    var slug = params.get("game") || "";
+    var review = null;
+    for (var i = 0; i < data.length; i++) {
+        if (data[i].s === slug) { review = data[i]; break; }
+    }
+
+    // No ?game=, or one that doesn't exist: say so plainly instead of
+    // rendering a broken card. A missing embed should be obvious to whoever
+    // pasted it, not a silent blank rectangle.
+    if (!review) {
+        var box = document.createElement("div");
+        box.className = "embed-missing";
+        box.innerHTML = slug
+            ? 'No review tagged <code>' + escapeHtml(slug) + '</code> on ' + siteName() + '.'
+            : 'Add <code>?game=&lt;review-slug&gt;</code> to this URL to embed a review.';
+        var link = document.createElement("a");
+        link.href = {{ "/reviews/" | absolute_url | jsonify }};
+        link.textContent = " Browse the archive";
+        box.appendChild(link);
+        root.appendChild(box);
+        document.title = siteName();
+        return;
+    }
+
+    var v = VERDICTS[review.v] || { label: review.v, glyph: "?", cls: "notsure" };
+
+    var card = document.createElement("a");
+    card.className = "embed-card";
+    card.href = absolute(review.u);
+    card.target = "_blank";
+    card.rel = "noopener";
+    card.setAttribute("aria-label", review.t + " review on " + siteName());
+
+    var cover = document.createElement("div");
+    cover.className = "embed-cover";
+    if (review.i) {
+        var img = document.createElement("img");
+        img.src = review.i;
+        img.alt = "";
+        img.loading = "lazy";
+        img.decoding = "async";
+        cover.appendChild(img);
+    }
+    card.appendChild(cover);
+
+    var body = document.createElement("div");
+    body.className = "embed-body";
+    body.appendChild(span("embed-eyebrow", review.g || "Review"));
+    body.appendChild(span("embed-title", review.t));
+    body.appendChild(span("embed-summary", review.m || ""));
+
+    var meta = document.createElement("div");
+    meta.className = "embed-meta";
+    var pill = document.createElement("span");
+    pill.className = "embed-verdict embed-verdict--" + v.cls;
+    pill.textContent = v.glyph + " " + v.label;
+    meta.appendChild(pill);
+    meta.appendChild(span("embed-sep", "\u2022"));
+    meta.appendChild(span(null, review.p));
+    if (review.y) {
+        meta.appendChild(span("embed-sep", "\u2022"));
+        meta.appendChild(span(null, review.y));
+    }
+    body.appendChild(meta);
+    card.appendChild(body);
+
+    var foot = document.createElement("div");
+    foot.className = "embed-foot";
+    var credit = document.createElement("span");
+    credit.textContent = ref ? siteName() + " \u00b7 via " + ref : siteName();
+    foot.appendChild(credit);
+    var cta = document.createElement("span");
+    cta.className = "embed-cta";
+    cta.textContent = "Read the full review \u2192";
+    foot.appendChild(cta);
+    card.appendChild(foot);
+
+    root.appendChild(card);
+    document.title = review.t + " review | " + siteName();
+
+    function span(cls, text) {
+        var el = document.createElement("span");
+        if (cls) el.className = cls;
+        el.textContent = text;
+        return el;
+    }
+    function siteName() { return {{ site.title | jsonify }}; }
+    function absolute(path) {
+        try { return new URL(path, {{ site.url | jsonify }}).href; } catch (e) { return path; }
+    }
+    function escapeHtml(s) {
+        return String(s).replace(/[&<>"]/g, function (c) {
+            return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+        });
+    }
+})();
+</script>
+</body>
+</html>

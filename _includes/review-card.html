@@ -1,0 +1,97 @@
+{% comment %}
+  Shared review card, used by the homepage "Latest Reviews" strip, the
+  reviews archive grid, and the review pages' "More like this" strip.
+  The verdict shows as a glyph on the cover (tick = recommended, dash = not
+  sure, cross = not recommended); the reviews filter dropdown and the review
+  page's own verdict pill keep the full wording.
+
+  Pass the review page as `review`, plus one optional variant:
+
+    compact=true  -> reviews archive's tighter card
+    strip=true    -> 5-up "More like this" mini card (16:9 cover, small type)
+
+  Both variants are styled via .game-archive-card--compact /
+  .game-archive-card--strip in _site-styles.scss.
+
+  Usage:
+    {% include review-card.html review=review %}
+    {% include review-card.html review=review compact=true %}
+    {% include review-card.html review=review strip=true %}
+{% endcomment %}
+{% assign card = include.review %}
+{% assign card_date_fallback = card.date | default: "2000-01-01" %}
+{% comment %}
+  Covers are the 1280x720 originals, drawn into a frame roughly 300px wide in
+  the archive grid. One file per review serves every card as well as the review
+  page's full-width hero, so there is no card-sized copy to generate or keep in
+  step with the markup.
+{% endcomment %}
+
+<a href="{{ card.url }}" class="game-archive-card{% if include.compact %} game-archive-card--compact{% endif %}{% if include.strip %} game-archive-card--strip{% endif %}"
+   data-date="{{ card_date_fallback }}"
+   data-year="{{ card.release_year }}"
+   data-platform="{{ card.platform }}"
+   data-genre="{{ card.genre }}"
+   data-verdict="{{ card.verdict | downcase | replace: ' ', '-' }}">
+
+    <div class="archive-card-image-wrap">
+        {% if card.image %}
+        {% comment %} The link's heading already announces the game, so the
+           cover is decorative: an alt of "<Title> Art" only repeated it. {% endcomment %}
+        <img src="{{ card.image }}" alt="" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />
+        {% else %}
+        <div class="archive-card-placeholder">No Art Available</div>
+        {% endif %}
+
+        {% comment %}
+          Cards show the verdict as a glyph (tick / dash / cross) so the cover
+          stays uncluttered; the full wording still lives in the reviews
+          filter dropdown and in the review page's own sidebar verdict pill.
+          aria-label + title keep the meaning available to screen readers and
+          on hover.
+        {% endcomment %}
+        {% assign card_verdict_slug = card.verdict | downcase | replace: ' ', '-' %}
+        {% assign card_verdict_label = card.verdict | replace: '-', ' ' | capitalize %}
+        {% case card_verdict_slug %}
+            {% when 'recommended' %}{% assign card_verdict_glyph = '✓' %}
+            {% when 'not-sure' %}{% assign card_verdict_glyph = '–' %}
+            {% when 'not-recommended' %}{% assign card_verdict_glyph = '✗' %}
+            {% else %}{% assign card_verdict_glyph = '?' %}
+        {% endcase %}
+        <span class="archive-verdict-tag archive-badge-{{ card_verdict_slug }}"
+              role="img"
+              aria-label="Verdict: {{ card_verdict_label }}"
+              title="Verdict: {{ card_verdict_label }}">
+            <span aria-hidden="true">{{ card_verdict_glyph }}</span>
+        </span>
+
+        <span class="archive-card-platform">{{ card.platform }}</span>
+
+        {% comment %}
+          Genre and year sit on the cover's bottom row with their original
+          card-body styling (soft violet/sky tints, same weight and padding);
+          the cover carries a matching dark scrim behind them so they land on
+          the same backdrop they had before. The classes are unchanged, so the
+          archive's delegated handler (matching .archive-card-pill--*) still
+          filters, and the genre pill keeps its title tooltip.
+        {% endcomment %}
+        <div class="archive-card-meta">
+            <span class="archive-card-pill archive-card-pill--genre" title="{{ card.genre }}">{{ card.genre }}</span>
+            <span class="archive-card-pill archive-card-pill--year">{{ card.release_year }}</span>
+        </div>
+    </div>
+
+    <div class="archive-card-details">
+        <h3 class="archive-card-title">{{ card.game_title }}</h3>
+
+        {% if card.summary %}
+        <p class="archive-card-summary">{{ card.summary }}</p>
+        {% endif %}
+
+        {% if card.date %}
+        <div class="archive-card-inline-date">
+            <span>{{ card.date | date: "%-d %b %Y" }}</span>
+        </div>
+        {% endif %}
+    </div>
+</a>

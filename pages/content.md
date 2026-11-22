@@ -1,0 +1,438 @@
+---
+layout: default
+title: "Video Vault"
+permalink: /content/
+position: 3
+---
+<div class="vault-page">
+	<div class="isolated-cinematic-card">
+		<div class="billboard-overlay"></div>
+		<div class="billboard-title-card">
+			<h1>Video Vault</h1>
+			<p class="billboard-subtitle">
+				A comprehensive digital vault for edited Complete Journeys, emulation performance logs, complete longplays, and raw livestream archives. Explore the collection to see how games hold up across various systems and setups.
+			</p>
+		</div>
+	</div>
+	
+	<div class="vault-fluid-row vault-fluid-row--tabs">
+	<div class="channel-tabs">
+	<button class="tab-btn active" onclick="switchChannel('trw')">
+		TRW (Complete Journeys)
+		</button>
+	<button class="tab-btn" onclick="switchChannel('iip')">
+		Is It Playable? (Performance)
+		</button>
+	<button class="tab-btn" onclick="switchChannel('tga')">
+		The Gaming Archive (Longplays)
+		</button>
+	<button class="tab-btn" onclick="switchChannel('vods')">
+		Full Livestream VODs
+		</button>
+	</div>
+	</div>
+	
+	<div class="vault-fluid-row">
+	<hr style="border: 0; height: 1px; background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.1), rgba(255,255,255,0)); margin: 15px 0 20px 0;">
+	</div>
+	
+	<div class="vault-fluid-row" id="vault-content-container">
+	<div class="vault-header-wrapper">
+		<div>
+	<h2 id="channel-title">Complete Journeys</h2>
+	<p id="channel-description">Edited, commentated playthroughs — each game played through to the credits and stitched into one complete journey.</p>
+	<p id="vault-progress" class="vault-progress" aria-live="polite"></p>
+	<p id="vault-result-count" class="sr-only" role="status" aria-live="polite"></p>
+		</div>
+	<div class="vault-header-search">
+		<input type="text" id="vault-search" class="vault-search-input" placeholder="Filter videos..." oninput="handleSearch()">
+		<div class="vault-header-controls">
+			<label class="vault-unwatched-toggle"><input type="checkbox" id="unwatched-only"> Unwatched only</label>
+			<select id="vault-sort" class="vault-filter-select" onchange="handleSortChange()">
+				<option value="default">Channel order</option>
+				<option value="newest">Newest first</option>
+				<option value="oldest">Oldest first</option>
+				<option value="alpha">A–Z</option>
+			</select>
+		</div>
+		</div>
+	</div>
+	
+	<div id="video-vault-grid">
+	</div>
+	
+	<div id="pagination-container" class="pagination-controls">
+			<!-- JavaScript will dynamically inject the chevrons and numbers here -->
+		</div>
+	</div>
+	
+	<script src="/assets/js/pagination.js" defer></script>
+	<script>
+	{% comment %} Complete Journeys videos cross-link to their written reviews
+	(TRW tab only — performance logs, longplays and VODs never match). {% endcomment %}
+	const reviewUrlByTitle = {
+	{%- assign review_pages = site.pages | where: "layout", "review" -%}
+	{%- for r in review_pages %}
+	{{ r.game_title | downcase | jsonify }}: {{ r.url | jsonify }}{%- unless forloop.last %},{% endunless %}
+	{%- endfor %}
+	};
+
+	const channelsConfig = {
+	trw: { title: "Complete Journeys", desc: "Edited, commentated playthroughs, each game played through to the credits and stitched into one complete journey.", tag: "Complete Journey", color: "#9146ff", excludeLivestreams: true },
+	iip: { title: "Emulation & Proton Testing", desc: "Performance testing to see how emulation holds up and testing how 'plug and play' the Proton compatibility layer is.", tag: "Performance Log", color: "#c0c0c0" },
+	tga: { title: "No-Commentary Longplays", desc: "Clean, mostly unedited, no-commentary complete playthroughs.", tag: "Longplay", color: "#d4af37" },
+	vods: { title: "Full Livestream VODs", desc: "Unedited stream recordings vaulted permanently from past live streams.", tag: "Live VOD", color: "#a91b1b" }
+	};
+	
+	let videoDatabase = {};
+	let currentChannel = localStorage.getItem('vault_channel') || 'trw';
+	let currentPage = parseInt(localStorage.getItem('vault_page')) || 1;
+	let searchQuery = localStorage.getItem('vault_search') || '';
+	let filteredVideos = [];
+	let inFlightChannel = null;
+	const itemsPerPage = 18;
+	let vaultSort = localStorage.getItem('vault_sort') || 'default';
+	// Watched-tracker store: video IDs the viewer has marked as watched,
+	// persisted locally so progress survives revisits without any backend.
+	const watchedStore = {
+	set: new Set(JSON.parse(localStorage.getItem('vault_watched') || '[]')),
+	save() { localStorage.setItem('vault_watched', JSON.stringify([...this.set])); },
+	has(id) { return this.set.has(id); },
+	toggle(id) { this.set.has(id) ? this.set.delete(id) : this.set.add(id); this.save(); }
+	};
+
+// YouTube sometimes 404s a size variant it has not generated yet and answers
+// with a 120x90 placeholder instead. Step up to the next real size until a
+// full frame arrives, so every card shows a real 16:9 thumbnail.	// Normalises a game title for matching: video titles carry suffixes like
+	// "| Complete Journey #809" that the review front matter never has.
+	function normaliseGameTitle(title) {
+	return (title || '')
+	.toLowerCase()
+	.replace(/\s*[\|\-–—]\s*complete journey.*$/i, '')
+	.replace(/\s*#\d+\s*$/, '')
+	.replace(/[^a-z0-9]+/g, ' ')
+	.trim();
+	}
+	const reviewLookup = {};
+	for (const [t, u] of Object.entries(reviewUrlByTitle)) {
+	const key = normaliseGameTitle(t);
+	if (key && !reviewLookup[key]) reviewLookup[key] = u;
+	}
+	function findReviewUrl(videoTitle) {
+	if (currentChannel !== 'trw') return null; // TRW tab only, never the other channels
+	return reviewLookup[normaliseGameTitle(videoTitle)] || null;
+	}
+	function nextThumb(img) {
+	const queue = (img.dataset.thumbNext || '').split(',').filter(Boolean);
+	if (!queue.length) return;
+	const size = queue.shift();
+	img.dataset.thumbNext = queue.join(',');
+	img.src = 'https://img.youtube.com/vi/' + img.dataset.videoId + '/' + size + '.jpg';
+}
+	
+	// -- URL state sync (shareable / bookmarkable vault views) ----------------
+	function syncStateToUrl() {
+	if (!window.history || !window.history.replaceState) return;
+	const params = new URLSearchParams();
+	if (currentChannel !== 'trw') params.set('channel', currentChannel);
+	if (searchQuery && searchQuery.trim()) params.set('q', searchQuery.trim());
+	if (currentPage > 1) params.set('page', String(currentPage));
+	const qs = params.toString();
+	window.history.replaceState(null, '', qs ? '?' + qs : window.location.pathname);
+	}
+	
+	function applyStateFromUrl() {
+	const params = new URLSearchParams(window.location.search);
+	let matched = false;
+	
+	const channel = params.get('channel');
+	if (channel && channelsConfig[channel]) {
+	currentChannel = channel;
+	matched = true;
+	}
+	
+	const query = params.get('q');
+	if (query) {
+	searchQuery = query;
+	matched = true;
+	}
+	
+	const page = parseInt(params.get('page'), 10);
+	if (page > 1) {
+	currentPage = page;
+	matched = true;
+	}
+	
+	return matched;
+	}
+	
+	
+	document.addEventListener("DOMContentLoaded", () => {
+	applyStateFromUrl();
+	document.getElementById('vault-search').value = searchQuery;
+	const sortSel = document.getElementById('vault-sort');
+	if (sortSel) { sortSel.value = vaultSort; } // the markup's onchange already calls handleSortChange; adding a listener here too would render twice per change
+	const unwatchedBox = document.getElementById('unwatched-only');
+	if (unwatchedBox) unwatchedBox.addEventListener('change', () => { currentPage = 1; updateFilteredList(); renderVault(); });
+	applyChannelUI(currentChannel);
+	loadChannel(currentChannel);
+	});
+	
+	// Fetches a channel's data file on demand and caches it for repeat visits
+	function loadChannel(channelKey) {
+	if (videoDatabase[channelKey]) {
+	updateFilteredList();
+	renderVault();
+	return;
+	}
+	inFlightChannel = channelKey;
+	const grid = document.getElementById('video-vault-grid');
+	grid.innerHTML = `<p style="color: #718096; grid-column: 1 / -1; text-align: center; padding: 40px 0;">Loading ${channelsConfig[channelKey].title}...</p>`;
+	
+	fetch(`/assets/data/videos_${channelKey}.json`)
+	.then(response => {
+	if (!response.ok) throw new Error(`HTTP ${response.status}`);
+	return response.json();
+	})
+	.then(videos => {
+	videoDatabase[channelKey] = videos;
+	if (inFlightChannel !== channelKey) return; // user switched away mid-flight
+	inFlightChannel = null;
+	updateFilteredList();
+	renderVault();
+	})
+	.catch(err => {
+	console.error("Error retrieving video logs:", err);
+	if (inFlightChannel !== channelKey) return;
+	inFlightChannel = null;
+	grid.innerHTML = `<p style="color: #718096; grid-column: 1 / -1; text-align: center; padding: 40px 0;">Could not load this channel's archive. Please try again later.</p>`;
+	});
+	}
+	
+	function updateFilteredList() {
+	const baseVideos = videoDatabase[currentChannel] || [];
+		syncSortAvailability(baseVideos);
+	const searchTokens = searchQuery.toLowerCase().split(/\s+/).filter(token => token.length > 0);
+	const unwatchedOnly = document.getElementById('unwatched-only') && document.getElementById('unwatched-only').checked;
+	
+	filteredVideos = applySort(baseVideos.filter(video => {
+	const titleLower = video.title.toLowerCase();
+	// Livestream VODs live on their own tab; keep them off the Complete Journeys tab
+	if (channelsConfig[currentChannel].excludeLivestreams && titleLower.includes('livestream')) return false;
+	if (unwatchedOnly && watchedStore.has(video.id)) return false;
+	return searchTokens.every(token => titleLower.includes(token));
+	}));
+	
+	localStorage.setItem('vault_channel', currentChannel);
+	localStorage.setItem('vault_page', currentPage);
+	localStorage.setItem('vault_search', searchQuery);
+	}
+	
+	// Upload dates only exist for the slice of each channel the fetcher has dated
+// so far. Rather than leave a date sort that silently reorders nothing, grey
+// the options out until there is something to sort by, so an inert control
+// reads as unavailable instead of broken.
+function syncSortAvailability(videos) {
+const sel = document.getElementById('vault-sort');
+if (!sel) return;
+const dated = videos.some(v => v && v.published);
+for (const opt of sel.options) {
+if (opt.value !== 'newest' && opt.value !== 'oldest') continue;
+opt.disabled = !dated;
+opt.textContent = opt.value === 'newest'
+? (dated ? 'Newest first' : 'Newest first (no dates yet)')
+: (dated ? 'Oldest first' : 'Oldest first (no dates yet)');
+}
+if (!dated && (vaultSort === 'newest' || vaultSort === 'oldest')) {
+vaultSort = 'default'; // nothing to order by, so fall back to channel order
+localStorage.setItem('vault_sort', vaultSort);
+}
+sel.value = vaultSort;
+sel.title = dated ? '' : 'Upload dates are still being collected for this channel.';
+}
+
+function applySort(list) {
+	const copy = list.map((v, i) => ({ v: v, i: i, d: v.published || '' }));
+	if (vaultSort === 'alpha') {
+	copy.sort((a, b) => (a.v.title || '').localeCompare(b.v.title || '') || (a.i - b.i));
+	} else if (vaultSort === 'newest' || vaultSort === 'oldest') {
+	const dir = vaultSort === 'newest' ? -1 : 1;
+	copy.sort((a, b) => {
+	const da = a.d, db = b.d;
+	if (da && db) return (da < db ? -dir : da > db ? dir : 0) || (a.i - b.i);
+	if (da) return -1; // a dated upload outranks an undated one
+	if (db) return 1;
+	return a.i - b.i; // both undated: keep the channel's own order
+	});
+	}
+	return copy.map(entry => entry.v);
+	}
+	function handleSortChange() {
+	vaultSort = document.getElementById('vault-sort').value;
+	localStorage.setItem('vault_sort', vaultSort);
+	currentPage = 1;
+	updateFilteredList();
+	renderVault();
+	}
+	function renderProgress() {
+	const base = videoDatabase[currentChannel] || [];
+	const listable = base.filter(v => !(channelsConfig[currentChannel].excludeLivestreams && v.title.toLowerCase().includes('livestream')));
+	const done = listable.filter(v => watchedStore.has(v.id)).length;
+	const el = document.getElementById('vault-progress');
+	if (el) el.textContent = done + ' / ' + listable.length + ' watched';
+	}
+
+	// Screen-reader announcement of the filtered/total vault count.
+	let vaultAnnounceTimer = null;
+	function announceVaultResults(count, total) {
+	const el = document.getElementById('vault-result-count');
+	if (!el) return;
+	clearTimeout(vaultAnnounceTimer);
+	const msg = count === total ? total + ' videos in this tab'
+		: count === 1 ? '1 video matches' : count + ' of ' + total + ' videos match';
+	vaultAnnounceTimer = setTimeout(() => { el.textContent = msg; }, 350);
+	}
+	function toggleWatched(event, videoId) {
+	event.preventDefault();
+	event.stopPropagation();
+	watchedStore.toggle(videoId);
+	const btn = event.currentTarget;
+	const on = watchedStore.has(videoId);
+	btn.classList.toggle('is-watched', on);
+	btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+	btn.lastChild.textContent = on ? ' Watched' : ' Mark watched';
+	renderProgress();
+	if (document.getElementById('unwatched-only').checked) {
+	currentPage = 1;
+	updateFilteredList();
+	renderVault();
+	}
+	}
+	function renderVault() {
+	const grid = document.getElementById('video-vault-grid');
+	const config = channelsConfig[currentChannel];
+	
+	document.getElementById('channel-title').innerText = config.title;
+	document.getElementById('channel-description').innerText = config.desc;
+	
+	const totalPages = Math.ceil(filteredVideos.length / itemsPerPage) || 1;
+	if (currentPage > totalPages) currentPage = totalPages;
+	if (currentPage < 1) currentPage = 1;
+	syncStateToUrl();
+	
+	const start = (currentPage - 1) * itemsPerPage;
+	const end = start + itemsPerPage;
+	const activePageVideos = filteredVideos.slice(start, end);
+	
+	grid.innerHTML = '';
+	renderProgress();
+	announceVaultResults(filteredVideos.length, (videoDatabase[currentChannel] || []).filter(v => !(config.excludeLivestreams && v.title.toLowerCase().includes('livestream'))).length);
+	
+	if (activePageVideos.length === 0) {
+		grid.innerHTML = `<p style="color: #718096; grid-column: 1 / -1; text-align: center; padding: 40px 0;">No matching entries found.</p>`;
+		setupPagination(totalPages);
+		return;
+	}
+	
+	activePageVideos.forEach(video => {
+	const card = document.createElement('div');
+	card.className = 'media-card';
+	card.style.cssText = 'background: rgba(20, 24, 33, 0.4); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 8px; overflow: hidden;';
+	// Real <img> with lazy loading instead of a background-image so the browser can defer offscreen thumbnails
+	card.innerHTML = `
+	<a href="https://www.youtube.com/watch?v=${video.id}" target="_blank" rel="noopener" style="text-decoration: none;">
+	<img src="https://img.youtube.com/vi/${video.id}/mqdefault.jpg" alt="${video.title.replace(/"/g, '&quot;')} thumbnail" loading="lazy" decoding="async" width="320" height="180" data-video-id="${video.id}" data-thumb-next="hq720,maxresdefault" onload="if (this.naturalWidth < 320) nextThumb(this)" onerror="nextThumb(this)" style="width: 100%; height: auto; display: block; border-bottom: 1px solid rgba(255,255,255,0.05);">
+	</a>
+	<div style="padding: 12px;">
+	<span style="display: inline-block; color: ${config.color}; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; padding: 2px 9px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 999px;">${config.tag}</span>
+	<h4 style="color: #fff; font-size: 13.33px; margin: 7px 0 0 0; font-weight:600; line-height: 17.78px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; height: 35.56px;">${video.title}</h4>
+	<button type="button" class="watched-toggle${watchedStore.has(video.id) ? ' is-watched' : ''}" aria-pressed="${watchedStore.has(video.id)}" onclick="toggleWatched(event, '${video.id}')">&#10003;&nbsp;${watchedStore.has(video.id) ? 'Watched' : 'Mark watched'}</button>
+	${(() => {
+	const reviewUrl = findReviewUrl(video.title);
+	return reviewUrl ? `<a href="${reviewUrl}" style="display: inline-block; margin-top: 8px; margin-left: 8px; color: #a78bfa; font-size: 12.22px; line-height: 15.56px; font-weight: 600; text-decoration: none;">&#9998;&nbsp;Review</a>` : '';
+	})()}
+	</div>
+	`;
+	grid.appendChild(card);
+	});
+	
+	setupPagination(totalPages);
+	}
+	
+	function setupPagination(totalPages) {
+	const container = document.getElementById('pagination-container');
+	
+	window.setupPaginationNav({
+		container: container,
+		totalPages: totalPages,
+		currentPage: currentPage,
+		activeColor: channelsConfig[currentChannel].color,
+		onPageChange: (targetPage) => {
+			currentPage = targetPage;
+			localStorage.setItem('vault_page', currentPage);
+			renderVault();
+			document.getElementById('vault-content-container').scrollIntoView({ behavior: 'smooth' });
+		}
+	});
+	}
+	
+	function handleSearch() {
+	searchQuery = document.getElementById('vault-search').value;
+	currentPage = 1; 
+	updateFilteredList();
+	renderVault();
+	}
+	
+	function switchChannel(channelKey) {
+	currentChannel = channelKey;
+	currentPage = 1;
+	searchQuery = '';
+	document.getElementById('vault-search').value = '';
+	
+	applyChannelUI(channelKey);
+	loadChannel(channelKey);
+	}
+	
+	function applyChannelUI(channelKey) {
+	const config = channelsConfig[channelKey];
+	const tabs = document.querySelectorAll('.tab-btn');
+	const keys = Object.keys(channelsConfig);
+	
+	tabs.forEach((btn, idx) => {
+	btn.classList.toggle('active', keys[idx] === channelKey);
+	});
+	
+	// Per-channel accent color consumed by the .tab-btn.active and
+	// pagination .is-active styles instead of inline JS styling
+	document.querySelector('.vault-page').style.setProperty('--tab-accent', config.color);
+	}
+	
+	function changePage(direction) {
+	currentPage += direction;
+	localStorage.setItem('vault_page', currentPage);
+	renderVault();	document.getElementById('vault-content-container').scrollIntoView({ behavior: 'smooth' });
+	}
+	// Keyboard shortcuts: "/" focuses the filter box, arrow keys paginate.
+	document.addEventListener('keydown', function (e) {
+	const t = e.target;
+	if (t && (t.tagName === 'INPUT' || t.tagName === 'SELECT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+	if (e.key === '/') {
+	e.preventDefault();
+	const box = document.getElementById('vault-search');
+	if (box) { box.focus(); box.select(); }
+	return;
+	}
+	if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+	const nav = document.querySelector('.pagination-nav');
+	if (!nav || nav.offsetParent === null) return;
+	const btns = nav.querySelectorAll('.pagination-btn');
+	if (!btns.length) return;
+	const target = e.key === 'ArrowLeft' ? btns[0] : btns[btns.length - 1];
+	if (target && !target.classList.contains('is-disabled')) {
+	e.preventDefault();
+	target.click();
+	}
+	}
+	});
+	</script>
+</div>

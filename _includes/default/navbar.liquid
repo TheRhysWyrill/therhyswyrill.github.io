@@ -1,0 +1,65 @@
+<header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        {% if site.avatar %}
+		<a href="{{ '/' | relative_url }}">
+			{%- comment -%}
+				avatar_nav is the same mark cut down for the navbar (the full-size
+				avatar is a 1000px square kept for the PWA icon and the SEO fallback
+				image). It is above the fold, so it is not lazy — lazy only delays
+				an element that is already on screen.
+			{%- endcomment -%}
+			<img alt="" class="avatar" src="{{ site.avatar_nav | default: site.avatar | relative_url }}"/>
+		</a>
+        {% endif %}
+        <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
+        {{ site.title }}
+		</a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        {% assign name_page = "" %}
+        {% assign emptyArray = '' | split: '' %}
+        {% assign menus = site.data.menu | default: emptyArray %}
+        {% assign pages = site.pages | concat: menus | sort: 'position' %}
+        {% comment %}
+          `nav_page`, not `page`: inside this loop the theme called the item
+          `page`, which shadowed the real page being rendered and made it
+          impossible to mark the current section.
+        {% endcomment %}
+        {% for nav_page in pages %}
+        {% unless nav_page.title == null or nav_page.hide or name_page contains nav_page.title %}
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="{{ nav_page.title }}" title="{{ nav_page.title }}" href="{{ nav_page.url | relative_url }}"{% if nav_page.url == page.url %} aria-current="page"{% endif %}>
+                    {% if nav_page.icon %} <i class="navbar-icon fas {{ nav_page.icon }}" aria-hidden="true"></i>{% endif %}
+                    <span class="navbar-label {% if nav_page.icon %}navbar-label-with-icon{% endif %}">{{ nav_page.title }}</span>
+                    {% if nav_page.url == '/live/' %}<span class="live-status-dot" id="live-status-dot" hidden aria-hidden="true"></span>{% endif %}
+                </a>
+            </li>
+            {% comment %}
+              Only remember titles that were actually rendered. Accumulating
+              hidden pages too meant a hidden "Horror Reviews" stub suppressed
+              the real "Reviews" link, because the check below is a substring
+              test rather than an equality one.
+            {% endcomment %}
+            {% assign name_page = nav_page.title | append: name_page %}
+        {% endunless %}
+        {% endfor %}
+
+        {% if site.color_theme == 'auto' %}
+        <li class="separator"> | </li>
+        <li><a id="theme-toggle" title="{{ site.data.language.str_dark | default: 'Toggle theme' }}" aria-label="{{ site.data.language.str_dark | default: 'Toggle theme' }}" onclick="themeToggle()"></a></li>
+        {% endif %}
+    </ul>
+
+	</nav>
+</header>

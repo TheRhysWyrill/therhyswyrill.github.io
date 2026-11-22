@@ -1,0 +1,62 @@
+---
+layout: default
+title: "Genres"
+permalink: /genres/
+hide: true
+seo_description: "Browse The Playability Report by genre. Every review, sorted into the genres big enough to have a page of their own."
+---
+
+{% comment %}
+  Index of the genre landing pages. Only genres that clear the review-count
+  threshold in generate_genre_pages.py get a page, and those stubs are the
+  source of truth here: listing them off `site.pages` rather than recounting
+  means this index can never disagree with what actually exists.
+
+  `hide: true` keeps this out of the navbar. The reviews archive is the front
+  door for browsing by genre (its "Browse by genre" strip links here), and a
+  second top-level nav entry split a nav bar that already has six items.
+
+  The counts are recomputed in Liquid rather than read from the stub, so they
+  track the archive even if the threshold changes without a regeneration.
+{% endcomment %}
+{% assign all_reviews = site.pages | where: "layout", "review" %}
+{% assign genre_pages = site.pages | where: "genre_page", true | sort: "title" %}
+
+<div class="isolated-cinematic-card">
+    <div class="billboard-overlay"></div>
+    <div class="billboard-title-card">
+        <h1>Genres</h1>
+        <p class="billboard-subtitle">{{ genre_pages.size }} genres with enough reviews to break out on their own</p>
+    </div>
+</div>
+
+<div class="genre-page">
+    <section class="genre-section">
+        <p class="genre-lede">
+            Each of these is a front door rather than a second copy of the
+            archive: where to start, the reviews that didn&rsquo;t get a clean
+            yes, and one link through to the filtered list. Anything smaller
+            stays behind the genre dropdown on the
+            <a href="/reviews/">reviews archive</a>.
+        </p>
+        <div class="genre-index-grid">
+            {% for gp in genre_pages %}
+                {% assign count = 0 %}
+                {% for r in all_reviews %}
+                    {% if r.genre %}
+                        {% assign row_parts = r.genre | split: "," %}
+                        {% for raw in row_parts %}
+                            {% assign segment = raw | strip %}
+                            {% if segment == gp.genre %}{% assign count = count | plus: 1 %}{% endif %}
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+                <a class="genre-index-card" href="{{ gp.url | relative_url }}">
+                    <span class="genre-index-name">{{ gp.genre }}</span>
+                    <span class="genre-index-count">{{ count }} reviews</span>
+                    <span class="genre-section-link">Read the genre &rarr;</span>
+                </a>
+            {% endfor %}
+        </div>
+    </section>
+</div>

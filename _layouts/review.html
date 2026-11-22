@@ -1,0 +1,457 @@
+---
+layout: default
+---
+
+{% comment %}
+  The Review structured data (schema.org) for this page is emitted once, at the
+  end of the article, where the front matter it needs has already been read.
+  There used to be a second Review block up here as well, describing the same
+  URL on a different rating scale — two Review entities for one page is worse
+  than either alone, so it was removed.
+{% endcomment %}
+
+<div id="reading-progress" aria-hidden="true"></div>
+<style>
+  /* Thin violet scroll-progress bar pinned just under the sticky navbar */
+  #reading-progress {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 3px;
+    width: 0;
+    background: linear-gradient(90deg, #7c3aed, #a78bfa);
+    z-index: 9998;
+    pointer-events: none;
+  }
+</style>
+{% comment %} ?v= is a cache key: these files are identical on all 480 reviews,
+   so they are cached hard, and a behaviour change needs a new URL. {% endcomment %}
+<script defer src="{{ '/assets/js/review-quicknav.js' | relative_url }}?v=2"></script>
+
+<article class="review-article-box">
+  
+  {% comment %}
+    The cover is a real <img> rather than a CSS background: this is the page's
+    largest contentful paint, and a background image cannot be preloaded, given
+    fetchpriority, or offered in responsive sizes. The dark scrim stays, but as
+    an overlay drawn above the cover and below the text (see the
+    .review-hero-banner rules in _sass/base/_site-styles.scss).
+  {% endcomment %}
+  <header class="review-hero-banner">
+    {% if page.image %}<img class="review-hero-cover" src="{{ page.image }}" alt="" width="1280" height="720" fetchpriority="high" decoding="async" />{% endif %}
+    <div class="review-hero-alignment-engine">
+      <h1 class="review-article-title">{{ page.game_title }}</h1>
+      {% if page.summary %}
+      <p class="review-hero-summary">&ldquo;{{ page.summary }}&rdquo;</p>
+      {% endif %}
+      {% comment %} A review with no date, author or length beside the title
+         reads as a draft; the archive cards carried the date but the article
+         itself never did. {% endcomment %}
+      {% assign word_count = content | number_of_words %}
+      {% assign read_minutes = word_count | divided_by: 200 | plus: 1 %}
+      <p class="review-byline">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+        <span class="review-byline-sep" aria-hidden="true">&middot;</span>
+        <span>{{ page.platform }}</span>
+        <span class="review-byline-sep" aria-hidden="true">&middot;</span>
+        <span>{{ read_minutes }} min read</span>
+      </p>
+    </div>
+  </header>
+
+  {% comment %}
+    The spec strip and the page controls share one bar that pins under the
+    navbar, so the verdict, share and embed buttons stay reachable while the
+    review is read. The strip needs no heading: sitting under the banner, the
+    cells are self-explanatory. The wrapper keeps the .review-spec-card /
+    data-game-title hooks that assets/js/review-journey.js appends its
+    "Complete Journey" row to.
+  {% endcomment %}
+  <div class="review-sticky-bar">
+  <div class="review-spec-card review-spec-strip" data-game-title="{{ page.game_title | escape }}">
+    <div class="spec-row">
+      <span class="spec-label">Platform</span>
+      <span class="spec-value">{{ page.platform }}</span>
+    </div>
+
+    {% if page.genre %}
+    <div class="spec-row">
+      <span class="spec-label">Genre</span>
+      <span class="spec-value">{{ page.genre }}</span>
+    </div>
+    {% endif %}
+
+    <div class="spec-row">
+      <span class="spec-label">Released</span>
+      <span class="spec-value">{{ page.release_year }}</span>
+    </div>
+
+    <div class="spec-row spec-verdict-container">
+      <span class="spec-label">Verdict</span>
+      <span class="verdict-pill verdict-{{ page.verdict }}">{{ page.verdict | replace: '-', ' ' | capitalize }}</span>
+    </div>
+
+    {% if page.platform == "PC" and page.specs %}
+    <div class="spec-hardware-block">
+      <h3>Review System</h3>
+      <p>{{ page.specs }}</p>
+    </div>
+    {% endif %}
+  </div>
+
+  <!-- Quick jump buttons and the share/embed controls, on one line above the prose -->
+  <div class="review-toolbar">
+    <nav class="review-quicknav" aria-label="Page sections">
+      <button type="button" class="quicknav-btn" data-nav="top">↑ Top</button>
+    </nav>
+
+    <!-- SHARING HUB: Custom Dynamic Horizontal Colored Social Bubbles -->
+    <div class="share-container" style="position: relative; display: flex; gap: 8px; margin-top: 0; width: auto;">
+        <button id="share-review-btn" onclick="toggleShareMenu(event)" style="display: inline-flex !important; align-items: center !important; justify-content: center !important; gap: 8px !important; background: #1e252b !important; color: #8aa0ae !important; border: 1px solid rgba(255, 255, 255, 0.08) !important; padding: 10px 16px !important; border-radius: 6px !important; font-size: 13.33px !important; cursor: pointer !important; transition: all 0.2s ease !important; width: auto !important; box-sizing: border-box !important;">
+          <span id="share-btn-icon" style="transition: all 0.2s ease;">🔗</span>
+          <span id="share-btn-text">Share Review</span>
+        </button>
+    
+        <!-- Embed: copies the <iframe> snippet for the standalone review card at /embed/ -->
+        <button type="button" id="embed-review-btn" class="embed-review-btn" onclick="copyEmbedSnippet(event)" title="Copy an embeddable card of this review">
+          <span id="embed-btn-icon" style="transition: all 0.2s ease;">🧩</span>
+          <span id="embed-btn-text">Embed Card</span>
+        </button>
+
+        <!-- Dynamic Row Panel popping out with colored custom branding circles -->
+        <div id="share-popout-menu" style="display: none; position: absolute !important; top: 50px !important; left: 50% !important; transform: translateX(-50%) !important; background: #16191f !important; border: 1px solid rgba(255, 255, 255, 0.1) !important; border-radius: 30px !important; box-shadow: 0 10px 30px rgba(0,0,0,0.6) !important; padding: 8px 14px !important; width: max-content !important; min-width: 230px !important; box-sizing: border-box !important; z-index: 1000 !important; flex-direction: row !important; gap: 12px !important; justify-content: center !important; align-items: center !important;">
+          
+          <!-- Bubble 1: Copy Link (Teal/Blue Accent) -->
+          <button class="social-share-bubble copy-link-bubble" onclick="copyToClipboard(this)" title="Copy Link" style="width: 36px !important; height: 36px !important; border-radius: 50% !important; background: #00a3cc !important; border: none !important; display: flex !important; align-items: center !important; justify-content: center !important; cursor: pointer !important; transition: all 0.2s ease !important; padding: 0 !important;">
+            <svg style="width: 16px; height: 16px; fill: #ffffff;" viewBox="0 0 24 24"><path d="M19 21H8V7h11m0-2H8a2 2 0 00-2 2v14a2 2 0 002 2h11a2 2 0 002-2V7a2 2 0 00-2-2m-3-4H4a2 2 0 00-2 2v14h2V3h12V1z"/></svg>
+          </button>
+          
+          <!-- Bubble 2: Twitter / X (Sleek Dark Theme or Classic Light Blue) -->
+          <a id="share-twitter" class="social-share-bubble twitter-bubble" href="#" target="_blank" title="Share on Twitter" style="width: 36px !important; height: 36px !important; border-radius: 50% !important; background: #1da1f2 !important; display: flex !important; align-items: center !important; justify-content: center !important; transition: all 0.2s ease !important;">
+            <svg style="width: 15px; height: 15px; fill: #ffffff;" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          
+          <!-- Bubble 3: Reddit (Orange-Red Corporate Identity) -->
+          <a id="share-reddit" class="social-share-bubble reddit-bubble" href="#" target="_blank" title="Share on Reddit" style="width: 36px !important; height: 36px !important; border-radius: 50% !important; background: #ff4500 !important; display: flex !important; align-items: center !important; justify-content: center !important; transition: all 0.2s ease !important;">
+            <svg style="width: 18px; height: 18px; fill: #ffffff;" viewBox="0 0 24 24"><path d="M24 11.5c0-1.65-1.35-3-3-3-.96 0-1.86.48-2.42 1.24-1.64-1-3.85-1.64-6.23-1.72l1.36-4.31 3.71.79c.05.88.79 1.58 1.69 1.58 1.05 0 1.5-.45 1.5-1.5s-.45-1.5-1.5-1.5c-.83 0-1.53.55-1.67 1.32l-4.14-.88c-.22-.05-.45.07-.52.29l-1.6 5.07C6.88 7.34 4.63 8 2.97 8.98a3 3 0 00-2.42-1.24c-1.65 0-3 1.35-3 3 0 1.31.84 2.41 2.01 2.83-.03.14-.04.29-.04.43 0 3.53 4.42 6.4 9.87 6.4s9.87-2.87 9.87-6.4c0-.14-.01-.29-.04-.43 1.17-.42 2.01-1.52 2.01-2.83zm-19.2 1c-.77 0-1.4-.63-1.4-1.4s.63-1.4 1.4-1.4 1.4.63 1.4 1.4-.63 1.4-1.4 1.4zm10.75 4.54c-1.42 1.42-4.13 1.42-5.56 0-.2-.2-.2-.51 0-.71.2-.2.51-.2.71 0 1.03 1.02 3.12 1.02 4.14 0 .2-.2.52-.2.71 0 .19.2.19.51.01.71zm-.05-3.14c-.77 0-1.4-.63-1.4-1.4s.63-1.4 1.4-1.4 1.4.63 1.4 1.4-.63 1.4-1.4 1.4z"/></svg>
+          </a>
+          
+          <!-- Bubble 4: Facebook (Classic Cobalt Navy Blue) -->
+          <a id="share-facebook" class="social-share-bubble facebook-bubble" href="#" target="_blank" title="Share on Facebook" style="width: 36px !important; height: 36px !important; border-radius: 50% !important; background: #3b5998 !important; display: flex !important; align-items: center !important; justify-content: center !important; transition: all 0.2s ease !important;">
+            <svg style="width: 16px; height: 16px; fill: #ffffff;" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.8z"/></svg>
+          </a>
+        </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="review-main-content">
+    <section class="review-article-body">
+      {{ content }}
+    </section>
+  </div>
+
+  {% comment %}
+    Ordered review list, built in one pass.
+
+    Reviews are ordinary top-level pages (this site has no `_reviews`
+    collection), so a single `where` filter returns them. The old version grew
+    the list with `| push` inside a Liquid loop over every page, and each
+    `push` dups the whole array — O(n²) work *per review page*, repeated for
+    all 480 of them, which was the build's single largest cost. (The old
+    version also carried a prev/next loop whose `prev_review`/`next_review`
+    assignments nothing ever read; the footer script computes those itself.)
+  {% endcomment %}
+  {% assign review_pages = site.pages | where: "layout", "review" | sort: "date" %}
+
+  <!-- More like this: up to 5 newest reviews sharing this review's genre, else its platform -->
+  {% comment %}
+    Written for the Liquid GitHub Pages builds with (4.0.4 via jekyll 3.10),
+    which is stricter than the 4.4.1 used locally:
+
+      * `where_exp` takes a single comparison — no `and`, no `contains`;
+      * a `for` tag cannot apply a filter to the thing it iterates.
+
+    Genre matching needs substring containment (`page.genre contains r.genre`),
+    which no `where_exp` grammar expresses, so it is one pass over the
+    candidates ordered newest-first that stops once five are collected: the
+    `push` accumulator never grows past five items, where the old per-review
+    loop copied a ~100-item array on every hit.
+  {% endcomment %}
+  {% assign other_reviews = review_pages | where_exp: "r", "r.url != page.url" %}
+  {% assign candidates = other_reviews | sort: "url" %}
+  {% assign candidate_dates = candidates | group_by_exp: "r", "r.date" | sort: "name" | reverse %}
+
+  {% assign related_by_genre = "" | split: "," %}
+  {% for day in candidate_dates %}
+    {% if related_by_genre.size >= 5 %}{% break %}{% endif %}
+    {% assign day_items = day.items | sort: "url" %}
+    {% for r in day_items %}
+      {% if related_by_genre.size >= 5 %}{% break %}{% endif %}
+      {% if page.genre and r.genre and page.genre contains r.genre %}{% assign related_by_genre = related_by_genre | push: r %}{% endif %}
+    {% endfor %}
+  {% endfor %}
+
+  {% if page.platform %}
+    {% assign related_by_platform = other_reviews | where_exp: "r", "r.platform == page.platform" %}
+  {% else %}
+    {% assign related_by_platform = "" | split: "," %}
+  {% endif %}
+
+  {% comment %}
+    `uniq` drops the reviews matched by both halves. Selection is
+    deterministic: candidates are url-ordered before grouping (Ruby's sort is
+    not stable, and grouping keeps the order it is given), so each date group
+    comes out url-ordered and the newest-first walk is stable when dates tie.
+  {% endcomment %}
+  {% assign related_pool = related_by_genre | concat: related_by_platform | uniq %}
+  {% assign related_reviews = "" | split: "," %}
+  {% assign related_dates = related_pool | group_by_exp: "r", "r.date" | sort: "name" | reverse %}
+  {% for day in related_dates %}
+    {% if related_reviews.size >= 5 %}{% break %}{% endif %}
+    {% assign day_items = day.items | sort: "url" %}
+    {% for r in day_items %}
+      {% if related_reviews.size >= 5 %}{% break %}{% endif %}
+      {% assign related_reviews = related_reviews | push: r %}
+    {% endfor %}
+  {% endfor %}
+
+  {% if related_reviews.size > 0 %}
+  <section class="related-reviews" aria-label="More reviews like this">
+    <h2 class="related-reviews-title">More like this</h2>
+    <div class="related-reviews-grid">
+      {% for r in related_reviews %}
+        {% include review-card.html review=r strip=true %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <div id="dynamic-pagination" class="review-pagination-footer" style="display: flex !important; align-items: center !important; justify-content: space-between !important; max-width: 800px !important; margin: 34px auto 6px auto !important; padding: 0 20px !important; font-size: 17.78px !important; border-top: 1px solid #252932 !important; padding-top: 30px !important; box-sizing: border-box !important;">
+    <div style="flex: 1 !important; text-align: left !important;">
+      <a id="nav-prev-btn" href="#" style="color: #ccdee9 !important; text-decoration: none !important; background: #1e252b !important; border: 1px solid rgba(255,255,255,0.08) !important; padding: 8px 16px !important; border-radius: 6px !important; transition: all 0.2s !important; display: inline-flex !important; align-items: center !important; gap: 6px !important;" onmouseover="this.style.background='#252e36'; this.style.color='#ffffff';" onmouseout="this.style.background='#1e252b'; this.style.color='#ccdee9';">
+        <span>«</span> Previous
+      </a>
+      <span id="nav-prev-disabled" style="color: #38434c !important; background: transparent !important; border: 1px solid transparent !important; padding: 8px 16px !important; display: none !important; align-items: center !important; gap: 6px !important; cursor: not-allowed !important;">« First</span>
+    </div>
+
+    <div style="flex: 1 !important; text-align: center !important;">
+		<a href="/reviews/" style="color: #ccdee9 !important; text-decoration: none !important; background: #1e252b !important; border: 1px solid rgba(255,255,255,0.08) !important; padding: 8px 16px !important; border-radius: 6px !important; transition: all 0.2s !important; display: inline-block !important;" onmouseover="this.style.background='#252e36'; this.style.color='#ffffff';" onmouseout="this.style.background='#1e252b'; this.style.color='#ccdee9';">
+			All Reviews
+		</a>
+	</div>
+
+    <div style="flex: 1 !important; text-align: right !important;">
+      <a id="nav-next-btn" href="#" style="color: #ccdee9 !important; text-decoration: none !important; background: #1e252b !important; border: 1px solid rgba(255,255,255,0.08) !important; padding: 8px 16px !important; border-radius: 6px !important; transition: all 0.2s !important; display: inline-flex !important; align-items: center !important; gap: 6px !important;" onmouseover="this.style.background='#252e36'; this.style.color='#ffffff';" onmouseout="this.style.background='#1e252b'; this.style.color='#ccdee9';">
+        Next <span>»</span>
+      </a>
+      <span id="nav-next-disabled" style="color: #38434c !important; background: transparent !important; border: 1px solid transparent !important; padding: 8px 16px !important; display: none !important; align-items: center !important; gap: 6px !important; cursor: not-allowed !important;">Latest »</span>
+    </div>
+  </div>
+
+  <!-- Structured data for search engines (Review rich result) -->
+  {% assign ld_genres = "" | split: "," %}
+  {% assign ld_genre_list = page.genre | split: "," %}
+  {% for g in ld_genre_list %}{% assign g = g | strip %}{% assign ld_genres = ld_genres | push: g %}{% endfor %}
+  {% case page.verdict %}
+    {% when "recommended" %}{% assign ld_rating = 3 %}
+    {% when "not-sure" %}{% assign ld_rating = 2 %}
+    {% when "not-recommended" %}{% assign ld_rating = 1 %}
+    {% else %}{% assign ld_rating = 0 %}
+  {% endcase %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "url": {{ page.url | absolute_url | jsonify }},
+    "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
+    "headline": {{ page.game_title | append: " review" | jsonify }},
+    "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+    "author": { "@type": "Organization", "name": {{ site.title | jsonify }} },
+    "publisher": { "@type": "Organization", "name": {{ site.title | jsonify }} },
+    "itemReviewed": {
+      "@type": "VideoGame",
+      "name": {{ page.game_title | jsonify }},
+      "gamePlatform": {{ page.platform | jsonify }},
+      "genre": {{ ld_genres | jsonify }},
+      "datePublished": "{{ page.release_year }}",
+      "image": {{ page.image | absolute_url | jsonify }}
+    },
+    {% if ld_rating > 0 %}
+    "reviewRating": { "@type": "Rating", "ratingValue": {{ ld_rating }}, "bestRating": 3, "worstRating": 1 },
+    {% endif %}
+    "reviewBody": {{ content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
+  }
+  </script>
+
+</article>
+
+<script>
+function toggleShareMenu(event) {
+    event.stopPropagation();
+    const menu = document.getElementById('share-popout-menu');
+    const isHidden = menu.style.display === 'none' || menu.style.display === '';
+    
+    if (isHidden) {
+        const pageUrl = encodeURIComponent(window.location.href);
+        const customText = "{{ page.game_title }} Review by TRW on The Playability Report";
+        const encodedText = encodeURIComponent(customText);
+        
+        document.getElementById('share-twitter').href = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${encodedText}`;
+        document.getElementById('share-reddit').href = `https://www.reddit.com/submit?url=${pageUrl}&title=${encodedText}`;
+        document.getElementById('share-facebook').href = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
+        
+        menu.style.display = 'flex';
+    } else {
+        menu.style.display = 'none';
+    }
+}
+
+function copyEmbedSnippet(event) {
+    // The card is a standalone page, so the snippet only needs this review's
+    // slug. 560x230 is the card's natural size plus a little slack; hosts can
+    // scale it with CSS.
+    var slug = "{{ page.url | replace: '/reviews/', '' | replace: '/', '' }}";
+    var src = "{{ site.url }}{{ site.baseurl }}/embed/?game=" + encodeURIComponent(slug);
+    var snippet =
+      '<iframe src="' + src + '" width="560" height="230" loading="lazy" ' +
+      'style="border:0;border-radius:12px;max-width:100%" ' +
+      'title="{{ page.game_title | escape }} review by The Playability Report"></iframe>';
+
+    var icon = document.getElementById('embed-btn-icon');
+    var text = document.getElementById('embed-btn-text');
+    var button = document.getElementById('embed-review-btn');
+
+    function restore() {
+        icon.innerText = '🧩';
+        text.innerText = 'Embed Card';
+        button.style.borderColor = 'rgba(255, 255, 255, 0.08)';
+    }
+
+    function done() {
+        icon.innerText = '✅';
+        text.innerText = 'Embed code copied!';
+        button.style.borderColor = '#2ecc71';
+        setTimeout(restore, 2000);
+    }
+
+    function failed() {
+        icon.innerText = '❌';
+        text.innerText = 'Press Ctrl+C';
+        setTimeout(restore, 2000);
+    }
+
+    if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(snippet).then(done).catch(failed);
+        return;
+    }
+    // http:// (and anything that denies the clipboard permission) has no async
+    // write available, so fall back to a selection the user can copy.
+    var area = document.createElement('textarea');
+    area.value = snippet;
+    area.setAttribute('readonly', '');
+    area.style.position = 'fixed';
+    area.style.opacity = '0';
+    document.body.appendChild(area);
+    area.select();
+    var copied = false;
+    try { copied = document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(area);
+    copied ? done() : failed();
+}
+
+function copyToClipboard(button) {
+    const origIcon = document.getElementById('share-btn-icon').innerText;
+    const origText = document.getElementById('share-btn-text').innerText;
+    
+    navigator.clipboard.writeText(window.location.href).then(() => {
+        // Provide satisfying execution micro-feedback directly on the main action button
+        document.getElementById('share-btn-icon').innerText = "✅";
+        document.getElementById('share-btn-text').innerText = "Copied link!";
+        document.getElementById('share-review-btn').style.borderColor = "#2ecc71";
+        
+        // Dynamic snap-shut close sequence
+        document.getElementById('share-popout-menu').style.display = 'none';
+        
+        setTimeout(() => {
+            document.getElementById('share-btn-icon').innerText = origIcon;
+            document.getElementById('share-btn-text').innerText = origText;
+            document.getElementById('share-review-btn').style.borderColor = "rgba(255, 255, 255, 0.08)";
+        }, 2000);
+    });
+}
+
+window.addEventListener('click', () => {
+    const menu = document.getElementById('share-popout-menu');
+    if (menu) menu.style.display = 'none';
+});
+
+(function() {
+    {% comment %}
+      Every review in date order, for the prev/next buttons. This used to read
+      `site.documents`, which is empty on this site (no collections), so the JS
+      fallback was always `[]` and the buttons only worked after visiting
+      /reviews/ (which parks an order in localStorage).
+    {% endcomment %}
+    {% assign fallback_pages = site.pages | where: "layout", "review" | sort: "date" %}
+
+    const fallbackOrder = [
+      {% for r in fallback_pages %}"{{ r.url | strip }}"{% unless forloop.last %},{% endunless %}{% endfor %}
+    ];
+
+    let currentOrder = fallbackOrder;
+    try {
+      const savedOrder = localStorage.getItem('custom_review_order');
+      if (savedOrder) currentOrder = JSON.parse(savedOrder);
+    } catch (e) {
+      console.warn("Could not parse custom review order sorting, using fallback.");
+    }
+
+    const currentPath = window.location.pathname;
+    const cleanPath = currentPath.endsWith('/') ? currentPath : currentPath + '/';
+    
+    const currentIndex = currentOrder.findIndex(url => {
+      const cleanUrl = url.endsWith('/') ? url : url + '/';
+      return cleanUrl === cleanPath;
+    });
+
+    const prevBtn = document.getElementById('nav-prev-btn');
+    const prevDisabled = document.getElementById('nav-prev-disabled');
+    const nextBtn = document.getElementById('nav-next-btn');
+    const nextDisabled = document.getElementById('nav-next-disabled');
+
+    if (currentIndex !== -1) {
+      if (currentIndex > 0) {
+        prevBtn.href = currentOrder[currentIndex - 1];
+        prevBtn.style.display = 'inline-flex';
+        prevDisabled.style.display = 'none';
+      } else {
+        prevBtn.style.display = 'none';
+        prevDisabled.style.display = 'inline-flex';
+      }
+
+      if (currentIndex < currentOrder.length - 1) {
+        nextBtn.href = currentOrder[currentIndex + 1];
+        nextBtn.style.display = 'inline-flex';
+        nextDisabled.style.display = 'none';
+      } else {
+        nextBtn.style.display = 'none';
+        nextDisabled.style.display = 'inline-flex';
+      }
+    } else {
+      prevBtn.href = "/reviews";
+      nextBtn.href = "/reviews";
+    }
+  })();
+  
+</script>
+
+{% comment %}
+  The "Complete Journey" row is looked up from assets/js/review-journey.js
+  on idle instead of here: the index fetch used to start while the parser
+  was still running, competing with this page's LCP image. The share,
+  embed and prev/next code stays inline because its buttons call it from
+  onclick attributes and its prev/next order is page data (every review
+  URL, in date order) that only the template knows.
+{% endcomment %}
+<script defer src="{{ '/assets/js/review-journey.js' | relative_url }}"></script>

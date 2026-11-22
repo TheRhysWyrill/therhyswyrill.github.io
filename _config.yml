@@ -1,0 +1,83 @@
+baseurl: ""
+url: "https://therhyswyrill.github.io"
+
+title: "The Playability Report"
+page_title: "The Playability Report | Game Reviews, Benchmarks & Longplays"
+description: "In-depth game reviews, emulation benchmarks, and Proton compatibility testing. Discover performance reports and curated gameplay longplays in one archive."
+avatar: assets/img/avatar.webp
+# Navbar version of the same mark: the full-size avatar is a 1000px square
+# (~80 KB) used as the PWA icon and the SEO fallback image, which is far more
+# pixels than a ~40px logo needs.
+avatar_nav: assets/img/avatar-nav.webp
+favicon: assets/icon.ico
+
+header_text: "Analysing Performance, Reviewing the Experience, and Archiving the Journey"
+header_feature_image: assets/img/header/hero.webp
+header_feature_image_responsive: true
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/">Jekyll</a> | The Playability Report
+
+color_image: /assets/img/lineart.png
+color_theme: dark
+
+katex: false
+mermaid: false
+excerpt: false
+post_navigation: false
+cookie_consent: false
+
+# How many cards the reviews archive renders at build time, and therefore how
+# far into the card index (reviews-cards.json) the browser picks up from. The
+# archive's own pagination reads it back off the grid, so this is the single
+# source of truth for the archive's page size.
+reviews_archive_page_size: 20
+
+sass:
+  style: compressed
+  quiet_deps: true
+  # jekyll-sass-converter defaults to :always, which ships a 500 KB .css.map and
+  # a sourceMappingURL comment in every production CSS response.
+  sourcemap: never
+
+plugins: 
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - ".freebuff"
+  - ".idea"
+  - ".jekyll-cache"
+  - ".jekyll-metadata"
+  - ".sass-cache"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "type-on-strap.gemspec"
+  - "vendor"
+  - "node_modules"
+  - "assets/node_modules"
+  - "assets/Dockerfile"
+  - "package.json"
+  - "package-lock.json"
+  - "README.md"
+  - "LICENSE"
+  - ".github"
+  - "test-results"
+  - "review-pipeline"
+  # katex and mermaid are both disabled above, so nothing links these: the
+  # vendor bundle is ~3.5 MB (mermaid alone is 3.2 MB) and the fonts are a
+  # further 640 KB. No page contains a .katex or .mermaid element, so the
+  # @font-face rules never trigger a fetch either.
+  - "assets/js/vendor"
+  - "assets/fonts/katex"
+  # Build-time tooling that lives at the repo root (video/stream fetchers, the
+  # genre-page generator, the Font Awesome subsetter).
+  # Jekyll copies unknown static files into the site, so these were published
+  # at the site root — ~33 KB of tooling crawlable at public URLs — even though
+  # nothing links them. Excluding them keeps the deploy to the site itself;
+  # __pycache__ goes with them, since running those scripts leaves bytecode
+  # behind that would otherwise be published too.
+  - "*.py"
+  - "*.mjs"
+  - "__pycache__"
+
+remote_theme: sylhare/Type-on-Strap

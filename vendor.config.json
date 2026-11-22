@@ -1,0 +1,14 @@
+{
+  "katex": {
+    "version": "0.17.0"
+  },
+  "mermaid": {
+    "version": "11.15.0"
+  },
+  "fontAwesome": {
+    "version": "6.7.2"
+  },
+  "simpleJekyllSearch": {
+    "version": "2.1.4"
+  }
+}

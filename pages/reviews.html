@@ -1,0 +1,844 @@
+---
+layout: default
+title: "Reviews"
+permalink: /reviews/
+position: 2
+---
+
+<div class="archive-container">
+    
+    <div class="reviews-header-container">
+        <h1>Reviews</h1>
+        
+        <div class="filter-controls-group">
+            {% comment %}
+              The dropdowns + buttons are one group so they can sit centred and
+              bunched together, while the search stays a sibling pinned to the
+              row's right edge (mirroring the heading on the left).
+            {% endcomment %}
+            <div class="filter-selects">
+                <select id="sort-order" class="vault-filter-select" aria-label="Sort reviews">
+                    <option value="alpha-asc">Alphabetical (A-Z)</option>
+                    <option value="alpha-desc">Alphabetical (Z-A)</option>
+                    <option value="date-desc" selected>Date Written (Newest)</option>
+                    <option value="date-asc">Date Written (Oldest)</option>
+                    <option value="release-desc">Release Date (Newest)</option>
+                    <option value="release-asc">Release Date (Oldest)</option>
+                </select>
+
+                <select id="filter-genre" class="vault-filter-select" aria-label="Filter by genre"><option value="">Genre</option></select>
+                <select id="filter-platform" class="vault-filter-select" aria-label="Filter by platform"><option value="">Platform</option></select>
+                <select id="filter-year" class="vault-filter-select" aria-label="Filter by release year"><option value="">Release Year</option></select>
+                <select id="filter-verdict" class="vault-filter-select" aria-label="Filter by verdict"><option value="">Verdict</option></select>
+
+                <button type="button" id="reset-filters" class="filter-reset-btn" title="Clear all filters and search" hidden>Reset</button>
+                <button type="button" id="surprise-review" class="filter-reset-btn" title="Jump to a random review from the archive">Surprise me</button>
+            </div>
+
+            <div class="search-input-wrapper">
+                <input type="text" id="live-search" class="vault-search-input" placeholder="Filter games, platforms, genres..." aria-label="Search reviews">
+                <button type="button" id="clear-search" class="search-clear-btn" aria-label="Clear search" title="Clear search" hidden>&times;</button>
+            </div>
+        </div>
+
+        <div id="active-chips" class="active-chips" hidden></div>
+    </div>
+
+    {% comment %}
+      Front door to the genre landing pages (generate_genre_pages.py). Only
+      genres that clear the review-count threshold get one, and the genre
+      dropdown below still covers every tag including the stubs. This is a
+      discovery affordance, not a second filter: each chip counts the reviews
+      behind it so it is obvious which genres are worth a page.
+    {% endcomment %}
+    {% assign genre_landing_pages = site.pages | where: "genre_page", true | sort: "title" %}
+    {% comment %} Built once, not re-filtered inside the genre loop. {% endcomment %}
+    {% assign archive_reviews = site.pages | where: "layout", "review" %}
+    {% if genre_landing_pages.size > 0 %}
+    <nav class="genre-strip" aria-label="Genres with their own page">
+      <span class="genre-strip-label">Browse by genre</span>
+      <div class="genre-chip-row">
+        {% for gp in genre_landing_pages %}
+            {% assign count = 0 %}
+            {% for review in archive_reviews %}
+                {% if review.genre %}
+                    {% assign row_parts = review.genre | split: "," %}
+                    {% for raw in row_parts %}
+                        {% assign segment = raw | strip %}
+                        {% if segment == gp.genre %}{% assign count = count | plus: 1 %}{% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+            <a class="genre-chip genre-chip--link" href="{{ gp.url | relative_url }}">{{ gp.genre }} <span class="genre-chip-count">{{ count }}</span></a>
+        {% endfor %}
+        <a class="genre-chip genre-chip--more" href="/genres/">All genres &rarr;</a>
+      </div>
+    </nav>
+    {% endif %}
+
+    {% comment %} Visible now, not just announced: in a 500+ card archive the
+       count is how you know the filter did something. {% endcomment %}
+    <p id="reviews-result-count" class="archive-result-count" role="status" aria-live="polite"></p>
+
+    {% comment %}
+      The archive grid's cards use <h3> for the game title, so the page needs
+      an h2 between the h1 and the cards — otherwise screen-reader heading
+      navigation jumps h1 -> h3. Visually hidden; the h1 already reads
+      "Reviews".
+    {% endcomment %}
+    <h2 class="sr-only">All reviews</h2>
+
+    {% comment %}
+      Only the first page is rendered at build time. Shipping all 480 cards as
+      markup made this page ~800 KB; the reviews behind the rest arrive as
+      data (reviews-cards.json) and are painted by the loader below, once the
+      visitor — or the page itself — actually wants them. The page size and the
+      newest-first order here match the archive's default sort and pagination,
+      so the build-time cards are exactly the first page a visitor sees, and
+      the no-JS view.
+    {% endcomment %}
+    {% assign archive_page_size = site.reviews_archive_page_size | default: 20 %}
+    {% assign all_reviews = site.pages | where: "layout", "review" | sort: "date" | reverse %}
+    <div class="archive-grid" data-page-size="{{ archive_page_size }}">
+        {% for review in all_reviews limit: archive_page_size %}
+        {% include review-card.html review=review compact=true %}
+        {% endfor %}
+    </div>
+
+    <div id="archive-empty" class="archive-empty" hidden>
+        <h2>No reviews match</h2>
+        <p id="archive-empty-detail">Try a different search or clear the filters.</p>
+        <button type="button" id="archive-empty-reset" class="filter-reset-btn">Clear filters</button>
+    </div>
+</div>
+
+<div id="paginationNav" class="pagination-container" hidden>
+    <nav class="archive-pagination" aria-label="Page navigation">
+        <span id="pageIndicator"></span>
+    </nav>
+</div>
+
+
+<script>
+  // Keep the sticky filter bar flush under the sticky navbar. The navbar's
+  // height comes from percentage padding, so it changes with the viewport
+  // width and can't be hard-coded; read it live and hand it to CSS.
+  (function () {
+    const bar = document.querySelector('.reviews-header-container');
+    const nav = document.querySelector('.site-header');
+    if (!bar || !nav) return;
+    const sync = () => bar.style.setProperty('--sticky-offset', nav.offsetHeight + 'px');
+    sync();
+    window.addEventListener('resize', sync, { passive: true });
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(sync);
+  })();
+</script>
+<script>
+  // ── The rest of the archive, fetched instead of inlined ────────────────
+  // The build renders the first page of cards above; the reviews behind the
+  // other ~460 sit in reviews-cards.json. Keeping them out of the HTML gets
+  // the page painted sooner, so the fetch waits until it is justified: a deep
+  // link (?genre=…, ?page=3) loads on arrival because it has to resolve
+  // immediately, a plain visit waits for idle, and reaching for the filter
+  // bar, the search box or a page control starts it too. A visit that never
+  // looks past the first page never fetches anything.
+  //
+  // It emits the same card markup the build does — see cardHtml below, and
+  // the "one markup skeleton" spec that holds the two together.
+  //
+  // window.reviewsArchive.whenReady(cb) runs cb once the index has settled,
+  // one way or the other: a failed fetch downgrades the archive to the
+  // build-rendered first page rather than leaving it dead.
+  window.reviewsArchive = (function () {
+    const grid = document.querySelector('.archive-grid');
+    if (!grid) return { whenReady: function (cb) { cb(); } };
+
+    const SRC = '/reviews-cards.json';
+    const FETCH_TIMEOUT_MS = 8000;
+    const IDLE_TIMEOUT_MS = 1500;
+
+    let settleCallbacks = [];
+    let settled = false;
+    let loadPromise = null;
+
+    const VERDICTS = {
+      'recommended': { glyph: '\u2713', label: 'Recommended' },
+      'not-sure': { glyph: '\u2013', label: 'Not Sure' },
+      'not-recommended': { glyph: '\u2717', label: 'Not Recommended' }
+    };
+
+    function esc(value) {
+      return String(value == null ? '' : value)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function cardHtml(c) {
+      const slug = String(c.verdict || '').toLowerCase().replace(/ /g, '-');
+      const verdict = VERDICTS[slug] || { glyph: '?', label: '' };
+      // Same shape as the build-time card in _includes/review-card.html.
+      const full = esc(c.image);
+      const cover = c.image
+        ? '<img src="' + full + '" alt="" class="archive-card-img" loading="lazy" decoding="async" width="1280" height="720" />'
+        : '<div class="archive-card-placeholder">No Art Available</div>';
+      const summary = c.summary ? '<p class="archive-card-summary">' + esc(c.summary) + '</p>' : '';
+      const written = c.date_label
+        ? '<div class="archive-card-inline-date"><span>' + esc(c.date_label) + '</span></div>'
+        : '';
+      return '<a href="' + esc(c.url) + '" class="game-archive-card game-archive-card--compact"' +
+        ' data-date="' + esc(c.date) + '" data-year="' + esc(c.year) + '"' +
+        ' data-platform="' + esc(c.platform) + '" data-genre="' + esc(c.genre) + '"' +
+        ' data-verdict="' + esc(slug) + '">' +
+        '<div class="archive-card-image-wrap">' + cover +
+        '<span class="archive-verdict-tag archive-badge-' + esc(slug) + '" role="img" aria-label="Verdict: ' + esc(verdict.label) + '" title="Verdict: ' + esc(verdict.label) + '"><span aria-hidden="true">' + verdict.glyph + '</span></span>' +
+        '<span class="archive-card-platform">' + esc(c.platform) + '</span>' +
+        '<div class="archive-card-meta">' +
+        '<span class="archive-card-pill archive-card-pill--genre" title="' + esc(c.genre) + '">' + esc(c.genre) + '</span>' +
+        '<span class="archive-card-pill archive-card-pill--year">' + esc(c.year) + '</span>' +
+        '</div></div>' +
+        '<div class="archive-card-details">' +
+        '<h3 class="archive-card-title">' + esc(c.title) + '</h3>' + summary + written +
+        '</div></a>';
+    }
+
+    function settle() {
+      settled = true;
+      const waiting = settleCallbacks;
+      settleCallbacks = [];
+      waiting.forEach(function (cb) { cb(); });
+    }
+
+    function load() {
+      if (loadPromise) return loadPromise;
+      const controller = typeof AbortController === 'function' ? new AbortController() : null;
+      let timer = null;
+      if (controller) {
+        timer = setTimeout(function () { controller.abort(); }, FETCH_TIMEOUT_MS);
+      }
+      loadPromise = fetch(SRC, controller ? { signal: controller.signal } : undefined)
+        .then(function (response) {
+          if (!response.ok) throw new Error('HTTP ' + response.status);
+          return response.json();
+        })
+        .then(function (cards) {
+          if (Array.isArray(cards) && cards.length) {
+            grid.insertAdjacentHTML('beforeend', cards.map(cardHtml).join(''));
+          }
+        })
+        .catch(function (error) {
+          // Nothing here is needed to read the first page, so this is a
+          // downgrade rather than a failure: the archive initialises with the
+          // build-rendered cards instead of staying dead.
+          console.warn('reviews archive: card index unavailable', error);
+        })
+        .then(function () {
+          if (timer) clearTimeout(timer);
+          settle();
+        });
+      return loadPromise;
+    }
+
+    // A deep link has to be right on arrival, so it loads straight away.
+    // Everything else waits for idle or for the visitor to reach for a
+    // control — whichever happens first.
+    const ARCHIVE_PARAMS = ['sort', 'year', 'platform', 'genre', 'verdict', 'q', 'page'];
+    const params = new URLSearchParams(window.location.search);
+    if (ARCHIVE_PARAMS.some(function (key) { return params.has(key); })) {
+      load();
+    } else {
+      if (window.requestIdleCallback) {
+        window.requestIdleCallback(function () { load(); }, { timeout: IDLE_TIMEOUT_MS });
+      } else {
+        setTimeout(load, 300);
+      }
+      const controls = document.querySelector('.reviews-header-container');
+      if (controls) {
+        ['pointerenter', 'pointerdown', 'focusin'].forEach(function (type) {
+          controls.addEventListener(type, load, { once: true, passive: true });
+        });
+      }
+    }
+
+    return {
+      whenReady: function (cb) {
+        if (settled) cb();
+        else settleCallbacks.push(cb);
+      }
+    };
+  })();
+</script>
+<script src="/assets/js/pagination.js" defer></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // The cards come first: the filters, the sort order, the pagination and
+    // the search all read the grid, so the archive is wired up once the card
+    // index has settled rather than on DOMContentLoaded.
+    window.reviewsArchive.whenReady(initArchive);
+  });
+
+  function initArchive() {
+    const searchInput = document.getElementById("live-search");
+    const cards = document.querySelectorAll(".game-archive-card");
+    const pageIndicator = document.getElementById("pageIndicator");
+    const paginationNav = document.getElementById("paginationNav");
+
+    // Zero results used to leave an empty grid and nothing else. The message
+    // reuses the Reset button's handler, so both paths clear the same state.
+    const emptyReset = document.getElementById("archive-empty-reset");
+    if (emptyReset) {
+      emptyReset.addEventListener("click", function () {
+        const reset = document.getElementById("reset-filters");
+        if (reset) reset.click();
+      });
+    }
+
+    const filterYear = document.getElementById("filter-year");
+    const filterPlatform = document.getElementById("filter-platform");
+    const filterGenre = document.getElementById("filter-genre");
+    const filterVerdict = document.getElementById("filter-verdict");
+    const liveResults = document.getElementById("reviews-result-count");
+
+    // Announce filtered-result counts to screen readers (aria-live polite,
+    // visually hidden). Debounced so fast typing doesn't spam.
+    let announceTimer = null;
+    function announceResults(count) {
+      if (!liveResults) return;
+      clearTimeout(announceTimer);
+      announceTimer = setTimeout(function () {
+        liveResults.textContent = count === 1 ? "1 review matches" : count + " reviews match";
+      }, 350);
+    }
+
+    // The build and the card index both hand the archive its page size on the
+    // grid, so the rendered first page, the index offset and the pagination
+    // can't drift apart.
+    const gridEl = document.querySelector(".archive-grid");
+    const itemsPerPage = parseInt(gridEl && gridEl.dataset.pageSize, 10) || 20;
+    let currentPage = 1;
+
+    // ── Full-text search index (build-time /search-index.json) ────────────
+    // Card DOM text already covers titles + summaries; this adds the review
+    // body. It is ~700 KB gzipped, so it is only fetched when a query the card
+    // text cannot answer is being typed — see the trigger in updatePagination.
+    // Focusing the box fetches nothing: most visits never search.
+    let fullTextBlobs = null;
+    let fullTextPending = false;
+    let fullTextFailed = false;
+    function ensureSearchIndex(onReady) {
+      if (fullTextBlobs || fullTextPending || fullTextFailed) { if (fullTextBlobs && onReady) onReady(); return; }
+      fullTextPending = true;
+      fetch("/search-index.json")
+        .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+        .then(entries => {
+          const map = {};
+          entries.forEach(e => { if (e && e.url) map[e.url] = (e.body || "").toLowerCase(); });
+          fullTextBlobs = map;
+          fullTextPending = false;
+          if (onReady) onReady();
+        })
+        .catch(() => { fullTextPending = false; fullTextFailed = true; }); // DOM-text search still works
+    }
+    function cardPathname(card) {
+      try { return new URL(card.href).pathname; } catch (e) { return card.getAttribute("href"); }
+    }
+
+    // ── Search-match highlighting ───────────────────────────────────────────
+    // Visible cards get the matched term marked in their summary; cards whose
+    // hit came from the full-text index (body only) get a small badge instead,
+    // so it is clear why they matched.
+    function escapeRegExp(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+    function escapeHtml(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+    function clearHighlights(cards) {
+      cards.forEach(card => {
+        const summary = card.querySelector("p.archive-card-summary");
+        if (summary && card.dataset.origSummary !== undefined) {
+          summary.textContent = card.dataset.origSummary;
+          delete card.dataset.origSummary;
+        }
+        const badge = card.querySelector(".body-match-badge");
+        if (badge) badge.hidden = true;
+      });
+    }
+    function highlightMatches(cards, query) {
+      clearHighlights(cards);
+      if (!query) return;
+      const re = new RegExp(escapeRegExp(query), "gi");
+      cards.forEach(card => {
+        const summary = card.querySelector("p.archive-card-summary");
+        if (!summary) return;
+        if (card.dataset.origSummary === undefined) card.dataset.origSummary = summary.textContent;
+        const text = card.dataset.origSummary;
+        const hitInSummary = re.test(text);
+        re.lastIndex = 0;
+        if (hitInSummary) {
+          const escapedQuery = escapeRegExp(escapeHtml(query));
+          summary.innerHTML = escapeHtml(text).replace(new RegExp(escapedQuery, "gi"), m => "<mark class=\"search-hit\">" + m + "</mark>");
+        } else if (fullTextBlobs) {
+          const blob = fullTextBlobs[cardPathname(card)];
+          if (blob && blob.includes(query)) {
+            let badge = card.querySelector(".body-match-badge");
+            if (!badge) {
+              badge = document.createElement("span");
+              badge.className = "body-match-badge";
+              summary.insertAdjacentElement("afterend", badge);
+            }
+            badge.textContent = "Matched in review body";
+            badge.hidden = false;
+          }
+        }
+      });
+    }
+    // ── URL state sync (shareable / bookmarkable filter views) ──────────
+    const VALID_SORTS = ["alpha-asc", "alpha-desc", "date-desc", "date-asc", "release-desc", "release-asc"];
+    const DEFAULT_SORT = "date-desc"; // reviews are dated by the final stream date, so newest-first is the natural landing view
+    
+    function syncStateToUrl() {
+      if (!window.history || !window.history.replaceState) return;
+      const params = new URLSearchParams();
+      const sort = document.getElementById("sort-order").value;
+      if (sort && sort !== DEFAULT_SORT) params.set("sort", sort);
+      if (filterYear.value) params.set("year", filterYear.value);
+      if (filterPlatform.value) params.set("platform", filterPlatform.value);
+      if (filterGenre.value) params.set("genre", filterGenre.value);
+      if (filterVerdict.value) params.set("verdict", filterVerdict.value);
+      const query = searchInput ? searchInput.value.trim() : "";
+      if (query) params.set("q", query);
+      if (currentPage > 1) params.set("page", String(currentPage));
+      const qs = params.toString();
+      window.history.replaceState(null, "", qs ? "?" + qs : window.location.pathname);
+    }
+    
+    function applyStateFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      let matched = false;
+      
+      const sort = params.get("sort");
+      if (sort && VALID_SORTS.indexOf(sort) !== -1) {
+        document.getElementById("sort-order").value = sort;
+        matched = true;
+      }
+      
+      function applySelect(select, key) {
+        const value = params.get(key);
+        if (!value) return false;
+        for (let i = 0; i < select.options.length; i++) {
+            if (select.options[i].value === value) {
+              select.value = value;
+              return true;
+            }
+        }
+        return false;
+      }
+      
+      if (applySelect(filterYear, "year")) matched = true;
+      if (applySelect(filterPlatform, "platform")) matched = true;
+      if (applySelect(filterGenre, "genre")) matched = true;
+      if (applySelect(filterVerdict, "verdict")) matched = true;
+      
+      const query = params.get("q");
+      if (query) {
+        if (searchInput) searchInput.value = query;
+        matched = true;
+      }
+      
+      const page = parseInt(params.get("page"), 10);
+      if (page > 1) {
+        currentPage = page;
+        matched = true;
+      }
+      
+      return matched;
+    }
+    
+
+    function populateFilters() {
+      const years = new Set();
+      const platforms = new Set();
+      const genres = new Set();
+      const verdicts = new Set();
+
+      cards.forEach(card => {
+        if(card.dataset.year) years.add(card.dataset.year.trim());
+        if(card.dataset.platform) platforms.add(card.dataset.platform.trim());
+        
+        if(card.dataset.genre) {
+          card.dataset.genre.split(',').forEach(g => {
+            const trimmedG = g.trim();
+            if (trimmedG) genres.add(trimmedG);
+          });
+        }
+        
+        // Read the verdict slug from the card's data attribute: the visible
+        // badge is now a glyph (tick/dash/cross), not the wording.
+        if (card.dataset.verdict) verdicts.add(card.dataset.verdict.trim());
+      });
+
+      Array.from(years).sort((a,b)=>b-a).forEach(y => filterYear.options.add(new Option(y, y)));
+      Array.from(platforms).sort().forEach(p => filterPlatform.options.add(new Option(p, p)));
+      Array.from(genres).sort().forEach(g => filterGenre.options.add(new Option(g, g)));
+	  
+      function toTitleCase(str) {
+        return str.toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+      }
+	  
+      // Dropdown keeps the full wording while the option value stays the slug
+      // the cards and the URL params use.
+      const verdictLabels = {
+        "recommended": "Recommended",
+        "not-sure": "Not Sure",
+        "not-recommended": "Not Recommended"
+      };
+      const verdictOrder = ["recommended", "not-sure", "not-recommended"];
+      Array.from(verdicts).sort((a, b) => {
+        let indexA = verdictOrder.indexOf(a.trim());
+        let indexB = verdictOrder.indexOf(b.trim());
+        if (indexA === -1) indexA = 99;
+        if (indexB === -1) indexB = 99;
+        return indexA - indexB;
+      }).forEach(v => {
+        const valueKey = v.trim().toLowerCase().replace(/\s+/g, '-');
+        filterVerdict.options.add(new Option(verdictLabels[valueKey] || toTitleCase(v.replace(/-/g, ' ')), valueKey));
+      });
+    }
+
+    function getSeriesKeyAndNumber(card) {
+      const titleEl = card.querySelector('.archive-card-title') || card;
+      let cleanTitle = titleEl.innerText.toLowerCase().trim();
+      cleanTitle = cleanTitle.replace(/\s*[:|-]?\s*(remastered|remake|edition|game of the year|goty)$/i, '').trim();
+      const match = cleanTitle.match(/(.*?)\s*(?:(?:\b\d+\b)|(?:\b[ivxlcdm]+\b))$/i);
+      if (match) {
+        const base = match[1].replace(/[:|-]\s*$/, '').trim();
+        const numPart = cleanTitle.replace(base, '').match(/\d+/);
+        const num = numPart ? parseInt(numPart[0], 10) : 2; 
+        return { base: base, num: num };
+      }
+      return { base: cleanTitle, num: 1 };
+    }
+
+    populateFilters();
+
+    function sortDOMCards() {
+      const parentContainer = document.querySelector(".archive-grid");
+      const currentCards = document.querySelectorAll(".game-archive-card");
+      if (currentCards.length === 0) return;
+
+      const sortBy = document.getElementById("sort-order").value;
+
+      const sortedCardsArray = Array.from(currentCards).sort((a, b) => {
+        if (sortBy === "date-desc" || sortBy === "date-asc") {
+          const dateA = new Date(a.dataset.date || "2000-01-01");
+          const dateB = new Date(b.dataset.date || "2000-01-01");
+          return sortBy === "date-desc" ? dateB - dateA : dateA - dateB;
+        } 
+        
+        if (sortBy === "release-desc" || sortBy === "release-asc") {
+          const yearA = parseInt(a.dataset.year, 10) || 0;
+          const yearB = parseInt(b.dataset.year, 10) || 0;
+          return sortBy === "release-desc" ? yearB - yearA : yearA - yearB;
+        }
+
+        if (sortBy === "alpha-asc" || sortBy === "alpha-desc") {
+          const itemA = getSeriesKeyAndNumber(a);
+          const itemB = getSeriesKeyAndNumber(b);
+          
+          if (itemA.base < itemB.base) return sortBy === "alpha-asc" ? -1 : 1;
+          if (itemA.base > itemB.base) return sortBy === "alpha-asc" ? 1 : -1;
+          
+          return sortBy === "alpha-asc" ? itemA.num - itemB.num : itemB.num - itemA.num;
+        }
+        return 0;
+      });
+
+      sortedCardsArray.forEach(card => parentContainer.appendChild(card));
+    }
+    
+    document.getElementById("sort-order").addEventListener("change", () => {
+      currentPage = 1;
+      sortDOMCards();
+      updatePagination();
+      syncStateToUrl();
+      updateResetVisibility();
+    });
+
+    function updatePagination() {
+      const sortedCards = document.querySelectorAll(".game-archive-card");
+      const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
+      const selYear = filterYear.value;
+      const selPlatform = filterPlatform.value;
+      const selGenre = filterGenre.value;
+      const selVerdict = filterVerdict.value;
+      
+      const filteredCards = Array.from(sortedCards).filter(card => {
+        let matchesSearch = card.innerText.toLowerCase().includes(query);
+        if (!matchesSearch && query && fullTextBlobs) {
+          const blob = fullTextBlobs[cardPathname(card)];
+          if (blob && blob.includes(query)) matchesSearch = true;
+        }
+        const matchesYear = !selYear || card.dataset.year === selYear;
+        const matchesPlatform = !selPlatform || card.dataset.platform === selPlatform;
+        
+        const cardGenre = card.dataset.genre || "";
+        // Exact match against each comma-separated tag, not a substring test.
+        // `includes` made "Horror" swallow the Survival Horror reviews (76
+        // instead of 65) and "Adventure" pull in "Narrative Adventure", while
+        // the dropdown it drives is built from the same split — so the filter
+        // and its own options disagreed.
+        const cardGenres = cardGenre.split(",").map(g => g.trim());
+        const matchesGenre = !selGenre || cardGenres.includes(selGenre);
+        const matchesVerdict = !selVerdict || card.dataset.verdict === selVerdict;
+      
+        return matchesSearch && matchesYear && matchesPlatform && matchesGenre && matchesVerdict;
+      });
+      
+      // Deep search is opt-in per query: only reach for the body index when the
+      // cards on screen (titles + summaries) hardly match at all, so an ordinary
+      // query costs nothing extra and never waits on a download. A failed fetch
+      // is not retried on every keystroke.
+      if (query.length >= 2 && !fullTextBlobs && !fullTextPending && !fullTextFailed &&
+          filteredCards.length < 3) {
+        ensureSearchIndex(updatePagination);
+      }
+
+      const currentUrls = filteredCards.map(card => {
+        try { return new URL(card.href).pathname; } catch(e) { return card.getAttribute('href'); }
+      });
+      localStorage.setItem('custom_review_order', JSON.stringify(currentUrls));
+
+      const emptyState = document.getElementById("archive-empty");
+      if (emptyState) {
+        const isEmpty = filteredCards.length === 0;
+        emptyState.hidden = !isEmpty;
+        if (isEmpty) {
+          const detail = document.getElementById("archive-empty-detail");
+          const typed = searchInput ? searchInput.value.trim() : "";
+          if (detail) {
+            detail.textContent = typed
+              ? 'Nothing matches "' + typed + '". Try a broader term, or clear the filters.'
+              : "No reviews match the selected filters.";
+          }
+        }
+      }
+
+      const totalPages = Math.ceil(filteredCards.length / itemsPerPage);
+      announceResults(filteredCards.length);
+      // A shared/bookmarked URL can point past the last page - clamp back into range
+      if (currentPage > totalPages) currentPage = Math.max(totalPages, 1);
+      sortedCards.forEach(card => card.style.setProperty("display", "none", "important"));
+      
+      if (filteredCards.length === 0 || totalPages <= 1) {
+        if (paginationNav) paginationNav.style.setProperty("display", "none", "important");
+        filteredCards.forEach(card => card.style.setProperty("display", "", "important"));
+        highlightMatches(filteredCards, query);
+        return;
+      }
+      
+      if (paginationNav) {
+        paginationNav.style.setProperty("display", "flex", "important");
+      }
+      
+      const start = (currentPage - 1) * itemsPerPage;
+      const end = start + itemsPerPage;
+      filteredCards.slice(start, end).forEach(card => {
+        card.style.setProperty("display", "", "important");
+      });
+      highlightMatches(filteredCards.slice(start, end), query);
+      
+      if (pageIndicator) {
+        window.setupPaginationNav({
+          container: pageIndicator,
+          totalPages: totalPages,
+          currentPage: currentPage,
+          activeColor: "#252e36",
+          onPageChange: (targetPage) => {
+            currentPage = targetPage;
+            localStorage.setItem('reviews_current_page', currentPage);
+            updatePagination();
+            window.scrollTo(0, 0);
+            syncStateToUrl();
+          }
+        });
+      }
+    }
+
+    [filterYear, filterPlatform, filterGenre, filterVerdict].forEach(select => {
+      select.addEventListener("change", () => {
+        currentPage = 1;
+        localStorage.removeItem('reviews_current_page'); 
+        updatePagination();
+        syncStateToUrl();
+        updateResetVisibility();
+      });
+    });
+    
+    if (searchInput) {
+      searchInput.addEventListener("input", function () {
+        currentPage = 1;
+        localStorage.removeItem('reviews_current_page'); 
+        updatePagination();
+        syncStateToUrl();
+        updateResetVisibility();
+      });
+      if (searchInput.value.trim()) ensureSearchIndex(() => updatePagination());
+    }
+
+    // Reset is only relevant when something is actually set; shown/hidden
+    // as sort, filters or search change.
+    function updateResetVisibility() {
+      const hasSort = document.getElementById("sort-order").value !== DEFAULT_SORT;
+      const hasFilters = filterYear.value !== "" || filterPlatform.value !== "" ||
+        filterGenre.value !== "" || filterVerdict.value !== "";
+      const hasSearch = searchInput ? searchInput.value.trim() !== "" : false;
+      if (resetFiltersBtn) resetFiltersBtn.hidden = !(hasSort || hasFilters || hasSearch);
+      if (clearSearchBtn) clearSearchBtn.hidden = !hasSearch;
+      updateChips();
+    }
+
+    // ── Active-filter chips: one removable pill per non-default filter ────
+    function chipLabel(select) {
+      const opt = select.options[select.selectedIndex];
+      return opt ? opt.textContent : "";
+    }
+    function updateChips() {
+      const wrap = document.getElementById("active-chips");
+      if (!wrap) return;
+      const chips = [];
+      const sortSel = document.getElementById("sort-order");
+      if (sortSel.value !== DEFAULT_SORT) chips.push({ kind: "sort", label: "Sort: " + chipLabel(sortSel) });
+      if (filterYear.value) chips.push({ kind: "year", label: "Year: " + chipLabel(filterYear) });
+      if (filterPlatform.value) chips.push({ kind: "platform", label: "Platform: " + chipLabel(filterPlatform) });
+      if (filterGenre.value) chips.push({ kind: "genre", label: "Genre: " + chipLabel(filterGenre) });
+      if (filterVerdict.value) chips.push({ kind: "verdict", label: "Verdict: " + chipLabel(filterVerdict) });
+      if (searchInput && searchInput.value.trim()) chips.push({ kind: "search", label: "\u201C" + searchInput.value.trim() + "\u201D" });
+
+      wrap.hidden = chips.length === 0;
+      wrap.innerHTML = chips.map(function (c, i) {
+        return '<span class="active-chip" data-kind="' + c.kind + '">' + c.label +
+          '<button type="button" class="chip-clear" data-kind="' + c.kind + '" aria-label="Remove ' + c.label + ' filter">\u00d7</button></span>';
+      }).join("");
+    }
+
+    function clearChip(kind) {
+      currentPage = 1;
+      localStorage.removeItem('reviews_current_page');
+      if (kind === "sort") {
+        document.getElementById("sort-order").value = DEFAULT_SORT;
+        sortDOMCards();
+      } else if (kind === "year") { filterYear.value = ""; }
+      else if (kind === "platform") { filterPlatform.value = ""; }
+      else if (kind === "genre") { filterGenre.value = ""; }
+      else if (kind === "verdict") { filterVerdict.value = ""; }
+      else if (kind === "search") { if (searchInput) searchInput.value = ""; }
+      updatePagination();
+      syncStateToUrl();
+      updateResetVisibility();
+    }
+
+    document.addEventListener("click", function (e) {
+      const btn = e.target.closest ? e.target.closest(".chip-clear") : null;
+      if (btn) { e.preventDefault(); clearChip(btn.dataset.kind); }
+    });
+
+    const resetFiltersBtn = document.getElementById("reset-filters");
+    const clearSearchBtn = document.getElementById("clear-search");
+    if (resetFiltersBtn) {
+      resetFiltersBtn.addEventListener("click", function () {
+        document.getElementById("sort-order").value = DEFAULT_SORT;
+        filterYear.value = "";
+        filterPlatform.value = "";
+        filterGenre.value = "";
+        filterVerdict.value = "";
+        if (searchInput) searchInput.value = "";
+        currentPage = 1;
+        localStorage.removeItem('reviews_current_page');
+        sortDOMCards();
+        updatePagination();
+        syncStateToUrl();
+        updateResetVisibility();
+      });
+    }
+
+    if (clearSearchBtn) {
+      clearSearchBtn.addEventListener("click", function () {
+        if (searchInput) searchInput.value = "";
+        currentPage = 1;
+        localStorage.removeItem('reviews_current_page');
+        updatePagination();
+        syncStateToUrl();
+        updateResetVisibility();
+        if (searchInput) searchInput.focus();
+      });
+    }
+
+    // Surprise me: jump to a uniformly random review across the whole archive
+    const surpriseBtn = document.getElementById("surprise-review");
+    if (surpriseBtn) {
+      surpriseBtn.addEventListener("click", function () {
+        const all = Array.from(document.querySelectorAll(".game-archive-card"));
+        if (!all.length) return;
+        const pick = all[Math.floor(Math.random() * all.length)];
+        window.location.href = pick.getAttribute("href");
+      });
+    }
+
+    const hasUrlState = applyStateFromUrl();
+    if (!hasUrlState) {
+      const savedPage = localStorage.getItem('reviews_current_page');
+      if (savedPage) {
+        currentPage = parseInt(savedPage, 10) || 1;
+      }
+    }
+
+    sortDOMCards();
+    updatePagination();
+    syncStateToUrl();
+    updateResetVisibility();
+
+    // Cards present, filters populated, URL state applied: the archive is up.
+    document.documentElement.dataset.archiveReady = "true";
+  }
+
+  // Clickable genre/year pills: cards are <a> elements (so real nested links
+  // are invalid HTML) — intercept clicks on the pills and navigate to the
+  // filtered archive instead of the review. Registered outside initArchive
+  // because the build-rendered first page carries pills and has to stay
+  // clickable while the rest of the card index is still on its way.
+  document.addEventListener("click", function (e) {
+    const genre = e.target.closest ? e.target.closest(".archive-card-pill--genre") : null;
+    const year = e.target.closest ? e.target.closest(".archive-card-pill--year") : null;
+    if (!genre && !year) return;
+    const card = (genre || year).closest(".game-archive-card");
+    if (!card) return;
+    e.preventDefault();
+    e.stopPropagation();
+    if (genre) {
+      const first = (card.dataset.genre || "").split(",")[0].trim();
+      if (first) window.location.href = "/reviews/?genre=" + encodeURIComponent(first);
+    } else if (year) {
+      const y = card.dataset.year || "";
+      if (y) window.location.href = "/reviews/?year=" + encodeURIComponent(y);
+    }
+  });
+
+  // Keyboard shortcuts: "/" focuses the search box, arrow keys paginate.
+  document.addEventListener("keydown", function (e) {
+    const t = e.target;
+    if (t && (t.tagName === "INPUT" || t.tagName === "SELECT" || t.tagName === "TEXTAREA" || t.isContentEditable)) return;
+    if (e.key === "/") {
+      e.preventDefault();
+      const box = document.getElementById("live-search");
+      if (box) { box.focus(); box.select(); }
+      return;
+    }
+    if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
+      const nav = document.querySelector(".pagination-nav");
+      if (!nav || nav.offsetParent === null) return;
+      const btns = nav.querySelectorAll(".pagination-btn");
+      if (!btns.length) return;
+      const target = e.key === "ArrowLeft" ? btns[0] : btns[btns.length - 1];
+      if (target && !target.classList.contains("is-disabled")) {
+        e.preventDefault();
+        target.click();
+      }
+    }
+  });
+</script>

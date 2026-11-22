@@ -1,0 +1,178 @@
+<head>
+    <meta charset="utf-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    />
+
+    <!-- Theme Mode-->
+    <script>
+        const darkBtn = "{{ site.data.language.str_dark | default: "Dark" }}";
+        const lightBtn = "{{ site.data.language.str_light | default: "Light" }}";
+        const isAutoTheme = {% if site.color_theme == 'auto' %}true{% else %}false{% endif %};
+        const preferredTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        if (isAutoTheme) {
+            document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme') ?? preferredTheme);
+        } else {
+            document.documentElement.setAttribute('data-theme', "{{ site.color_theme | default: 'light' }}");
+        }
+    </script>
+
+    <!-- Main JS (navbar.js, katex_init.js)-->
+    <script defer src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+	<script defer src="{{ '/assets/js/back-to-top.js' | relative_url }}"></script>
+	<script defer src="{{ '/assets/js/live-status.js' | relative_url }}"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+
+    <!-- PWA + mobile chrome -->
+    <meta name="theme-color" content="#22272e" />
+    <link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}" />
+
+    <!-- Self-hosted fonts: warm the cache for the body/heading weights -->
+    <link rel="preload" href="{{ '/assets/fonts/source-sans-pro/source-sans-pro-regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="{{ '/assets/fonts/source-sans-pro/source-sans-pro-bold.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin />
+
+    <!--Favicon-->
+    <link
+        rel="shortcut icon"
+        href="{{ site.favicon | relative_url }}"
+        type="image/x-icon"
+    />
+
+    <!-- Preconnect to Cusdis for faster loading when comments become visible -->
+    {% if site.data.comments.cusdis.app_id or site.comments.cusdis_app_id or
+    site.cusdis_app_id %}
+    <link rel="preconnect" href="https://cusdis.com" />
+    {% endif %} {% if page.bootstrap %}
+    <!-- Bootstrap 4.6.2 CSS CDN -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+        crossorigin="anonymous"
+    />
+    <!-- jQuery 3.5.1 CDN -->
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+    ></script>
+    <!-- Popper.js 1.16.1 CDN -->
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap 4.6.2 JS CDN -->
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbZUBVs2mbGk8cFoTfurqEOk6sD3+6VUuY3"
+        crossorigin="anonymous"
+    ></script>
+    {% endif %}
+
+    <!-- KaTeX 0.17.0 -->
+    {% if site.katex or site.theme_settings.katex %}
+    <script
+        defer
+        src="{{ '/assets/js/vendor/katex.min.js' | relative_url }}"
+    ></script>
+    <script
+        defer
+        src="{{ '/assets/js/vendor/katex.auto-render.min.js' | relative_url }}"
+        onload="renderMathInElement(document.body);"
+    ></script>
+    {% endif %}
+
+    <!-- Mermaid 11.15.0 -->
+    {% if site.mermaid %}
+    <script
+        defer
+        src="{{ '/assets/js/vendor/mermaid.min.js' | relative_url }}"
+    ></script>
+    {% endif %}
+
+    <!-- Google Analytics / Cookie Consent -->
+    <script>
+        const cookieName = 'cookie-notice-dismissed-{{ site.url }}';
+        const isCookieConsent = '{{ site.cookie_consent }}';
+        const analyticsName = '{{ site.google_analytics }}';
+        const analyticsNameGA4 = '{{ site.google_analytics_ga4 }}';
+    </script>
+
+    {% if site.cookie_consent %}
+    <span id="cookie-notice"
+        ><span
+            >{{ site.data.language.str_cookie_disclaimer | default: "We would
+            like to use third party cookies and scripts to improve the
+            functionality of this website." }} </span
+        ><a id="cookie-notice-accept" class="button"
+            >{{ site.data.language.str_cookie_approve | default: "Approve" }}</a
+        >
+    </span>
+    {% endif %} {% if site.google_analytics %}
+    <!-- Global site tag (gtag.js) -->
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
+    ></script>
+    {% endif %}
+
+    <!-- Page-wide SEO variables: fall back through thumbnail, feature image and review covers -->
+    {% assign seo_image_path = page.thumbnail
+        | default: page.feature-img
+        | default: page.image
+        | default: site.header_feature_image %}
+    {% assign seo_image_url = seo_image_path | absolute_url %}
+    {% if page.page_title %}
+        {% assign seo_title = page.page_title %}
+    {% elsif page.game_title %}
+        {% assign seo_title = page.game_title | append: " Review | " | append: site.title %}
+    {% elsif page.title %}
+        {% assign seo_title = page.title | append: " | " | append: site.title %}
+    {% else %}
+        {% assign seo_title = site.page_title | default: site.title %}
+    {% endif %}
+    {% assign seo_description = page.seo_description
+        | default: page.summary
+        | default: page.excerpt
+        | default: site.description | strip_html %}
+
+    <!-- Primary Meta Tags -->
+    <title>{{ seo_title }}</title>
+    <meta name="title" content="{{ seo_title }}" />
+    <meta name="description" content="{{ seo_description }}" />
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+    <!-- RSS / Atom -->
+    <link
+        rel="alternate"
+        type="application/atom+xml"
+        title="{{ site.title | default: 'Title' }}"
+        href="{{ 'atom.xml' | absolute_url }}"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="{% if page.layout == 'review' %}article{% else %}website{% endif %}" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:title" content="{{ seo_title }}" />
+    <meta property="og:description" content="{{ seo_description }}" />
+    <meta property="og:image" content="{{ seo_image_url }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ seo_title }}" />
+    <meta name="twitter:description" content="{{ seo_description }}" />
+    <meta name="twitter:image" content="{{ seo_image_url }}" />
+    <meta name="twitter:image:alt" content="{{ seo_title }}" />
+    {% if site.data.social.twitter %}
+    <meta name="twitter:creator" content="@{{ site.data.social.twitter }}" />
+    <meta name="twitter:site" content="@{{ site.data.social.twitter }}" />
+    {% endif %}
+</head>

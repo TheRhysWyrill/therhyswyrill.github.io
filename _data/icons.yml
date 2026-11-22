@@ -1,0 +1,38 @@
+# For the Icons on the footer of the website
+# For the Share buttons at the end of the articles, use the "social.yml"
+behance:
+bitbucket:
+calendly:
+dribbble:
+facebook:
+flickr:
+github: 
+gitlab:
+google-scholar:   # e.g. "WXAAOb0AAAAJ"
+instagram:
+hacker-news:
+keybase:
+linkedin:
+mail: rhyswyrill@gmail.com            # e.g. "sam@mail.com"
+map:              # e.g. "34.0886/-118.3191"
+mastodon:         # e.g. "fostodon.org/@sam"
+matrix:           # e.g. "@sam:matrix.org"
+medium:
+patreon:
+paypal: "https://www.paypal.com/donate/?hosted_button_id=5PBT87FAGSBSE"
+phone:            # e.g. "+11111111111"
+pinterest:
+reddit:
+soundcloud:
+sms:              # e.g. "+11111111111"
+stack-exchange:   # e.g. "123456789"
+stack-overflow:   # e.g. "123456789"
+steam: therhyswyrill
+telegram:
+tumblr:
+twitch: therhyswyrill
+twitter:
+vimeo:
+vk:
+wordpress:
+youtube: UCKK7ydtKLQjnD9k5jal4XuQ/         # e.g. "UCqECaJ8Gagnn7YCbPEzWH6g"

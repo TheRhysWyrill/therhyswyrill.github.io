@@ -1,0 +1,41 @@
+name: Check Live Status
+
+on:
+  # Allows you to manually trigger the check from the GitHub Actions tab anytime
+  workflow_dispatch:
+
+  # Runs every 10 minutes so the site notices offline/online transitions quickly.
+  # Note: scheduled workflows only run on the default branch and may be delayed
+  # on free plans under load, so treat the status as "best effort".
+  schedule:
+    - cron: '*/10 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  check-status:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Check out your website repository files
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    # 2. The script only uses the Python standard library, no dependencies needed
+    - name: Fetch Twitch Status
+      run: python fetch_stream_status.py
+
+    # 3. Commit only when the status JSON actually changed (the script writes
+    #    nothing when the value is identical, so staged changes stay empty)
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add assets/data/stream_status.json
+        if git diff --staged --quiet; then
+          echo "Status unchanged. Skipping commit."
+        else
+          git commit -m "chore: update Twitch live status [skip ci]"
+          git push
+        fi
