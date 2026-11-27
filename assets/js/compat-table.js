@@ -173,9 +173,25 @@
 			"xbox": {
 				name: "XBOX",
 				type: "standard",
-				emulatorKeywords: ["xemu", "xbox"],
+				// The Xbox sheet carries an Emulator column like the Switch one, so the
+				// tab gets the same sub-filter chips and per-emulator config badge.
+				emulators: ["All", "Xemu", "xbased"],
+				emulatorKeywordsMap: {
+					"All":            ["xemu", "xbased", "xbox"],
+					"Xemu":           ["xemu", "xbox"],
+					"xbased":         ["xbased", "xbox"]
+				},
+				excludeKeywordsMap: {
+					"All":            [],
+					"Xemu":           ["xbased"],
+					"xbased":         ["xemu"]
+				},
 				specs: "Ryzen 9 7950X | Radeon RX 7800 XT | SteamOS",
-				config: "Backend = Vulkan, 3x Native Resolution",
+				configMap: {
+					"All": "none",
+					"Xemu": "Backend = Vulkan, 3x Native Resolution",
+					"xbased": "Internal Resolution = 4x, Anti-Aliasing (FXAA) = On, Anisotropic Filtering = 16x, Upscaling = AMD FSR 1, 480p (progressive) = On"
+				},
 				url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS8WCGQqGmcBqDZ1mIvuanPSjkFWIKeVK54FVefiNPSqu5q-IL4XrE8A2mYzrEoWH6CVpwvyEsDJ8EV/pub?gid=91761340&single=true&output=csv"
 			},
 			"xbox_360": {
